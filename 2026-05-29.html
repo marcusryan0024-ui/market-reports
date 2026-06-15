@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalyst Report — Friday, May 29, 2026</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 24px;
+    }
+    .header {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #30363d;
+    }
+    .header h1 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        color: #e6edf3;
+    }
+    .header .mode {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        padding: 2px 8px;
+        border-radius: 20px;
+        background: #1f6feb22;
+        border: 1px solid #1f6feb66;
+        color: #79c0ff;
+    }
+    .header .meta {
+        margin-left: auto;
+        font-size: 12px;
+        color: #8b949e;
+    }
+    .grid { display: grid; gap: 16px; }
+    .card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-header {
+        padding: 10px 16px;
+        background: #0d1117;
+        border-bottom: 1px solid #30363d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+    }
+    .card-body { padding: 0; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    th {
+        padding: 8px 12px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .1em;
+        color: #8b949e;
+        border-bottom: 1px solid #21262d;
+        white-space: nowrap;
+    }
+    td {
+        padding: 9px 12px;
+        border-bottom: 1px solid #21262d;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c2128; }
+    .ticker {
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .05em;
+    }
+    .badge-bmo { background: #1f6feb22; color: #79c0ff; border: 1px solid #1f6feb44; }
+    .badge-amc { background: #e3b34122; color: #e3b341; border: 1px solid #e3b34144; }
+    .badge-call { background: #26a69a22; color: #26a69a; border: 1px solid #26a69a44; }
+    .badge-put  { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-high { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-med  { background: #ffd54f22; color: #ffd54f; border: 1px solid #ffd54f44; }
+    .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
+    .up   { color: #26a69a; font-weight: 600; }
+    .down { color: #ef5350; font-weight: 600; }
+    .muted { color: #8b949e; }
+    .charts-grid {
+        display: flex;
+        gap: 1px;
+        background: #21262d;
+    }
+    .chart-block {
+        background: #161b22;
+        padding: 16px;
+        flex: 0 0 auto;
+        width: 55%;
+    }
+    .chart-label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .chart-label .ticker { font-size: 16px; }
+    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-block img { width: 100%; border-radius: 4px; display: block; }
+    .chart-side-panel {
+        flex: 1;
+        background: #161b22;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .chart-side-panel .csp-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .csp-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #21262d;
+    }
+    .csp-item:last-child { border-bottom: none; }
+    .csp-item .csp-rank {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+    .csp-item.rank-1 .csp-rank { color: #ffd54f; }
+    .csp-item .csp-label {
+        font-size: 17px;
+        font-weight: 700;
+        color: #e6edf3;
+        margin-bottom: 4px;
+    }
+    .csp-item .csp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .csp-item .csp-why {
+        font-size: 11px;
+        color: #adbac7;
+        line-height: 1.45;
+    }
+    .watchlist-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wl-group-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #3d444d;
+        padding: 0 4px;
+        align-self: center;
+    }
+    .wl-pill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        min-width: 72px;
+    }
+    .wl-pill .sym {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 13px;
+        color: #e6edf3;
+    }
+    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .spotlight-row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        align-items: stretch;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+        flex: 1;
+    }
+    .sector-panel {
+        width: 200px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sector-panel .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .sector-panel .sec-name {
+        font-family: 'SF Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    .sector-panel .sec-badge {
+        margin-bottom: 8px;
+    }
+    .sector-panel .sec-prem {
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .sector-panel .sec-tickers {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 12px;
+    }
+    .sector-panel .sec-why {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+        line-height: 1.5;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: auto;
+    }
+    .spotlight-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spotlight-card.rank-1 {
+        border-color: #ffd54f55;
+        background: linear-gradient(135deg, #1a1800 0%, #161b22 60%);
+    }
+    .spotlight-card .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 8px;
+    }
+    .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
+    .spotlight-card .sp-label {
+        font-family: 'SF Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e6edf3;
+        letter-spacing: .02em;
+        margin-bottom: 4px;
+    }
+    .spotlight-card .sp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .spotlight-card .sp-news {
+        font-size: 13px;
+        color: #e6edf3;
+        line-height: 1.5;
+        font-weight: 500;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: 8px;
+    }
+    .spotlight-card .sp-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 800;
+    }
+    .spotlight-card .sp-briefing {
+        font-size: 11px;
+        color: #6e7681;
+        line-height: 1.4;
+        font-style: italic;
+        margin-top: 4px;
+        padding-left: 14px;
+    }
+    .wl-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .deck-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 16px;
+        border-bottom: 1px solid #21262d;
+        font-size: 13px;
+    }
+    .deck-row:last-child { border-bottom: none; }
+    .deck-row:hover { background: #1c2128; }
+    .deck-date {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #8b949e;
+        white-space: nowrap;
+        min-width: 68px;
+    }
+    .deck-label {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+        white-space: nowrap;
+        min-width: 80px;
+    }
+    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
+    .econ-strip {
+        width: 320px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 14px 14px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .econ-strip .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .econ-item {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 5px 0;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+    }
+    .econ-item:last-child { border-bottom: none; }
+    .econ-item.past { opacity: 0.4; }
+    .econ-item.today-item .econ-day { color: #4fc3f7; }
+    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
+    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .results-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1;
+        min-width: 200px;
+    }
+    .result-source {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        white-space: nowrap;
+    }
+    .result-ticker {
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 800;
+        color: #e6edf3;
+        min-width: 60px;
+    }
+    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-move {
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .headline-bar {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #4fc3f7;
+        border-radius: 6px;
+        padding: 12px 18px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    .headline-tag {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #4fc3f7;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding-top: 2px;
+    }
+    .headline-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        flex: 1;
+        min-width: 0;
+    }
+    .headline-title {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e6edf3;
+        line-height: 1.4;
+        white-space: normal;
+    }
+    .headline-summary {
+        font-size: 11px;
+        color: #8b949e;
+        line-height: 1.5;
+        white-space: normal;
+    }
+    .section-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #8b949e;
+        margin-bottom: 8px;
+        padding-left: 2px;
+    }
+    .morning-brief {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-bottom: 6px;
+    }
+    .brief-header {
+        background: #0d1117;
+        padding: 10px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-header-label {
+        font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #8b949e; text-transform: uppercase;
+    }
+    .brief-overview {
+        padding: 10px 16px;
+        font-size: 12px;
+        color: #adbac7;
+        line-height: 1.5;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 1px;
+        background: #21262d;
+    }
+    .brief-col {
+        background: #161b22;
+        padding: 12px 16px;
+    }
+    .brief-col-title {
+        font-size: 9px; font-weight: 700; letter-spacing: .12em; color: #8b949e;
+        text-transform: uppercase; margin-bottom: 8px;
+    }
+    .gapper-row {
+        display: flex; align-items: baseline; gap: 6px; padding: 3px 0; font-size: 12px;
+    }
+    .gapper-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; font-size: 13px; }
+    .gapper-pct { font-weight: 700; min-width: 54px; }
+    .gapper-pct.up { color: #3fb950; }
+    .gapper-pct.down { color: #f85149; }
+    .gapper-why { color: #8b949e; font-size: 11px; line-height: 1.3; }
+    .gapper-flow { color: #ffd54f; font-size: 10px; margin-left: 2px; }
+    .gapper-level { color: #388bfd; font-size: 10px; }
+    .dp-row { display: flex; gap: 8px; align-items: center; padding: 3px 0; font-size: 12px; }
+    .dp-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; }
+    .dp-size { color: #ffd54f; min-width: 46px; font-weight: 600; }
+    .dp-side { font-size: 10px; font-weight: 700; }
+    .dp-side.ask { color: #3fb950; }
+    .dp-side.bid { color: #f85149; }
+    .dp-side.mixed { color: #8b949e; }
+    .event-row { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid #21262d; font-size: 11px; }
+    .event-row:last-child { border-bottom: none; }
+    .event-type { font-weight: 700; color: #ffd54f; min-width: 100px; font-size: 10px; text-transform: uppercase; }
+    .event-detail { color: #adbac7; }
+    .picks-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        margin-bottom: 6px;
+    }
+    .pick-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 16px;
+    }
+    .pick-rank { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+    .pick-ticker { font-size: 28px; font-weight: 800; color: #e6edf3; margin-bottom: 8px; letter-spacing: -.5px; }
+    .pick-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .pick-pattern { font-size: 11px; color: #8b949e; }
+    .pick-flow { font-size: 12px; color: #ffd54f; font-weight: 600; margin-bottom: 6px; }
+    .pick-why { font-size: 12px; color: #adbac7; line-height: 1.45; }
+    .setup-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 12px; }
+    .setup-row:last-child { border-bottom: none; }
+    .setup-ticker { font-weight: 700; color: #e6edf3; flex: 0 0 50px; font-size: 13px; padding-top: 1px; }
+    .setup-pattern { color: #8b949e; font-size: 10px; flex: 0 0 110px; padding-top: 2px; }
+    .setup-why { color: #adbac7; font-size: 11px; line-height: 1.45; }
+    .setup-flow { color: #ffd54f; font-size: 10px; margin-top: 3px; }
+    .longterm-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #388bfd;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .longterm-card .card-header {
+        padding: 10px 16px;
+        background: #0d1421;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #388bfd;
+    }
+    .watch-card {
+        background: #161b22;
+        border: 1px solid #388bfd55;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .watch-card .card-header {
+        padding: 10px 16px;
+        background: #1f3a5f;
+        border-bottom: 1px solid #388bfd44;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #79c0ff;
+    }
+    .watch-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+    }
+    .watch-item:last-child { border-bottom: none; }
+    .watch-item:hover { background: #1c2128; }
+    .watch-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 5px;
+    }
+    .watch-ticker {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+    }
+    .watch-signal {
+        font-size: 12px;
+        color: #8b949e;
+        flex: 1;
+    }
+    .watch-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
+    .briefing {
+        font-size: 11px;
+        color: #8b949e;
+        padding: 0 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        line-height: 1.5;
+    }
+    .briefing:last-child { border-bottom: none; }
+    .briefing-row td {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #21262d;
+    }
+    .briefing-text {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+    }
+    .why-row td {
+        padding: 4px 12px 2px 12px;
+        border-bottom: none;
+        background: #0d1117;
+    }
+    .why-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+    }
+    .why-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 700;
+    }
+    .why-context {
+        font-size: 11px;
+        color: #6e7681;
+        font-style: italic;
+        padding-left: 14px;
+    }
+    .briefing-row td {
+        padding: 2px 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        background: #0d1117;
+    }
+    .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
+    .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
+    .strat-badge {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 700;
+        color: #ffd54f;
+        background: #ffd54f11;
+        border: 1px solid #ffd54f33;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 4px;
+    }
+    .countdown {
+        font-size: 11px;
+        font-weight: 700;
+        color: #ef5350;
+        margin-left: 6px;
+    }
+    .heat-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .heat-pill {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        font-size: 12px;
+    }
+    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
+    .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
+    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .history-tag {
+        font-size: 10px;
+        color: #8b949e;
+        margin-left: 6px;
+    }
+    </style>
+</head>
+<body>
+<div class="header">
+  <h1>CATALYST REPORT</h1>
+  <span class="mode">AFTER CLOSE</span>
+  <span class="meta">Friday, May 29, 2026 &nbsp;·&nbsp; 03:30 PM</span>
+</div>
+
+
+        <div class="headline-bar">
+          <span class="headline-tag">TOP HEADLINE</span>
+          <div class="headline-body">
+            <div class="headline-title">DELL +36%, NTAP +18% — AI hardware blowout overnight. ASTS -13% after Blue Origin rocket explodes on ground. Final Friday of May, tape quiet, big data already done.</div>
+            <div class="headline-summary">Last day of May and the market is taking a breather. Dell exploded +36% overnight — it crushed every number (AI server revenue up 757% in a single year, revenue $43.4B vs $35.5B est, EPS $4.86 vs $2.99). Network Appliance (NTAP) is up 18% too on a data infrastructure beat. Okta beat and raised guidance, up nearly 10%. On the down side: GAP cut its sales outlook and is falling 15%, SentinelOne announced an 8% layoff and dropped 13%, and ASTS dropped 13% after Blue Origin's New Glenn rocket exploded during a ground test — that's dragging rocket and space stocks. The broader market is quiet because all the big economic data (PCE, GDP, jobless claims) already came in yesterday. Light volume end-of-month day. Oil down 1.3% to $87.72 as Iran fears ease.</div>
+          </div>
+        </div>
+
+<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
+  <div style="flex:0 0 300px;display:flex;flex-direction:column;padding-top:10px;"><div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;border:2px solid #ffd54f;padding:14px;margin-bottom:6px;">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#ffd54f;">RESULT 1</div>
+                  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
+                    <span style="font-size:26px;font-weight:800;color:#e6edf3;">AVGO</span>
+                    <span style="font-size:18px;font-weight:700;color:#3fb950;">+3.2%</span>
+                    <span style="font-size:10px;font-weight:700;color:#3fb950;background:#21262d;padding:2px 6px;border-radius:3px;">HIT</span>
+                  </div>
+                  <div style="font-size:12px;color:#adbac7;line-height:1.4;">Failed 2D is a bullish reversal. Earnings next week. Fresh catalyst: Apollo and Blackstone arranging $36B for Anthropic to buy Google TPU infrastructure — Broadcom is providing the financial backstop. That directly connects AVGO to AI infrastructure spending for years.</div>
+                </div><div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;padding:14px;margin-bottom:6px;">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#8b949e;">RESULT 2</div>
+                  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
+                    <span style="font-size:26px;font-weight:800;color:#e6edf3;">MU</span>
+                    <span style="font-size:18px;font-weight:700;color:#3fb950;">+1.5%</span>
+                    <span style="font-size:10px;font-weight:700;color:#3fb950;background:#21262d;padding:2px 6px;border-radius:3px;">HIT</span>
+                  </div>
+                  <div style="font-size:12px;color:#adbac7;line-height:1.4;">Inside bar is compressed and ready to move. DELL just printed 757% AI server revenue growth — that is a massive read-through for memory demand and MU specifically. Trump also praised Micron's US investment plans. $6.2B in dark pool this week. Earnings June 24.</div>
+                </div><div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;padding:14px;margin-bottom:6px;">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#8b949e;">RESULT 3</div>
+                  <div style="display:flex;align-items:center;gap:8px;margin:6px 0;">
+                    <span style="font-size:26px;font-weight:800;color:#e6edf3;">CRWV</span>
+                    <span style="font-size:18px;font-weight:700;color:#3fb950;">+1.4%</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#adbac7;line-height:1.4;">Failed 2U is a bearish reversal signal. Conference Monday and shareholder meeting June 8. The stock may also be moving to a 2U day (another bearish layer stacking). Multiple catalysts ahead — watch for direction at the open and after Monday's conference.</div>
+                </div></div>
+  <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px;">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Economic Calendar — This Week</div>
+          <div style="display:flex;">
+            <div style="flex:1;min-width:0;padding:6px 8px;border-right:1px solid #21262d;">
+              <div style="font-size:9px;font-weight:700;color:#ffd54f;margin-bottom:4px;">Tue 5/26</div>
+              <div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🔴 CB Consumer Confidence</div>
+            </div><div style="flex:1;min-width:0;padding:6px 8px;border-right:1px solid #21262d;">
+              <div style="font-size:9px;font-weight:700;color:#ffd54f;margin-bottom:4px;">Wed 5/27</div>
+              <div style="font-size:10px;color:#30363d;">—</div>
+            </div><div style="flex:1;min-width:0;padding:6px 8px;border-right:1px solid #21262d;">
+              <div style="font-size:9px;font-weight:700;color:#ffd54f;margin-bottom:4px;">Thu 5/28</div>
+              <div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🔴 Core PCE Price Index (</div><div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🔴 Core PCE Price Index (</div><div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🟡 Core PCE Prices  (Q1)</div>
+            </div><div style="flex:1;min-width:0;padding:6px 8px;border-right:1px solid #21262d;background:#1c2128;">
+              <div style="font-size:9px;font-weight:700;color:#ffd54f;margin-bottom:4px;">Fri 5/29</div>
+              <div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🟡 FOMC Member Kashkari S</div><div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🟡 FOMC Member Bowman Spe</div><div style="font-size:10px;color:#e6edf3;line-height:1.3;margin-bottom:2px;">🔴 Chicago PMI  (May)</div>
+            </div>
+          </div>
+        </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">What Happened Today</div>
+          <div style="padding:12px 14px;"><p style="margin:0 0 8px 0;color:#adbac7;font-size:12px;line-height:1.6;">Last day of May and the market is taking a breather. Dell exploded +36% overnight — it crushed every number (AI server revenue up 757% in a single year, revenue $43.4B vs $35.5B est, EPS $4.86 vs $2.99). Network Appliance (NTAP) is up 18% too on a data infrastructure beat. Okta beat and raised guidance, up nearly 10%. On the down side: GAP cut its sales outlook and is falling 15%, SentinelOne announced an 8% layoff and dropped 13%, and ASTS dropped 13% after Blue Origin's New Glenn rocket exploded during a ground test — that's dragging rocket and space stocks. The broader market is quiet because all the big economic data (PCE, GDP, jobless claims) already came in yesterday. Light volume end-of-month day. Oil down 1.3% to $87.72 as Iran fears ease.</p><p style="margin:0;color:#8b949e;font-size:11px;line-height:1.6;">AI hardware is still the clear winner — Dell's 757% AI server revenue growth proves the buildout is not slowing down. But the market is picking winners ruthlessly: hardware beats get rewarded big, while software and anything that disappoints gets crushed. The AVGO/Anthropic story is huge — Apollo and Blackstone are putting together $36B in financing for Anthropic to buy Google TPU infrastructure, and Broadcom is backing the deal financially. That is a massive bet that AI demand lasts years. Today has 4 analyst days and conferences: CRM, TEM (just got FDA approval for a new cancer diagnostic), LOW shareholder meeting, plus BMY/PFE/RTX. TEM is up 7% pre-market on the FDA news. Next week: China EV deliveries Monday (NIO, XPEV, LI Auto), then QBTS, MRNA, JCI analyst days, followed by SNOW and HON analyst days Tuesday.</p></div>
+        </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Earnings Results + Key Events</div>
+          <div style="display:flex;gap:1px;background:#21262d;">
+            <div style="flex:1;background:#161b22;">
+              <div style="padding:6px 14px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">EARNINGS</div>
+              <div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">NBP</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;"></span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">ZENA</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;"></span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">AVXL</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;"></span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">DELL</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">Massive earnings blowout — EPS $4.86 vs $2.99 est, revenue $43.4B vs $35.5B. AI server revenue up 757% year-over-year. R</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">NTAP</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">Network Appliance beat data infrastructure estimates. Second AI storage/infrastructure name to blow out earnings this we</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">OKTA</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">Beat earnings and raised full-year EPS guidance. One of the few software names rewarded by the market this earnings seas</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">MDB</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">MongoDB beat earnings estimates. Database infrastructure play benefiting from AI application development demand.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">GAP</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">The Gap cut its full-year sales outlook to 1-2% growth from 2-3%, and missed revenue estimates. Consumer discretionary s</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">S</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">SentinelOne announced an 8% workforce reduction. Cybersecurity sector still under pressure from the Zscaler earnings sho</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:46px;">ADSK</span>
+              <span class="badge badge-amc">AMC</span>
+              <span style="color:#adbac7;font-size:11px;">Autodesk fell on earnings disappointment. Software names getting punished hard when they miss or guide soft this season.</span>
+            </div>
+            </div>
+            <div style="flex:1;background:#161b22;">
+              <div style="padding:6px 14px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">KEY EVENTS</div>
+              <div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Analyst Day</span>
+              <span style="color:#adbac7;">CRM (Salesforce) Analyst Day — AI platform monetization focus</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Analyst Day</span>
+              <span style="color:#adbac7;">TEM (Tempus AI) Analyst Day — FDA approval catalyst + $200 ASP benefit 2027</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Shareholder Mtg</span>
+              <span style="color:#adbac7;">LOW (Lowe's) shareholder meeting</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Conferences</span>
+              <span style="color:#adbac7;">BMY, PFE, RTX presenting today</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Monday</span>
+              <span style="color:#adbac7;">China EV deliveries — NIO, XPEV, LI Auto. QBTS, MRNA, JCI analyst days</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:5px 14px;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Tuesday</span>
+              <span style="color:#adbac7;">SNOW (Snowflake) Analyst Day + HON (Honeywell) Analyst Day. MRVL event.</span>
+            </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="wl-card" style="margin-bottom:6px;"><div class="card-header">WATCHLIST — ETFs &amp; MAG 7</div><div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+        <div class="wl-pill">
+          <span class="sym">IWM</span>
+          <span class="chg down">-0.6%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg up">+0.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg up">+0.2%</span>
+        </div><span class="wl-group-label">MAG 7</span>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg down">-0.1%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg up">+5.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg down">-1.5%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg down">-2.5%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg down">-1.2%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg down">-0.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg down">-1.4%</span>
+        </div></div></div>
+<div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="flex:0 0 50%"><div style="padding:14px;background:#161b22;">
+              <div style="font-size:12px;font-weight:700;color:#e6edf3;margin-bottom:8px;">AVGO — Close Chart</div>
+              <img src="charts/AVGO_2026-05-29.png" style="width:100%;border-radius:4px;display:block;">
+            </div></div>
+          <div style="flex:0 0 50%;background:#161b22;padding:14px;overflow-y:auto;">
+            <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;margin-bottom:10px;">How Setups Played Out</div>
+            <div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">AVGO</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2D</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+3.2%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2D is a bullish reversal. Earnings next week. Fresh catalyst: Apollo and Blackstone arranging $36B for Anthropic to buy Google TPU infrastructure — Broadcom is providing the financial backstop. That directly connects AVGO to AI infrastructure spending for years.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">MU</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+1.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Inside bar is compressed and ready to move. DELL just printed 757% AI server revenue growth — that is a massive read-through for memory demand and MU specifically. Trump also praised Micron's US investment plans. $6.2B in dark pool this week. Earnings June 24.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">CRWV</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2U</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+1.4%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2U is a bearish reversal signal. Conference Monday and shareholder meeting June 8. The stock may also be moving to a 2U day (another bearish layer stacking). Multiple catalysts ahead — watch for direction at the open and after Monday's conference.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">TSLA</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-0.9%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Inside bar — coiled and waiting. China EV delivery data drops Monday which will move all EV names. End-of-month positioning is light. Direction comes from the Monday catalyst.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">NIO</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+3.7%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Same setup as TSLA — compressed inside bar heading into China EV delivery numbers Monday. If deliveries beat, NIO could pop hard. If they disappoint, the inside bar breaks down.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">RKLB</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+2.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Rocket Lab compressing after its big run on the $3.5B government satellite program. Space sector is getting a negative read from ASTS today (Blue Origin explosion). Inside bar — watch if the ASTS drag bleeds over or if RKLB holds its own.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">MRVL</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2D</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+0.3%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2D bullish reversal. MRVL sold off after earnings because of cautious cloud capex comments but the long-term AI targets they raised ($11.5B FY27, $16.5B FY28) are massive. Analyst event Tuesday could reset the narrative. DELL's blowout is a positive read-through.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">BABA</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2D</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-0.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2D after the China broker crackdown selloff last week. China ADR names stabilizing as the regulator headlines fade. Potential recovery trade heading into next week's China data.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">STX</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#f85149;">BEAR</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2U</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#8b949e;font-size:11px;">1</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-1.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2U is a bearish reversal. Seagate had a conference 2 days ago. Storage names can get caught in mixed signals between AI buildout (good for demand) and enterprise hardware softness. The strat candle is the bearish signal here.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">GOOG</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Outside (3)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-1.2%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Outside bar means range expansion is happening. Shareholder meeting next Friday is the upcoming catalyst. $541M bid-side dark pool Thursday tells you institutions are buying. AVGO/Anthropic/Google TPU story also keeps GOOG in the AI conversation.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">ADBE</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Outside (3)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+5.7%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Outside bar after a big down day. Adobe fell on earnings concerns. Range expansion can go both ways — watch if buyers step in at this level or if the breakdown continues.</div>
+                </div>
+          </div>
+        </div>
+<div style="display:flex;gap:6px;margin-bottom:6px;">
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#3fb950;">▲ Today's Winners</div>
+            <div style="padding:8px 14px;"><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">DELL</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+0.7%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Massive earnings blowout — EPS $4.86 vs $2.99 est, revenue $43.4B vs $35.5B. AI server revenue up 757% year-over-year. Raised FY guidance to $167B from $140B.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">NTAP</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-1.4%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Network Appliance beat data infrastructure estimates. Second AI storage/infrastructure name to blow out earnings this week.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">OKTA</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+14.6%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Beat earnings and raised full-year EPS guidance. One of the few software names rewarded by the market this earnings season.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">TEM</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-5.4%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Tempus AI got FDA approval for xT CDx tumor-only cancer diagnostic — first lab ever to have both tumor-only AND tumor-normal CDx approval. $200 ASP benefit expected starting 2027. Analyst Day today.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">MDB</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-4.3%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">MongoDB beat earnings estimates. Database infrastructure play benefiting from AI application development demand.</span>
+                  
+                  
+                </div></div>
+          </div>
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#f85149;">▼ Today's Losers</div>
+            <div style="padding:8px 14px;"><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">GAP</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">-0.9%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">The Gap cut its full-year sales outlook to 1-2% growth from 2-3%, and missed revenue estimates. Consumer discretionary spending under pressure.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">S</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+7.2%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">SentinelOne announced an 8% workforce reduction. Cybersecurity sector still under pressure from the Zscaler earnings shock earlier this week.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">ASTS</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">-0.0%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Blue Origin's New Glenn rocket exploded during a ground test. Bad headline for the space sector and directly hits ASTS as a satellite deployment company.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">RKLB</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+2.5%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Space sector drag from ASTS Blue Origin explosion headline. No fundamental issue with Rocket Lab but sector sentiment hurt.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">ADSK</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+2.5%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Autodesk fell on earnings disappointment. Software names getting punished hard when they miss or guide soft this season.</span>
+                  
+                  
+                </div></div>
+          </div>
+        </div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Dark Pool Blocks</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px;"><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MSFT</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$833M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AAPL</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$819M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">NVDA</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$720M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">GOOGL</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$585M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MU</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$544M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">GOOG</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$541M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">QCOM</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$438M</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">HD</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$385M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">META</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$337M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">JNJ</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$284M</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
+            </div></div>
+        </div>
+
+</body>
+</html>

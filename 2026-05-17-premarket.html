@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalyst Report — Sunday, May 17, 2026</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 24px;
+    }
+    .header {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #30363d;
+    }
+    .header h1 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        color: #e6edf3;
+    }
+    .header .mode {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        padding: 2px 8px;
+        border-radius: 20px;
+        background: #1f6feb22;
+        border: 1px solid #1f6feb66;
+        color: #79c0ff;
+    }
+    .header .meta {
+        margin-left: auto;
+        font-size: 12px;
+        color: #8b949e;
+    }
+    .grid { display: grid; gap: 16px; }
+    .card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-header {
+        padding: 10px 16px;
+        background: #0d1117;
+        border-bottom: 1px solid #30363d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+    }
+    .card-body { padding: 0; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    th {
+        padding: 8px 12px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .1em;
+        color: #8b949e;
+        border-bottom: 1px solid #21262d;
+        white-space: nowrap;
+    }
+    td {
+        padding: 9px 12px;
+        border-bottom: 1px solid #21262d;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c2128; }
+    .ticker {
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .05em;
+    }
+    .badge-bmo { background: #1f6feb22; color: #79c0ff; border: 1px solid #1f6feb44; }
+    .badge-amc { background: #e3b34122; color: #e3b341; border: 1px solid #e3b34144; }
+    .badge-call { background: #26a69a22; color: #26a69a; border: 1px solid #26a69a44; }
+    .badge-put  { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-high { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-med  { background: #ffd54f22; color: #ffd54f; border: 1px solid #ffd54f44; }
+    .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
+    .up   { color: #26a69a; font-weight: 600; }
+    .down { color: #ef5350; font-weight: 600; }
+    .muted { color: #8b949e; }
+    .charts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+        gap: 1px;
+        background: #21262d;
+    }
+    .chart-block {
+        background: #161b22;
+        padding: 16px;
+    }
+    .chart-label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .chart-label .ticker { font-size: 16px; }
+    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-block img { width: 100%; border-radius: 4px; display: block; }
+    .watchlist-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .wl-pill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        min-width: 72px;
+    }
+    .wl-pill .sym {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 13px;
+        color: #e6edf3;
+    }
+    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .spotlight-row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        align-items: stretch;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+        flex: 1;
+    }
+    .sector-panel {
+        width: 200px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sector-panel .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .sector-panel .sec-name {
+        font-family: 'SF Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    .sector-panel .sec-badge {
+        margin-bottom: 8px;
+    }
+    .sector-panel .sec-prem {
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .sector-panel .sec-tickers {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 12px;
+    }
+    .sector-panel .sec-why {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+        line-height: 1.5;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: auto;
+    }
+    .spotlight-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spotlight-card.rank-1 {
+        border-color: #ffd54f55;
+        background: linear-gradient(135deg, #1a1800 0%, #161b22 60%);
+    }
+    .spotlight-card .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 8px;
+    }
+    .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
+    .spotlight-card .sp-label {
+        font-family: 'SF Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e6edf3;
+        letter-spacing: .02em;
+        margin-bottom: 4px;
+    }
+    .spotlight-card .sp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .spotlight-card .sp-news {
+        font-size: 13px;
+        color: #e6edf3;
+        line-height: 1.5;
+        font-weight: 500;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: 8px;
+    }
+    .spotlight-card .sp-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 800;
+    }
+    .spotlight-card .sp-briefing {
+        font-size: 11px;
+        color: #6e7681;
+        line-height: 1.4;
+        font-style: italic;
+        margin-top: 4px;
+        padding-left: 14px;
+    }
+    .wl-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .deck-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 16px;
+        border-bottom: 1px solid #21262d;
+        font-size: 13px;
+    }
+    .deck-row:last-child { border-bottom: none; }
+    .deck-row:hover { background: #1c2128; }
+    .deck-date {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #8b949e;
+        white-space: nowrap;
+        min-width: 68px;
+    }
+    .deck-label {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+        white-space: nowrap;
+        min-width: 80px;
+    }
+    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
+    .econ-strip {
+        width: 320px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 14px 14px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .econ-strip .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .econ-item {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 5px 0;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+    }
+    .econ-item:last-child { border-bottom: none; }
+    .econ-item.past { opacity: 0.4; }
+    .econ-item.today-item .econ-day { color: #4fc3f7; }
+    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
+    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .results-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1;
+        min-width: 200px;
+    }
+    .result-source {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        white-space: nowrap;
+    }
+    .result-ticker {
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 800;
+        color: #e6edf3;
+        min-width: 60px;
+    }
+    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-move {
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .watch-card {
+        background: #161b22;
+        border: 1px solid #388bfd55;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .watch-card .card-header {
+        padding: 10px 16px;
+        background: #1f3a5f;
+        border-bottom: 1px solid #388bfd44;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #79c0ff;
+    }
+    .watch-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+    }
+    .watch-item:last-child { border-bottom: none; }
+    .watch-item:hover { background: #1c2128; }
+    .watch-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 5px;
+    }
+    .watch-ticker {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+    }
+    .watch-signal {
+        font-size: 12px;
+        color: #8b949e;
+        flex: 1;
+    }
+    .watch-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
+    .briefing {
+        font-size: 11px;
+        color: #8b949e;
+        padding: 0 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        line-height: 1.5;
+    }
+    .briefing:last-child { border-bottom: none; }
+    .briefing-row td {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #21262d;
+    }
+    .briefing-text {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+    }
+    .why-row td {
+        padding: 4px 12px 2px 12px;
+        border-bottom: none;
+        background: #0d1117;
+    }
+    .why-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+    }
+    .why-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 700;
+    }
+    .why-context {
+        font-size: 11px;
+        color: #6e7681;
+        font-style: italic;
+        padding-left: 14px;
+    }
+    .briefing-row td {
+        padding: 2px 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        background: #0d1117;
+    }
+    .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
+    .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
+    .strat-badge {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 700;
+        color: #ffd54f;
+        background: #ffd54f11;
+        border: 1px solid #ffd54f33;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 4px;
+    }
+    .countdown {
+        font-size: 11px;
+        font-weight: 700;
+        color: #ef5350;
+        margin-left: 6px;
+    }
+    .heat-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .heat-pill {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        font-size: 12px;
+    }
+    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
+    .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
+    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .history-tag {
+        font-size: 10px;
+        color: #8b949e;
+        margin-left: 6px;
+    }
+    </style>
+</head>
+<body>
+<div class="header">
+  <h1>CATALYST REPORT</h1>
+  <span class="mode">PRE-MARKET</span>
+  <span class="meta">Sunday, May 17, 2026 &nbsp;·&nbsp; 10:04 PM</span>
+</div>
+
+<div class="spotlight-row"><div class="spotlight">
+        <div class="spotlight-card rank-1">
+          <div class="sp-rank">TOP CATALYST</div>
+          <div class="sp-label">ZEPP</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±42.9% exp move  ·  EPS est —  ·  TNS
+          </div>
+          <div class="sp-news">Loss-Making Zepp Health Corporation (NYSE:ZEPP) Set To Breakeven. Zepp Health Corporation ( NYSE:ZEPP ) is possibly approachin.</div>
+          <div class="sp-briefing">Opens gap into Technology/Consumer Electronics, analysts rate none, $56 target (+449%), options pricing ±42.9% move.</div>
+        </div>
+        <div class="spotlight-card ">
+          <div class="sp-rank">2ND</div>
+          <div class="sp-label">NKLR</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±34.2% exp move  ·  EPS est -0.02  ·  AMC
+          </div>
+          <div class="sp-news">What Is Ahead for Terra Innovatum Global NV (NKLR)’s Micro. Terra Innovatum Global NV (NASDAQ:NKLR) is among the best It.</div>
+          <div class="sp-briefing">Overnight gap into Utilities/Utilities - Regulated Electric, analysts rate none, $17 target (+188%), options pricing ±34.2% move.</div>
+        </div>
+        <div class="spotlight-card ">
+          <div class="sp-rank">3RD</div>
+          <div class="sp-label">YALA</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±26.7% exp move  ·  EPS est —  ·  AMC
+          </div>
+          <div class="sp-news">Yalla Group Ltd (YALA) Q4 2025 Earnings Call Highlights: Strong Net Income Growt. Yalla Group Ltd (YALA) reports robust financial performance .</div>
+          <div class="sp-briefing">Overnight gap into Technology/Software - Application, analysts rate none, $9 target (+31%), options pricing ±26.7% move.</div>
+        </div></div>
+        <div class="econ-strip">
+          <div class="sp-rank">KEY EVENTS THIS WEEK</div>
+          
+            <div class="econ-item past">
+              <span class="econ-day">Mon 5/11</span>
+              <span class="econ-name">🔴 Existing Home Sales</span>
+              <span class="econ-time">10:00am</span>
+            </div>
+            <div class="econ-item past">
+              <span class="econ-day">Tue 5/12</span>
+              <span class="econ-name">🟡 FOMC Member Williams Speaks</span>
+              <span class="econ-time">3:15am</span>
+            </div>
+            <div class="econ-item past">
+              <span class="econ-day">Tue 5/12</span>
+              <span class="econ-name">🟡 ADP Employment Change Weekly</span>
+              <span class="econ-time">8:15am</span>
+            </div>
+            <div class="econ-item past">
+              <span class="econ-day">Tue 5/12</span>
+              <span class="econ-name">🔴 Core CPI</span>
+              <span class="econ-time">8:30am</span>
+            </div>
+            <div class="econ-item past">
+              <span class="econ-day">Tue 5/12</span>
+              <span class="econ-name">🔴 CPI</span>
+              <span class="econ-time">8:30am</span>
+            </div>
+            <div class="econ-item past">
+              <span class="econ-day">Tue 5/12</span>
+              <span class="econ-name">🔴 CPI</span>
+              <span class="econ-time">8:30am</span>
+            </div>
+        </div>
+        <div class="sector-panel">
+          <div class="sp-rank">HOT SECTOR</div>
+          <div class="sec-name">EV/Auto</div>
+          <div class="sec-badge"><span class="badge badge-call">▲ CALLS</span></div>
+          <div class="sec-prem up">$10.6M</div>
+          <div class="sec-tickers">1C · 1P</div>
+          <div class="sec-why">Bullish call flow ($10.6M) sweeping EV/Auto — TSLA leading institutional positioning.</div>
+        </div></div>
+<div class="wl-card">
+  <div class="card-header">WATCHLIST</div>
+  <div class="watchlist-grid">
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg down">-1.2%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg down">-1.5%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg down">-4.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg down">-4.8%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg up">+0.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg up">+3.1%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMD</span>
+          <span class="chg down">-5.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg down">-0.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg down">-1.2%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg down">-1.1%</span>
+        </div></div>
+</div>
+<div class="on-deck"><div class="card-header">ON DECK — NEXT 5 DAYS</div>
+            <div class="deck-row">
+              <span class="deck-date">Mon May 18</span>
+              <span class="deck-label">BIDU</span>
+              <span class="deck-type">Earnings BMO</span>
+              <span class="deck-briefing">Opens gap into Communication Services/Internet Content &amp; Information, analysts rate strong buy, $175 target (+29%), options pricing ±16.4% move.</span>
+              <span class="deck-detail">±16.4%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Mon May 18</span>
+              <span class="deck-label">RYAAY</span>
+              <span class="deck-type">Earnings BMO</span>
+              <span class="deck-briefing">Opens gap into Industrials/Airlines, analysts rate buy, $76 target (+43%), options pricing ±12.1% move.</span>
+              <span class="deck-detail">±12.1%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Mon May 18</span>
+              <span class="deck-label">BRC</span>
+              <span class="deck-type">Earnings BMO</span>
+              <span class="deck-briefing">Opens gap into Industrials/Security &amp; Protection Services, analysts rate buy, $98 target (+38%), options pricing ±12.0% move.</span>
+              <span class="deck-detail">±12.0%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Mon May 18</span>
+              <span class="deck-label">RNW</span>
+              <span class="deck-type">Earnings BMO</span>
+              <span class="deck-briefing">Opens gap into Utilities/Utilities - Renewable, analysts rate none, $8 target (+42%), options pricing ±17.8% move.</span>
+              <span class="deck-detail">±17.8%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Mon May 18</span>
+              <span class="deck-label">AGYS</span>
+              <span class="deck-type">Earnings AMC</span>
+              <span class="deck-briefing">Overnight gap into Technology/Software - Application, analysts rate none, $128 target (+90%), options pricing ±20.6% move.</span>
+              <span class="deck-detail">±20.6%</span>
+            </div></div>
+<div class="watch-card"><div class="card-header">WATCH — POTENTIAL BIG MOVER</div>
+            <div class="watch-item">
+              <div class="watch-top">
+                <span class="watch-ticker">AGYS</span>
+                <span class="watch-signal">Earnings AMC Mon May 18 · ±20.6% exp move</span>
+              </div>
+              <div class="watch-news">Is It Time To Reassess Agilysys (AGYS) After This Year’s 43% Share Price Slide?. Wondering whether Agilysys at around US$65.</div>
+            </div>
+            <div class="watch-item">
+              <div class="watch-top">
+                <span class="watch-ticker">RNW</span>
+                <span class="watch-signal">Earnings BMO Mon May 18 · ±17.8% exp move</span>
+              </div>
+              <div class="watch-news">ReNew Energy Global (RNW) Valuation Check After Mixed Recent Share Price Perform. ReNew Energy Global: Recent Performance Snapshot ReNew Energ.</div>
+            </div></div>
+<div class="grid">
+
+  <div class="card">
+    <div class="card-header">EARNINGS</div>
+    <div class="card-body">
+        <table>
+          <thead><tr>
+            <th>WHEN</th><th>TICKER</th><th>STRAT</th><th>TIME</th>
+            <th>EXP MOVE</th><th>AH MOVE</th><th>EPS EST</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">NKLR</span><span class="history-tag">Beat 0/1 · avg -1%</span></td>
+              <td><span class="strat-badge">M:1</span><span class="strat-badge">W:1</span><span class="strat-badge">D:1</span></td>
+              <td class="muted">AMC</td>
+              <td><span class="exp-move">±34.2%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">-0.02</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">What Is Ahead for Terra Innovatum Global NV (NKLR)’s Micro. Terra Innovatum Global NV (NASDAQ:NKLR) is among the best It.</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Overnight gap into Utilities/Utilities - Regulated Electric, analysts rate none, $17 target (+188%), options pricing ±34.2% move.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">YALA</span></td>
+              <td><span class="strat-badge">M:2↑</span><span class="strat-badge">W:2↓</span><span class="strat-badge">D:2↓</span></td>
+              <td class="muted">AMC</td>
+              <td><span class="exp-move">±26.7%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">—</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">Yalla Group Ltd (YALA) Q4 2025 Earnings Call Highlights: Strong Net Income Growt. Yalla Group Ltd (YALA) reports robust financial performance .</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Overnight gap into Technology/Software - Application, analysts rate none, $9 target (+31%), options pricing ±26.7% move.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">ZEPP</span></td>
+              <td><span class="strat-badge">M:3</span><span class="strat-badge">W:2↓</span><span class="strat-badge">D:2↑</span></td>
+              <td class="muted">TNS</td>
+              <td><span class="exp-move">±42.9%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">—</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">Loss-Making Zepp Health Corporation (NYSE:ZEPP) Set To Breakeven. Zepp Health Corporation ( NYSE:ZEPP ) is possibly approachin.</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Opens gap into Technology/Consumer Electronics, analysts rate none, $56 target (+449%), options pricing ±42.9% move.</span></td></tr></tbody>
+        </table></div><div class="charts-grid">
+                <div class="chart-block">
+                  <div class="chart-label">
+                    <span class="ticker">ZEPP</span>
+                    <span class="badge badge-amc">AMC</span>
+                    <span class="meta">±42.9% exp move</span>
+                  </div>
+                  <img src="charts/ZEPP_2026-05-17.png" alt="ZEPP chart">
+                </div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">ECONOMIC — TODAY</div>
+    <div class="empty">No high/medium impact events.</div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">UNUSUAL OPTIONS</div>
+    <div class="card-body"><table>
+          <thead><tr>
+            <th>TICKER</th><th>TYPE</th><th>STRIKE</th><th>VOL/OI</th><th>PREMIUM</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="ticker">NVDA</span></td>
+              <td><span class="badge badge-put">PUT</span></td>
+              <td class="muted">$225</td>
+              <td><span class="exp-move">4.2x</span></td>
+              <td><span class="down">$2.2M</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">NU</span></td>
+              <td><span class="badge badge-put">PUT</span></td>
+              <td class="muted">$12</td>
+              <td><span class="exp-move">18.4x</span></td>
+              <td><span class="down">$170K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">INTC</span></td>
+              <td><span class="badge badge-call">CALL</span></td>
+              <td class="muted">$126</td>
+              <td><span class="exp-move">3.4x</span></td>
+              <td><span class="up">$262K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">INTC</span></td>
+              <td><span class="badge badge-put">PUT</span></td>
+              <td class="muted">$129</td>
+              <td><span class="exp-move">3.1x</span></td>
+              <td><span class="down">$918K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">F</span></td>
+              <td><span class="badge badge-call">CALL</span></td>
+              <td class="muted">$5</td>
+              <td><span class="exp-move">5.3x</span></td>
+              <td><span class="up">$538K</span></td>
+            </tr></tbody>
+        </table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">SECTOR FLOW</div>
+    <div class="heat-grid">
+            <div class="heat-pill">
+              <span class="sector-name">EV/Auto</span>
+              <span class="muted">◆</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$10.6M</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Semis</span>
+              <span class="heat-puts">▼</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">2P</span>
+              <span class="heat-prem">$3.4M</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Auto</span>
+              <span class="muted">◆</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$591K</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Technology</span>
+              <span class="muted">◆</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$591K</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Financial Services</span>
+              <span class="heat-puts">▼</span>
+              <span class="heat-calls">0C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$170K</span>
+            </div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">FDA / BIOTECH</div>
+    <div class="empty">No upcoming FDA events in the next 14 days.</div>
+  </div>
+
+</div>
+</body>
+</html>

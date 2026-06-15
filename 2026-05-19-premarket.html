@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalyst Report — Tuesday, May 19, 2026</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 24px;
+    }
+    .header {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #30363d;
+    }
+    .header h1 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        color: #e6edf3;
+    }
+    .header .mode {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        padding: 2px 8px;
+        border-radius: 20px;
+        background: #1f6feb22;
+        border: 1px solid #1f6feb66;
+        color: #79c0ff;
+    }
+    .header .meta {
+        margin-left: auto;
+        font-size: 12px;
+        color: #8b949e;
+    }
+    .grid { display: grid; gap: 16px; }
+    .card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-header {
+        padding: 10px 16px;
+        background: #0d1117;
+        border-bottom: 1px solid #30363d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+    }
+    .card-body { padding: 0; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    th {
+        padding: 8px 12px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .1em;
+        color: #8b949e;
+        border-bottom: 1px solid #21262d;
+        white-space: nowrap;
+    }
+    td {
+        padding: 9px 12px;
+        border-bottom: 1px solid #21262d;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c2128; }
+    .ticker {
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .05em;
+    }
+    .badge-bmo { background: #1f6feb22; color: #79c0ff; border: 1px solid #1f6feb44; }
+    .badge-amc { background: #e3b34122; color: #e3b341; border: 1px solid #e3b34144; }
+    .badge-call { background: #26a69a22; color: #26a69a; border: 1px solid #26a69a44; }
+    .badge-put  { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-high { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-med  { background: #ffd54f22; color: #ffd54f; border: 1px solid #ffd54f44; }
+    .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
+    .up   { color: #26a69a; font-weight: 600; }
+    .down { color: #ef5350; font-weight: 600; }
+    .muted { color: #8b949e; }
+    .charts-grid {
+        display: flex;
+        gap: 1px;
+        background: #21262d;
+    }
+    .chart-block {
+        background: #161b22;
+        padding: 16px;
+        flex: 0 0 auto;
+        width: 55%;
+    }
+    .chart-label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .chart-label .ticker { font-size: 16px; }
+    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-block img { width: 100%; border-radius: 4px; display: block; }
+    .chart-side-panel {
+        flex: 1;
+        background: #161b22;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .chart-side-panel .csp-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .csp-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #21262d;
+    }
+    .csp-item:last-child { border-bottom: none; }
+    .csp-item .csp-rank {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+    .csp-item.rank-1 .csp-rank { color: #ffd54f; }
+    .csp-item .csp-label {
+        font-size: 17px;
+        font-weight: 700;
+        color: #e6edf3;
+        margin-bottom: 4px;
+    }
+    .csp-item .csp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .csp-item .csp-why {
+        font-size: 11px;
+        color: #adbac7;
+        line-height: 1.45;
+    }
+    .watchlist-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+        align-items: center;
+    }
+    .wl-group-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #3d444d;
+        padding: 0 4px;
+        align-self: center;
+    }
+    .wl-pill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        min-width: 72px;
+    }
+    .wl-pill .sym {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 13px;
+        color: #e6edf3;
+    }
+    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .spotlight-row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        align-items: stretch;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+        flex: 1;
+    }
+    .sector-panel {
+        width: 200px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sector-panel .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .sector-panel .sec-name {
+        font-family: 'SF Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    .sector-panel .sec-badge {
+        margin-bottom: 8px;
+    }
+    .sector-panel .sec-prem {
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .sector-panel .sec-tickers {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 12px;
+    }
+    .sector-panel .sec-why {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+        line-height: 1.5;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: auto;
+    }
+    .spotlight-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spotlight-card.rank-1 {
+        border-color: #ffd54f55;
+        background: linear-gradient(135deg, #1a1800 0%, #161b22 60%);
+    }
+    .spotlight-card .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 8px;
+    }
+    .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
+    .spotlight-card .sp-label {
+        font-family: 'SF Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e6edf3;
+        letter-spacing: .02em;
+        margin-bottom: 4px;
+    }
+    .spotlight-card .sp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .spotlight-card .sp-news {
+        font-size: 13px;
+        color: #e6edf3;
+        line-height: 1.5;
+        font-weight: 500;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: 8px;
+    }
+    .spotlight-card .sp-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 800;
+    }
+    .spotlight-card .sp-briefing {
+        font-size: 11px;
+        color: #6e7681;
+        line-height: 1.4;
+        font-style: italic;
+        margin-top: 4px;
+        padding-left: 14px;
+    }
+    .wl-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .deck-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 16px;
+        border-bottom: 1px solid #21262d;
+        font-size: 13px;
+    }
+    .deck-row:last-child { border-bottom: none; }
+    .deck-row:hover { background: #1c2128; }
+    .deck-date {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #8b949e;
+        white-space: nowrap;
+        min-width: 68px;
+    }
+    .deck-label {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+        white-space: nowrap;
+        min-width: 80px;
+    }
+    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
+    .econ-strip {
+        width: 320px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 14px 14px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .econ-strip .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .econ-item {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 5px 0;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+    }
+    .econ-item:last-child { border-bottom: none; }
+    .econ-item.past { opacity: 0.4; }
+    .econ-item.today-item .econ-day { color: #4fc3f7; }
+    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
+    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .results-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1;
+        min-width: 200px;
+    }
+    .result-source {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        white-space: nowrap;
+    }
+    .result-ticker {
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 800;
+        color: #e6edf3;
+        min-width: 60px;
+    }
+    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-move {
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .headline-bar {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #4fc3f7;
+        border-radius: 6px;
+        padding: 12px 18px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    .headline-tag {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #4fc3f7;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding-top: 2px;
+    }
+    .headline-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        flex: 1;
+        min-width: 0;
+    }
+    .headline-title {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e6edf3;
+        line-height: 1.4;
+        white-space: normal;
+    }
+    .headline-summary {
+        font-size: 11px;
+        color: #8b949e;
+        line-height: 1.5;
+        white-space: normal;
+    }
+    .section-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #8b949e;
+        margin-bottom: 8px;
+        padding-left: 2px;
+    }
+    .longterm-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #388bfd;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .longterm-card .card-header {
+        padding: 10px 16px;
+        background: #0d1421;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #388bfd;
+    }
+    .watch-card {
+        background: #161b22;
+        border: 1px solid #388bfd55;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .watch-card .card-header {
+        padding: 10px 16px;
+        background: #1f3a5f;
+        border-bottom: 1px solid #388bfd44;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #79c0ff;
+    }
+    .watch-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+    }
+    .watch-item:last-child { border-bottom: none; }
+    .watch-item:hover { background: #1c2128; }
+    .watch-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 5px;
+    }
+    .watch-ticker {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+    }
+    .watch-signal {
+        font-size: 12px;
+        color: #8b949e;
+        flex: 1;
+    }
+    .watch-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
+    .briefing {
+        font-size: 11px;
+        color: #8b949e;
+        padding: 0 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        line-height: 1.5;
+    }
+    .briefing:last-child { border-bottom: none; }
+    .briefing-row td {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #21262d;
+    }
+    .briefing-text {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+    }
+    .why-row td {
+        padding: 4px 12px 2px 12px;
+        border-bottom: none;
+        background: #0d1117;
+    }
+    .why-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+    }
+    .why-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 700;
+    }
+    .why-context {
+        font-size: 11px;
+        color: #6e7681;
+        font-style: italic;
+        padding-left: 14px;
+    }
+    .briefing-row td {
+        padding: 2px 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        background: #0d1117;
+    }
+    .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
+    .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
+    .strat-badge {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 700;
+        color: #ffd54f;
+        background: #ffd54f11;
+        border: 1px solid #ffd54f33;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 4px;
+    }
+    .countdown {
+        font-size: 11px;
+        font-weight: 700;
+        color: #ef5350;
+        margin-left: 6px;
+    }
+    .heat-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .heat-pill {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        font-size: 12px;
+    }
+    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
+    .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
+    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .history-tag {
+        font-size: 10px;
+        color: #8b949e;
+        margin-left: 6px;
+    }
+    </style>
+</head>
+<body>
+<div class="header">
+  <h1>CATALYST REPORT</h1>
+  <span class="mode">PRE-MARKET</span>
+  <span class="meta">Tuesday, May 19, 2026 &nbsp;·&nbsp; 11:27 AM</span>
+</div>
+
+        <div class="headline-bar">
+          <span class="headline-tag">TOP HEADLINE</span>
+          <div class="headline-body">
+            <div class="headline-title">Market Fear Index Rises as Tech Selloff and Inflation Fears Weigh</div>
+            <div class="headline-summary">Markets were feeling on edge Thursday as a tech selloff, inflation fears, and the continuing stalemate between the U.S. and Iran weighed on sentiment. The Cboe Volatility Index, a widely followed fear gauge that tracks S&amp;P 500 options contracts and trades under the ticker VIX, climbed 0.3 points to 18.1 in early trading. Yields on U.S. treasuries were also slipping early Tuesday as traders weigh u</div>
+          </div>
+        </div>
+
+<div class="section-label">TODAY'S CATALYSTS</div>
+<div class="spotlight-row"><div class="spotlight">
+        <div class="spotlight-card rank-1">
+          <div class="sp-rank">TOP CATALYST</div>
+          <div class="sp-label">JHX</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±25.8% exp move  ·  EPS est 0.3  ·  AMC
+          </div>
+          <div class="sp-news">A Look At James Hardie Industries (ASX:JHX) Valuation After Recent Share Price S. James Hardie Industries (ASX:JHX) is back on watch for inves.</div>
+          <div class="sp-briefing">Overnight gap into Basic Materials/Building Materials, analysts rate strong buy, $29 target (+53%), options pricing ±25.9% move.</div>
+        </div>
+        <div class="spotlight-card ">
+          <div class="sp-rank">2ND</div>
+          <div class="sp-label">VSAT</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±22.8% exp move  ·  EPS est 0.32  ·  AMC
+          </div>
+          <div class="sp-news">Rocket Lab Shares Jump as SpaceX IPO Buzz Lifts Space Sector. Rocket Lab Surges as Musk Revives SpaceX Listing Plans.</div>
+          <div class="sp-briefing">Overnight gap into Technology/Communication Equipment, analysts rate buy, $61 target (-13%), options pricing ±22.8% move.</div>
+        </div>
+        <div class="spotlight-card ">
+          <div class="sp-rank">3RD</div>
+          <div class="sp-label">CAVA</div>
+          <div class="sp-detail">
+            <span class="badge badge-amc">AMC</span>
+            &nbsp; ±19.7% exp move  ·  EPS est 0.17  ·  AMC
+          </div>
+          <div class="sp-news">Why CAVA (CAVA) Stock Is Up Today. Shares of mediterranean fast-casual restaurant chain CAVA (N.</div>
+          <div class="sp-briefing">Overnight gap into Consumer Cyclical/Restaurants, analysts rate buy, $90 target (+15%), options pricing ±19.8% move.</div>
+        </div></div>
+        <div class="econ-strip">
+          <div class="sp-rank">KEY EVENTS THIS WEEK</div>
+          
+            <div class="econ-item today-item">
+              <span class="econ-day">Tue 5/19</span>
+              <span class="econ-name">🟡 Fed Waller Speaks</span>
+              <span class="econ-time">8:00am</span>
+            </div>
+            <div class="econ-item today-item">
+              <span class="econ-day">Tue 5/19</span>
+              <span class="econ-name">🟡 ADP Employment Change Weekly</span>
+              <span class="econ-time">8:15am</span>
+            </div>
+            <div class="econ-item ">
+              <span class="econ-day">Wed 5/20</span>
+              <span class="econ-name">🟡 Fed Vice Chair for Supervisi</span>
+              <span class="econ-time">9:15am</span>
+            </div>
+            <div class="econ-item ">
+              <span class="econ-day">Wed 5/20</span>
+              <span class="econ-name">🔴 Crude Oil Inventories</span>
+              <span class="econ-time">10:30am</span>
+            </div>
+            <div class="econ-item ">
+              <span class="econ-day">Wed 5/20</span>
+              <span class="econ-name">🔴 FOMC Meeting Minutes</span>
+              <span class="econ-time">2:00pm</span>
+            </div>
+            <div class="econ-item ">
+              <span class="econ-day">Thu 5/21</span>
+              <span class="econ-name">🔴 Initial Jobless Claims</span>
+              <span class="econ-time">8:30am</span>
+            </div>
+        </div>
+        <div class="sector-panel">
+          <div class="sp-rank">HOT SECTOR</div>
+          <div class="sec-name">Communication Services</div>
+          <div class="sec-badge"><span class="badge badge-call">▲ CALLS</span></div>
+          <div class="sec-prem up">$4.1M</div>
+          <div class="sec-tickers">1C · 1P</div>
+          <div class="sec-why">Bullish call flow ($4.1M) sweeping Communication Services leading institutional positioning.</div>
+        </div></div>
+<div class="wl-card">
+  <div class="card-header">WATCHLIST</div>
+  <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+        <div class="wl-pill">
+          <span class="sym">IWM</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg down">-0.0%</span>
+        </div><span class="wl-group-label">MAG 7</span>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg down">-0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg down">-0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg up">+0.0%</span>
+        </div></div>
+</div>
+<div class="on-deck"><div class="card-header">ON DECK — NEXT 5 DAYS</div>
+            <div class="deck-row">
+              <span class="deck-date">Wed May 20</span>
+              <span class="deck-label">Crude Oil Inventories</span>
+              <span class="deck-type">Macro 10:30am</span>
+              <span class="deck-briefing">Oil inventory — impacts energy sector and inflation expectations.</span>
+              <span class="deck-detail">prev -4.306M</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Wed May 20</span>
+              <span class="deck-label">FOMC Meeting Minutes</span>
+              <span class="deck-type">Macro 2:00pm</span>
+              <span class="deck-briefing">Fed rate decision — maximum market uncertainty event. Watch statement wording.</span>
+              <span class="deck-detail">prev —</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Wed May 20</span>
+              <span class="deck-label">KEYS</span>
+              <span class="deck-type">Earnings AMC</span>
+              <span class="deck-briefing">Overnight gap into Technology/Scientific &amp; Technical Instruments, analysts rate buy, $332 target (-0%), options pricing ±15.4% move.</span>
+              <span class="deck-detail">±15.4%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Wed May 20</span>
+              <span class="deck-label">AS</span>
+              <span class="deck-type">Earnings BMO</span>
+              <span class="deck-briefing">Opens gap into Consumer Cyclical/Leisure, analysts rate strong buy, $49 target (+41%), options pricing ±11.8% move.</span>
+              <span class="deck-detail">±11.8%</span>
+            </div>
+            <div class="deck-row">
+              <span class="deck-date">Wed May 20</span>
+              <span class="deck-label">ZTO</span>
+              <span class="deck-type">Earnings AMC</span>
+              <span class="deck-briefing">Overnight gap into Industrials/Integrated Freight &amp; Logistics, analysts rate strong buy, $29 target (+23%), options pricing ±10.2% move.</span>
+              <span class="deck-detail">±10.2%</span>
+            </div></div>
+<div class="section-label">LONG TERM</div>
+<div class="longterm-card"><div class="card-header">LONG TERM WATCH — POTENTIAL BIG MOVER</div>
+            <div class="watch-item">
+              <div class="watch-top">
+                <span class="watch-ticker">KEYS</span>
+                <span class="watch-signal">Earnings AMC Wed May 20 · ±15.4% exp move</span>
+              </div>
+              <div class="watch-news">Allient, Watsco, Keysight, Gibraltar, and Limbach Shares Plummet, What You Need . A number of stocks fell in the afternoon session after the b.</div>
+            </div>
+            <div class="watch-item">
+              <div class="watch-top">
+                <span class="watch-ticker">AS</span>
+                <span class="watch-signal">Earnings BMO Wed May 20 · ±11.8% exp move</span>
+              </div>
+              <div class="watch-news">Amer Sports, Inc. (AS) Reports Q1 Earnings: What Key Metrics Have to Say. While the top- and bottom-line numbers for Amer Sports, Inc.</div>
+            </div></div>
+<div class="grid">
+
+  <div class="card">
+    <div class="card-header">EARNINGS</div>
+    <div class="card-body">
+        <table>
+          <thead><tr>
+            <th>WHEN</th><th>TICKER</th><th>STRAT</th><th>TIME</th>
+            <th>EXP MOVE</th><th>AH MOVE</th><th>EPS EST</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">CAVA</span><span class="history-tag">Beat 3/4 · avg +0%</span></td>
+              <td><span class="strat-badge">M:2↓</span><span class="strat-badge">W:2↑</span><span class="strat-badge">D:2↓</span></td>
+              <td class="muted">AMC</td>
+              <td><span class="exp-move">±19.7%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">0.17</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">Why CAVA (CAVA) Stock Is Up Today. Shares of mediterranean fast-casual restaurant chain CAVA (N.</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Overnight gap into Consumer Cyclical/Restaurants, analysts rate buy, $90 target (+15%), options pricing ±19.8% move.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">JHX</span><span class="history-tag">Beat 2/3 · avg +0%</span></td>
+              <td><span class="strat-badge">M:1</span><span class="strat-badge">W:1</span><span class="strat-badge">D:2↓</span></td>
+              <td class="muted">AMC</td>
+              <td><span class="exp-move">±25.8%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">0.3</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">A Look At James Hardie Industries (ASX:JHX) Valuation After Recent Share Price S. James Hardie Industries (ASX:JHX) is back on watch for inves.</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Overnight gap into Basic Materials/Building Materials, analysts rate strong buy, $29 target (+53%), options pricing ±25.9% move.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-amc">AMC</span></td>
+              <td><span class="ticker">VSAT</span><span class="history-tag">Beat 3/4 · avg +5%</span></td>
+              <td><span class="strat-badge">M:2↑</span><span class="strat-badge">W:2↓</span><span class="strat-badge">D:2↓</span></td>
+              <td class="muted">AMC</td>
+              <td><span class="exp-move">±22.8%</span></td>
+              <td><span class="muted">—</span></td>
+              <td class="muted">0.32</td>
+            </tr><tr class="why-row"><td colspan="7"><span class="why-news">Rocket Lab Shares Jump as SpaceX IPO Buzz Lifts Space Sector. Rocket Lab Surges as Musk Revives SpaceX Listing Plans.</span></td></tr><tr class="briefing-row"><td colspan="7"><span class="why-context">Overnight gap into Technology/Communication Equipment, analysts rate buy, $61 target (-13%), options pricing ±22.8% move.</span></td></tr></tbody>
+        </table></div><div class="charts-grid">
+                <div class="chart-block">
+                  <div class="chart-label">
+                    <span class="ticker">JHX</span>
+                    <span class="badge badge-amc">AMC</span>
+                    <span class="meta">±25.8% exp move</span>
+                  </div>
+                  <img src="charts/JHX_2026-05-19.png" alt="JHX chart">
+                </div><div class="chart-side-panel"><div class="csp-title">Company Events</div>
+            <div class="csp-item">
+              <div class="csp-label">VIAV</div>
+              <div class="csp-detail">
+                <span class="badge badge-med">Leadership Change</span>
+              </div>
+              
+            </div>
+            <div class="csp-item">
+              <div class="csp-label">COUR</div>
+              <div class="csp-detail">
+                <span class="badge badge-med">Investor Presentation</span>
+              </div>
+              
+            </div>
+            <div class="csp-item">
+              <div class="csp-label">CDE</div>
+              <div class="csp-detail">
+                <span class="badge badge-med">Material Announcement</span>
+              </div>
+              
+            </div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">ECONOMIC — TODAY</div>
+    <div class="card-body"><table>
+          <thead><tr>
+            <th>IMPACT</th><th>EVENT</th><th>TIME (ET)</th><th>PREV</th><th>FORECAST</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-med">MED</span></td>
+              <td>Fed Waller Speaks</td>
+              <td class="muted">8:00am</td>
+              <td class="muted">—</td>
+              <td class="muted">—</td>
+            </tr><tr class="briefing-row"><td colspan="5"><span class="why-news">Economic data release. Prev: —, Forecast: —.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-med">MED</span></td>
+              <td>ADP Employment Change Weekly</td>
+              <td class="muted">8:15am</td>
+              <td class="muted">33.00K</td>
+              <td class="muted">—</td>
+            </tr><tr class="briefing-row"><td colspan="5"><span class="why-news">Economic data release. Prev: 33.00K, Forecast: —.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-med">MED</span></td>
+              <td>Pending Home Sales (MoM)  (Apr)</td>
+              <td class="muted">10:00am</td>
+              <td class="muted">1.7%</td>
+              <td class="muted">1.0%</td>
+            </tr><tr class="briefing-row"><td colspan="5"><span class="why-news">Economic data release. Prev: 1.5%, Forecast: 1.0%.</span></td></tr>
+            <tr>
+              <td><span class="badge badge-med">MED</span></td>
+              <td>API Weekly Crude Oil Stock</td>
+              <td class="muted">4:30pm</td>
+              <td class="muted">-2.188M</td>
+              <td class="muted">-3.400M</td>
+            </tr><tr class="briefing-row"><td colspan="5"><span class="why-news">Oil inventory — impacts energy sector and inflation expectations. Prev -2.188M → est -3.400M.</span></td></tr></tbody>
+        </table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">UNUSUAL OPTIONS</div>
+    <div class="card-body"><table>
+          <thead><tr>
+            <th>TICKER</th><th>TYPE</th><th>STRIKE</th><th>VOL/OI</th><th>PREMIUM</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="ticker">NVDA</span></td>
+              <td><span class="badge badge-call">CALL</span></td>
+              <td class="muted">$1650</td>
+              <td><span class="exp-move">7.1x</span></td>
+              <td><span class="up">$2.3M</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">NOK</span></td>
+              <td><span class="badge badge-put">PUT</span></td>
+              <td class="muted">$17</td>
+              <td><span class="exp-move">7.9x</span></td>
+              <td><span class="down">$81K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">IREN</span></td>
+              <td><span class="badge badge-put">PUT</span></td>
+              <td class="muted">$110</td>
+              <td><span class="exp-move">4.6x</span></td>
+              <td><span class="down">$466K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">RKT</span></td>
+              <td><span class="badge badge-call">CALL</span></td>
+              <td class="muted">$12</td>
+              <td><span class="exp-move">3.6x</span></td>
+              <td><span class="up">$123K</span></td>
+            </tr>
+            <tr>
+              <td><span class="ticker">NFLX</span></td>
+              <td><span class="badge badge-call">CALL</span></td>
+              <td class="muted">$1295</td>
+              <td><span class="exp-move">5.0x</span></td>
+              <td><span class="up">$542K</span></td>
+            </tr></tbody>
+        </table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">SECTOR FLOW</div>
+    <div class="heat-grid">
+            <div class="heat-pill">
+              <span class="sector-name">Communication Services</span>
+              <span class="muted">◆</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$4.1M</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Semis</span>
+              <span class="heat-calls">▲</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">0P</span>
+              <span class="heat-prem">$2.3M</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Financial Services</span>
+              <span class="muted">◆</span>
+              <span class="heat-calls">1C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$589K</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Tech</span>
+              <span class="heat-puts">▼</span>
+              <span class="heat-calls">0C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$339K</span>
+            </div>
+            <div class="heat-pill">
+              <span class="sector-name">Technology</span>
+              <span class="heat-puts">▼</span>
+              <span class="heat-calls">0C</span>
+              <span class="heat-puts">1P</span>
+              <span class="heat-prem">$81K</span>
+            </div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">FDA / BIOTECH</div>
+    <div class="empty">No upcoming FDA events in the next 14 days.</div>
+  </div>
+
+</div>
+</body>
+</html>
