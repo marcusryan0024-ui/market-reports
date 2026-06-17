@@ -3583,5 +3583,347 @@
         }
       ]
     }
+  },
+  "2026-06-17": {
+    "headline": "FOMC DECISION DAY — WARSH'S FIRST PRESSER: Futures flat (S&P +0.05%, Nasdaq +0.50%). QURE +67% on FDA Huntington's BLA path. JBL beats+raises. INTC 18A-P in risk production. Iran MOU not final. $44B ETF accumulation yesterday. Statement 2 PM ET, Warsh presser 2:30 PM ET.",
+    "overview": "Markets coiled into Warsh's first FOMC press conference — the week's centerpiece. Futures subdued: S&P +0.05%, Nasdaq +0.50%, Russell +0.15%, Dow -0.03%. Consensus holds at 3.50-3.75% with no change expected; the presser will be scrutinized for forward guidance, dot plot shifts, and Warsh's communication style. The Iran MOU is not final — Trump warned the US would resume bombing if the deal falls through; WTI +0.8% to $76.53 but Brent hovering near $79. QURE the standout mover: +67%+ pre-market after FDA confirmed 3-year Phase I/II data is acceptable for accelerated BLA filing for AMT-130 in Huntington's disease. JBL beat Q3 EPS ($3.16 vs $3.10) and revenue ($8.75B vs $8.61B) while raising Q4 guidance on strong AI infrastructure demand. INTC 18A-P entered risk production.",
+    "market_context": "Yesterday's FOMC Day 1 traded constructively — markets held the Iran-deal gap from Monday with the key tell in the ETF tape: SPY $21.8B ask + IVV $15.8B ask + QQQ $6.7B ask = ~$44B ETF accumulation, capped by a single $6.5B SPY ask AH (largest single DP print on the board). That's institutional pre-positioning at scale the day before Warsh's debut. Retail Sales at 8:30 AM ET is the only morning data that matters — hot read complicates the Fed's hold narrative. Then markets go quiet until 2 PM. History says: 2 PM creates the fake move, 2:30 presser creates the real one. MU led total dark pool flow Tuesday at $5.2B (bid), followed by SNDK $2.5B ask and NVDA $2.4B ask. VIX below 19 — subdued risk expectations into the event.",
+    "setups": [
+      {
+        "ticker": "QURE",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "FDA confirmed 3-yr AMT-130 Phase I/II data acceptable for accelerated BLA — planned Q3 2026",
+        "why": "QURE +67%+ pre-market on massive gene-therapy regulatory catalyst. Reverses last November's setback. Bullish kicker showing confluence. Biotech catalyst of the year."
+      },
+      {
+        "ticker": "ASML",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "Conference today (VivaTech 2026), current mover with DP on the board",
+        "why": "ASML bullish kicker with conference catalyst today. Chip equipment recovering after recent pullback — ORCL $40B capex + AI infra narrative intact."
+      },
+      {
+        "ticker": "LRCX",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "Dividend today, bullish kicker signal",
+        "why": "LRCX bullish kicker on dividend day. Chip equipment sector broadly recovering. Dividend provides additional institutional attention today."
+      },
+      {
+        "ticker": "NFLX",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "Conference today (VivaTech 2026), $157M dark pool ask AH prior session",
+        "why": "NFLX Outside bar with VivaTech 2026 conference catalyst today. $157M dark pool ask from Tuesday remains overhead. Direction contingent on FOMC tone — wait for 2:30 confirmation."
+      },
+      {
+        "ticker": "AMAT",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "$260M dark pool mixed — chip equipment elevated on AI capex narrative",
+        "why": "AMAT Outside bar expansion with prior dark pool mixed flow. Chip equipment names recovering on sustained AI build narrative. FOMC direction will set the move."
+      },
+      {
+        "ticker": "BABA",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "Conference today (VivaTech 2026), Beijing regulatory scrutiny ongoing",
+        "why": "BABA Failed 2D with regulatory overhang and conference today. Beijing summoned e-commerce platforms for scrutiny last session. Bearish pattern — watch for continuation lower."
+      },
+      {
+        "ticker": "TSLA",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "Conference next Monday, dark pool $276M ask Tuesday AH",
+        "why": "TSLA Failed 2D with $276M ask from Tuesday. Conference catalyst is next Monday — no near-term positive catalyst to reverse bearish structure. Follow-through lower if market goes risk-off on FOMC."
+      },
+      {
+        "ticker": "WMT",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Conference today",
+        "why": "WMT Failed 2U with conference today. Bearish reversal pattern post-conference appearance — macro consumer data (Retail Sales 8:30 AM) could amplify or dampen the move."
+      },
+      {
+        "ticker": "GEV",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Conference today (VivaTech 2026), Analyst Day also today",
+        "why": "GEV Failed 2U with both conference and Analyst Day today. Bearish reversal signal into a catalyst-heavy day — watch for direction post-Retail Sales."
+      },
+      {
+        "ticker": "LOW",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Virtual Fireside Chat tomorrow, flow surge noted",
+        "why": "LOW Inside bar with notable flow surge and event catalyst tomorrow. Compression into FOMC — direction from rate sensitivity. Hold/dovish Fed = bullish break; hawkish = bearish break."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "QURE",
+        "pct": "+67%",
+        "why": "FDA confirmed 3-year AMT-130 Phase I/II data is acceptable basis for accelerated BLA filing for Huntington's disease (Q3 2026 planned). Reverses November 2025 regulatory setback. Gene therapy breakthrough catalyst.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "LZB",
+        "pct": "+16.2%",
+        "why": "La-Z-Boy earnings beat plus announced new $300 million share repurchase program. Consumer discretionary name firing on both earnings and capital return.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "MCRP",
+        "pct": "+18.8%",
+        "why": "Secures five-year Abu Dhabi autonomous services deal — international expansion catalyst driving the spike.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "JBL",
+        "pct": "+beat",
+        "why": "Q3 EPS $3.16 vs $3.10 est, revenue $8.75B vs $8.61B. Raised Q4 EPS and revenue guidance above consensus citing exceptionally strong AI infrastructure demand in automotive and connected living markets.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "INTC",
+        "pct": "+3.6%",
+        "why": "Intel announced 18A-P, the first performance enhancement in the Intel 18A family, has entered risk production — key milestone in foundry turnaround. Confirms process roadmap execution on schedule.",
+        "flow": "",
+        "levels": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "LION",
+        "pct": "-5.6%",
+        "why": "Netflix confirmed it is not interested in acquiring Lionsgate and did not submit a bid for Roku. M&A premium evaporates — Lionsgate reverts to standalone valuation without consolidation catalyst.",
+        "flow": ""
+      },
+      {
+        "ticker": "SOPH",
+        "pct": "-4.7%",
+        "why": "Share offering of 10,526,000 ordinary shares at $4.75 per share — dilution overhang driving the selloff.",
+        "flow": ""
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "XOM",
+        "pct": "",
+        "news": "WTI +0.8% to $76.53, Brent ~$79 — modest overnight rebound but Iran MOU not final. Trump says US would resume bombing if deal falls through. Iran set to regain oil export rights if signed. Oil range-bound until deal is confirmed or collapses."
+      },
+      {
+        "ticker": "CVX",
+        "pct": "",
+        "news": "Same Iran dynamic — $220M dark pool bid from Tuesday signals institutions still buying the dip on CVX even as oil fell sharply from $93 highs. Deal confirmation or collapse is the catalyst for the next big move."
+      },
+      {
+        "ticker": "OXY",
+        "pct": "",
+        "news": "Energy under continued pressure from Iran deal oil export restoration narrative. WTI holding $76 after Iran MOU — market waiting for Supreme Leader confirmation before pricing in the full export increase."
+      },
+      {
+        "ticker": "SPCX",
+        "pct": "",
+        "news": "SpaceX continues trading post-IPO. ASTS +5.9% today on three BlueBird satellite launches — space sector remains active. Trump pro-space deregulation narrative intact. SPCX debut premium holding or establishing new range."
+      },
+      {
+        "ticker": "MSTR",
+        "pct": "",
+        "news": "Bitcoin directionally tied to FOMC outcome. Hold decision with dovish Warsh tone = risk-on, crypto lifts. Hawkish surprise = risk-off. Watching BTC price action at 2:30 PM as FOMC proxy."
+      }
+    ],
+    "trump_context": [
+      "Iran deal status is in flux. Trump stated the Memorandum of Understanding is not final and that the US would go back to bombing Iran if he doesn't like the deal. Iran is set to regain oil export rights as part of the framework — which is the key oil price lever. WTI at $76.53 reflects partial deal pricing. Full confirmation by the Supreme Leader (not yet given) would push WTI potentially to $72-74; a collapse would spike oil back toward $90+. Energy names are rangebound until resolution. The ECB cautioned that the Iran agreement alone may not eliminate the need for further monetary tightening, particularly as wage growth is expected to accelerate.",
+      "Warsh's FOMC debut is the Trump political economy story of the day. Kevin Warsh was Trump's pick for Fed Chair — his first press conference at 2:30 PM ET will be scrutinized for forward guidance philosophy, balance sheet strategy, and whether he shifts the dot plot. The consensus expects 3.50-3.75% hold, but markets want to know if Warsh is more hawkish than Powell on inflation or more willing to cut if growth weakens. The Iran deal removing the oil inflation lever gave Warsh political cover to hold without appearing weak — markets priced in a hold with the VIX below 19 heading in."
+    ],
+    "darkpool": [
+      {
+        "ticker": "SPY",
+        "size": "$6.5B",
+        "side": "ask",
+        "note": "AH Tuesday — single largest DP print on the board; part of ~$44B ETF accumulation day"
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$500M",
+        "side": "bid",
+        "note": "AH Tuesday — day's largest single name print"
+      },
+      {
+        "ticker": "SNOW",
+        "size": "$304M",
+        "side": "bid",
+        "note": "AH Tuesday — institutional accumulation"
+      },
+      {
+        "ticker": "GOOG",
+        "size": "$278M",
+        "side": "bid",
+        "note": "Tuesday session"
+      },
+      {
+        "ticker": "AMD",
+        "size": "$275M",
+        "side": "ask",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "MU",
+        "size": "$253M",
+        "side": "bid",
+        "note": "AH Tuesday — part of $5.2B total flow (led the board)"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$245M",
+        "side": "bid",
+        "note": "AH Tuesday — part of $2.4B total flow"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$233M",
+        "side": "ask",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "GS",
+        "size": "$233M",
+        "side": "mixed",
+        "note": "AH Tuesday — financials watching FOMC closely"
+      },
+      {
+        "ticker": "V",
+        "size": "$200M",
+        "side": "mixed",
+        "note": "AH Tuesday"
+      }
+    ],
+    "events": [
+      {
+        "type": "8:30 AM ET",
+        "detail": "May Retail Sales — consumer spending check. Hot read = inflation pressure, complicates Fed hold narrative. Building Permits and Housing Starts also at 8:30."
+      },
+      {
+        "type": "10:00 AM ET",
+        "detail": "April Business Inventories + May Pending Home Sales — secondary reads, unlikely to move markets with FOMC dominating."
+      },
+      {
+        "type": "2:00 PM ET",
+        "detail": "FOMC Rate Decision + Summary of Economic Projections (SEP) + Updated Dot Plot. Consensus: hold at 3.50-3.75%. Markets watching dot plot for rate cut signals or hawkish pivots."
+      },
+      {
+        "type": "2:30 PM ET",
+        "detail": "Fed Chair Kevin Warsh Press Conference — his FIRST as Fed Chair. Every word scrutinized: forward guidance framework, balance sheet plans, inflation tolerance, continuity vs change from Powell era."
+      },
+      {
+        "type": "Conferences",
+        "detail": "17 conferences today — NVDA, AMZN, GEV, NFLX, ADBE, BABA at VivaTech 2026 (Paris). ASML also presenting. Analyst Days: SLB, PGR, MH."
+      },
+      {
+        "type": "Annual Meetings",
+        "detail": "11 shareholder meetings: SOFI, CRWD, EBAY, VRT and more."
+      },
+      {
+        "type": "Dividends",
+        "detail": "LRCX, HBAN dividends today."
+      },
+      {
+        "type": "Biotech",
+        "detail": "QURE FDA catalyst — 3-year AMT-130 Phase I/II data accepted for accelerated BLA approval in Huntington's disease. BLA planned Q3 2026."
+      }
+    ],
+    "morning_prep": {
+      "theme": "Patience IS the trade today — FOMC Day 2. Stay flat/small until 2 PM. Trade the REACTION at 2:30, not the prediction. Protect capital. Cleaner setups come Thursday, Monday, Tuesday post-FOMC.",
+      "rules": [
+        "FOMC framework: 2 PM = fake move, 2:30 PM Warsh presser = real move — wait for the real one",
+        "Size DOWN going into 2 PM — one failed FOMC candle destroys options premium fast",
+        "Trade the reaction: break of 2 PM candle OR 2:30 PM candle — not a straddle",
+        "Flow alone is not enough — price action confirms first (MRVL lesson: rejected prior highs despite flow)",
+        "ADR resistance = real resistance — take profits when ADR aligns with overhead (don't ignore range exhaustion)",
+        "Don't trade every headline (Iran deal noise, Trump tweets) — let price show direction",
+        "If you've never traded FOMC: paper trade or observe only today"
+      ],
+      "market": "Markets coiled pre-FOMC — $44B in ETF accumulation yesterday telegraphed institutional positioning. VIX below 19 = subdued expectations. Retail Sales at 8:30 is the only pre-Fed print that matters. SPY daily: Failed 2-Up, gap filled, slow bounce — monthly and quarterly structure still constructive. Real opportunity window: after 2:30 PM today, then Thursday, then following Monday/Tuesday.",
+      "setups": [
+        {
+          "ticker": "QURE",
+          "tier": 1,
+          "catalyst": "FDA confirmed 3-yr AMT-130 data acceptable for accelerated BLA — +67% pre-market",
+          "levels": "Pre-market range / first 15-min high",
+          "bull": "Holds gains + builds range → continuation higher on gene therapy mania",
+          "bear": "Gives back gap → wait for structure to reform before re-entry",
+          "note": "★ Biggest catalyst of the day. Bullish kicker + confluence. Extremely volatile at open — wait for range to set, size small."
+        },
+        {
+          "ticker": "CRWV",
+          "tier": 1,
+          "catalyst": "Institutional July 135 call buying — stock near $117, positioning for continued upside",
+          "levels": "$120 resistance / breakout above recent highs",
+          "bull": "Holds support, pushes through $120+ → July 135 calls gain momentum",
+          "bear": "",
+          "note": "Strong uptrend — breakout, pullback, continuation setup. Nasdaq-100 add provides passive buying tailwind."
+        },
+        {
+          "ticker": "CPNG",
+          "tier": 1,
+          "catalyst": "Call wall + extreme volume at $18.00-$18.10",
+          "levels": "$18.00-18.10 breakout level",
+          "bull": "Sustained move above $18.10 with volume → call wall squeeze higher",
+          "bear": "Fails to hold $18 → distribution",
+          "note": "Extreme volume + heavy flow + technical level = high-probability setup IF price confirms. Wait for sustained break above $18.10."
+        },
+        {
+          "ticker": "LYFT",
+          "tier": 1,
+          "catalyst": "Analyst upgrade to Buy at Rothschild & Co Redburn, tgt $22 (current ~$14.28)",
+          "levels": "Today's high",
+          "bull": "Holds upgrade move + breaks today's high → momentum continuation",
+          "bear": "Fails to hold upgrade move → loses momentum quickly",
+          "note": "Fresh analyst catalyst with momentum. Alert at today's high. Don't chase extended candles — wait for price to confirm."
+        },
+        {
+          "ticker": "GE",
+          "tier": 2,
+          "catalyst": "All-time high breakout — bullish flow, strong uptrend, relative strength",
+          "levels": "All-time highs",
+          "bull": "Continuation above ATH on market strength post-FOMC",
+          "bear": "",
+          "note": "Aerospace/defense name with bullish flow. Post-FOMC dovish setup = risk-on continuation."
+        },
+        {
+          "ticker": "PG",
+          "tier": 2,
+          "catalyst": "Consolidation breakout, July call flow, cheap contracts",
+          "levels": "Current range high",
+          "bull": "Breakout from range with volume → July call flow monetizes",
+          "bear": "",
+          "note": "Repeat winning setup structure. Low-cost July calls. Defensive name that can work in any FOMC outcome."
+        },
+        {
+          "ticker": "JBL",
+          "tier": 2,
+          "catalyst": "Earnings beat + guidance raise — bullish kicker pattern, near all-time highs",
+          "levels": "ATH / order blocks below",
+          "bull": "Follow-through continuation post-earnings on AI infra demand theme",
+          "bear": "Runs into ATH resistance → stalls even on great earnings",
+          "note": "Great earnings can fail at resistance. Always identify order blocks and gap levels before chasing momentum."
+        },
+        {
+          "ticker": "NFLX",
+          "tier": 2,
+          "catalyst": "Outside (3) + VivaTech 2026 conference today",
+          "levels": "",
+          "bull": "FOMC dovish + outside bar continuation → conference catalyst amplifies",
+          "bear": "",
+          "note": "Direction from FOMC. Outside bar expansion signal with conference catalyst. Don't position before 2 PM."
+        }
+      ]
+    }
   }
 }
