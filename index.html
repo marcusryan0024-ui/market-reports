@@ -365,94 +365,88 @@ function tick(){
     requestAnimationFrame(frame);
   });
 
-  // live data from Yahoo Finance
+  // live data — v8 chart endpoint (CORS-safe, covers prices + sparklines)
   var ALL_SYMS=["SPY", "QQQ", "IWM", "^VIX", "AAPL", "META", "AMZN", "MSFT", "GOOGL", "AMD", "BTC-USD", "NVDA", "GLD", "TSLA", "XLE"];
   var CARD_SYMS=["SPY", "QQQ", "IWM", "XLE"];
   function fmt(n,isBtc){return isBtc?Math.round(n).toLocaleString():n.toFixed(2)}
   function fmtChg(p){return(p>=0?'+':'')+p.toFixed(2)+'%'}
 
-  async function loadQuotes(){
+  async function loadSymbol(sym){
     try{
-      var all=[...new Set([...ALL_SYMS,...CARD_SYMS])];
-      var r=await fetch('https://query1.finance.yahoo.com/v7/finance/quote?symbols='+encodeURIComponent(all.join(',')),{signal:AbortSignal.timeout(8000)});
+      var r=await fetch('https://query2.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(sym)+'?interval=5m&range=1d',{signal:AbortSignal.timeout(8000)});
       if(!r.ok)throw 0;
       var d=await r.json();
-      (d.quoteResponse.result||[]).forEach(function(q){
-        var sym=q.symbol,price=q.regularMarketPrice,pct=q.regularMarketChangePercent;
-        if(price==null||pct==null)return;
-        var isBtc=sym==='BTC-USD';
-        var eid=sym.replace('-','_').replace('^','');
-        var isUp=pct>=0;
-        // ticker tape
-        var tv=document.getElementById('tv_'+eid);
-        if(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(isUp?'up':'dn');}
-        // market cards
-        var cp=document.getElementById('mcp_'+eid);
-        var cc=document.getElementById('mcc_'+eid);
-        var ca=document.getElementById('mca_'+eid);
-        var mc=document.getElementById('mc_'+eid);
-        if(cp){
-          cp.textContent='$'+fmt(price,isBtc);
-          cp.classList.remove('fu','fd');
-          void cp.offsetWidth;
-          cp.classList.add(isUp?'fu':'fd');
+      var res=d.chart.result[0];
+      var meta=res.meta;
+      var price=meta.regularMarketPrice;
+      var pct=meta.regularMarketChangePercent;
+      if(price==null||pct==null)return;
+      var isBtc=sym==='BTC-USD';
+      var eid=sym.replace('-','_').replace('^','');
+      var isUp=pct>=0;
+      // ticker tape
+      var tv=document.getElementById('tv_'+eid);
+      if(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(isUp?'up':'dn');}
+      // market cards
+      var cp=document.getElementById('mcp_'+eid);
+      var cc=document.getElementById('mcc_'+eid);
+      var ca=document.getElementById('mca_'+eid);
+      var mc=document.getElementById('mc_'+eid);
+      if(cp){
+        cp.textContent='$'+fmt(price,isBtc);
+        cp.classList.remove('fu','fd');
+        void cp.offsetWidth;
+        cp.classList.add(isUp?'fu':'fd');
+      }
+      if(cc){cc.textContent=(isUp?'▲ ':'▼ ')+fmtChg(pct);cc.className='mc-chg '+(isUp?'up':'dn');}
+      if(ca){ca.style.background=isUp?'linear-gradient(90deg,#23863670,#3fb95030,transparent)':'linear-gradient(90deg,#f8514960,#f8514920,transparent)';}
+      if(mc){mc.style.boxShadow=isUp?'0 4px 28px #3fb95018,0 18px 48px #00000090':'0 4px 28px #f8514918,0 18px 48px #00000090';mc.style.borderColor=isUp?'#23863630':'#f8514930';}
+      // day range bar
+      var low=meta.regularMarketDayLow,high=meta.regularMarketDayHigh;
+      if(low&&high&&high>low){
+        var pos=Math.max(0,Math.min(100,(price-low)/(high-low)*100));
+        var rdot=document.getElementById('mcrd_'+eid);
+        var rl=document.getElementById('mcrl_'+eid);
+        var rh=document.getElementById('mcrh_'+eid);
+        if(rdot){rdot.style.left=pos+'%';rdot.style.background=isUp?'#3fb950':'#f85149';}
+        if(rl)rl.textContent='$'+fmt(low,isBtc);
+        if(rh)rh.textContent='$'+fmt(high,isBtc);
+      }
+      // ambient market glow from SPY
+      if(sym==='SPY'){
+        var amb=document.getElementById('mkt-amb');
+        if(amb){
+          var gc=isUp?'rgba(35,134,54,0.09)':'rgba(248,81,73,0.09)';
+          amb.style.background='radial-gradient(ellipse 80% 60% at 50% 0%,'+gc+',transparent)';
+          amb.style.opacity='1';
         }
-        if(cc){cc.textContent=(isUp?'▲ ':'▼ ')+fmtChg(pct);cc.className='mc-chg '+(isUp?'up':'dn');}
-        if(ca){ca.style.background=isUp?'linear-gradient(90deg,#23863670,#3fb95030,transparent)':'linear-gradient(90deg,#f8514960,#f8514920,transparent)';}
-        if(mc){mc.style.boxShadow=isUp?'0 4px 28px #3fb95018,0 18px 48px #00000090':'0 4px 28px #f8514918,0 18px 48px #00000090';mc.style.borderColor=isUp?'#23863630':'#f8514930';}
-        // day range bar
-        var low=q.regularMarketDayLow,high=q.regularMarketDayHigh;
-        if(low&&high&&high>low){
-          var pos=Math.max(0,Math.min(100,(price-low)/(high-low)*100));
-          var rdot=document.getElementById('mcrd_'+eid);
-          var rl=document.getElementById('mcrl_'+eid);
-          var rh=document.getElementById('mcrh_'+eid);
-          if(rdot){rdot.style.left=pos+'%';rdot.style.background=isUp?'#3fb950':'#f85149';}
-          if(rl)rl.textContent='$'+fmt(low,isBtc);
-          if(rh)rh.textContent='$'+fmt(high,isBtc);
-        }
-        // ambient market glow from SPY
-        if(sym==='SPY'){
-          var amb=document.getElementById('mkt-amb');
-          if(amb){
-            var gc=isUp?'rgba(35,134,54,0.09)':'rgba(248,81,73,0.09)';
-            amb.style.background='radial-gradient(ellipse 80% 60% at 50% 0%,'+gc+',transparent)';
-            amb.style.opacity='1';
+      }
+      // sparkline (card symbols only)
+      if(CARD_SYMS.indexOf(sym)!==-1){
+        var closes=(res.indicators.quote[0].close||[]).filter(function(x){return x!=null});
+        if(closes.length>=3){
+          var mn=Math.min.apply(null,closes),mx=Math.max.apply(null,closes),rng=mx-mn||1;
+          var W=100,H=46;
+          var pts=closes.map(function(c,i){
+            return (i/(closes.length-1)*W).toFixed(1)+','+(H-((c-mn)/rng*H)).toFixed(1);
+          }).join(' ');
+          var col=isUp?'#3fb950':'#f85149';
+          var svg=document.getElementById('mcs_'+eid);
+          if(svg){
+            svg.innerHTML='<defs><linearGradient id="g'+eid+'" x1="0" y1="0" x2="0" y2="1">'
+              +'<stop offset="0%" stop-color="'+col+'" stop-opacity="0.25"/>'
+              +'<stop offset="100%" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
+              +'<polygon points="0,'+H+' '+pts+' '+W+','+H+'" fill="url(#g'+eid+')"/>'
+              +'<polyline points="'+pts+'" stroke="'+col+'" stroke-width="1.6" fill="none" stroke-linejoin="round"/>';
           }
         }
-      });
+      }
     }catch(e){}
   }
 
-  async function loadSpark(sym){
-    try{
-      var r=await fetch('https://query1.finance.yahoo.com/v8/finance/chart/'+sym+'?interval=5m&range=1d',{signal:AbortSignal.timeout(8000)});
-      if(!r.ok)throw 0;
-      var d=await r.json();
-      var closes=(d.chart.result[0].indicators.quote[0].close||[]).filter(function(x){return x!=null});
-      if(closes.length<3)throw 0;
-      var mn=Math.min.apply(null,closes),mx=Math.max.apply(null,closes),rng=mx-mn||1;
-      var W=100,H=46;
-      var pts=closes.map(function(c,i){
-        return (i/(closes.length-1)*W).toFixed(1)+','+(H-((c-mn)/rng*H)).toFixed(1);
-      }).join(' ');
-      var isUp=closes[closes.length-1]>=closes[0];
-      var col=isUp?'#3fb950':'#f85149';
-      var sid=sym.replace('-','_').replace('^','');
-      var svg=document.getElementById('mcs_'+sid);
-      if(!svg)return;
-      svg.innerHTML='<defs><linearGradient id="g'+sid+'" x1="0" y1="0" x2="0" y2="1">'
-        +'<stop offset="0%" stop-color="'+col+'" stop-opacity="0.25"/>'
-        +'<stop offset="100%" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
-        +'<polygon points="0,'+H+' '+pts+' '+W+','+H+'" fill="url(#g'+sid+')"/>'
-        +'<polyline points="'+pts+'" stroke="'+col+'" stroke-width="1.6" fill="none" stroke-linejoin="round"/>';
-    }catch(e){}
-  }
-
-  loadQuotes();
-  setInterval(loadQuotes,60000);
-  CARD_SYMS.forEach(loadSpark);
-  setInterval(function(){CARD_SYMS.forEach(loadSpark);},300000);
+  function loadAll(){[...new Set([...ALL_SYMS,...CARD_SYMS])].forEach(loadSymbol);}
+  loadAll();
+  setInterval(loadAll,60000);
 })();
 </script>
 </body>
