@@ -151,12 +151,12 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
   <div class="mc-price" id="mcp_IWM">—</div>
   <div class="mc-chg" id="mcc_IWM">—</div>
   <svg class="mc-spark" id="mcs_IWM" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
-</div><div class="mc" id="mc_VIX">
-  <div class="mc-accent" id="mca_VIX"></div>
-  <div class="mc-top"><span class="mc-sym">VIX</span><span class="mc-name">Volatility Index</span></div>
-  <div class="mc-price" id="mcp_VIX">—</div>
-  <div class="mc-chg" id="mcc_VIX">—</div><div class="vix-regime-row"><span id="vix-reg" class="vix-reg">LOADING</span></div>
-  <svg class="mc-spark" id="mcs_VIX" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
+</div><div class="mc" id="mc_XLE">
+  <div class="mc-accent" id="mca_XLE"></div>
+  <div class="mc-top"><span class="mc-sym">XLE</span><span class="mc-name">Energy ETF</span></div>
+  <div class="mc-price" id="mcp_XLE">—</div>
+  <div class="mc-chg" id="mcc_XLE">—</div>
+  <svg class="mc-spark" id="mcs_XLE" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
 </div>
 </div>
 <div class="heat-wrap">
@@ -364,7 +364,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 
   // live data from Yahoo Finance
   var ALL_SYMS=["SPY", "QQQ", "IWM", "^VIX", "AAPL", "META", "AMZN", "MSFT", "GOOGL", "AMD", "BTC-USD", "NVDA", "GLD", "TSLA", "XLK", "XLF", "XLC", "XLV", "XLE", "XLI", "XLB", "XLRE", "XLU", "XLP", "XLY"];
-  var CARD_SYMS=["SPY", "QQQ", "IWM", "^VIX"];
+  var CARD_SYMS=["SPY", "QQQ", "IWM", "XLE"];
   var SECTOR_SYMS=["XLK", "XLF", "XLC", "XLV", "XLE", "XLI", "XLB", "XLRE", "XLU", "XLP", "XLY"];
   function fmt(n,isBtc){return isBtc?Math.round(n).toLocaleString():n.toFixed(2)}
   function fmtChg(p){return(p>=0?'+':'')+p.toFixed(2)+'%'}
