@@ -51,7 +51,18 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 .mc-price{font-size:36px;font-weight:700;color:#f0f6fc;font-family:ui-monospace,'SF Mono',monospace;font-variant-numeric:tabular-nums;letter-spacing:-.04em;line-height:1;margin-bottom:6px}
 .mc-chg{font-size:14px;font-weight:700;font-family:ui-monospace,'SF Mono',monospace;margin-bottom:12px;letter-spacing:.02em}
 .mc-chg.up{color:#3fb950}.mc-chg.dn{color:#f85149}.mc-chg.neu{color:#484f58}
+.mc-range{margin:2px 0 10px}
+.mc-rbar{height:3px;background:#1a2030;border-radius:2px;position:relative;margin-bottom:5px}
+.mc-rdot{width:8px;height:8px;border-radius:50%;background:#58a6ff;border:1.5px solid #040608;position:absolute;top:-2.5px;left:50%;transform:translateX(-50%);transition:left .6s ease}
+.mc-rlbl{display:flex;justify-content:space-between;font-size:9px;color:#3d444d;font-family:ui-monospace,'SF Mono',monospace}
 .mc-spark{display:block;width:100%;height:46px}
+/* ambient glow */
+#mkt-amb{position:fixed;top:0;left:0;right:0;height:420px;pointer-events:none;z-index:0;opacity:0;transition:opacity 2.5s ease}
+/* flash animations */
+@keyframes flash-up{0%,100%{color:#f0f6fc}40%{color:#3fb950}}
+@keyframes flash-dn{0%,100%{color:#f0f6fc}40%{color:#f85149}}
+.fu{animation:flash-up .7s ease-out}
+.fd{animation:flash-dn .7s ease-out}
 /* stats strip */
 .sstrip{background:#04060a;border-bottom:1px solid #0e1420;padding:0 40px;display:flex}
 .si{padding:11px 28px 11px 0;margin-right:28px;border-right:1px solid #0e1420}
@@ -94,6 +105,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 </style>
 </head>
 <body>
+<div id="mkt-amb"></div>
 <div class="abar"></div>
 <div class="twrap"><div class="ticker" id="ticker"><span class="ti"><span class="ts">SPY</span><span class="tv" id="tv_SPY">—</span></span><span class="ti"><span class="ts">QQQ</span><span class="tv" id="tv_QQQ">—</span></span><span class="ti"><span class="ts">IWM</span><span class="tv" id="tv_IWM">—</span></span><span class="ti"><span class="ts">VIX</span><span class="tv" id="tv_VIX">—</span></span><span class="ti"><span class="ts">AAPL</span><span class="tv" id="tv_AAPL">—</span></span><span class="ti"><span class="ts">META</span><span class="tv" id="tv_META">—</span></span><span class="ti"><span class="ts">AMZN</span><span class="tv" id="tv_AMZN">—</span></span><span class="ti"><span class="ts">MSFT</span><span class="tv" id="tv_MSFT">—</span></span><span class="ti"><span class="ts">GOOGL</span><span class="tv" id="tv_GOOGL">—</span></span><span class="ti"><span class="ts">AMD</span><span class="tv" id="tv_AMD">—</span></span><span class="ti"><span class="ts">BTC-USD</span><span class="tv" id="tv_BTC_USD">—</span></span><span class="ti"><span class="ts">NVDA</span><span class="tv" id="tv_NVDA">—</span></span><span class="ti"><span class="ts">GLD</span><span class="tv" id="tv_GLD">—</span></span><span class="ti"><span class="ts">TSLA</span><span class="tv" id="tv_TSLA">—</span></span><span class="ti"><span class="ts">XLE</span><span class="tv" id="tv_XLE">—</span></span><span class="ti"><span class="ts">SPY</span><span class="tv" id="tv_SPY">—</span></span><span class="ti"><span class="ts">QQQ</span><span class="tv" id="tv_QQQ">—</span></span><span class="ti"><span class="ts">IWM</span><span class="tv" id="tv_IWM">—</span></span><span class="ti"><span class="ts">VIX</span><span class="tv" id="tv_VIX">—</span></span><span class="ti"><span class="ts">AAPL</span><span class="tv" id="tv_AAPL">—</span></span><span class="ti"><span class="ts">META</span><span class="tv" id="tv_META">—</span></span><span class="ti"><span class="ts">AMZN</span><span class="tv" id="tv_AMZN">—</span></span><span class="ti"><span class="ts">MSFT</span><span class="tv" id="tv_MSFT">—</span></span><span class="ti"><span class="ts">GOOGL</span><span class="tv" id="tv_GOOGL">—</span></span><span class="ti"><span class="ts">AMD</span><span class="tv" id="tv_AMD">—</span></span><span class="ti"><span class="ts">BTC-USD</span><span class="tv" id="tv_BTC_USD">—</span></span><span class="ti"><span class="ts">NVDA</span><span class="tv" id="tv_NVDA">—</span></span><span class="ti"><span class="ts">GLD</span><span class="tv" id="tv_GLD">—</span></span><span class="ti"><span class="ts">TSLA</span><span class="tv" id="tv_TSLA">—</span></span><span class="ti"><span class="ts">XLE</span><span class="tv" id="tv_XLE">—</span></span><span class="ti"><span class="ts">SPY</span><span class="tv" id="tv_SPY">—</span></span><span class="ti"><span class="ts">QQQ</span><span class="tv" id="tv_QQQ">—</span></span><span class="ti"><span class="ts">IWM</span><span class="tv" id="tv_IWM">—</span></span><span class="ti"><span class="ts">VIX</span><span class="tv" id="tv_VIX">—</span></span><span class="ti"><span class="ts">AAPL</span><span class="tv" id="tv_AAPL">—</span></span><span class="ti"><span class="ts">META</span><span class="tv" id="tv_META">—</span></span><span class="ti"><span class="ts">AMZN</span><span class="tv" id="tv_AMZN">—</span></span><span class="ti"><span class="ts">MSFT</span><span class="tv" id="tv_MSFT">—</span></span><span class="ti"><span class="ts">GOOGL</span><span class="tv" id="tv_GOOGL">—</span></span><span class="ti"><span class="ts">AMD</span><span class="tv" id="tv_AMD">—</span></span><span class="ti"><span class="ts">BTC-USD</span><span class="tv" id="tv_BTC_USD">—</span></span><span class="ti"><span class="ts">NVDA</span><span class="tv" id="tv_NVDA">—</span></span><span class="ti"><span class="ts">GLD</span><span class="tv" id="tv_GLD">—</span></span><span class="ti"><span class="ts">TSLA</span><span class="tv" id="tv_TSLA">—</span></span><span class="ti"><span class="ts">XLE</span><span class="tv" id="tv_XLE">—</span></span></div></div>
 <div class="header">
@@ -123,25 +135,29 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
   <div class="mc-top"><span class="mc-sym">SPY</span><span class="mc-name">S&P 500</span></div>
   <div class="mc-price" id="mcp_SPY">—</div>
   <div class="mc-chg" id="mcc_SPY">—</div>
-  <svg class="mc-spark" id="mcs_SPY" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
+  <div class="mc-range"><div class="mc-rbar"><div class="mc-rdot" id="mcrd_SPY"></div></div><div class="mc-rlbl"><span id="mcrl_SPY">—</span><span id="mcrh_SPY">—</span></div></div>
+  <svg class="mc-spark" id="mcs_SPY" viewBox="0 0 100 46" preserveAspectRatio="none"></svg>
 </div><div class="mc" id="mc_QQQ">
   <div class="mc-accent" id="mca_QQQ"></div>
   <div class="mc-top"><span class="mc-sym">QQQ</span><span class="mc-name">Nasdaq 100</span></div>
   <div class="mc-price" id="mcp_QQQ">—</div>
   <div class="mc-chg" id="mcc_QQQ">—</div>
-  <svg class="mc-spark" id="mcs_QQQ" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
+  <div class="mc-range"><div class="mc-rbar"><div class="mc-rdot" id="mcrd_QQQ"></div></div><div class="mc-rlbl"><span id="mcrl_QQQ">—</span><span id="mcrh_QQQ">—</span></div></div>
+  <svg class="mc-spark" id="mcs_QQQ" viewBox="0 0 100 46" preserveAspectRatio="none"></svg>
 </div><div class="mc" id="mc_IWM">
   <div class="mc-accent" id="mca_IWM"></div>
   <div class="mc-top"><span class="mc-sym">IWM</span><span class="mc-name">Russell 2000</span></div>
   <div class="mc-price" id="mcp_IWM">—</div>
   <div class="mc-chg" id="mcc_IWM">—</div>
-  <svg class="mc-spark" id="mcs_IWM" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
+  <div class="mc-range"><div class="mc-rbar"><div class="mc-rdot" id="mcrd_IWM"></div></div><div class="mc-rlbl"><span id="mcrl_IWM">—</span><span id="mcrh_IWM">—</span></div></div>
+  <svg class="mc-spark" id="mcs_IWM" viewBox="0 0 100 46" preserveAspectRatio="none"></svg>
 </div><div class="mc" id="mc_XLE">
   <div class="mc-accent" id="mca_XLE"></div>
   <div class="mc-top"><span class="mc-sym">XLE</span><span class="mc-name">Energy ETF</span></div>
   <div class="mc-price" id="mcp_XLE">—</div>
   <div class="mc-chg" id="mcc_XLE">—</div>
-  <svg class="mc-spark" id="mcs_XLE" viewBox="0 0 100 32" preserveAspectRatio="none"></svg>
+  <div class="mc-range"><div class="mc-rbar"><div class="mc-rdot" id="mcrd_XLE"></div></div><div class="mc-rlbl"><span id="mcrl_XLE">—</span><span id="mcrh_XLE">—</span></div></div>
+  <svg class="mc-spark" id="mcs_XLE" viewBox="0 0 100 46" preserveAspectRatio="none"></svg>
 </div>
 </div>
 <div class="sstrip">
@@ -357,16 +373,44 @@ function tick(){
         if(price==null||pct==null)return;
         var isBtc=sym==='BTC-USD';
         var eid=sym.replace('-','_').replace('^','');
+        var isUp=pct>=0;
         // ticker tape
         var tv=document.getElementById('tv_'+eid);
-        if(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(pct>=0?'up':'dn');}
+        if(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(isUp?'up':'dn');}
         // market cards
         var cp=document.getElementById('mcp_'+eid);
         var cc=document.getElementById('mcc_'+eid);
         var ca=document.getElementById('mca_'+eid);
-        if(cp)cp.textContent='$'+fmt(price,isBtc);
-        if(cc){cc.textContent=(pct>=0?'▲ ':'▼ ')+fmtChg(pct);cc.className='mc-chg '+(pct>=0?'up':'dn');}
-        if(ca){ca.style.background=pct>=0?'linear-gradient(90deg,#23863660,#3fb95030,transparent)':'linear-gradient(90deg,#f8514940,#f8514920,transparent)';}
+        var mc=document.getElementById('mc_'+eid);
+        if(cp){
+          cp.textContent='$'+fmt(price,isBtc);
+          cp.classList.remove('fu','fd');
+          void cp.offsetWidth;
+          cp.classList.add(isUp?'fu':'fd');
+        }
+        if(cc){cc.textContent=(isUp?'▲ ':'▼ ')+fmtChg(pct);cc.className='mc-chg '+(isUp?'up':'dn');}
+        if(ca){ca.style.background=isUp?'linear-gradient(90deg,#23863670,#3fb95030,transparent)':'linear-gradient(90deg,#f8514960,#f8514920,transparent)';}
+        if(mc){mc.style.boxShadow=isUp?'0 4px 28px #3fb95018,0 18px 48px #00000090':'0 4px 28px #f8514918,0 18px 48px #00000090';mc.style.borderColor=isUp?'#23863630':'#f8514930';}
+        // day range bar
+        var low=q.regularMarketDayLow,high=q.regularMarketDayHigh;
+        if(low&&high&&high>low){
+          var pos=Math.max(0,Math.min(100,(price-low)/(high-low)*100));
+          var rdot=document.getElementById('mcrd_'+eid);
+          var rl=document.getElementById('mcrl_'+eid);
+          var rh=document.getElementById('mcrh_'+eid);
+          if(rdot){rdot.style.left=pos+'%';rdot.style.background=isUp?'#3fb950':'#f85149';}
+          if(rl)rl.textContent='$'+fmt(low,isBtc);
+          if(rh)rh.textContent='$'+fmt(high,isBtc);
+        }
+        // ambient market glow from SPY
+        if(sym==='SPY'){
+          var amb=document.getElementById('mkt-amb');
+          if(amb){
+            var gc=isUp?'rgba(35,134,54,0.09)':'rgba(248,81,73,0.09)';
+            amb.style.background='radial-gradient(ellipse 80% 60% at 50% 0%,'+gc+',transparent)';
+            amb.style.opacity='1';
+          }
+        }
       });
     }catch(e){}
   }
