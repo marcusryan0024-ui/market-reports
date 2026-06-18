@@ -385,9 +385,8 @@ function tick(){
       var isBtc=sym==='BTC-USD';
       var eid=sym.replace('-','_').replace('^','');
       var isUp=pct>=0;
-      // ticker tape
-      var tv=document.getElementById('tv_'+eid);
-      if(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(isUp?'up':'dn');}
+      // ticker tape (querySelectorAll to update all 3 duplicate copies in infinite scroll)
+      document.querySelectorAll('#tv_'+eid).forEach(function(tv){tv.textContent=fmt(price,isBtc)+' '+fmtChg(pct);tv.className='tv '+(isUp?'up':'dn');});
       // market cards
       var cp=document.getElementById('mcp_'+eid);
       var cc=document.getElementById('mcc_'+eid);
