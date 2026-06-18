@@ -14,6 +14,28 @@
         line-height: 1.5;
         padding: 24px;
     }
+    .rpt-nav {
+        display: flex; align-items: center; justify-content: space-between;
+        background: #040608; border-bottom: 1px solid #0e1420;
+        padding: 10px 24px; margin: -24px -24px 24px -24px;
+    }
+    .rpt-back {
+        font-size: 11px; font-weight: 700; color: #6e7681; text-decoration: none;
+        letter-spacing: .06em; transition: color .15s;
+    }
+    .rpt-back:hover { color: #e6edf3; }
+    .rpt-nav-btns { display: flex; gap: 8px; }
+    .rpt-btn {
+        font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
+        text-decoration: none; border: 1px solid; display: inline-flex; align-items: center;
+        gap: 5px; transition: all .14s; color: #3d444d; border-color: #1a2030; background: #0a0c10;
+    }
+    .rpt-btn:hover { transform: translateY(-1px); }
+    .rpt-pre { color: #58a6ff; border-color: #1f6feb; background: #08121e; }
+    .rpt-pre:hover { background: #0f1e38; box-shadow: 0 4px 14px #1f6feb40; }
+    .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
+    .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
+    .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
     .header {
         display: flex;
         align-items: baseline;
@@ -728,10 +750,17 @@
     </style>
 </head>
 <body>
+<div class="rpt-nav">
+  <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
+  <div class="rpt-nav-btns">
+    <a class="rpt-btn rpt-prerpt-active" href="Thursday, June 18, 2026-premarket.html">&#9651;&thinsp;Pre-Market</a>
+    <a class="rpt-btn rpt-cls" href="Thursday, June 18, 2026.html">&#9660;&thinsp;After Close</a>
+  </div>
+</div>
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">PRE-MARKET</span>
-  <span class="meta">Thursday, June 18, 2026 &nbsp;·&nbsp; 09:12 AM</span>
+  <span class="meta">Thursday, June 18, 2026 &nbsp;·&nbsp; 03:41 PM</span>
 </div>
 
 
@@ -864,7 +893,7 @@
               <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
               <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">ACN</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±21.9%</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±22.7%</span>
               <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">ACN gapped into support after -13% on $4.</span>
             </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
               <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">KR</span>
@@ -917,43 +946,43 @@
           <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">QQQ</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">SPY</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.1%</span>
         </div><span class="wl-group-label">MAG 7</span>
         <div class="wl-pill">
           <span class="sym">AAPL</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">MSFT</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">NVDA</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.3%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">GOOGL</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">AMZN</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.3%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">META</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">TSLA</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.1%</span>
         </div></div>
         </div>
 <div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
@@ -969,7 +998,7 @@
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DJT</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
@@ -978,31 +1007,31 @@
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">COIN</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">HOOD</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">INTC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
-                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.9%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">IBM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.5%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">XOM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CVX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
@@ -1014,7 +1043,7 @@
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">GEO</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CXW</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
@@ -1023,19 +1052,19 @@
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">DEFENSE</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LMT</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">RTX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NOC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NUE</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">X</span>
                   <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
