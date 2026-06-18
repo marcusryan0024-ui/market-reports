@@ -365,22 +365,23 @@ function tick(){
     requestAnimationFrame(frame);
   });
 
-  // live data — v8 chart endpoint (CORS-safe, covers prices + sparklines)
-  var ALL_SYMS=["SPY", "QQQ", "IWM", "^VIX", "AAPL", "META", "AMZN", "MSFT", "GOOGL", "AMD", "BTC-USD", "NVDA", "GLD", "TSLA", "XLE"];
-  var CARD_SYMS=["SPY", "QQQ", "IWM", "XLE"];
-  function fmt(n,isBtc){return isBtc?Math.round(n).toLocaleString():n.toFixed(2)}
-  function fmtChg(p){return(p>=0?'+':'')+p.toFixed(2)+'%'}
+  // live data — Finnhub API
+  var FHKEY='d8q014pr01qr03ncmj40d8q014pr01qr03ncmj4g';
+  var ALL_SYMS=["SPY","QQQ","IWM","^VIX","AAPL","META","AMZN","MSFT","GOOGL","AMD","BTC-USD","NVDA","GLD","TSLA","XLE"];
+  var CARD_SYMS=["SPY","QQQ","IWM","XLE"];
+  var FH_MAP={'^VIX':'VIX','BTC-USD':'BINANCE:BTCUSDT'};
+  function fhSym(s){return FH_MAP[s]||s;}
+  function fmt(n,isBtc){return isBtc?'$'+Math.round(n).toLocaleString():'$'+n.toFixed(2);}
+  function fmtChg(p){return(p>=0?'+':'')+p.toFixed(2)+'%';}
 
   async function loadSymbol(sym){
     try{
-      var r=await fetch('https://query2.finance.yahoo.com/v8/finance/chart/'+encodeURIComponent(sym)+'?interval=5m&range=1d',{signal:AbortSignal.timeout(8000)});
+      var fs=fhSym(sym);
+      var r=await fetch('https://finnhub.io/api/v1/quote?symbol='+encodeURIComponent(fs)+'&token='+FHKEY,{signal:AbortSignal.timeout(8000)});
       if(!r.ok)throw 0;
-      var d=await r.json();
-      var res=d.chart.result[0];
-      var meta=res.meta;
-      var price=meta.regularMarketPrice;
-      var pct=meta.regularMarketChangePercent;
-      if(price==null||pct==null)return;
+      var q=await r.json();
+      var price=q.c,pct=q.dp;
+      if(!price)return;
       var isBtc=sym==='BTC-USD';
       var eid=sym.replace('-','_').replace('^','');
       var isUp=pct>=0;
@@ -392,54 +393,41 @@ function tick(){
       var cc=document.getElementById('mcc_'+eid);
       var ca=document.getElementById('mca_'+eid);
       var mc=document.getElementById('mc_'+eid);
-      if(cp){
-        cp.textContent='$'+fmt(price,isBtc);
-        cp.classList.remove('fu','fd');
-        void cp.offsetWidth;
-        cp.classList.add(isUp?'fu':'fd');
-      }
+      if(cp){cp.textContent=fmt(price,isBtc);cp.classList.remove('fu','fd');void cp.offsetWidth;cp.classList.add(isUp?'fu':'fd');}
       if(cc){cc.textContent=(isUp?'▲ ':'▼ ')+fmtChg(pct);cc.className='mc-chg '+(isUp?'up':'dn');}
       if(ca){ca.style.background=isUp?'linear-gradient(90deg,#23863670,#3fb95030,transparent)':'linear-gradient(90deg,#f8514960,#f8514920,transparent)';}
       if(mc){mc.style.boxShadow=isUp?'0 4px 28px #3fb95018,0 18px 48px #00000090':'0 4px 28px #f8514918,0 18px 48px #00000090';mc.style.borderColor=isUp?'#23863630':'#f8514930';}
       // day range bar
-      var low=meta.regularMarketDayLow,high=meta.regularMarketDayHigh;
+      var low=q.l,high=q.h;
       if(low&&high&&high>low){
         var pos=Math.max(0,Math.min(100,(price-low)/(high-low)*100));
         var rdot=document.getElementById('mcrd_'+eid);
         var rl=document.getElementById('mcrl_'+eid);
         var rh=document.getElementById('mcrh_'+eid);
         if(rdot){rdot.style.left=pos+'%';rdot.style.background=isUp?'#3fb950':'#f85149';}
-        if(rl)rl.textContent='$'+fmt(low,isBtc);
-        if(rh)rh.textContent='$'+fmt(high,isBtc);
+        if(rl)rl.textContent=fmt(low,isBtc);
+        if(rh)rh.textContent=fmt(high,isBtc);
       }
-      // ambient market glow from SPY
+      // ambient glow from SPY
       if(sym==='SPY'){
         var amb=document.getElementById('mkt-amb');
-        if(amb){
-          var gc=isUp?'rgba(35,134,54,0.09)':'rgba(248,81,73,0.09)';
-          amb.style.background='radial-gradient(ellipse 80% 60% at 50% 0%,'+gc+',transparent)';
-          amb.style.opacity='1';
-        }
+        if(amb){var gc=isUp?'rgba(35,134,54,0.09)':'rgba(248,81,73,0.09)';amb.style.background='radial-gradient(ellipse 80% 60% at 50% 0%,'+gc+',transparent)';amb.style.opacity='1';}
       }
       // sparkline (card symbols only)
       if(CARD_SYMS.indexOf(sym)!==-1){
-        var closes=(res.indicators.quote[0].close||[]).filter(function(x){return x!=null});
-        if(closes.length>=3){
-          var mn=Math.min.apply(null,closes),mx=Math.max.apply(null,closes),rng=mx-mn||1;
-          var W=100,H=46;
-          var pts=closes.map(function(c,i){
-            return (i/(closes.length-1)*W).toFixed(1)+','+(H-((c-mn)/rng*H)).toFixed(1);
-          }).join(' ');
-          var col=isUp?'#3fb950':'#f85149';
-          var svg=document.getElementById('mcs_'+eid);
-          if(svg){
-            svg.innerHTML='<defs><linearGradient id="g'+eid+'" x1="0" y1="0" x2="0" y2="1">'
-              +'<stop offset="0%" stop-color="'+col+'" stop-opacity="0.25"/>'
-              +'<stop offset="100%" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs>'
-              +'<polygon points="0,'+H+' '+pts+' '+W+','+H+'" fill="url(#g'+eid+')"/>'
-              +'<polyline points="'+pts+'" stroke="'+col+'" stroke-width="1.6" fill="none" stroke-linejoin="round"/>';
-          }
-        }
+        var now=Math.floor(Date.now()/1000);
+        var from=now-28800;
+        var sr=await fetch('https://finnhub.io/api/v1/stock/candle?symbol='+encodeURIComponent(fs)+'&resolution=5&from='+from+'&to='+now+'&token='+FHKEY,{signal:AbortSignal.timeout(8000)});
+        if(!sr.ok)throw 0;
+        var sd=await sr.json();
+        if(sd.s!=='ok'||!sd.c||sd.c.length<3)throw 0;
+        var closes=sd.c;
+        var mn=Math.min.apply(null,closes),mx=Math.max.apply(null,closes),rng=mx-mn||1;
+        var W=100,H=46;
+        var pts=closes.map(function(c,i){return(i/(closes.length-1)*W).toFixed(1)+','+(H-((c-mn)/rng*H)).toFixed(1);}).join(' ');
+        var col=isUp?'#3fb950':'#f85149';
+        var svg=document.getElementById('mcs_'+eid);
+        if(svg){svg.innerHTML='<defs><linearGradient id="g'+eid+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="'+col+'" stop-opacity="0.25"/><stop offset="100%" stop-color="'+col+'" stop-opacity="0"/></linearGradient></defs><polygon points="0,'+H+' '+pts+' '+W+','+H+'" fill="url(#g'+eid+')"/><polyline points="'+pts+'" stroke="'+col+'" stroke-width="1.6" fill="none" stroke-linejoin="round"/>';}
       }
     }catch(e){}
   }
