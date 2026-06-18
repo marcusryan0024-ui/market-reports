@@ -339,8 +339,9 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
   }
   function tick(){
     var et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
-    var h=String(et.getHours()).padStart(2,'0'),mi=String(et.getMinutes()).padStart(2,'0'),s=String(et.getSeconds()).padStart(2,'0');
-    document.getElementById('clk').textContent=h+':'+mi+':'+s+' ET';
+    var raw=et.getHours(),mi=String(et.getMinutes()).padStart(2,'0'),s=String(et.getSeconds()).padStart(2,'0');
+    var h=raw%12||12,ampm=raw<12?'AM':'PM';
+    document.getElementById('clk').textContent=h+':'+mi+':'+s+' '+ampm+' ET';
     var st=mktSt();
     document.getElementById('mkt').className='mktbadge '+st[1];
     document.getElementById('mktlbl').textContent=st[0];
