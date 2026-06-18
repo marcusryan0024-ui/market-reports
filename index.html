@@ -133,7 +133,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
   <div class="hright">
     <div class="mktbadge s-closed" id="mkt"><span class="sdot"></span><span id="mktlbl">Market Closed</span></div>
     <div class="clock" id="clk">--:--:-- ET</div>
-    <div class="hsince"><b>37</b> reports &middot; since May 2026</div>
+    <div class="hsince"><b>38</b> reports &middot; since May 2026</div>
   </div>
 </div>
 <div class="mkt-grid">
@@ -176,7 +176,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
         <div class="feat-dow">THU</div>
         <div class="feat-date">Jun 18, 2026</div>
       </div>
-      <div class="feat-links"><a class="rl pre" style="padding:7px 18px;font-size:12px" href="2026-06-18-premarket.html">&#9651;&thinsp;Pre-Market</a></div>
+      <div class="feat-links"><a class="rl pre" style="padding:7px 18px;font-size:12px" href="2026-06-18-premarket.html">&#9651;&thinsp;Pre-Market</a><a class="rl close" style="padding:7px 18px;font-size:12px" href="2026-06-18.html">&#9660;&thinsp;After Close</a></div>
     </div>
     <div class="feat-right"><div class="fk">POST-FOMC THURSDAY</div><div class="fb">AVGO $2.3B Dark Pool Bid Headlines Session — INTC +9% on Trump-Apple Chip Deal. Last Trading Day Before Juneteenth.</div></div>
   </div>
@@ -367,8 +367,8 @@ function tick(){
 
   // live data — Finnhub API
   var FHKEY='d8q014pr01qr03ncmj40d8q014pr01qr03ncmj4g';
-  var ALL_SYMS=["SPY","QQQ","IWM","AAPL","META","AMZN","MSFT","GOOGL","AMD","BTC-USD","NVDA","GLD","TSLA","XLE"];
-  var CARD_SYMS=["SPY","QQQ","IWM","XLE"];
+  var ALL_SYMS=["SPY", "QQQ", "IWM", "AAPL", "META", "AMZN", "MSFT", "GOOGL", "AMD", "BTC-USD", "NVDA", "GLD", "TSLA", "XLE"];
+  var CARD_SYMS=["SPY", "QQQ", "IWM", "XLE"];
   var FH_MAP={'BTC-USD':'BINANCE:BTCUSDT'};
   function fhSym(s){return FH_MAP[s]||s;}
   function fmt(n,isBtc){return isBtc?'$'+Math.round(n).toLocaleString():'$'+n.toFixed(2);}
