@@ -52,9 +52,6 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 .mc-chg{font-size:14px;font-weight:700;font-family:ui-monospace,'SF Mono',monospace;margin-bottom:12px;letter-spacing:.02em}
 .mc-chg.up{color:#3fb950}.mc-chg.dn{color:#f85149}.mc-chg.neu{color:#484f58}
 .mc-spark{display:block;width:100%;height:46px}
-/* countdown */
-.cdwn{font-size:10px;color:#484f58;font-family:ui-monospace,'SF Mono',monospace;letter-spacing:.04em;text-align:right}
-.cdwn b{color:#6e7681}
 /* stats strip */
 .sstrip{background:#04060a;border-bottom:1px solid #0e1420;padding:0 40px;display:flex}
 .si{padding:11px 28px 11px 0;margin-right:28px;border-right:1px solid #0e1420}
@@ -117,8 +114,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
   <div class="hright">
     <div class="mktbadge s-closed" id="mkt"><span class="sdot"></span><span id="mktlbl">Market Closed</span></div>
     <div class="clock" id="clk">--:--:-- ET</div>
-    <div class="cdwn" id="cdwn">&nbsp;</div>
-    <div class="hsince"><b>36</b> reports &middot; since May 2026</div>
+<div class="hsince"><b>36</b> reports &middot; since May 2026</div>
   </div>
 </div>
 <div class="mkt-grid">
@@ -318,25 +314,7 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
     if(m<1200)return['After-Hours','s-ah'];
     return['Market Closed','s-closed'];
   }
-  function fmtCountdown(ms){
-    if(ms<=0)return'';
-    var tot=Math.floor(ms/1000);
-    var h=Math.floor(tot/3600),m=Math.floor((tot%3600)/60),s=tot%60;
-    if(h>0)return h+'h '+String(m).padStart(2,'0')+'m';
-    return m+'m '+String(s).padStart(2,'0')+'s';
-  }
-  function nextOpen(et){
-    var t=new Date(et);t.setSeconds(0,0);
-    var d=t.getDay(),cur=t.getHours()*60+t.getMinutes();
-    if(d===6){t.setDate(t.getDate()+2);t.setHours(9,30,0,0);return t;}
-    if(d===0){t.setDate(t.getDate()+1);t.setHours(9,30,0,0);return t;}
-    if(cur<570){t.setHours(9,30,0,0);return t;}
-    t.setDate(t.getDate()+1);t.setHours(9,30,0,0);
-    if(t.getDay()===6)t.setDate(t.getDate()+2);
-    if(t.getDay()===0)t.setDate(t.getDate()+1);
-    return t;
-  }
-  function tick(){
+function tick(){
     var et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
     var raw=et.getHours(),mi=String(et.getMinutes()).padStart(2,'0'),s=String(et.getSeconds()).padStart(2,'0');
     var h=raw%12||12,ampm=raw<12?'AM':'PM';
@@ -344,22 +322,6 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
     var st=mktSt();
     document.getElementById('mkt').className='mktbadge '+st[1];
     document.getElementById('mktlbl').textContent=st[0];
-    var cdwn=document.getElementById('cdwn');
-    if(cdwn){
-      var cur=et.getHours()*60+et.getMinutes(),d=et.getDay();
-      var isWkd=d===0||d===6;
-      if(!isWkd&&cur>=570&&cur<960){
-        var close=new Date(et);close.setHours(16,0,0,0);
-        cdwn.innerHTML='<b>closes in</b> '+fmtCountdown(close-et);
-      }else if(!isWkd&&cur>=240&&cur<570){
-        var open=new Date(et);open.setHours(9,30,0,0);
-        cdwn.innerHTML='<b>opens in</b> '+fmtCountdown(open-et);
-      }else{
-        var no=nextOpen(et);
-        var DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-        cdwn.innerHTML='<b>opens</b> '+DAYS[no.getDay()]+' · '+fmtCountdown(no-et);
-      }
-    }
   }
   setInterval(tick,1000);tick();
 
