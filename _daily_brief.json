@@ -3925,5 +3925,369 @@
         }
       ]
     }
+  },
+  "2026-06-18": {
+    "headline": "POST-FOMC THURSDAY: AVGO $2.3B Dark Pool Bid Headlines Session — INTC +9% on Trump-Apple Chip Deal. Last Trading Day Before Juneteenth.",
+    "overview": "Post-FOMC Thursday with light data and a holiday-shortened week closing out. The session headline is AVGO $2.3B dark pool bid after-hours — one of the largest single-name prints ever recorded. Intel surged ~9% after Trump posted on Truth Social about a deal with Apple to design and build chips in the US, pulling the entire chip ecosystem higher (MRVL +7%, LRCX +5%, AMAT +5%). Memory names also ripped: WDC +5.6%, MU +4%, SNDK +4%. Accenture cratered -13% on a $4.175B M&A spending spree. SPY and IWM both closed in inside-day conditions post-FOMC — compression setting up a direction move early next week. Markets are CLOSED Friday for Juneteenth. Today was the last day to position/hedge for the long weekend.",
+    "market_context": "SPY and IWM inside days post-FOMC. Inside-day compression often leads to chop then expansion — the expansion likely comes Monday. IWM is the top Strat setup heading into next week: daily 2-2 reversal, only ~$2 from the trigger. Dark pool flow context: AVGO $2.3B bid AH is the headline and one of the biggest single-name prints seen in any recap. MU led total session flow at $5.8B (bid), AVGO $4.1B (bid), NVDA $2.9B (ask). The AVGO + MU bid-heavy tape is consistent with institutional positioning ahead of next semiconductor earnings cycle. Intel rally may have legs — but history says INTC struggles to hold gains, so prefer 10-min ORB entry vs. chasing opens. Juneteenth closure Friday means any rebalancing for the new hawkish dot-plot reality already happened today. Next data print: Monday.",
+    "setups": [
+      {
+        "ticker": "IWM",
+        "pattern": "Daily 2-2 Reversal",
+        "bias": "BULL",
+        "flow": "Inside day today post-FOMC, ~$2 from daily reversal trigger",
+        "why": "IWM is the top setup heading into next week. Closer to triggering a daily 2-2 reversal than SPY. Higher probability setup — wait for confirmation Monday. Maintain bullish bias until proven otherwise."
+      },
+      {
+        "ticker": "CCL",
+        "pattern": "Outside (3) / Bullish Kicker",
+        "bias": "BULL",
+        "flow": "Bullish kicker with dark pool on the board. Earnings next week.",
+        "why": "CCL 3-bar/outside AND bullish kicker with DP confirmation. Cruise operators broadly higher today on falling oil prices. Earnings next week provide the catalyst. Best setup in the group."
+      },
+      {
+        "ticker": "MU",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "$264M dark pool bid today. Led total session flow at $5.8B (bid) — dominant institutional accumulation.",
+        "why": "MU bullish kicker with massive institutional dark pool bid. Memory sector on fire: WDC +5.6%, MU +4%, SNDK +4% today on Intel-driven chip optimism. Flow says institutional players are loading up."
+      },
+      {
+        "ticker": "RH",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "Dark pool on the board. Shareholder meeting today.",
+        "why": "RH bullish gapper with DP confirmation and shareholder meeting as catalyst. Premium furniture/luxury retail — watch for continuation if market opens higher Monday."
+      },
+      {
+        "ticker": "INTC",
+        "pattern": "Bullish Kicker / Gap Up",
+        "bias": "BULL",
+        "flow": "Trump Truth Social catalyst — Apple chip design deal. +9% today.",
+        "why": "INTC +9% on Trump post about Apple-Intel chip deal. Watch premarket high Monday for 10-min ORB entry. CAUTION: Intel historically struggles to hold gains. For swings, use more time premium. Avoid short-dated contracts unless momentum confirms Monday open."
+      },
+      {
+        "ticker": "STX",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "$213M dark pool bid AH. Dividend in 6 days.",
+        "why": "STX inside bar with substantial DP bid and dividend catalyst approaching. Memory/storage sector rally gave it a bid today. Direction sets up Monday — DP bid suggests institutional interest."
+      },
+      {
+        "ticker": "MRVL",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Part of chip ecosystem rally today (+7%). Shareholder meeting next week.",
+        "why": "MRVL inside bar after +7% chip ecosystem move today. Shareholder meeting next week as catalyst. Compression into the weekend — direction Monday will be key."
+      },
+      {
+        "ticker": "LOW",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "Fireside Chat today as catalyst.",
+        "why": "LOW 3-bar/outside with Fireside Chat catalyst. Rate-sensitive name — Warsh hawkish tone headwind, but pattern is set up for a directional move. Watch Monday open for follow-through."
+      },
+      {
+        "ticker": "LULU",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "Shareholder meeting next week.",
+        "why": "LULU 3-bar/outside with shareholder meeting catalyst next week. Consumer discretionary — FOMC hawkish tone headwind but pattern positioned for expansion."
+      },
+      {
+        "ticker": "OKLO",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "No major DP print noted.",
+        "why": "OKLO failed 2-down — bearish reversal signal. Nuclear/energy names been volatile; pattern says follow-through lower into next week."
+      },
+      {
+        "ticker": "ASML",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Conference yesterday (VivaTech).",
+        "why": "ASML failed 2-up after VivaTech conference appearance. Chip equipment name that should have benefited from Intel news but failed. Bearish reversal pattern — watch for downside continuation Monday."
+      },
+      {
+        "ticker": "ACN",
+        "pattern": "Earnings Reaction",
+        "bias": "WATCH",
+        "flow": "Heavy put flow ahead of earnings. -13% today on M&A spending.",
+        "why": "ACN gapped into support after -13% on $4.175B M&A announcement (runZero, Netrise, Dragos). Possible trampoline bounce from support. Bear trigger: 127-128. Bull trigger: 135. Do NOT anticipate breakdowns — wait for confirmation."
+      },
+      {
+        "ticker": "KR",
+        "pattern": "Earnings Play",
+        "bias": "WATCH",
+        "flow": "Earnings upcoming. Historically huge ATR mover.",
+        "why": "KR one of the more interesting upcoming earnings names. Key support: 55 area, major support 52.50. Frequently completes most of its move in first 10 minutes. Use 10-min ORB, confirmed breakdowns or breakouts only."
+      },
+      {
+        "ticker": "SWBI",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "Earnings beat — handgun sales +23% YoY. +14% today.",
+        "why": "SWBI bullish kicker on earnings beat. Handgun sales to sporting goods retailers +23% YoY. Cheaper contracts make it accessible for smaller accounts. Running into higher timeframe resistance — needs strong continuation to break through."
+      },
+      {
+        "ticker": "JPM",
+        "pattern": "Approaching ATH",
+        "bias": "BULL",
+        "flow": "Financials sector strength.",
+        "why": "JPM approaching all-time highs again. Breakout alert — monitor for fresh ATH continuation Monday. Financials broadly constructive post-FOMC hawkish hold."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "INTC",
+        "pct": "+9%",
+        "why": "Trump posted on Truth Social about Intel striking a deal with Apple to design and build chips in the United States. Pulled entire chip ecosystem higher.",
+        "flow": ""
+      },
+      {
+        "ticker": "MRVL",
+        "pct": "+7%",
+        "why": "Chip ecosystem rally on Intel-Trump-Apple news. MRVL among the strongest beneficiaries of AI chip narrative.",
+        "flow": ""
+      },
+      {
+        "ticker": "SWBI",
+        "pct": "+14%",
+        "why": "Smith & Wesson earnings and revenue beat. Handgun sales to sporting goods retailers jumped 23% YoY. Handguns = 80% of units shipped.",
+        "flow": ""
+      },
+      {
+        "ticker": "WDC",
+        "pct": "+5.6%",
+        "why": "Memory sector broad rally on chip optimism. Western Digital leading the memory complex higher.",
+        "flow": ""
+      },
+      {
+        "ticker": "CCL",
+        "pct": "+3%",
+        "why": "Falling oil prices boosted cruise operators. Carnival leading cruise names. Also has Strat setup and DP on the board.",
+        "flow": ""
+      },
+      {
+        "ticker": "AMAT",
+        "pct": "+5%",
+        "why": "Applied Materials part of chip equipment rally on Intel-Apple news and sustained AI infrastructure capex narrative.",
+        "flow": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "ACN",
+        "pct": "-13%",
+        "why": "Accenture announced acquisition of runZero (asset intelligence), Netrise (software supply chain security), and majority stake in Dragos (cybersecurity) for combined ~$4.175B. Market punished the M&A spending spree.",
+        "flow": "Heavy put flow was in ahead of this move"
+      },
+      {
+        "ticker": "PFE",
+        "pct": "-1%",
+        "why": "Pfizer CFO Dave Denton stepping down Aug 15. Named SVP of Finance Cecile Guegan as interim finance chief. Leadership uncertainty at a critical restructuring period.",
+        "flow": ""
+      },
+      {
+        "ticker": "SPCX",
+        "pct": "-1.2%",
+        "why": "SpaceX continues to give back gains following its 5% loss Wednesday. The pullback follows a 40%+ surge last week after its historic debut. $185M dark pool bid today suggests some still buying the dip.",
+        "flow": "$185M dark pool bid"
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "INTC",
+        "pct": "+9%",
+        "news": "Trump posted on Truth Social that Intel struck a deal with Apple to design and build chips in the United States — direct Trump social media catalyst driving the entire chip ecosystem higher"
+      },
+      {
+        "ticker": "AAPL",
+        "pct": "+<1%",
+        "news": "Named in Trump's Truth Social post about the Intel chip manufacturing deal — muted reaction from Apple itself vs the Intel move"
+      }
+    ],
+    "trump_context": "Trump posted on Truth Social that Intel struck a deal with Apple to design and build chips in the United States. INTC surged ~9% on the announcement. Apple gained less than 1%. The announcement pulled the broader chip ecosystem higher: MRVL +7%, LRCX +5%, AMAT +5%. Intel historically struggles to hold catalyst-driven gains — prefer ORB entry over chasing.",
+    "darkpool": [
+      {
+        "ticker": "AVGO",
+        "size": "$2.3B",
+        "side": "BID",
+        "note": "AH — HEADLINE PRINT — one of the largest single-name DP prints ever recorded"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$396M",
+        "side": "ASK",
+        "note": "regular"
+      },
+      {
+        "ticker": "MU",
+        "size": "$264M",
+        "side": "BID",
+        "note": "regular — Led total session flow at $5.8B bid — dominant institutional accumulation"
+      },
+      {
+        "ticker": "DELL",
+        "size": "$255M",
+        "side": "MIXED",
+        "note": "AH"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$249M",
+        "side": "ASK",
+        "note": "AH — NVDA total flow $2.9B ask"
+      },
+      {
+        "ticker": "TSLA",
+        "size": "$221M",
+        "side": "BID",
+        "note": "AH"
+      },
+      {
+        "ticker": "STX",
+        "size": "$213M",
+        "side": "BID",
+        "note": "AH — Storage/memory sector follow-through"
+      },
+      {
+        "ticker": "XOM",
+        "size": "$211M",
+        "side": "BID",
+        "note": "AH — Oil major bid despite crude weakness"
+      },
+      {
+        "ticker": "META",
+        "size": "$210M",
+        "side": "ASK",
+        "note": "PRE"
+      },
+      {
+        "ticker": "SPCX",
+        "size": "$185M",
+        "side": "BID",
+        "note": "regular — Buying the dip after SpaceX pullback"
+      }
+    ],
+    "events": [
+      {
+        "time": "8:30 AM ET",
+        "event": "Jobless Claims",
+        "impact": "MED",
+        "note": "Labor market health check"
+      },
+      {
+        "time": "8:30 AM ET",
+        "event": "Philly Fed Manufacturing",
+        "impact": "MED",
+        "note": "Manufacturing sentiment"
+      },
+      {
+        "time": "10:00 AM ET",
+        "event": "Leading Economic Index",
+        "impact": "LOW",
+        "note": "Forward-looking composite"
+      },
+      {
+        "time": "All Day",
+        "event": "Analyst Day: BFLY",
+        "impact": "LOW",
+        "note": ""
+      },
+      {
+        "time": "All Day",
+        "event": "Conferences: QBTS + others (lighter day post-VivaTech)",
+        "impact": "LOW",
+        "note": ""
+      },
+      {
+        "time": "All Day",
+        "event": "13 Shareholder Meetings: MARA, RXT, DAL, OKTA + more",
+        "impact": "LOW",
+        "note": ""
+      },
+      {
+        "time": "All Day",
+        "event": "Dividends: BBY, ASO, HOFT",
+        "impact": "LOW",
+        "note": ""
+      },
+      {
+        "time": "Friday 6/19",
+        "event": "🚫 JUNETEENTH — Markets CLOSED",
+        "impact": "HIGH",
+        "note": "No trading Friday. Next session: Monday June 23. All positioning/hedging happens TODAY."
+      }
+    ],
+    "morning_prep": {
+      "theme": "Markets CLOSED Friday (Juneteenth) — long weekend positioning done. Next session Monday June 23. SPY and IWM inside-day compression post-FOMC. Have a plan before Monday open.",
+      "rules": [
+        "Markets CLOSED Friday June 19 (Juneteenth) — no trading, no monitoring",
+        "Monday open is the first reaction to FOMC hawkish dot-plot + Trump-Intel-Apple chip news",
+        "IWM daily 2-2 reversal is ~$2 from trigger — wait for confirmation, don't anticipate",
+        "INTC historically fades catalyst-driven gains — use 10-min ORB entry Monday, avoid chasing open",
+        "ACN gapped into support at 127-128 — wait for price to hold before adding",
+        "AVGO $2.3B dark pool bid AH is institutional — respect the size, don't fade it",
+        "Size appropriately for a Monday post-holiday open — liquidity thinner, gaps more likely"
+      ],
+      "market": "Post-FOMC Thursday close before Juneteenth. SPY and IWM both in inside-day compression — the expansion move comes Monday. FOMC held rates with hawkish dot-plot (Warsh). Intel surged 9% on Trump-Apple chip deal, pulling the chip ecosystem. Memory names broadly strong (MU +4%, WDC +5.6%, SNDK +4%). AVGO $2.3B dark pool bid AH dominates the tape.",
+      "setups": [
+        {
+          "ticker": "IWM",
+          "tier": 1,
+          "catalyst": "Daily 2-2 reversal setup — ~$2 from daily reversal trigger, inside day today post-FOMC",
+          "levels": "Reversal trigger ~$2 above current close",
+          "bull": "Confirms trigger Monday → continuation higher, targets 2024 highs",
+          "bear": "Fails trigger → chop/range-bound into FOMC digestion",
+          "note": "Top setup heading into the long weekend. Wait for Monday confirmation — DO NOT anticipate the trigger."
+        },
+        {
+          "ticker": "CCL",
+          "tier": 1,
+          "catalyst": "Outside (3) + bullish kicker with dark pool on board. Earnings next week.",
+          "levels": "Today's high / breakout level",
+          "bull": "Monday continuation above today's high + DP support → earnings run into next week",
+          "bear": "Fails today's high → consolidates into earnings",
+          "note": "Best cruise setup — falling oil prices + Strat signal + DP = confluence. Earnings provide the next catalyst."
+        },
+        {
+          "ticker": "MU",
+          "tier": 1,
+          "catalyst": "Bullish kicker + $264M dark pool bid. Led total session flow at $5.8B bid.",
+          "levels": "Today's close / breakout above session high",
+          "bull": "Memory sector continuation Monday → MU follow-through on institutional accumulation",
+          "bear": "Intel chip narrative fades over weekend → memory complex gives back Thursday gains",
+          "note": "Dominant institutional flow says accumulation. Memory sector thesis is intact unless Intel news reverses."
+        },
+        {
+          "ticker": "INTC",
+          "tier": 2,
+          "catalyst": "Trump Truth Social — Apple-Intel chip design/build deal in US. +9% today.",
+          "levels": "Pre-market high Monday / 10-min ORB",
+          "bull": "Holds gains Monday → Apple confirmation → continuation",
+          "bear": "Gaps lower Monday → classic INTC fade of catalyst gains",
+          "note": "CAUTION: Intel historically struggles to hold catalyst-driven gains. Use 10-min ORB entry only. Avoid short-dated contracts unless Monday momentum clearly confirms."
+        },
+        {
+          "ticker": "ACN",
+          "tier": 2,
+          "catalyst": "-13% on $4.175B M&A spending spree (runZero, Netrise, Dragos). Gapped into support.",
+          "levels": "Bull trigger: 135 / Bear trigger: 127-128",
+          "bull": "Holds support at 127-128 → trampoline bounce as market digests M&A logic",
+          "bear": "Breaks 127-128 support → continuation lower, market rejects M&A strategy",
+          "note": "Do NOT anticipate the bounce — wait for price to confirm support holds Monday. Heavy put flow was in ahead of this move."
+        },
+        {
+          "ticker": "AVGO",
+          "tier": 2,
+          "catalyst": "$2.3B dark pool bid AH — one of the largest single-name DP prints ever recorded.",
+          "levels": "AH price level / Monday gap",
+          "bull": "Monday continuation → institutional bid confirms cycle positioning",
+          "bear": "Fades into Monday open → AH print was one-time event",
+          "note": "Respect institutional size — next semis earnings cycle is the thesis. Don't fade a $2.3B bid."
+        }
+      ]
+    }
   }
 }
