@@ -14,6 +14,28 @@
         line-height: 1.5;
         padding: 24px;
     }
+    .rpt-nav {
+        display: flex; align-items: center; justify-content: space-between;
+        background: #040608; border-bottom: 1px solid #0e1420;
+        padding: 10px 24px; margin: -24px -24px 24px -24px;
+    }
+    .rpt-back {
+        font-size: 11px; font-weight: 700; color: #6e7681; text-decoration: none;
+        letter-spacing: .06em; transition: color .15s;
+    }
+    .rpt-back:hover { color: #e6edf3; }
+    .rpt-nav-btns { display: flex; gap: 8px; }
+    .rpt-btn {
+        font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
+        text-decoration: none; border: 1px solid; display: inline-flex; align-items: center;
+        gap: 5px; transition: all .14s; color: #3d444d; border-color: #1a2030; background: #0a0c10;
+    }
+    .rpt-btn:hover { transform: translateY(-1px); }
+    .rpt-pre { color: #58a6ff; border-color: #1f6feb; background: #08121e; }
+    .rpt-pre:hover { background: #0f1e38; box-shadow: 0 4px 14px #1f6feb40; }
+    .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
+    .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
+    .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
     .header {
         display: flex;
         align-items: baseline;
@@ -728,10 +750,17 @@
     </style>
 </head>
 <body>
+<div class="rpt-nav">
+  <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
+  <div class="rpt-nav-btns">
+    <a class="rpt-btn rpt-pre" href="Thursday, June 18, 2026-premarket.html">&#9651;&thinsp;Pre-Market</a>
+    <a class="rpt-btn rpt-clsrpt-active" href="Thursday, June 18, 2026.html">&#9660;&thinsp;After Close</a>
+  </div>
+</div>
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">AFTER CLOSE</span>
-  <span class="meta">Thursday, June 18, 2026 &nbsp;·&nbsp; 03:30 PM</span>
+  <span class="meta">Thursday, June 18, 2026 &nbsp;·&nbsp; 03:42 PM</span>
 </div>
 
 
@@ -864,7 +893,7 @@
               <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
               <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">ACN</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±23.6%</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±22.7%</span>
               <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">ACN gapped into support after -13% on $4.</span>
             </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
               <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">KR</span>
