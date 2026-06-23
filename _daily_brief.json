@@ -3926,6 +3926,379 @@
       ]
     }
   },
+  "2026-06-23": {
+    "headline": "Global AI/tech selloff — KOSPI -10%, Samsung/SK Hynix -12%+ overnight. Nasdaq futures -2.5%, QQQ -2.6%, SPY -1.3%. Monday DP tape called it: STX $1.5B bid AH, MU $645M bid AH. MU down hard pre-market ahead of earnings tomorrow AMC. Flash PMI 9:45 AM is the first data post-Warsh. FDX + CCL + Cerebras earnings AMC.",
+    "overview": "The Monday dark pool tape telegraphed every bit of this. STX $1.5B bid AH (day's biggest single name print), MU $645M bid AH, MSFT $518M bid AH, AMZN $353M bid AH, JPM $317M bid pre — institutions positioned into the overnight Korea KOSPI crash (-9.99%) driven by Samsung and SK Hynix each falling 12%+, triggering a 20-minute trading halt on the Seoul exchange. Nasdaq futures are -2.5%, S&P futures -1.26%, and Russell 2000 futures -1.30%. The selling is concentrated in technology, semiconductors, mega-cap AI names, and hyperscalers as investors unwind crowded positions on rising rate fears, AI ROI concerns, and now a direct Korean semiconductor shock. PRIM is the lone disaster — down 37% after cutting FY26 EPS guidance to $2.05–$2.60 from $4.80–$5.00 with a COO departure and renewables cost blowout. On the bullish side: IBM +4.6% (JPMorgan upgrade + OpenAI partner program), APGE +46.7% on an AbbVie acquisition, and the quantum trade briefly popped on Trump's quantum EO. Flash PMI at 9:45 is the first macro read post-FOMC — let it clear before adding risk.",
+    "market_context": "This is a technical unwind, not a fundamental break — but it is happening after an extended rally, which makes investors hair-trigger on negative headlines. Three things driving the move: (1) Korea KOSPI -10% overnight on foreign chip stock liquidation, direct pressure on MU (earnings tomorrow AMC), NVDA, AMAT, LRCX, and the entire semi stack; (2) AI ROI narrative cracking — GOOGL under pressure after Nobel researcher John Jumper left DeepMind for Anthropic, SpaceX (SPCX) down $600B combined over 3 sessions after its IPO, ORCL quietly cut 21,000 jobs (13% of workforce) citing AI-driven efficiency; (3) Quarter-end mechanics — Nasdaq-100 rebalance, pension fund rebalancing, record options expiration all amplifying vol. The DP tape from Monday told you the institutions were hedging: bid-side megacap flow (MSFT, AMZN, MU) plus STX $1.5B bid AH lines up perfectly with the Bearish Kicker calls on STX, IWM, MU, MCHP flagged yesterday. The APGE $3.4B ask (AbbVie M&A) dominated total name flow. Defensives are outperforming: healthcare, utilities, telecoms, consumer staples, software services. Flash PMI + FDX earnings tonight are the two next data points that can reset the narrative.",
+    "setups": [
+      {
+        "ticker": "MSFT",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "$518M bid AH Monday",
+        "why": "3-Bar Outside range expansion into a high-volatility open with $518M institutional bid AH Monday. Conference today. Outside bar says expansion — direction depends on whether the conference shows AI demand confidence or raises more ROI concerns. Bid-side DP from Monday is the bullish tell but the open will be sloppy."
+      },
+      {
+        "ticker": "SPY",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "QQQ $10.7B ask + IVV $9.5B bid (ETF) Monday",
+        "why": "Macro outside bar on the index into data day — Flash PMI 9:45 AM is the first post-FOMC Warsh read. The divergence of QQQ $10.7B ask vs IVV $9.5B bid in the ETF flow Monday means institutions were hedging tech while buying broad market. SPY direction after PMI is the pivot for the whole tape."
+      },
+      {
+        "ticker": "HOOD",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Top DP print this morning, current mover, $500M convertible offering",
+        "why": "Failed 2U is a bearish reversal signal and HOOD is a current mover down 4.8% pre-market on a $2B convertible note offering. Flow surge and top DP print this AM confirm institutional activity. Clean directional setup — offering overhang is the bear catalyst."
+      },
+      {
+        "ticker": "NVDA",
+        "pattern": "Failed 2U",
+        "bias": "WATCH",
+        "flow": "Annual meeting tomorrow",
+        "why": "Failed 2U heading into the annual shareholder meeting tomorrow. Korea semi rout is direct pressure — NVDA down in sympathy with the entire chip complex. Meeting tomorrow could be a buy-the-news setup if management reaffirms AI infrastructure demand. Watch for any comments on hyperscaler capex."
+      },
+      {
+        "ticker": "QQQ",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "$10.7B ask ETF Monday",
+        "why": "Failed 2U on the index with $10.7B ask-side ETF flow Monday — institutions selling tech exposure. Flash PMI at 9:45 is the pivot. If PMI comes in soft it confirms slowdown fears and QQQ continues lower. A beat could spark a violent reversal of the pre-market move. Wait for the data."
+      },
+      {
+        "ticker": "SOXS",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "3x inverse semi ETF, Korea rout playing out",
+        "why": "Bullish Kicker on the 3x inverse semiconductor ETF. The Korea KOSPI -10% overnight triggered exactly the semi rout this pattern telegraphed. SOXS is the directional vehicle for the bear semi thesis. Risk: any PMI beat or short-covering rally snapback unwinds this fast."
+      },
+      {
+        "ticker": "STX",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "$1.5B bid AH Monday — day's biggest single-name DP print",
+        "why": "Bearish Kicker with $1.5B institutional bid AH Monday — the largest single-name dark pool print of the session. This was the hedge. Storage name directly exposed to Korea semi contagion (SK Hynix and Samsung both suppliers). The bid-side DP was institutions protecting against exactly this move."
+      },
+      {
+        "ticker": "MU",
+        "pattern": "Bearish Kicker",
+        "bias": "WATCH",
+        "flow": "$645M bid AH Monday",
+        "why": "Bearish Kicker + $645M bid AH Monday. MU down 7%+ pre-market on Korea semi rout ahead of its own earnings tomorrow AMC. The institutional bid from Monday was a hedge, not accumulation. DO NOT enter pre-earnings — wait for the AMC print Wednesday. The setup after earnings is the trade."
+      },
+      {
+        "ticker": "JNJ",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "Bullish gapper",
+        "why": "Failed 2D reversal setup. Defensive healthcare name outperforming in a risk-off tape. Failed 2D says the downtrend is exhausting. Bullish gapper today aligns with rotation into defensives as tech sells off."
+      },
+      {
+        "ticker": "COST",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "Defensive consumer staples",
+        "why": "Failed 2D setup in a defensive name. Consumer staples are outperforming in today's risk-off rotation. Costco's compressed valuation and membership model make it a natural flight-to-quality destination."
+      },
+      {
+        "ticker": "IBM",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "JPMorgan upgrade overweight, OpenAI Daybreak partner",
+        "why": "One of the few clean bullish gappers in a down tape. JPMorgan upgraded to Overweight + IBM joins OpenAI Daybreak Cyber Partner Program. +4.6% pre-market. In a risk-off tape, IBM's defensive enterprise profile + fresh upgrade is confluence. Take profits at open, let runners run."
+      },
+      {
+        "ticker": "WMT",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Conference tomorrow",
+        "why": "Inside bar compression with conference tomorrow. Walmart is a defensive consumer staple — if the risk-off rotation into defensives continues, this is the coiled spring. Conference tomorrow is the catalyst trigger."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "APGE",
+        "pct": "+46.7%",
+        "why": "AbbVie announced acquisition of Apogee Therapeutics — Merger Agreement filed June 18. Phase 2 zumilokibart (anti-IL-13) data dropped same day, plus $1.3B Blackstone financing. Triple catalyst drove the largest M&A-related DP print of the session at $3.4B ask.",
+        "flow": "$3.4B ask DP Monday"
+      },
+      {
+        "ticker": "IBM",
+        "pct": "+4.6%",
+        "why": "JPMorgan upgraded to Overweight. IBM joins OpenAI Daybreak Cyber Partner Program — enterprise AI cybersecurity partnership. One of the few clean bullish gappers on a down tape.",
+        "flow": "Top bullish gapper"
+      },
+      {
+        "ticker": "INFQ",
+        "pct": "+6.1%",
+        "why": "Trump signed executive order to supercharge US innovation in quantum technologies and strengthen national security. Direct beneficiary of the quantum EO.",
+        "flow": "Trump quantum EO catalyst"
+      },
+      {
+        "ticker": "ZETA",
+        "pct": "+5%",
+        "why": "Zeta Global and Palantir Technologies announced partnership to build the enterprise AI infrastructure layer connecting operational intelligence, customer intelligence, and marketing execution.",
+        "flow": "PLTR partnership catalyst"
+      },
+      {
+        "ticker": "CAR",
+        "pct": "+4.5%",
+        "why": "Avis Budget enters settlement with Pentwater Capital — removes overhang from activist investor dispute.",
+        "flow": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "PRIM",
+        "pct": "-37.2%",
+        "why": "Primoris Services pre-announced a massive EPS cut — FY26 EPS now $2.05–$2.60 vs prior $4.80–$5.00. Renewables segment cost overruns and execution failures. COO departing. Downgraded to Sector Weight at KeyBanc. Named new project awards but market only sees the guidance miss.",
+        "flow": ""
+      },
+      {
+        "ticker": "SNDK",
+        "pct": "-8.6%",
+        "why": "SanDisk hammered on Korea KOSPI -10% overnight — Samsung and SK Hynix both fell 12%+ triggering exchange trading halt. Memory/storage complex in full contagion.",
+        "flow": "$3.4B ask Monday (different thesis — this was the ask vs pre-market crash)"
+      },
+      {
+        "ticker": "MU",
+        "pct": "-7.4%",
+        "why": "Micron down hard pre-market ahead of earnings tomorrow AMC. Korea semi rout is direct pressure — SK Hynix and Samsung are direct competitors. Stock is pricing in a risk premium ahead of the print.",
+        "flow": "$645M bid AH Monday (institutional hedge)"
+      },
+      {
+        "ticker": "SPCX",
+        "pct": "-ongoing",
+        "why": "SpaceX down $600B combined in market cap over 3 sessions after IPO ($400B Monday alone — second-largest single-day loss in history after NVDA's $590B last year). Issuing $20B+ in investment-grade bonds. AI ROI narrative and infrastructure spending concerns.",
+        "flow": ""
+      },
+      {
+        "ticker": "GOOGL",
+        "pct": "-pressure",
+        "why": "Alphabet continues under pressure after Nobel Prize-winning AI researcher John Jumper departed Google DeepMind for Anthropic. Combined with Noam Shazeer (Gemini VP) going to OpenAI, investors questioning Google's AI talent retention and long-term model leadership.",
+        "flow": "$288M ask AH Monday"
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "INFQ",
+        "pct": "+6.1%",
+        "news": "Trump signed executive order to supercharge US quantum innovation and strengthen national security — direct quantum EO beneficiary"
+      },
+      {
+        "ticker": "QBTS",
+        "pct": "+3.43%",
+        "news": "D-Wave Quantum — same Trump quantum technology executive order catalyst, signal stack rotation noted"
+      },
+      {
+        "ticker": "IBM",
+        "pct": "+4.6%",
+        "news": "IBM joins OpenAI Daybreak Cyber Partner Program — Trump AI/national security enterprise alignment; also committed $10B+ to quantum computing"
+      }
+    ],
+    "trump_context": [
+      "Trump signed an executive order to supercharge US innovation in quantum technologies — direct catalyst for quantum names (INFQ +6.1%, QBTS +3.4%). IBM +4.6% ties into both the quantum push and the AI national security partnership theme with OpenAI.",
+      "Iran update is mixed and market-moving: Trump said 'Iran has fully and completely agreed to highest level nuclear inspections long into the future' — but Iran's spokesperson contradicted this, saying no IAEA inspections were agreed. Ceasefire narrative under pressure. Monitor oil and geopolitical names."
+    ],
+    "darkpool": [
+      {
+        "ticker": "STX",
+        "size": "$1.5B",
+        "side": "bid",
+        "note": "AH Monday — day's biggest single-name print, direct hedge on Korea semi rout"
+      },
+      {
+        "ticker": "LRCX",
+        "size": "$655M",
+        "side": "mixed",
+        "note": "AH Monday"
+      },
+      {
+        "ticker": "MU",
+        "size": "$645M",
+        "side": "bid",
+        "note": "AH Monday — institutional hedge ahead of -7% pre-market and earnings tomorrow AMC"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$639M",
+        "side": "ask",
+        "note": "AH Monday"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$518M",
+        "side": "bid",
+        "note": "AH Monday — conference today"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$353M",
+        "side": "bid",
+        "note": "AH Monday"
+      },
+      {
+        "ticker": "BE",
+        "size": "$346M",
+        "side": "mixed",
+        "note": "AH Monday"
+      },
+      {
+        "ticker": "AMD",
+        "size": "$343M",
+        "side": "ask",
+        "note": "AH Monday"
+      },
+      {
+        "ticker": "JPM",
+        "size": "$317M",
+        "side": "bid",
+        "note": "PRE Monday — ahead of bank stress tests Wednesday"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$288M",
+        "side": "ask",
+        "note": "AH Monday — AI talent drain pressure"
+      }
+    ],
+    "events": [
+      {
+        "type": "9:45 AM ET",
+        "detail": "Flash June S&P Global US Manufacturing PMI + Services PMI — FIRST macro read post-FOMC Warsh hawkish dot-plot. This is the sentiment pivot of the day."
+      },
+      {
+        "type": "10:00 AM ET",
+        "detail": "Existing Home Sales — housing data post-housing affordability bill Senate passage"
+      },
+      {
+        "type": "1:00 PM ET",
+        "detail": "$69 billion 2-year note auction — bond market telling you where rates go next"
+      },
+      {
+        "type": "Earnings AMC",
+        "detail": "FDX (FedEx) — AI demand + shipping volumes read-through · CCL (Carnival) — cruise sector · Cerebras Systems — direct AI chip competitor read"
+      },
+      {
+        "type": "Tomorrow AMC",
+        "detail": "MU (Micron) earnings — THE most important print of the week given Korea semi rout and -7% pre-market setup"
+      },
+      {
+        "type": "Wednesday AMC",
+        "detail": "Bank stress test results — sets up bank stock trades for Thursday"
+      },
+      {
+        "type": "Thursday 2:15 PM",
+        "detail": "QCOM Investor Day — enter straddle before today's close"
+      },
+      {
+        "type": "Conferences",
+        "detail": "MSFT, GOOGL, QUBT, META, ENPH, TEAM, RUN and 20+ others today · CVX at JPMorgan conference"
+      },
+      {
+        "type": "Annual Meetings",
+        "detail": "KMX, SPRO, NTES, LILA, MPLT"
+      }
+    ],
+    "morning_prep": {
+      "theme": "High-volatility risk-off open. Korea KOSPI -10% rout hit the tape exactly where Monday's DP said it would — STX, MU, IWM, MCHP all Bearish Kickers with DP, all paying. Wait for the 10-min ORB before touching anything. Flash PMI at 9:45 is the first inflection point.",
+      "rules": [
+        "DO NOT chase the gap — wait for the 10-min ORB to establish direction before entering any position",
+        "Flash PMI at 9:45 AM is the tape-setter — let it clear before adding risk in either direction",
+        "IBM is the rare clean bullish gapper — take profits at open, let runners continue with stop in place",
+        "HOOD: Failed 2U + convertible offering overhang + top DP print = directional setup, not a bounce play",
+        "MU: do NOT enter pre-earnings — down 7% is the setup, the earnings AMC tomorrow is the trade",
+        "QCOM straddle: Investor Day Thursday 2:15 PM — size small, enter before today's close",
+        "Bank stocks: watch stress test results Wednesday after close, set up the trades for Thursday",
+        "SOXS: if you hold, trail the stop — a strong PMI beat could trigger a violent reversal"
+      ],
+      "market": "Nasdaq futures -2.5%, SPY -1.3%, QQQ -2.6%, IWM -1.5%. Selling concentrated in semis, AI infrastructure, and mega-cap tech. Defensives (JNJ, WMT, COST, healthcare, utilities) outperforming. Korea KOSPI -10% overnight, Samsung/SK Hynix -12% each. Monday DP tape front-ran the entire move: STX $1.5B bid, MU $645M bid, MSFT $518M bid, JPM $317M bid. APGE +46.7% on AbbVie M&A is the lone biotech win.",
+      "setups": [
+        {
+          "ticker": "IBM",
+          "tier": 1,
+          "catalyst": "JPMorgan upgrade to Overweight + OpenAI Daybreak Cyber Partner Program. +4.6% pre-market.",
+          "levels": "Pre-market high / 10-min ORB high",
+          "bull": "Holds pre-market gains through open → take profits, trail runners",
+          "bear": "Gap fades below pre-market open → profit-taking exhausted buyers",
+          "note": "Take profits at open. Stop in place for runners. Rare clean bullish gapper in a down tape."
+        },
+        {
+          "ticker": "HOOD",
+          "tier": 1,
+          "catalyst": "Failed 2U + $2B convertible note offering overhang + top DP print this morning. Current mover -4.8%.",
+          "levels": "Pre-market low / 10-min ORB low",
+          "bull": "Reversal above 10-min ORB high → offering absorbed, bounce play",
+          "bear": "Breaks pre-market low → convertible overhang pressures into close",
+          "note": "Clean directional setup. Flow surge confirms institutional activity. Offering overhang is the bear catalyst."
+        },
+        {
+          "ticker": "SPCX",
+          "tier": 1,
+          "catalyst": "SpaceX at $149 IPO low support. $600B in 3-session market cap loss. $20B bond issuance.",
+          "levels": "Support: $149 (IPO low) / Break: below $149",
+          "bull": "Holds $149 → manage runners at support",
+          "bear": "Breaks below $149 → support invalidated, no floor near-term",
+          "note": "Watch for gap fill if applicable. Do not catch the falling knife — wait for $149 hold confirmation."
+        },
+        {
+          "ticker": "CCL",
+          "tier": 1,
+          "catalyst": "Carnival earnings AMC tonight. Post-earnings direction is the trade.",
+          "levels": "Post-earnings reaction / 10 AM conference assessment",
+          "bull": "Strong earnings + guidance raise → gap fill setup",
+          "bear": "Miss or soft guidance → consumer discretionary pressure",
+          "note": "Wait for 10 AM to assess direction after the open settles. Enter after earnings clarity tonight."
+        },
+        {
+          "ticker": "QCOM",
+          "tier": 2,
+          "catalyst": "Investor Day Thursday 2:15 PM. Bloomberg: nearing deal for AI chip startup Modular.",
+          "levels": "Straddle entry before today's close",
+          "bull": "Investor Day shows AI chip roadmap + Modular deal confirmed → re-rate higher",
+          "bear": "Event disappoints or AI chip competition narrative dominates",
+          "note": "Enter straddle before today's close. Small position size — event vol, not directional. Modular deal could be a catalyst."
+        },
+        {
+          "ticker": "ACN",
+          "tier": 2,
+          "catalyst": "$2B buyback announced. Bullish gapper. Wait for PMI data at 9:45 before entering.",
+          "levels": "Entry after 9:45 AM PMI data / Support at open",
+          "bull": "PMI confirms and ACN holds open → buyback bid floor",
+          "bear": "PMI miss adds macro pressure → wait for next level",
+          "note": "Do not enter before 9:45 data. Buyback is the catalyst but entering before PMI risks a whipsaw."
+        },
+        {
+          "ticker": "ZETA",
+          "tier": 2,
+          "catalyst": "PLTR partnership — enterprise AI infrastructure. Resistance at $21.",
+          "levels": "Trigger: above $21 breakout",
+          "bull": "Price confirms above $21 → partnership drives re-rating",
+          "bear": "Rejection at $21 resistance → PLTR halo fades",
+          "note": "Confirmation above $21 is the entry trigger only. Do not enter below resistance."
+        },
+        {
+          "ticker": "ABBV",
+          "tier": 2,
+          "catalyst": "APGE acquisition announced. Bullish Kicker pattern.",
+          "levels": "Bullish kicker trigger level",
+          "bull": "Price confirms above bullish kicker trigger → M&A premium expands",
+          "bear": "No confirmation → wait",
+          "note": "No entry without price confirmation of the kicker pattern. AbbVie absorbing APGE — integration execution is the risk."
+        },
+        {
+          "ticker": "CVX",
+          "tier": 2,
+          "catalyst": "JPMorgan conference today. Iran nuclear deal ambiguity adds oil volatility.",
+          "levels": "Conference catalyst / Major ETF direction",
+          "bull": "Conference commentary bullish + ETFs stabilize → energy sector bid",
+          "bear": "If major ETFs remain choppy → sector-dependent chop",
+          "note": "Only enter if major ETFs stabilize first. Iran commentary will move oil and energy names."
+        }
+      ]
+    }
+  },
   "2026-06-18": {
     "headline": "POST-FOMC THURSDAY: AVGO $2.3B Dark Pool Bid Headlines Session — INTC +9% on Trump-Apple Chip Deal. Last Trading Day Before Juneteenth.",
     "overview": "Post-FOMC Thursday with light data and a holiday-shortened week closing out. The session headline is AVGO $2.3B dark pool bid after-hours — one of the largest single-name prints ever recorded. Intel surged ~9% after Trump posted on Truth Social about a deal with Apple to design and build chips in the US, pulling the entire chip ecosystem higher (MRVL +7%, LRCX +5%, AMAT +5%). Memory names also ripped: WDC +5.6%, MU +4%, SNDK +4%. Accenture cratered -13% on a $4.175B M&A spending spree. SPY and IWM both closed in inside-day conditions post-FOMC — compression setting up a direction move early next week. Markets are CLOSED Friday for Juneteenth. Today was the last day to position/hedge for the long weekend.",
