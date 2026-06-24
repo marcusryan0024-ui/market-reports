@@ -3926,6 +3926,361 @@
       ]
     }
   },
+  "2026-06-24": {
+    "headline": "Bounce morning after Tuesday's KOSPI rout. MU earnings AMC is THE print of the week. WEN +20% short squeeze (flagged on <3 prints filter yesterday). GOOGL joins DJIA June 29. QCOM acquires Modular + Investor Day 2:15 PM. NVDA shareholder meeting 12 PM. PCE Thursday is the alpha catalyst.",
+    "overview": "Futures are modestly green — S&P +0.5%, Nasdaq +0.9%, Russell +0.25% — as investors attempt to stabilize after Tuesday's AI/tech selloff. The Korea KOSPI bounced +3.26% overnight as investors aggressively bought the dip in Samsung (rally to +10% on a potential $59B buyback) and SK Hynix (ADR listing plans, $29B). The overnight semi reversal sets a more constructive tone for US names into today. WEN is the morning's biggest story — up 20%+ pre-market on a new CFO appointment and a massive short squeeze (S3 Partners: ~23% of float short; Trian/Peltz still circling for take-private). The FlowMS edge: WEN appeared on the <3 prints filter yesterday, and the option chain showed heavy OI stacking at the $8/$8.5 strikes well above where the stock traded — filters flagged it before the news broke. Two catalyst sessions define the week: MU earnings AMC tonight and PCE Thursday morning. Everything else is noise until those clear.",
+    "market_context": "Technically this is a bounce, not an all-clear. The S&P 500 remains above key support despite Tuesday's weakness — this is a valuation reset in AI/tech, not the start of a broader bear market. The critical distinction the morning summary makes: traditional macro culprits aren't driving this. The 10-yr yield is at 4.46% (down 3 bps), WTI crude is falling another 2.4% to $71.13 (easing inflation), and Brent is down nearly 2.5%. Iran assured no Strait of Hormuz tolls; Trump's DOJ is investigating oil companies on gas price pace. So rates aren't breaking higher, oil is easing — the selling Tuesday was valuation exhaustion on stretched AI/semi names after an extraordinary run. MU tonight is the clean test: if earnings confirm AI memory demand is real and guidance raises, the dip-buyers win. If MU guides down or warns on oversupply risk from Korean competition, we revisit lows. Everything flows from that print. Thursday's PCE is the macro follow-up — futures pricing 38 bps of tightening in H2 with Warsh's hawkish dot-plot, so a hot PCE re-accelerates the rate fear narrative. A cool PCE gives the Fed room to pivot and is the single biggest bull catalyst of the week.",
+    "setups": [
+      {
+        "ticker": "MU",
+        "pattern": "Bullish Gapper",
+        "bias": "WATCH",
+        "flow": "$553M bid AH Tuesday + $5.2B total session flow",
+        "why": "MU is up pre-market bouncing off Tuesday's -7% rout. $553M bid AH from institutions who were hedging or accumulating into the print. Earnings tonight AMC. $5.2B total session flow Tuesday means every institution on the planet has a position in this one. DO NOT trade pre-earnings — let the print settle after close. The setup is AFTER the number."
+      },
+      {
+        "ticker": "NVDA",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "$1.3B bid AH Tuesday — day's biggest single-name print",
+        "why": "NVDA had the largest single-name DP print Tuesday at $1.3B bid AH. Shareholder meeting today at 12 PM — same-day contracts available. Institutional accumulation into the meeting is the tell. If management reaffirms AI infrastructure demand at the meeting, this is the catalyst to run into PCE Thursday."
+      },
+      {
+        "ticker": "WMT",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Conference today",
+        "why": "3-Bar/Outside on the close — range expansion with conference today as the catalyst. Walmart is a defensive name that's been holding well in the risk-off tape. Conference today could provide fresh guidance color. Outside bar says the range is expanding — direction comes from conference."
+      },
+      {
+        "ticker": "MRVL",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "Shareholder meeting tomorrow",
+        "why": "Failed 2D reversal into the shareholder meeting tomorrow. Marvell was hit hard in the semi rout despite strong AI networking chip fundamentals. Reversal signal plus meeting catalyst — if the Korea bounce holds in overnight session and NVDA's meeting today goes well, MRVL is the follow-through name."
+      },
+      {
+        "ticker": "IWM",
+        "pattern": "Failed 2D",
+        "bias": "WATCH",
+        "flow": "PCE/GDP data tomorrow",
+        "why": "Failed 2D heading into Thursday's PCE + Final Q1 GDP. Small caps are the most rate-sensitive — a cool PCE is a direct tailwind for IWM. Inside day today means the range is coiling. Expansion comes Thursday morning after the data. Stay patient today."
+      },
+      {
+        "ticker": "DELL",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "Shareholder meeting tomorrow",
+        "why": "Failed 2D with shareholder meeting tomorrow. Dell is an AI infrastructure play — servers and storage are direct MU/AI demand beneficiaries. If MU's earnings tonight confirm memory demand, DELL is a direct read-through setup. Meeting tomorrow is the catalyst."
+      },
+      {
+        "ticker": "META",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Conference yesterday",
+        "why": "Inside bar compression after the conference. META has been holding well relative to other mega-caps. Inside day means it's coiling — PCE Thursday could be the expansion trigger. Conference commentary from yesterday will filter through today."
+      },
+      {
+        "ticker": "MSFT",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Conference yesterday",
+        "why": "Inside bar after conference yesterday. MSFT had $518M bid AH Monday — institutional floor in place. Inside day says compression. If MU prints well tonight and PCE comes cool Thursday, MSFT tests the top of the inside bar."
+      },
+      {
+        "ticker": "FCEL",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "DP on board, current mover +16.6%, <3 prints filter",
+        "why": "FuelCell Energy — Bullish Kicker with DP on the board and current mover +16.6% pre-market. FuelCell and Fit Energy USA announced a 380 MW clean baseload power deal. AI data center power story: pipeline tripled QoQ to 4 GW, ExxonMobil carbon capture deal advancing, multiple PT hikes on data center thesis. Also appeared on <3 prints filter — same filter that flagged WEN before it squeezed."
+      },
+      {
+        "ticker": "WEN",
+        "pattern": "Bullish Gapper",
+        "bias": "WATCH",
+        "flow": "DP on board, <3 prints filter yesterday, OI stacking at $8/$8.5 strikes",
+        "why": "Wendy's +20% pre-market on CFO appointment (Steve Cirulis, formerly Potbelly under CEO Bob Wright) plus a massive short squeeze — S3 Partners reports ~23% of float short, Trian (Peltz, ~16% stake) reportedly circling for take-private. WEN hit a 20-year low yesterday. The scanner flagged it: appeared on <3 prints filter yesterday with heavy OI at $8/$8.5 strikes — filters called it before the news. Respect the gap but trail aggressively — short squeezes can reverse violently."
+      },
+      {
+        "ticker": "CBRS",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "Reported earnings, current mover -10.2%",
+        "why": "Cerebras Systems — Bearish Kicker after reporting Q1 2026 earnings. Revenue $193M beat, guidance above consensus, but shares down -10.2% as investors reassess AI valuations in the current sector weakness. Beat-and-down is the worst outcome — wait for break of pre-market low before entry. Watch 52-week lows and gap fill levels."
+      },
+      {
+        "ticker": "GS",
+        "pattern": "WATCH",
+        "bias": "WATCH",
+        "flow": "Bank stress tests results at 4 PM today",
+        "why": "Bank stress test results after close today — GS historically shows the strongest reaction among the major banks. Consider straddle based on volume and options flow going into the 4 PM release. Set up the trade today, execute Thursday based on results."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "WEN",
+        "pct": "+20%",
+        "why": "New CFO Steve Cirulis (formerly Potbelly, same CEO Bob Wright) plus massive short squeeze. S3 Partners: ~23% float short. Trian/Peltz (~16% stake) reportedly circling for take-private. Hit 20-year low yesterday — capitulation + catalyst = squeeze. Scanner caught it first via <3 prints filter + heavy OI at $8/$8.5.",
+        "flow": "DP on board, <3 prints filter"
+      },
+      {
+        "ticker": "ABSI",
+        "pct": "+20.8%",
+        "why": "Interim Phase 1 data from the HEADLINE trial of ABS-201 — novel antibody targeting the prolactin receptor. Biotech binary catalyst playing out to the upside.",
+        "flow": ""
+      },
+      {
+        "ticker": "FCEL",
+        "pct": "+16.6%",
+        "why": "FuelCell Energy and Fit Energy USA announced partnership for up to 380 megawatts of clean baseload power. AI data center power thesis — pipeline tripled QoQ to 4 GW, ExxonMobil carbon capture deal, multiple PT hikes from analysts.",
+        "flow": "Bullish Kicker with DP on board"
+      },
+      {
+        "ticker": "GOOGL",
+        "pct": "catalyst",
+        "why": "Alphabet to replace Verizon Communications in the Dow Jones Industrial Average effective June 29. Passive buying impacts limited but headline confirms Alphabet's dominance in US equity indices. Fail-to-down technical setup — stock doesn't hold gains well, so monitor carefully.",
+        "flow": "$713M bid AH Tuesday (GOOG) + $442M bid AH (GOOGL)"
+      },
+      {
+        "ticker": "NUE",
+        "pct": "upgrade",
+        "why": "Nucor upgraded to Overweight at KeyBanc with $274 PT. Steel name getting fresh institutional coverage upgrade. Housing affordability bill signed adds domestic construction demand thesis.",
+        "flow": "KeyBanc upgrade"
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "CBRS",
+        "pct": "-10.2%",
+        "why": "Cerebras Systems — reported Q1 2026 results, revenue $193M beat, guidance above consensus, but stock still -10.2%. AI valuation reassessment is punishing even the beats. Announced multi-year deal with OpenAI wasn't enough to hold the stock. Bearish Kicker setup.",
+        "flow": "Bearish Kicker with DP"
+      },
+      {
+        "ticker": "WOR",
+        "pct": "-10.3%",
+        "why": "Worthington Enterprises missed by $0.09, missed on revenue. Q4 earnings miss with no silver lining narrative in a tape that has no patience for misses.",
+        "flow": ""
+      },
+      {
+        "ticker": "FDX",
+        "pct": "-6.3%",
+        "why": "FedEx beat by $0.35 and beat on revenue, FY27 EPS guidance $16.90–$18.10, revenue +11%. But margins disappointed slightly and investors are focused on FedEx Freight spinoff complexity and the calendar-year reporting transition. Beat-and-down on execution concerns.",
+        "flow": "Bearish Gapper with DP"
+      },
+      {
+        "ticker": "CCL",
+        "pct": "gap fills",
+        "why": "Barclays maintains Overweight but lowers PT to $35. Gap fills to the upside at $29.18 and $30.19 are the levels to watch. Continuation from yesterday's earnings — let the tape show direction before adding.",
+        "flow": ""
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "OIL",
+        "pct": "-2.4%",
+        "news": "Trump instructed DOJ to look into why oil companies aren't lowering gas prices faster — direct executive pressure on energy sector. WTI crude -2.4% to $71.13, Brent down ~2.5%."
+      },
+      {
+        "ticker": "NUE",
+        "pct": "upgrade",
+        "news": "KeyBanc upgraded Nucor to Overweight ($274 PT) — steel benefits from Trump housing affordability bill now passed by House and heading to Trump signature. Domestic construction demand thesis."
+      },
+      {
+        "ticker": "QCOM",
+        "pct": "catalyst",
+        "news": "QCOM announces agreement to acquire Modular Inc. and in discussions to provide chip design services to ByteDance (Reuters) — AI chip deal plus ByteDance ties into Trump's tech policy landscape."
+      }
+    ],
+    "trump_context": [
+      "Trump directed the DOJ to investigate why oil companies aren't passing lower crude prices through to consumers faster. WTI crude is already -2.4% to $71.13 this morning — so oil is moving in the direction Trump wants, but the DOJ angle adds regulatory pressure on energy names (XOM, CVX, BP all under watch).",
+      "Iran: Trump says Iran assured the US there won't be tolls for passage through the Strait of Hormuz. But separately, the US and Iran are still in disagreement on nuclear inspection terms per Reuters — ceasefire is intact but the inspection dispute is unresolved. Headline risk lives into the weekend."
+    ],
+    "darkpool": [
+      {
+        "ticker": "NVDA",
+        "size": "$1.3B",
+        "side": "bid",
+        "note": "AH Tuesday — day's biggest single-name print; shareholder meeting today 12 PM"
+      },
+      {
+        "ticker": "GOOG",
+        "size": "$713M",
+        "side": "bid",
+        "note": "AH Tuesday — DJIA addition June 29 announced this morning"
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$635M",
+        "side": "bid",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "MU",
+        "size": "$553M",
+        "side": "bid",
+        "note": "AH Tuesday — institutional pre-positioning into earnings AMC tonight"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$509M",
+        "side": "bid",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "SLB",
+        "size": "$488M",
+        "side": "mixed",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$442M",
+        "side": "bid",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$438M",
+        "side": "ask",
+        "note": "AH Tuesday"
+      },
+      {
+        "ticker": "NOW",
+        "size": "$388M",
+        "side": "bid",
+        "note": "Tuesday — bearish gapper today despite bid-side DP"
+      },
+      {
+        "ticker": "HD",
+        "size": "$324M",
+        "side": "mixed",
+        "note": "AH Tuesday"
+      }
+    ],
+    "events": [
+      {
+        "type": "8:30 AM ET",
+        "detail": "Q1 Current Account Balance"
+      },
+      {
+        "type": "10:00 AM ET",
+        "detail": "May New Home Sales — housing data following House passage of housing affordability bill"
+      },
+      {
+        "type": "12:00 PM ET",
+        "detail": "NVDA annual shareholder meeting — same-day contracts available; watch for AI infrastructure demand commentary"
+      },
+      {
+        "type": "1:00 PM ET",
+        "detail": "$70 billion 5-year note auction — bond market direction signal"
+      },
+      {
+        "type": "2:15 PM ET",
+        "detail": "QCOM Investor Day — acquired Modular Inc. this morning; ByteDance chip design discussions; monitor reaction over 2-3 days"
+      },
+      {
+        "type": "4:00 PM ET",
+        "detail": "Bank stress test results — GS historically strongest reactor; set up straddle today for Thursday execution"
+      },
+      {
+        "type": "Earnings AMC",
+        "detail": "MU (Micron) — THE print of the week; AI memory demand confirmation or denial; $553M bid AH DP Tuesday"
+      },
+      {
+        "type": "Tomorrow 8:30 AM",
+        "detail": "PCE May + Final Q1 GDP + Durable Goods — PCE is the alpha catalyst of the week; cool print = Fed pivot narrative; hot print = rate fear re-acceleration"
+      },
+      {
+        "type": "Shareholder Meetings",
+        "detail": "NVDA (12 PM), MRVL tomorrow · Annual meetings: NIO, QUBT, UUUU"
+      },
+      {
+        "type": "Conferences/Events",
+        "detail": "WMT conference today · PRIM conference today · DELL shareholder meeting tomorrow"
+      }
+    ],
+    "morning_prep": {
+      "theme": "Bounce day into MU earnings AMC and bank stress tests at 4 PM. Two prints define the rest of the week: MU tonight and PCE Thursday. Everything else is setup, not execution. WEN is the morning trade — respect the gap but trail tight. FCEL is the sleeper kicker with DP.",
+      "rules": [
+        "MU: do NOT trade pre-earnings — pre-market bounce is the setup, the AMC print is the trade",
+        "NVDA shareholder meeting 12 PM: same-day contracts available — size small, event vol not directional",
+        "WEN: respect the gap, trail aggressively — short squeezes reverse violently; don't overstay",
+        "GS + bank stocks: straddle into 4 PM stress test results — execute Thursday based on results",
+        "QCOM: monitor Investor Day 2:15 PM reaction over 2-3 days, not a same-day trade",
+        "GOOGL: fail-to-down setup has options flow — caution, stock doesn't hold gains well",
+        "IWM/SPY inside days: stay patient, let Thursday PCE/GDP set direction",
+        "CCL: gap fills at $29.18 and $30.19 — let the tape show direction before adding",
+        "FDX: support at $285; wait for 10-min ORB before touching — beat-and-down is tricky",
+        "FCEL: Bullish Kicker with DP and <3 prints filter — same filter that caught WEN; check the option chain"
+      ],
+      "market": "S&P +0.5%, Nasdaq +0.9%, Russell +0.25% pre-market. Korea KOSPI +3.26% bounce — Samsung +10% on potential $59B buyback. WEN +20% (short squeeze + CFO hire, <3 prints filter called it). FDX -6.3% beat-and-down. CBRS -10.2% beat-and-down. WOR -10.3% miss. GOOGL added to DJIA June 29. NVDA $1.3B bid AH was Tuesday's biggest single DP print. MU $553M bid AH going into tonight's print. Oil -2.4% to $71.13 (inflation easing). 10-yr yield 4.46% (-3 bps). Macro today is light — save powder for Thursday PCE.",
+      "setups": [
+        {
+          "ticker": "MU",
+          "tier": 1,
+          "catalyst": "Earnings AMC tonight. $553M bid AH Tuesday. Korea semi bounce (Samsung +10%). $5.2B total session flow Tuesday.",
+          "levels": "Post-earnings reaction / pre-market low as support",
+          "bull": "Revenue beat + AI memory demand confirmed + guidance raise → semi complex rips Thursday",
+          "bear": "Miss or soft guidance + Korean competition oversupply warning → revisits Tuesday lows",
+          "note": "DO NOT trade pre-earnings. This is the setup. The AMC print is the trade. If MU guides up, it greenlights the entire semi/AI dip-buy thesis."
+        },
+        {
+          "ticker": "WEN",
+          "tier": 1,
+          "catalyst": "CFO hire (Steve Cirulis) + short squeeze (~23% float). Trian/Peltz take-private rumors. 20-year low hit yesterday.",
+          "levels": "Pre-market high / $8 and $8.5 strike levels",
+          "bull": "Holds gap through open → short-covering continuation → take-private speculation bid",
+          "bear": "Gap fades hard → squeeze exhausted, longs trapped",
+          "note": "Trail aggressively. Short squeezes reverse without warning. The scanner called this — option OI at $8/$8.5 was the tell before the news."
+        },
+        {
+          "ticker": "GS",
+          "tier": 1,
+          "catalyst": "Bank stress test results at 4 PM. GS historically shows strongest reaction among major banks.",
+          "levels": "Straddle into 4 PM / Thursday reaction",
+          "bull": "Stress tests pass across the board → bank sector rips Thursday",
+          "bear": "Surprise failures or tight capital requirements → bank sector sells Thursday",
+          "note": "Consider straddle based on volume and options flow going into 4 PM. Set up the position today; execute Thursday."
+        },
+        {
+          "ticker": "NVDA",
+          "tier": 1,
+          "catalyst": "Shareholder meeting 12 PM today. $1.3B bid AH Tuesday — biggest single-name DP print. Same-day contracts available.",
+          "levels": "12 PM meeting reaction / pre-market high",
+          "bull": "Management reaffirms AI infrastructure demand at meeting → semi bounce continuation",
+          "bear": "Any softness on demand commentary → AI trade stays under pressure",
+          "note": "Size small on same-day contracts — event vol. The DP bid AH Tuesday is the institutional floor signal."
+        },
+        {
+          "ticker": "FCEL",
+          "tier": 2,
+          "catalyst": "Bullish Kicker + DP on board + <3 prints filter + 380 MW FuelCell/Fit Energy deal. Current mover +16.6%.",
+          "levels": "Bullish kicker trigger / gap hold",
+          "bull": "Holds gap → AI data center power thesis + ExxonMobil carbon capture deal = sustained bid",
+          "bear": "Gap fades → news-driven pop without follow-through",
+          "note": "Same filter caught WEN — check the option chain for unusual OI. AI data center power demand is real and durable."
+        },
+        {
+          "ticker": "QCOM",
+          "tier": 2,
+          "catalyst": "Investor Day 2:15 PM. Acquired Modular Inc. ByteDance chip design discussions.",
+          "levels": "Monitor 2-3 day reaction",
+          "bull": "Investor Day shows clear AI chip roadmap + Modular deal strategic fit → re-rate",
+          "bear": "AI chip competition narrative dominates or ByteDance deal faces regulatory scrutiny",
+          "note": "Monitor over 2-3 days, not a same-day trade. Modular acquisition + ByteDance angle could be significant."
+        },
+        {
+          "ticker": "IWM",
+          "tier": 2,
+          "catalyst": "Failed 2D. Inside day. PCE/GDP Thursday 8:30 AM — most important macro catalyst of the week.",
+          "levels": "Inside bar range / PCE reaction Thursday",
+          "bull": "Cool PCE → Fed pivot narrative → IWM rips (most rate-sensitive index)",
+          "bear": "Hot PCE → rate fear → IWM tests Tuesday lows",
+          "note": "Stay patient today. The trade is Thursday post-PCE. Inside day compression means the expansion is coming."
+        }
+      ]
+    }
+  },
   "2026-06-23": {
     "headline": "Global AI/tech selloff — KOSPI -10%, Samsung/SK Hynix -12%+ overnight. Nasdaq futures -2.5%, QQQ -2.6%, SPY -1.3%. Monday DP tape called it: STX $1.5B bid AH, MU $645M bid AH. MU down hard pre-market ahead of earnings tomorrow AMC. Flash PMI 9:45 AM is the first data post-Warsh. FDX + CCL + Cerebras earnings AMC.",
     "overview": "The Monday dark pool tape telegraphed every bit of this. STX $1.5B bid AH (day's biggest single name print), MU $645M bid AH, MSFT $518M bid AH, AMZN $353M bid AH, JPM $317M bid pre — institutions positioned into the overnight Korea KOSPI crash (-9.99%) driven by Samsung and SK Hynix each falling 12%+, triggering a 20-minute trading halt on the Seoul exchange. Nasdaq futures are -2.5%, S&P futures -1.26%, and Russell 2000 futures -1.30%. The selling is concentrated in technology, semiconductors, mega-cap AI names, and hyperscalers as investors unwind crowded positions on rising rate fears, AI ROI concerns, and now a direct Korean semiconductor shock. PRIM is the lone disaster — down 37% after cutting FY26 EPS guidance to $2.05–$2.60 from $4.80–$5.00 with a COO departure and renewables cost blowout. On the bullish side: IBM +4.6% (JPMorgan upgrade + OpenAI partner program), APGE +46.7% on an AbbVie acquisition, and the quantum trade briefly popped on Trump's quantum EO. Flash PMI at 9:45 is the first macro read post-FOMC — let it clear before adding risk.",
