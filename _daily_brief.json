@@ -4571,6 +4571,16 @@
         "detail": "WMT conference today · PRIM conference today · DELL shareholder meeting tomorrow"
       }
     ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BULL",
+      "pattern": "Bullish Gapper",
+      "flow": "$1.3B bid AH Tuesday — day's biggest single-name DP print",
+      "catalyst": "Shareholder meeting today 12 PM. Semi bounce off KOSPI rout. MU earnings AMC = AI memory demand catalyst.",
+      "key_levels": "Call: $940 strike | Put: $890 round number",
+      "expected_move": "±4–5%",
+      "why": "NVDA is the highest-probability Mag 7 explosive mover on Wednesday 0DTE. The $1.3B institutional bid AH Tuesday is the biggest single-name DP print of the session — institutions are positioned. Shareholder meeting 12 PM today adds an intraday catalyst. MU earnings AMC tonight is the AI demand verdict the entire semi complex is pricing around. If MU guides well post-close, Wednesday's 0DTE NVDA call buyers get rewarded. Directional thesis + institutional floor + same-day catalyst = the setup."
+    },
     "morning_prep": {
       "theme": "Bounce day into MU earnings AMC and bank stress tests at 4 PM. Two prints define the rest of the week: MU tonight and PCE Thursday. Everything else is setup, not execution. WEN is the morning trade — respect the gap but trail tight. FCEL is the sleeper kicker with DP.",
       "rules": [
