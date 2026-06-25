@@ -4216,6 +4216,16 @@
         "detail": "PM, SRE, ZBH"
       }
     ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BULL",
+      "pattern": "Bullish Kicker",
+      "flow": "$1.3B bid AH Wednesday — day's biggest single-name print",
+      "catalyst": "MU $41.5B beat confirms AI memory demand; NVDA is the direct AI infrastructure anchor name",
+      "key_levels": "Call side: resistance at prior ATH | Put side: $900 round number support",
+      "expected_move": "±4–6%",
+      "why": "NVDA had the largest single DP print of Wednesday at $1.3B bid AH. MU's monster print (data center 7x YoY, shortages beyond 2027) is a direct demand confirmation for NVDA's HBM roadmap. Semi cluster ripping across the board. Shareholder meeting this week kept institutions focused. On MWF 0DTE, NVDA's $900+ price means each $5 move = significant premium — and the MU catalyst gives it a directional thesis, not just vol."
+    },
     "morning_prep": {
       "theme": "MU confirmed the memory supercycle. Semi cluster ripping. Heaviest macro stack of the month at 8:30 — let PCE clear before adding to anything. The data confirms or kills the post-MU rally. Hot PCE = yields spike and semis give back gains. Cool PCE = full risk-on into quarter-end.",
       "rules": [
@@ -4918,6 +4928,16 @@
         "detail": "KMX, SPRO, NTES, LILA, MPLT"
       }
     ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BEAR",
+      "pattern": "Failed 2U",
+      "flow": "Korea KOSPI -10%, semi complex in full contagion, NVDA down pre-market",
+      "catalyst": "Global AI/tech selloff — KOSPI rout + AI ROI concerns + SPCX -$600B in 3 sessions",
+      "key_levels": "Put side: $900 round number | Call side: needs to reclaim $940+ to flip constructive",
+      "expected_move": "±5–7%",
+      "why": "On a high-volatility risk-off Monday with KOSPI -10% and the entire semi complex in freefall, NVDA is the highest-probability explosive mover in the Mag 7. Failed 2U setup + the Korea contagion narrative creates a directional put thesis. AI ROI concerns are the structural overhang. The magnitude of the Korea overnight move means NVDA's 0DTE put premium is elevated and directional — the market is giving you a thesis, not just vol."
+    },
     "morning_prep": {
       "theme": "High-volatility risk-off open. Korea KOSPI -10% rout hit the tape exactly where Monday's DP said it would — STX, MU, IWM, MCHP all Bearish Kickers with DP, all paying. Wait for the 10-min ORB before touching anything. Flash PMI at 9:45 is the first inflection point.",
       "rules": [

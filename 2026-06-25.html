@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalyst Report — Thursday, June 25, 2026</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 24px;
+    }
+    .rpt-nav {
+        display: flex; align-items: center; justify-content: space-between;
+        background: #040608; border-bottom: 1px solid #0e1420;
+        padding: 10px 24px; margin: -24px -24px 24px -24px;
+    }
+    .rpt-back {
+        font-size: 11px; font-weight: 700; color: #6e7681; text-decoration: none;
+        letter-spacing: .06em; transition: color .15s;
+    }
+    .rpt-back:hover { color: #e6edf3; }
+    .rpt-nav-btns { display: flex; gap: 8px; }
+    .rpt-btn {
+        font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
+        text-decoration: none; border: 1px solid; display: inline-flex; align-items: center;
+        gap: 5px; transition: all .14s; color: #3d444d; border-color: #1a2030; background: #0a0c10;
+    }
+    .rpt-btn:hover { transform: translateY(-1px); }
+    .rpt-pre { color: #58a6ff; border-color: #1f6feb; background: #08121e; }
+    .rpt-pre:hover { background: #0f1e38; box-shadow: 0 4px 14px #1f6feb40; }
+    .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
+    .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
+    .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
+    .header {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #30363d;
+    }
+    .header h1 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        color: #e6edf3;
+    }
+    .header .mode {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        padding: 2px 8px;
+        border-radius: 20px;
+        background: #1f6feb22;
+        border: 1px solid #1f6feb66;
+        color: #79c0ff;
+    }
+    .header .meta {
+        margin-left: auto;
+        font-size: 12px;
+        color: #8b949e;
+    }
+    .grid { display: grid; gap: 16px; }
+    .card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-header {
+        padding: 10px 16px;
+        background: #0d1117;
+        border-bottom: 1px solid #30363d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+    }
+    .card-body { padding: 0; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    th {
+        padding: 8px 12px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .1em;
+        color: #8b949e;
+        border-bottom: 1px solid #21262d;
+        white-space: nowrap;
+    }
+    td {
+        padding: 9px 12px;
+        border-bottom: 1px solid #21262d;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c2128; }
+    .ticker {
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .05em;
+    }
+    .badge-bmo { background: #1f6feb22; color: #79c0ff; border: 1px solid #1f6feb44; }
+    .badge-amc { background: #e3b34122; color: #e3b341; border: 1px solid #e3b34144; }
+    .badge-call { background: #26a69a22; color: #26a69a; border: 1px solid #26a69a44; }
+    .badge-put  { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-high { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-med  { background: #ffd54f22; color: #ffd54f; border: 1px solid #ffd54f44; }
+    .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
+    .up   { color: #26a69a; font-weight: 600; }
+    .down { color: #ef5350; font-weight: 600; }
+    .muted { color: #8b949e; }
+    .charts-grid {
+        display: flex;
+        gap: 1px;
+        background: #21262d;
+    }
+    .chart-block {
+        background: #161b22;
+        padding: 16px;
+        flex: 0 0 auto;
+        width: 55%;
+    }
+    .chart-label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .chart-label .ticker { font-size: 16px; }
+    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-block img { width: 100%; border-radius: 4px; display: block; }
+    .chart-side-panel {
+        flex: 1;
+        background: #161b22;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .chart-side-panel .csp-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .csp-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #21262d;
+    }
+    .csp-item:last-child { border-bottom: none; }
+    .csp-item .csp-rank {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+    .csp-item.rank-1 .csp-rank { color: #ffd54f; }
+    .csp-item .csp-label {
+        font-size: 17px;
+        font-weight: 700;
+        color: #e6edf3;
+        margin-bottom: 4px;
+    }
+    .csp-item .csp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .csp-item .csp-why {
+        font-size: 11px;
+        color: #adbac7;
+        line-height: 1.45;
+    }
+    .watchlist-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wl-group-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #3d444d;
+        padding: 0 4px;
+        align-self: center;
+    }
+    .wl-pill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        min-width: 72px;
+    }
+    .wl-pill .sym {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 13px;
+        color: #e6edf3;
+    }
+    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .spotlight-row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        align-items: stretch;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+        flex: 1;
+    }
+    .sector-panel {
+        width: 200px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sector-panel .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .sector-panel .sec-name {
+        font-family: 'SF Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    .sector-panel .sec-badge {
+        margin-bottom: 8px;
+    }
+    .sector-panel .sec-prem {
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .sector-panel .sec-tickers {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 12px;
+    }
+    .sector-panel .sec-why {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+        line-height: 1.5;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: auto;
+    }
+    .spotlight-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spotlight-card.rank-1 {
+        border-color: #ffd54f55;
+        background: linear-gradient(135deg, #1a1800 0%, #161b22 60%);
+    }
+    .spotlight-card .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 8px;
+    }
+    .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
+    .spotlight-card .sp-label {
+        font-family: 'SF Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e6edf3;
+        letter-spacing: .02em;
+        margin-bottom: 4px;
+    }
+    .spotlight-card .sp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .spotlight-card .sp-news {
+        font-size: 13px;
+        color: #e6edf3;
+        line-height: 1.5;
+        font-weight: 500;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: 8px;
+    }
+    .spotlight-card .sp-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 800;
+    }
+    .spotlight-card .sp-briefing {
+        font-size: 11px;
+        color: #6e7681;
+        line-height: 1.4;
+        font-style: italic;
+        margin-top: 4px;
+        padding-left: 14px;
+    }
+    .wl-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .deck-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 16px;
+        border-bottom: 1px solid #21262d;
+        font-size: 13px;
+    }
+    .deck-row:last-child { border-bottom: none; }
+    .deck-row:hover { background: #1c2128; }
+    .deck-date {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #8b949e;
+        white-space: nowrap;
+        min-width: 68px;
+    }
+    .deck-label {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+        white-space: nowrap;
+        min-width: 80px;
+    }
+    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
+    .econ-strip {
+        width: 320px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 14px 14px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .econ-strip .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .econ-item {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 5px 0;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+    }
+    .econ-item:last-child { border-bottom: none; }
+    .econ-item.past { opacity: 0.4; }
+    .econ-item.today-item .econ-day { color: #4fc3f7; }
+    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
+    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .results-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1;
+        min-width: 200px;
+    }
+    .result-source {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        white-space: nowrap;
+    }
+    .result-ticker {
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 800;
+        color: #e6edf3;
+        min-width: 60px;
+    }
+    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-move {
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .headline-bar {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #4fc3f7;
+        border-radius: 6px;
+        padding: 12px 18px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    .headline-tag {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #4fc3f7;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding-top: 2px;
+    }
+    .headline-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        flex: 1;
+        min-width: 0;
+    }
+    .headline-title {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e6edf3;
+        line-height: 1.4;
+        white-space: normal;
+    }
+    .headline-summary {
+        font-size: 11px;
+        color: #8b949e;
+        line-height: 1.5;
+        white-space: normal;
+    }
+    .section-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #8b949e;
+        margin-bottom: 8px;
+        padding-left: 2px;
+    }
+    .morning-brief {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-bottom: 6px;
+    }
+    .brief-header {
+        background: #0d1117;
+        padding: 10px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-header-label {
+        font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #8b949e; text-transform: uppercase;
+    }
+    .brief-overview {
+        padding: 10px 16px;
+        font-size: 12px;
+        color: #adbac7;
+        line-height: 1.5;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 1px;
+        background: #21262d;
+    }
+    .brief-col {
+        background: #161b22;
+        padding: 12px 16px;
+    }
+    .brief-col-title {
+        font-size: 9px; font-weight: 700; letter-spacing: .12em; color: #8b949e;
+        text-transform: uppercase; margin-bottom: 8px;
+    }
+    .gapper-row {
+        display: flex; align-items: baseline; gap: 6px; padding: 3px 0; font-size: 12px;
+    }
+    .gapper-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; font-size: 13px; }
+    .gapper-pct { font-weight: 700; min-width: 54px; }
+    .gapper-pct.up { color: #3fb950; }
+    .gapper-pct.down { color: #f85149; }
+    .gapper-why { color: #8b949e; font-size: 11px; line-height: 1.3; }
+    .gapper-flow { color: #ffd54f; font-size: 10px; margin-left: 2px; }
+    .gapper-level { color: #388bfd; font-size: 10px; }
+    .dp-row { display: flex; gap: 8px; align-items: center; padding: 3px 0; font-size: 12px; }
+    .dp-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; }
+    .dp-size { color: #ffd54f; min-width: 46px; font-weight: 600; }
+    .dp-side { font-size: 10px; font-weight: 700; }
+    .dp-side.ask { color: #3fb950; }
+    .dp-side.bid { color: #f85149; }
+    .dp-side.mixed { color: #8b949e; }
+    .event-row { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid #21262d; font-size: 11px; }
+    .event-row:last-child { border-bottom: none; }
+    .event-type { font-weight: 700; color: #ffd54f; min-width: 100px; font-size: 10px; text-transform: uppercase; }
+    .event-detail { color: #adbac7; }
+    .picks-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        margin-bottom: 6px;
+    }
+    .pick-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 16px;
+    }
+    .pick-rank { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+    .pick-ticker { font-size: 28px; font-weight: 800; color: #e6edf3; margin-bottom: 8px; letter-spacing: -.5px; }
+    .pick-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .pick-pattern { font-size: 11px; color: #8b949e; }
+    .pick-flow { font-size: 12px; color: #ffd54f; font-weight: 600; margin-bottom: 6px; }
+    .pick-why { font-size: 12px; color: #adbac7; line-height: 1.45; }
+    .setup-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 12px; }
+    .setup-row:last-child { border-bottom: none; }
+    .setup-ticker { font-weight: 700; color: #e6edf3; flex: 0 0 50px; font-size: 13px; padding-top: 1px; }
+    .setup-pattern { color: #8b949e; font-size: 10px; flex: 0 0 110px; padding-top: 2px; }
+    .setup-why { color: #adbac7; font-size: 11px; line-height: 1.45; }
+    .setup-flow { color: #ffd54f; font-size: 10px; margin-top: 3px; }
+    .longterm-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #388bfd;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .longterm-card .card-header {
+        padding: 10px 16px;
+        background: #0d1421;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #388bfd;
+    }
+    .watch-card {
+        background: #161b22;
+        border: 1px solid #388bfd55;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .watch-card .card-header {
+        padding: 10px 16px;
+        background: #1f3a5f;
+        border-bottom: 1px solid #388bfd44;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #79c0ff;
+    }
+    .watch-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+    }
+    .watch-item:last-child { border-bottom: none; }
+    .watch-item:hover { background: #1c2128; }
+    .watch-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 5px;
+    }
+    .watch-ticker {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+    }
+    .watch-signal {
+        font-size: 12px;
+        color: #8b949e;
+        flex: 1;
+    }
+    .watch-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
+    .briefing {
+        font-size: 11px;
+        color: #8b949e;
+        padding: 0 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        line-height: 1.5;
+    }
+    .briefing:last-child { border-bottom: none; }
+    .briefing-row td {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #21262d;
+    }
+    .briefing-text {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+    }
+    .why-row td {
+        padding: 4px 12px 2px 12px;
+        border-bottom: none;
+        background: #0d1117;
+    }
+    .why-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+    }
+    .why-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 700;
+    }
+    .why-context {
+        font-size: 11px;
+        color: #6e7681;
+        font-style: italic;
+        padding-left: 14px;
+    }
+    .briefing-row td {
+        padding: 2px 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        background: #0d1117;
+    }
+    .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
+    .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
+    .strat-badge {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 700;
+        color: #ffd54f;
+        background: #ffd54f11;
+        border: 1px solid #ffd54f33;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 4px;
+    }
+    .countdown {
+        font-size: 11px;
+        font-weight: 700;
+        color: #ef5350;
+        margin-left: 6px;
+    }
+    .heat-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .heat-pill {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        font-size: 12px;
+    }
+    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
+    .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
+    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .history-tag {
+        font-size: 10px;
+        color: #8b949e;
+        margin-left: 6px;
+    }
+    </style>
+</head>
+<body>
+<div class="rpt-nav">
+  <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
+  <div class="rpt-nav-btns">
+    <a class="rpt-btn rpt-pre" href="2026-06-25-premarket.html">&#9651;&thinsp;Pre-Market</a>
+    <a class="rpt-btn rpt-cls rpt-active" href="2026-06-25.html">&#9660;&thinsp;After Close</a>
+  </div>
+</div>
+<div class="header">
+  <h1>CATALYST REPORT</h1>
+  <span class="mode">AFTER CLOSE</span>
+  <span class="meta">Thursday, June 25, 2026 &nbsp;·&nbsp; 03:30 PM</span>
+</div>
+
+
+        <div class="headline-bar">
+          <span class="headline-tag">TOP HEADLINE</span>
+          <div class="headline-body">
+            <div class="headline-title">MU blows the doors off — $41.5B revenue vs $35.8B est, EPS $25.11 vs $20.20, Q4 guide $50B. Memory supercycle confirmed. Semi cluster ripping: SNDK +15%, WDC +12%, STX +10%, QCOM +10.7%. Heaviest macro stack of the month at 8:30: PCE + GDP + Claims + Durable Goods all at once. Fed speakers Williams 3:40 PM + Goolsbee 6:30 PM.</div>
+            <div class="headline-summary">Micron delivered one of the most decisive earnings beats of the AI era. Revenue $41.46B crushed the $35.84B estimate by over $5.6B — the data center segment alone grew 7x year-over-year to $11.5B. EPS $25.11 beat by 24%. Q4 guide of $50B revenue and $31 EPS absolutely vaporized the Street's $43.2B estimate. Gross margins at 84.6% GAAP. Multi-year Strategic Customer Agreements for HBM chips were the surprise pillar — memory shortages could persist beyond 2027. The entire memory and AI infrastructure cluster is ripping pre-market: SNDK +15%, WDC +12%, STX +10%, LRCX +7%, AMAT +7%, QCOM +10.7% after doubling its FY29 non-handset revenue target to $40B with $15B from AI data centers. TECH +20% on a Merck KGaA acquisition. WEN continues its squeeze story — up ~13% today for a ~32% weekly gain. The macro stack at 8:30 is the heaviest of the month: PCE, Core PCE, Final Q1 GDP, Unemployment Claims, and Durable Goods all drop simultaneously. Let the data clear before adding to anything.</div>
+          </div>
+        </div>
+
+
+<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
+  <div style="flex:0 0 320px;display:flex;flex-direction:column;gap:6px;">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">What Happened Today</div>
+          <div style="padding:12px 14px;"><p style="margin:0 0 8px 0;color:#adbac7;font-size:12px;line-height:1.6;">Micron delivered one of the most decisive earnings beats of the AI era. Revenue $41.46B crushed the $35.84B estimate by over $5.6B — the data center segment alone grew 7x year-over-year to $11.5B. EPS $25.11 beat by 24%. Q4 guide of $50B revenue and $31 EPS absolutely vaporized the Street's $43.2B estimate. Gross margins at 84.6% GAAP. Multi-year Strategic Customer Agreements for HBM chips were the surprise pillar — memory shortages could persist beyond 2027. The entire memory and AI infrastructure cluster is ripping pre-market: SNDK +15%, WDC +12%, STX +10%, LRCX +7%, AMAT +7%, QCOM +10.7% after doubling its FY29 non-handset revenue target to $40B with $15B from AI data centers. TECH +20% on a Merck KGaA acquisition. WEN continues its squeeze story — up ~13% today for a ~32% weekly gain. The macro stack at 8:30 is the heaviest of the month: PCE, Core PCE, Final Q1 GDP, Unemployment Claims, and Durable Goods all drop simultaneously. Let the data clear before adding to anything.</p><p style="margin:0;color:#8b949e;font-size:11px;line-height:1.6;">Micron's print did what it needed to do — it provided a powerful counterargument to the AI bear case and directly validated the AI memory demand thesis. S&amp;P futures +0.65%, Nasdaq +2.09%, Russell +0.12%. The semi cluster is the leadership group today. QCOM's Investor Day yesterday was additive: doubling the FY29 non-handset revenue target to $40B (from $22B) with $15B targeted from AI data center alone tells you the AI infrastructure TAM is expanding well beyond GPUs into every chip category. The Fed stress tests passed cleanly — JPM, GS, WFC, STT, and BK all announced buyback and dividend increases, giving the financial sector a tailwind heading into quarter-end. The critical variable today is PCE at 8:30. Markets are looking for headline PCE at 4.1% YoY and core at 3.3% MoM — if core comes in above 3.3%, Warsh's hawkish dot-plot re-accelerates and yields spike, which could take some air out of the semi rally. A cool print (3.1% or below) gives the Fed room to pause and is the green light for a full risk-on push into quarter-end. Fed speakers Williams (3:40 PM) and Goolsbee (6:30 PM) add another narrative layer in the afternoon — position before, not after.</p></div>
+        </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Economic Calendar — This Week</div>
+          <div style="display:flex;flex:1;">
+            <div style="flex:1;min-width:0;padding:12px 10px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.05em;">Mon 6/22</div>
+              <div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 Fed Waller Speaks</div>
+            </div><div style="flex:1;min-width:0;padding:12px 10px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.05em;">Tue 6/23</div>
+              <div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 S&amp;P Global Manufacturing P</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 S&amp;P Global Services PMI  (</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 U.S. President Trump Speak</div>
+            </div><div style="flex:1;min-width:0;padding:12px 10px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.05em;">Wed 6/24</div>
+              <div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 New Home Sales  (May)</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 Crude Oil Inventories</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 Fed Bank Stress Test Resul</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 U.S. President Trump Speak</div>
+            </div><div style="flex:1;min-width:0;padding:12px 10px;border-right:1px solid #21262d;background:#1c2128;border-top:2px solid #ffd54f;">
+              <div style="font-size:10px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.05em;">Thu 6/25</div>
+              <div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 Core PCE Price Index (MoM)</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 Core PCE Price Index (YoY)</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 Core PCE Prices  (Q1)</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🔴 Durable Goods Orders (MoM)</div>
+            </div><div style="flex:1;min-width:0;padding:12px 10px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.05em;">Fri 6/26</div>
+              <div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 Michigan 1-Year Inflation </div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 Michigan 5-Year Inflation </div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 FOMC Member Williams Speak</div><div style="font-size:11px;color:#e6edf3;line-height:1.4;margin-bottom:4px;">🟡 FOMC Member Kashkari Speak</div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div style="flex:1;min-width:0;display:flex;flex-direction:column;">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
+              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;display:flex;align-items:center;gap:8px;color:#e6edf3;">
+                <span>JR Morning Prep: Results</span>
+                <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;border:1px solid #238636;padding:2px 7px;border-radius:10px;letter-spacing:.08em;">AFTER CLOSE</span>
+              </div>
+              <div style="padding:12px 14px;flex:1;display:flex;flex-direction:column;gap:10px;">
+                <p style="margin:0;color:#e6edf3;font-size:13px;line-height:1.5;font-weight:500;">MU confirmed the memory supercycle. Semi cluster ripping. Heaviest macro stack of the month at 8:30 — let PCE clear before adding to anything. The data confirms or kills the post-MU rally. Hot PCE = yields spike and semis give back gains. Cool PCE = full risk-on into quarter-end.</p>
+                <div style="display:flex;flex-wrap:wrap;gap:6px;"><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">DO NOT chase MU's open gap — wait for 10-min ORB or first pullback to add; the thesis is confirmed, not the entry</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Let 8:30 macro stack clear before entering anything — PCE is the tape-setter for the day</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Hot core PCE (above 3.3%) = Warsh hike-tilt confirmed, expect semi pullback; cool (3.1% or below) = green light</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Memory cluster read-through plays (SNDK, WDC, STX, LRCX, AMAT) are the setups if PCE is cool</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">WEN: ~32% on the week — trail extremely tight, do not add late-stage squeezes</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Bank stocks (JPM, GS, WFC, BK): stress tests passed, buybacks announced — buy any pullbacks ahead of quarter-end</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">GOOG Failed 2U + talent drain: institutional distribution confirmed via $364M ask AH; don't fight the tape</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Position ahead of Williams 3:40 PM and Goolsbee 6:30 PM — Fed speakers after a PCE print = vol event</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">BB on &lt;3 prints filter with earnings BMO — check the option chain for unusual OI setups</span></div>
+                <div style="display:flex;flex-wrap:wrap;gap:6px;"><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">MU</span>
+                    <span style="font-size:15px;font-weight:700;color:#f85149;">-1.6%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">Blockbuster Q3 — revenue $41.46B (+$5.6B beat), EPS $25.11 (+24% beat), Q4 guide $50B. Data center 7x YoY. Memory shortages beyond 2027.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">10-min ORB / first pullback level</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ PCE cool → MU holds gap and confirms → memory supercycle trade extends into Q3</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ Hot PCE → yields spike → MU gap partially closes on rate fear</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">Do NOT chase the open. Wait for ORB or pullback. The thesis is confirmed — the entry timing is the work.</div>
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">SNDK</span>
+                    <span style="font-size:15px;font-weight:700;color:#3fb950;">+4.3%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">MU read-through +15%. Citi raised PT to $2,500. Direct DRAM/NAND beneficiary of AI memory shortage thesis.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">Gap hold / 10-min ORB</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ PCE cool + MU gap holds → SNDK continuation as memory cluster leader</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ Hot PCE → semi complex fades → SNDK gives back some gap</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">WDC and STX are the same trade — pick the cleanest chart. All three are MU read-throughs.</div>
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">JPM</span>
+                    <span style="font-size:15px;font-weight:700;color:#3fb950;">+0.1%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">Inside bar. Stress tests passed. Buyback + dividend increase announced. Dividend in 11 days.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">Inside bar breakout / $250 level</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ PCE cool → banks rip into quarter-end on rate relief + buyback bid</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ Hot PCE → rate fear → banks sell on tighter-for-longer pressure</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">JPM is the cleanest bank setup — dividend catalyst in 11 days + stress test clear + buyback = institutional floor.</div>
+                </div></div>
+                <div><div style="font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;">Tier 2 / Monitoring</div><div style="display:flex;flex-wrap:wrap;gap:6px;"><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">QCOM</span>
+                    <span style="font-size:15px;font-weight:700;color:#f85149;">-6.6%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">Investor Day doubled FY29 target to $40B non-handset. Morgan Stanley upgraded to Equal Weight. +10.7% pre-market.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">10-min ORB / Investor Day gap hold</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ PCE cool → QCOM extends Investor Day rally; AI data center TAM narrative runs</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ Hot PCE + any ByteDance regulatory concern → gap fades</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">Monitor over 2-3 days as Investor Day digest continues. Don't overstay a one-day event gap.</div>
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">LRCX</span>
+                    <span style="font-size:15px;font-weight:700;color:#f85149;">-1.5%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">Failed 2D reversal + current mover. MU shortages beyond 2027 = wafer fab equipment super-cycle.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">Failed 2D trigger / open price</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ MU shortage narrative sticks → memory capex expansion → LRCX multi-year order book bid</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ PCE hot → rates spike → capex spend narrative cools</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">If you believe MU's 2027+ shortage call, LRCX and AMAT are the 6-12 month plays on equipment spend.</div>
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:12px 14px;min-width:160px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;">
+                    <span style="font-weight:700;font-size:15px;color:#e6edf3;">WEN</span>
+                    <span style="font-size:15px;font-weight:700;color:#f85149;">-13.5%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:11px;color:#8b949e;margin-bottom:4px;line-height:1.4;">Squeeze continuation ~+13% today, ~32% weekly. Trian take-private + CFO hire narrative still alive.</div>
+                  <div style="font-size:11px;color:#388bfd;font-weight:600;margin-bottom:4px;font-family:monospace;">Today's high / trail stop below yesterday's close</div>
+                  <div style="font-size:11px;color:#3fb950;margin-bottom:3px;line-height:1.4;">▲ Retail and institutional momentum extends into weekly close</div>
+                  <div style="font-size:11px;color:#f85149;margin-bottom:4px;line-height:1.4;">▼ Distribution begins — any high-volume reversal candle signals squeeze exhaustion</div>
+                  <div style="font-size:10px;color:#8b949e;font-style:italic;line-height:1.5;">TRAIL EXTREMELY TIGHT. This is late-stage squeeze territory. The scanner called it at the start — now protect gains.</div>
+                </div></div></div>
+                <div style="margin-top:auto;padding:10px 12px;border-radius:5px;background:#1c2128;border:1px solid #30363d;font-size:12px;color:#e6edf3;line-height:1.6;"><span style="font-weight:700;color:#ffd54f;">Market: </span>S&amp;P futures +0.65%, Nasdaq +2.09%, Russell +0.12%. MU +18.2% post-earnings. SNDK +15%, WDC +12%, STX +10%, QCOM +10.7%, LRCX +7%, AMAT +7%. TECH +20% (Merck KGaA acquisition). WEN +13% (week +32%). GOOG -1.4% (AI talent drain). DLTR -3.5% (block trade). WTI below $70 (-2%). 10-yr yield 4.41% stable. Bank sector bid: JPM/GS/WFC/BK all announcing buybacks after stress tests passed. Korea KOSPI +5.4%, Japan Nikkei +4.6% — Asia buying the MU print.</div>
+              </div>
+            </div>
+  </div>
+</div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Earnings Results + Key Events</div>
+          <div style="display:flex;gap:1px;background:#21262d;">
+            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">EARNINGS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">MKC</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±9.0%</span>
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sector Update: Consumer Stocks Decline Late Afternoon.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">DRI</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±6.5%</span>
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Darden Restaurants mixed Q4 — EPS beat but revenue missed, full-year EPS guide $11.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">SNX</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±9.6%</span>
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">TD SYNNEX (SNX) Tops Q2 Earnings and Revenue Estimates.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">BB</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">What to watch Thursday, June 25.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">CMC</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±9.8%</span>
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Commercial Metals (CMC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates.</span>
+            </div></div>
+            </div>
+            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">KEY EVENTS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">8:30 AM ET</span>
+              <span style="color:#adbac7;">HEAVIEST MACRO STACK OF THE MONTH — all at once: PCE Price Index + Core PCE m/m (Fed's preferred inflation gauge) + Final Q1 GDP + GDP Price Index + Unemployment Claims + Durable Goods Orders + Core Durable Goods. Let it clear before touching anything.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">3:40 PM ET</span>
+              <span style="color:#adbac7;">Fed's Williams speaks — watch for PCE reaction and any Warsh hawkish dot-plot pushback or confirmation</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">6:30 PM ET</span>
+              <span style="color:#adbac7;">Fed's Goolsbee speaks — afternoon position accordingly ahead of quarter-end</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">MRNA Science Day</span>
+              <span style="color:#adbac7;">Moderna Science Day — biotech catalyst, watch for pipeline updates</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Annual Meetings</span>
+              <span style="color:#adbac7;">MRVL (shareholder meeting today), DELL, LULU, KR, PATH, BB</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Earnings BMO</span>
+              <span style="color:#adbac7;">BB (BlackBerry, current mover +7.9%), MKC (McCormick +2.8%), DRI (Darden -2.5%), AYI (+2.1%), SNX (+6.3%)</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Earnings AMC</span>
+              <span style="color:#adbac7;">FDFX (FedEx Freight Holdings)</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Conferences</span>
+              <span style="color:#adbac7;">WMT (Wolfe Consumer Access Day), DBX, ICCM · ORCL conference in 5 days</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Dividends</span>
+              <span style="color:#adbac7;">PM, SRE, ZBH</span>
+            </div></div>
+            </div>
+          </div>
+        </div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
+          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+        <div class="wl-pill">
+          <span class="sym">IWM</span>
+          <span class="chg up">+0.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg up">+0.8%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg up">+0.0%</span>
+        </div><span class="wl-group-label">MAG 7</span>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg down">-6.1%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg down">-3.5%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg down">-1.6%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg down">-0.5%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg down">-3.1%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg down">-2.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg down">-0.1%</span>
+        </div></div>
+        </div>
+<div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="flex:0 0 50%;min-width:0;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="padding:14px;background:#161b22;">
+              <div style="font-size:12px;font-weight:700;color:#e6edf3;margin-bottom:8px;">MU — Close Chart</div>
+              <img src="charts/MU_2026-06-25.png" style="width:100%;border-radius:4px;display:block;">
+            </div>
+            <div style="border-top:1px solid #21262d;flex:1;min-width:0;display:flex;flex-direction:column;overflow-y:auto;">
+              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#ffd54f;">Trump Watch</div>
+              <div style="display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px 0;padding:10px 14px;align-items:flex-start;border-bottom:1px solid #21262d;">
+                <div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DJT</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-6.1%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">MSTR</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-9.3%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">COIN</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-5.1%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">HOOD</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-3.8%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">INTC</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.9%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-5.7%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">IBM</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-1.8%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">XOM</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.5%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CVX</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.5%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.2%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LNG</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+1.8%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">GEO</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CXW</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-1.4%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">DEFENSE</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LMT</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+2.7%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">RTX</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.8%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NOC</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.7%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NUE</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+3.5%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">X</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
+                </div>
+            </div>
+              </div>
+              <div style="padding:10px 14px;"><p style="margin:0 0 6px 0;color:#adbac7;font-size:11px;line-height:1.55;">The most important Trump/macro variable today is the PCE print at 8:30. Warsh's hawkish dot-plot is the Fed's operating framework — if PCE comes in above 4.1% headline or 3.3% core, it validates Warsh's hike-tilt and yields spike. If it comes in cool (3.1% or below on core), the Fed can pause and MU's monster print leads a full risk-on push.</p><p style="margin:0 0 6px 0;color:#adbac7;font-size:11px;line-height:1.55;">Oil continuing its retreat — WTI below $70 and Brent toward $73. The Middle East supply disruption fear premium is fading as Iran ceasefire holds. Falling oil is the single biggest disinflationary force ahead of today's PCE and is a direct tailwind for a cool print.</p><div style="display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">OIL</span>
+              <span style="font-weight:700;color:#f85149;min-width:52px;">-2%</span>
+              <span style="color:#adbac7;font-size:11px;flex:1;">WTI crude falling below $70/barrel, Brent toward $73 as Middle East supply disruption concerns fade. Trump's Iran diplomacy reducing the geopolitical risk premium in oil — directly easing inflation ahead of today's PCE print.</span>
+            </div><div style="display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">PRIM</span>
+              <span style="font-weight:700;color:#8b949e;min-width:52px;">upgrade</span>
+              <span style="color:#adbac7;font-size:11px;flex:1;">Goldman Sachs upgraded Primoris to Neutral from Sell ($102 PT) — the same name Trump's DOJ investigated for renewables cost overruns. Upgrade suggests the worst is priced in on the execution issues.</span>
+            </div></div>
+            </div>
+          </div>
+          <div style="flex:0 0 50%;background:#161b22;padding:14px;overflow-y:auto;display:flex;flex-direction:column;">
+            <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;margin-bottom:10px;">How Setups Played Out</div>
+            <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+              <div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">MU</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Kicker</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-1.6%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Bullish Kicker after the most decisive earnings beat of the AI era. Revenue +$5.6B above est, EPS beat 24%, Q4 guide $50B. Data center 7x YoY. Do NOT chase the open gap — wait for the first pullback or 10-min ORB confirmation. The $736M PRE bid from Wednesday tells you institutions were already positioned. The memory supercycle thesis is fully validated.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">QCOM</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Kicker</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-6.6%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Bullish Kicker after doubling FY29 non-handset revenue target to $40B (from $22B) with $15B from AI data center. Morgan Stanley upgraded to Equal Weight this morning. +10.7% pre-market. Investor Day catalyst now fully digested — this is the continuation setup. QCOM is telling you AI infrastructure demand extends well beyond GPUs.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">SNDK</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Gapper</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+4.3%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">SanDisk +15% pre-market on direct MU read-through — Citi raised PT to $2,500 from $2,025. Memory cluster momentum is the trade. If MU's print is about AI memory shortages persisting beyond 2027, SNDK is a direct beneficiary. Gap up with PT raise = institutional conviction.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">LRCX</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2D</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-1.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2D reversal with MU's massive print as the catalyst re-rating. Lam Research is the equipment name that most directly benefits from DRAM capacity expansion — if memory shortages persist beyond 2027 as MU management said, wafer fab equipment demand is a multi-year tailwind. Current mover today.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">WEN</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Gapper</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#ffd54f;font-size:11px;">3</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-13.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Wendy's continuing its squeeze — up another ~13% today for ~32% on the week. Retail enthusiasm is real. The &lt;3 prints filter caught this before the first gap. Trail extremely tight at this point — squeezes that run 32% in a week are late-stage. Watch for signs of distribution before adding.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">MRVL</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Gapper</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-3.4%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Marvell shareholder meeting today with MU's monster print as the tailwind. MRVL is the AI networking chip name Jensen called 'the next trillion-dollar company.' MU's AI infrastructure demand confirmation is directly bullish for MRVL's custom silicon thesis. Shareholder meeting today could include fresh demand commentary.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">VRT</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Bullish Kicker</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-3.9%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Vertiv — Bullish Kicker with DP on board. AI data center power and cooling infrastructure play. MU's 7x YoY data center revenue growth and persistent shortage narrative means more data centers are being built and expanded, directly driving demand for Vertiv's power distribution and cooling systems.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">TSM</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2D</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#ffd54f;font-size:11px;">3</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-4.0%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Taiwan Semi Failed 2D reversal. Two catalysts: (1) MU's massive print confirms AI chip demand is accelerating, (2) IBM unveiled sub-1 nanometer chip technology which will require TSM's most advanced fabs to manufacture at scale. Both are direct demand tailwinds.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">IBM</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#ffd54f;font-size:11px;">3</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-3.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">IBM unveiled what it calls the first chip technology capable of manufacturing chips smaller than 1 nanometer — a substantial capability leap for AI and cloud infrastructure compute. Inside bar compression with a fresh major tech breakthrough as the catalyst. PCE data today could be the expansion trigger.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">JPM</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Inside (1)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+0.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">JPMorgan inside bar with bank stress tests cleared and buyback/dividend increase announced. $700B+ hypothetical loan loss scenario passed. Dividend in 11 days. Bank sector getting a post-stress-test bid heading into quarter-end. Inside day = coiled.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">TTWO</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Outside (3)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+0.7%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Take-Two Interactive — 3-Bar Outside range expansion with a fresh BTIG Buy initiation at $290 PT yesterday. Gaming is a defensive play in a risk-on tape. Outside bar says expansion is happening — direction from PCE data and broader tape.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">UNH</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Outside (3)</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+2.2%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">UnitedHealth Outside bar — defensive healthcare name. In a risk-on AI tape, healthcare is lagging, but the Outside bar says a range expansion is coming. Watch whether today's semi rally broadens or stays sector-specific.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">GOOG</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#f85149;">BEAR</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2U</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+1.6%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Failed 2U with continued AI talent drain pressure — GOOGL poised to lose two more high-profile AI staffers to Anthropic (per the headlines on the tape this morning). $364M ask-side AH Wednesday confirms institutional distribution. The DJIA addition June 29 is a one-time passive buy; the talent narrative is the structural concern.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">LLY</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#f85149;">BEAR</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Failed 2U</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+0.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Eli Lilly Failed 2U — healthcare/pharma underperforming in a semiconductor-led risk-on session. Failed 2U is a bearish reversal signal. In a tape where semis are ripping 10-15%, defensive pharma names tend to lag.</div>
+                </div>
+            </div>
+          </div>
+        </div>
+<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#3fb950;">▲ Today's Winners</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">MU</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-1.6%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Blockbuster Q3: revenue $41.46B vs $35.84B est (+16% beat), EPS $25.11 vs $20.20 est (+24% beat). Data center 7x YoY to $11.5B. Q4 guide $50B revenue / $31 EPS vs Street $43.2B / $26. Gross margins 84.6%. Multi-year HBM Strategic Customer Agreements. Memory shortages could persist beyond 2027. AI memory supercycle fully confirmed.</span>
+                  <span style="color:#ffd54f;font-size:10px;">$736M bid PRE + $6.0B total session flow Wednesday</span>
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">TECH</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+0.7%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Bio-Techne acquired by Merck KGaA for $73/share in cash — $11.3B deal. Life sciences tools M&amp;A premium.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">QCOM</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-6.6%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Investor Day yesterday: nearly doubled FY29 non-handset revenue target to $40B (from $22B), $15B from AI data center infrastructure. Multiple analyst PT hikes. Morgan Stanley upgraded to Equal Weight. Modular Inc. acquisition confirmed. ByteDance chip design discussions ongoing.</span>
+                  <span style="color:#ffd54f;font-size:10px;">Bullish Kicker with DP</span>
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">SNDK</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+4.3%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Direct MU earnings read-through. Citi raised PT to $2,500 from $2,025. SanDisk and Western Digital are the primary DRAM/NAND beneficiaries of persistent AI memory shortages.</span>
+                  <span style="color:#ffd54f;font-size:10px;">MU catalyst read-through</span>
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">WEN</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-13.5%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Wendy's continuing its short squeeze — ~32% on the week. New CFO + Trian take-private rumors + &lt;3 prints filter catch before the gap. Retail momentum driving continued enthusiasm.</span>
+                  <span style="color:#ffd54f;font-size:10px;">DP on board, squeeze continuation</span>
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">IBM</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">-3.5%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">IBM unveiled sub-1 nanometer chip technology — first in the industry. Substantial capability leap for AI compute and cloud infrastructure. Builds on quantum EO momentum from earlier this week.</span>
+                  
+                  
+                </div></div>
+          </div>
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#f85149;">▼ Today's Losers</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">TCOM</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+0.8%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Trip.com Group Q4 earnings missed on both revenue and adjusted EPS. Singapore-based online travel agency hurt by China travel demand softness.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">DRI</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+1.2%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Darden Restaurants mixed Q4 — EPS beat but revenue missed, full-year EPS guide $11.10-$11.35 missed FactSet consensus of $11.39. Revenue outlook $13.60-13.75B also missed $13.71B estimate. Olive Garden weakness the culprit.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">SPRY</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+3.0%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">ARS Pharmaceuticals updated payer access data for neffy (epinephrine nasal spray) plus revised 2026-2027 financial outlook. Market punishing the guidance revision.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">DLTR</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+2.4%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Dollar Tree — major shareholder conducting block trade via JPMorgan and Goldman Sachs. Company simultaneously repurchasing $500M of stock. Secondary overhang pressuring the stock despite the buyback offset.</span>
+                  
+                  
+                </div><div style="display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">GOOG</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+1.6%</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Alphabet poised to lose two more high-profile AI staffers to Anthropic. Ongoing talent drain narrative. Failed 2U + $364M ask AH Wednesday = institutional distribution. DJIA addition June 29 is passive one-time; talent loss is structural.</span>
+                  <span style="color:#ffd54f;font-size:10px;">$364M ask AH Wednesday</span>
+                  
+                </div></div>
+          </div>
+        </div>
+
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Dark Pool Blocks</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px;"><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">NVDA</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$1.3B</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MU</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$736M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AAPL</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$651M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MSFT</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$595M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AVGO</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$500M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">META</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$437M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AMZN</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$434M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">GOOGL</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$364M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">BE</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$357M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AMAT</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$317M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div></div>
+        </div>
+
+</body>
+</html>
