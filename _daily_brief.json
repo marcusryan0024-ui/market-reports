@@ -3926,6 +3926,304 @@
       ]
     }
   },
+  "2026-06-26": {
+    "headline": "PCE 4.1% YoY matched est, Core PCE 3.4% beat — fourth straight month of acceleration. Warsh hike-or-hold posture locked in. BABA triple signal: Bearish Gapper + Bearish Kicker + $43.9M put block. GOOG/GOOGL $1.1B combined ask AH. Memory giving back. Friday cool-off — size down, wait for 10 AM data, Trump speech 1:30 PM.",
+    "overview": "PCE came in at 4.1% YoY (highest since April 2023, matched consensus) and Core PCE at 3.4% YoY (slight beat vs 3.3% expected) — the fourth straight month of accelerating inflation. Markets digested it surprisingly well with personal spending resilient at +0.7% and jobless claims soft at 215K. Analysts expect this to be near the peak as the Iran/Hormuz energy spike unwinds from the data. The Fed is locked into Warsh's hike-or-hold posture — no pivot narrative survives a fourth straight acceleration month. BABA is the morning's most compelling single-name story: Bearish Gapper + Bearish Kicker from yesterday + largest options block of the session ($43.9M put at $155 strike) — three different signals pointing the same direction. The Alphabet pair (GOOG $620M + GOOGL $500M = $1.1B+ combined ask AH) is the standout on the institutional side. Memory stocks (MU, SNDK, STX) are giving back some of Thursday's explosive MU-driven gains. Light corporate calendar today — UMich Sentiment at 10 AM, two Fed speakers, and Trump speaking at 1:30 PM are the tape-movers. Size down and prepare for next week.",
+    "market_context": "This is a Friday cool-off session after one of the busiest catalyst weeks of the year: KOSPI crash → PMI → MU blowout → bank stress tests → PCE. The tape has been through a full macro cycle in five days. PCE confirms inflation isn't done — but the market's resilience Thursday after the print (Nasdaq finished positive) tells you investors are treating this as the peak, not the start of a new acceleration leg. The key tells: (1) personal spending +0.7% is strong, meaning the consumer isn't breaking down, (2) oil is retreating and the Iran/Hormuz risk premium is fading — both are disinflationary forces that lag in the PCE data. The BABA $43.9M put block is the single loudest bearish signal on the board — that's not retail activity, that's a fund making a macro or company-specific bet. Cross-reference: BABA is a Bearish Gapper, was a Bearish Kicker yesterday, and China tech names are under pressure with ongoing regulatory risk. The NVDA $205P Dec 2027 sweep ($2.7M) is a long-dated hedge worth noting — not a directional day-trade but a signal that someone is buying insurance on NVDA two years out. Two Fed speakers (Williams 10:30, Kashkari 11:30) right after UMich data will set the afternoon tone. Trump at 1:30 PM = choppy consolidation. Position size accordingly — Friday after a big week is not the day to over-extend.",
+    "setups": [
+      {
+        "ticker": "BABA",
+        "pattern": "Bearish Gapper",
+        "bias": "BEAR",
+        "flow": "$43.9M put block $155 7/17/26 — largest options block Thursday + DP on board",
+        "why": "Triple confluence bear signal — Bearish Gapper today, Bearish Kicker yesterday, and the largest options block of Thursday's session was a $43.9M put at $155 strike expiring July 17. Three different signals pointing the same direction in the same name in back-to-back sessions is unusual. This is institutional conviction on the bear side. Wait for pre-market low break before entry."
+      },
+      {
+        "ticker": "GOOG",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "$620M ask AH Thursday (GOOG) + $500M ask AH (GOOGL) = $1.1B+ combined",
+        "why": "Failed 2D with $1.1B+ combined institutional ask-side pressure in both share classes Thursday AH. AI talent drain narrative (two more researchers leaving for Anthropic) + the DJIA addition passive buy is one-time and already fading. GOOG doesn't hold gains well — the massive ask-side DP is the tell. Conference 3 days ago means the catalyst is in the rearview."
+      },
+      {
+        "ticker": "SNDK",
+        "pattern": "Bearish Kicker",
+        "bias": "WATCH",
+        "flow": "$3.7B total Thursday, DP on board",
+        "why": "Bearish Kicker after Thursday's explosive MU-driven rip (+15%). 2-2 reversal trigger at 2092 — a break below that level opens gaps at 1914 and 1643. $3.7B total session flow Thursday means the stock is heavily traded. Post-catalyst digestion on a Friday is typically the fade. Watch the 2092 trigger."
+      },
+      {
+        "ticker": "TSM",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "Sales update in 2 weeks",
+        "why": "3-Bar Outside range expansion with sales update catalyst in 2 weeks. TSM is the backbone of the AI chip supply chain — MU's shortage narrative and NVDA's HBM demand directly benefit TSM's advanced node fab utilization. Outside bar says expansion coming. Direction from today's tape and next week's setup into the sales update."
+      },
+      {
+        "ticker": "ARM",
+        "pattern": "Outside (3)",
+        "bias": "WATCH",
+        "flow": "Current mover",
+        "why": "ARM Holdings — 3-Bar Outside range expansion as a current mover. ARM architecture is the foundation for AI edge compute, mobile, and NVDA's custom chip ecosystem. Outside bar on a Friday after a volatile week means the next directional move could be sizable. Watch for follow-through."
+      },
+      {
+        "ticker": "MRVL",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Annual shareholder meeting yesterday, current mover",
+        "why": "Marvell Failed 2U after the shareholder meeting yesterday. The meeting catalyst is now behind it. Failed 2U in a stock that ripped on MU's print this week suggests the initial enthusiasm may be fading. Post-meeting, post-catalyst fades are common on Fridays."
+      },
+      {
+        "ticker": "ON",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Business update yesterday, current mover, <3 prints filter",
+        "why": "ON Semiconductor Failed 2U after business update yesterday. Current mover. Also on the <3 prints filter — the same filter that caught WEN before it squeezed. Check the option chain for unusual OI setups. Business update catalyst is now behind it."
+      },
+      {
+        "ticker": "TMO",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on board, <3 prints filter",
+        "why": "Thermo Fisher Scientific — Bullish Gapper with DP on board and on the <3 prints filter. Life sciences / lab instruments is a defensive growth name. In a risk-off Friday tape, defensive names can outperform. The <3 prints filter has been hot this week — WEN was on it before the squeeze."
+      },
+      {
+        "ticker": "MRK",
+        "pattern": "Bullish Catalyst",
+        "bias": "BULL",
+        "flow": "FDA approval June 25",
+        "why": "Merck received FDA approval for KEYTRUDA + KEYTRUDA QLEX in combination with Trodelvy (Gilead's GILD) as first-line treatment for PD-L1+ advanced triple-negative breast cancer. The first PD-1 inhibitor + Trop-2 ADC regimen approved in advanced TNBC. CICC initiated Outperform at $138 on June 24 (implying ~15% upside). Multiple pipeline wins across bladder cancer (Europe), renal cell carcinoma, and now TNBC."
+      },
+      {
+        "ticker": "UBER",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Coiling",
+        "why": "Uber inside bar compression. In a quiet Friday tape, inside bars on high-quality names can be the setup for next week. Autonomous vehicle / robotaxi theme is a tailwind. Watch for next week's expansion direction."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "MRK",
+        "pct": "+catalyst",
+        "why": "FDA approved KEYTRUDA + KEYTRUDA QLEX in combo with Trodelvy for PD-L1+ advanced triple-negative breast cancer — first PD-1 inhibitor + Trop-2 ADC regimen in advanced TNBC. CICC initiated Outperform at $138 ($121 current → ~15% upside). Pipeline also includes European approval for bladder cancer and Japan NDA for Zepzelca.",
+        "flow": "FDA approval catalyst"
+      },
+      {
+        "ticker": "TMO",
+        "pct": "+gapper",
+        "why": "Thermo Fisher — Bullish Gapper with DP on the board. Life sciences defensive name on a risk-off Friday. <3 prints filter flagged it. Same filter caught WEN before the squeeze.",
+        "flow": "DP on board, <3 prints"
+      },
+      {
+        "ticker": "MSFT",
+        "pct": "+gapper",
+        "why": "Microsoft Bullish Gapper with DP on board. $300M bid AH Thursday. Defensive mega-cap in a risk-off Friday tape. Conference from earlier this week with positive AI demand commentary still in the narrative.",
+        "flow": "$300M bid AH Thursday"
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "BABA",
+        "pct": "-gapper",
+        "why": "Triple confluence bear signal: Bearish Gapper + Bearish Kicker yesterday + $43.9M put block at $155 7/17 — largest options block of Thursday's session. Three different signals in two sessions is institutional conviction. China tech regulatory risk is the structural overhang.",
+        "flow": "$43.9M put block — largest options block Thursday"
+      },
+      {
+        "ticker": "MU",
+        "pct": "-digestion",
+        "why": "Micron digesting Thursday's explosive +18% earnings gap on a Friday. Post-earnings Friday fades are common — the catalysts are priced. $694M bid AH Thursday shows institutions still support but profit-taking is the near-term dynamic.",
+        "flow": "$694M bid AH Thursday"
+      },
+      {
+        "ticker": "STX",
+        "pct": "-gapper",
+        "why": "Seagate — Bearish Gapper with DP on board. Third straight session at the top of the prints board. Memory/storage complex giving back some of Thursday's MU-driven gains. $409M bid AH Thursday was a hedge — now paying on the pullback.",
+        "flow": "$409M bid AH Thursday (third straight session)"
+      },
+      {
+        "ticker": "TSLA",
+        "pct": "-gapper",
+        "why": "Tesla — Bearish Gapper with DP on board. Tesla and GM sales data next week are the next major catalyst — pre-positioning for the data could create downward pressure into the weekend. Friday + no positive near-term catalyst = natural fade.",
+        "flow": "DP on board"
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "PCE",
+        "pct": "macro",
+        "news": "Trump speaking at 1:30 PM — expect choppy market consolidation around the speech. Core PCE 3.4% beat keeps Warsh's hawkish Fed posture in place; any Trump commentary on rates or the Fed will move markets."
+      },
+      {
+        "ticker": "XOM",
+        "pct": "watch",
+        "news": "Iran/Hormuz energy risk premium still working through PCE data. Analysts expect oil price spike to be near peak as Middle East tensions ease — Trump's diplomatic channel with Iran is the variable. Falling oil = disinflationary force for next month's PCE."
+      }
+    ],
+    "trump_context": [
+      "Trump speaks at 1:30 PM — position ahead and expect choppy consolidation. Any Fed commentary, tariff update, or Iran/Hormuz statement could move the tape quickly. Core PCE beat (3.4% vs 3.3% expected) keeps Warsh's hike-or-hold posture intact — Trump historically pushes back against hawkish Fed policy, so listen for any rate criticism.",
+      "Iran/Hormuz: Trump secured assurance of no tolls on Strait passage earlier this week. The energy spike is working through PCE data — analysts expect this to be near the peak as oil retreats. WTI is down near $70, which is disinflationary and is the market's bull case for a cool July PCE reading."
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$694M",
+        "side": "bid",
+        "note": "AH Thursday — post-earnings follow-through; now digesting on Friday"
+      },
+      {
+        "ticker": "GOOG",
+        "size": "$620M",
+        "side": "ask",
+        "note": "AH Thursday — institutional distribution"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$500M",
+        "side": "ask",
+        "note": "AH Thursday — $1.1B+ combined GOOG+GOOGL ask is the standout single-name read"
+      },
+      {
+        "ticker": "SLB",
+        "size": "$414M",
+        "side": "mixed",
+        "note": "AH Thursday"
+      },
+      {
+        "ticker": "STX",
+        "size": "$409M",
+        "side": "bid",
+        "note": "AH Thursday — third straight session at the top of the prints board"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$300M",
+        "side": "ask",
+        "note": "AH Thursday"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$300M",
+        "side": "bid",
+        "note": "AH Thursday — bullish gapper today"
+      },
+      {
+        "ticker": "META",
+        "size": "$217M",
+        "side": "bid",
+        "note": "AH Thursday — 2-down day pattern, gap fill at $536"
+      },
+      {
+        "ticker": "CRWD",
+        "size": "$212M",
+        "side": "mixed",
+        "note": "AH Thursday"
+      }
+    ],
+    "events": [
+      {
+        "type": "10:00 AM ET",
+        "detail": "UMich Consumer Sentiment Final + Revised UMich Inflation Expectations — sentiment recovered from May's 44.8 record low to 48.9; confirms trajectory post-PCE beat"
+      },
+      {
+        "type": "10:30 AM ET",
+        "detail": "FOMC Member Williams speaks — first Fed voice after Core PCE 3.4% beat; watch for any Warsh hike-or-hold confirmation or pushback"
+      },
+      {
+        "type": "11:30 AM ET",
+        "detail": "FOMC Member Kashkari speaks — second Fed voice; position ahead, not after"
+      },
+      {
+        "type": "1:30 PM ET",
+        "detail": "Trump speaks — expect choppy consolidation; any Fed, rate, tariff, or Iran commentary moves the tape"
+      },
+      {
+        "type": "Annual Meetings",
+        "detail": "ACHR, XPEV, AEO, HMC"
+      },
+      {
+        "type": "Next Week Watch",
+        "detail": "Tesla and GM monthly sales data — major catalysts for TSLA and auto sector; prepare watchlists over weekend"
+      },
+      {
+        "type": "Options Flow",
+        "detail": "Largest block: BABA $155P 7/17/26 at $43.9M · Largest sweep: NVDA $205P 12/17/27 at $2.7M (long-dated hedge)"
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "TSLA",
+      "bias": "BEAR",
+      "pattern": "Bearish Gapper",
+      "flow": "DP on board, Bearish Gapper",
+      "catalyst": "No positive near-term catalyst. Tesla + GM monthly sales data next week = pre-positioning pressure. PCE hot = risk-off. Trump 1:30 PM = afternoon vol.",
+      "key_levels": "Put side: $300 round number | $280 gap fill | Call side: needs reclaim of $320+",
+      "expected_move": "±3–5%",
+      "why": "TSLA is the highest-probability Mag 7 explosive mover on Friday 0DTE. It's a Bearish Gapper with DP on board and has no positive near-term catalyst — Tesla and GM sales data lands next week, which could be a headwind as pre-positioning builds. PCE beating consensus (3.4% vs 3.3%) is a risk-off macro signal that hits high-multiple growth names like TSLA hardest. Trump at 1:30 PM creates afternoon vol — TSLA is historically one of the most reactive Mag 7 names to market-level events. The bear bias is directional, not just vol — use the 10-min ORB to confirm direction before entering."
+    },
+    "morning_prep": {
+      "theme": "Friday cool-off after the biggest catalyst week of the quarter. PCE confirmed the re-acceleration narrative — Warsh hike-or-hold is locked. Size down, wait for 10 AM data, don't chase. Best trade today might be doing nothing until after Williams/Kashkari speak.",
+      "rules": [
+        "Size DOWN — Friday after a heavy week; over-extending today kills a great week",
+        "Wait for 10 AM UMich data to clear before entering anything — sentiment data after PCE beat is a vol event",
+        "BABA: wait for pre-market low break — triple confluence bear, but let price confirm before entry",
+        "SNDK: 2-2 reversal trigger at 2092 — monitor, gaps to fill at 1914 and 1643 below",
+        "Trump speech at 1:30 PM = choppy consolidation — do not hold large positions into it",
+        "Williams 10:30 AM + Kashkari 11:30 AM — position ahead, not after the first headline",
+        "META: 2-down day pattern, gap fill at $536 — monitor for setup",
+        "MRK: FDA KEYTRUDA+Trodelvy approval — check chart, fresh catalyst with Outperform initiation",
+        "Do NOT chase memory stocks (MU, SNDK, STX) — Friday digestion after a massive Thursday run",
+        "Prepare next week watchlist: TSLA/GM sales data, SNDK 2092 trigger, GOOGL Failed 2D continuation"
+      ],
+      "market": "PCE 4.1% YoY matched est, Core PCE 3.4% YoY beat (vs 3.3% est) — fourth straight month of acceleration. Personal spending +0.7% resilient. Claims 215K soft. Memory giving back (MU, SNDK, STX all Bearish Gappers). BABA triple confluence bear. GOOG/GOOGL $1.1B combined ask AH. TMO + MSFT bullish gappers. MRK FDA approval. Light corporate calendar. UMich 10 AM + two Fed speakers + Trump 1:30 PM are the only tape catalysts.",
+      "setups": [
+        {
+          "ticker": "BABA",
+          "tier": 1,
+          "catalyst": "Triple confluence: Bearish Gapper + Bearish Kicker yesterday + $43.9M put block 7/17 at $155",
+          "levels": "Entry: break below pre-market low | Target: $155 put strike area",
+          "bull": "China stimulus announcement or regulatory reprieve → squeeze above prior close",
+          "bear": "Breaks pre-market low → institutional put thesis plays out, targets $155",
+          "note": "Wait for the break — don't anticipate. Three signals pointing the same direction is unusual. This is institutional conviction."
+        },
+        {
+          "ticker": "SNDK",
+          "tier": 1,
+          "catalyst": "2-2 reversal trigger at 2092. Bearish Kicker with DP. Gaps at 1914 and 1643 below.",
+          "levels": "Bear trigger: break below 2092 | Gap fills: 1914, then 1643",
+          "bull": "Holds 2092 → Thursday's MU-driven momentum continues next week",
+          "bear": "Breaks 2092 → 2-2 reversal confirmed → gap fill at 1914 is the first target",
+          "note": "Monitor the 2092 level all day. A Friday close below it sets up a bigger move next week."
+        },
+        {
+          "ticker": "MRK",
+          "tier": 1,
+          "catalyst": "FDA approved KEYTRUDA + Trodelvy for TNBC. CICC Outperform $138 PT initiated June 24. Multiple pipeline wins.",
+          "levels": "Watch for breakout above $122 / prior week high",
+          "bull": "FDA approval + analyst initiation drives fresh momentum → target $138 CICC PT",
+          "bear": "Biosimilar risk headlines return → regulatory exclusivity expiration overhang",
+          "note": "This is a real fundamental catalyst with analyst backing. Defensive pharma on a risk-off Friday is the ideal environment."
+        },
+        {
+          "ticker": "GOOG",
+          "tier": 2,
+          "catalyst": "Failed 2D. $1.1B+ combined GOOG+GOOGL ask AH. AI talent drain narrative. Conference catalyst behind it.",
+          "levels": "Bear entry: below prior day low | Gap fill below",
+          "bull": "Any DJIA addition passive buy flow + short covering",
+          "bear": "Failed 2D + institutional ask confirms → GOOGL continues lower toward gap fills",
+          "note": "GOOG doesn't hold gains. $1.1B combined ask is the tell. Conference is behind it — catalyst exhausted."
+        },
+        {
+          "ticker": "META",
+          "tier": 2,
+          "catalyst": "2-down day pattern. Gap fill at $536. $217M bid AH Thursday (supporting floor).",
+          "levels": "Gap fill target: $536 | Support: $217M bid AH floor",
+          "bull": "Holds above gap fill → $217M bid AH is the institutional floor",
+          "bear": "Breaks toward $536 gap fill on risk-off Friday",
+          "note": "The $217M bid AH says institutions still support META — but the 2-down pattern is the technical signal to watch."
+        }
+      ]
+    }
+  },
   "2026-06-25": {
     "headline": "MU blows the doors off — $41.5B revenue vs $35.8B est, EPS $25.11 vs $20.20, Q4 guide $50B. Memory supercycle confirmed. Semi cluster ripping: SNDK +15%, WDC +12%, STX +10%, QCOM +10.7%. Heaviest macro stack of the month at 8:30: PCE + GDP + Claims + Durable Goods all at once. Fed speakers Williams 3:40 PM + Goolsbee 6:30 PM.",
     "overview": "Micron delivered one of the most decisive earnings beats of the AI era. Revenue $41.46B crushed the $35.84B estimate by over $5.6B — the data center segment alone grew 7x year-over-year to $11.5B. EPS $25.11 beat by 24%. Q4 guide of $50B revenue and $31 EPS absolutely vaporized the Street's $43.2B estimate. Gross margins at 84.6% GAAP. Multi-year Strategic Customer Agreements for HBM chips were the surprise pillar — memory shortages could persist beyond 2027. The entire memory and AI infrastructure cluster is ripping pre-market: SNDK +15%, WDC +12%, STX +10%, LRCX +7%, AMAT +7%, QCOM +10.7% after doubling its FY29 non-handset revenue target to $40B with $15B from AI data centers. TECH +20% on a Merck KGaA acquisition. WEN continues its squeeze story — up ~13% today for a ~32% weekly gain. The macro stack at 8:30 is the heaviest of the month: PCE, Core PCE, Final Q1 GDP, Unemployment Claims, and Durable Goods all drop simultaneously. Let the data clear before adding to anything.",
