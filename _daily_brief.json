@@ -205,6 +205,70 @@
         "news": "Trump bought up to $5M in Axon (formerly Taser) stock personally before a $220M ICE contract bid was awarded. Government contract + insider-adjacent presidential buying."
       }
     ],
+    "morning_prep": {
+      "theme": "End of Q2 + End of Month. The biggest lesson from this week isn't about making money — it's about discipline. TSLA hit 2000%+ option gains yesterday. AVAV is up 30% this morning. If you missed those, that's fine. There is always another play. The goal is consistency, not catching every home run. Quarter-end historically produces strong afternoon trends and powerful closing moves — but it is NOT guaranteed. Let price prove itself before entering anything.",
+      "rules": [
+        "No overleveraging",
+        "No FOMO — no chasing yesterday's winners",
+        "No forcing trades before 10am data",
+        "Wait for ORB confirmation (10-min or 30-min)",
+        "Use ADR highs/lows for targets and scaling out",
+        "Respect your stop, respect your portfolio",
+        "Consolidation ≠ trade over — good trends give multiple entries"
+      ],
+      "market": "10:00 AM ET is the key time today — JOLTS + Consumer Confidence both drop at the same time. Expect volatility at the open and around the data. DO NOT force trades before the reaction. Afternoon is where quarter-end and month-end moves typically show up — institutions rebalancing, window dressing, powerful closing drives. Watch SPY for institutional buying or selling after 10am. AWS Summit keynote around 11am ET is a secondary catalyst for AMZN and cloud names.",
+      "setups": [
+        {
+          "ticker": "AVAV",
+          "tier": 1,
+          "catalyst": "★ Earnings blowout — bullish kicker. Higher timeframe resistance remains.",
+          "levels": "Bull trigger: above ~$190",
+          "bull": "10-min or 30-min ORB above 190 with volume. Do NOT blindly buy because of earnings — wait for confirmation + volume clearing resistance.",
+          "note": "★ Great trends give multiple entries. Miss the open? You still get 15-min ORB, 30-min ORB, inside bar, 2↑2 continuation, consolidation breakout. Never assume you missed it."
+        },
+        {
+          "ticker": "AFRM",
+          "tier": 1,
+          "catalyst": "Analyst initiated Overweight. History of strong unusual options flow.",
+          "levels": "Bull trigger: 84.65",
+          "bull": "Weekly resistance break + 2↑2 continuation + ORB confirmation with volume. Only if market confirms.",
+          "note": "Positive technical structure. Do not enter without market confirmation first."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 1,
+          "catalyst": "AWS Summit keynote ~11am ET — new AI and cloud infrastructure announcements.",
+          "levels": "Watch 11am keynote reaction",
+          "bull": "AI headlines, cloud news, momentum off keynote. Unusual options volume flagged — use new filter + heatmap to find the active strikes.",
+          "note": "Unusual options activity already showing. AMZN $310M bid DP Monday. Keynote is a known time-stamped catalyst."
+        },
+        {
+          "ticker": "IWM",
+          "tier": 2,
+          "catalyst": "Russell 2000 reconstitution today. Very compressed structure.",
+          "levels": "Wait for range escape",
+          "bull": "Large move possible if price escapes the compression. Quarter-end rebalancing could be the trigger.",
+          "note": "Remain patient. Do not anticipate direction — let price break and confirm first."
+        },
+        {
+          "ticker": "LYFT",
+          "tier": 2,
+          "catalyst": "Long consolidation, monthly reversal, weekly Doji, unusual options flow in calls.",
+          "levels": "Bull trigger: 15.34",
+          "bull": "Breakout toward overhead gaps above 15.34. Weekly resistance break + ORB confirmation.",
+          "note": "Longer-term setup. Only if market confirms direction."
+        },
+        {
+          "ticker": "NKE",
+          "tier": 2,
+          "catalyst": "Earnings after close. Expected move ±8%.",
+          "levels": "Above $45 bull / Below $38 bear",
+          "bull": "Historically gaps significantly after earnings. Treat as earnings gamble only.",
+          "bear": "Expected range down to $38 on a miss.",
+          "note": "Earnings gamble — risk only what you are comfortable losing entirely. Not a directional trade."
+        }
+      ]
+    },
     "events": [
       {
         "type": "9:45 AM ET",
