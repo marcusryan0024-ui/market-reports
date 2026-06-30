@@ -1,4 +1,245 @@
 {
+  "2026-06-30": {
+    "headline": "Last day of Q2 + end of month — institutions rebalancing, semis still anchored. AVAV +30% on drone earnings blowout. TSM $62.4M call block is one of the biggest ever surfaced. CIEN climbing the DP board. AWS Summit keynote 11am. JOLTS + Consumer Confidence at 10am. NKE earnings tonight.",
+    "overview": "Today is the last trading day of Q2 and the last day of the month at the same time — that double-event means institutions are cleaning up books, locking in gains, and window dressing into mega caps before the quarter closes. Volume tends to be amplified on these days, especially in the afternoon. Nasdaq futures are leading (+0.24%) driven by continued semiconductor momentum. AeroVironment (AVAV) is the morning's big winner — up 30%+ on a massive earnings beat (EPS $1.84 vs $1.41, revenue $641.6M vs $556.4M) with strong drone systems demand. Oil has now fallen to $71 as the Iran ceasefire holds and Strait of Hormuz traffic is increasing for the first time since the attacks — a huge relief for inflation and the broader market. Nike and Constellation Brands report after close tonight. NFP comes Thursday July 2 (a day early because of Friday's July 4 holiday). Chicago PMI at 9:45am and JOLTS + Consumer Confidence both hit at 10am.",
+    "market_context": "Quarter-end is the theme. When Q2 closes today, institutions will have finished one of the best quarters in years for AI and semiconductor stocks. MU led dark pool flow Monday at $6.7B ask-side — memory demand is still the engine. NVDA clustered another $1.0B single print. The big story from the options desk: a $62.4M call block hit on TSM $400C September 18 — one of the largest single call positions the platform has surfaced since launch. Someone is making a massive directional bet that Taiwan Semi runs to $400 by September. CIEN (Ciena) is also quietly climbing into the top 3 of dark pool prints for the first time ($524M ask Monday) — watch for a build-up there. The other key catalyst today is Amazon's AWS Summit in Washington D.C. with the keynote around 11am ET — any AI/cloud infrastructure announcements could move AMZN and the whole cloud sector. Iran ceasefire continuing to hold and oil at $71 from $95+ weeks ago is the macro tailwind that has quietly done a lot of work for the market.",
+    "setups": [
+      {
+        "ticker": "AVAV",
+        "pattern": "Failed 2U",
+        "bias": "BULL",
+        "flow": "Earnings beat, bullish kicker, +30% pre-mkt, drones",
+        "why": "Failed 2U but with a bullish kicker — the earnings beat completely overrides the bearish strat signal. AeroVironment crushed Q4: EPS $1.84 vs $1.41, revenue $641.6M vs $556.4M, strong drone bookings with 1.4x book-to-bill. End-of-quarter institutions love a confirmed earnings winner. Multiple ORB entries will develop — wait for the 10-min or 30-min confirmation, don't chase the open."
+      },
+      {
+        "ticker": "ORCL",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Conference today, quarter-end accumulation",
+        "why": "Outside bar range expansion with a conference today. Oracle has been quietly building as a major AI cloud data center player. Quarter-end window dressing loves mega cap AI names. NVDA $1.0B bid DP Monday says the AI cluster is still getting bought — ORCL sits in that same narrative. Outside bar means it's already moving."
+      },
+      {
+        "ticker": "MU",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "$6.7B ask-side total flow Monday, $396M single print",
+        "why": "Failed 2D bullish reversal with the largest total dark pool flow of any stock Monday at $6.7B ask-side. Memory demand is the bedrock of the AI trade — NVDA, AVGO, and hyperscalers all need MU's chips. Quarter-end institutions are clustering (confirmed fewer than 3 prints visible — accumulation mode). $6.7B doesn't flow ask-side on the last day of Q2 by accident."
+      },
+      {
+        "ticker": "NVDA",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "$1.0B ask-side AH Monday (biggest single name), clustering",
+        "why": "Outside bar while clustering — NVDA is in range expansion mode with institutions still accumulating on every dip. $1.0B single print Monday after hours. GTC Taipei wrapped last week and the institutional buy-the-dip behavior never stopped. Quarter-end = window dressing into the best-performing mega cap of Q2."
+      },
+      {
+        "ticker": "ENPH",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Current mover, +11.34%, Joined Open Compute Project",
+        "why": "Outside bar on a current mover. Enphase jumped 11% after joining the Open Compute Project as a Platinum Member — connecting solar/energy hardware to the AI data center power story. Range expansion in progress."
+      },
+      {
+        "ticker": "MRVL",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Dividend in 10 days, Jensen $1T call still in play",
+        "why": "Outside bar following last week's massive move on Jensen Huang's trillion-dollar company call. Dividend in 10 days adds institutional buy pressure. Range expansion continues."
+      },
+      {
+        "ticker": "NOK",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "DP on the board",
+        "why": "Nokia Failed 2D bullish reversal with dark pool on the board. Telecom infrastructure play that has been building quietly. Clean strat setup into quarter-end."
+      },
+      {
+        "ticker": "BE",
+        "pattern": "Inside (1)",
+        "bias": "BULL",
+        "flow": "Showing confluence",
+        "why": "Bloom Energy inside bar compressed with confluence showing across timeframes. Energy storage/fuel cell play that benefits from AI data center power demand. Inside bars that show multi-timeframe confluence often produce clean breaks."
+      },
+      {
+        "ticker": "RTX",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "DP on the board",
+        "why": "Raytheon inside bar with dark pool on the board. Defense name that benefits from continued Iran/Middle East geopolitical backdrop. Compressed and waiting for direction."
+      },
+      {
+        "ticker": "MSFT",
+        "pattern": "Failed 2U",
+        "bias": "WATCH",
+        "flow": "Conference today, $324M bid DP Monday",
+        "why": "Failed 2U is a bearish reversal signal but Microsoft has a conference today and $324M bid-side dark pool Monday. Microsoft Build last week set up new AI platform announcements — the conference today could provide follow-through. Watch if the institution support holds or the bearish strat signal plays out."
+      },
+      {
+        "ticker": "RKLB",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Showing confluence, buying Iridium to challenge SpaceX/Amazon",
+        "why": "Rocket Lab outside bar with confluence showing — and a major catalyst just dropped: RKLB announced it is buying Iridium to directly compete with SpaceX and Amazon in satellite services. That changes the scale of Rocket Lab's addressable market significantly. Outside bar + fresh catalyst + confluence is a clean setup."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "AVAV",
+        "pct": "+35.83%",
+        "why": "AeroVironment blew out fiscal Q4 — EPS $1.84 vs $1.41, revenue $641.6M vs $556.4M, 1.4x book-to-bill. Drone systems demand from defense spending is the catalyst. Fiscal 2027 EBITDA guide came in below est but investors focused on drone demand strength.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "ENPH",
+        "pct": "+11.34%",
+        "why": "Enphase Energy joined the Open Compute Project as a Platinum Member, connecting their solar/energy hardware to the AI data center power infrastructure ecosystem.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "RKLB",
+        "pct": "+2.49%",
+        "why": "Rocket Lab announced it is buying Iridium to compete with SpaceX and Amazon in satellite services. Transformational deal that expands RKLB from launch services into satellite network operations.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "ABVX",
+        "pct": "+35.5%",
+        "why": "Abivax reported positive Phase 3 maintenance Part 2 results for Obefazimod (inflammatory bowel disease drug). Biotech catalyst on clinical data.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "CMCSA",
+        "pct": "+2.6%",
+        "why": "Comcast plans to spin off NBCUniversal — a major strategic pivot. Reuters also reported Comcast is weighing a video-game market entry after the cable/connectivity business spins off.",
+        "flow": "",
+        "levels": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "CNXC",
+        "pct": "-22.7%",
+        "why": "Concentrix cut full-year earnings AND revenue guidance, citing slower AI-driven customer experience spending. Investors had high hopes for AI monetization — the guide-down crushed them."
+      },
+      {
+        "ticker": "VSH",
+        "pct": "-11.6%",
+        "why": "Vishay Intertechnology priced a $750 million common stock offering — heavy dilution for shareholders. Stock offering of this size on a mid-cap always hits the price."
+      },
+      {
+        "ticker": "MSTR",
+        "pct": "-5.02%",
+        "why": "Bitcoin fell 2.2% to ~$59,200 and analysts are cutting price targets. MicroStrategy is a pure leveraged Bitcoin proxy — when BTC drops, MSTR drops harder."
+      },
+      {
+        "ticker": "FTNT",
+        "pct": "-2.10%",
+        "why": "Fortinet downgraded to Reduce from Hold at HSBC. Cybersecurity sector still under pressure from the Zscaler margin warning earlier this month."
+      },
+      {
+        "ticker": "GS",
+        "pct": "-0.68%",
+        "why": "Goldman Sachs and Morgan Stanley both cut to Underperform at Oppenheimer. Financial sector seeing some quarter-end rotation pressure."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "NVDA",
+        "size": "$1.0B",
+        "side": "ask"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$526M",
+        "side": "ask"
+      },
+      {
+        "ticker": "CIEN",
+        "size": "$524M",
+        "side": "ask"
+      },
+      {
+        "ticker": "V",
+        "size": "$451M",
+        "side": "mixed"
+      },
+      {
+        "ticker": "MU",
+        "size": "$396M",
+        "side": "ask"
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$339M",
+        "side": "ask"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$324M",
+        "side": "bid"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$310M",
+        "side": "bid"
+      },
+      {
+        "ticker": "CRM",
+        "size": "$279M",
+        "side": "bid"
+      },
+      {
+        "ticker": "JPM",
+        "size": "$265M",
+        "side": "mixed"
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "AXON",
+        "pct": "+2.43%",
+        "news": "Trump bought up to $5M in Axon (formerly Taser) stock personally before a $220M ICE contract bid was awarded. Government contract + insider-adjacent presidential buying."
+      }
+    ],
+    "events": [
+      {
+        "type": "9:45 AM ET",
+        "detail": "June Chicago PMI — last print was 62.7 rebound from April's 49.2 contraction. Trajectory matters heading into NFP."
+      },
+      {
+        "type": "10:00 AM ET",
+        "detail": "JOLTS Job Openings (April) + CB Consumer Confidence — last JOLTS came in hot at 7.6M. First labor data point before NFP Thursday."
+      },
+      {
+        "type": "FHFA + Case-Shiller",
+        "detail": "April FHFA Housing Price Index at 8:30am · April S&P Case-Shiller Home Price Index at 9:00am"
+      },
+      {
+        "type": "AWS Summit",
+        "detail": "Amazon AWS Summit in Washington D.C. — keynote around 11am ET. New cloud and AI infrastructure announcements."
+      },
+      {
+        "type": "Conferences",
+        "detail": "MSFT, ORCL, NIO, F, GM, STLA all at conferences today"
+      },
+      {
+        "type": "Shareholder Meetings",
+        "detail": "NET, MDB, DVN, TCOM, TME annual meetings today"
+      },
+      {
+        "type": "Earnings AMC",
+        "detail": "NKE (Nike) — expected move ±8% · STZ (Constellation Brands)"
+      },
+      {
+        "type": "Quarter-End",
+        "detail": "Last day of Q2 and end of month — Russell 2000 reconstitution today. NFP drops Thursday 7/2 (day early due to July 4 holiday)."
+      }
+    ]
+  },
   "2026-06-03": {
     "headline": "AVGO earnings AMC — the AI infrastructure verdict. White House drops new 10-12.5% tariff proposal, oil at $95.79. MRVL +13% premarket continuing yesterday's best day since 2000. GME +12% on earnings blowout + $2B buyback. Heavy data: ADP 8:15am, ISM Services 10am, Beige Book 2pm.",
     "overview": "Biggest earnings night of the week is tonight — Broadcom (AVGO) reports after close and it's the single most important AI infrastructure print of this earnings season. MRVL is still flying +13% pre-market after yesterday's best day since 2000 (+32%), riding Jensen Huang's 'next trillion-dollar company' call from GTC Taipei. GameStop blew out earnings: EPS $0.30 vs $0.16, revenue $835M vs $681M, 65% collectibles growth, and a $2B buyback — up 12%. The macro picture got more complicated overnight: the White House dropped a new tariff proposal (10-12.5% on major trading partners) after the Supreme Court struck down the old tariff authority, and Iran tensions triggered another US military exchange pushing oil to $95.79. Nasdaq futures are the only green index (+0.23%) this morning thanks to AI strength holding. Three macro prints today: ADP jobs at 8:15am, ISM Services + Factory Orders at 10am, Fed Beige Book at 2pm.",
