@@ -6022,7 +6022,12 @@
       "catalyst": "Failed 2D = bullish reversal signal, but 600–606 is a known ceiling. ISM Manufacturing + Fed Chair Warsh speaking at 10am is the volatility trigger. One of those catalysts will decide the direction.",
       "key_levels": "Bull break + hold above 606 | Bear rejection off 600–606 back toward 585",
       "expected_move": "±3–5%",
-      "why": "META is the cleanest 0DTE Wednesday setup on Q3 Day 1. Failed 2D gapping right into the 600–606 resistance zone — the 10am ISM + Warsh catalyst will force a decision at that level. If it breaks 606 with volume, the 0DTE calls print. If it gets rejected and fades back, the 0DTE puts print. Do NOT enter before 10am. Let the data hit, let price react, then pick your side off the reaction."
+      "why": "META is the cleanest 0DTE Wednesday setup on Q3 Day 1. Failed 2D gapping right into the 600–606 resistance zone — the 10am ISM + Warsh catalyst will force a decision at that level. If it breaks 606 with volume, the 0DTE calls print. If it gets rejected and fades back, the 0DTE puts print. Do NOT enter before 10am. Let the data hit, let price react, then pick your side off the reaction.",
+      "result": {
+        "outcome": "",
+        "actual_move": "",
+        "recap": ""
+      }
     },
     "events": [
       {"type": "8:15 AM", "detail": "ADP Employment Change — 98K (MISS vs 122K expected). Labor market cooling. Market opens cautious."},
