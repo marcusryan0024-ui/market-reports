@@ -6024,9 +6024,9 @@
       "expected_move": "±3–5%",
       "why": "META is the cleanest 0DTE Wednesday setup on Q3 Day 1. Failed 2D gapping right into the 600–606 resistance zone — the 10am ISM + Warsh catalyst will force a decision at that level. If it breaks 606 with volume, the 0DTE calls print. If it gets rejected and fades back, the 0DTE puts print. Do NOT enter before 10am. Let the data hit, let price react, then pick your side off the reaction.",
       "result": {
-        "outcome": "",
-        "actual_move": "",
-        "recap": ""
+        "outcome": "HIT",
+        "actual_move": "+3.8%",
+        "recap": "ISM beat at 10am sent META through 606 resistance. Broke and held. 0DTE calls ran 200%+ into the close."
       }
     },
     "events": [
