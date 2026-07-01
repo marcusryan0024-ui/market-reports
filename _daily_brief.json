@@ -6012,5 +6012,273 @@
         }
       ]
     }
+  },
+  "2026-07-01": {
+    "headline": "Q3 Day 1 — ADP whiffs at 98K vs 122K expected. BE +7.7% on Brookfield $5B→$25B energy deal. PLTR up on Trump's personal stock buy disclosed. TSLA Q2 delivery count drops tomorrow 9am. ISM Mfg + Fed's Warsh both at 10am.",
+    "overview": "Welcome to Q3. First trading day out of the gate and the jobs data already misses — ADP came in at 98K vs 122K expected, which means the market opens cautious and all eyes go to ISM Manufacturing at 10am. Fed Chair Warsh is also speaking at the ECB forum in Sintra at 10am. Same time, double macro catalyst. Futures are soft: S&P -0.18%, Nasdaq -0.47%. The big premarket mover is BE (Bloom Energy) up 7.7% — Brookfield Asset Management expanded their energy partnership from $5B to $25B overnight after market close. That's the strat filter working exactly as designed: BE was flagged yesterday as Inside(1) + Bullish Gapper, closed up 10% on the day, then the Brookfield news hit after hours. PLTR is up 2.26% after Trump's quarterly personal stock disclosure showed a $100–250K purchase. MSFT is down premarket on layoff news (2.5% workforce cut, ~6,000 people) but that's actually bullish for margins. TSLA Q2 delivery count releases tomorrow July 2 around 9am — the straddle setup is today, before close.",
+    "market_context": "Dark pool from yesterday (6/30): NVDA $1.0B ask print — institutional Q3 positioning is in motion. C $694M mixed (bank rebalancing into Q3), MU $675M ask (memory thesis still intact after last week's DP flush), MSFT $307M bid (buy-the-dip on layoff news), AMAT $251M bid (semiconductor equipment demand). Options flows: ORCL $200C 1/15/27 sweep $3.3M — someone building a long-dated Oracle position at $200 strike. TSM $400C Sep 18 block $62.6M is still one of the biggest single call positions ever surfaced — unchanged conviction. The 'Filters at Work' story this week is BE: Inside(1) + Bullish Gapper flagged on 6/30 → up 10% on the session → Brookfield $25B AH → now up 7.7% premarket. That is the filter doing exactly what it is supposed to do. Q3 themes crystallizing early: nuclear/energy (OKLO, BE), AI infrastructure (NVDA, MSFT, AMZN), and EV delivery season (XPEV beat, NIO in-line, TSLA tomorrow).",
+    "setups": [
+      {
+        "ticker": "BE",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "+7.7% pre-mkt, Brookfield $5B→$25B energy expansion AH",
+        "why": "Bloom Energy is the Filters at Work story of the week. Flagged yesterday as Inside(1) + Bullish Gapper, closed +10% on the session, then Brookfield dropped the $25B expanded partnership after hours. Pre-market gap of 7.7% on top of yesterday's move. New institutional catalyst gives this legs past just the gap open. ORB confirmation before adding — do not chase the open gap blindly."
+      },
+      {
+        "ticker": "SNOW",
+        "pattern": "Outside (3)",
+        "bias": "BULL",
+        "flow": "Double upgrade, heavy institutional volume, 3-1-2 bullish setup",
+        "why": "Snowflake got a double upgrade and printed a 3-1-2 bullish setup — Outside bar with heavy volume showing institutional accumulation. The 3-1-2 pattern (Outside → Inside → directional break) is a patience setup. Do NOT front-run. Wait for the second leg to develop. Heavy volume on the outside bar confirms interest — just let it compress again before the next entry."
+      },
+      {
+        "ticker": "PLTR",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "+2.26% pre-mkt, Trump $100-250K personal buy disclosed, AI/defense",
+        "why": "Palantir Failed 2D is a bullish reversal signal AND Trump's quarterly financial disclosure showed a personal $100–250K purchase of PLTR stock. Trump-adjacent names that he personally owns tend to see retail buying on disclosure news. Failed 2D + Trump catalyst + AI/government defense thesis = clean bull setup. ORB confirmation above recent levels."
+      },
+      {
+        "ticker": "META",
+        "pattern": "Failed 2D",
+        "bias": "BULL",
+        "flow": "Bullish reversal, but resistance 600-606 — DO NOT chase the gap",
+        "why": "META Failed 2D is a bullish reversal but the critical warning is: DO NOT CHASE the gap. Resistance at 600–606 is a real ceiling. The trade is to wait for a pullback into a consolidation zone, then ORB confirmation on a clean break above 606. Chasing this gap directly into resistance is low probability. Let it set up."
+      },
+      {
+        "ticker": "MSFT",
+        "pattern": "Inside (1)",
+        "bias": "BULL",
+        "flow": "2.5% layoffs = margin expansion, $307M bid DP, watch 381.63",
+        "why": "Microsoft Inside(1) + $307M dark pool bid from yesterday. The layoff news (2,500+ workers, Xbox/sales/consulting) looks bad in the headline but is bullish for margins — this is a fiscal year-end cost reset, not a business problem. Watch 381.63 as the key trigger level. Inside bar means compression — a break above 381.63 with volume is the bull entry."
+      },
+      {
+        "ticker": "AMZN",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "Compression day, $310M bid DP yesterday, clean bull/bear levels",
+        "why": "Amazon Inside(1) compression day. Bull trigger above 242.40, bear trigger below 240.35. Dark pool showed $310M bid-side Monday — institutions buying into compression. Wait for price to escape the inside bar range with volume before entering. Direction TBD — let the market confirm."
+      },
+      {
+        "ticker": "STZ",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "Earnings reaction, historically 190-300%+ options moves on STZ kickers",
+        "why": "Constellation Brands (STZ) printed a Bullish Kicker after earnings — historically these produce 190–300%+ option moves on STZ. Kickers are high-conviction reversal signals when backed by an earnings catalyst. ORB confirmation before entry — but when STZ kicks bullish it has a track record."
+      },
+      {
+        "ticker": "OKLO",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "+4.85% pre-mkt, nuclear energy momentum",
+        "why": "OKLO Bullish Kicker in the nuclear energy / AI data center power theme. Data centers need power and nuclear is the cleanest long-term solution being funded. Kicker + gap up 4.85% premarket. ORB confirmation above the kicker level for clean entry."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "BE",
+        "pct": "+7.7%",
+        "why": "Bloom Energy — Brookfield Asset Management expanded their partnership from $5B to $25B after market close on 6/30. That is a 5x expansion in the energy commitment. The strat filter had flagged BE as Inside(1) + Bullish Gapper on 6/30 — it closed up 10% that day before the Brookfield news even hit.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "LUNR",
+        "pct": "+7.3%",
+        "why": "Intuitive Machines awarded a NASA contract. Space infrastructure spending is accelerating and LUNR is positioned as the commercial lunar transportation company of record with NASA.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "OKLO",
+        "pct": "+4.85%",
+        "why": "Bullish kicker in the nuclear energy / AI data center power theme. Oklo builds advanced small modular reactors — a direct play on the AI data center electricity demand problem.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "NOW",
+        "pct": "+4.81%",
+        "why": "ServiceNow gapping up — Bullish Gapper signal in the strat setup. Enterprise software name with strong AI platform narrative. Quarter-end software buying and clean technical setup.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "XPEV",
+        "pct": "+3.44%",
+        "why": "XPENG delivered 40,126 vehicles in June (+25% MoM, +16% YoY). Q2 2026 total of 103,295 deliveries is in line with guidance. Monthly delivery beat is the catalyst — clean upside on EV delivery season.",
+        "flow": "",
+        "levels": ""
+      },
+      {
+        "ticker": "PLTR",
+        "pct": "+2.26%",
+        "why": "Trump's quarterly personal financial disclosure showed a $100–250K personal purchase of Palantir stock. Trump-linked disclosure + AI/government defense thesis + Failed 2D bullish reversal.",
+        "flow": "",
+        "levels": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "AA",
+        "pct": "-4.75%",
+        "why": "Alcoa falling on the South32 deal — a rival aluminum producer deal creates pricing pressure concerns for the aluminum market."
+      },
+      {
+        "ticker": "SNDK",
+        "pct": "-3.90%",
+        "why": "SanDisk under pressure — NAND memory demand and pricing concerns. Follows broader memory sector volatility."
+      },
+      {
+        "ticker": "MU",
+        "pct": "-2.97%",
+        "why": "Micron pulling back despite the massive $675M ask dark pool print from yesterday. Dark pool accumulation is the counter-thesis — this pullback may be a better entry for the dark pool thesis."
+      },
+      {
+        "ticker": "NIO",
+        "pct": "-2.17%",
+        "why": "NIO June deliveries: 40,597 units (+8% MoM, +62.9% YoY). Q2 total of 107,658 came in just above guidance but the market wanted more. Fell premarket on 'just in line' vs expectations of a bigger beat.",
+        "flow": ""
+      },
+      {
+        "ticker": "NKE",
+        "pct": "-2.17%",
+        "why": "Nike reacting to last night's earnings. Q2 results disappointed — revenue miss and cautious guidance in the face of tariff headwinds and sluggish consumer spending.",
+        "flow": ""
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "NVDA",
+        "size": "$1.0B",
+        "side": "ask"
+      },
+      {
+        "ticker": "C",
+        "size": "$694M",
+        "side": "mixed"
+      },
+      {
+        "ticker": "MU",
+        "size": "$675M",
+        "side": "ask"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$307M",
+        "side": "bid"
+      },
+      {
+        "ticker": "GS",
+        "size": "$307M",
+        "side": "mixed"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$279M",
+        "side": "ask"
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$275M",
+        "side": "ask"
+      },
+      {
+        "ticker": "XOM",
+        "size": "$256M",
+        "side": "mixed"
+      },
+      {
+        "ticker": "WDC",
+        "size": "$254M",
+        "side": "ask"
+      },
+      {
+        "ticker": "AMAT",
+        "size": "$251M",
+        "side": "bid"
+      }
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "PLTR",
+        "pct": "+2.26%",
+        "news": "Trump's quarterly personal financial disclosure revealed a $100–250K personal purchase of Palantir stock. When a sitting president discloses owning a stock, retail buying follows. PLTR is already a major government AI/defense contractor — personal ownership adds another layer to the narrative."
+      }
+    ],
+    "morning_prep": {
+      "theme": "Q3 Day 1. The theme today is patience and reaction — not prediction. ADP missed, the market is soft, macro data drops at 10am, and Trump speaks in the afternoon. The setup is to LET THE MARKET REACT FIRST, then find your entries. The trade of the week is TSLA — the Q2 delivery number drops tomorrow at 9am. The move is to buy a small straddle today before close (ATM, tight, cheap) because no one knows if deliveries beat or miss. That is a pure catalyst play. Protect your account today. Q3 starts clean — do not start it with a loss by forcing a trade into macro noise.",
+      "rules": [
+        "No trading before 10am — ADP miss + ISM + Warsh all create morning volatility",
+        "No chasing BE or NOW after the gap — wait for ORB or pullback entry",
+        "No forcing META into resistance at 600-606 — let it prove the break",
+        "TSLA straddle setup today before close — small size, ATM, don't overthink it",
+        "SNOW patience — heavy volume outside bar needs to compress before second leg",
+        "STZ bullish kicker = high-probability options play — historically 190-300%+ moves",
+        "AMZN inside day: bull above 242.40 / bear below 240.35 — let price decide"
+      ],
+      "market": "10:00 AM ET is the most important moment today — ISM Manufacturing AND Fed Chair Warsh speaking at the ECB forum Sintra both hit at the same time. ADP already missed (98K vs 122K) so the market is fragile into this data. Trump speaks at 3:15pm local time (Medora, ND). TSLA Q2 delivery count releases tomorrow July 2 at approximately 9am pre-market. CRWD executing a stock split today. KO has a July 7 investor event — calls spotted near all-time highs. Healthcare Q2 winners from last quarter: HUM +129%, CNC +96%, UNH +53.6%, CVS +44%. Watch WTI crude — currently $69.03, down 0.68%. 10-year yield 4.49% +2bps.",
+      "setups": [
+        {
+          "ticker": "TSLA",
+          "tier": 1,
+          "catalyst": "★ Trade of the week. Q2 2026 delivery count drops TOMORROW July 2 ~9am pre-market. Expected range: 396K–418K units.",
+          "levels": "Buy straddle today before close — ATM, small, tight",
+          "bull": "Q2 deliveries beat → gap up. Straddle captures upside leg.",
+          "bear": "Q2 deliveries miss → gap down. Straddle captures downside leg.",
+          "note": "★ This is the cleanest known catalyst of the week. Buy a small straddle before today's close. Do not predict direction — just own the move. Keep it small."
+        },
+        {
+          "ticker": "META",
+          "tier": 1,
+          "catalyst": "Failed 2D bullish reversal. Resistance at 600–606 is the key level.",
+          "levels": "Do NOT chase the gap. Wait for 606 break with volume.",
+          "bull": "Clean break and hold above 606 with volume → continuation. Enter on ORB or pullback confirmation.",
+          "note": "Chasing into 600-606 resistance is the trap. Wait for the break to prove itself."
+        },
+        {
+          "ticker": "MSFT",
+          "tier": 1,
+          "catalyst": "Layoffs (2.5% workforce cut) are bullish for margins. Inside(1) compression day. $307M bid dark pool.",
+          "levels": "Bull trigger: 381.63",
+          "bull": "Break above 381.63 with volume. Layoff-driven margin expansion is the Q3 thesis for MSFT.",
+          "note": "Layoffs look bad in headlines but are a fiscal year-end cost reset. Institutions were buying the dip in the dark pool yesterday."
+        },
+        {
+          "ticker": "SNOW",
+          "tier": 1,
+          "catalyst": "Double upgrade + Outside(3) + 3-1-2 bullish setup in progress. Heavy institutional volume.",
+          "levels": "Wait for compression and second leg setup",
+          "bull": "Outside bar compressed → Inside bar → directional break up. Do NOT front-run. Let the 3-1-2 fully develop.",
+          "note": "Heavy volume on the outside bar is confirmation of interest. Patience is the trade here."
+        },
+        {
+          "ticker": "STZ",
+          "tier": 2,
+          "catalyst": "Bullish kicker after earnings. Historically produces 190–300%+ option moves on STZ kickers.",
+          "levels": "ORB confirmation above kicker level",
+          "bull": "Bullish kicker confirmed → options play with historically outsized moves. STZ kickers have a track record.",
+          "note": "This is an options trade, not just a stock trade. The kicker pattern + earnings catalyst on STZ has historically produced massive options returns."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 2,
+          "catalyst": "Inside(1) compression day. Clean bull/bear levels defined.",
+          "levels": "Bull above 242.40 / Bear below 240.35",
+          "bull": "Break above 242.40 with volume — continuation of Q2 trend.",
+          "bear": "Break below 240.35 — inside bar failure, fade the compression.",
+          "note": "Let price escape the range. Do not enter inside the inside bar — you need the confirmation."
+        },
+        {
+          "ticker": "PANW",
+          "tier": 2,
+          "catalyst": "Scaled out of position, re-entered smaller. Managing the trade actively.",
+          "levels": "Scaled entry — smaller size than previous",
+          "bull": "Cyber security theme intact. Re-entry after scaling reduces risk while maintaining exposure.",
+          "note": "This is an active position management example — take profits on extended moves, re-enter smaller on the next setup."
+        }
+      ]
+    }
   }
 }
