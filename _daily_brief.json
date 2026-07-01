@@ -6248,6 +6248,8 @@
         {
           "ticker": "TSLA",
           "tier": 1,
+          "hod": "",
+          "lod": "",
           "catalyst": "★ Trade of the week. Q2 2026 delivery count drops TOMORROW July 2 ~9am pre-market. Expected range: 396K–418K units.",
           "levels": "Buy straddle today before close — ATM, small, tight",
           "bull": "Q2 deliveries beat → gap up. Straddle captures upside leg.",
@@ -6257,6 +6259,8 @@
         {
           "ticker": "META",
           "tier": 1,
+          "hod": "$628.28",
+          "lod": "",
           "catalyst": "Failed 2D bullish reversal. Resistance at 600–606 is the key level.",
           "levels": "Do NOT chase the gap. Wait for 606 break with volume.",
           "bull": "Clean break and hold above 606 with volume → continuation. Enter on ORB or pullback confirmation.",
@@ -6265,6 +6269,8 @@
         {
           "ticker": "MSFT",
           "tier": 1,
+          "hod": "",
+          "lod": "",
           "catalyst": "Layoffs (2.5% workforce cut) are bullish for margins. Inside(1) compression day. $307M bid dark pool.",
           "levels": "Bull trigger: 381.63",
           "bull": "Break above 381.63 with volume. Layoff-driven margin expansion is the Q3 thesis for MSFT.",
