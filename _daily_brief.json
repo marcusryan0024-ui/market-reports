@@ -6248,6 +6248,8 @@
         {
           "ticker": "TSLA",
           "tier": 1,
+          "actual_pct": "",
+          "actual_move": null,
           "hod": "",
           "lod": "",
           "catalyst": "★ Trade of the week. Q2 2026 delivery count drops TOMORROW July 2 ~9am pre-market. Expected range: 396K–418K units.",
@@ -6259,6 +6261,8 @@
         {
           "ticker": "META",
           "tier": 1,
+          "actual_pct": "+3.8%",
+          "actual_move": 3.8,
           "hod": "$628.28",
           "lod": "",
           "catalyst": "Failed 2D bullish reversal. Resistance at 600–606 is the key level.",
@@ -6269,6 +6273,8 @@
         {
           "ticker": "MSFT",
           "tier": 1,
+          "actual_pct": "",
+          "actual_move": null,
           "hod": "",
           "lod": "",
           "catalyst": "Layoffs (2.5% workforce cut) are bullish for margins. Inside(1) compression day. $307M bid dark pool.",
