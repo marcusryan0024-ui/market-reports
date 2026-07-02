@@ -6651,6 +6651,16 @@
         "side": "bid"
       }
     ],
-    "trump_stocks": []
+    "trump_stocks": [],
+    "mag7_0dte": {
+      "ticker": "TSLA",
+      "bias": "BULL",
+      "pattern": "2-2 Reversal / Delivery Day",
+      "flow": "RIVN raised 2026 delivery outlook premarket \u2014 EV demand confirmed",
+      "catalyst": "Q2 delivery numbers drop today. RIVN already beat and raised \u2014 sets the tone.",
+      "key_levels": "Trigger >$380 | Profit $430 / $440 | Stop below $415",
+      "expected_move": "\u00b14-6%",
+      "why": "Last trading session before a 3-day weekend + delivery catalyst + RIVN confirmation = maximum squeeze potential. 2-2 reversal above $380 is the Strat entry. If deliveries beat (400K+), $440 is in play by close. Thursday is the last expiry of the week \u2014 0DTE premium is rich."
+    }
   }
 }
