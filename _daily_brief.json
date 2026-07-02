@@ -6391,7 +6391,15 @@
       },
       {
         "type": "TSLA DELIVERIES",
-        "detail": "Q2 2026 delivery numbers due \u2014 RIVN already raised guidance, setting bullish EV tone"
+        "detail": "Q2 2026 delivery numbers due \u2014 RIVN already raised guidance, bullish EV tone"
+      },
+      {
+        "type": "SNOW 12PM EVENT",
+        "detail": "Extreme volume + 12 PM catalyst event \u2014 wait for ORB then react to the 12 PM move"
+      },
+      {
+        "type": "NKE EARNINGS",
+        "detail": "Trade the reaction, not the prediction \u2014 avoid pre-earnings gambles"
       },
       {
         "type": "FACTORY ORDERS 10am",
@@ -6399,103 +6407,164 @@
       },
       {
         "type": "MARKET CLOSED TOMORROW",
-        "detail": "Independence Day (July 4 observed July 3) \u2014 3-day weekend, liquidity drops by noon today"
+        "detail": "July 4 observed \u2014 3-day weekend, liquidity drops by noon today"
       }
     ],
     "setups": [
       {
-        "ticker": "PLTR",
+        "ticker": "SNOW",
         "bias": "BULL",
-        "pattern": "Bullish Gapper",
-        "flow": "D.A. Davidson upgrade to Buy premarket | DP confluence",
-        "why": "Failed 2D close yesterday +7.77%. Upgrade today adds fundamental fuel. Hold $94 on open = calls clean targeting $100+."
-      },
-      {
-        "ticker": "NVDA",
-        "bias": "WATCH",
-        "pattern": "Failed 2D (clustering)",
-        "flow": "Bearish kicker w/DP | KOSPI -7.9% overnight",
-        "why": "Clustering on Failed 2D = explosive move coming. NFP determines direction. Above $115 bull. Below $108 bear. Don't guess."
+        "pattern": "ORB / Extreme Volume",
+        "flow": "Extreme volume + 12 PM catalyst event",
+        "why": "Wait for ORB high trigger + volume confirmation. React only to 12 PM move. Avoid pre-event entries inside chop."
       },
       {
         "ticker": "TSLA",
         "bias": "BULL",
-        "pattern": "Catalyst Play",
-        "flow": "Q2 Delivery Day | RIVN raised guidance premarket",
-        "why": "RIVN raised 2026 delivery outlook pre-open. If TSLA beats (400K+) calls above $435 target $445-450. Miss \u2192 puts."
+        "pattern": "2-2 Reversal",
+        "flow": "Sales report day | trigger >380",
+        "why": "Watch for 2-2 reversal structure above $380. Take profits at psych levels $430/$440. Don't chase big pushes."
       },
       {
-        "ticker": "MU",
-        "bias": "BEAR",
-        "pattern": "Bearish Kicker",
-        "flow": "DP $649M ask AH | memory sector continued weakness",
-        "why": "Continuation play from -10.6% Wednesday. KOSPI -7.9% = global semis still under pressure. Below $82 targets $78."
+        "ticker": "CMCSA",
+        "bias": "BULL",
+        "pattern": "Gap Up / Inside 2H",
+        "flow": "Gap up + inside 2h setup | trigger >29.66",
+        "why": "ORB confirmation above $29.66 \u2192 target $31.64 gap fill. Avoid inside-bar chop before the ORB."
       },
       {
-        "ticker": "AMZN",
+        "ticker": "RKLB",
+        "bias": "BULL",
+        "pattern": "Continuation",
+        "flow": "+10% news | trigger >95.12",
+        "why": "Must hold above the gap fill. Trade continuation only above $95.12. Avoid swinging space stocks."
+      },
+      {
+        "ticker": "META",
+        "bias": "BULL",
+        "pattern": "ORB / AI Catalyst",
+        "flow": "AI cloud news | trigger >175",
+        "why": "Wait for ORB + 10 AM data before entering. Trade only above $175 trigger. Avoid blind news entries."
+      },
+      {
+        "ticker": "IWM",
+        "bias": "BULL",
+        "pattern": "ATH Breakout",
+        "flow": "ATH watch | 300-301 zone",
+        "why": "Use as market strength gauge. Trade continuation above $300-301. Below $300 = market weakness signal, stand down."
+      },
+      {
+        "ticker": "NKE",
         "bias": "WATCH",
-        "pattern": "3/Outside",
-        "flow": "NFP will set direction",
-        "why": "Outside day \u2014 no directional edge. Let NFP resolve at 8:30 before touching it."
+        "pattern": "Earnings Reaction",
+        "flow": "Earnings catalyst",
+        "why": "Trade the reaction, not the prediction. Avoid gambling pre-earnings."
       },
       {
-        "ticker": "CVX",
-        "bias": "BEAR",
-        "pattern": "Failed 2D",
-        "flow": "Oil WTI -1.9% to $67.29 | Iran ceasefire holding",
-        "why": "Oil unwind continuing as Iran supply risks ease. Failed 2D = continuation short. Below $148 targets $144."
+        "ticker": "MSFT",
+        "bias": "BULL",
+        "pattern": "ORB / Layoff News",
+        "flow": "Layoff news catalyst | ORB high trigger",
+        "why": "ORB + volume = continuation only. Avoid early volatility spikes in the first 15 min."
       }
     ],
     "morning_prep": {
-      "theme": "NFP day \u2014 last major print before a 3-day weekend. PLTR is the cleanest setup. NVDA is a two-sided landmine until 8:30 resolves. Size down by noon.",
+      "theme": "NFP at 8:30 sets the tone. SNOW is the special setup \u2014 12 PM event + extreme volume. PLTR continuation from yesterday's upgrade. IWM 300-301 is your market health gauge today.",
       "rules": [
-        "Wait for NFP at 8:30 before sizing into NVDA or macro-sensitive names",
-        "PLTR: trust the DP confluence + upgrade \u2014 this is the setup today",
-        "Three-day weekend = liquidity drops fast after 12pm ET, take profit early"
+        "Wait for NFP 8:30 before touching macro-sensitive names (NVDA, MSFT)",
+        "SNOW: ORB first, then react to 12 PM \u2014 no pre-event entries in the chop",
+        "3-day weekend = liquidity drops after 12pm, take profits fast and don't re-enter late"
       ],
-      "market": "Futures mixed \u2014 S&P +0.06%, Nasdaq -0.09%, Russell +0.30%. NFP consensus 100-125K. 10yr yield 4.50%. WTI oil -1.9% to $67.29. Bitcoin $61K+. PLTR +4%+ PM. MU -3.5% PM. SNDK -2.5% PM.",
+      "market": "Futures mixed \u2014 S&P +0.06%, Nasdaq -0.09%, Russell +0.30%. NFP consensus 100-125K. WTI oil -1.9% $67.29. Bitcoin $61K+. PLTR +4% PM. MU -3.5% PM. GOOGL -1% PM.",
       "setups": [
         {
-          "ticker": "PLTR",
+          "ticker": "SNOW",
           "tier": 1,
-          "catalyst": "D.A. Davidson upgrade to Buy from Neutral premarket \u2014 says valuation most attractive in some time",
-          "levels": "Support $94 | Resistance $96-97 | Target $100+",
-          "bull": "Hold above $94 on open, calls above $96 targeting $100-102 by EOD",
-          "bear": "NFP disappointment + risk-off sells PLTR back to $92",
-          "note": "\u2605 Cleanest setup today \u2014 upgrade + Failed 2D + DP confluence"
+          "catalyst": "Extreme volume + 12 PM catalyst event \u2014 biggest special setup of the day",
+          "levels": "Trigger: ORB high / PD high",
+          "bull": "ORB high break + volume \u2192 ride the 12 PM move",
+          "bear": "Inside chop before 12 PM = no trade",
+          "note": "\u2605 Wait for ORB, then react to 12 PM move \u2014 avoid pre-event entries"
         },
         {
           "ticker": "TSLA",
           "tier": 1,
-          "catalyst": "Q2 2026 delivery numbers due any time this morning. RIVN already raised 2026 outlook.",
-          "levels": "Support $425 | Key level $435 | Breakout $440+",
-          "bull": "Beat (400K+ deliveries) \u2192 calls above $435 targeting $445-450",
-          "bear": "Miss (<370K) \u2192 puts below $425 targeting $415"
+          "catalyst": "Q2 Sales Report \u2014 delivery numbers drop any time this morning",
+          "levels": "Trigger >380 | Profits at $430 / $440",
+          "bull": "2-2 reversal above $380 \u2192 take profits at psych levels $430/$440",
+          "bear": "Avoid chasing big pushes \u2014 let it come to a level"
         },
         {
-          "ticker": "NVDA",
+          "ticker": "CMCSA",
           "tier": 1,
-          "catalyst": "Failed 2D clustering + Korean KOSPI -7.9% semiconductor selloff overnight",
-          "levels": "Support $108 | Pivot $112 | Resistance $115",
-          "bull": "NFP miss \u2192 yields drop \u2192 above $112 calls target $117",
-          "bear": "NFP beat or no relief \u2192 below $108 puts target $103",
-          "note": "Two-sided \u2014 don't touch before 8:30"
+          "catalyst": "Gap up + inside 2-hour setup pre-market",
+          "levels": "Trigger >29.66 | Target $31.64 gap fill",
+          "bull": "ORB confirmation above $29.66 \u2192 target $31.64 gap fill",
+          "bear": "Inside-bar chop before ORB = no trade, wait for the break"
         },
         {
-          "ticker": "RIVN",
-          "tier": 2,
-          "catalyst": "Raised 2026 delivery outlook after strong Q2 demand \u2014 stock +% premarket",
-          "levels": "Watch $16-17 range",
-          "bull": "Continuation of delivery beat momentum \u2014 gap and go above $17",
-          "bear": "Fade if market risk-off on NFP beat"
+          "ticker": "RKLB",
+          "tier": 1,
+          "catalyst": "+10% news catalyst \u2014 continuation setup",
+          "levels": "Trigger >95.12",
+          "bull": "Hold above gap fill + continuation above $95.12",
+          "bear": "Avoid swinging space stocks \u2014 take quick profits"
         },
         {
-          "ticker": "MU",
+          "ticker": "META",
+          "tier": 1,
+          "catalyst": "AI cloud compute news \u2014 Bloomberg cloud business story still in play",
+          "levels": "Trigger >175 | Wait for 10 AM data",
+          "bull": "ORB + 10 AM data confirm \u2192 trade only above $175",
+          "bear": "Blind news entries = avoid \u2014 wait for the ORB"
+        },
+        {
+          "ticker": "IWM",
+          "tier": 1,
+          "catalyst": "ATH watch \u2014 300-301 zone is the line in the sand",
+          "levels": "ATH zone: 300-301",
+          "bull": "Above 300-301 = market strength, trade continuation in everything",
+          "bear": "Below 300 = market weakness signal \u2014 reduce size across the board"
+        },
+        {
+          "ticker": "NKE",
+          "tier": 1,
+          "catalyst": "Earnings catalyst \u2014 trade the reaction",
+          "levels": "React to earnings move",
+          "bull": "Trade post-earnings continuation if strong",
+          "bear": "Avoid pre-earnings gambles \u2014 trade the reaction only"
+        },
+        {
+          "ticker": "MSFT",
+          "tier": 1,
+          "catalyst": "Layoff news catalyst",
+          "levels": "Trigger: ORB high",
+          "bull": "ORB high + volume \u2192 continuation",
+          "bear": "Avoid early volatility spikes \u2014 first 15 min is noise"
+        },
+        {
+          "ticker": "RDDT",
           "tier": 2,
-          "catalyst": "Memory sector continued pressure \u2014 KOSPI -7.9%, SNDK -2.5% PM",
-          "levels": "Resistance $88 | Key $82 | Target $78",
-          "bull": "NFP miss + yields drop = semis catch a bid bounce",
-          "bear": "Continuation short below $82 targeting $78 \u2014 bearish kicker DP"
+          "catalyst": "Volume spike setup",
+          "levels": "Trigger: ORB high",
+          "bull": "Quick scalps on ORB high \u2014 take profits fast",
+          "bear": "No multiple re-entries on a chase"
+        },
+        {
+          "ticker": "HON",
+          "tier": 2,
+          "catalyst": "Inside-bar setup",
+          "levels": "Trigger: inside-bar break",
+          "bull": "Break + volume confirmation only",
+          "bear": "Inside chop = no trade"
+        },
+        {
+          "ticker": "MSTR",
+          "tier": 2,
+          "catalyst": "Bitcoin $61K+ \u2014 crypto rally",
+          "levels": "Trigger: ORB + catalyst",
+          "bull": "ORB reaction to crypto move",
+          "bear": "No trade without clean levels"
         }
       ]
     },
