@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalyst Report — Thursday, July 02, 2026</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+        background: #0d1117;
+        color: #e6edf3;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 24px;
+    }
+    .rpt-nav {
+        display: flex; align-items: center; justify-content: space-between;
+        background: #040608; border-bottom: 1px solid #0e1420;
+        padding: 10px 24px; margin: -24px -24px 24px -24px;
+    }
+    .rpt-back {
+        font-size: 11px; font-weight: 700; color: #6e7681; text-decoration: none;
+        letter-spacing: .06em; transition: color .15s;
+    }
+    .rpt-back:hover { color: #e6edf3; }
+    .rpt-nav-btns { display: flex; gap: 8px; }
+    .rpt-btn {
+        font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
+        text-decoration: none; border: 1px solid; display: inline-flex; align-items: center;
+        gap: 5px; transition: all .14s; color: #3d444d; border-color: #1a2030; background: #0a0c10;
+    }
+    .rpt-btn:hover { transform: translateY(-1px); }
+    .rpt-pre { color: #58a6ff; border-color: #1f6feb; background: #08121e; }
+    .rpt-pre:hover { background: #0f1e38; box-shadow: 0 4px 14px #1f6feb40; }
+    .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
+    .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
+    .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
+    .header {
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #30363d;
+    }
+    .header h1 {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        color: #e6edf3;
+    }
+    .header .mode {
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        padding: 2px 8px;
+        border-radius: 20px;
+        background: #1f6feb22;
+        border: 1px solid #1f6feb66;
+        color: #79c0ff;
+    }
+    .header .meta {
+        margin-left: auto;
+        font-size: 12px;
+        color: #8b949e;
+    }
+    .grid { display: grid; gap: 16px; }
+    .card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .card-header {
+        padding: 10px 16px;
+        background: #0d1117;
+        border-bottom: 1px solid #30363d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+    }
+    .card-body { padding: 0; }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    th {
+        padding: 8px 12px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .1em;
+        color: #8b949e;
+        border-bottom: 1px solid #21262d;
+        white-space: nowrap;
+    }
+    td {
+        padding: 9px 12px;
+        border-bottom: 1px solid #21262d;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1c2128; }
+    .ticker {
+        font-family: 'SF Mono', 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .05em;
+    }
+    .badge-bmo { background: #1f6feb22; color: #79c0ff; border: 1px solid #1f6feb44; }
+    .badge-amc { background: #e3b34122; color: #e3b341; border: 1px solid #e3b34144; }
+    .badge-call { background: #26a69a22; color: #26a69a; border: 1px solid #26a69a44; }
+    .badge-put  { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-high { background: #ef535022; color: #ef5350; border: 1px solid #ef535044; }
+    .badge-med  { background: #ffd54f22; color: #ffd54f; border: 1px solid #ffd54f44; }
+    .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
+    .up   { color: #26a69a; font-weight: 600; }
+    .down { color: #ef5350; font-weight: 600; }
+    .muted { color: #8b949e; }
+    .charts-grid {
+        display: flex;
+        gap: 1px;
+        background: #21262d;
+    }
+    .chart-block {
+        background: #161b22;
+        padding: 16px;
+        flex: 0 0 auto;
+        width: 55%;
+    }
+    .chart-label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .chart-label .ticker { font-size: 16px; }
+    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-block img { width: 100%; border-radius: 4px; display: block; }
+    .chart-side-panel {
+        flex: 1;
+        background: #161b22;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .chart-side-panel .csp-title {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+    .csp-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #21262d;
+    }
+    .csp-item:last-child { border-bottom: none; }
+    .csp-item .csp-rank {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        color: #8b949e;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+    .csp-item.rank-1 .csp-rank { color: #ffd54f; }
+    .csp-item .csp-label {
+        font-size: 17px;
+        font-weight: 700;
+        color: #e6edf3;
+        margin-bottom: 4px;
+    }
+    .csp-item .csp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+    .csp-item .csp-why {
+        font-size: 11px;
+        color: #adbac7;
+        line-height: 1.45;
+    }
+    .watchlist-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    .wl-group-label {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #3d444d;
+        padding: 0 4px;
+        align-self: center;
+    }
+    .wl-pill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        min-width: 72px;
+    }
+    .wl-pill .sym {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 13px;
+        color: #e6edf3;
+    }
+    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .spotlight-row {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+        align-items: stretch;
+    }
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+        flex: 1;
+    }
+    .sector-panel {
+        width: 200px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sector-panel .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .sector-panel .sec-name {
+        font-family: 'SF Mono', monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+        margin-bottom: 8px;
+        line-height: 1.2;
+    }
+    .sector-panel .sec-badge {
+        margin-bottom: 8px;
+    }
+    .sector-panel .sec-prem {
+        font-family: monospace;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .sector-panel .sec-tickers {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 12px;
+    }
+    .sector-panel .sec-why {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+        line-height: 1.5;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: auto;
+    }
+    .spotlight-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 16px 18px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spotlight-card.rank-1 {
+        border-color: #ffd54f55;
+        background: linear-gradient(135deg, #1a1800 0%, #161b22 60%);
+    }
+    .spotlight-card .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 8px;
+    }
+    .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
+    .spotlight-card .sp-label {
+        font-family: 'SF Mono', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        color: #e6edf3;
+        letter-spacing: .02em;
+        margin-bottom: 4px;
+    }
+    .spotlight-card .sp-detail {
+        font-size: 11px;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .spotlight-card .sp-news {
+        font-size: 13px;
+        color: #e6edf3;
+        line-height: 1.5;
+        font-weight: 500;
+        border-top: 1px solid #21262d;
+        padding-top: 10px;
+        margin-top: 8px;
+    }
+    .spotlight-card .sp-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 800;
+    }
+    .spotlight-card .sp-briefing {
+        font-size: 11px;
+        color: #6e7681;
+        line-height: 1.4;
+        font-style: italic;
+        margin-top: 4px;
+        padding-left: 14px;
+    }
+    .wl-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .deck-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 16px;
+        border-bottom: 1px solid #21262d;
+        font-size: 13px;
+    }
+    .deck-row:last-child { border-bottom: none; }
+    .deck-row:hover { background: #1c2128; }
+    .deck-date {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .06em;
+        color: #8b949e;
+        white-space: nowrap;
+        min-width: 68px;
+    }
+    .deck-label {
+        font-family: monospace;
+        font-weight: 700;
+        font-size: 14px;
+        color: #e6edf3;
+        white-space: nowrap;
+        min-width: 80px;
+    }
+    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
+    .econ-strip {
+        width: 320px;
+        flex-shrink: 0;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 14px 14px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .econ-strip .sp-rank {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        margin-bottom: 10px;
+    }
+    .econ-item {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        padding: 5px 0;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+    }
+    .econ-item:last-child { border-bottom: none; }
+    .econ-item.past { opacity: 0.4; }
+    .econ-item.today-item .econ-day { color: #4fc3f7; }
+    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
+    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .results-bar {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .result-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1;
+        min-width: 200px;
+    }
+    .result-source {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #8b949e;
+        white-space: nowrap;
+    }
+    .result-ticker {
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 800;
+        color: #e6edf3;
+        min-width: 60px;
+    }
+    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-move {
+        font-family: monospace;
+        font-size: 15px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .headline-bar {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #4fc3f7;
+        border-radius: 6px;
+        padding: 12px 18px;
+        margin-bottom: 16px;
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    .headline-tag {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #4fc3f7;
+        white-space: nowrap;
+        flex-shrink: 0;
+        padding-top: 2px;
+    }
+    .headline-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        flex: 1;
+        min-width: 0;
+    }
+    .headline-title {
+        font-size: 13px;
+        font-weight: 600;
+        color: #e6edf3;
+        line-height: 1.4;
+        white-space: normal;
+    }
+    .headline-summary {
+        font-size: 11px;
+        color: #8b949e;
+        line-height: 1.5;
+        white-space: normal;
+    }
+    .section-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        color: #8b949e;
+        margin-bottom: 8px;
+        padding-left: 2px;
+    }
+    .morning-brief {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        overflow: hidden;
+        margin-bottom: 6px;
+    }
+    .brief-header {
+        background: #0d1117;
+        padding: 10px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-header-label {
+        font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #8b949e; text-transform: uppercase;
+    }
+    .brief-overview {
+        padding: 10px 16px;
+        font-size: 12px;
+        color: #adbac7;
+        line-height: 1.5;
+        border-bottom: 1px solid #21262d;
+    }
+    .brief-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 1px;
+        background: #21262d;
+    }
+    .brief-col {
+        background: #161b22;
+        padding: 12px 16px;
+    }
+    .brief-col-title {
+        font-size: 9px; font-weight: 700; letter-spacing: .12em; color: #8b949e;
+        text-transform: uppercase; margin-bottom: 8px;
+    }
+    .gapper-row {
+        display: flex; align-items: baseline; gap: 6px; padding: 3px 0; font-size: 12px;
+    }
+    .gapper-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; font-size: 13px; }
+    .gapper-pct { font-weight: 700; min-width: 54px; }
+    .gapper-pct.up { color: #3fb950; }
+    .gapper-pct.down { color: #f85149; }
+    .gapper-why { color: #8b949e; font-size: 11px; line-height: 1.3; }
+    .gapper-flow { color: #ffd54f; font-size: 10px; margin-left: 2px; }
+    .gapper-level { color: #388bfd; font-size: 10px; }
+    .dp-row { display: flex; gap: 8px; align-items: center; padding: 3px 0; font-size: 12px; }
+    .dp-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; }
+    .dp-size { color: #ffd54f; min-width: 46px; font-weight: 600; }
+    .dp-side { font-size: 10px; font-weight: 700; }
+    .dp-side.ask { color: #3fb950; }
+    .dp-side.bid { color: #f85149; }
+    .dp-side.mixed { color: #8b949e; }
+    .event-row { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid #21262d; font-size: 11px; }
+    .event-row:last-child { border-bottom: none; }
+    .event-type { font-weight: 700; color: #ffd54f; min-width: 100px; font-size: 10px; text-transform: uppercase; }
+    .event-detail { color: #adbac7; }
+    .picks-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        margin-bottom: 6px;
+    }
+    .pick-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 16px;
+    }
+    .pick-rank { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+    .pick-ticker { font-size: 28px; font-weight: 800; color: #e6edf3; margin-bottom: 8px; letter-spacing: -.5px; }
+    .pick-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .pick-pattern { font-size: 11px; color: #8b949e; }
+    .pick-flow { font-size: 12px; color: #ffd54f; font-weight: 600; margin-bottom: 6px; }
+    .pick-why { font-size: 12px; color: #adbac7; line-height: 1.45; }
+    .setup-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 12px; }
+    .setup-row:last-child { border-bottom: none; }
+    .setup-ticker { font-weight: 700; color: #e6edf3; flex: 0 0 50px; font-size: 13px; padding-top: 1px; }
+    .setup-pattern { color: #8b949e; font-size: 10px; flex: 0 0 110px; padding-top: 2px; }
+    .setup-why { color: #adbac7; font-size: 11px; line-height: 1.45; }
+    .setup-flow { color: #ffd54f; font-size: 10px; margin-top: 3px; }
+    .longterm-card {
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-left: 3px solid #388bfd;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .longterm-card .card-header {
+        padding: 10px 16px;
+        background: #0d1421;
+        border-bottom: 1px solid #21262d;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #388bfd;
+    }
+    .watch-card {
+        background: #161b22;
+        border: 1px solid #388bfd55;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .watch-card .card-header {
+        padding: 10px 16px;
+        background: #1f3a5f;
+        border-bottom: 1px solid #388bfd44;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: .12em;
+        color: #79c0ff;
+    }
+    .watch-item {
+        padding: 12px 16px;
+        border-bottom: 1px solid #21262d;
+    }
+    .watch-item:last-child { border-bottom: none; }
+    .watch-item:hover { background: #1c2128; }
+    .watch-top {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 5px;
+    }
+    .watch-ticker {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 800;
+        color: #e6edf3;
+    }
+    .watch-signal {
+        font-size: 12px;
+        color: #8b949e;
+        flex: 1;
+    }
+    .watch-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
+    .briefing {
+        font-size: 11px;
+        color: #8b949e;
+        padding: 0 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        line-height: 1.5;
+    }
+    .briefing:last-child { border-bottom: none; }
+    .briefing-row td {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #21262d;
+    }
+    .briefing-text {
+        font-size: 11px;
+        color: #8b949e;
+        font-style: italic;
+    }
+    .why-row td {
+        padding: 4px 12px 2px 12px;
+        border-bottom: none;
+        background: #0d1117;
+    }
+    .why-news {
+        font-size: 12px;
+        color: #c9d1d9;
+        font-weight: 500;
+    }
+    .why-news::before {
+        content: "↳ ";
+        color: #ffd54f;
+        font-weight: 700;
+    }
+    .why-context {
+        font-size: 11px;
+        color: #6e7681;
+        font-style: italic;
+        padding-left: 14px;
+    }
+    .briefing-row td {
+        padding: 2px 12px 8px 12px;
+        border-bottom: 1px solid #21262d;
+        background: #0d1117;
+    }
+    .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
+    .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
+    .strat-badge {
+        font-family: monospace;
+        font-size: 11px;
+        font-weight: 700;
+        color: #ffd54f;
+        background: #ffd54f11;
+        border: 1px solid #ffd54f33;
+        border-radius: 3px;
+        padding: 1px 5px;
+        margin-right: 4px;
+    }
+    .countdown {
+        font-size: 11px;
+        font-weight: 700;
+        color: #ef5350;
+        margin-left: 6px;
+    }
+    .heat-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 14px 16px;
+    }
+    .heat-pill {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        font-size: 12px;
+    }
+    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
+    .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
+    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .history-tag {
+        font-size: 10px;
+        color: #8b949e;
+        margin-left: 6px;
+    }
+    </style>
+</head>
+<body>
+<div class="rpt-nav">
+  <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
+  <div class="rpt-nav-btns">
+    <a class="rpt-btn rpt-pre" href="2026-07-02-premarket.html">&#9651;&thinsp;Pre-Market</a>
+    <a class="rpt-btn rpt-cls rpt-active" href="2026-07-02.html">&#9660;&thinsp;After Close</a>
+  </div>
+</div>
+<div class="header">
+  <h1>CATALYST REPORT</h1>
+  <span class="mode">AFTER CLOSE</span>
+  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 03:30 PM</span>
+</div>
+
+
+        <div class="headline-bar">
+          <span class="headline-tag">TOP HEADLINE</span>
+          <div class="headline-body">
+            <div class="headline-title">NFP + TSLA Deliveries — Last Catalyst Before a 3-Day Weekend</div>
+            <div class="headline-summary">NFP at 8:30 is the anchor. Market wants confirmation the labor market is softening — consensus expects 100-125K jobs after last month's 172K blowout. Anything below 100K sends yields lower and gives growth names a green light. Above 130K and Warsh's hawkish narrative returns hard. PLTR is the cleanest setup into this: upgraded premarket by D.A. Davidson (buy from neutral), closed a perfect Failed 2D yesterday +7.77%, dark pool flow is stacked bullish. TSLA delivery day with RIVN already raising guidance premarket — EV momentum is real. NVDA is a two-sided landmine at Failed 2D clustering — South Korea KOSPI -7.9% overnight is a headwind. Memory names (MU, SNDK) continue lower. Three-day weekend means desks clear by noon. Be early, be fast, take profit.</div>
+          </div>
+        </div>
+
+
+<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
+  <div style="flex:0 0 220px;display:flex;flex-direction:column;">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">What Happened Today</div>
+          <div style="padding:10px 14px;">
+            <p style="margin:0;color:#adbac7;font-size:11px;line-height:1.65;">NFP at 8:30 is the anchor. Market wants confirmation the labor market is softening — consensus expects 100-125K jobs after last month's 172K blowout. Anything below 100K sends yields lower and gives growth names a green light. Above 130K and Warsh's hawkish narrative returns hard. PLTR is the cleanest setup into this: upgraded premarket by D.A. Davidson (buy from neutral), closed a perfect Failed…</p>
+          </div>
+        </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;margin-top:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Top 3 Plays</div>
+          <div style="padding:4px 14px 8px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+              <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
+                <span style="font-size:9px;font-weight:700;color:#ffd54f;">#1</span>
+                <span style="font-size:15px;font-weight:800;color:#e6edf3;">SNOW</span>
+                <span style="font-size:13px;font-weight:700;color:#3fb950;">+1.4%</span>
+                <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;">✓ HIT</span>
+                <span style="font-size:9px;font-weight:800;color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">3</span>
+              </div>
+              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Extreme volume + 12 PM catalyst event — biggest special setup of the day</div>
+              <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">Trigger: ORB high / PD high</div>
+              <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ ORB high break + volume → ride the 12 PM move</div>
+              
+            </div><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+              <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
+                <span style="font-size:9px;font-weight:700;color:#adbac7;">#2</span>
+                <span style="font-size:15px;font-weight:800;color:#e6edf3;">TSLA</span>
+                <span style="font-size:13px;font-weight:700;color:#f85149;">-8.1%</span>
+                <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;">✓ HIT</span>
+                <span style="font-size:9px;font-weight:800;color:#f85149;background:#2d0f0f;border:1px solid #f85149;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↓</span>
+              </div>
+              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Q2 Sales Report — delivery numbers drop any time this morning</div>
+              <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">Trigger &gt;380 | Profits at $430 / $440</div>
+              <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ 2-2 reversal above $380 → take profits at psych levels $430/$440</div>
+              
+            </div><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+              <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
+                <span style="font-size:9px;font-weight:700;color:#8b949e;">#3</span>
+                <span style="font-size:15px;font-weight:800;color:#e6edf3;">CMCSA</span>
+                <span style="font-size:13px;font-weight:700;color:#3fb950;">+0.0%</span>
+                <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;border:1px solid #f85149;padding:1px 6px;border-radius:3px;">✗ MISS</span>
+                <span style="font-size:9px;font-weight:800;color:#f85149;background:#2d0f0f;border:1px solid #f85149;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↓</span>
+              </div>
+              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Gap up + inside 2-hour setup pre-market</div>
+              <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">Trigger &gt;29.66 | Target $31.64 gap fill</div>
+              <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ ORB confirmation above $29.66 → target $31.64 gap fill</div>
+              
+            </div></div>
+        </div>
+  </div>
+  <div style="flex:1;min-width:0;display:flex;flex-direction:column;">
+    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
+              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;display:flex;align-items:center;gap:8px;color:#e6edf3;">
+                <span>JR Morning Prep: Results</span>
+                <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;border:1px solid #238636;padding:2px 7px;border-radius:10px;letter-spacing:.08em;">AFTER CLOSE</span>
+              </div>
+              <div style="padding:14px 16px;flex:1;display:flex;flex-direction:column;gap:14px;">
+                <p style="margin:0;color:#e6edf3;font-size:13px;line-height:1.6;font-weight:500;">NFP at 8:30 sets the tone. SNOW is the special setup — 12 PM event + extreme volume. PLTR continuation from yesterday's upgrade. IWM 300-301 is your market health gauge today.</p>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Wait for NFP 8:30 before touching macro-sensitive names (NVDA, MSFT)</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">SNOW: ORB first, then react to 12 PM — no pre-event entries in the chop</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">3-day weekend = liquidity drops after 12pm, take profits fast and don't re-enter late</span></div>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;flex:1;"><div style="background:#1c2128;border-radius:6px;border:1px solid #ffd54f;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">SNOW</span>
+                    <span style="font-size:16px;font-weight:700;color:#3fb950;">+1.4%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    <span style="font-size:9px;font-weight:700;color:#ffd54f;background:#2d2a1a;padding:1px 5px;border-radius:3px;">★ FAV</span>
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Extreme volume + 12 PM catalyst event — biggest special setup of the day</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger: ORB high / PD high</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ ORB high break + volume → ride the 12 PM move</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Inside chop before 12 PM = no trade</div>
+                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Wait for ORB, then react to 12 PM move — avoid pre-event entries</div>
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">TSLA</span>
+                    <span style="font-size:16px;font-weight:700;color:#f85149;">-8.1%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Q2 Sales Report — delivery numbers drop any time this morning</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger &gt;380 | Profits at $430 / $440</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ 2-2 reversal above $380 → take profits at psych levels $430/$440</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Avoid chasing big pushes — let it come to a level</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">CMCSA</span>
+                    <span style="font-size:16px;font-weight:700;color:#8b949e;">+0.0%</span>
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;">MISS</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Gap up + inside 2-hour setup pre-market</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger &gt;29.66 | Target $31.64 gap fill</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ ORB confirmation above $29.66 → target $31.64 gap fill</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Inside-bar chop before ORB = no trade, wait for the break</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">RKLB</span>
+                    <span style="font-size:16px;font-weight:700;color:#f85149;">-0.5%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">+10% news catalyst — continuation setup</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger &gt;95.12</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Hold above gap fill + continuation above $95.12</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Avoid swinging space stocks — take quick profits</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">META</span>
+                    <span style="font-size:16px;font-weight:700;color:#f85149;">-4.1%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">AI cloud compute news — Bloomberg cloud business story still in play</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger &gt;175 | Wait for 10 AM data</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ ORB + 10 AM data confirm → trade only above $175</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Blind news entries = avoid — wait for the ORB</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">IWM</span>
+                    <span style="font-size:16px;font-weight:700;color:#f85149;">-1.0%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">ATH watch — 300-301 zone is the line in the sand</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">ATH zone: 300-301</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Above 300-301 = market strength, trade continuation in everything</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Below 300 = market weakness signal — reduce size across the board</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">NKE</span>
+                    <span style="font-size:16px;font-weight:700;color:#f85149;">-0.1%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Earnings catalyst — trade the reaction</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">React to earnings move</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Trade post-earnings continuation if strong</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Avoid pre-earnings gambles — trade the reaction only</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">MSFT</span>
+                    <span style="font-size:16px;font-weight:700;color:#3fb950;">+1.6%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Layoff news catalyst</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger: ORB high</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ ORB high + volume → continuation</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Avoid early volatility spikes — first 15 min is noise</div>
+                  
+                </div></div>
+                <div style="flex:1;display:flex;flex-direction:column;gap:4px;"><div style="font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;">Tier 2 / Monitoring</div><div style="display:flex;flex-wrap:wrap;gap:8px;"><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">RDDT</span>
+                    <span style="font-size:16px;font-weight:700;color:#3fb950;">+0.3%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Volume spike setup</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger: ORB high</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Quick scalps on ORB high — take profits fast</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ No multiple re-entries on a chase</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">HON</span>
+                    <span style="font-size:16px;font-weight:700;color:#3fb950;">+3.4%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Inside-bar setup</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger: inside-bar break</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Break + volume confirmation only</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Inside chop = no trade</div>
+                  
+                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">MSTR</span>
+                    <span style="font-size:16px;font-weight:700;color:#3fb950;">+0.9%</span>
+                    <span style="font-size:9px;font-weight:700;color:#3fb950;background:#0d2b1a;padding:1px 5px;border-radius:3px;">HIT</span>
+                    
+                  </div>
+                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Bitcoin $61K+ — crypto rally</div>
+                  <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trigger: ORB + catalyst</div>
+                  <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ ORB reaction to crypto move</div>
+                  <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ No trade without clean levels</div>
+                  
+                </div></div></div>
+                <div style="margin-top:auto;padding:10px 12px;border-radius:5px;background:#1c2128;border:1px solid #30363d;font-size:12px;color:#e6edf3;line-height:1.6;"><span style="font-weight:700;color:#ffd54f;">Market: </span>Futures mixed — S&amp;P +0.06%, Nasdaq -0.09%, Russell +0.30%. NFP consensus 100-125K. WTI oil -1.9% $67.29. Bitcoin $61K+. PLTR +4% PM. MU -3.5% PM. GOOGL -1% PM.</div>
+              </div>
+            </div>
+  </div>
+</div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Economic Calendar — This Week</div>
+          <div style="display:flex;align-items:stretch;">
+            <div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Mon 6/29</div>
+              <div style="font-size:11px;color:#30363d;padding:4px 0;">—</div>
+            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Tue 6/30</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">9:45am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Chicago PMI  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">CB Consumer Confidence  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">JOLTS Job Openings  (May)</div>
+                </div>
+            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Wed 7/1</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
+                    <span style="font-size:9px;color:#6e7681;">7:45am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">FOMC Member Daly Speaks</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">8:15am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">ADP Nonfarm Employment Change  (</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
+                    <span style="font-size:9px;color:#6e7681;">9:00am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Fed Governor Warsh Speaks</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">9:45am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">S&amp;P Global Manufacturing PMI  (J</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">ISM Manufacturing PMI  (Jun)</div>
+                </div>
+            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;background:#1c2128;border-top:2px solid #ffd54f;">
+              <div style="font-size:11px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Thu 7/2</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
+                    <span style="font-size:9px;color:#6e7681;">7:45am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">FOMC Member Daly Speaks</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">8:30am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Average Hourly Earnings (MoM)  (</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">8:30am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Initial Jobless Claims</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
+                    <span style="font-size:9px;color:#6e7681;">8:30am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Nonfarm Payrolls  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="display:flex;align-items:center;gap:5px;">
+                    <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
+                    <span style="font-size:9px;color:#6e7681;">8:30am</span>
+                  </div>
+                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Private Nonfarm Payrolls  (Jun)</div>
+                </div>
+            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
+              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Fri 7/3</div>
+              <div style="font-size:11px;color:#30363d;padding:4px 0;">—</div>
+            </div>
+          </div>
+        </div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Earnings Results + Key Events</div>
+          <div style="display:flex;gap:1px;background:#21262d;">
+            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">EARNINGS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">BMNR</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst ...</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">LNN</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±7.5%</span>
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lindsay shares rise after third-quarter earnings beat expectations despite revenue miss (LNN).</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">NKE</span>
+              <span class="badge badge-bmo" style="flex-shrink:0;">PM</span>
+              
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Trade the reaction, not the prediction.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
+              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">TRADE</span>
+              <span class="badge badge-bmo" style="flex-shrink:0;">PM</span>
+              
+              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></span>
+            </div></div>
+            </div>
+            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">KEY EVENTS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">NFP 8:30am</span>
+              <span style="color:#adbac7;">June Nonfarm Payrolls + Unemployment Rate + Jobless Claims — consensus 100-125K, unemployment 4.3%</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">TSLA DELIVERIES</span>
+              <span style="color:#adbac7;">Q2 2026 delivery numbers due — RIVN already raised guidance, bullish EV tone</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">SNOW 12PM EVENT</span>
+              <span style="color:#adbac7;">Extreme volume + 12 PM catalyst event — wait for ORB then react to the 12 PM move</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">NKE EARNINGS</span>
+              <span style="color:#adbac7;">Trade the reaction, not the prediction — avoid pre-earnings gambles</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">FACTORY ORDERS 10am</span>
+              <span style="color:#adbac7;">May Factory Orders — medium impact</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">MARKET CLOSED TOMORROW</span>
+              <span style="color:#adbac7;">July 4 observed — 3-day weekend, liquidity drops by noon today</span>
+            </div></div>
+            </div>
+          </div>
+        </div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
+          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+        <div class="wl-pill">
+          <span class="sym">IWM</span>
+          <span class="chg down">-0.6%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg down">-1.7%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg down">-0.1%</span>
+        </div><span class="wl-group-label">MAG 7</span>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg up">+4.8%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg up">+1.6%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg down">-1.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg down">-0.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg up">+0.4%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg down">-4.9%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg down">-7.5%</span>
+        </div></div>
+        </div>
+<div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="flex:0 0 50%;min-width:0;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="padding:14px;background:#161b22;">
+              <div style="font-size:12px;font-weight:700;color:#e6edf3;margin-bottom:8px;">SNOW — Close Chart</div>
+              <img src="charts/SNOW_2026-07-02.png" style="width:100%;border-radius:4px;display:block;">
+            </div>
+            <div style="border-top:1px solid #21262d;flex:1;min-width:0;display:flex;flex-direction:column;overflow-y:auto;">
+              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#ffd54f;">Trump Watch</div>
+              <div style="display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px 0;padding:10px 14px;align-items:flex-start;">
+                <div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DJT</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+6.5%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">MSTR</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+7.9%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">COIN</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+3.9%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">HOOD</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+3.8%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">INTC</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-5.3%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-7.3%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">IBM</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+1.1%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">XOM</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.6%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CVX</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+2.1%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+2.0%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LNG</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.8%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">GEO</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CXW</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">DEFENSE</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LMT</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+4.6%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">RTX</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+3.9%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NOC</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+5.6%</span>
+                </div>
+            </div><div style="display:flex;flex-direction:column;padding-right:14px;">
+              <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
+              <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NUE</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.8%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">X</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
+                </div>
+            </div>
+              </div>
+              
+            </div>
+          </div>
+          <div style="flex:0 0 50%;background:#161b22;padding:14px;overflow-y:auto;display:flex;flex-direction:column;">
+            <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;margin-bottom:10px;">How Setups Played Out</div>
+            <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
+              <div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">SNOW</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">ORB / Extreme Volume</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#ffd54f;font-size:11px;">3</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+1.4%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Wait for ORB high trigger + volume confirmation. React only to 12 PM move. Avoid pre-event entries inside chop.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">TSLA</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">2-2 Reversal</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-8.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Watch for 2-2 reversal structure above $380. Take profits at psych levels $430/$440. Don't chase big pushes.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">CMCSA</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Gap Up / Inside 2H</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+0.0%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">ORB confirmation above $29.66 → target $31.64 gap fill. Avoid inside-bar chop before the ORB.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">RKLB</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Continuation</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#8b949e;font-size:11px;">1</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-0.5%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Must hold above the gap fill. Trade continuation only above $95.12. Avoid swinging space stocks.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">META</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">ORB / AI Catalyst</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-4.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Wait for ORB + 10 AM data before entering. Trade only above $175 trigger. Avoid blind news entries.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">IWM</div><div style="font-size:9px;font-weight:700;color:#f85149;margin-top:1px;line-height:1;">MISS</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">ATH Breakout</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#f85149;font-size:11px;">2↓</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-1.0%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Use as market strength gauge. Trade continuation above $300-301. Below $300 = market weakness signal, stand down.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">NKE</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#ffd54f;">WATCH</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">Earnings Reaction</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#f85149;font-size:12px;">-0.1%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">Trade the reaction, not the prediction. Avoid gambling pre-earnings.</div>
+                </div><div class="setup-row" style="align-items:center;">
+                  <div style="flex:0 0 58px;"><div style="font-weight:700;color:#e6edf3;font-size:13px;line-height:1.2;">MSFT</div><div style="font-size:9px;font-weight:700;color:#3fb950;margin-top:1px;line-height:1;">HIT</div></div>
+                  <div style="flex:0 0 44px;font-size:10px;font-weight:700;color:#3fb950;">BULL</div>
+                  <div style="flex:0 0 130px;"><span style="color:#8b949e;font-size:10px;">ORB / Layoff News</span><span style="color:#8b949e;font-size:10px;margin:0 3px;">→</span><span style="font-weight:700;color:#3fb950;font-size:11px;">2↑</span></div>
+                  <div style="flex:0 0 52px;font-weight:700;color:#3fb950;font-size:12px;">+1.6%</div>
+                  <div style="flex:1;color:#adbac7;font-size:11px;">ORB + volume = continuation only. Avoid early volatility spikes in the first 15 min.</div>
+                </div>
+            </div>
+          </div>
+        </div>
+<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#3fb950;">▲ Today's Winners</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">PLTR</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+0.2%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">D.A. Davidson upgrade to Buy + Failed 2D continuation</span>
+                  <span style="color:#ffd54f;font-size:10px;">DP bullish</span>
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">RIVN</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+3.6%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Raised 2026 delivery outlook after strong Q2 demand</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">MSTR</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+0.9%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Bitcoin crossed $61K — Strategy rides crypto rally</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">COIN</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+0.2%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Bitcoin $61K+ drives Coinbase volumes</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">AVAV</span>
+                  <span style="font-weight:700;color:#3fb950;min-width:52px;">+5.9%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">$500M U.S. Army counter-drone contract win</span>
+                  
+                  
+                </div></div>
+          </div>
+          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#f85149;">▼ Today's Losers</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">MU</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">-6.3%</span>
+                  <span style="font-size:9px;font-weight:800;color:#f85149;background:#2d0f0f;border:1px solid #f85149;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↓</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Memory sector week 2 — KOSPI -7.9%, no relief in sight</span>
+                  <span style="color:#ffd54f;font-size:10px;">Bearish kicker DP</span>
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">SNDK</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">-14.6%</span>
+                  <span style="font-size:9px;font-weight:800;color:#f85149;background:#2d0f0f;border:1px solid #f85149;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↓</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Continuation from -10.6% Wednesday, memory weakness</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">GOOGL</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+0.1%</span>
+                  <span style="font-size:9px;font-weight:800;color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">3</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">EU Court of Justice upholds Google €4.1B antitrust fine</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">ARM</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">-6.5%</span>
+                  <span style="font-size:9px;font-weight:800;color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">3</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Bearish gapper w/DP — semis rotation continues</span>
+                  
+                  
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">CVX</span>
+                  <span style="font-weight:700;color:#f85149;min-width:52px;">+0.6%</span>
+                  <span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 6px;border-radius:3px;letter-spacing:.06em;white-space:nowrap;">2↑</span>
+                  <span style="color:#adbac7;font-size:11px;flex:1;">Failed 2D + oil WTI -1.9% as Iran ceasefire holds</span>
+                  
+                  
+                </div></div>
+          </div>
+        </div>
+
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Dark Pool Blocks</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px;"><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">JPM</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$906M</span>
+              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MU</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$649M</span>
+              <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">NVDA</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$500M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MSFT</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$431M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:#e6edf3;">META</span>
+              <span style="font-size:12px;color:#ffd54f;font-weight:600;">$355M</span>
+              <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
+            </div></div>
+        </div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;"><div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Sector Performance</div><div style="display:flex;justify-content:space-around;padding:14px 8px;flex-wrap:wrap;gap:6px;"><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Tech</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XLK</span><span style="font-size:16px;font-weight:800;color:#f85149;">-2.71%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:32%;background:#f85149;border-radius:2px;"></div></div></div><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Comm</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XLC</span><span style="font-size:16px;font-weight:800;color:#f85149;">-0.13%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:1%;background:#f85149;border-radius:2px;"></div></div></div><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Energy</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XLE</span><span style="font-size:16px;font-weight:800;color:#3fb950;">+0.78%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:9%;background:#3fb950;border-radius:2px;"></div></div></div><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Financials</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XLF</span><span style="font-size:16px;font-weight:800;color:#3fb950;">+1.53%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:18%;background:#3fb950;border-radius:2px;"></div></div></div><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Biotech</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XBI</span><span style="font-size:16px;font-weight:800;color:#3fb950;">+2.50%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:29%;background:#3fb950;border-radius:2px;"></div></div></div><div style="display:flex;flex-direction:column;align-items:center;flex:1;min-width:60px;padding:0 6px;"><span style="font-size:10px;font-weight:700;color:#adbac7;">Industrials</span><span style="font-size:9px;color:#6e7681;margin-bottom:4px;">XLI</span><span style="font-size:16px;font-weight:800;color:#3fb950;">+0.30%</span><div style="margin-top:5px;height:4px;width:70px;background:#21262d;border-radius:2px;overflow:hidden;"><div style="height:100%;width:3%;background:#3fb950;border-radius:2px;"></div></div></div></div></div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;"><div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Lessons of the Day</div><div style="display:flex;gap:1px;background:#21262d;"><div style="flex:1;background:#161b22;padding:10px 14px;"><div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#3fb950;margin-bottom:6px;">WHAT WORKED</div><div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #21262d30;"><span style="font-size:10px;font-weight:800;color:#3fb950;min-width:60px;flex-shrink:0;">AVAV&nbsp;+5.9%</span><span style="font-size:10px;color:#8b949e;line-height:1.5;"></span></div><div style="display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #21262d30;"><span style="font-size:10px;font-weight:800;color:#3fb950;min-width:60px;flex-shrink:0;">RIVN&nbsp;+3.6%</span><span style="font-size:10px;color:#8b949e;line-height:1.5;"></span></div></div><div style="flex:1;background:#161b22;padding:10px 14px;"><div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#f85149;margin-bottom:6px;">TRAPS &amp; MISSES</div><span style="font-size:10px;color:#8b949e;">Clean day — no major traps.</span></div></div></div>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;"><div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Watch Tomorrow</div><div style="display:flex;align-items:center;gap:10px;padding:7px 14px;border-bottom:1px solid #21262d;"><span style="font-size:9px;font-weight:700;color:#ffd54f;min-width:86px;flex-shrink:0;">EARNINGS BMO</span><span style="font-size:11px;font-weight:700;color:#e6edf3;min-width:44px;flex-shrink:0;">NKE</span><span style="font-size:11px;color:#8b949e;flex:1;">Reports before open</span></div><div style="display:flex;align-items:center;gap:10px;padding:7px 14px;border-bottom:1px solid #21262d;"><span style="font-size:9px;font-weight:700;color:#ffd54f;min-width:86px;flex-shrink:0;">EARNINGS BMO</span><span style="font-size:11px;font-weight:700;color:#e6edf3;min-width:44px;flex-shrink:0;">TRADE</span><span style="font-size:11px;color:#8b949e;flex:1;">Reports before open</span></div></div>
+
+</body>
+</html>
