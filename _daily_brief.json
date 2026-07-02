@@ -6379,5 +6379,209 @@
       }
     ],
     "close_overview": "ISM Manufacturing beat at 10am was the unlock \u2014 META exploded through $606 resistance, closing +8.81% and printing the cleanest 0DTE trade of Q3 so far. QQQ shed -1.52% as broader tech rotated, but Mag 7 leaders held their ground. BE and LUNR faded after strong pre-market gaps \u2014 no sustained catalyst, no follow-through. PLTR +7.77% and NOW +6.57% led the wider watch on continued AI infrastructure flow. MU and SNDK both hit -10%+ on memory sector weakness. Tomorrow: TSLA Q2 deliveries."
+  },
+  "2026-07-02": {
+    "headline": "NFP + TSLA Deliveries \u2014 Last Catalyst Before a 3-Day Weekend",
+    "overview": "NFP at 8:30 is the anchor. Market wants confirmation the labor market is softening \u2014 consensus expects 100-125K jobs after last month's 172K blowout. Anything below 100K sends yields lower and gives growth names a green light. Above 130K and Warsh's hawkish narrative returns hard. PLTR is the cleanest setup into this: upgraded premarket by D.A. Davidson (buy from neutral), closed a perfect Failed 2D yesterday +7.77%, dark pool flow is stacked bullish. TSLA delivery day with RIVN already raising guidance premarket \u2014 EV momentum is real. NVDA is a two-sided landmine at Failed 2D clustering \u2014 South Korea KOSPI -7.9% overnight is a headwind. Memory names (MU, SNDK) continue lower. Three-day weekend means desks clear by noon. Be early, be fast, take profit.",
+    "market_context": "Dark pool from 7/1 close: JPM $906M mixed leads the board \u2014 financials at top of DP for second consecutive week on Q3 kickoff. MU $649M ask AH (institutions positioning into weakness), NVDA $500M bid AH (dip buyers still present), MSFT $431M bid AH, META $355M bid AH. Options sweeps: AMD $580C 7/24/26 at $6.2M (someone calling for AMD summer run), BABA $155P 7/17/26 block $41.8M (persistent positioning, third week running). PLTR +4%+ premarket on D.A. Davidson upgrade. Crypto bid \u2014 Bitcoin above $61K, Strategy +6%, Coinbase +3% premarket. AeroVironment (AVAV) +4% on $500M Army drone contract.",
+    "events": [
+      {
+        "type": "NFP 8:30am",
+        "detail": "June Nonfarm Payrolls + Unemployment Rate + Jobless Claims \u2014 consensus 100-125K, unemployment 4.3%"
+      },
+      {
+        "type": "TSLA DELIVERIES",
+        "detail": "Q2 2026 delivery numbers due \u2014 RIVN already raised guidance, setting bullish EV tone"
+      },
+      {
+        "type": "FACTORY ORDERS 10am",
+        "detail": "May Factory Orders \u2014 medium impact"
+      },
+      {
+        "type": "MARKET CLOSED TOMORROW",
+        "detail": "Independence Day (July 4 observed July 3) \u2014 3-day weekend, liquidity drops by noon today"
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "PLTR",
+        "bias": "BULL",
+        "pattern": "Bullish Gapper",
+        "flow": "D.A. Davidson upgrade to Buy premarket | DP confluence",
+        "why": "Failed 2D close yesterday +7.77%. Upgrade today adds fundamental fuel. Hold $94 on open = calls clean targeting $100+."
+      },
+      {
+        "ticker": "NVDA",
+        "bias": "WATCH",
+        "pattern": "Failed 2D (clustering)",
+        "flow": "Bearish kicker w/DP | KOSPI -7.9% overnight",
+        "why": "Clustering on Failed 2D = explosive move coming. NFP determines direction. Above $115 bull. Below $108 bear. Don't guess."
+      },
+      {
+        "ticker": "TSLA",
+        "bias": "BULL",
+        "pattern": "Catalyst Play",
+        "flow": "Q2 Delivery Day | RIVN raised guidance premarket",
+        "why": "RIVN raised 2026 delivery outlook pre-open. If TSLA beats (400K+) calls above $435 target $445-450. Miss \u2192 puts."
+      },
+      {
+        "ticker": "MU",
+        "bias": "BEAR",
+        "pattern": "Bearish Kicker",
+        "flow": "DP $649M ask AH | memory sector continued weakness",
+        "why": "Continuation play from -10.6% Wednesday. KOSPI -7.9% = global semis still under pressure. Below $82 targets $78."
+      },
+      {
+        "ticker": "AMZN",
+        "bias": "WATCH",
+        "pattern": "3/Outside",
+        "flow": "NFP will set direction",
+        "why": "Outside day \u2014 no directional edge. Let NFP resolve at 8:30 before touching it."
+      },
+      {
+        "ticker": "CVX",
+        "bias": "BEAR",
+        "pattern": "Failed 2D",
+        "flow": "Oil WTI -1.9% to $67.29 | Iran ceasefire holding",
+        "why": "Oil unwind continuing as Iran supply risks ease. Failed 2D = continuation short. Below $148 targets $144."
+      }
+    ],
+    "morning_prep": {
+      "theme": "NFP day \u2014 last major print before a 3-day weekend. PLTR is the cleanest setup. NVDA is a two-sided landmine until 8:30 resolves. Size down by noon.",
+      "rules": [
+        "Wait for NFP at 8:30 before sizing into NVDA or macro-sensitive names",
+        "PLTR: trust the DP confluence + upgrade \u2014 this is the setup today",
+        "Three-day weekend = liquidity drops fast after 12pm ET, take profit early"
+      ],
+      "market": "Futures mixed \u2014 S&P +0.06%, Nasdaq -0.09%, Russell +0.30%. NFP consensus 100-125K. 10yr yield 4.50%. WTI oil -1.9% to $67.29. Bitcoin $61K+. PLTR +4%+ PM. MU -3.5% PM. SNDK -2.5% PM.",
+      "setups": [
+        {
+          "ticker": "PLTR",
+          "tier": 1,
+          "catalyst": "D.A. Davidson upgrade to Buy from Neutral premarket \u2014 says valuation most attractive in some time",
+          "levels": "Support $94 | Resistance $96-97 | Target $100+",
+          "bull": "Hold above $94 on open, calls above $96 targeting $100-102 by EOD",
+          "bear": "NFP disappointment + risk-off sells PLTR back to $92",
+          "note": "\u2605 Cleanest setup today \u2014 upgrade + Failed 2D + DP confluence"
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 1,
+          "catalyst": "Q2 2026 delivery numbers due any time this morning. RIVN already raised 2026 outlook.",
+          "levels": "Support $425 | Key level $435 | Breakout $440+",
+          "bull": "Beat (400K+ deliveries) \u2192 calls above $435 targeting $445-450",
+          "bear": "Miss (<370K) \u2192 puts below $425 targeting $415"
+        },
+        {
+          "ticker": "NVDA",
+          "tier": 1,
+          "catalyst": "Failed 2D clustering + Korean KOSPI -7.9% semiconductor selloff overnight",
+          "levels": "Support $108 | Pivot $112 | Resistance $115",
+          "bull": "NFP miss \u2192 yields drop \u2192 above $112 calls target $117",
+          "bear": "NFP beat or no relief \u2192 below $108 puts target $103",
+          "note": "Two-sided \u2014 don't touch before 8:30"
+        },
+        {
+          "ticker": "RIVN",
+          "tier": 2,
+          "catalyst": "Raised 2026 delivery outlook after strong Q2 demand \u2014 stock +% premarket",
+          "levels": "Watch $16-17 range",
+          "bull": "Continuation of delivery beat momentum \u2014 gap and go above $17",
+          "bear": "Fade if market risk-off on NFP beat"
+        },
+        {
+          "ticker": "MU",
+          "tier": 2,
+          "catalyst": "Memory sector continued pressure \u2014 KOSPI -7.9%, SNDK -2.5% PM",
+          "levels": "Resistance $88 | Key $82 | Target $78",
+          "bull": "NFP miss + yields drop = semis catch a bid bounce",
+          "bear": "Continuation short below $82 targeting $78 \u2014 bearish kicker DP"
+        }
+      ]
+    },
+    "bulls": [
+      {
+        "ticker": "PLTR",
+        "pct": "+4.2%",
+        "why": "D.A. Davidson upgrade to Buy + Failed 2D continuation",
+        "flow": "DP bullish"
+      },
+      {
+        "ticker": "RIVN",
+        "pct": "+5.1%",
+        "why": "Raised 2026 delivery outlook after strong Q2 demand"
+      },
+      {
+        "ticker": "MSTR",
+        "pct": "+6.0%",
+        "why": "Bitcoin crossed $61K \u2014 Strategy rides crypto rally"
+      },
+      {
+        "ticker": "COIN",
+        "pct": "+3.1%",
+        "why": "Bitcoin $61K+ drives Coinbase volumes"
+      },
+      {
+        "ticker": "AVAV",
+        "pct": "+4.0%",
+        "why": "$500M U.S. Army counter-drone contract win"
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "MU",
+        "pct": "-3.5%",
+        "why": "Memory sector week 2 \u2014 KOSPI -7.9%, no relief in sight",
+        "flow": "Bearish kicker DP"
+      },
+      {
+        "ticker": "SNDK",
+        "pct": "-2.5%",
+        "why": "Continuation from -10.6% Wednesday, memory weakness"
+      },
+      {
+        "ticker": "GOOGL",
+        "pct": "-1.0%",
+        "why": "EU Court of Justice upholds Google \u20ac4.1B antitrust fine"
+      },
+      {
+        "ticker": "ARM",
+        "pct": "-2.0%",
+        "why": "Bearish gapper w/DP \u2014 semis rotation continues"
+      },
+      {
+        "ticker": "CVX",
+        "pct": "-1.5%",
+        "why": "Failed 2D + oil WTI -1.9% as Iran ceasefire holds"
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "JPM",
+        "size": "$906M",
+        "side": "mixed"
+      },
+      {
+        "ticker": "MU",
+        "size": "$649M",
+        "side": "ask"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$500M",
+        "side": "bid"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$431M",
+        "side": "bid"
+      },
+      {
+        "ticker": "META",
+        "size": "$355M",
+        "side": "bid"
+      }
+    ],
+    "trump_stocks": []
   }
 }
