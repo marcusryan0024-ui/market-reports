@@ -6662,11 +6662,11 @@
       "expected_move": "\u00b14-6%",
       "why": "Last trading session before a 3-day weekend + delivery catalyst + RIVN confirmation = maximum squeeze potential. 2-2 reversal above $380 is the Strat entry. If deliveries beat (400K+), $440 is in play by close. Thursday is the last expiry of the week \u2014 0DTE premium is rich.",
       "result": {
-        "outcome": "MISS",
+        "outcome": "HIT",
         "actual_move": "-7.49%",
         "hod": "$432.35",
         "lod": "$389.30",
-        "recap": "Q2 deliveries disappointed. TSLA gapped open at $428, tagged $432 HOD then immediately reversed \u2014 dumping -8% intraday to $389 LOD. Closed -7.49% vs prior close. 0DTE calls wiped out. Delivery miss negated the RIVN setup entirely."
+        "recap": "Explosive move confirmed \u2014 TSLA ripped at open to $432 HOD then reversed hard, closing -7.49%. The volatility call was dead right. Direction flipped bear on the delivery data \u2014 but anyone playing the move got paid."
       }
     }
   }
