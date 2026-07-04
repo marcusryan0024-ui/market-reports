@@ -36,6 +36,75 @@
     .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
     .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
     .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
+    .rpt-rules-btn {
+        font-size: 11px; font-weight: 700; padding: 5px 13px; border-radius: 6px;
+        border: 1px solid #a78bfa; background: #1e1230; color: #a78bfa;
+        cursor: pointer; letter-spacing: .06em; transition: all .14s;
+    }
+    .rpt-rules-btn:hover { background: #2d1a4a; box-shadow: 0 4px 14px #7c3aed40; transform: translateY(-1px); }
+    .ref-overlay {
+        display: none; position: fixed; inset: 0; z-index: 9999;
+        background: rgba(0,0,0,.72); backdrop-filter: blur(4px);
+    }
+    .ref-overlay.open { display: flex; justify-content: flex-end; }
+    .ref-drawer {
+        width: min(560px, 96vw); height: 100vh; overflow-y: auto;
+        background: #0d1117; border-left: 1px solid #7c3aed;
+        box-shadow: -8px 0 48px #7c3aed28;
+        display: flex; flex-direction: column;
+    }
+    .ref-header {
+        position: sticky; top: 0; background: #040608;
+        border-bottom: 1px solid #7c3aed44;
+        padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; z-index: 1;
+    }
+    .ref-header h2 { font-size: 12px; font-weight: 800; letter-spacing: .14em; color: #a78bfa; text-transform: uppercase; margin: 0; }
+    .ref-close { background: none; border: none; color: #6e7681; font-size: 20px; cursor: pointer; line-height: 1; padding: 0 4px; }
+    .ref-close:hover { color: #e6edf3; }
+    .ref-tabs { display: flex; border-bottom: 1px solid #21262d; background: #040608; }
+    .ref-tab {
+        flex: 1; padding: 10px 8px; font-size: 10px; font-weight: 700; letter-spacing: .08em;
+        text-transform: uppercase; text-align: center; cursor: pointer; color: #6e7681;
+        border-bottom: 2px solid transparent; transition: all .14s;
+    }
+    .ref-tab.active { color: #a78bfa; border-bottom-color: #7c3aed; }
+    .ref-tab:hover { color: #c4b5fd; }
+    .ref-panel { display: none; padding: 20px; }
+    .ref-panel.active { display: block; }
+    .ref-rule {
+        display: flex; align-items: flex-start; gap: 12px;
+        padding: 10px 0; border-bottom: 1px solid #21262d10;
+    }
+    .ref-rule:last-child { border-bottom: none; }
+    .ref-rule-num {
+        min-width: 28px; height: 28px; border-radius: 50%; background: #1e1230;
+        border: 1px solid #7c3aed44; display: flex; align-items: center; justify-content: center;
+        font-size: 11px; font-weight: 800; color: #a78bfa; flex-shrink: 0;
+    }
+    .ref-rule-text { font-size: 13px; font-weight: 700; color: #e6edf3; line-height: 1.4; padding-top: 4px; }
+    .ref-section-label {
+        font-size: 9px; font-weight: 800; letter-spacing: .14em; color: #a78bfa;
+        text-transform: uppercase; margin: 18px 0 10px; border-left: 3px solid #7c3aed; padding-left: 8px;
+    }
+    .ref-section-label:first-child { margin-top: 0; }
+    .ref-combo {
+        background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+        padding: 10px 14px; margin-bottom: 8px;
+    }
+    .ref-combo-name { font-size: 12px; font-weight: 800; color: #e6edf3; margin-bottom: 4px; }
+    .ref-combo-desc { font-size: 11px; color: #8b949e; line-height: 1.5; }
+    .ref-candle {
+        display: flex; gap: 12px; align-items: flex-start;
+        padding: 10px 0; border-bottom: 1px solid #21262d20;
+    }
+    .ref-candle:last-child { border-bottom: none; }
+    .ref-candle-badge {
+        min-width: 36px; padding: 3px 6px; border-radius: 4px; text-align: center;
+        font-size: 11px; font-weight: 800; flex-shrink: 0;
+    }
+    .ref-candle-body { flex: 1; }
+    .ref-candle-name { font-size: 12px; font-weight: 700; color: #e6edf3; margin-bottom: 3px; }
+    .ref-candle-def { font-size: 11px; color: #8b949e; line-height: 1.5; }
     .header {
         display: flex;
         align-items: baseline;
@@ -753,14 +822,156 @@
 <div class="rpt-nav">
   <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
   <div class="rpt-nav-btns">
+    <button class="rpt-rules-btn" onclick="document.getElementById('refOverlay').classList.add('open')">&#9776;&thinsp;Rules</button>
     <a class="rpt-btn rpt-pre rpt-active" href="2026-07-02-premarket.html">&#9651;&thinsp;Pre-Market</a>
     <a class="rpt-btn rpt-cls" href="2026-07-02.html">&#9660;&thinsp;After Close</a>
   </div>
 </div>
+
+<div class="ref-overlay" id="refOverlay" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="ref-drawer">
+    <div class="ref-header">
+      <h2>Trader Reference</h2>
+      <button class="ref-close" onclick="document.getElementById('refOverlay').classList.remove('open')">&#10005;</button>
+    </div>
+    <div class="ref-tabs">
+      <div class="ref-tab active" onclick="switchTab(0)">Rules</div>
+      <div class="ref-tab" onclick="switchTab(1)">The Strat</div>
+      <div class="ref-tab" onclick="switchTab(2)">Candles</div>
+    </div>
+
+    <div class="ref-panel active" id="refTab0">
+      <div class="ref-section-label">10 Trading Rules</div>
+      <div class="ref-rule"><div class="ref-rule-num">1</div><div class="ref-rule-text">Risk-Management &mdash; Risk your stop</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">2</div><div class="ref-rule-text">Never sell for a loss</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">3</div><div class="ref-rule-text">No trigger, no trade</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">4</div><div class="ref-rule-text">Sell into strength</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">5</div><div class="ref-rule-text">Avoid having strong biases</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">6</div><div class="ref-rule-text">Take profits</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">7</div><div class="ref-rule-text">Don&rsquo;t overtrade &mdash; No impulse trading</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">8</div><div class="ref-rule-text">Be in position</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">9</div><div class="ref-rule-text">Don&rsquo;t trade when your energy is off</div></div>
+      <div class="ref-rule"><div class="ref-rule-num">10</div><div class="ref-rule-text">Read the news</div></div>
+    </div>
+
+    <div class="ref-panel" id="refTab1">
+      <div class="ref-section-label">Profitable Trader Framework</div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Full Time Frame Continuity (FTFC)</div>
+        <div class="ref-combo-desc">Monthly, Weekly, Daily, and intraday are all pointing the same direction. Highest-probability setups only exist when all time frames agree. Never fight the monthly.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Actionable Signals (AS)</div>
+        <div class="ref-combo-desc">Only trade when a bar triggers (takes out the prior bar&rsquo;s high or low). No trigger = no trade. Wait for confirmation, not prediction.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Broadening Formations</div>
+        <div class="ref-combo-desc">Expanding price action across time frames signals institutional activity. Look for 3s on higher time frames — they create the range that lower TFs react to.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Time Frame of Choice (TOC)</div>
+        <div class="ref-combo-desc">Pick ONE time frame for your entry. Use higher TFs for bias, lower TFs for entry. Don&rsquo;t switch TOCs mid-trade.</div>
+      </div>
+
+      <div class="ref-section-label">Strat Combos</div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">2-1-2 Continuation</div>
+        <div class="ref-combo-desc">Directional bar &rarr; Inside bar (coil) &rarr; Directional break same direction. Most common high-probability setup. Wait for the 2 to trigger off the 1.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">2-1-2 Reversal</div>
+        <div class="ref-combo-desc">Directional bar &rarr; Inside bar (coil) &rarr; Directional break opposite direction. Reversal play. Needs FTFC support on higher TF for conviction.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">3-2-2</div>
+        <div class="ref-combo-desc">Outside bar (indecision) &rarr; two consecutive directional bars same direction. Powerful continuation after range expansion. Enter on second 2 trigger.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">1-2-2 Continuation</div>
+        <div class="ref-combo-desc">Inside bar (coiling) &rarr; two consecutive directional bars same direction. Classic breakout from compression. Volume should expand on the break.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">2-2 Reversal</div>
+        <div class="ref-combo-desc">Directional bar opposite direction &rarr; Directional bar back in original direction. Counter-trend reversal. Strongest when the first 2 is a Failed bar on higher TF.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Rev Strat (3-2U or 3-2D)</div>
+        <div class="ref-combo-desc">Outside bar forms on key support/resistance &rarr; directional bar takes out one side. Enter on break of the 3&rsquo;s opposite extreme. High conviction reversal signal.</div>
+      </div>
+      <div class="ref-combo">
+        <div class="ref-combo-name">Bullish Kicker</div>
+        <div class="ref-combo-desc">Bearish candle followed by a gap up into a bullish candle that opens above prior bearish close. No overlap. Strong institutional demand signal &mdash; highest conviction reversal in The Strat.</div>
+      </div>
+    </div>
+
+    <div class="ref-panel" id="refTab2">
+      <div class="ref-section-label">Candle Types (The Strat)</div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#58a6ff;background:#0d2137;border:1px solid #58a6ff;">1</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Inside Bar</div>
+          <div class="ref-candle-def">High &le; prior High AND Low &ge; prior Low. Full containment within the previous bar. Signals compression and indecision &mdash; a coil before the next directional move. No trade until it triggers either side.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;">2&#8593;</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Directional Up</div>
+          <div class="ref-candle-def">Takes out prior High but NOT prior Low. Pure bullish pressure. Trigger = break of this bar&rsquo;s high on next bar. In FTFC, these are continuation entries.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;">2&#8595;</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Directional Down</div>
+          <div class="ref-candle-def">Takes out prior Low but NOT prior High. Pure bearish pressure. Trigger = break of this bar&rsquo;s low on next bar. Sell into strength, don&rsquo;t chase the move.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;">3</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Outside Bar</div>
+          <div class="ref-candle-def">Takes out BOTH prior High and prior Low. Full range expansion. No directional edge by itself. Wait for the next bar to commit to a side. Powerful when found at key levels on higher time frames.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;font-size:9px;">F2U</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Failed 2 Up</div>
+          <div class="ref-candle-def">Bar exceeds prior High (triggers 2U) but then reverses and closes BELOW prior bar&rsquo;s high. Bearish reversal signal. Bulls got trapped &mdash; the failed high is now resistance. Strong short entry on the close or next bar&rsquo;s open.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;font-size:9px;">F2D</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Failed 2 Down</div>
+          <div class="ref-candle-def">Bar exceeds prior Low (triggers 2D) but then reverses and closes ABOVE prior bar&rsquo;s low. Bullish reversal signal. Bears got trapped &mdash; the failed low is now support. Strong long entry on the close or next bar&rsquo;s open.</div>
+        </div>
+      </div>
+      <div class="ref-candle">
+        <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;font-size:9px;">BK</div>
+        <div class="ref-candle-body">
+          <div class="ref-candle-name">Bullish Kicker</div>
+          <div class="ref-candle-def">Prior bar closes bearish &rarr; next bar gaps UP with no price overlap and closes bullish. No body overlap between bars. Institutional demand signal. Highest-conviction reversal pattern in The Strat &mdash; treat it like a Failed 2D with extra power.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+function switchTab(i) {
+  document.querySelectorAll('.ref-tab').forEach((t,j) => t.classList.toggle('active', i===j));
+  document.querySelectorAll('.ref-panel').forEach((p,j) => p.classList.toggle('active', i===j));
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') document.getElementById('refOverlay').classList.remove('open');
+});
+</script>
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">PRE-MARKET</span>
-  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 03:39 PM</span>
+  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 10:53 AM</span>
 </div>
 
 
@@ -793,6 +1004,15 @@
       <div style="font-size:11px;color:#58a6ff;font-family:monospace;font-weight:600;">Trigger &gt;$380 | Profit $430 / $440 | Stop below $415</div>
       <div style="font-size:12px;color:#adbac7;line-height:1.5;margin-top:2px;">Last trading session before a 3-day weekend + delivery catalyst + RIVN confirmation = maximum squeeze potential. 2-2 reversal above $380 is the Strat entry. If deliveries beat (400K+), $440 is in play by close. Thursday is the last expiry of the week — 0DTE premium is rich.</div>
     </div>
+  </div>
+  <div style="margin-top:12px;padding-top:10px;border-top:1px solid #7c3aed44;display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap;">
+    <div style="display:flex;align-items:center;gap:8px;flex-shrink:0;">
+      <span style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#a78bfa;text-transform:uppercase;">Result</span>
+      <span style="font-size:12px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:2px 10px;border-radius:4px;letter-spacing:.06em;">✓ HIT</span>
+      <span style="font-size:14px;font-weight:800;color:#3fb950;">-7.49%</span>
+    </div>
+    <div style="display:flex;gap:6px;flex-shrink:0;"><div style="background:#0d2b1a;border:1px solid #3fb950;border-radius:4px;padding:3px 9px;text-align:center;"><div style="font-size:8px;font-weight:700;color:#3fb950;letter-spacing:.1em;text-transform:uppercase;">HOD</div><div style="font-size:13px;font-weight:800;color:#e6edf3;">$432.35</div></div><div style="background:#2d0f0f;border:1px solid #f85149;border-radius:4px;padding:3px 9px;text-align:center;"><div style="font-size:8px;font-weight:700;color:#f85149;letter-spacing:.1em;text-transform:uppercase;">LOD</div><div style="font-size:13px;font-weight:800;color:#e6edf3;">$389.30</div></div></div>
+    <div style="flex:1;min-width:160px;font-size:11px;color:#adbac7;line-height:1.5;">Explosive move confirmed — TSLA ripped at open to $432 HOD then reversed hard, closing -7.49%. The volatility call was dead right. Direction flipped bear on the delivery data — but anyone playing the move got paid.</div>
   </div>
 </div>
 <div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
@@ -1097,16 +1317,6 @@
             <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
               <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">EARNINGS</div>
               <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">BMNR</span>
-              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst ...</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">LNN</span>
-              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±7.5%</span>
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Lindsay shares rise after third-quarter earnings beat expectations despite revenue miss (LNN).</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
               <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">NKE</span>
               <span class="badge badge-bmo" style="flex-shrink:0;">PM</span>
               
@@ -1146,43 +1356,43 @@
           <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
-          <span class="chg down">-0.2%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">QQQ</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.2%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">SPY</span>
-          <span class="chg down">-0.1%</span>
+          <span class="chg up">+0.1%</span>
         </div><span class="wl-group-label">MAG 7</span>
         <div class="wl-pill">
           <span class="sym">AAPL</span>
-          <span class="chg down">-0.2%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">MSFT</span>
-          <span class="chg down">-0.0%</span>
+          <span class="chg up">+0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">NVDA</span>
-          <span class="chg down">-0.1%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">GOOGL</span>
           <span class="chg down">-0.2%</span>
         </div>
         <div class="wl-pill">
-          <span class="sym">AMZN</span>
+          <span class="sym">GOOGL</span>
           <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg up">+0.1%</span>
+        </div>
+        <div class="wl-pill">
           <span class="sym">META</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg up">+0.4%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">TSLA</span>
-          <span class="chg down">-0.0%</span>
+          <span class="chg up">+0.2%</span>
         </div></div>
         </div>
 <div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
@@ -1198,52 +1408,52 @@
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DJT</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.4%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">MSTR</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+1.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">COIN</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">HOOD</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.5%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.6%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">INTC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.5%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">IBM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.4%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.7%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">XOM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CVX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
-                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LNG</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-1.2%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">GEO</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+1.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CXW</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
@@ -1252,19 +1462,19 @@
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">DEFENSE</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LMT</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.5%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">RTX</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NOC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.7%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NUE</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+1.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">X</span>
                   <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
