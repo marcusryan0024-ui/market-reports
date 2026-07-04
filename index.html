@@ -27,7 +27,7 @@ body{background:#07090f;background-image:radial-gradient(#141c28 1px,transparent
 .header::before{content:'';position:absolute;top:-120px;left:-80px;width:600px;height:400px;background:radial-gradient(ellipse,#1f6feb16,transparent 60%);pointer-events:none}
 .header::after{content:'';position:absolute;bottom:-120px;right:20px;width:400px;height:300px;background:radial-gradient(ellipse,#23863612,transparent 60%);pointer-events:none}
 .hleft{display:flex;align-items:center;gap:16px;position:relative;z-index:1}
-.hicon{width:58px;height:58px;background:radial-gradient(ellipse at 35% 30%,#0c1e0e,#060810);border:1px solid #1e3028;border-radius:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 8px 32px #00000099,0 0 24px #3fb95018,inset 0 1px 0 #3fb95014,inset 0 -1px 0 #00000040}
+.hicon{width:58px;height:58px;background:radial-gradient(ellipse at 40% 40%,#0d0e1a,#050608);border:1px solid #1e1e32;border-radius:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 8px 32px #00000099,0 0 24px #7c3aed18,inset 0 1px 0 #ffffff08,inset 0 -1px 0 #00000040}
 .hcenter{display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;z-index:1}
 h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradient(100deg,#f0f6fc 30%,#8b949e 80%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .sub{font-size:11px;color:#6e7681;margin-top:5px;letter-spacing:.02em}
@@ -149,21 +149,26 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
     <div class="hicon">
       <svg width="32" height="32" viewBox="0 0 26 26" fill="none">
         <defs>
-          <radialGradient id="brk" cx="82%" cy="18%" r="55%">
-            <stop offset="0%" stop-color="#3fb950" stop-opacity=".35"/>
+          <radialGradient id="glp" cx="22%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#7c3aed" stop-opacity=".32"/>
+            <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="glg" cx="85%" cy="22%" r="52%">
+            <stop offset="0%" stop-color="#3fb950" stop-opacity=".30"/>
             <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
           </radialGradient>
         </defs>
-        <rect width="26" height="26" fill="url(#brk)"/>
-        <!-- 2↑ green -->
-        <line x1="5" y1="4" x2="5" y2="21" stroke="#3fb950" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="3" y="7" width="4" height="8" fill="#3fb950" rx=".8"/>
-        <!-- 1 inside (yellow) -->
+        <rect width="26" height="26" fill="url(#glp)"/>
+        <rect width="26" height="26" fill="url(#glg)"/>
+        <!-- 3: Outside bar (purple) — takes out both extremes -->
+        <line x1="5" y1="2" x2="5" y2="24" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="3" y="8" width="4" height="10" fill="#a78bfa" rx=".8"/>
+        <!-- 1: Inside bar (yellow) — coils inside the 3 -->
         <line x1="13" y1="8" x2="13" y2="19" stroke="#ffd54f" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="11" y="11" width="4" height="4" fill="#ffd54f" rx=".8"/>
-        <!-- 2↑ breakout (green, takes out prior high) -->
-        <line x1="21" y1="2" x2="21" y2="18" stroke="#3fb950" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="19" y="3" width="4" height="7" fill="#3fb950" rx=".8"/>
+        <rect x="11" y="11" width="4" height="5" fill="#ffd54f" rx=".8"/>
+        <!-- 2↑: Directional up (green) — breakout takes out 1's high -->
+        <line x1="21" y1="4" x2="21" y2="20" stroke="#3fb950" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="19" y="5" width="4" height="8" fill="#3fb950" rx=".8"/>
       </svg>
     </div>
     <div>
