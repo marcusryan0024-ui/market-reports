@@ -36,6 +36,16 @@
     .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
     .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
     .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
+    @media (max-width: 768px) {
+      body { padding: 12px; }
+      .rpt-nav { padding: 8px 12px; margin: -12px -12px 16px -12px; flex-wrap: wrap; gap: 6px; }
+      .rpt-nav-btns { gap: 5px; }
+      .rpt-btn { font-size: 10px; padding: 4px 9px; }
+      .rpt-rules-btn { font-size: 10px; padding: 4px 9px; }
+      .header { flex-wrap: wrap; gap: 6px; }
+      .ref-drawer { width: 100vw; }
+      .ref-combo { flex-direction: column !important; }
+    }
     .rpt-rules-btn {
         font-size: 11px; font-weight: 700; padding: 5px 13px; border-radius: 6px;
         border: 1px solid #a78bfa; background: #1e1230; color: #a78bfa;
@@ -867,37 +877,37 @@
 
       <div class="ref-section-label">Strat Combos</div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="11" y1="20" x2="11" y2="45" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="14" fill="#4a5568" rx="1"/><line x1="27" y1="14" x2="27" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="16" width="10" height="15" fill="#3fb950" rx="1"/><line x1="43" y1="17" x2="43" y2="34" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="20" width="10" height="7" fill="#ffd54f" rx="1"/><line x1="59" y1="11" x2="59" y2="30" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="13" width="10" height="11" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="20" x2="11" y2="45" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="14" fill="#4a5568" rx="1"/><line x1="27" y1="14" x2="27" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="16" width="10" height="15" fill="#3fb950" rx="1"/><line x1="43" y1="17" x2="43" y2="34" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="20" width="10" height="7" fill="#ffd54f" rx="1"/><line x1="59" y1="11" x2="59" y2="30" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="13" width="10" height="11" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">2-1-2 Continuation</div>
         <div class="ref-combo-desc">2&uarr; &rarr; 1 (inside coil) &rarr; 2&uarr; same direction. Most common setup. Wait for the inside bar to trigger before entry.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="11" y1="17" x2="11" y2="41" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="21" width="10" height="17" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="31" width="10" height="15" fill="#f85149" rx="1"/><line x1="43" y1="27" x2="43" y2="45" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="34" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="59" y1="20" x2="59" y2="41" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="22" width="10" height="14" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="17" x2="11" y2="41" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="21" width="10" height="17" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="31" width="10" height="15" fill="#f85149" rx="1"/><line x1="43" y1="27" x2="43" y2="45" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="34" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="59" y1="20" x2="59" y2="41" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="22" width="10" height="14" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">2-1-2 Reversal</div>
         <div class="ref-combo-desc">2&darr; &rarr; 1 (coil) &rarr; 2&uarr; opposite direction. Reversal off a key level. Needs higher TF FTFC for conviction.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="11" y1="22" x2="11" y2="37" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="25" width="10" height="6" fill="#4a5568" rx="1"/><line x1="27" y1="16" x2="27" y2="44" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="20" width="10" height="11" fill="#a78bfa" rx="1"/><line x1="43" y1="12" x2="43" y2="28" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="14" width="10" height="11" fill="#3fb950" rx="1"/><line x1="59" y1="8" x2="59" y2="22" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="10" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="22" x2="11" y2="37" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="25" width="10" height="6" fill="#4a5568" rx="1"/><line x1="27" y1="16" x2="27" y2="44" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="20" width="10" height="11" fill="#a78bfa" rx="1"/><line x1="43" y1="12" x2="43" y2="28" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="14" width="10" height="11" fill="#3fb950" rx="1"/><line x1="59" y1="8" x2="59" y2="22" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="10" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">3-2-2</div>
         <div class="ref-combo-desc">Outside bar (range expansion) &rarr; two directional bars same direction. Powerful continuation. Enter on the second 2 trigger.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="11" y1="20" x2="11" y2="38" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="7" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="36" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="24" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="43" y1="15" x2="43" y2="32" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="17" width="10" height="10" fill="#3fb950" rx="1"/><line x1="59" y1="10" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="11" width="10" height="10" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="20" x2="11" y2="38" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="7" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="36" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="24" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="43" y1="15" x2="43" y2="32" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="17" width="10" height="10" fill="#3fb950" rx="1"/><line x1="59" y1="10" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="11" width="10" height="10" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">1-2-2 Continuation</div>
         <div class="ref-combo-desc">Inside bar (compression) &rarr; two directional bars same direction. Classic breakout from a coil. Volume should expand on the break.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="15" y1="16" x2="15" y2="40" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="24" width="10" height="11" fill="#4a5568" rx="1"/><line x1="37" y1="25" x2="37" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="32" width="10" height="15" fill="#f85149" rx="1"/><line x1="59" y1="17" x2="59" y2="44" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="20" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="16" x2="15" y2="40" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="24" width="10" height="11" fill="#4a5568" rx="1"/><line x1="37" y1="25" x2="37" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="32" width="10" height="15" fill="#f85149" rx="1"/><line x1="59" y1="17" x2="59" y2="44" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="20" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">2-2 Reversal</div>
         <div class="ref-combo-desc">2&darr; &rarr; 2&uarr; back the other way. Counter-trend. Strongest when the first 2 is also a Failed bar on a higher TF.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="15" y1="20" x2="15" y2="35" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="23" width="10" height="10" fill="#4a5568" rx="1"/><line x1="37" y1="15" x2="37" y2="40" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="27" width="10" height="10" fill="#a78bfa" rx="1"/><line x1="59" y1="12" x2="59" y2="37" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="15" width="10" height="17" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="20" x2="15" y2="35" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="23" width="10" height="10" fill="#4a5568" rx="1"/><line x1="37" y1="15" x2="37" y2="40" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="27" width="10" height="10" fill="#a78bfa" rx="1"/><line x1="59" y1="12" x2="59" y2="37" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="15" width="10" height="17" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">Rev Strat (3-2U / 3-2D)</div>
         <div class="ref-combo-desc">Outside bar at key S/R &rarr; directional bar takes out one side. Enter on the break. High conviction reversal signal.</div></div>
       </div>
       <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="15" y1="17" x2="15" y2="32" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="21" width="10" height="9" fill="#4a5568" rx="1"/><line x1="37" y1="22" x2="37" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="59" y1="15" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="17" x2="15" y2="32" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="21" width="10" height="9" fill="#4a5568" rx="1"/><line x1="37" y1="22" x2="37" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="59" y1="15" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
         <div><div class="ref-combo-name">Bullish Kicker</div>
         <div class="ref-combo-desc">Bear close &rarr; gap up &rarr; bull open with no body overlap. Institutional demand. Highest conviction reversal in The Strat.</div></div>
       </div>
@@ -906,7 +916,7 @@
     <div class="ref-panel" id="refTab2">
       <div class="ref-section-label">Candle Types (The Strat)</div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="20" x2="41" y2="37" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="2" fill="#ffd54f" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="20" x2="41" y2="37" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="2" fill="#ffd54f" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;align-self:center;">1</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Inside Bar</div>
@@ -914,7 +924,7 @@
         </div>
       </div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="14" x2="41" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="16" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="14" x2="41" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="16" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;align-self:center;">2&#8593;</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Directional Up</div>
@@ -922,7 +932,7 @@
         </div>
       </div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="24" x2="41" y2="46" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="19" fill="#f85149" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="24" x2="41" y2="46" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="19" fill="#f85149" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;align-self:center;">2&#8595;</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Directional Down</div>
@@ -930,7 +940,7 @@
         </div>
       </div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="12" x2="41" y2="48" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="18" width="10" height="13" fill="#a78bfa" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="12" x2="41" y2="48" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="18" width="10" height="13" fill="#a78bfa" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;align-self:center;">3</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Outside Bar</div>
@@ -938,7 +948,7 @@
         </div>
       </div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="16" x2="41" y2="41" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="34" width="10" height="3" fill="#f85149" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="16" x2="41" y2="41" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="34" width="10" height="3" fill="#f85149" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;font-size:9px;align-self:center;">F2U</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Failed 2 Up</div>
@@ -946,7 +956,7 @@
         </div>
       </div>
       <div class="ref-candle">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="41" y1="21" x2="41" y2="47" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="25" width="10" height="3" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="21" x2="41" y2="47" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="25" width="10" height="3" fill="#3fb950" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;font-size:9px;align-self:center;">F2D</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Failed 2 Down</div>
@@ -954,7 +964,7 @@
         </div>
       </div>
       <div class="ref-candle" style="border-bottom:none;">
-        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="82" height="60" style="display:block"><line x1="28" y1="22" x2="28" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="23" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="54" y1="15" x2="54" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="49" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="28" y1="22" x2="28" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="23" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="54" y1="15" x2="54" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="49" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
         <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;font-size:9px;align-self:center;">BK</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Bullish Kicker</div>
@@ -977,7 +987,7 @@ document.addEventListener('keydown', function(e) {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">AFTER CLOSE</span>
-  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 11:08 AM</span>
+  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 11:18 AM</span>
 </div>
 
 
@@ -1026,7 +1036,7 @@ document.addEventListener('keydown', function(e) {
     <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
           <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">What Happened Today</div>
           <div style="padding:10px 14px;">
-            <p style="margin:0;color:#adbac7;font-size:11px;line-height:1.65;">NFP at 8:30 is the anchor. Market wants confirmation the labor market is softening — consensus expects 100-125K jobs after last month's 172K blowout. Anything below 100K sends yields lower and gives growth names a green light. Above 130K and Warsh's hawkish narrative returns hard. PLTR is the cleanest setup into this: upgraded premarket by D.A. Davidson (buy from neutral), closed a perfect Failed…</p>
+            <p style="margin:0;color:#adbac7;font-size:11px;line-height:1.65;">NFP came in hotter than the 100-125K consensus — yields jumped at 8:30 and the tape sold off into the bell. TSLA was the morning casualty: delivery numbers disappointed, opened at $428, tagged $432 HOD for about 10 minutes, then dumped -8% intraday to $389 LOD. QQQ -1.7% led the indices as semis and growth names faded on the hot jobs print. AAPL +4.8% was the lone bright spot. Pre-holiday volume…</p>
           </div>
         </div>
     <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;margin-top:6px;">

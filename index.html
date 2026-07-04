@@ -105,6 +105,39 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 /* pulse */
 .pulse{width:7px;height:7px;border-radius:50%;background:#388bfd;flex-shrink:0;animation:pulse 2.5s ease-out infinite}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 #388bfd55}65%{box-shadow:0 0 0 9px #388bfd00}}
+/* feat chips */
+.feat-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:14px;border-top:1px solid #1a2d4820}
+.feat-chip{display:flex;align-items:center;gap:8px;background:#040608;border:1px solid #1a2030;border-radius:8px;padding:7px 12px}
+.feat-chip-lbl{font-size:8px;font-weight:800;letter-spacing:.14em;color:#3d444d;text-transform:uppercase;white-space:nowrap}
+.feat-chip-val{font-size:14px;font-weight:900;color:#e6edf3;font-family:ui-monospace,'SF Mono',monospace}
+.feat-chip-sub{font-size:10px;color:#6e7681;max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* win rate strip */
+.wr-strip{display:flex;align-items:center;gap:0;background:#040608;border:1px solid #1a2030;border-top:none;border-radius:0 0 14px 14px;padding:12px 28px}
+.wr-item{display:flex;align-items:center;gap:10px;padding:0 20px}
+.wr-item:first-child{padding-left:0}
+.wr-div{width:1px;height:24px;background:#1a2030}
+.wr-lbl{font-size:8px;font-weight:800;letter-spacing:.14em;color:#3d444d;text-transform:uppercase}
+.wr-val{font-size:14px;font-weight:800;color:#e6edf3;font-family:ui-monospace,'SF Mono',monospace}
+/* mobile */
+@media(max-width:900px){
+  .mkt-grid{grid-template-columns:repeat(2,1fr);padding:16px 20px}
+  .header{padding:16px 20px;grid-template-columns:1fr}
+  .hleft,.hright{display:none}
+  .hcenter{grid-column:1}
+  .cont{padding:24px 20px}
+  .feat{grid-template-columns:1fr}
+  .feat-left{border-right:none;border-bottom:1px solid #142036;padding:20px}
+  .feat-date{font-size:28px}
+  .feat-links{flex-direction:row}
+  .wr-strip{padding:10px 16px;flex-wrap:wrap;gap:10px}
+  .wr-item{padding:0 10px}
+  .row{flex-wrap:wrap;gap:8px}
+  .rlinks{width:100%}
+}
+@media(max-width:540px){
+  .mkt-grid{grid-template-columns:1fr 1fr;gap:8px;padding:12px}
+  .twrap{display:none}
+}
 </style>
 </head>
 <body>
@@ -178,8 +211,12 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
       </div>
       <div class="feat-links"><a class="rl pre" style="padding:7px 18px;font-size:12px" href="2026-07-02-premarket.html">&#9651;&thinsp;Pre-Market</a><a class="rl close" style="padding:7px 18px;font-size:12px" href="2026-07-02.html">&#9660;&thinsp;After Close</a></div>
     </div>
-    <div class="feat-right"><div class="fb">NFP + TSLA Deliveries — Last Catalyst Before a 3-Day Weekend</div></div>
+    <div class="feat-right">
+      <div class="fb">NFP + TSLA Deliveries — Last Catalyst Before a 3-Day Weekend</div>
+      <div class="feat-chips"><div class="feat-chip"><span class="feat-chip-lbl">MAG 7 WATCH</span><span class="feat-chip-val">TSLA</span><span style="font-size:9px;font-weight:800;color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;padding:1px 7px;border-radius:3px;">BULL</span><span class="feat-chip-sub">±4-6%</span></div><div class="feat-chip"><span class="feat-chip-lbl">TOP SETUP</span><span class="feat-chip-val">SNOW</span><span class="feat-chip-sub">Extreme volume + 12 PM catalyst event — biggest special…</span></div></div>
+    </div>
   </div>
+  <div class="wr-strip"><div class="wr-item"><span class="wr-lbl">MAG 7 WATCH</span><span class="wr-val">2W - 0L</span></div><div class="wr-div"></div><div class="wr-item"><span class="wr-lbl">WIN RATE</span><span class="wr-val" style="color:#3fb950;">100%</span></div><div class="wr-div"></div><div class="wr-item"><span class="wr-lbl">STREAK</span><span class="wr-val" style="color:#3fb950;background:#0d2b1a;padding:2px 8px;border-radius:4px;border:1px solid #3fb95033;">2× HIT</span></div></div>
 </div>
 <div class="cont-inner">
 <div class="month">
