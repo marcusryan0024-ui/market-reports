@@ -36,6 +36,16 @@
     .rpt-cls { color: #3fb950; border-color: #238636; background: #081208; }
     .rpt-cls:hover { background: #0d1e10; box-shadow: 0 4px 14px #23863640; }
     .rpt-active { box-shadow: inset 0 0 0 1px currentColor; opacity: 1; }
+    @media (max-width: 768px) {
+      body { padding: 12px; }
+      .rpt-nav { padding: 8px 12px; margin: -12px -12px 16px -12px; flex-wrap: wrap; gap: 6px; }
+      .rpt-nav-btns { gap: 5px; }
+      .rpt-btn { font-size: 10px; padding: 4px 9px; }
+      .rpt-rules-btn { font-size: 10px; padding: 4px 9px; }
+      .header { flex-wrap: wrap; gap: 6px; }
+      .ref-drawer { width: 100vw; }
+      .ref-combo { flex-direction: column !important; }
+    }
     .rpt-rules-btn {
         font-size: 11px; font-weight: 700; padding: 5px 13px; border-radius: 6px;
         border: 1px solid #a78bfa; background: #1e1230; color: #a78bfa;
@@ -94,8 +104,8 @@
     .ref-combo-name { font-size: 12px; font-weight: 800; color: #e6edf3; margin-bottom: 4px; }
     .ref-combo-desc { font-size: 11px; color: #8b949e; line-height: 1.5; }
     .ref-candle {
-        display: flex; gap: 12px; align-items: flex-start;
-        padding: 10px 0; border-bottom: 1px solid #21262d20;
+        display: flex; gap: 8px; align-items: flex-start;
+        padding: 8px 0; border-bottom: 1px solid #21262d20;
     }
     .ref-candle:last-child { border-bottom: none; }
     .ref-candle-badge {
@@ -855,104 +865,110 @@
     </div>
 
     <div class="ref-panel" id="refTab1">
-      <div class="ref-section-label">Profitable Trader Framework</div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Full Time Frame Continuity (FTFC)</div>
-        <div class="ref-combo-desc">Monthly, Weekly, Daily, and intraday are all pointing the same direction. Highest-probability setups only exist when all time frames agree. Never fight the monthly.</div>
-      </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Actionable Signals (AS)</div>
-        <div class="ref-combo-desc">Only trade when a bar triggers (takes out the prior bar&rsquo;s high or low). No trigger = no trade. Wait for confirmation, not prediction.</div>
-      </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Broadening Formations</div>
-        <div class="ref-combo-desc">Expanding price action across time frames signals institutional activity. Look for 3s on higher time frames — they create the range that lower TFs react to.</div>
-      </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Time Frame of Choice (TOC)</div>
-        <div class="ref-combo-desc">Pick ONE time frame for your entry. Use higher TFs for bias, lower TFs for entry. Don&rsquo;t switch TOCs mid-trade.</div>
-      </div>
+      <div class="ref-section-label">Profitable Trader</div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">1</div><div class="ref-rule-text" style="font-size:12px;">Check higher timeframe Price Action</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">2</div><div class="ref-rule-text" style="font-size:12px;">Is there any flow?</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">3</div><div class="ref-rule-text" style="font-size:12px;">Is there a catalyst?</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">4</div><div class="ref-rule-text" style="font-size:12px;">What&rsquo;s your entry and exit?</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">5</div><div class="ref-rule-text" style="font-size:12px;">Pull the Trigger &mdash; Don&rsquo;t Overleverage</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">6</div><div class="ref-rule-text" style="font-size:12px;">Are you green? If yes &mdash; secure profits on the way to your price target</div></div>
+      <div class="ref-rule" style="padding:8px 0;"><div class="ref-rule-num">7</div><div class="ref-rule-text" style="font-size:12px;">You made money&hellip; GET OFF the Charts</div></div>
+      <div class="ref-rule" style="padding:8px 0;border-bottom:none;"><div class="ref-rule-num" style="background:#2d2a1a;border-color:#ffd54f44;color:#ffd54f;">8</div><div class="ref-rule-text" style="font-size:12px;color:#ffd54f;">COMPOUND!!!</div></div>
 
       <div class="ref-section-label">Strat Combos</div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">2-1-2 Continuation</div>
-        <div class="ref-combo-desc">Directional bar &rarr; Inside bar (coil) &rarr; Directional break same direction. Most common high-probability setup. Wait for the 2 to trigger off the 1.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="20" x2="11" y2="45" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="14" fill="#4a5568" rx="1"/><line x1="27" y1="14" x2="27" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="16" width="10" height="15" fill="#3fb950" rx="1"/><line x1="43" y1="17" x2="43" y2="34" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="20" width="10" height="7" fill="#ffd54f" rx="1"/><line x1="59" y1="11" x2="59" y2="30" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="13" width="10" height="11" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">2-1-2 Continuation</div>
+        <div class="ref-combo-desc">2&uarr; &rarr; 1 (inside coil) &rarr; 2&uarr; same direction. Most common setup. Wait for the inside bar to trigger before entry.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">2-1-2 Reversal</div>
-        <div class="ref-combo-desc">Directional bar &rarr; Inside bar (coil) &rarr; Directional break opposite direction. Reversal play. Needs FTFC support on higher TF for conviction.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="17" x2="11" y2="41" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="21" width="10" height="17" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="31" width="10" height="15" fill="#f85149" rx="1"/><line x1="43" y1="27" x2="43" y2="45" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="34" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="59" y1="20" x2="59" y2="41" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="22" width="10" height="14" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">2-1-2 Reversal</div>
+        <div class="ref-combo-desc">2&darr; &rarr; 1 (coil) &rarr; 2&uarr; opposite direction. Reversal off a key level. Needs higher TF FTFC for conviction.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">3-2-2</div>
-        <div class="ref-combo-desc">Outside bar (indecision) &rarr; two consecutive directional bars same direction. Powerful continuation after range expansion. Enter on second 2 trigger.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="22" x2="11" y2="37" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="25" width="10" height="6" fill="#4a5568" rx="1"/><line x1="27" y1="16" x2="27" y2="44" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="20" width="10" height="11" fill="#a78bfa" rx="1"/><line x1="43" y1="12" x2="43" y2="28" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="14" width="10" height="11" fill="#3fb950" rx="1"/><line x1="59" y1="8" x2="59" y2="22" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="10" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">3-2-2</div>
+        <div class="ref-combo-desc">Outside bar (range expansion) &rarr; two directional bars same direction. Powerful continuation. Enter on the second 2 trigger.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">1-2-2 Continuation</div>
-        <div class="ref-combo-desc">Inside bar (coiling) &rarr; two consecutive directional bars same direction. Classic breakout from compression. Volume should expand on the break.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="11" y1="20" x2="11" y2="38" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="24" width="10" height="7" fill="#4a5568" rx="1"/><line x1="27" y1="22" x2="27" y2="36" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="22" y="24" width="10" height="8" fill="#ffd54f" rx="1"/><line x1="43" y1="15" x2="43" y2="32" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="38" y="17" width="10" height="10" fill="#3fb950" rx="1"/><line x1="59" y1="10" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="11" width="10" height="10" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">1-2-2 Continuation</div>
+        <div class="ref-combo-desc">Inside bar (compression) &rarr; two directional bars same direction. Classic breakout from a coil. Volume should expand on the break.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">2-2 Reversal</div>
-        <div class="ref-combo-desc">Directional bar opposite direction &rarr; Directional bar back in original direction. Counter-trend reversal. Strongest when the first 2 is a Failed bar on higher TF.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="16" x2="15" y2="40" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="24" width="10" height="11" fill="#4a5568" rx="1"/><line x1="37" y1="25" x2="37" y2="48" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="32" width="10" height="15" fill="#f85149" rx="1"/><line x1="59" y1="17" x2="59" y2="44" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="20" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">2-2 Reversal</div>
+        <div class="ref-combo-desc">2&darr; &rarr; 2&uarr; back the other way. Counter-trend. Strongest when the first 2 is also a Failed bar on a higher TF.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Rev Strat (3-2U or 3-2D)</div>
-        <div class="ref-combo-desc">Outside bar forms on key support/resistance &rarr; directional bar takes out one side. Enter on break of the 3&rsquo;s opposite extreme. High conviction reversal signal.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="20" x2="15" y2="35" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="23" width="10" height="10" fill="#4a5568" rx="1"/><line x1="37" y1="15" x2="37" y2="40" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="27" width="10" height="10" fill="#a78bfa" rx="1"/><line x1="59" y1="12" x2="59" y2="37" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="15" width="10" height="17" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">Rev Strat (3-2U / 3-2D)</div>
+        <div class="ref-combo-desc">Outside bar at key S/R &rarr; directional bar takes out one side. Enter on the break. High conviction reversal signal.</div></div>
       </div>
-      <div class="ref-combo">
-        <div class="ref-combo-name">Bullish Kicker</div>
-        <div class="ref-combo-desc">Bearish candle followed by a gap up into a bullish candle that opens above prior bearish close. No overlap. Strong institutional demand signal &mdash; highest conviction reversal in The Strat.</div>
+      <div class="ref-combo" style="display:flex;gap:10px;align-items:flex-start;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="15" y1="17" x2="15" y2="32" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round"/><rect x="10" y="21" width="10" height="9" fill="#4a5568" rx="1"/><line x1="37" y1="22" x2="37" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="32" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="59" y1="15" x2="59" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="54" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div><div class="ref-combo-name">Bullish Kicker</div>
+        <div class="ref-combo-desc">Bear close &rarr; gap up &rarr; bull open with no body overlap. Institutional demand. Highest conviction reversal in The Strat.</div></div>
       </div>
     </div>
 
     <div class="ref-panel" id="refTab2">
       <div class="ref-section-label">Candle Types (The Strat)</div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#58a6ff;background:#0d2137;border:1px solid #58a6ff;">1</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="20" x2="41" y2="37" stroke="#ffd54f" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="2" fill="#ffd54f" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;align-self:center;">1</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Inside Bar</div>
-          <div class="ref-candle-def">High &le; prior High AND Low &ge; prior Low. Full containment within the previous bar. Signals compression and indecision &mdash; a coil before the next directional move. No trade until it triggers either side.</div>
+          <div class="ref-candle-def">Price coiling inside the prior bar. Market is undecided &mdash; sit on your hands until one side breaks.</div>
         </div>
       </div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;">2&#8593;</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="14" x2="41" y2="38" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="16" width="10" height="20" fill="#3fb950" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;align-self:center;">2&#8593;</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Directional Up</div>
-          <div class="ref-candle-def">Takes out prior High but NOT prior Low. Pure bullish pressure. Trigger = break of this bar&rsquo;s high on next bar. In FTFC, these are continuation entries.</div>
+          <div class="ref-candle-def">Takes out prior High, NOT prior Low. Pure bullish pressure. Trigger = break of this bar&rsquo;s high on the next bar.</div>
         </div>
       </div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;">2&#8595;</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="24" x2="41" y2="46" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="26" width="10" height="19" fill="#f85149" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;align-self:center;">2&#8595;</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Directional Down</div>
-          <div class="ref-candle-def">Takes out prior Low but NOT prior High. Pure bearish pressure. Trigger = break of this bar&rsquo;s low on next bar. Sell into strength, don&rsquo;t chase the move.</div>
+          <div class="ref-candle-def">Takes out prior Low, NOT prior High. Pure bearish pressure. Trigger = break of this bar&rsquo;s low on the next bar.</div>
         </div>
       </div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#ffd54f;background:#2d2a1a;border:1px solid #ffd54f;">3</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="12" x2="41" y2="48" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="18" width="10" height="13" fill="#a78bfa" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;align-self:center;">3</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Outside Bar</div>
-          <div class="ref-candle-def">Takes out BOTH prior High and prior Low. Full range expansion. No directional edge by itself. Wait for the next bar to commit to a side. Powerful when found at key levels on higher time frames.</div>
+          <div class="ref-candle-def">Takes out BOTH prior High and prior Low. Full range expansion. No directional edge — wait for the next bar to commit to a side.</div>
         </div>
       </div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;font-size:9px;">F2U</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="16" x2="41" y2="41" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="34" width="10" height="3" fill="#f85149" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#f85149;background:#2d0f0f;border:1px solid #f85149;font-size:9px;align-self:center;">F2U</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Failed 2 Up</div>
-          <div class="ref-candle-def">Bar exceeds prior High (triggers 2U) but then reverses and closes BELOW prior bar&rsquo;s high. Bearish reversal signal. Bulls got trapped &mdash; the failed high is now resistance. Strong short entry on the close or next bar&rsquo;s open.</div>
+          <div class="ref-candle-def">Exceeds prior High then reverses and closes back inside. Bulls trapped. Failed high = resistance. Bearish reversal signal.</div>
         </div>
       </div>
       <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;font-size:9px;">F2D</div>
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="41" y1="21" x2="41" y2="47" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="36" y="25" width="10" height="3" fill="#3fb950" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#3fb950;background:#0d2b1a;border:1px solid #3fb950;font-size:9px;align-self:center;">F2D</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Failed 2 Down</div>
-          <div class="ref-candle-def">Bar exceeds prior Low (triggers 2D) but then reverses and closes ABOVE prior bar&rsquo;s low. Bullish reversal signal. Bears got trapped &mdash; the failed low is now support. Strong long entry on the close or next bar&rsquo;s open.</div>
+          <div class="ref-candle-def">Exceeds prior Low then reverses and closes back inside. Bears trapped. Failed low = support. Bullish reversal signal.</div>
         </div>
       </div>
-      <div class="ref-candle">
-        <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;font-size:9px;">BK</div>
+      <div class="ref-candle" style="border-bottom:none;">
+        <div style="flex-shrink:0;opacity:.88;"><svg xmlns="http://www.w3.org/2000/svg" width="104" height="76" viewBox="0 0 82 60" style="display:block"><line x1="28" y1="22" x2="28" y2="42" stroke="#f85149" stroke-width="1.5" stroke-linecap="round"/><rect x="23" y="25" width="10" height="16" fill="#f85149" rx="1"/><line x1="54" y1="15" x2="54" y2="25" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round"/><rect x="49" y="16" width="10" height="8" fill="#3fb950" rx="1"/></svg></div>
+        <div class="ref-candle-badge" style="color:#a78bfa;background:#1e1230;border:1px solid #a78bfa;font-size:9px;align-self:center;">BK</div>
         <div class="ref-candle-body">
           <div class="ref-candle-name">Bullish Kicker</div>
-          <div class="ref-candle-def">Prior bar closes bearish &rarr; next bar gaps UP with no price overlap and closes bullish. No body overlap between bars. Institutional demand signal. Highest-conviction reversal pattern in The Strat &mdash; treat it like a Failed 2D with extra power.</div>
+          <div class="ref-candle-def">Bear close &rarr; gap up &rarr; bull open with NO body overlap. Institutional demand. Highest-conviction reversal in The Strat.</div>
         </div>
       </div>
     </div>
@@ -971,7 +987,7 @@ document.addEventListener('keydown', function(e) {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">PRE-MARKET</span>
-  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 10:53 AM</span>
+  <span class="meta">Thursday, July 02, 2026 &nbsp;·&nbsp; 11:18 AM</span>
 </div>
 
 
