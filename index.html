@@ -147,28 +147,27 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradie
 <div class="header">
   <div class="hleft">
     <div class="hicon">
-      <svg width="32" height="32" viewBox="0 0 26 26" fill="none">
+      <svg width="34" height="32" viewBox="0 0 30 26" fill="none">
         <defs>
-          <radialGradient id="glp" cx="22%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#7c3aed" stop-opacity=".32"/>
-            <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
-          </radialGradient>
-          <radialGradient id="glg" cx="85%" cy="22%" r="52%">
-            <stop offset="0%" stop-color="#3fb950" stop-opacity=".30"/>
-            <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+          <radialGradient id="glo" cx="50%" cy="90%" r="75%">
+            <stop offset="0%" stop-color="#a78bfa" stop-opacity=".18"/>
+            <stop offset="50%" stop-color="#3fb950" stop-opacity=".10"/>
+            <stop offset="100%" stop-color="#f85149" stop-opacity="0"/>
           </radialGradient>
         </defs>
-        <rect width="26" height="26" fill="url(#glp)"/>
-        <rect width="26" height="26" fill="url(#glg)"/>
-        <!-- 3: Outside bar (purple) — takes out both extremes -->
-        <line x1="5" y1="2" x2="5" y2="24" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="3" y="8" width="4" height="10" fill="#a78bfa" rx=".8"/>
-        <!-- 1: Inside bar (yellow) — coils inside the 3 -->
-        <line x1="13" y1="8" x2="13" y2="19" stroke="#ffd54f" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="11" y="11" width="4" height="5" fill="#ffd54f" rx=".8"/>
-        <!-- 2↑: Directional up (green) — breakout takes out 1's high -->
-        <line x1="21" y1="4" x2="21" y2="20" stroke="#3fb950" stroke-width="1.2" stroke-linecap="round"/>
-        <rect x="19" y="5" width="4" height="8" fill="#3fb950" rx=".8"/>
+        <rect width="30" height="26" fill="url(#glo)"/>
+        <!-- 1: Inside bar (yellow) — smallest range -->
+        <line x1="4" y1="8" x2="4" y2="19" stroke="#ffd54f" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="2" y="11" width="4" height="5" fill="#ffd54f" rx=".8"/>
+        <!-- 2↓: Directional down (red) -->
+        <line x1="11" y1="4" x2="11" y2="23" stroke="#f85149" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="9" y="7" width="4" height="11" fill="#f85149" rx=".8"/>
+        <!-- 2↑: Directional up (green) -->
+        <line x1="19" y1="3" x2="19" y2="22" stroke="#3fb950" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="17" y="4" width="4" height="11" fill="#3fb950" rx=".8"/>
+        <!-- 3: Outside bar (purple) — full range, tallest -->
+        <line x1="26" y1="2" x2="26" y2="24" stroke="#a78bfa" stroke-width="1.2" stroke-linecap="round"/>
+        <rect x="24" y="7" width="4" height="12" fill="#a78bfa" rx=".8"/>
       </svg>
     </div>
     <div>
