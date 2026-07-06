@@ -6796,6 +6796,80 @@
         "news": "Trump publicly praised Boeing and Air Force One on July 1st. Brings political attention and contract sentiment. 3-bar weekly setup but watch the daily order block overhead."
       }
     ],
-    "trump_context": "Trump publicly praised Boeing and Air Force One on July 1st \u2014 first direct name-drop since the defense budget talks. BA has a 3-bar weekly setup going into the week. Risky trade due to the daily order block, but the political narrative adds a flow catalyst."
+    "trump_context": "Trump publicly praised Boeing and Air Force One on July 1st \u2014 first direct name-drop since the defense budget talks. BA has a 3-bar weekly setup going into the week. Risky trade due to the daily order block, but the political narrative adds a flow catalyst.",
+    "morning_prep": {
+      "theme": "Tech rebounds off holiday \u2014 semis lead, ISM Services 10AM, patience before data",
+      "rules": [
+        "Do NOT enter anything before ISM at 10AM \u2014 new 2-hour candle opens at the same time",
+        "Use 10-min ORBs for entries on all plays",
+        "Never be first in \u2014 let price show its hand"
+      ],
+      "market": "SPY inside day (3-1) \u2014 call trigger $751.31 / put $740. Failed 2U on 2hr at resistance. IWM inside (1-3 on 2hr) \u2014 call ~$302.23 / put ~$294.98, reacts hard to econ data. QQQ leading futures +1.03% as dip buyers return to semis (SMH +3%). NVDA Kyber chip delayed to 2028 but semis bouncing regardless. ISM at 10AM is the market direction trigger for the week.",
+      "setups": [
+        {
+          "ticker": "AVGO",
+          "tier": 1,
+          "catalyst": "Apple chip partnership confirmed pre-market. Bullish kicker setup. Gap levels ~$388.",
+          "levels": "2-2 weekly reversal trigger ~$380. Wait for order block clear \u2014 10-min ORB entry.",
+          "bull": "Clears order block with volume \u2192 10-min ORB long. Target gap fill.",
+          "bear": "Fades back into gap \u2192 wait for next setup.",
+          "note": "Do not chase the gap. Wait for ORB confirmation."
+        },
+        {
+          "ticker": "WULF",
+          "tier": 1,
+          "catalyst": "20-year Anthropic data center lease announced pre-market. +16% pm. Bullish kicker.",
+          "levels": "Inside day. 2-2 weekly reversal already triggered. Mark gap levels.",
+          "bull": "2-2 weekly triggered \u2014 continuation long after ORB confirms.",
+          "bear": "Fades the gap \u2014 wait, do not chase.",
+          "note": "Patient entry only. Mark gaps, wait for price to settle post-open."
+        },
+        {
+          "ticker": "CLSK",
+          "tier": 2,
+          "catalyst": "Bitcoin production update catalyst. Bitcoin above $63K for first time in 2 weeks.",
+          "levels": "Inside day. Break above $14 = calls / break below $12 = puts.",
+          "bull": "Break and hold above $14 on volume \u2192 calls.",
+          "bear": "Break below $12 \u2192 puts.",
+          "note": "Two-sided setup. Wait for ISM data first \u2014 crypto names react to risk-on/risk-off."
+        },
+        {
+          "ticker": "BA",
+          "tier": 3,
+          "catalyst": "3-bar weekly setup. Trump publicly praised Boeing/AF1 on July 1st.",
+          "levels": "Watch daily order block overhead \u2014 risky entry.",
+          "bull": "Clears order block \u2192 long with tight stop.",
+          "bear": "Rejects order block \u2192 avoid.",
+          "note": "Risky. Daily order block is the gatekeeper. Only enter if it clears cleanly."
+        },
+        {
+          "ticker": "ZETA",
+          "tier": 3,
+          "catalyst": "Citi investor event after market close.",
+          "levels": "Watch for notable options flow before acting.",
+          "bull": "Heavy call flow builds pre-close \u2192 long into event.",
+          "bear": "No flow confirmation \u2192 stay out.",
+          "note": "Do not enter blind. Options flow must confirm before the close."
+        },
+        {
+          "ticker": "KO",
+          "tier": 3,
+          "catalyst": "Already in calls. Pepsi earnings this week as sympathy play.",
+          "levels": "Hold existing position. Add on pullback.",
+          "bull": "Pepsi beats \u2192 KO runs sympathetically.",
+          "bear": "Pepsi misses \u2192 trim.",
+          "note": "Already positioned. Manage the trade."
+        },
+        {
+          "ticker": "GM",
+          "tier": 3,
+          "catalyst": "US sales out July 4th. China sales could be additional catalyst.",
+          "levels": "Watch for flow confirmation.",
+          "bull": "Strong US + China sales \u2192 long.",
+          "bear": "Weak data \u2192 avoid.",
+          "note": "Data-driven play. Wait for numbers."
+        }
+      ]
+    }
   }
 }
