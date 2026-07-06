@@ -6670,5 +6670,132 @@
         "recap": "Explosive move confirmed \u2014 TSLA ripped at open to $432 HOD then reversed hard, closing -7.49%. The volatility call was dead right. Direction flipped bear on the delivery data \u2014 but anyone playing the move got paid."
       }
     }
+  },
+  "2026-07-06": {
+    "headline": "Tech Rebounds Off Holiday \u2014 Semis Lead, ISM Services 10AM, Patience Before Data",
+    "overview": "Nasdaq futures up 304pts (+1.03%) as buyers return to semis and AI names after last week\u2019s selling pressure. S&P +0.42%, DJIA flat, IWM +0.10%. AVGO gapping on a confirmed Apple chip partnership pre-market \u2014 cleanest Strat setup on the board. WULF up +16% on a 20-year Anthropic data center lease. CLSK and crypto names are bid as Bitcoin clears K for the first time in two weeks. ISM Services at 10AM with a new 2-hour candle opening at the exact same time \u2014 that\u2019s the volatility trigger. Do not enter anything before data hits. 10-min ORBs on all setups. Let price show its hand first.",
+    "market_context": "SPY is an inside day \u2014 3-1 setup. Call trigger .31, put trigger  (far out). Failed 2U on the 2-hour chart sitting at resistance/order block. IWM also inside (1-3 on 2hr), 2-2 daily reversal triggers: call ~.23, put ~.98 \u2014 IWM reacts hard to economic data. SMH +3% pre-market as institutional dip buyers step back in. 10yr yield -3bps to 4.46%, VIX 17.45. NVDA Kyber NVL144 chip delayed 12+ months to 2028 per Semi Analysis \u2014 semis are bouncing despite the headwind. Watch the ISM print \u2014 it decides the tone for the week.",
+    "setups": [
+      {
+        "ticker": "AVGO",
+        "bias": "BULL",
+        "pattern": "Bullish Kicker",
+        "note": "Apple chip partnership confirmed pre-market. Bullish kicker setup. Gap levels ~. 2-2 weekly reversal trigger ~. Wait for price to clear order block \u2014 use 10-min ORB. Do not chase the gap."
+      },
+      {
+        "ticker": "WULF",
+        "bias": "BULL",
+        "pattern": "Bullish Kicker",
+        "note": "20-year Anthropic data center lease \u2014 long-term revenue catalyst. +16% pm. Inside day. 2-2 weekly reversal already triggered. Mark gap levels. Patient entry only."
+      },
+      {
+        "ticker": "CLSK",
+        "bias": "WATCH",
+        "pattern": "Inside Day",
+        "note": "Bitcoin production update catalyst. Bitcoin above K. Inside day \u2014 two-sided. Calls above , puts below . Wait for ISM data before entering anything."
+      }
+    ],
+    "bulls": [
+      {
+        "ticker": "AVGO",
+        "note": "Bullish kicker + Apple chip partnership. Gap ~. 2-2 weekly trigger ~. 10-min ORB entry."
+      },
+      {
+        "ticker": "WULF",
+        "note": "Bullish kicker. Anthropic 20yr lease. +16% pm. 2-2 weekly triggered. Mark gaps, be patient."
+      },
+      {
+        "ticker": "CLSK",
+        "note": "Bitcoin catalyst. Calls above . Bitcoin >K."
+      },
+      {
+        "ticker": "TSLA",
+        "note": "+2% pm. Robotaxi expanded to Miami after Austin launch. Autonomous momentum."
+      },
+      {
+        "ticker": "BA",
+        "note": "3-bar weekly setup. Risky \u2014 daily order block overhead. Trump praised Boeing/AF1 July 1st."
+      },
+      {
+        "ticker": "KO",
+        "note": "Already in calls. Pepsi earnings this week = sympathy play."
+      },
+      {
+        "ticker": "COST",
+        "note": "Sales data later this week. Can run all week into the print."
+      },
+      {
+        "ticker": "GM",
+        "note": "US sales out July 4th + potential China sales as additional catalyst."
+      },
+      {
+        "ticker": "RDIT",
+        "note": "Alert set above ."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "CLSK",
+        "note": "Below  = puts."
+      },
+      {
+        "ticker": "ALAR",
+        "note": "-57.8% pm. FBI domain seizures. Avoid \u2014 too extended."
+      },
+      {
+        "ticker": "DDOG",
+        "note": "Downgraded to Market Perform at Bernstein. -4.5% pm."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "AVGO",
+        "flow": "Apple chip partnership driving institutional interest pre-market. Watching for confirmation above order block."
+      },
+      {
+        "ticker": "ZETA",
+        "flow": "Citi investor event after close. Watch for notable options flow before acting \u2014 do not enter blind."
+      },
+      {
+        "ticker": "NVDA",
+        "flow": "Kyber NVL144 delayed 12+ months to 2028. SMH +3% bounce happening anyway \u2014 institutions buying the dip vs. fundamental headwind."
+      }
+    ],
+    "events": [
+      {
+        "type": "9:45 AM",
+        "detail": "June S&P Global U.S. Services PMI Final \u2014 early read on services sector health."
+      },
+      {
+        "type": "10:00 AM",
+        "detail": "ISM Non-Manufacturing Index \u2014 KEY catalyst. New 2-hour candle opens at the same time. Do NOT enter any position before this prints."
+      },
+      {
+        "type": "11:00 AM",
+        "detail": "Fed Governor Waller (FOMC voter) speaks \u2014 watch for rate commentary."
+      },
+      {
+        "type": "After Close",
+        "detail": "ZETA \u2014 Citi investor event. Watch for options flow building before the close."
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "WATCH",
+      "pattern": "2-Sided",
+      "flow": "SMH +3% dip-buy vs. Kyber NVL144 chip delayed to 2028. Two forces pulling in opposite directions.",
+      "catalyst": "Semis are leading the pre-market bounce (SMH +3%) but Semi Analysis confirmed Kyber NVL144 \u2014 Jensen\u2019s next flagship chip \u2014 is delayed 12+ months to 2028. Institutional dip buyers vs. fresh negative catalyst. ISM at 10AM is the tie-breaker.",
+      "key_levels": "Bull: clear and hold above  with volume | Bear: rejection back under  on Kyber overhang",
+      "expected_move": "\u00b13\u20135%",
+      "why": "NVDA has two competing forces today \u2014 semis bouncing hard (SMH +3%) while the Kyber delay is a fresh negative. ISM at 10AM decides which side wins. Do not enter before data. Let price react to ISM, pick the confirmed direction, use 10-min ORB for entry."
+    },
+    "trump_stocks": [
+      {
+        "ticker": "BA",
+        "pct": "+0.4%",
+        "news": "Trump publicly praised Boeing and Air Force One on July 1st. Brings political attention and contract sentiment. 3-bar weekly setup but watch the daily order block overhead."
+      }
+    ],
+    "trump_context": "Trump publicly praised Boeing and Air Force One on July 1st \u2014 first direct name-drop since the defense budget talks. BA has a 3-bar weekly setup going into the week. Risky trade due to the daily order block, but the political narrative adds a flow catalyst."
   }
 }
