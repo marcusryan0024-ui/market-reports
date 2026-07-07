@@ -7094,6 +7094,66 @@
         "detail": "NATO meeting in Ankara (today + tomorrow) \u2014 geopolitical backdrop for defense names (RTX, LMT, AVAV). Iran missile incident adds urgency."
       }
     ],
-    "morning_prep": "IWM/Broad Market: Watching for break and close over 317.40 \u2014 All Time High Breakout level. No Trigger No Trade. Buying time is always the safe route. | ZETA: Event reaction day \u2014 watching for 150%-200% ATR extension. | TSLA: Inside Day, has been blessing the setups. Call trigger over 420 \u2192 gap fill to 435.52. Monthly candle flips green (bullish) at 421.36. 2-Up on the week at 432.86. 2-2 Month Reversal triggers at 433.60. No trigger, no trade. | META: Inside Day + Volume. Calls trigger above 603.58, puts under 581 (not preferred). Month flips green at 608. Gap fill at 612.91. | LLY: Hit the scanner as a Bullish Kicker \u2014 on watch."
+    "morning_prep": {
+      "theme": "Inside Day across Mag 7 = the market is coiling. Semis roll over post-Monday bounce on NVDA China defection story. IWM has a 1-3 setup on the 6-hour \u2014 new candle after 10am is the trigger. TSLA and META both Inside Days with clean level setups. LLY hit the scanner as a Bullish Kicker. No trigger, no trade.",
+      "rules": [
+        "IWM Bullish Inside Day (Actionable Signal): Calls trigger OVER 300.41 \u2014 Puts trigger UNDER 297.62. Watch for ATH breakout over 317.40",
+        "IWM 1-3 Setup on the 6-Hour: new 6-hour candle opens after 10am \u2014 wait for that candle before sizing in",
+        "TSLA: Call trigger OVER 420 \u2192 gap fill target 435.52. Monthly candle flips green at 421.36. 2-Up on week at 432.86. 2-2 Month Reversal at 433.60. No trigger, no trade",
+        "META: Inside Day + Volume. Calls trigger ABOVE 603.58. Month flips green at 608. Gap fill at 612.91. Puts under 581 (not preferred)",
+        "LLY: Bullish Kicker hit the scanner \u2014 watch for follow-through above the kicker high",
+        "ZETA: Event reaction day \u2014 targeting 150%-200% ATR extension. Size accordingly",
+        "CRNX up 90%+ on VRTX buyout \u2014 do NOT chase; wait for the gap to settle and find a clean level",
+        "Semis rolling over (NVDA + AMD bearish kickers) \u2014 avoid counter-trend longs in semi names today"
+      ],
+      "market": "Semis rolling after Monday bounce. NVDA China customer defection (Bloomberg) + bearish kicker + $2.7B DP ask = stay away from NVDA long. Nasdaq -0.7% futures, S&P -0.1%, DJIA slightly green \u2014 rotation into value and small caps is the theme. IWM Inside Day + 1-3 setup on 6H = potential leadership shift to small caps developing. FOMC Member Bowman (hawkish) speaks 7am. Trade Balance 8:30am. $58B 3-yr note auction 1pm. Macro light until CPI next week.",
+      "setups": [
+        {
+          "ticker": "IWM",
+          "tier": 1,
+          "catalyst": "Bullish Inside Day (Actionable Signal). 1-3 Setup on 6-Hour chart. ATH breakout level at 317.40. New 6-hour candle opens after 10am.",
+          "levels": "Calls over 300.41 | Puts under 297.62 | ATH breakout: 317.40",
+          "bull": "Breaks 300.41 \u2192 6-hour 1-3 triggers \u2192 ATH breakout at 317.40 is the extended target",
+          "bear": "Fails 297.62 \u2192 Inside Day resolves bearish \u2192 back toward last week's range",
+          "note": "Wait for the 10am 6-hour candle confirmation before committing size. IWM leading = risk-on rotation away from tech."
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 1,
+          "catalyst": "Inside Day + multiple timeframe setups stacking. TSLA has been producing clean setups all week.",
+          "levels": "Call trigger: 420 | Gap fill: 435.52 | Monthly green: 421.36 | 2-Up week: 432.86 | 2-2 Month Reversal: 433.60",
+          "bull": "Breaks 420 \u2192 monthly candle flips green at 421.36 \u2192 2-Up on the week at 432.86 \u2192 2-2 Month Reversal at 433.60 \u2192 gap fill 435.52",
+          "bear": "Fails to hold inside day range \u2192 DP ask $321M AH Thursday confirms institutional sell pressure",
+          "note": "No trigger, no trade. Buying time is always the safe route. Multiple stacked targets above 420 make this a high-value setup if triggered."
+        },
+        {
+          "ticker": "META",
+          "tier": 2,
+          "catalyst": "Inside Day + Volume. Month flip at 608. Gap fill at 612.91.",
+          "levels": "Calls: above 603.58 | Puts: under 581 (not preferred) | Month green: 608 | Gap fill: 612.91",
+          "bull": "Breaks 603.58 \u2192 month flips green at 608 \u2192 gap fill 612.91",
+          "bear": "Breaks under 581 (low conviction \u2014 skip puts on META)",
+          "note": "Inside Day + Volume signals compression before expansion. Call side is the preferred direction given DP bid support."
+        },
+        {
+          "ticker": "LLY",
+          "tier": 2,
+          "catalyst": "Bullish Kicker hit the scanner. Healthcare/pharma showing strength relative to tech selloff.",
+          "levels": "Entry: above kicker high | Stop: below kicker body low",
+          "bull": "Follow-through on bullish kicker \u2192 sector rotation into defensive healthcare",
+          "bear": "Kicker fails to follow through \u2192 reversal back into range",
+          "note": "Bullish kicker on a tech-down day = relative strength signal. Healthcare rotation play."
+        },
+        {
+          "ticker": "ZETA",
+          "tier": 2,
+          "catalyst": "Event reaction day \u2014 news catalyst creating volatility.",
+          "levels": "Target: 150%-200% ATR extension from event trigger",
+          "bull": "150%-200% ATR upside extension on positive event reaction",
+          "bear": "150%-200% ATR downside if event disappoints",
+          "note": "Event reactions can produce outsized moves. Size for the volatility \u2014 not your normal position size."
+        }
+      ]
+    }
   }
 }
