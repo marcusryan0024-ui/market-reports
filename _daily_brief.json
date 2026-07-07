@@ -6871,5 +6871,229 @@
         }
       ]
     }
+  },
+  "2026-07-07": {
+    "headline": "Semis Roll Over as Chinese Firms Ditch NVDA for Domestic Chips; CRNX +90% on VRTX $10B Buyout; Rotation Out of Tech Continues",
+    "overview": "Futures are mixed heading into Tuesday \u2014 S&P -0.1%, Nasdaq -0.7%, DJIA +0.4%. The post-holiday rally in semis is unwinding fast: Samsung posted an 1800% Q2 operating profit jump and still disappointed, signaling investors doubt the pace of growth can be sustained. The gut-punch is Bloomberg reporting Chinese firms are actively abandoning NVDA accelerators for domestic silicon \u2014 a direct hit to NVDA's China revenue story. Rotation out of tech into broader market and value names is the dominant theme. Meanwhile CRNX is up 90%+ after VRTX announced a $10B cash acquisition at $85/share, validating FlowMS's DP filters which had 5 prints on the board Thursday. CRM +2.07% on $1B Switzerland agentic AI investment. WMT +1.2% after Trump Truth Social post claimed credit for Walmart price cuts. Iran fired two missiles at commercial ships in the Strait of Hormuz \u2014 geopolitical risk re-entering. FOMC Member Bowman (hawkish, permanent voter) speaks at 7 AM before Trade Balance at 8:30.",
+    "market_context": "Tech under pressure as semi momentum fades. NVDA faces dual headwinds: Chinese customer defection (Bloomberg) and a bearish kicker pattern with $2.7B DP ask on 7/3. AMD also printing a bearish kicker with $2.4B bid \u2014 institutional repositioning, not accumulation. MU is bucking the trend: $4.0B DP bid led ALL flow on Thursday, the largest single-name total, with an Inside (1) setup coiling. LRCX $907M ask AH is the week's largest single print \u2014 semi-equipment names rarely top the board, so that's meaningful positioning. BE continues its multi-week DP run at $780M ask AH, staying on the AI infrastructure thesis. Macro is quiet until CPI next week; Bowman's hawkish tone could pressure Nasdaq further if she pushes back on rate cut expectations after the soft NFP.",
+    "setups": [
+      {
+        "ticker": "CRNX",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "VRTX acquisition $85/share cash, 5 DP prints on board Thursday",
+        "why": "VRTX acquiring Crinetics at $85/share (~$10B deal), CRNX up 90%+ premarket. FlowMS had 5 DP prints on the board Thursday \u2014 classic someone-always-knows setup confirmed. Check Ticker Lookup to see the full buildup. Bullish kicker on the board into the acquisition announcement."
+      },
+      {
+        "ticker": "NVDA",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "$2.7B DP ask 7/3, Chinese customer defection (Bloomberg)",
+        "why": "Bearish kicker with $2.7B ask-side DP on 7/3. Bloomberg reports Chinese firms are abandoning NVDA accelerators for domestic silicon \u2014 a direct structural headwind to China revenue. Semis rolling over post-Monday rally. This is the highest-profile bear setup of the day."
+      },
+      {
+        "ticker": "PLTR",
+        "pattern": "Outside (3) / Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on the board",
+        "why": "Outside bar + bullish gapper with DP on the board. Palantir has been a consistent beneficiary of the AI/defense data theme. Outside bar range expansion already in motion \u2014 momentum continuation candidate heading into Tuesday open."
+      },
+      {
+        "ticker": "MU",
+        "pattern": "Inside (1)",
+        "bias": "BULL",
+        "flow": "$4.0B DP bid led all flow Thursday, dividend yesterday",
+        "why": "Micron had the largest single-name total dark pool flow Thursday at $4.0B bid \u2014 that's an institution loading up. Inside (1) coiling for a break. Ex-dividend yesterday adds technical context. Current mover premarket. Memory demand remains the bedrock of the AI infrastructure trade."
+      },
+      {
+        "ticker": "AMZN",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "DP on the board",
+        "why": "Failed 2D is a bearish continuation signal. DP on the board adds conviction. Amazon is in the rotation zone as tech rolls over \u2014 Failed 2D says the prior bounce failed and sellers are back in control."
+      },
+      {
+        "ticker": "AMD",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "$2.4B DP bid 7/3",
+        "why": "Bearish kicker with $2.4B DP bid on 7/3. Bid-side DP after a bearish kicker is an unusual combo \u2014 could be institutions hedging a long or repositioning. Semis under pressure across the board; AMD less insulated than MU given no catalyst to counter the rotation."
+      },
+      {
+        "ticker": "MSFT",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "$484M DP bid AH Thursday",
+        "why": "Bullish gapper with $484M DP bid after hours Thursday. Microsoft showing relative strength vs broader tech weakness \u2014 the CRM $1B Switzerland AI story is a rising tide for enterprise AI. Bullish gapper + DP = watch for continuation above open."
+      },
+      {
+        "ticker": "TSLA",
+        "pattern": "Inside (1)",
+        "bias": "WATCH",
+        "flow": "$321M DP ask AH Thursday, currently clustering",
+        "why": "Inside (1) with clustering and $321M DP ask AH. TSLA is coiling \u2014 the direction of the break from this inside bar matters. Tesla/GM monthly sales data coming next week; bears see that as pre-positioning pressure. Watch which side wins the open."
+      },
+      {
+        "ticker": "MA",
+        "pattern": "Bearish Gapper",
+        "bias": "BEAR",
+        "flow": "DP on the board, dividend in 2 days",
+        "why": "Bearish gapper with DP on the board. Dividend in 2 days can create selling pressure as short-term holders exit before ex-div. Bearish gapper + DP + dividend effect = clean bear setup."
+      },
+      {
+        "ticker": "LRCX",
+        "pattern": "Watch",
+        "bias": "WATCH",
+        "flow": "$907M ask AH 7/3 \u2014 largest single print of the session",
+        "why": "Lam Research topped the single-print board at $907M ask AH Thursday. Semi-equipment names rarely lead the board \u2014 when they do, it signals directional positioning in the broader semi supply chain. Flag for breakout or rejection at key levels intraday."
+      },
+      {
+        "ticker": "BE",
+        "pattern": "Watch",
+        "bias": "BULL",
+        "flow": "$780M ask AH 7/3 \u2014 multi-week DP run",
+        "why": "Bloom Energy has now appeared on the DP board for multiple consecutive weeks at scale. $780M ask AH Thursday continues the AI infrastructure energy demand thesis. This is a slow build, not a day-trade \u2014 but the consistency of accumulation is notable."
+      }
+    ],
+    "bulls": [
+      "CRNX +90% on VRTX $10B cash acquisition \u2014 FlowMS DP filters had 5 prints on board Thursday, textbook setup confirmation",
+      "PLTR Outside (3) + Bullish Gapper with DP on board \u2014 momentum continuation candidate",
+      "MSFT Bullish Gapper + $484M DP bid AH \u2014 holding relative strength vs tech selloff",
+      "MU $4.0B DP bid led all flow Thursday (largest single-name) + Inside (1) coiling for break",
+      "CRM +2.07% premarket on $1B Switzerland agentic AI investment \u2014 enterprise AI tailwind",
+      "BE $780M ask AH continuing multi-week DP accumulation on AI infrastructure theme",
+      "LRCX $907M ask AH largest single print of session \u2014 semi-equipment positioning worth watching",
+      "WMT +1.2% premarket on price cut story (Trump + confirmed reductions)",
+      "ABBV $339M mixed AH \u2014 healthcare/pharma showing up on the board"
+    ],
+    "bears": [
+      "NVDA bearish kicker + $2.7B DP ask + Bloomberg: Chinese firms abandoning NVDA for domestic silicon \u2014 structural headwind",
+      "AMD bearish kicker + semi sector rotation \u2014 $2.4B DP bid 7/3 not enough to offset sell pressure",
+      "AMZN Failed 2D with DP on board \u2014 bearish continuation, sellers back in control",
+      "MA bearish gapper + DP + dividend effect in 2 days",
+      "V bearish gapper with DP on board",
+      "META facing $1.4B in state penalties over child safety (4-state coalition)",
+      "Semi sector rolling over post-Monday rally \u2014 Samsung 1800% profit jump still disappointed on growth sustainability",
+      "Iran fired 2 missiles at commercial ships in Strait of Hormuz \u2014 geopolitical risk premium re-entering the tape",
+      "RIVN dilutive offering: 75M shares underwritten public offering even with Q2 revenue beat"
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "WMT",
+        "pct": "+1.2%",
+        "news": "Trump posted on Truth Social Monday claiming Walmart would lower prices 'by a lot' at his administration's request to celebrate the US 250th birthday, calling WMT a 'truly patriotic company' and urging retailers to follow. Walmart confirmed cuts on thousands of items (beef -12%, Coke, household goods) but their statement made zero mention of Trump's role."
+      }
+    ],
+    "trump_context": [
+      "WMT +1.2% premarket after Trump Truth Social post claiming credit for Walmart price cuts on ground beef, Coke, household items. Walmart confirmed the cuts but pointedly omitted any reference to White House involvement \u2014 a political gap that could draw follow-up commentary from Trump. Barclays commented on the news.",
+      "Iran fired two missiles at commercial ships transiting the Strait of Hormuz \u2014 geopolitical risk back in play for energy and shipping names. NATO is meeting in Ankara today and tomorrow. Any Trump statement on Iran or Middle East tensions will move XOM, energy, and defense names."
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$4.0B",
+        "side": "bid",
+        "note": "Led all single-name flow Thursday 7/3"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$2.7B",
+        "side": "ask",
+        "note": "7/3 total flow"
+      },
+      {
+        "ticker": "AMD",
+        "size": "$2.4B",
+        "side": "bid",
+        "note": "7/3 total flow"
+      },
+      {
+        "ticker": "LRCX",
+        "size": "$907M",
+        "side": "ask",
+        "note": "AH 7/3 \u2014 largest single print of session, semi-equipment rarely tops board"
+      },
+      {
+        "ticker": "BE",
+        "size": "$780M",
+        "side": "ask",
+        "note": "AH 7/3 \u2014 multi-week DP run on AI infrastructure theme"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$484M",
+        "side": "bid",
+        "note": "AH 7/3"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$380M",
+        "side": "ask",
+        "note": "AH 7/3 single print"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$369M",
+        "side": "bid",
+        "note": "AH 7/3"
+      },
+      {
+        "ticker": "ABBV",
+        "size": "$339M",
+        "side": "mixed",
+        "note": "AH 7/3"
+      },
+      {
+        "ticker": "TSLA",
+        "size": "$321M",
+        "side": "ask",
+        "note": "AH 7/3 \u2014 clustering, Inside (1) coiling"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$300M",
+        "side": "bid",
+        "note": "AH 7/3"
+      },
+      {
+        "ticker": "AMD",
+        "size": "$300M",
+        "side": "bid",
+        "note": "AH 7/3 single print"
+      },
+      {
+        "ticker": "JPM",
+        "size": "$294M",
+        "side": "bid",
+        "note": "AH 7/3"
+      }
+    ],
+    "events": [
+      {
+        "type": "7:00 AM ET",
+        "detail": "FOMC Member Bowman speaks \u2014 hawkish lean, permanent voter, first appearance since soft NFP. Watch for pushback on rate cut expectations; any hawkish tone will pressure Nasdaq."
+      },
+      {
+        "type": "8:30 AM ET",
+        "detail": "May Trade Balance \u2014 tariff distortions still in play; watch for surprises in goods deficit."
+      },
+      {
+        "type": "1:00 PM ET",
+        "detail": "$58B 3-year note auction \u2014 yield reaction could ripple into rate-sensitive tech and growth names."
+      },
+      {
+        "type": "3:00 PM ET",
+        "detail": "Consumer Credit \u2014 lower priority but confirms consumer health picture heading into Q3."
+      },
+      {
+        "type": "All Day",
+        "detail": "AVAV Investor Day \u2014 RBC keeps Outperform / $210 PT; focus on organic growth, competition, TAM outlook, and FY27 guide commentary."
+      },
+      {
+        "type": "All Day",
+        "detail": "NATO meeting in Ankara (today + tomorrow) \u2014 geopolitical backdrop for defense names (RTX, LMT, AVAV). Iran missile incident adds urgency."
+      }
+    ],
+    "morning_prep": "IWM/Broad Market: Watching for break and close over 317.40 \u2014 All Time High Breakout level. No Trigger No Trade. Buying time is always the safe route. | ZETA: Event reaction day \u2014 watching for 150%-200% ATR extension. | TSLA: Inside Day, has been blessing the setups. Call trigger over 420 \u2192 gap fill to 435.52. Monthly candle flips green (bullish) at 421.36. 2-Up on the week at 432.86. 2-2 Month Reversal triggers at 433.60. No trigger, no trade. | META: Inside Day + Volume. Calls trigger above 603.58, puts under 581 (not preferred). Month flips green at 608. Gap fill at 612.91. | LLY: Hit the scanner as a Bullish Kicker \u2014 on watch."
   }
 }
