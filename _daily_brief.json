@@ -7200,8 +7200,8 @@
         "ticker": "TSLA",
         "pattern": "Inside (1) / Bearish Gapper",
         "bias": "BEAR",
-        "flow": "DP on board, earnings in 2 weeks",
-        "why": "Inside day into a bearish gapper in risk-off tape. Yesterday call triggers at 420 were the setup \u2014 now gapping down into Iran risk-off. Earnings in 2 weeks adding pre-positioning pressure."
+        "flow": "DP on board, reports Q2 in 2 weeks",
+        "why": "Inside day into a bearish gapper in risk-off tape. Yesterday call triggers at 420 did not fire. Q2 report in 2 weeks adding pre-positioning pressure."
       },
       {
         "ticker": "JD",
