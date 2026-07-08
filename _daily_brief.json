@@ -7155,5 +7155,332 @@
         }
       ]
     }
+  },
+  "2026-07-08": {
+    "headline": "Iran Ceasefire Declared Over \u2014 Oil +5%, Nasdaq -1.4%; Energy & Defense Surge as Geopolitical Risk-Off Hits Tape",
+    "overview": "The most significant geopolitical event since the Hormuz attacks is unfolding pre-market: Trump declared the Iran ceasefire MoU \"over\" at the NATO meeting in Ankara, citing US/Iran trading strikes \u2014 US strikes were reportedly 4-5x bigger than previous rounds. Brent crude jumped +5.68% to $78.39 and WTI +5.42% to $74.29. The Strait of Hormuz disruption is now the primary market driver. S&P futures -0.9% (-68 pts), Nasdaq -1.38% (-406 pts), DJIA -1.09% (-579 pts), Russell -1.25%. VIX +5.11% to 18.40. 10-yr yield +3 bps to 4.56%. Bitcoin -2.71% to $62,225. The playbook is clear: long energy/defense, short airlines/discretionary, hedge with gold. Memory stocks under additional pressure (SNDK -5.4%, MU -4.7%). BABA +8.9% pre-market on Alibaba Cloud claiming 40.1% of China full-stack AI market. Trump press conference at 12 PM ET is the intraday wildcard. FOMC Minutes at 2 PM ET.",
+    "market_context": "This is a full geopolitical risk-off tape \u2014 oil shock driving the rotation playbook in real time. Energy (XLE, XOM, CVX, OXY, COP) is the one sector seeing green. Defense (ITA, LMT, RTX, GD, NOC, PLTR) follows as budget spending accelerates. Airlines and cruise lines getting hammered on fuel cost explosion: CCL -3.5%, Norwegian -3%, UAL -3%, DAL -2%. Memory/semi rotation continues: SNDK -5.4%, MU -4.7%, WDC -5% \u2014 Samsung sustainability doubts + now a broader risk-off event. AAPL expanded Broadcom deal to exceed $30B for 15B US-made chips through 2031 (positive for AVGO). BABA +8.9% on Frost & Sullivan naming Alibaba Cloud the dominant China AI platform at 40.1% market share. LLY hit a record high Tuesday; JP Morgan PT raised to $1,400, GLP-1 Medicare bridge program live. FOMC Minutes at 2 PM will be parsed for any Warsh hawkishness confirmation after oil re-acceleration. Trump press conference at 12 PM could move the tape fast \u2014 Iran escalation rhetoric or NATO/Spain surprise.",
+    "setups": [
+      {
+        "ticker": "NVDA",
+        "pattern": "Outside (3) / Clustering",
+        "bias": "BEAR",
+        "flow": "$210C Dec 2027 sweep $1.8M long-dated; risk-off + semi distribution today",
+        "why": "Outside bar + clustering at a conference in full risk-off tape. Semi sector under siege: SNDK $17.8M put block, MU flipped to ask-side. Conference pop likely fades into FOMC Minutes at 2 PM. Bear lean for 0DTE \u2014 watch for conference squeeze as the counter."
+      },
+      {
+        "ticker": "MU",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "$4.0B ASK led flow Tue 7/7 \u2014 flipped from BID on 7/3",
+        "why": "Most important DP signal this week: MU had $4.0B BID on 7/3 (accumulation) then flipped to $4.0B ASK on 7/7 (distribution). Institutional sentiment reversal in 4 days. Failed 2D on the strat. Bears in control."
+      },
+      {
+        "ticker": "BABA",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on board + unusual options volume",
+        "why": "Frost and Sullivan report puts Alibaba Cloud at 40.1% of China full-stack AI cloud market. +8.9% pre-market. DP on board + unusual options volume. China AI infrastructure play that trades independent of US geopolitical risk-off. Multiple catalysts stacking."
+      },
+      {
+        "ticker": "OXY",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on board, Evercore ISI upgrade to Outperform tgt $65",
+        "why": "Iran ceasefire over = crude +6% = OXY rips. Evercore upgraded to Outperform $65 target same morning. Highest-beta major to a crude oil spike. Bullish gapper + DP + upgrade + macro catalyst."
+      },
+      {
+        "ticker": "AMZN",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "$186M ask AH Tuesday, conference today",
+        "why": "Failed 2U bearish reversal. $186M ask AH adds distribution conviction. Conference today in risk-off tape \u2014 high-multiple tech conferences rarely overcome the macro. Watch for pop-and-fade."
+      },
+      {
+        "ticker": "TSLA",
+        "pattern": "Inside (1) / Bearish Gapper",
+        "bias": "BEAR",
+        "flow": "DP on board, earnings in 2 weeks",
+        "why": "Inside day into a bearish gapper in risk-off tape. Yesterday call triggers at 420 were the setup \u2014 now gapping down into Iran risk-off. Earnings in 2 weeks adding pre-positioning pressure."
+      },
+      {
+        "ticker": "JD",
+        "pattern": "Outside (3) / Bullish Kicker",
+        "bias": "BULL",
+        "flow": "DP on board",
+        "why": "Outside bar + Bullish Kicker with DP on board. JD trades on Chinese market dynamics \u2014 BABA +8.9% rising tide lifts China tech. Outside bar range expansion in motion."
+      },
+      {
+        "ticker": "PLTR",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "DP on board",
+        "why": "Bearish kicker reversing from yesterday bullish gapper. Software multiples compress in geopolitical risk-off. DP on board. Defense thesis vs. multiple compression \u2014 compression wins intraday."
+      },
+      {
+        "ticker": "VRT",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "DP on board",
+        "why": "Vertiv Failed 2D with DP on board. AI data center power name selling off with the broader AI/tech complex. Failed 2D is bearish continuation."
+      },
+      {
+        "ticker": "COST",
+        "pattern": "Failed 2U / Bullish Gapper",
+        "bias": "WATCH",
+        "flow": "DP on board, monthly sales report AMC",
+        "why": "Conflicting signals: Failed 2U bearish reversal vs. Bullish Gapper + DP. Sales data after close resolves the conflict. Do not trade before the numbers."
+      },
+      {
+        "ticker": "NFLX",
+        "pattern": "Failed 2U",
+        "bias": "BEAR",
+        "flow": "Earnings in 8 days",
+        "why": "Failed 2U bearish reversal with earnings 8 days away. Pre-earnings positioning in risk-off tape leans bearish for high-multiple names."
+      },
+      {
+        "ticker": "LLY",
+        "pattern": "Watch (<3 prints)",
+        "bias": "BULL",
+        "flow": "Less than 3 DP prints \u2014 accumulation mode",
+        "why": "LLY hit a record high Tuesday. JP Morgan raised PT to $1,400. Medicare GLP-1 Bridge live July 1. Less than 3 prints = accumulation mode. Defensive healthcare in risk-off tape is exactly where this name thrives."
+      },
+      {
+        "ticker": "NET",
+        "pattern": "Watch (<3 prints)",
+        "bias": "WATCH",
+        "flow": "Less than 3 prints, conference today, OpenAI research pilot",
+        "why": "Cloudflare + OpenAI research pilot announced. Conference today at Raise Summit Paris. Less than 3 DP prints = watch for the build. AI infrastructure with a fresh catalyst in a tape that punishes hype."
+      }
+    ],
+    "bulls": [
+      "BABA +8.9% \u2014 Alibaba Cloud 40.1% China full-stack AI cloud (Frost & Sullivan). DP + unusual options volume. China AI infrastructure play independent of US geopolitical risk",
+      "OXY +2.9% \u2014 Iran ceasefire over drives crude +6%. Evercore ISI upgrade to Outperform $65 same morning. Highest-beta major to the oil spike",
+      "XOM +2% \u2014 Q2 earnings improvement $3.5-3.9B from higher oil prices and refining margins on top of crude spike catalyst",
+      "Energy complex: XLE, CVX, COP, FANG, SLB, HAL, LNG (Hormuz reroute), STNG/FRO (tanker freight rates) all running Iran risk premium",
+      "Defense: LMT, RTX, GD, NOC, ITA \u2014 geopolitical escalation = accelerated defense budgets with zero political hurdles",
+      "LLY record high Tuesday \u2014 JP Morgan PT to $1,400, Medicare GLP-1 Bridge live July 1, Health Canada approved Mounjaro pediatric. Defensive healthcare in risk-off",
+      "JD \u2014 Outside (3) + Bullish Kicker + DP on board. Rising tide with BABA on China AI cloud dominance story",
+      "AVGO $251M ask AH \u2014 AAPL $30B chip deal confirms AVGO as dominant custom silicon partner through 2031. Ask-side DP validates institutional conviction",
+      "ABBV $424M mixed AH \u2014 largest single DP print Tuesday. Defensive pharma in risk-off environment"
+    ],
+    "bears": [
+      "MU Failed 2D \u2014 flipped from $4.0B BID on 7/3 to $4.0B ASK on 7/7. Most important DP signal this week: 4-day accumulation to distribution reversal. Bears fully in control",
+      "SNDK -5.4% \u2014 $17.8M put block ($1500P Jan 2028) is the largest options block of the week. Massive institutional bearish bet on the semi-equipment complex",
+      "Airlines/Cruise: CCL -3.5%, Norwegian -3%, UAL -3%, DAL -2% \u2014 Iran oil +6% is a direct hit to fuel margins. No hedge for this",
+      "RIVN -3.9% \u2014 pricing 75M share offering at $15.50. Tuesday was worst day since Feb 2024 (-18%). Dilution on top of weakness",
+      "PLTR Bearish Kicker reversing from Tuesday bullish gapper. Software multiples compress in geopolitical risk-off tape",
+      "AMZN Failed 2U + $186M ask AH \u2014 conference pop likely fades. High-multiple tech in risk-off",
+      "NFLX Failed 2U with earnings 8 days out \u2014 pre-earnings positioning leans bearish in current environment",
+      "CRM Bearish Kicker \u2014 reversed from +2.07% Tuesday. DP on board. Conference enthusiasm faded overnight",
+      "IBM Bearish Kicker with DP on board",
+      "Tech broadly: Nasdaq -1.38% futures. FOMC Minutes at 2 PM are live hawkish risk after oil re-acceleration. VIX +5.11% to 18.40"
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "XOM",
+        "pct": "+2%",
+        "news": "Trump declares Iran ceasefire over \u2014 oil +5% drives XOM pre-market. Also disclosed Q2 earnings: adjusted income expected +$6B from prior quarter on higher oil prices and stronger refining/chemical margins."
+      },
+      {
+        "ticker": "OXY",
+        "pct": "+2.9%",
+        "news": "Evercore ISI upgraded OXY to Outperform, tgt $65, coinciding with Iran ceasefire collapse. Occidental is the highest-beta major to crude oil price spikes."
+      },
+      {
+        "ticker": "SPCX",
+        "pct": "+0.5%",
+        "news": "SpaceX bucked Tuesday selloff (which took it below IPO first-trade price of $150), recovering slightly. SpaceX launching a new model with Cursor (The Information). Defense/geopolitical backdrop benefits government contractors."
+      }
+    ],
+    "trump_context": [
+      "Trump declared Iran ceasefire MoU \"over\" at NATO meeting in Ankara with Secretary General Mark Rutte. US strikes on Iran were described as 4-5x bigger than previous strikes, in retaliation for Iranian attacks on commercial ships. Iran has since targeted Bahrain and Kuwait. Trump will hold a press conference at 12:00 PM ET \u2014 any escalation rhetoric could push oil higher and risk assets lower.",
+      "Trump at NATO said he is \"very disappointed\" in NATO and called Spain a \"terrible partner\" for not paying defense commitments \u2014 said he wants to cut off all trade with Spain. Also stated Greenland is \"very important\" to the US. Spain trade war threat could affect European equity exposure and cruise/travel names with European revenue."
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$4.0B",
+        "side": "ask",
+        "note": "Tue 7/7 total \u2014 FLIPPED from $4.0B BID on 7/3. Distribution after accumulation = institutional reversal"
+      },
+      {
+        "ticker": "CRNX",
+        "size": "$2.6B",
+        "side": "ask",
+        "note": "Tue 7/7 \u2014 Vertex buyout follow-through"
+      },
+      {
+        "ticker": "SNDK",
+        "size": "$2.2B",
+        "side": "mixed",
+        "note": "Tue 7/7 \u2014 $17.8M put block Jan 2028 says bears in control"
+      },
+      {
+        "ticker": "ABBV",
+        "size": "$424M",
+        "side": "mixed",
+        "note": "AH Tue 7/7 \u2014 largest single name print of session. Defensive pharma"
+      },
+      {
+        "ticker": "ORCL",
+        "size": "$282M",
+        "side": "mixed",
+        "note": "AH Tue 7/7"
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$251M",
+        "side": "ask",
+        "note": "AH Tue 7/7 \u2014 AAPL $30B chip deal validates positioning"
+      },
+      {
+        "ticker": "D",
+        "size": "$246M",
+        "side": "ask",
+        "note": "Tue 7/7 \u2014 Dominion Energy, utility positioning"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$235M",
+        "side": "bid",
+        "note": "AH Tue 7/7 \u2014 bid-side despite pre-market weakness; Broadcom deal positive long-term"
+      },
+      {
+        "ticker": "MRVL",
+        "size": "$231M",
+        "side": "mixed",
+        "note": "AH Tue 7/7"
+      },
+      {
+        "ticker": "QCOM",
+        "size": "$217M",
+        "side": "mixed",
+        "note": "AH Tue 7/7 \u2014 conference today"
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$203M",
+        "side": "ask",
+        "note": "Tue 7/7 \u2014 flipped from $484M bid AH Mon. Distribution signal"
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$186M",
+        "side": "ask",
+        "note": "AH Tue 7/7 \u2014 conference today but ask-side"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$185M",
+        "side": "ask",
+        "note": "AH Tue 7/7 \u2014 Raise Summit Paris today"
+      }
+    ],
+    "events": [
+      {
+        "type": "10:00 AM ET",
+        "detail": "May Wholesale Inventories \u2014 tariff front-loading effects still distorting data."
+      },
+      {
+        "type": "12:00 PM ET",
+        "detail": "Trump press conference \u2014 Iran escalation update, NATO/Spain trade war commentary. HIGHEST impact intraday event. Position ahead, not after."
+      },
+      {
+        "type": "1:00 PM ET",
+        "detail": "$39B 10-year note auction \u2014 yield reaction in a risk-off tape with oil spike; watch for demand vs. inflation fears."
+      },
+      {
+        "type": "2:00 PM ET",
+        "detail": "FOMC Minutes (June 16-17 meeting) \u2014 markets watching for Warsh hawkishness signals after oil re-acceleration complicates the rate path."
+      },
+      {
+        "type": "3:00 PM ET",
+        "detail": "May Consumer Credit \u2014 secondary indicator but confirms consumer health heading into earnings season."
+      },
+      {
+        "type": "All Day",
+        "detail": "Raise Summit AI Conference Paris \u2014 GOOGL, AMD, AVGO, OpenAI, Anthropic, GS on the agenda. AI infrastructure announcements possible."
+      },
+      {
+        "type": "AMC",
+        "detail": "COST monthly sales report \u2014 closely watched for consumer spending read. Also LEVI, AZZ, PSMT earnings."
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BEAR",
+      "pattern": "Outside (3) / Clustering",
+      "flow": "Conference today + $210C Dec 2027 sweep $1.8M (long-dated bull) vs. SNDK $17.8M put block (semi-sector institutional bear)",
+      "catalyst": "NVDA at a conference in full risk-off tape. Semi sector under siege \u2014 MU distribution flip + SNDK $17.8M put block. FOMC Minutes at 2 PM is the afternoon tail risk for high-multiple tech.",
+      "key_levels": "Bear play: wait for conference pop, position for fade into FOMC Minutes at 2 PM | Bull squeeze: conference AI demand narrative breaks clustering to upside \u2014 watch for short covering above prior close",
+      "expected_move": "+-4-6%",
+      "why": "NVDA is the highest-vol Mag 7 name on a day with maximum uncertainty: geopolitical risk-off (Iran oil +6%), semi-sector distribution (MU ASK flip, SNDK $17.8M puts), a live conference that moves it either direction, AND FOMC Minutes at 2 PM. Outside (3) + clustering = range expansion already in motion. 0DTE bear strategy: wait for the conference pop, then position for the fade into the FOMC Minutes. The squeeze case exists \u2014 but the macro, the DP flip, and the options block all say the institutional money moved bearish this week."
+    },
+    "morning_prep": {
+      "theme": "Stay patient. Let the market come to you. The edge today is NOT predicting every Iran/FOMC headline \u2014 it is waiting for scanner + flow + catalyst + technical trigger to ALL align. SPY is in a 2-down daily structure with gaps below. IWM bullish inside day FAILED yesterday \u2014 higher timeframes confirmed weakness. There is always another trade.",
+      "rules": [
+        "FOMC Minutes 2 PM ET \u2014 do NOT enter new positions into the print. Expect volatility and headline risk. Wait for dust to settle before sizing",
+        "SPY 2-down daily structure + gaps below: mark gap levels and order blocks. Watch 3H and 6H charts \u2014 never force entries from one timeframe",
+        "IWM failed bullish inside day yesterday \u2014 triggered downside on higher TF. Skip IWM longs until higher timeframe flips",
+        "OXY: Scanner + extreme volume + Evercore upgrade + Iran oil catalyst = highest-conviction setup today. Wait for entry confirmation \u2014 do not chase the open",
+        "COST monthly sales AMC: buy TIME (2-week+ options minimum). Historical: huge overnight gaps AND delayed next-day moves both happen. Do not panic at small initial reaction",
+        "BABA +8.9%: news + extreme volume + gap structure. Needs confirmation \u2014 do NOT chase the open gap. Wait for pullback or trigger",
+        "TSLA: already triggered lower. Watching 50% retracement, gap areas, order blocks. No rush \u2014 let it prove direction",
+        "AVAV Investor Day: do not be first. Allow trend confirmation before entering",
+        "JNJ: watching for break over recent highs after multiple PT increases. Patience required",
+        "AAPL: Broadcom $30B deal is positive but waiting for proper technical trigger \u2014 no confirmation yet",
+        "Avoid: SNOW, AMD, Boeing, PayPal, illiquid options chains (DLTR despite upgrades \u2014 no options volume)",
+        "If SPY and IWM chop: focus on individual names with extreme volume + catalyst + unusual options flow \u2014 they outperform when indexes are directionless"
+      ],
+      "market": "SPY in 2-down daily structure with multiple gaps below. IWM failed bullish inside day \u2014 higher timeframes confirmed weakness. Iran ceasefire over = full risk-off: oil +6%, Nasdaq -1.4%, VIX +5.11% to 18.40. Do not force ETF trades today. Geopolitical headlines + FOMC Minutes at 2 PM = patience IS the position until 2 PM clears. China CPI/PPI overnight adds BABA/China ADR volatility. COST monthly sales after close is the cleanest single-stock catalyst of the day.",
+      "setups": [
+        {
+          "ticker": "OXY",
+          "tier": 1,
+          "catalyst": "Scanner alert + extreme volume + Evercore ISI upgrade to Outperform $65 + Iran oil +6% + war headlines. Textbook scanner + catalyst alignment.",
+          "levels": "Entry: confirmation at open or pullback from gap | Target: ADR extension, order blocks, $65 Evercore PT",
+          "bull": "Iran escalation continues \u2192 crude stays elevated \u2192 OXY runs toward $65 target",
+          "bear": "Ceasefire rumors \u2192 crude reverses \u2192 gap fills quickly",
+          "note": "JR called this the OXY example directly: scanner + extreme volume + upgrade + catalyst = great call opportunity. Confirm with FlowMS before sizing."
+        },
+        {
+          "ticker": "COST",
+          "tier": 1,
+          "catalyst": "Monthly sales report AMC. Historical: large upside gaps, delayed moves, strong follow-through. Buying extra time on COST reports dramatically improved results.",
+          "levels": "Watch reaction after AMC sales data. Failed 2U (bearish strat) vs. Bullish Gapper + DP \u2014 sales data resolves the conflict",
+          "bull": "Strong sales numbers \u2192 overnight gap up \u2192 continuation possible next session",
+          "bear": "Weak sales \u2192 Failed 2U strat signal confirmed \u2192 gap down",
+          "note": "Buy TIME \u2014 2-week+ options minimum. Do not panic at small initial reaction. JR: the real COST move often comes the next day."
+        },
+        {
+          "ticker": "BABA",
+          "tier": 1,
+          "catalyst": "Alibaba Cloud 40.1% China full-stack AI cloud (Frost & Sullivan) + extreme volume + gap structure. China CPI/PPI overnight could add fuel for China ADRs.",
+          "levels": "Wait for pullback or confirmation trigger \u2014 do NOT chase the open gap",
+          "bull": "China CPI/PPI supportive + AI cloud dominance \u2192 continuation above gap open",
+          "bear": "Gap fades in risk-off tape \u2192 geopolitical uncertainty hits China ADRs",
+          "note": "JR specifically: needs confirmation before entry. Extreme volume + news = watch the setup, not the open print."
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 2,
+          "catalyst": "Already triggered lower. Earnings in 2 weeks. Yesterday call triggers at 420 did not fire in risk-off tape.",
+          "levels": "Watching: 50% retracement | Gap areas | Order blocks below",
+          "bull": "Recovers 50% retracement \u2192 builds base for earnings run into July 22",
+          "bear": "Continues lower \u2192 gap fill targets below current levels",
+          "note": "No reason to rush. TSLA has earnings in 2 weeks \u2014 let it prove direction. Wait for confirmation."
+        },
+        {
+          "ticker": "JNJ",
+          "tier": 2,
+          "catalyst": "FDA approval for THERMOCOOL SMARTTOUCH SF. Multiple PT increases: Citi $298, MS $284, HSBC $290. Defensive healthcare in risk-off tape.",
+          "levels": "Trigger: clean break over recent highs | Patience required before entry",
+          "bull": "Breaks recent highs \u2192 PT increases provide analytical tailwind \u2192 defensive name thrives in risk-off",
+          "bear": "Fails to break \u2192 range-bound until next catalyst",
+          "note": "Do not front-run the break. JR watching for confirmation \u2014 patience is the position here too."
+        }
+      ]
+    }
   }
 }
