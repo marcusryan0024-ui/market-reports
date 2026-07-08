@@ -7235,7 +7235,7 @@
         "ticker": "NFLX",
         "pattern": "Failed 2U",
         "bias": "BEAR",
-        "flow": "Earnings in 8 days",
+        "flow": "Reports Q2 in 8 days",
         "why": "Failed 2U bearish reversal with earnings 8 days away. Pre-earnings positioning in risk-off tape leans bearish for high-multiple names."
       },
       {
@@ -7403,8 +7403,16 @@
         "detail": "Raise Summit AI Conference Paris \u2014 GOOGL, AMD, AVGO, OpenAI, Anthropic, GS on the agenda. AI infrastructure announcements possible."
       },
       {
-        "type": "AMC",
-        "detail": "COST monthly sales report \u2014 closely watched for consumer spending read. Also LEVI, AZZ, PSMT earnings."
+        "type": "After Close",
+        "detail": "COST monthly sales report (not earnings) \u2014 watch for consumer spending read. AZZ also reports earnings AMC."
+      },
+      {
+        "type": "AMC Earnings",
+        "detail": "LEVI (Levi Strauss) \u2014 retail bellwether for consumer spending into Q2 earnings season"
+      },
+      {
+        "type": "AMC Earnings",
+        "detail": "PSMT (PriceSmart) \u2014 warehouse club sales read"
       }
     ],
     "mag7_0dte": {
