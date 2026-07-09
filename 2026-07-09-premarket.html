@@ -5,10 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catalyst Report — Thursday, July 09, 2026</title>
 <style>
+    :root {
+        --bg-page:#0d1117; --bg-nav:#040608; --bg-card:#161b22;
+        --bg-hover:#1c2128; --bg-input:#0a0c10;
+        --border:#30363d; --border-s:#21262d;
+        --tx1:#e6edf3; --tx2:#8b949e; --tx3:#6e7681; --tx4:#adbac7; --tx5:#c9d1d9;
+    }
+    body.light {
+        --bg-page:#f6f8fa; --bg-nav:#ffffff; --bg-card:#ffffff;
+        --bg-hover:#f0f3f6; --bg-input:#f0f3f6;
+        --border:#d0d7de; --border-s:#e9ecef;
+        --tx1:#1f2328; --tx2:#57606a; --tx3:#6b7280; --tx4:#424a53; --tx5:#424a53;
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-        background: #0d1117;
-        color: #e6edf3;
+        background: var(--bg-page);
+        color: var(--tx1);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         font-size: 14px;
         line-height: 1.5;
@@ -16,14 +28,14 @@
     }
     .rpt-nav {
         display: flex; align-items: center; justify-content: space-between;
-        background: #040608; border-bottom: 1px solid #0e1420;
+        background:var(--bg-nav); border-bottom: 1px solid #0e1420;
         padding: 10px 24px; margin: -24px -24px 24px -24px;
     }
     .rpt-back {
-        font-size: 11px; font-weight: 700; color: #6e7681; text-decoration: none;
+        font-size: 11px; font-weight: 700; color:var(--tx3); text-decoration: none;
         letter-spacing: .06em; transition: color .15s;
     }
-    .rpt-back:hover { color: #e6edf3; }
+    .rpt-back:hover { color:var(--tx1); }
     .rpt-nav-btns { display: flex; gap: 8px; }
     .rpt-btn {
         font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
@@ -52,6 +64,21 @@
         cursor: pointer; letter-spacing: .06em; transition: all .14s;
     }
     .rpt-rules-btn:hover { background: #2d1a4a; box-shadow: 0 4px 14px #7c3aed40; transform: translateY(-1px); }
+    .rpt-sub-nav {
+        display: flex; justify-content: flex-end; align-items: center;
+        padding: 5px 24px; background: var(--bg-nav);
+        border-bottom: 1px solid var(--border-s);
+        margin: 0 -24px 20px;
+    }
+    .theme-btn {
+        font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 4px;
+        border: 1px solid var(--border); background: transparent; color: var(--tx3);
+        cursor: pointer; letter-spacing: .06em; transition: all .14s;
+    }
+    .theme-btn:hover { color: var(--tx1); border-color: var(--tx2); }
+    @media (max-width: 768px) {
+      .rpt-sub-nav { padding: 4px 12px; margin: 0 -12px 14px; }
+    }
     .ref-overlay {
         display: none; position: fixed; inset: 0; z-index: 9999;
         background: rgba(0,0,0,.72); backdrop-filter: blur(4px);
@@ -59,22 +86,22 @@
     .ref-overlay.open { display: flex; justify-content: flex-end; }
     .ref-drawer {
         width: min(560px, 96vw); height: 100vh; overflow-y: auto;
-        background: #0d1117; border-left: 1px solid #7c3aed;
+        background:var(--bg-page); border-left: 1px solid #7c3aed;
         box-shadow: -8px 0 48px #7c3aed28;
         display: flex; flex-direction: column;
     }
     .ref-header {
-        position: sticky; top: 0; background: #040608;
+        position: sticky; top: 0; background:var(--bg-nav);
         border-bottom: 1px solid #7c3aed44;
         padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; z-index: 1;
     }
     .ref-header h2 { font-size: 12px; font-weight: 800; letter-spacing: .14em; color: #a78bfa; text-transform: uppercase; margin: 0; }
-    .ref-close { background: none; border: none; color: #6e7681; font-size: 20px; cursor: pointer; line-height: 1; padding: 0 4px; }
-    .ref-close:hover { color: #e6edf3; }
-    .ref-tabs { display: flex; border-bottom: 1px solid #21262d; background: #040608; }
+    .ref-close { background: none; border: none; color:var(--tx3); font-size: 20px; cursor: pointer; line-height: 1; padding: 0 4px; }
+    .ref-close:hover { color:var(--tx1); }
+    .ref-tabs { display: flex; border-bottom:1px solid var(--border-s); background:var(--bg-nav); }
     .ref-tab {
         flex: 1; padding: 10px 8px; font-size: 10px; font-weight: 700; letter-spacing: .08em;
-        text-transform: uppercase; text-align: center; cursor: pointer; color: #6e7681;
+        text-transform: uppercase; text-align: center; cursor: pointer; color:var(--tx3);
         border-bottom: 2px solid transparent; transition: all .14s;
     }
     .ref-tab.active { color: #a78bfa; border-bottom-color: #7c3aed; }
@@ -83,7 +110,7 @@
     .ref-panel.active { display: block; }
     .ref-rule {
         display: flex; align-items: flex-start; gap: 12px;
-        padding: 10px 0; border-bottom: 1px solid #21262d10;
+        padding: 10px 0; border-bottom:1px solid var(--border-s)10;
     }
     .ref-rule:last-child { border-bottom: none; }
     .ref-rule-num {
@@ -91,21 +118,21 @@
         border: 1px solid #7c3aed44; display: flex; align-items: center; justify-content: center;
         font-size: 11px; font-weight: 800; color: #a78bfa; flex-shrink: 0;
     }
-    .ref-rule-text { font-size: 13px; font-weight: 700; color: #e6edf3; line-height: 1.4; padding-top: 4px; }
+    .ref-rule-text { font-size: 13px; font-weight: 700; color:var(--tx1); line-height: 1.4; padding-top: 4px; }
     .ref-section-label {
         font-size: 9px; font-weight: 800; letter-spacing: .14em; color: #a78bfa;
         text-transform: uppercase; margin: 18px 0 10px; border-left: 3px solid #7c3aed; padding-left: 8px;
     }
     .ref-section-label:first-child { margin-top: 0; }
     .ref-combo {
-        background: #161b22; border: 1px solid #30363d; border-radius: 6px;
+        background:var(--bg-card); border:1px solid var(--border); border-radius: 6px;
         padding: 10px 14px; margin-bottom: 8px;
     }
-    .ref-combo-name { font-size: 12px; font-weight: 800; color: #e6edf3; margin-bottom: 4px; }
-    .ref-combo-desc { font-size: 11px; color: #8b949e; line-height: 1.5; }
+    .ref-combo-name { font-size: 12px; font-weight: 800; color:var(--tx1); margin-bottom: 4px; }
+    .ref-combo-desc { font-size: 11px; color:var(--tx2); line-height: 1.5; }
     .ref-candle {
         display: flex; gap: 8px; align-items: flex-start;
-        padding: 8px 0; border-bottom: 1px solid #21262d20;
+        padding: 8px 0; border-bottom:1px solid var(--border-s)20;
     }
     .ref-candle:last-child { border-bottom: none; }
     .ref-candle-badge {
@@ -113,21 +140,21 @@
         font-size: 11px; font-weight: 800; flex-shrink: 0;
     }
     .ref-candle-body { flex: 1; }
-    .ref-candle-name { font-size: 12px; font-weight: 700; color: #e6edf3; margin-bottom: 3px; }
-    .ref-candle-def { font-size: 11px; color: #8b949e; line-height: 1.5; }
+    .ref-candle-name { font-size: 12px; font-weight: 700; color:var(--tx1); margin-bottom: 3px; }
+    .ref-candle-def { font-size: 11px; color:var(--tx2); line-height: 1.5; }
     .header {
         display: flex;
         align-items: baseline;
         gap: 16px;
         margin-bottom: 24px;
         padding-bottom: 16px;
-        border-bottom: 1px solid #30363d;
+        border-bottom:1px solid var(--border);
     }
     .header h1 {
         font-size: 20px;
         font-weight: 700;
         letter-spacing: .08em;
-        color: #e6edf3;
+        color:var(--tx1);
     }
     .header .mode {
         font-size: 11px;
@@ -142,23 +169,23 @@
     .header .meta {
         margin-left: auto;
         font-size: 12px;
-        color: #8b949e;
+        color:var(--tx2);
     }
     .grid { display: grid; gap: 16px; }
     .card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         overflow: hidden;
     }
     .card-header {
         padding: 10px 16px;
-        background: #0d1117;
-        border-bottom: 1px solid #30363d;
+        background:var(--bg-page);
+        border-bottom:1px solid var(--border);
         font-size: 11px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
     }
     .card-body { padding: 0; }
     table {
@@ -172,23 +199,23 @@
         font-size: 10px;
         font-weight: 600;
         letter-spacing: .1em;
-        color: #8b949e;
-        border-bottom: 1px solid #21262d;
+        color:var(--tx2);
+        border-bottom:1px solid var(--border-s);
         white-space: nowrap;
     }
     td {
         padding: 9px 12px;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
         vertical-align: middle;
         white-space: nowrap;
     }
     tr:last-child td { border-bottom: none; }
-    tr:hover td { background: #1c2128; }
+    tr:hover td { background:var(--bg-hover); }
     .ticker {
         font-family: 'SF Mono', 'Fira Code', monospace;
         font-weight: 700;
         font-size: 14px;
-        color: #e6edf3;
+        color:var(--tx1);
     }
     .badge {
         display: inline-block;
@@ -207,14 +234,14 @@
     .exp-move { color: #ffd54f; font-weight: 600; font-family: monospace; }
     .up   { color: #26a69a; font-weight: 600; }
     .down { color: #ef5350; font-weight: 600; }
-    .muted { color: #8b949e; }
+    .muted { color:var(--tx2); }
     .charts-grid {
         display: flex;
         gap: 1px;
         background: #21262d;
     }
     .chart-block {
-        background: #161b22;
+        background:var(--bg-card);
         padding: 16px;
         flex: 0 0 auto;
         width: 55%;
@@ -226,11 +253,11 @@
         margin-bottom: 10px;
     }
     .chart-label .ticker { font-size: 16px; }
-    .chart-label .meta { font-size: 11px; color: #8b949e; }
+    .chart-label .meta { font-size: 11px; color:var(--tx2); }
     .chart-block img { width: 100%; border-radius: 4px; display: block; }
     .chart-side-panel {
         flex: 1;
-        background: #161b22;
+        background:var(--bg-card);
         padding: 16px 20px;
         display: flex;
         flex-direction: column;
@@ -240,20 +267,20 @@
         font-size: 9px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
         text-transform: uppercase;
         margin-bottom: 12px;
     }
     .csp-item {
         padding: 10px 0;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
     }
     .csp-item:last-child { border-bottom: none; }
     .csp-item .csp-rank {
         font-size: 9px;
         font-weight: 700;
         letter-spacing: .1em;
-        color: #8b949e;
+        color:var(--tx2);
         text-transform: uppercase;
         margin-bottom: 3px;
     }
@@ -261,12 +288,12 @@
     .csp-item .csp-label {
         font-size: 17px;
         font-weight: 700;
-        color: #e6edf3;
+        color:var(--tx1);
         margin-bottom: 4px;
     }
     .csp-item .csp-detail {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 4px;
         display: flex;
         align-items: center;
@@ -275,7 +302,7 @@
     }
     .csp-item .csp-why {
         font-size: 11px;
-        color: #adbac7;
+        color:var(--tx4);
         line-height: 1.45;
     }
     .watchlist-grid {
@@ -300,18 +327,18 @@
         align-items: center;
         padding: 8px 14px;
         border-radius: 6px;
-        background: #0d1117;
-        border: 1px solid #30363d;
+        background:var(--bg-page);
+        border:1px solid var(--border);
         min-width: 72px;
     }
     .wl-pill .sym {
         font-family: monospace;
         font-weight: 700;
         font-size: 13px;
-        color: #e6edf3;
+        color:var(--tx1);
     }
     .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
-    .empty { padding: 16px; color: #8b949e; font-style: italic; font-size: 13px; }
+    .empty { padding: 16px; color:var(--tx2); font-style: italic; font-size: 13px; }
     .spotlight-row {
         display: flex;
         gap: 12px;
@@ -327,8 +354,8 @@
     .sector-panel {
         width: 200px;
         flex-shrink: 0;
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         padding: 16px;
         display: flex;
@@ -338,14 +365,14 @@
         font-size: 10px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 10px;
     }
     .sector-panel .sec-name {
         font-family: 'SF Mono', monospace;
         font-size: 18px;
         font-weight: 800;
-        color: #e6edf3;
+        color:var(--tx1);
         margin-bottom: 8px;
         line-height: 1.2;
     }
@@ -360,12 +387,12 @@
     }
     .sector-panel .sec-tickers {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 12px;
     }
     .sector-panel .sec-why {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         font-style: italic;
         line-height: 1.5;
         border-top: 1px solid #21262d;
@@ -373,8 +400,8 @@
         margin-top: auto;
     }
     .spotlight-card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         padding: 16px 18px;
         position: relative;
@@ -388,7 +415,7 @@
         font-size: 10px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 8px;
     }
     .spotlight-card.rank-1 .sp-rank { color: #ffd54f; }
@@ -396,18 +423,18 @@
         font-family: 'SF Mono', monospace;
         font-size: 22px;
         font-weight: 800;
-        color: #e6edf3;
+        color:var(--tx1);
         letter-spacing: .02em;
         margin-bottom: 4px;
     }
     .spotlight-card .sp-detail {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 10px;
     }
     .spotlight-card .sp-news {
         font-size: 13px;
-        color: #e6edf3;
+        color:var(--tx1);
         line-height: 1.5;
         font-weight: 500;
         border-top: 1px solid #21262d;
@@ -421,43 +448,43 @@
     }
     .spotlight-card .sp-briefing {
         font-size: 11px;
-        color: #6e7681;
+        color:var(--tx3);
         line-height: 1.4;
         font-style: italic;
         margin-top: 4px;
         padding-left: 14px;
     }
     .wl-card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         overflow: hidden;
         margin-bottom: 16px;
     }
-    .wl-card .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .wl-card .card-header { padding: 10px 16px; background:var(--bg-page); border-bottom:1px solid var(--border); font-size: 11px; font-weight: 700; letter-spacing: .12em; color:var(--tx2); }
     .on-deck {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         overflow: hidden;
         margin-bottom: 16px;
     }
-    .on-deck .card-header { padding: 10px 16px; background: #0d1117; border-bottom: 1px solid #30363d; font-size: 11px; font-weight: 700; letter-spacing: .12em; color: #8b949e; }
+    .on-deck .card-header { padding: 10px 16px; background:var(--bg-page); border-bottom:1px solid var(--border); font-size: 11px; font-weight: 700; letter-spacing: .12em; color:var(--tx2); }
     .deck-row {
         display: flex;
         align-items: center;
         gap: 10px;
         padding: 9px 16px;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
         font-size: 13px;
     }
     .deck-row:last-child { border-bottom: none; }
-    .deck-row:hover { background: #1c2128; }
+    .deck-row:hover { background:var(--bg-hover); }
     .deck-date {
         font-size: 10px;
         font-weight: 700;
         letter-spacing: .06em;
-        color: #8b949e;
+        color:var(--tx2);
         white-space: nowrap;
         min-width: 68px;
     }
@@ -465,18 +492,18 @@
         font-family: monospace;
         font-weight: 700;
         font-size: 14px;
-        color: #e6edf3;
+        color:var(--tx1);
         white-space: nowrap;
         min-width: 80px;
     }
-    .deck-type { color: #8b949e; font-size: 11px; white-space: nowrap; }
-    .deck-briefing { font-size: 11px; color: #6e7681; font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deck-type { color:var(--tx2); font-size: 11px; white-space: nowrap; }
+    .deck-briefing { font-size: 11px; color:var(--tx3); font-style: italic; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .deck-detail { font-family: monospace; font-size: 11px; color: #ffd54f; font-weight: 600; white-space: nowrap; margin-left: auto; }
     .econ-strip {
         width: 320px;
         flex-shrink: 0;
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         padding: 14px 14px 10px;
         display: flex;
@@ -486,7 +513,7 @@
         font-size: 10px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 10px;
     }
     .econ-item {
@@ -494,15 +521,15 @@
         align-items: baseline;
         gap: 6px;
         padding: 5px 0;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
         font-size: 11px;
     }
     .econ-item:last-child { border-bottom: none; }
     .econ-item.past { opacity: 0.4; }
     .econ-item.today-item .econ-day { color: #4fc3f7; }
-    .econ-day { font-size: 10px; font-weight: 700; color: #8b949e; white-space: nowrap; min-width: 42px; }
-    .econ-name { color: #c9d1d9; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
-    .econ-time { font-size: 10px; color: #6e7681; white-space: nowrap; }
+    .econ-day { font-size: 10px; font-weight: 700; color:var(--tx2); white-space: nowrap; min-width: 42px; }
+    .econ-name { color:var(--tx5); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+    .econ-time { font-size: 10px; color:var(--tx3); white-space: nowrap; }
     .results-bar {
         display: flex;
         gap: 10px;
@@ -510,8 +537,8 @@
         flex-wrap: wrap;
     }
     .result-card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 8px;
         padding: 12px 16px;
         display: flex;
@@ -524,27 +551,27 @@
         font-size: 9px;
         font-weight: 700;
         letter-spacing: .12em;
-        color: #8b949e;
+        color:var(--tx2);
         white-space: nowrap;
     }
     .result-ticker {
         font-family: monospace;
         font-size: 16px;
         font-weight: 800;
-        color: #e6edf3;
+        color:var(--tx1);
         min-width: 60px;
     }
-    .result-signal { font-size: 11px; color: #6e7681; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .result-signal { font-size: 11px; color:var(--tx3); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .result-move {
         font-family: monospace;
         font-size: 15px;
         font-weight: 700;
         white-space: nowrap;
     }
-    .result-ah { font-size: 11px; color: #8b949e; white-space: nowrap; margin-left: 2px; }
+    .result-ah { font-size: 11px; color:var(--tx2); white-space: nowrap; margin-left: 2px; }
     .headline-bar {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-left: 3px solid #4fc3f7;
         border-radius: 6px;
         padding: 12px 18px;
@@ -572,13 +599,13 @@
     .headline-title {
         font-size: 13px;
         font-weight: 600;
-        color: #e6edf3;
+        color:var(--tx1);
         line-height: 1.4;
         white-space: normal;
     }
     .headline-summary {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         line-height: 1.5;
         white-space: normal;
     }
@@ -586,34 +613,34 @@
         font-size: 10px;
         font-weight: 700;
         letter-spacing: .14em;
-        color: #8b949e;
+        color:var(--tx2);
         margin-bottom: 8px;
         padding-left: 2px;
     }
     .morning-brief {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 6px;
         overflow: hidden;
         margin-bottom: 6px;
     }
     .brief-header {
-        background: #0d1117;
+        background:var(--bg-page);
         padding: 10px 16px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
     }
     .brief-header-label {
-        font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #8b949e; text-transform: uppercase;
+        font-size: 10px; font-weight: 700; letter-spacing: .14em; color:var(--tx2); text-transform: uppercase;
     }
     .brief-overview {
         padding: 10px 16px;
         font-size: 12px;
-        color: #adbac7;
+        color:var(--tx4);
         line-height: 1.5;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
     }
     .brief-grid {
         display: grid;
@@ -623,34 +650,34 @@
         background: #21262d;
     }
     .brief-col {
-        background: #161b22;
+        background:var(--bg-card);
         padding: 12px 16px;
     }
     .brief-col-title {
-        font-size: 9px; font-weight: 700; letter-spacing: .12em; color: #8b949e;
+        font-size: 9px; font-weight: 700; letter-spacing: .12em; color:var(--tx2);
         text-transform: uppercase; margin-bottom: 8px;
     }
     .gapper-row {
         display: flex; align-items: baseline; gap: 6px; padding: 3px 0; font-size: 12px;
     }
-    .gapper-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; font-size: 13px; }
+    .gapper-ticker { font-weight: 700; color:var(--tx1); min-width: 50px; font-size: 13px; }
     .gapper-pct { font-weight: 700; min-width: 54px; }
     .gapper-pct.up { color: #3fb950; }
     .gapper-pct.down { color: #f85149; }
-    .gapper-why { color: #8b949e; font-size: 11px; line-height: 1.3; }
+    .gapper-why { color:var(--tx2); font-size: 11px; line-height: 1.3; }
     .gapper-flow { color: #ffd54f; font-size: 10px; margin-left: 2px; }
     .gapper-level { color: #388bfd; font-size: 10px; }
     .dp-row { display: flex; gap: 8px; align-items: center; padding: 3px 0; font-size: 12px; }
-    .dp-ticker { font-weight: 700; color: #e6edf3; min-width: 50px; }
+    .dp-ticker { font-weight: 700; color:var(--tx1); min-width: 50px; }
     .dp-size { color: #ffd54f; min-width: 46px; font-weight: 600; }
     .dp-side { font-size: 10px; font-weight: 700; }
     .dp-side.ask { color: #3fb950; }
     .dp-side.bid { color: #f85149; }
-    .dp-side.mixed { color: #8b949e; }
-    .event-row { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid #21262d; font-size: 11px; }
+    .dp-side.mixed { color:var(--tx2); }
+    .event-row { display: flex; gap: 8px; padding: 4px 0; border-bottom:1px solid var(--border-s); font-size: 11px; }
     .event-row:last-child { border-bottom: none; }
     .event-type { font-weight: 700; color: #ffd54f; min-width: 100px; font-size: 10px; text-transform: uppercase; }
-    .event-detail { color: #adbac7; }
+    .event-detail { color:var(--tx4); }
     .picks-row {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -658,26 +685,26 @@
         margin-bottom: 6px;
     }
     .pick-card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-radius: 6px;
         padding: 16px;
     }
     .pick-rank { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
-    .pick-ticker { font-size: 28px; font-weight: 800; color: #e6edf3; margin-bottom: 8px; letter-spacing: -.5px; }
+    .pick-ticker { font-size: 28px; font-weight: 800; color:var(--tx1); margin-bottom: 8px; letter-spacing: -.5px; }
     .pick-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
-    .pick-pattern { font-size: 11px; color: #8b949e; }
+    .pick-pattern { font-size: 11px; color:var(--tx2); }
     .pick-flow { font-size: 12px; color: #ffd54f; font-weight: 600; margin-bottom: 6px; }
-    .pick-why { font-size: 12px; color: #adbac7; line-height: 1.45; }
-    .setup-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 12px; }
+    .pick-why { font-size: 12px; color:var(--tx4); line-height: 1.45; }
+    .setup-row { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom:1px solid var(--border-s); font-size: 12px; }
     .setup-row:last-child { border-bottom: none; }
-    .setup-ticker { font-weight: 700; color: #e6edf3; flex: 0 0 50px; font-size: 13px; padding-top: 1px; }
-    .setup-pattern { color: #8b949e; font-size: 10px; flex: 0 0 110px; padding-top: 2px; }
-    .setup-why { color: #adbac7; font-size: 11px; line-height: 1.45; }
+    .setup-ticker { font-weight: 700; color:var(--tx1); flex: 0 0 50px; font-size: 13px; padding-top: 1px; }
+    .setup-pattern { color:var(--tx2); font-size: 10px; flex: 0 0 110px; padding-top: 2px; }
+    .setup-why { color:var(--tx4); font-size: 11px; line-height: 1.45; }
     .setup-flow { color: #ffd54f; font-size: 10px; margin-top: 3px; }
     .longterm-card {
-        background: #161b22;
-        border: 1px solid #30363d;
+        background:var(--bg-card);
+        border:1px solid var(--border);
         border-left: 3px solid #388bfd;
         border-radius: 8px;
         overflow: hidden;
@@ -686,14 +713,14 @@
     .longterm-card .card-header {
         padding: 10px 16px;
         background: #0d1421;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
         font-size: 11px;
         font-weight: 700;
         letter-spacing: .12em;
         color: #388bfd;
     }
     .watch-card {
-        background: #161b22;
+        background:var(--bg-card);
         border: 1px solid #388bfd55;
         border-radius: 8px;
         overflow: hidden;
@@ -710,10 +737,10 @@
     }
     .watch-item {
         padding: 12px 16px;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
     }
     .watch-item:last-child { border-bottom: none; }
-    .watch-item:hover { background: #1c2128; }
+    .watch-item:hover { background:var(--bg-hover); }
     .watch-top {
         display: flex;
         align-items: center;
@@ -724,46 +751,46 @@
         font-family: monospace;
         font-size: 18px;
         font-weight: 800;
-        color: #e6edf3;
+        color:var(--tx1);
     }
     .watch-signal {
         font-size: 12px;
-        color: #8b949e;
+        color:var(--tx2);
         flex: 1;
     }
     .watch-news {
         font-size: 12px;
-        color: #c9d1d9;
+        color:var(--tx5);
         font-weight: 500;
         line-height: 1.5;
     }
     .watch-news::before { content: "↳ "; color: #388bfd; font-weight: 800; }
     .briefing {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         padding: 0 12px 8px 12px;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
         line-height: 1.5;
     }
     .briefing:last-child { border-bottom: none; }
     .briefing-row td {
         padding-top: 3px;
         padding-bottom: 8px;
-        border-bottom: 1px solid #21262d;
+        border-bottom:1px solid var(--border-s);
     }
     .briefing-text {
         font-size: 11px;
-        color: #8b949e;
+        color:var(--tx2);
         font-style: italic;
     }
     .why-row td {
         padding: 4px 12px 2px 12px;
         border-bottom: none;
-        background: #0d1117;
+        background:var(--bg-page);
     }
     .why-news {
         font-size: 12px;
-        color: #c9d1d9;
+        color:var(--tx5);
         font-weight: 500;
     }
     .why-news::before {
@@ -773,14 +800,14 @@
     }
     .why-context {
         font-size: 11px;
-        color: #6e7681;
+        color:var(--tx3);
         font-style: italic;
         padding-left: 14px;
     }
     .briefing-row td {
         padding: 2px 12px 8px 12px;
-        border-bottom: 1px solid #21262d;
-        background: #0d1117;
+        border-bottom:1px solid var(--border-s);
+        background:var(--bg-page);
     }
     .ah-up   { color: #26a69a; font-weight: 700; font-size: 13px; }
     .ah-down { color: #ef5350; font-weight: 700; font-size: 13px; }
@@ -813,150 +840,39 @@
         gap: 6px;
         padding: 6px 12px;
         border-radius: 6px;
-        background: #0d1117;
-        border: 1px solid #30363d;
+        background:var(--bg-page);
+        border:1px solid var(--border);
         font-size: 12px;
     }
-    .heat-pill .sector-name { font-weight: 600; color: #e6edf3; }
+    .heat-pill .sector-name { font-weight: 600; color:var(--tx1); }
     .heat-pill .heat-calls  { color: #26a69a; font-weight: 700; }
     .heat-pill .heat-puts   { color: #ef5350; font-weight: 700; }
-    .heat-pill .heat-prem   { color: #8b949e; font-size: 11px; }
+    .heat-pill .heat-prem   { color:var(--tx2); font-size: 11px; }
     .history-tag {
         font-size: 10px;
-        color: #8b949e;
+        color:var(--tx2);
         margin-left: 6px;
     }
-    /* ── LIGHT THEME ─────────────────────────────────────────── */
-    body.light{background:#f6f8fa;color:#1f2328}
-    body.light .rpt-nav{background:#ffffff;border-bottom-color:#d0d7de}
-    body.light .rpt-back{color:#57606a}
-    body.light .rpt-back:hover{color:#1f2328}
-    body.light .rpt-btn{background:#f6f8fa;border-color:#d0d7de;color:#57606a}
+    /* ── LIGHT THEME: structural via CSS vars above; accent overrides below ── */
+    body.light .rpt-nav{border-bottom-color:var(--border)}
+    body.light .rpt-btn{border-color:var(--border);color:var(--tx2)}
     body.light .rpt-pre{background:#dbeafe;border-color:#93c5fd;color:#1d4ed8}
     body.light .rpt-pre:hover{background:#bfdbfe}
     body.light .rpt-cls{background:#dcfce7;border-color:#86efac;color:#15803d}
     body.light .rpt-cls:hover{background:#bbf7d0}
     body.light .rpt-rules-btn{background:#f5f0ff;border-color:#c4b5fd;color:#7c3aed}
     body.light .rpt-rules-btn:hover{background:#ede9fe}
-    body.light .ref-overlay{background:rgba(0,0,0,.45)}
-    body.light .ref-drawer{background:#ffffff;border-left-color:#7c3aed}
-    body.light .ref-header{background:#f6f8fa;border-bottom-color:#e9d5ff}
-    body.light .ref-close{color:#57606a}
-    body.light .ref-close:hover{color:#1f2328}
-    body.light .ref-tabs{background:#f6f8fa;border-bottom-color:#d0d7de}
-    body.light .ref-tab{color:#57606a}
-    body.light .ref-tab.active{color:#7c3aed}
-    body.light .ref-combo{background:#f6f8fa;border-color:#d0d7de}
-    body.light .ref-combo-name{color:#1f2328}
-    body.light .ref-combo-desc{color:#57606a}
-    body.light .ref-candle{border-bottom-color:#e9ecef}
-    body.light .ref-candle-name{color:#1f2328}
-    body.light .ref-candle-def{color:#57606a}
-    body.light .ref-rule{border-bottom-color:#e9ecef}
+    body.light .ref-overlay{background:rgba(0,0,0,.4)}
     body.light .ref-rule-num{background:#f5f0ff;border-color:#c4b5fd}
-    body.light .ref-rule-text{color:#1f2328}
-    body.light .header{border-bottom-color:#d0d7de}
-    body.light .header h1{color:#1f2328}
-    body.light .header .meta{color:#57606a}
     body.light .header .mode{background:#dbeafe22;border-color:#93c5fd66;color:#1d4ed8}
-    body.light .card{background:#ffffff;border-color:#d0d7de}
-    body.light .card-header{background:#f6f8fa;border-bottom-color:#d0d7de;color:#57606a}
-    body.light table th{color:#57606a;border-bottom-color:#d0d7de}
-    body.light table td{border-bottom-color:#e9ecef}
-    body.light tr:hover td{background:#f0f3f6}
-    body.light .muted{color:#57606a}
-    body.light .empty{color:#57606a}
-    body.light .section-label{color:#57606a}
-    body.light .wl-pill{background:#f6f8fa;border-color:#d0d7de}
-    body.light .wl-pill .sym{color:#1f2328}
-    body.light .sector-panel{background:#ffffff;border-color:#d0d7de}
-    body.light .sector-panel .sp-rank{color:#57606a}
-    body.light .sector-panel .sec-name{color:#1f2328}
-    body.light .sector-panel .sec-tickers{color:#57606a}
-    body.light .sector-panel .sec-why{color:#57606a;border-top-color:#d0d7de}
-    body.light .spotlight-card{background:#ffffff;border-color:#d0d7de}
-    body.light .spotlight-card.rank-1{background:linear-gradient(135deg,#fffbeb 0%,#ffffff 60%);border-color:#fbbf24}
-    body.light .spotlight-card .sp-label{color:#1f2328}
-    body.light .spotlight-card .sp-detail{color:#57606a}
-    body.light .spotlight-card .sp-news{color:#1f2328;border-top-color:#d0d7de}
-    body.light .spotlight-card .sp-briefing{color:#57606a}
-    body.light .spotlight-card .sp-rank{color:#57606a}
-    body.light .charts-grid{background:#d0d7de}
-    body.light .chart-block{background:#ffffff}
-    body.light .chart-label .meta{color:#57606a}
-    body.light .chart-side-panel{background:#ffffff}
-    body.light .chart-side-panel .csp-title{color:#57606a}
-    body.light .csp-item{border-bottom-color:#e9ecef}
-    body.light .csp-item .csp-rank{color:#57606a}
-    body.light .csp-item .csp-label{color:#1f2328}
-    body.light .csp-item .csp-detail{color:#57606a}
-    body.light .csp-item .csp-why{color:#424a53}
-    body.light .wl-card{background:#ffffff;border-color:#d0d7de}
-    body.light .wl-card .card-header{background:#f6f8fa;border-bottom-color:#d0d7de;color:#57606a}
-    body.light .on-deck{background:#ffffff;border-color:#d0d7de}
-    body.light .on-deck .card-header{background:#f6f8fa;border-bottom-color:#d0d7de;color:#57606a}
-    body.light .deck-row{border-bottom-color:#e9ecef}
-    body.light .deck-row:hover{background:#f0f3f6}
-    body.light .deck-label{color:#1f2328}
-    body.light .deck-date{color:#57606a}
-    body.light .deck-type{color:#57606a}
-    body.light .deck-briefing{color:#6b7280}
-    body.light .econ-strip{background:#ffffff;border-color:#d0d7de}
-    body.light .econ-strip .sp-rank{color:#57606a}
-    body.light .econ-item{border-bottom-color:#e9ecef}
+    body.light .spotlight-card.rank-1{background:linear-gradient(135deg,#fffbeb 0%,var(--bg-card) 60%);border-color:#fbbf24}
     body.light .econ-item.today-item .econ-day{color:#0284c7}
-    body.light .econ-day{color:#57606a}
-    body.light .econ-name{color:#424a53}
-    body.light .econ-time{color:#57606a}
-    body.light .result-card{background:#ffffff;border-color:#d0d7de}
-    body.light .result-source{color:#57606a}
-    body.light .result-ticker{color:#1f2328}
-    body.light .result-signal{color:#57606a}
-    body.light .result-ah{color:#57606a}
-    body.light .headline-bar{background:#ffffff;border-color:#d0d7de;border-left-color:#4fc3f7}
-    body.light .headline-title{color:#1f2328}
-    body.light .headline-summary{color:#57606a}
-    body.light .morning-brief{background:#ffffff;border-color:#d0d7de}
-    body.light .brief-header{background:#f6f8fa;border-bottom-color:#d0d7de}
-    body.light .brief-header-label{color:#57606a}
-    body.light .brief-overview{color:#424a53;border-bottom-color:#d0d7de}
-    body.light .brief-grid{background:#d0d7de}
-    body.light .brief-col{background:#ffffff}
-    body.light .brief-col-title{color:#57606a}
-    body.light .gapper-ticker{color:#1f2328}
-    body.light .gapper-why{color:#57606a}
-    body.light .dp-ticker{color:#1f2328}
-    body.light .dp-side.mixed{color:#57606a}
-    body.light .event-row{border-bottom-color:#e9ecef}
-    body.light .event-detail{color:#424a53}
-    body.light .pick-card{background:#ffffff;border-color:#d0d7de}
-    body.light .pick-ticker{color:#1f2328}
-    body.light .pick-pattern{color:#57606a}
-    body.light .pick-why{color:#424a53}
-    body.light .setup-row{border-bottom-color:#e9ecef}
-    body.light .setup-ticker{color:#1f2328}
-    body.light .setup-pattern{color:#57606a}
-    body.light .setup-why{color:#424a53}
-    body.light .longterm-card{background:#ffffff;border-color:#d0d7de;border-left-color:#388bfd}
+    body.light .longterm-card{border-left-color:#388bfd}
     body.light .longterm-card .card-header{background:#eff6ff;border-bottom-color:#dbeafe;color:#388bfd}
-    body.light .watch-card{background:#ffffff;border-color:#93c5fd}
+    body.light .watch-card{border-color:#93c5fd}
     body.light .watch-card .card-header{background:#eff6ff;border-bottom-color:#bfdbfe;color:#1d4ed8}
-    body.light .watch-item{border-bottom-color:#e9ecef}
-    body.light .watch-item:hover{background:#f0f3f6}
-    body.light .watch-ticker{color:#1f2328}
-    body.light .watch-signal{color:#57606a}
-    body.light .watch-news{color:#1f2328}
-    body.light .briefing{color:#57606a;border-bottom-color:#e9ecef}
-    body.light .briefing-text{color:#57606a}
-    body.light .briefing-row td{background:#f6f8fa;border-bottom-color:#e9ecef}
-    body.light .why-row td{background:#f0f3f6}
-    body.light .why-news{color:#1f2328}
-    body.light .why-context{color:#6b7280}
-    body.light .heat-pill{background:#f6f8fa;border-color:#d0d7de}
-    body.light .heat-pill .sector-name{color:#1f2328}
-    body.light .heat-pill .heat-prem{color:#57606a}
     body.light .strat-badge{color:#92700a;background:#fef3c722;border-color:#fbbf2455}
-    body.light .history-tag{color:#57606a}
+    body.light .dp-side.mixed{color:var(--tx2)}
     </style>
 </head>
 <body>
@@ -964,10 +880,12 @@
   <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
   <div class="rpt-nav-btns">
     <button class="rpt-rules-btn" onclick="document.getElementById('refOverlay').classList.add('open')">&#9776;&thinsp;Rules</button>
-    <button class="rpt-rules-btn" id="themeToggle" onclick="toggleTheme()">&#9728;&thinsp;Light</button>
     <a class="rpt-btn rpt-pre rpt-active" href="2026-07-09-premarket.html">&#9651;&thinsp;Pre-Market</a>
     <a class="rpt-btn rpt-cls" href="2026-07-09.html">&#9660;&thinsp;After Close</a>
   </div>
+</div>
+<div class="rpt-sub-nav">
+  <button id="themeToggle" class="theme-btn" onclick="toggleTheme()">&#9728;&#8202;Light</button>
 </div>
 
 <div class="ref-overlay" id="refOverlay" onclick="if(event.target===this)this.classList.remove('open')">
@@ -1174,7 +1092,7 @@ function toggleTheme() {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">PRE-MARKET</span>
-  <span class="meta">Thursday, July 09, 2026 &nbsp;·&nbsp; 04:49 PM</span>
+  <span class="meta">Thursday, July 09, 2026 &nbsp;·&nbsp; 04:56 PM</span>
 </div>
 
 
@@ -1189,47 +1107,47 @@ function toggleTheme() {
 
 <div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
   <div style="flex:0 0 220px;display:flex;flex-direction:column;">
-    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;">
-          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Morning Briefing</div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">Morning Briefing</div>
           <div style="padding:10px 14px;">
-            <p style="margin:0;color:#adbac7;font-size:11px;line-height:1.65;">Market stabilizing with AI/semi rebound leading Nasdaq +0.56% as Iran walk-back gives permission to rotate back in. The real story is the FOMC Minutes context: 9-8 split on whether to hike this year — but those minutes were written BEFORE the 57K NFP miss on July 2. Markets are now reconciling a hawkish Fed document with a softer labor picture. CME FedWatch September hike odds now 50-55%, down…</p>
+            <p style="margin:0;color:var(--tx4);font-size:11px;line-height:1.65;">Market stabilizing with AI/semi rebound leading Nasdaq +0.56% as Iran walk-back gives permission to rotate back in. The real story is the FOMC Minutes context: 9-8 split on whether to hike this year — but those minutes were written BEFORE the 57K NFP miss on July 2. Markets are now reconciling a hawkish Fed document with a softer labor picture. CME FedWatch September hike odds now 50-55%, down…</p>
           </div>
         </div>
-    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;margin-top:6px;">
-          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Top 3 Plays</div>
-          <div style="padding:4px 14px 8px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;margin-top:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">Top 3 Plays</div>
+          <div style="padding:4px 14px 8px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="padding:9px 0;border-bottom:1px solid var(--border-s);">
               <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
                 <span style="font-size:9px;font-weight:700;color:#ffd54f;">#1</span>
-                <span style="font-size:15px;font-weight:800;color:#e6edf3;">COST</span>
+                <span style="font-size:15px;font-weight:800;color:var(--tx1);">COST</span>
                 
                 
                 
               </div>
-              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Monthly sales down $1B premarket — FTFC to downside</div>
+              <div style="font-size:10px;color:var(--tx2);line-height:1.5;margin-bottom:3px;">Monthly sales down $1B premarket — FTFC to downside</div>
               <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">DB @ 925 | 3-2 weekly triggers @ 920.55</div>
               <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ Reclaim and hold 925 DB level</div>
               
-            </div><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+            </div><div style="padding:9px 0;border-bottom:1px solid var(--border-s);">
               <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
-                <span style="font-size:9px;font-weight:700;color:#adbac7;">#2</span>
-                <span style="font-size:15px;font-weight:800;color:#e6edf3;">PEP</span>
+                <span style="font-size:9px;font-weight:700;color:var(--tx4);">#2</span>
+                <span style="font-size:15px;font-weight:800;color:var(--tx1);">PEP</span>
                 
                 
                 
               </div>
-              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Earnings reaction — beat EPS $0.02, reaffirmed FY26, fell 1%</div>
+              <div style="font-size:10px;color:var(--tx2);line-height:1.5;margin-bottom:3px;">Earnings reaction — beat EPS $0.02, reaffirmed FY26, fell 1%</div>
               <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">Trampoline: bounce off OB or get under 133</div>
               <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ Bounce off OB — trampoline setup</div>
               
-            </div><div style="padding:9px 0;border-bottom:1px solid #21262d;">
+            </div><div style="padding:9px 0;border-bottom:1px solid var(--border-s);">
               <div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">
-                <span style="font-size:9px;font-weight:700;color:#8b949e;">#3</span>
-                <span style="font-size:15px;font-weight:800;color:#e6edf3;">TXN</span>
+                <span style="font-size:9px;font-weight:700;color:var(--tx2);">#3</span>
+                <span style="font-size:15px;font-weight:800;color:var(--tx1);">TXN</span>
                 
                 
                 
               </div>
-              <div style="font-size:10px;color:#8b949e;line-height:1.5;margin-bottom:3px;">Consolidating at $330 Heatmap (7/17) — on watch</div>
+              <div style="font-size:10px;color:var(--tx2);line-height:1.5;margin-bottom:3px;">Consolidating at $330 Heatmap (7/17) — on watch</div>
               <div style="font-size:10px;color:#58a6ff;font-family:monospace;font-weight:600;margin-bottom:3px;">2UP @ 307 | Call entry above $311</div>
               <div style="font-size:10px;color:#3fb950;line-height:1.4;margin-bottom:3px;">▲ Price over $311 = call entry for next week cons play</div>
               
@@ -1237,288 +1155,288 @@ function toggleTheme() {
         </div>
   </div>
   <div style="flex:1;min-width:0;display:flex;flex-direction:column;">
-    <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
-              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;display:flex;align-items:center;gap:8px;color:#e6edf3;">
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
+              <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;display:flex;align-items:center;gap:8px;color:var(--tx1);">
                 <span>JR Morning Prep: Market Recap &amp; Trade Plan</span>
                 <span style="font-size:9px;font-weight:700;color:#58a6ff;background:#0d2137;border:1px solid #1f6feb;padding:2px 7px;border-radius:10px;letter-spacing:.08em;">DISCORD READY</span>
               </div>
               <div style="padding:14px 16px;flex:1;display:flex;flex-direction:column;gap:14px;">
-                <p style="margin:0;color:#e6edf3;font-size:13px;line-height:1.6;font-weight:500;">Buy time on drawdowns — ETFs printing Failed 2 Down Day with extreme volume potential. Key plays: COST FTFC to downside on -$1B monthly sales miss, ANET and CRWV extreme volume setups, TXN consolidation watch, PEP earnings ORB. Don't like puts on earnings due to gap risk.</p>
-                <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Always good to buy time because drawdowns aren't as bad</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Take profits and leave runners</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Allow plays to develop until around 9am before adjusting</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">Weeklies = lotto — size down; buy 1-2 weeks out is safer</span><span style="background:#1c2128;border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:#e6edf3;white-space:nowrap;font-weight:500;">On earnings: 10 min ORB only, don't like puts due to gapping</span></div>
-                <div style="display:flex;flex-wrap:wrap;gap:8px;flex:1;"><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                <p style="margin:0;color:var(--tx1);font-size:13px;line-height:1.6;font-weight:500;">Buy time on drawdowns — ETFs printing Failed 2 Down Day with extreme volume potential. Key plays: COST FTFC to downside on -$1B monthly sales miss, ANET and CRWV extreme volume setups, TXN consolidation watch, PEP earnings ORB. Don't like puts on earnings due to gap risk.</p>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="background:var(--bg-hover);border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:var(--tx1);white-space:nowrap;font-weight:500;">Always good to buy time because drawdowns aren't as bad</span><span style="background:var(--bg-hover);border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:var(--tx1);white-space:nowrap;font-weight:500;">Take profits and leave runners</span><span style="background:var(--bg-hover);border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:var(--tx1);white-space:nowrap;font-weight:500;">Allow plays to develop until around 9am before adjusting</span><span style="background:var(--bg-hover);border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:var(--tx1);white-space:nowrap;font-weight:500;">Weeklies = lotto — size down; buy 1-2 weeks out is safer</span><span style="background:var(--bg-hover);border:1px solid #388bfd;border-radius:4px;padding:5px 12px;font-size:12px;color:var(--tx1);white-space:nowrap;font-weight:500;">On earnings: 10 min ORB only, don't like puts due to gapping</span></div>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;flex:1;"><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">COST</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">COST</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Monthly sales down $1B premarket — FTFC to downside</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Monthly sales down $1B premarket — FTFC to downside</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">DB @ 925 | 3-2 weekly triggers @ 920.55</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Reclaim and hold 925 DB level</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ FTFC continuation through 920.55 on 3-2 weekly trigger</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Allow play to develop until around 9am</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Allow play to develop until around 9am</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">PEP</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">PEP</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Earnings reaction — beat EPS $0.02, reaffirmed FY26, fell 1%</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Earnings reaction — beat EPS $0.02, reaffirmed FY26, fell 1%</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Trampoline: bounce off OB or get under 133</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Bounce off OB — trampoline setup</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Get under 133 | Don't like puts due to gap risk</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">10 min ORB only — wait for direction confirmation</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">10 min ORB only — wait for direction confirmation</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">TXN</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">TXN</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Consolidating at $330 Heatmap (7/17) — on watch</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Consolidating at $330 Heatmap (7/17) — on watch</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">2UP @ 307 | Call entry above $311</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Price over $311 = call entry for next week cons play</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Below $307 loses the 2UP level</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Gaps to be filled. Next week consolidation play — not a today trade.</div>
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Gaps to be filled. Next week consolidation play — not a today trade.</div>
                 </div></div>
-                <div style="flex:1;display:flex;flex-direction:column;gap:4px;"><div style="font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;">Tier 2 / Monitoring</div><div style="display:flex;flex-wrap:wrap;gap:8px;"><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                <div style="flex:1;display:flex;flex-direction:column;gap:4px;"><div style="font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;">Tier 2 / Monitoring</div><div style="display:flex;flex-wrap:wrap;gap:8px;"><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">ANET</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">ANET</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">$200 on Heatmap 7/17 — extreme volume play</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">$200 on Heatmap 7/17 — extreme volume play</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Heatmap $200</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Extreme volume continuation</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Example of risking your stop — size accordingly</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Extreme volume play — risk your stop properly</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Extreme volume play — risk your stop properly</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">CRWV</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">CRWV</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">2-2 reversal, $100 on Heatmap 7/17 — failed 2 down week</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">2-2 reversal, $100 on Heatmap 7/17 — failed 2 down week</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Heatmap $100</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ 2-2 reversal off failed 2 down week — extreme volume</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ Failed 2 down week continuation</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Take profits and leave runners</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Take profits and leave runners</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">TSM</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">TSM</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Monthly sales after hours — swing overnight</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Monthly sales after hours — swing overnight</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">EOD straddle candidate</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Monthly sales beat = gap continuation</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ EOD straddle for vol — weeklies lotto only (size down)</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Buy 1-2 weeks out is safer. Sometimes takes a minute to play out.</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Buy 1-2 weeks out is safer. Sometimes takes a minute to play out.</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">PENG</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">PENG</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Earnings — potential CPW</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Earnings — potential CPW</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Watch for paid setup</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ CPW potential — paid setup confirmed</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ N/A</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Earnings play — PAID</div>
-                </div><div style="background:#1c2128;border-radius:6px;border:1px solid #30363d;padding:14px 16px;min-width:180px;flex:1;">
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Earnings play — PAID</div>
+                </div><div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);padding:14px 16px;min-width:180px;flex:1;">
                   <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
-                    <span style="font-weight:700;font-size:16px;color:#e6edf3;">OKTA</span>
+                    <span style="font-weight:700;font-size:16px;color:var(--tx1);">OKTA</span>
                     
                     
                     
                   </div>
-                  <div style="font-size:12px;color:#8b949e;margin-bottom:5px;line-height:1.4;">Hit scanner, has event next week</div>
+                  <div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">Hit scanner, has event next week</div>
                   <div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;font-family:monospace;">Watch</div>
                   <div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">▲ Potential extreme volume play into event</div>
                   <div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">▼ N/A</div>
-                  <div style="font-size:11px;color:#8b949e;font-style:italic;line-height:1.5;">Hit scanner with event next week — build position now</div>
+                  <div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">Hit scanner with event next week — build position now</div>
                 </div></div></div>
-                <div style="margin-top:auto;padding:10px 12px;border-radius:5px;background:#1c2128;border:1px solid #30363d;font-size:12px;color:#e6edf3;line-height:1.6;"><span style="font-weight:700;color:#ffd54f;">Market: </span>ETFs showing Failed 2 Down Day with extreme volume play potential — aligns with QQQ and SPY Failed 2D on the Strat scanner from yesterday. COST down $1B monthly sales premarket, FTFC continuity to downside, DB at 925. TXN consolidating at $330 Heatmap level (7/17) — on watch, need $311 break for next week call entry. PEP earnings reaction at the open: 10 min ORB, trampoline setup — price must bounce off OB or get under 133.</div>
+                <div style="margin-top:auto;padding:10px 12px;border-radius:5px;background:var(--bg-hover);border:1px solid var(--border);font-size:12px;color:var(--tx1);line-height:1.6;"><span style="font-weight:700;color:#ffd54f;">Market: </span>ETFs showing Failed 2 Down Day with extreme volume play potential — aligns with QQQ and SPY Failed 2D on the Strat scanner from yesterday. COST down $1B monthly sales premarket, FTFC continuity to downside, DB at 925. TXN consolidating at $330 Heatmap level (7/17) — on watch, need $311 break for next week call entry. PEP earnings reaction at the open: 10 min ORB, trampoline setup — price must bounce off OB or get under 133.</div>
               </div>
             </div>
   </div>
 </div>
-<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
-          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Economic Calendar — This Week</div>
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">Economic Calendar — This Week</div>
           <div style="display:flex;align-items:stretch;">
             <div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
-              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Mon 7/6</div>
-              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+              <div style="font-size:10px;font-weight:700;color:var(--tx2);margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Mon 7/6</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">9:45am</span>
+                    <span style="font-size:9px;color:var(--tx3);">9:45am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">S&amp;P Global Services PMI  (Jun)</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">S&amp;P Global Services PMI  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">10:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">ISM Non-Manufacturing PMI  (Jun)</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">ISM Non-Manufacturing PMI  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">10:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">ISM Non-Manufacturing Prices  (J</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">ISM Non-Manufacturing Prices  (J</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">11:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">11:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Fed Waller Speaks</div>
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Fed Waller Speaks</div>
                 </div>
             </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
-              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Tue 7/7</div>
-              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+              <div style="font-size:10px;font-weight:700;color:var(--tx2);margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Tue 7/7</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">7:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">7:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">FOMC Member Bowman Speaks</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">FOMC Member Bowman Speaks</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">11:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">11:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">NY Fed 1-Year Consumer Inflation</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">NY Fed 1-Year Consumer Inflation</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">11:30am</span>
+                    <span style="font-size:9px;color:var(--tx3);">11:30am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Atlanta Fed GDPNow  (Q2)</div>
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Atlanta Fed GDPNow  (Q2)</div>
                 </div>
             </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
-              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Wed 7/8</div>
-              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+              <div style="font-size:10px;font-weight:700;color:var(--tx2);margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Wed 7/8</div>
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">10:30am</span>
+                    <span style="font-size:9px;color:var(--tx3);">10:30am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Crude Oil Inventories</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Crude Oil Inventories</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">11:30am</span>
+                    <span style="font-size:9px;color:var(--tx3);">11:30am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Atlanta Fed GDPNow  (Q2)</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Atlanta Fed GDPNow  (Q2)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">1:00pm</span>
+                    <span style="font-size:9px;color:var(--tx3);">1:00pm</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">10-Year Note Auction</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">10-Year Note Auction</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">2:00pm</span>
+                    <span style="font-size:9px;color:var(--tx3);">2:00pm</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">FOMC Meeting Minutes</div>
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">FOMC Meeting Minutes</div>
                 </div>
-            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;background:#1c2128;border-top:2px solid #ffd54f;">
+            </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;background:var(--bg-hover);border-top:2px solid #ffd54f;">
               <div style="font-size:11px;font-weight:700;color:#ffd54f;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Thu 7/9</div>
-              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+              <div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">8:30am</span>
+                    <span style="font-size:9px;color:var(--tx3);">8:30am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Initial Jobless Claims</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Initial Jobless Claims</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">9:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">9:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">FOMC Member Williams Speaks</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">FOMC Member Williams Speaks</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">10:00am</span>
+                    <span style="font-size:9px;color:var(--tx3);">10:00am</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Existing Home Sales  (Jun)</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Existing Home Sales  (Jun)</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#f85149;background:#2d0f0f;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">HIGH</span>
-                    <span style="font-size:9px;color:#6e7681;">1:01pm</span>
+                    <span style="font-size:9px;color:var(--tx3);">1:01pm</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">30-Year Bond Auction</div>
-                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid #21262d30;">
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">30-Year Bond Auction</div>
+                </div><div style="display:flex;flex-direction:column;gap:2px;padding:6px 0;border-bottom:1px solid var(--border-s)30;">
                   <div style="display:flex;align-items:center;gap:5px;">
                     <span style="font-size:9px;font-weight:700;color:#e3b341;background:#2d2a1a;padding:1px 5px;border-radius:3px;letter-spacing:.04em;">MED</span>
-                    <span style="font-size:9px;color:#6e7681;">4:30pm</span>
+                    <span style="font-size:9px;color:var(--tx3);">4:30pm</span>
                   </div>
-                  <div style="font-size:11px;color:#e6edf3;line-height:1.4;">Fed's Balance Sheet</div>
+                  <div style="font-size:11px;color:var(--tx1);line-height:1.4;">Fed's Balance Sheet</div>
                 </div>
             </div><div style="flex:1;min-width:0;padding:10px 12px;border-right:1px solid #21262d;">
-              <div style="font-size:10px;font-weight:700;color:#8b949e;margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Fri 7/10</div>
+              <div style="font-size:10px;font-weight:700;color:var(--tx2);margin-bottom:6px;letter-spacing:.06em;text-transform:uppercase;">Fri 7/10</div>
               <div style="font-size:11px;color:#30363d;padding:4px 0;">—</div>
             </div>
           </div>
         </div>
-<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
-          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Earnings + Key Events Today</div>
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">Earnings + Key Events Today</div>
           <div style="display:flex;gap:1px;background:#21262d;">
-            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
-              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">EARNINGS</div>
-              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">PEP</span>
+            <div style="flex:1;background:var(--bg-card);display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--tx2);border-bottom:1px solid var(--border-s);">EARNINGS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
+              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">PEP</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±7.1%</span>
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">PepsiCo reports that US consumers scaled back on snacks and soda as inflation bites.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">SMPL</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±7.1%</span>
+              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">PepsiCo reports that US consumers scaled back on snacks and soda as inflation bites.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
+              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">SMPL</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±16.9%</span>
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">The Simply Good Foods Co (SMPL) Q3 2026 Earnings Call Highlights: Navigating Challenges with.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">WDFC</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±16.9%</span>
+              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">The Simply Good Foods Co (SMPL) Q3 2026 Earnings Call Highlights: Navigating Challenges with.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
+              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">WDFC</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±12.1%</span>
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">WD-40 (NASDAQ:WDFC) Surprises With Strong Q2 CY2026, Stock Jumps 13.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid #21262d;">
-              <span style="font-weight:700;font-size:12px;color:#e6edf3;min-width:44px;flex-shrink:0;">NRIX</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±12.1%</span>
+              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">WD-40 (NASDAQ:WDFC) Surprises With Strong Q2 CY2026, Stock Jumps 13.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
+              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">NRIX</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;flex-shrink:0;">±45.8%</span>
-              <span style="font-size:11px;color:#adbac7;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Earnings Preview: Nurix Therapeutics, Inc.</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±45.8%</span>
+              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Earnings Preview: Nurix Therapeutics, Inc.</span>
             </div></div>
             </div>
-            <div style="flex:1;background:#161b22;display:flex;flex-direction:column;">
-              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#8b949e;border-bottom:1px solid #21262d;">KEY EVENTS</div>
-              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+            <div style="flex:1;background:var(--bg-card);display:flex;flex-direction:column;">
+              <div style="padding:4px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--tx2);border-bottom:1px solid var(--border-s);">KEY EVENTS</div>
+              <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid var(--border-s);font-size:11px;">
               <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">8:30 AM ET</span>
-              <span style="color:#adbac7;">Weekly Initial and Continuing Jobless Claims — labor market health check after soft NFP last week. Any surprise weakness confirms Fed dovish pivot path; strength keeps September hike real.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="color:var(--tx4);">Weekly Initial and Continuing Jobless Claims — labor market health check after soft NFP last week. Any surprise weakness confirms Fed dovish pivot path; strength keeps September hike real.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid var(--border-s);font-size:11px;">
               <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">10:00 AM ET</span>
-              <span style="color:#adbac7;">June Existing Home Sales — rate-sensitive housing data. 10-yr at 4.59% after FOMC Minutes; watch for slowdown read.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="color:var(--tx4);">June Existing Home Sales — rate-sensitive housing data. 10-yr at 4.59% after FOMC Minutes; watch for slowdown read.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid var(--border-s);font-size:11px;">
               <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">BMO Results</span>
-              <span style="color:#adbac7;">PEP (PepsiCo) — beat by $0.02, revenues in-line, reaffirmed FY26 guidance. Fell 1% on mixed read. Revenue resilience vs. EPS pressure on tight shopper budgets.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid #21262d;font-size:11px;">
+              <span style="color:var(--tx4);">PEP (PepsiCo) — beat by $0.02, revenues in-line, reaffirmed FY26 guidance. Fell 1% on mixed read. Revenue resilience vs. EPS pressure on tight shopper budgets.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:3px 12px;border-bottom:1px solid var(--border-s);font-size:11px;">
               <span style="font-size:10px;font-weight:700;color:#ffd54f;min-width:90px;">Watch Tomorrow</span>
-              <span style="color:#adbac7;">DAL (Delta Air Lines) reports AMC Friday 7/10 — key airline margin read post-Iran oil spike. Watch tonight.</span>
+              <span style="color:var(--tx4);">DAL (Delta Air Lines) reports AMC Friday 7/10 — key airline margin read post-Iran oil spike. Watch tonight.</span>
             </div></div>
             </div>
           </div>
         </div>
-<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
           <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
-          <span class="chg down">-0.0%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">QQQ</span>
-          <span class="chg down">-0.1%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">SPY</span>
@@ -1534,7 +1452,7 @@ function toggleTheme() {
         </div>
         <div class="wl-pill">
           <span class="sym">NVDA</span>
-          <span class="chg down">-0.0%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">GOOGL</span>
@@ -1542,112 +1460,112 @@ function toggleTheme() {
         </div>
         <div class="wl-pill">
           <span class="sym">AMZN</span>
-          <span class="chg down">-0.3%</span>
+          <span class="chg down">-0.2%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">META</span>
-          <span class="chg down">-0.7%</span>
+          <span class="chg down">-0.5%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">TSLA</span>
           <span class="chg down">-0.3%</span>
         </div></div>
         </div>
-<div style="display:flex;gap:1px;background:#21262d;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
+<div style="display:flex;gap:1px;background:#21262d;background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
           <div style="flex:0 0 50%;min-width:0;overflow:hidden;display:flex;flex-direction:column;">
-            <div style="padding:14px;background:#161b22;">
-              <div style="font-size:12px;font-weight:700;color:#e6edf3;margin-bottom:8px;">MU — Strat Chart</div>
+            <div style="padding:14px;background:var(--bg-card);">
+              <div style="font-size:12px;font-weight:700;color:var(--tx1);margin-bottom:8px;">MU — Strat Chart</div>
               <img src="charts/MU_2026-07-09.png" style="width:100%;border-radius:4px;display:block;">
             </div>
             <div style="border-top:1px solid #21262d;flex:1;min-width:0;display:flex;flex-direction:column;overflow-y:auto;">
-              <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#ffd54f;">Trump Watch</div>
-              <div style="display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px 0;padding:10px 14px;align-items:flex-start;border-bottom:1px solid #21262d;">
+              <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;color:#ffd54f;">Trump Watch</div>
+              <div style="display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px 0;padding:10px 14px;align-items:flex-start;border-bottom:1px solid var(--border-s);">
                 <div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DJT</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">DJT</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">MSTR</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">MSTR</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">COIN</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">COIN</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">HOOD</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">HOOD</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">INTC</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">INTC</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">DELL</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">DELL</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">IBM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.5%</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">IBM</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.4%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">XOM</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">XOM</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CVX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">CVX</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">OXY</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">OXY</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LNG</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">LNG</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">GEO</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">GEO</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-1.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">CXW</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">CXW</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">DEFENSE</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">LMT</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">LMT</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">RTX</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">RTX</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NOC</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">NOC</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">NUE</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">NUE</span>
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
-                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:#e6edf3;min-width:40px;">X</span>
+                  <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">X</span>
                   <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
                 </div>
             </div>
               </div>
-              <div style="padding:10px 14px;"><p style="margin:0 0 6px 0;color:#adbac7;font-size:11px;line-height:1.55;">Trump said he is &quot;number one&quot; on Iran's kill list (NY Times) but Washington separately signaled Wednesday's strikes may be the final round. Trump indicated Iran has expressed interest in negotiations — market is taking this as permission to rotate back into risk assets. Any escalation headline from Trump's Iran commentary will reignite the energy/defense trade and hit AI/tech again.</p><p style="margin:0 0 6px 0;color:#adbac7;font-size:11px;line-height:1.55;">Strait of Hormuz traffic at near standstill (Bloomberg) despite the negotiation signals. Oil remains elevated ($74 WTI) keeping inflation concerns alive alongside the FOMC September hike risk. The tension between &quot;Iran wants to talk&quot; and &quot;Hormuz still disrupted&quot; is the key geopolitical variable today.</p><div style="display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;">XOM</span>
-              <span style="font-weight:700;color:#8b949e;min-width:52px;">watch</span>
-              <span style="color:#adbac7;font-size:11px;flex:1;">Iran negotiations signal from Trump could deflate the oil risk premium built Wednesday. WTI still elevated at $74 but fading from $75+ peak. Watch XOM and energy names for reversal if ceasefire language firms up.</span>
+              <div style="padding:10px 14px;"><p style="margin:0 0 6px 0;color:var(--tx4);font-size:11px;line-height:1.55;">Trump said he is &quot;number one&quot; on Iran's kill list (NY Times) but Washington separately signaled Wednesday's strikes may be the final round. Trump indicated Iran has expressed interest in negotiations — market is taking this as permission to rotate back into risk assets. Any escalation headline from Trump's Iran commentary will reignite the energy/defense trade and hit AI/tech again.</p><p style="margin:0 0 6px 0;color:var(--tx4);font-size:11px;line-height:1.55;">Strait of Hormuz traffic at near standstill (Bloomberg) despite the negotiation signals. Oil remains elevated ($74 WTI) keeping inflation concerns alive alongside the FOMC September hike risk. The tension between &quot;Iran wants to talk&quot; and &quot;Hormuz still disrupted&quot; is the key geopolitical variable today.</p><div style="display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;">XOM</span>
+              <span style="font-weight:700;color:var(--tx2);min-width:52px;">watch</span>
+              <span style="color:var(--tx4);font-size:11px;flex:1;">Iran negotiations signal from Trump could deflate the oil risk premium built Wednesday. WTI still elevated at $74 but fading from $75+ peak. Watch XOM and energy names for reversal if ceasefire language firms up.</span>
             </div></div>
             </div>
           </div>
-          <div style="flex:0 0 50%;background:#161b22;padding:14px;overflow-y:auto;display:flex;flex-direction:column;">
-            <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;margin-bottom:10px;">Strat Setups</div>
+          <div style="flex:0 0 50%;background:var(--bg-card);padding:14px;overflow-y:auto;display:flex;flex-direction:column;">
+            <div style="font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;margin-bottom:10px;">Strat Setups</div>
             <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;">
               <div class="setup-row">
                   <span class="setup-ticker">MU</span>
@@ -1758,203 +1676,203 @@ function toggleTheme() {
           </div>
         </div>
 <div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">
-          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
-            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#3fb950;">▲ Bullish Gappers</div>
-            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+          <div style="flex:1;background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;color:#3fb950;">▲ Bullish Gappers</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">ALNY +17.77% — AZN Wainua ATTR-CM Phase 3 failure makes Alnylam the dominant ATTR therapy by default. Largest mover on the tape</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">ALNY +17.77% — AZN Wainua ATTR-CM Phase 3 failure makes Alnylam the dominant ATTR therapy by default. Largest mover on the tape</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">Semi rebound: MU +5.28%, MRVL +5.89%, AVGO +3.49%, SNDK +4.24%, AMD +3.28% — Samsung +5.6% and SK Hynix +10.5% in Asia set the tone overnight</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">Semi rebound: MU +5.28%, MRVL +5.89%, AVGO +3.49%, SNDK +4.24%, AMD +3.28% — Samsung +5.6% and SK Hynix +10.5% in Asia set the tone overnight</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">SK Hynix ADR 7x oversubscribed — institutional demand for memory equity exposure is massive. Confirms the memory trade is institutional, not retail</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">SK Hynix ADR 7x oversubscribed — institutional demand for memory equity exposure is massive. Confirms the memory trade is institutional, not retail</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">AVGO bullish gapper + DP + AAPL $30B chip deal. +4.8% Wednesday DURING peak Iran risk-off — never sold off</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">AVGO bullish gapper + DP + AAPL $30B chip deal. +4.8% Wednesday DURING peak Iran risk-off — never sold off</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">JPM $1.8B single print AH — biggest single-name print in weeks. Financials building into 7/14 earnings. 3-session pattern: C 6/30, JPM 7/2, JPM 7/8</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">JPM $1.8B single print AH — biggest single-name print in weeks. Financials building into 7/14 earnings. 3-session pattern: C 6/30, JPM 7/2, JPM 7/8</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">GEV $479M bid AH — power infrastructure quietly climbing the board. Industrial/power AI data center demand theme</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">GEV $479M bid AH — power infrastructure quietly climbing the board. Industrial/power AI data center demand theme</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">META $302M bid AH despite -2.84% pre-market — institutions buying the dip on custom chip news weakness</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">META $302M bid AH despite -2.84% pre-market — institutions buying the dip on custom chip news weakness</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">CBRS +7% — Cerebras European expansion, 2000MW capacity by 2027. AI infrastructure beneficiary</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">CBRS +7% — Cerebras European expansion, 2000MW capacity by 2027. AI infrastructure beneficiary</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#3fb950;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">BE bullish gapper + multi-week DP build. AI data center power demand continues</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">BE bullish gapper + multi-week DP build. AI data center power demand continues</span>
                   
                   
                 </div></div>
           </div>
-          <div style="flex:1;background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
-            <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;color:#f85149;">▼ Bearish Gappers</div>
-            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+          <div style="flex:1;background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+            <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;color:#f85149;">▼ Bearish Gappers</div>
+            <div style="padding:8px 14px 0 14px;flex:1;display:flex;flex-direction:column;justify-content:space-between;"><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">IONS -22.46% — co-developer of AZN Wainua ATTR-CM drug that failed Phase 3. Direct hit to pipeline valuation</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">IONS -22.46% — co-developer of AZN Wainua ATTR-CM drug that failed Phase 3. Direct hit to pipeline valuation</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">AZN -8% — Wainua missed primary endpoint in ATTR-CM Phase 3 trial. Phase 3 failure after significant investment</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">AZN -8% — Wainua missed primary endpoint in ATTR-CM Phase 3 trial. Phase 3 failure after significant investment</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">LEVI -4% — Q3 guidance missed (EPS 34-36c vs 38c expected) despite Q2 beat. Forward guidance is what markets price</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">LEVI -4% — Q3 guidance missed (EPS 34-36c vs 38c expected) despite Q2 beat. Forward guidance is what markets price</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">CRM -4.19% — KeyBanc downgrade to sector weight from overweight. &quot;Difficult to find evidence of future upside.&quot; Agentforce momentum questioned</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">CRM -4.19% — KeyBanc downgrade to sector weight from overweight. &quot;Difficult to find evidence of future upside.&quot; Agentforce momentum questioned</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">MU put sweep: $950P 7/10 at $3.2M into Friday — someone fading the pre-market bounce hard with short-dated puts</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">MU put sweep: $950P 7/10 at $3.2M into Friday — someone fading the pre-market bounce hard with short-dated puts</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">NBIS: $24.7M put block $210P Sept 2026 — largest options block of the week. Massive institutional bear on Nebius</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">NBIS: $24.7M put block $210P Sept 2026 — largest options block of the week. Massive institutional bear on Nebius</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">META -2.84% — custom chip in production September (Reuters). Reduces NVDA/chip supplier dependency long-term</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">META -2.84% — custom chip in production September (Reuters). Reduces NVDA/chip supplier dependency long-term</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">QQQ + SPY both showing Failed 2D — indexes at technical bearish reversal even as Nasdaq futures show green</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">QQQ + SPY both showing Failed 2D — indexes at technical bearish reversal even as Nasdaq futures show green</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">IBM Bearish Kicker — enterprise AI self-sufficiency (Starbucks cutting IBM/MSFT reliance) is a structural headwind</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">IBM Bearish Kicker — enterprise AI self-sufficiency (Starbucks cutting IBM/MSFT reliance) is a structural headwind</span>
                   
                   
-                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #21262d;font-size:12px;">
-                  <span style="font-weight:700;font-size:13px;color:#e6edf3;min-width:50px;"></span>
+                </div><div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid var(--border-s);font-size:12px;">
+                  <span style="font-weight:700;font-size:13px;color:var(--tx1);min-width:50px;"></span>
                   <span style="font-weight:700;color:#f85149;min-width:52px;"></span>
                   
-                  <span style="color:#adbac7;font-size:11px;flex:1;">COST -2% AH — June comps +7% decelerated from May 8%. Consumer tightening signal heading into Q3</span>
+                  <span style="color:var(--tx4);font-size:11px;flex:1;">COST -2% AH — June comps +7% decelerated from May 8%. Consumer tightening signal heading into Q3</span>
                   
                   
                 </div></div>
           </div>
         </div>
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;overflow:hidden;margin-bottom:6px;">
-          <div style="background:#0d1117;padding:8px 14px;border-bottom:1px solid #21262d;font-size:9px;font-weight:700;letter-spacing:.12em;color:#8b949e;text-transform:uppercase;">Dark Pool Blocks</div>
-          <div style="display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px;"><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MU</span>
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">Dark Pool Blocks</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px;"><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">MU</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$5.4B</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">JPM</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">JPM</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$3.2B</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">NVDA</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">NVDA</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$2.6B</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">JPM</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">JPM</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$1.8B</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">MU</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">MU</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$571M</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">GEV</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">GEV</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$479M</span>
               <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">IBM</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">IBM</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$476M</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">PG</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);">MIXED</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">PG</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$321M</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">NVDA</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);">MIXED</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">NVDA</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$316M</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">AAPL</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">AAPL</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$307M</span>
               <span style="font-size:10px;font-weight:700;color:#3fb950;">ASK</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">META</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">META</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$302M</span>
               <span style="font-size:10px;font-weight:700;color:#f85149;">BID</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">ABBV</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">ABBV</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$300M</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
-            </div><div style="display:flex;flex-direction:column;align-items:center;background:#1c2128;border-radius:4px;padding:8px 12px;min-width:80px;">
-              <span style="font-weight:700;font-size:13px;color:#e6edf3;">CRM</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);">MIXED</span>
+            </div><div style="display:flex;flex-direction:column;align-items:center;background:var(--bg-hover);border-radius:4px;padding:8px 12px;min-width:80px;">
+              <span style="font-weight:700;font-size:13px;color:var(--tx1);">CRM</span>
               <span style="font-size:12px;color:#ffd54f;font-weight:600;">$273M</span>
-              <span style="font-size:10px;font-weight:700;color:#8b949e;">MIXED</span>
+              <span style="font-size:10px;font-weight:700;color:var(--tx2);">MIXED</span>
             </div></div>
         </div>
 
