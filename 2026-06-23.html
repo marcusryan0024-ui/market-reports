@@ -14,10 +14,10 @@
     }
     body.light {
         /* ── LIGHT (Premium Daylight) ── */
-        --bg-page:#edf1f7; --bg-nav:#ffffff; --bg-card:#ffffff;
-        --bg-hover:#f7f9fc; --bg-input:#f7f9fc;
-        --border:#d8e2ed; --border-s:#eaeff5;
-        --tx1:#0e1c30; --tx2:#496080; --tx3:#8aa0b8; --tx4:#2d4a65; --tx5:#2d4a65;
+        --bg-page:#e8eef8; --bg-nav:#ffffff; --bg-card:#ffffff;
+        --bg-hover:#dce8f7; --bg-input:#f2f6fc;
+        --border:#c8d8ea; --border-s:#dde8f4;
+        --tx1:#0c1a2e; --tx2:#3a5878; --tx3:#7a96b0; --tx4:#22405e; --tx5:#22405e;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -888,7 +888,8 @@
     }
     body.light .card-header, body.light .brief-header,
     body.light .wl-card .card-header, body.light .on-deck .card-header {
-        background: linear-gradient(135deg, #f7f9fc 0%, var(--bg-card) 100%);
+        background: linear-gradient(135deg, #eaf2fc 0%, #f4f8ff 100%);
+        border-bottom-color: var(--border);
     }
     body.light .rpt-sub-nav {
         border-bottom-color: transparent;
@@ -916,12 +917,12 @@
     body.light .spotlight-card.rank-1{background:linear-gradient(135deg,#fffbeb 0%,var(--bg-card) 60%);border-color:#fbbf24}
     body.light .econ-item.today-item .econ-day{color:#0284c7}
     body.light .longterm-card{border-left-color:#388bfd}
-    body.light .longterm-card .card-header{background:linear-gradient(135deg,#eff6ff,#f7f9fc);border-bottom-color:#dbeafe;color:#388bfd}
+    body.light .longterm-card .card-header{background:linear-gradient(135deg,#dbeafe,#eaf2fc);border-bottom-color:#93c5fd;color:#1d4ed8}
     body.light .watch-card{border-color:#93c5fd}
-    body.light .watch-card .card-header{background:linear-gradient(135deg,#eff6ff,#f7f9fc);border-bottom-color:#bfdbfe;color:#1d4ed8}
-    body.light .strat-badge{color:#92700a;background:#fef3c722;border-color:#fbbf2455}
+    body.light .watch-card .card-header{background:linear-gradient(135deg,#dbeafe,#eaf2fc);border-bottom-color:#93c5fd;color:#1d4ed8}
+    body.light .strat-badge{color:#7a4e08;background:#fef3c730;border-color:#f59e0b55}
     body.light .dp-side.mixed{color:var(--tx2)}
-    body.light .brief-col { background: linear-gradient(180deg, #fafcff 0%, var(--bg-card) 100%); }
+    body.light .brief-col { background: linear-gradient(180deg, #f5faff 0%, var(--bg-card) 100%); }
     body.light tr:hover td { background: #f3f7fb; }
     body.light .watch-item:hover { background: #f3f7fb; }
     body.light .deck-row:hover { background: #f3f7fb; }
@@ -1144,7 +1145,7 @@ function toggleTheme() {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">AFTER CLOSE</span>
-  <span class="meta">Tuesday, June 23, 2026 &nbsp;·&nbsp; 05:14 PM</span>
+  <span class="meta">Tuesday, June 23, 2026 &nbsp;·&nbsp; 05:35 PM</span>
 </div>
 
 
@@ -1389,11 +1390,6 @@ function toggleTheme() {
               <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±16.9%</span>
               <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">The Simply Good Foods Co (SMPL) Q3 2026 Earnings Call Highlights: Navigating Challenges with.</span>
             </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
-              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">WDFC</span>
-              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
-              <span style="font-size:10px;font-weight:700;color:var(--tx2);flex-shrink:0;">±12.1%</span>
-              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">WD-40 (NASDAQ:WDFC) Surprises With Strong Q2 CY2026, Stock Jumps 13.</span>
-            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
               <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">FDX</span>
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
               
@@ -1403,6 +1399,11 @@ function toggleTheme() {
               <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
               
               <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Bearish Kicker + $645M bid AH Monday.</span>
+            </div><div style="display:flex;align-items:center;gap:8px;padding:4px 12px;border-bottom:1px solid var(--border-s);">
+              <span style="font-weight:700;font-size:12px;color:var(--tx1);min-width:44px;flex-shrink:0;">BANK</span>
+              <span class="badge badge-amc" style="flex-shrink:0;">AM</span>
+              
+              <span style="font-size:11px;color:var(--tx4);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"></span>
             </div></div>
             </div>
             <div style="flex:1;background:var(--bg-card);display:flex;flex-direction:column;">
