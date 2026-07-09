@@ -871,39 +871,52 @@
     .card, .morning-brief, .pick-card, .spotlight-card,
     .wl-card, .on-deck, .econ-strip, .sector-panel,
     .result-card, .longterm-card, .watch-card {
-        box-shadow: inset 0 1px 0 rgba(255,255,255,.03), 0 1px 3px rgba(0,0,0,.4);
-        transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
+        box-shadow:
+            inset 0 1px 0 rgba(100,160,255,.05),
+            0 1px 3px rgba(0,0,0,.6),
+            0 4px 20px rgba(0,0,0,.3);
+        transition: background-color .3s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .spotlight-card.rank-1 {
+        box-shadow:
+            inset 0 1px 0 rgba(255,213,79,.08),
+            0 0 0 1px rgba(255,213,79,.12),
+            0 4px 24px rgba(0,0,0,.4),
+            0 0 32px rgba(255,213,79,.05);
     }
     .card-header, .brief-header, .wl-card .card-header, .on-deck .card-header {
-        background: linear-gradient(135deg, var(--bg-nav) 0%, var(--bg-page) 100%);
+        background: linear-gradient(180deg, var(--bg-nav) 0%, var(--bg-card) 100%);
     }
-    .rpt-sub-nav { transition: background-color .25s ease; }
+    .rpt-sub-nav { transition: background-color .3s ease; }
 
     /* ── LIGHT MODE POLISH ── */
     body.light .card, body.light .morning-brief, body.light .pick-card,
     body.light .spotlight-card, body.light .wl-card, body.light .on-deck,
     body.light .econ-strip, body.light .sector-panel, body.light .result-card,
     body.light .longterm-card, body.light .watch-card, body.light .headline-bar {
-        box-shadow: 0 1px 4px rgba(14,28,48,.08), 0 1px 2px rgba(14,28,48,.04);
+        box-shadow: 0 1px 3px rgba(15,24,40,.06), 0 4px 16px rgba(15,24,40,.08);
+    }
+    body.light .spotlight-card.rank-1 {
+        box-shadow: 0 1px 3px rgba(15,24,40,.06), 0 4px 20px rgba(15,24,40,.1), 0 0 0 1px rgba(251,191,36,.3);
     }
     body.light .card-header, body.light .brief-header,
     body.light .wl-card .card-header, body.light .on-deck .card-header {
-        background: linear-gradient(135deg, #eaf2fc 0%, #f4f8ff 100%);
-        border-bottom-color: var(--border);
+        background: #f8fafb;
+        border-bottom: 1px solid var(--border-s);
     }
     body.light .rpt-sub-nav {
         border-bottom-color: transparent;
-        box-shadow: 0 2px 8px rgba(14,28,48,.06);
+        box-shadow: 0 1px 0 var(--border-s), 0 4px 12px rgba(15,24,40,.05);
     }
-    /* deeper green/red for readability on white */
-    body.light .up { color:#0a7a3c; }
-    body.light .down { color:#c8282a; }
-    body.light .gapper-pct.up { color:#0a7a3c; }
-    body.light .gapper-pct.down { color:#c8282a; }
-    body.light .ah-up { color:#0a7a3c; }
-    body.light .ah-down { color:#c8282a; }
-    body.light .dp-side.ask { color:#0a7a3c; }
-    body.light .dp-side.bid { color:#c8282a; }
+    /* premium green/red for white backgrounds */
+    body.light .up { color:#16a34a; }
+    body.light .down { color:#dc2626; }
+    body.light .gapper-pct.up { color:#16a34a; }
+    body.light .gapper-pct.down { color:#dc2626; }
+    body.light .ah-up { color:#16a34a; }
+    body.light .ah-down { color:#dc2626; }
+    body.light .dp-side.ask { color:#16a34a; }
+    body.light .dp-side.bid { color:#dc2626; }
     body.light .rpt-btn{border-color:var(--border);color:var(--tx2)}
     body.light .rpt-pre{background:#dbeafe;border-color:#93c5fd;color:#1d4ed8}
     body.light .rpt-pre:hover{background:#bfdbfe}
@@ -917,15 +930,15 @@
     body.light .spotlight-card.rank-1{background:linear-gradient(135deg,#fffbeb 0%,var(--bg-card) 60%);border-color:#fbbf24}
     body.light .econ-item.today-item .econ-day{color:#0284c7}
     body.light .longterm-card{border-left-color:#388bfd}
-    body.light .longterm-card .card-header{background:linear-gradient(135deg,#dbeafe,#eaf2fc);border-bottom-color:#93c5fd;color:#1d4ed8}
-    body.light .watch-card{border-color:#93c5fd}
-    body.light .watch-card .card-header{background:linear-gradient(135deg,#dbeafe,#eaf2fc);border-bottom-color:#93c5fd;color:#1d4ed8}
-    body.light .strat-badge{color:#7a4e08;background:#fef3c730;border-color:#f59e0b55}
-    body.light .dp-side.mixed{color:var(--tx2)}
-    body.light .brief-col { background: linear-gradient(180deg, #f5faff 0%, var(--bg-card) 100%); }
-    body.light tr:hover td { background: #f3f7fb; }
-    body.light .watch-item:hover { background: #f3f7fb; }
-    body.light .deck-row:hover { background: #f3f7fb; }
+    body.light .longterm-card .card-header{background:#eff6ff;border-bottom-color:#bfdbfe;color:#1d4ed8}
+    body.light .watch-card{border-color:#bfdbfe}
+    body.light .watch-card .card-header{background:#eff6ff;border-bottom-color:#bfdbfe;color:#1d4ed8}
+    body.light .strat-badge{color:#92400e;background:#fef3c740;border-color:#d9770655}
+    body.light .dp-side.mixed{color:var(--tx3)}
+    body.light .brief-col { background: var(--bg-card); }
+    body.light tr:hover td { background: #f4f8ff; }
+    body.light .watch-item:hover { background: #f4f8ff; }
+    body.light .deck-row:hover { background: #f4f8ff; }
     </style>
 </head>
 <body>
@@ -1145,7 +1158,7 @@ function toggleTheme() {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">AFTER CLOSE</span>
-  <span class="meta">Thursday, June 25, 2026 &nbsp;·&nbsp; 05:36 PM</span>
+  <span class="meta">Thursday, June 25, 2026 &nbsp;·&nbsp; 06:02 PM</span>
 </div>
 
 
