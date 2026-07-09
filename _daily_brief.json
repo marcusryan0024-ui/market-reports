@@ -7490,5 +7490,320 @@
         }
       ]
     }
+  },
+  "2026-07-09": {
+    "headline": "Semi/AI Rebound Leads Nasdaq +0.56% as Market Looks Past Iran; ALNY +18% on ATTR Space Win; IONS -22%, AZN -8% on Wainua Trial Failure",
+    "overview": "Market stabilizing with AI/semi rebound leading Nasdaq +0.56% as Iran walk-back gives permission to rotate back in. The real story is the FOMC Minutes context: 9-8 split on whether to hike this year \u2014 but those minutes were written BEFORE the 57K NFP miss on July 2. Markets are now reconciling a hawkish Fed document with a softer labor picture. CME FedWatch September hike odds now 50-55%, down from 66% pre-NFP. CPI Tuesday 7/14 is the swing factor. Meanwhile NVDA +3.7% and AVGO +4.8% rallied THROUGH Wednesday's Iran risk-off morning \u2014 the AI trade is asserting dominance over geopolitics. Samsung +5.6% and SK Hynix +10.5% Asia overnight, SK Hynix ADR 7x oversubscribed. MU +5.28% premarket with BofA bullish reiteration \u2014 BUT a $3.2M MU $950P 7/10 sweep into Friday says someone is fading the bounce. JPM $1.8B single print AH is the week's biggest single-name flag and lines up with JPM earnings + CPI both on 7/14. ALNY +17.77% as AZN's Wainua ATTR-CM drug failed Phase 3 \u2014 Alnylam's competing therapy is now the dominant ATTR treatment. IONS -22.46% as the co-developer.",
+    "market_context": "Semi/AI rotation is back in control after a one-day Iran detour. The key insight from Flowms: NVDA +3.7% and AVGO +4.8% rallied during Wednesday's worst risk-off hours \u2014 institutions used the geopolitical dip to buy AI. The DP picture is nuanced: MU $5.4B ask led all flow Wednesday (distribution), JPM $3.2B ask with $1.8B single print AH (earnings positioning for 7/14), NVDA $2.6B ask (still distributing). All three top names are ask-side on a whipsaw day. GEV $479M bid is the standout bullish single print \u2014 power infrastructure climbing the board quietly for weeks. META $302M bid AH despite -2.84% pre-market on the custom chip news \u2014 institutions are buying the dip. The MU put sweep ($950P 7/10 $3.2M) is the morning's biggest red flag: fade-the-bounce positioning into Friday on the name that's leading pre-market. NBIS $24.7M put block into September is a massive institutional bearish bet on that name. Q2 earnings season: PEP opened the season this morning (beat EPS, in-line revenue, fell 1%). DAL tomorrow. JPM + CPI both Tuesday 7/14 \u2014 the week that matters.",
+    "setups": [
+      {
+        "ticker": "MU",
+        "pattern": "Bounce / Put Sweep Conflict",
+        "bias": "WATCH",
+        "flow": "$5.4B ask total flow Wed + $571M ask AH + $950P 7/10 sweep $3.2M into Friday",
+        "why": "MU is the morning's most conflicted setup: +5.28% pre-market on BofA bullish reiteration + Samsung/SK Hynix bounce, BUT $3.2M put sweep into FRIDAY ($950P 7/10) says someone is fading this bounce hard. DP continued ask-side ($5.4B total, $571M single AH). Watch whether the bounce holds through the session or the put sweep wins."
+      },
+      {
+        "ticker": "JPM",
+        "pattern": "Watch (<3 prints becoming major)",
+        "bias": "BULL",
+        "flow": "$3.2B ask total + $1.8B single print AH \u2014 week's biggest single name",
+        "why": "JPM $1.8B AH is one of the biggest single prints flagged in weeks. Financials pattern building: C led on 6/30, JPM led 7/2, JPM again 7/8 \u2014 three sessions of institutional positioning into 7/14 earnings (which is also CPI day). Bank earnings + inflation data same morning = maximum vol event. The $1.8B ask-side positioning is either a hedge or a directional bet ahead of results."
+      },
+      {
+        "ticker": "NBIS",
+        "pattern": "Outside (3)",
+        "bias": "BEAR",
+        "flow": "$24.7M put block $210P Sept 18 2026 \u2014 week's largest options block",
+        "why": "Outside (3) bar range expansion with the largest options block of the week \u2014 $24.7M put block into September. Nebius Group showing up on both the strat scanner and with massive institutional bearish positioning. When an outside bar aligns with a nine-figure put block, you pay attention."
+      },
+      {
+        "ticker": "AMD",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "DP on board",
+        "why": "Failed 2D bearish reversal with DP on board. AMD bouncing pre-market (+3.28%) on the semi rebound but strat signal from yesterday's candle is bearish. Failed 2D bounce = fade-the-bounce candidate, consistent with the MU put sweep theme."
+      },
+      {
+        "ticker": "QQQ",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "ETF board: IVV $677M ask + SPY $555M ask on Wed",
+        "why": "QQQ showing Failed 2D alongside SPY and INTC \u2014 the index itself is at a bearish reversal signal even as Nasdaq futures show +0.56%. Failed 2D on QQQ with ask-side ETF flow on Wednesday says the institutional rotation is more complex than the futures print suggests."
+      },
+      {
+        "ticker": "SPY",
+        "pattern": "Failed 2D",
+        "bias": "BEAR",
+        "flow": "$555M ask on ETF board Wednesday",
+        "why": "SPY Failed 2D. S&P futures +0.10% but the strat candle says reversal. Reconcile this against the Nasdaq strength \u2014 rotation within the index (AI up, cyclicals down) rather than broad market lift."
+      },
+      {
+        "ticker": "AVGO",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on board, AAPL $30B chip deal tailwind",
+        "why": "AVGO +4.8% Wednesday during peak Iran risk-off \u2014 institutions never sold it. Bullish gapper with DP on board. AAPL $30B custom silicon deal through 2031 is the structural tailwind. One of the cleanest bull setups in the tape."
+      },
+      {
+        "ticker": "META",
+        "pattern": "Bearish Gapper",
+        "bias": "WATCH",
+        "flow": "$302M bid AH Wednesday \u2014 institutions buying the dip",
+        "why": "Bearish gapper on Reuters custom chip news (negative for NVDA supply chain dependency) but $302M bid AH says institutions are using the weakness to buy. Conflict: strat says bear, DP says bull. Let price confirm direction at the open before committing."
+      },
+      {
+        "ticker": "GEV",
+        "pattern": "Failed 2U",
+        "bias": "WATCH",
+        "flow": "$479M bid AH \u2014 climbing the board for weeks",
+        "why": "GE Vernova $479M bid AH is the standout bullish single print Wednesday. Power infrastructure quietly building on the board for weeks. Failed 2U is a bearish strat signal \u2014 but the $479M bid AH is institutional accumulation. Similar conflict to META: watch the open for direction."
+      },
+      {
+        "ticker": "IBM",
+        "pattern": "Bearish Kicker",
+        "bias": "BEAR",
+        "flow": "$476M mixed AH",
+        "why": "Bearish kicker continuing from Wednesday. IBM -4.06% pre-market. Starbucks tapping AI to cut reliance on Microsoft and IBM software \u2014 enterprise AI self-sufficiency narrative. DP $476M mixed AH."
+      },
+      {
+        "ticker": "BE",
+        "pattern": "Bullish Gapper",
+        "bias": "BULL",
+        "flow": "DP on board \u2014 multi-week build",
+        "why": "Bloom Energy bullish gapper with DP on board for multiple weeks. AI data center power demand theme. Consistent institutional accumulation \u2014 this is a slow build, not a day-trade, but the gapper + DP signals continuation."
+      },
+      {
+        "ticker": "ALNY",
+        "pattern": "Bullish Kicker",
+        "bias": "BULL",
+        "flow": "+17.77% pre-market on AZN Wainua ATTR-CM Phase 3 failure",
+        "why": "AstraZeneca's Wainua drug failed its primary endpoint in the ATTR-CM Phase 3 trial. Alnylam's competing ATTR treatment (vutrisiran) is now the dominant therapy in the space by default. +17.77% is a gap-and-go catalyst \u2014 biotech competitive moat just got confirmed by a rival's failure."
+      },
+      {
+        "ticker": "MRVL",
+        "pattern": "Inside (1)",
+        "bias": "BULL",
+        "flow": "DP on board ($231M mixed AH), semi rebound",
+        "why": "Marvell Inside (1) coiling with DP on board. +5.89% pre-market on the semi rebound. Inside bar compression into a semi bounce day \u2014 watch for the direction of the break."
+      }
+    ],
+    "bulls": [
+      "ALNY +17.77% \u2014 AZN Wainua ATTR-CM Phase 3 failure makes Alnylam the dominant ATTR therapy by default. Largest mover on the tape",
+      "Semi rebound: MU +5.28%, MRVL +5.89%, AVGO +3.49%, SNDK +4.24%, AMD +3.28% \u2014 Samsung +5.6% and SK Hynix +10.5% in Asia set the tone overnight",
+      "SK Hynix ADR 7x oversubscribed \u2014 institutional demand for memory equity exposure is massive. Confirms the memory trade is institutional, not retail",
+      "AVGO bullish gapper + DP + AAPL $30B chip deal. +4.8% Wednesday DURING peak Iran risk-off \u2014 never sold off",
+      "JPM $1.8B single print AH \u2014 biggest single-name print in weeks. Financials building into 7/14 earnings. 3-session pattern: C 6/30, JPM 7/2, JPM 7/8",
+      "GEV $479M bid AH \u2014 power infrastructure quietly climbing the board. Industrial/power AI data center demand theme",
+      "META $302M bid AH despite -2.84% pre-market \u2014 institutions buying the dip on custom chip news weakness",
+      "CBRS +7% \u2014 Cerebras European expansion, 2000MW capacity by 2027. AI infrastructure beneficiary",
+      "BE bullish gapper + multi-week DP build. AI data center power demand continues"
+    ],
+    "bears": [
+      "IONS -22.46% \u2014 co-developer of AZN Wainua ATTR-CM drug that failed Phase 3. Direct hit to pipeline valuation",
+      "AZN -8% \u2014 Wainua missed primary endpoint in ATTR-CM Phase 3 trial. Phase 3 failure after significant investment",
+      "LEVI -4% \u2014 Q3 guidance missed (EPS 34-36c vs 38c expected) despite Q2 beat. Forward guidance is what markets price",
+      "CRM -4.19% \u2014 KeyBanc downgrade to sector weight from overweight. \"Difficult to find evidence of future upside.\" Agentforce momentum questioned",
+      "MU put sweep: $950P 7/10 at $3.2M into Friday \u2014 someone fading the pre-market bounce hard with short-dated puts",
+      "NBIS: $24.7M put block $210P Sept 2026 \u2014 largest options block of the week. Massive institutional bear on Nebius",
+      "META -2.84% \u2014 custom chip in production September (Reuters). Reduces NVDA/chip supplier dependency long-term",
+      "QQQ + SPY both showing Failed 2D \u2014 indexes at technical bearish reversal even as Nasdaq futures show green",
+      "IBM Bearish Kicker \u2014 enterprise AI self-sufficiency (Starbucks cutting IBM/MSFT reliance) is a structural headwind",
+      "COST -2% AH \u2014 June comps +7% decelerated from May 8%. Consumer tightening signal heading into Q3"
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "XOM",
+        "pct": "watch",
+        "news": "Iran negotiations signal from Trump could deflate the oil risk premium built Wednesday. WTI still elevated at $74 but fading from $75+ peak. Watch XOM and energy names for reversal if ceasefire language firms up."
+      }
+    ],
+    "trump_context": [
+      "Trump said he is \"number one\" on Iran's kill list (NY Times) but Washington separately signaled Wednesday's strikes may be the final round. Trump indicated Iran has expressed interest in negotiations \u2014 market is taking this as permission to rotate back into risk assets. Any escalation headline from Trump's Iran commentary will reignite the energy/defense trade and hit AI/tech again.",
+      "Strait of Hormuz traffic at near standstill (Bloomberg) despite the negotiation signals. Oil remains elevated ($74 WTI) keeping inflation concerns alive alongside the FOMC September hike risk. The tension between \"Iran wants to talk\" and \"Hormuz still disrupted\" is the key geopolitical variable today."
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$5.4B",
+        "side": "ask",
+        "note": "Wed 7/8 total \u2014 led all flow again. Continued distribution pattern"
+      },
+      {
+        "ticker": "JPM",
+        "size": "$3.2B",
+        "side": "ask",
+        "note": "Wed 7/8 total \u2014 building into 7/14 earnings + CPI"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$2.6B",
+        "side": "ask",
+        "note": "Wed 7/8 total \u2014 all three top names ask-side on whipsaw day"
+      },
+      {
+        "ticker": "JPM",
+        "size": "$1.8B",
+        "side": "ask",
+        "note": "AH Wed 7/8 \u2014 largest single-name print in weeks. Earnings 7/14 (CPI day)"
+      },
+      {
+        "ticker": "MU",
+        "size": "$571M",
+        "side": "ask",
+        "note": "AH Wed 7/8 single print"
+      },
+      {
+        "ticker": "GEV",
+        "size": "$479M",
+        "side": "bid",
+        "note": "AH Wed 7/8 \u2014 standout bullish print. Power infrastructure climbing board for weeks"
+      },
+      {
+        "ticker": "IBM",
+        "size": "$476M",
+        "side": "mixed",
+        "note": "AH Wed 7/8"
+      },
+      {
+        "ticker": "PG",
+        "size": "$321M",
+        "side": "mixed",
+        "note": "AH Wed 7/8 \u2014 defensive consumer staple"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$316M",
+        "side": "ask",
+        "note": "AH Wed 7/8 single print"
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$307M",
+        "side": "ask",
+        "note": "AH Wed 7/8"
+      },
+      {
+        "ticker": "META",
+        "size": "$302M",
+        "side": "bid",
+        "note": "AH Wed 7/8 \u2014 institutions buying the dip on custom chip news weakness"
+      },
+      {
+        "ticker": "ABBV",
+        "size": "$300M",
+        "side": "mixed",
+        "note": "AH Wed 7/8"
+      },
+      {
+        "ticker": "CRM",
+        "size": "$273M",
+        "side": "mixed",
+        "note": "AH Wed 7/8 \u2014 KeyBanc downgrade this morning"
+      }
+    ],
+    "events": [
+      {
+        "type": "8:30 AM ET",
+        "detail": "Weekly Initial and Continuing Jobless Claims \u2014 labor market health check after soft NFP last week. Any surprise weakness confirms Fed dovish pivot path; strength keeps September hike real."
+      },
+      {
+        "type": "10:00 AM ET",
+        "detail": "June Existing Home Sales \u2014 rate-sensitive housing data. 10-yr at 4.59% after FOMC Minutes; watch for slowdown read."
+      },
+      {
+        "type": "BMO Results",
+        "detail": "PEP (PepsiCo) \u2014 beat by $0.02, revenues in-line, reaffirmed FY26 guidance. Fell 1% on mixed read. Revenue resilience vs. EPS pressure on tight shopper budgets."
+      },
+      {
+        "type": "Watch Tomorrow",
+        "detail": "DAL (Delta Air Lines) reports AMC Friday 7/10 \u2014 key airline margin read post-Iran oil spike. Watch tonight."
+      }
+    ],
+    "morning_prep": {
+      "theme": "Buy time on drawdowns \u2014 ETFs printing Failed 2 Down Day with extreme volume potential. Key plays: COST FTFC to downside on -$1B monthly sales miss, ANET and CRWV extreme volume setups, TXN consolidation watch, PEP earnings ORB. Don't like puts on earnings due to gap risk.",
+      "rules": [
+        "Always good to buy time because drawdowns aren't as bad",
+        "Take profits and leave runners",
+        "Allow plays to develop until around 9am before adjusting",
+        "Weeklies = lotto \u2014 size down; buy 1-2 weeks out is safer",
+        "On earnings: 10 min ORB only, don't like puts due to gapping"
+      ],
+      "market": "ETFs showing Failed 2 Down Day with extreme volume play potential \u2014 aligns with QQQ and SPY Failed 2D on the Strat scanner from yesterday. COST down $1B monthly sales premarket, FTFC continuity to downside, DB at 925. TXN consolidating at $330 Heatmap level (7/17) \u2014 on watch, need $311 break for next week call entry. PEP earnings reaction at the open: 10 min ORB, trampoline setup \u2014 price must bounce off OB or get under 133.",
+      "setups": [
+        {
+          "ticker": "COST",
+          "tier": 1,
+          "catalyst": "Monthly sales down $1B premarket \u2014 FTFC to downside",
+          "levels": "DB @ 925 | 3-2 weekly triggers @ 920.55",
+          "bull": "Reclaim and hold 925 DB level",
+          "bear": "FTFC continuation through 920.55 on 3-2 weekly trigger",
+          "note": "Allow play to develop until around 9am"
+        },
+        {
+          "ticker": "PEP",
+          "tier": 1,
+          "catalyst": "Earnings reaction \u2014 beat EPS $0.02, reaffirmed FY26, fell 1%",
+          "levels": "Trampoline: bounce off OB or get under 133",
+          "bull": "Bounce off OB \u2014 trampoline setup",
+          "bear": "Get under 133 | Don't like puts due to gap risk",
+          "note": "10 min ORB only \u2014 wait for direction confirmation"
+        },
+        {
+          "ticker": "TXN",
+          "tier": 1,
+          "catalyst": "Consolidating at $330 Heatmap (7/17) \u2014 on watch",
+          "levels": "2UP @ 307 | Call entry above $311",
+          "bull": "Price over $311 = call entry for next week cons play",
+          "bear": "Below $307 loses the 2UP level",
+          "note": "Gaps to be filled. Next week consolidation play \u2014 not a today trade."
+        },
+        {
+          "ticker": "ANET",
+          "tier": 2,
+          "catalyst": "$200 on Heatmap 7/17 \u2014 extreme volume play",
+          "levels": "Heatmap $200",
+          "bull": "Extreme volume continuation",
+          "bear": "Example of risking your stop \u2014 size accordingly",
+          "note": "Extreme volume play \u2014 risk your stop properly"
+        },
+        {
+          "ticker": "CRWV",
+          "tier": 2,
+          "catalyst": "2-2 reversal, $100 on Heatmap 7/17 \u2014 failed 2 down week",
+          "levels": "Heatmap $100",
+          "bull": "2-2 reversal off failed 2 down week \u2014 extreme volume",
+          "bear": "Failed 2 down week continuation",
+          "note": "Take profits and leave runners"
+        },
+        {
+          "ticker": "TSM",
+          "tier": 2,
+          "catalyst": "Monthly sales after hours \u2014 swing overnight",
+          "levels": "EOD straddle candidate",
+          "bull": "Monthly sales beat = gap continuation",
+          "bear": "EOD straddle for vol \u2014 weeklies lotto only (size down)",
+          "note": "Buy 1-2 weeks out is safer. Sometimes takes a minute to play out."
+        },
+        {
+          "ticker": "PENG",
+          "tier": 2,
+          "catalyst": "Earnings \u2014 potential CPW",
+          "levels": "Watch for paid setup",
+          "bull": "CPW potential \u2014 paid setup confirmed",
+          "bear": "N/A",
+          "note": "Earnings play \u2014 PAID"
+        },
+        {
+          "ticker": "OKTA",
+          "tier": 2,
+          "catalyst": "Hit scanner, has event next week",
+          "levels": "Watch",
+          "bull": "Potential extreme volume play into event",
+          "bear": "N/A",
+          "note": "Hit scanner with event next week \u2014 build position now"
+        }
+      ]
+    }
   }
 }
