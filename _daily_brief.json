@@ -7805,5 +7805,260 @@
         }
       ]
     }
+  },
+  "2026-07-10": {
+    "headline": "SKHY Debut + META Triple Confluence \u2014 0DTE Friday",
+    "overview": "0DTE Friday with no tier-1 macro. Memory is the headline: SK Hynix (SKHY) starts trading in the U.S. after a $26B IPO that came in 7x oversubscribed \u2014 KOSPI ripped ~4% overnight, but U.S. chips are pulling back on supply worry (MU -1.1%, SNDK -2.1%, INTC -2.1%, AMKR -2.3%). Offsetting the semi drag: META has triple confluence today \u2014 top DP flow ($2.0B), 3 Bar/Outside setup, and bullish gapper \u2014 all off yesterday's +4.7% session on Reuters AI chip production news. META is now tracking +12% for the week. Crypto ripping: BTC crossed $64K for the first time since mid-June, driving MSTR +5.9%, COIN +5.0%, HOOD +3.3%, and CRCL +16.6% after its OCC national trust bank approval. DAL reported BMO, beat top and bottom line, but -2.25% premarket with focus on fuel costs \u2014 opener for airline earnings season. Big week ahead: banks start 7/14, CPI 7/14, and Fed Warsh delivers semi-annual monetary policy report.",
+    "market_context": "Futures mixed: NDX -0.4% below fair value, SPX -0.2% below, DJIA +0.2% above. Semi supply concerns dominate early after SKHY priced $149/ADS, raising ~$26B \u2014 the largest IPO in years, piquing fears of memory dilution. Iran: new intelligence of assassination plot on Trump (WSJ); technical U.S.-Iran talks continue despite tensions (Bloomberg); ECB September rate hike expectations rising on view the U.S.-Iran ceasefire is 'essentially over.' WTI +1.0% to $72.80, nat gas -1.2% to $2.98, gold -0.7% to $4,112. 10-yr yield +1bp to 4.55%, 2-yr +2bps to 4.18%. DXY -0.1% to 100.85. No U.S. economic data today. Week's two defining prints: jobless claims 215K (below ~223K est) and existing home sales -2.4% June.",
+    "setups": [
+      {
+        "ticker": "META",
+        "tier": 1,
+        "catalyst": "AI chip production in September (Reuters) \u2014 +4.7% yesterday, +12% week. Triple confluence: top DP flow $2.0B mixed, 3 Bar/Outside, bullish gapper",
+        "levels": "3 Bar/Outside \u2014 watch for continuation above yesterday's close | EU DSA breach finding is headline risk",
+        "bull": "3 Bar continuation \u2014 open above yesterday's high triggers momentum entry",
+        "bear": "EU DSA enforcement headline could cap; size discipline on a 12% week",
+        "note": "3 spots of confluence on one name is rare \u2014 highest priority setup today"
+      },
+      {
+        "ticker": "IBM",
+        "tier": 1,
+        "catalyst": "Failed 2D setup + $917M ask AH (2nd largest single-name print). Earnings coming later this month",
+        "levels": "Failed 2D \u2014 watch downside trigger level | Earnings catalyst builds into close",
+        "bull": "Massive ask-side DP build argues against fading \u2014 flow + setup aligned bull",
+        "bear": "Failed 2D trigger below gives short; earnings uncertainty keeps overhead",
+        "note": "JPM and IBM are in their own tier on the DP board \u2014 institutions are positioning for earnings"
+      },
+      {
+        "ticker": "NVDA",
+        "tier": 1,
+        "catalyst": "Inside (1) setup + largest options sweep: 202.5C 7/10 at $2M (expires today, 0DTE)",
+        "levels": "Inside (1) \u2014 break above triggers bull, break below triggers bear | 202.5 call strike is the key level",
+        "bull": "202.5 break to the upside + Inside resolution = momentum call play",
+        "bear": "Inside breaks down with semi pressure from SKHY; 0DTE decay brutal on wrong direction",
+        "note": "0DTE sweep + Inside setup = pin-or-rip \u2014 be early on direction read by 9:45 AM"
+      },
+      {
+        "ticker": "JPM",
+        "tier": 1,
+        "catalyst": "Led single-name DP prints 2nd day running \u2014 $933M ask AH. Banks report earnings Tuesday 7/14 (also CPI day)",
+        "levels": "Watch pre-earnings positioning into close | Broad ask-side ETF flow aligns (SPY $5B ask, QQQ $4.3B ask AH)",
+        "bull": "Institutions accumulating ahead of 7/14 \u2014 3-session DP pattern (C 6/30, JPM 7/2, JPM 7/9 all ask)",
+        "bear": "Buy-the-rumor sell-the-news on earnings Monday if broader tape weakens",
+        "note": "Pattern: JPM leading DP 2 days = positioning play. CPI + earnings same day 7/14 is a vol event"
+      },
+      {
+        "ticker": "NFLX",
+        "tier": 2,
+        "catalyst": "Failed 2D setup + unusual options volume above average + earnings next week 7/16. Live TV/bundle expansion story (WSJ)",
+        "levels": "Failed 2D trigger to downside | Watch unusual options filter for active strikes",
+        "bull": "Earnings anticipation + bundle story drives pre-earnings bid",
+        "bear": "Failed 2D trigger below = short into earnings setup",
+        "note": "Earnings 7/16 \u2014 buy 1-2 weeks out, not same-week weeklies"
+      },
+      {
+        "ticker": "DAL",
+        "tier": 2,
+        "catalyst": "Bearish kicker + earnings BMO: Q2 revenue ~$20B (+19% YoY, ~$1B beat), beat EPS $0.07, guides Q3 in-line, reaffirms FY26. But -1% premarket as oil prices erased initial post-earnings rally. Higher fuel costs > beat",
+        "levels": "Bearish kicker \u2014 open below yesterday's close = continuation short",
+        "bull": "Market digests beat and guide, fuel concern fades = reversal opportunity",
+        "bear": "Fuel cost narrative + bearish kicker = FTFC continuation lower",
+        "note": "Beat everything and still selling \u2014 market pricing airline margin compression from oil, not revenue. $20B Q2 is impressive; the guide didn't satisfy"
+      },
+      {
+        "ticker": "CRCL",
+        "tier": 2,
+        "catalyst": "3 Bar/Outside + OCC approved Circle National Trust \u2014 regulated digital asset custody, USDC stablecoin infrastructure. Federal oversight = institutional grade. +16.6% (early), ~+7% premarket at open",
+        "levels": "3 Bar/Outside \u2014 massive gap up; watch for continuation vs. fade",
+        "bull": "OCC approval is a real business catalyst, not a rumor \u2014 institutional flow likely to follow",
+        "bear": "Gap fade on profit-taking after +16.6% \u2014 extended intraday",
+        "note": "This is structural legitimacy for crypto banking, not a one-day pop. Institutions can now custody USDC through a federally supervised entity \u2014 long-term flow catalyst"
+      },
+      {
+        "ticker": "MSTR",
+        "tier": 2,
+        "catalyst": "Bullish kicker + BTC crossed $64K for first time since mid-June. Saylor always buying. Crypto momentum day",
+        "levels": "Bullish kicker \u2014 hold above yesterday's close = continuation",
+        "bull": "BTC $64K is a psychological level breakout \u2014 crypto names getting rotational buy",
+        "bear": "BTC fails to hold $64K = reversal; MSTR levered to BTC direction",
+        "note": "Size down on BTC-linked names \u2014 vol is extreme both ways"
+      },
+      {
+        "ticker": "AMAT",
+        "tier": 2,
+        "catalyst": "$418M bid AH (only major bid-side print at the top) + bearish gapper today. Side and gap direction aligned bear",
+        "levels": "Bearish gapper \u2014 watch open for continuation of bid-side DP print + gap direction",
+        "bull": "SKHY IPO demand shows memory/equipment cycle intact; bid could be a hedge unwind",
+        "bear": "Bid DP + gap down = rare alignment. KLAC -1.6%, LRCX -1.5% also down \u2014 equipment theme weak",
+        "note": "This is the one name where DP side and gap direction both point bear \u2014 flag it"
+      },
+      {
+        "ticker": "MRVL",
+        "tier": 2,
+        "catalyst": "Failed 2U setup + dividend today. -0.94% premarket",
+        "levels": "Failed 2U \u2014 watch below yesterday's low for continuation short",
+        "bull": "Dividend support + AI/data center tailwinds arrest the move",
+        "bear": "Failed 2U trigger = momentum short into a tape that's already selling semis",
+        "note": "Dividend today may create artificial support; wait for clean directional break"
+      }
+    ],
+    "bulls": [
+      "META triple confluence: top DP flow $2.0B mixed + 3 Bar/Outside setup + bullish gapper \u2014 all off +4.7% yesterday on AI custom chip production in September (Reuters). Tracking +12% for the week",
+      "CRCL nearly +7% premarket \u2014 OCC approved Circle National Trust to operate under federal oversight. Strengthens USDC stablecoin infrastructure through regulated digital asset custody with reserve management. Crypto banking now has a federally supervised charter \u2014 this is structural, not a one-day catalyst",
+      "BTC crossed $64K first time since mid-June: MSTR +5.9%, COIN +5.0%, HOOD +3.3%, MARA +2.6% \u2014 crypto rotation hitting the board wide",
+      "SKHY IPO 7x oversubscribed \u2014 KOSPI +4% overnight. Institutional demand for memory equity exposure is massive; confirms the memory trade is institutional, not retail",
+      "JPM $933M ask AH for second straight session. Three-session DP ask pattern (C 6/30, JPM 7/2, JPM 7/9) building into 7/14 earnings + CPI double catalyst",
+      "IBM $917M ask AH \u2014 right behind JPM. Institutions stacking the ask ahead of earnings this month; Failed 2D setup adds technical layer",
+      "WDFC +14.7% \u2014 Q3 EPS $2.33 vs $1.56 expected ($0.77 beat). Hiked full-year guidance. Best earnings reaction of the morning",
+      "EQPT +13.1% \u2014 raised 2026 outlook, authorized $500M buyback",
+      "TWLO +3.3%, SHOP +2% \u2014 Stifel upgrades both to Buy on AI cycle theme. Two names, one firm, same session \u2014 conviction call",
+      "BA: 737 MAX 7 expected FAA certification later this month (WSJ) \u2014 key regulatory overhang clearing",
+      "APO (Apollo Global Management) +0.97% \u2014 agreed to acquire Bayer's contraceptives business (\u20ac3B/$3.4B) and easyJet (\u20ac5.7B/$7.7B). Apollo's 2026 M&A total now ~$27.6B, approaching its 2021 record of $29B. PE dealmaking accelerating",
+      "FDX (FedEx) +1.1% despite Amazon Shipping aggressively targeting its customers \u2014 30% price discounts and waived residential surcharges. Stock shrugging off the threat = market comfortable with FedEx's moat"
+    ],
+    "bears": [
+      "Semi supply shock from SKHY $26B IPO pricing: MU -1.1%, SNDK -2.1%, INTC -2.1%, AMKR -2.3%, KLAC -1.6%, AMAT -1.9% \u2014 equipment and memory names all pulling back on dilution/supply concerns",
+      "DAL erased initial post-earnings rally on oil headwinds \u2014 Q2 revenue $20B (+19% YoY, $1B beat), beat EPS, reaffirmed guide, but still -1% at open. Jet fuel cost structure is the market's concern for Q3 margins; strong travel demand is not enough to offset",
+      "AMAT rare bear alignment: $418M bid AH (largest bid-side single print) + bearish gapper today. When DP side and gap direction point the same way, pay attention",
+      "MSFT $42.9M put block 450P 7/17 \u2014 largest options block of the session. Negotiated institutional size into July OPEX next Friday. Not a clean directional read alone, but flag it",
+      "META EU regulatory overhang: Commission finds Instagram/Facebook addictive design in breach of Digital Services Act \u2014 fines and behavioral remedy risk sitting above a +12% week",
+      "PEP downgraded to Neutral at Citigroup (tgt $145) \u2014 consumer staples under pressure post-earnings; consumer budget squeeze read-through",
+      "Iran ceasefire seen as 'essentially over' \u2014 ECB Sep rate hike expectations rising, WTI +1% to $72.80, macro risk premium staying elevated heading into a data-light Friday",
+      "MRVL Failed 2U + MRVL/MU/CAT all in failed upside setups \u2014 semi and industrial names showing distribution on the Strat scanner"
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "XOM",
+        "pct": "watch",
+        "news": "Iran ceasefire 'essentially over' per ECB rate hike narrative + new intelligence of assassination plot on Trump (WSJ). WTI +1.0% to $72.80. Energy names on watch as Iran premium rebuilds."
+      }
+    ],
+    "trump_context": [
+      "New intelligence surfaced overnight showing Iran has a new plot to assassinate President Trump (WSJ). Technical U.S.-Iran talks continue despite the renewed tensions (Bloomberg). The ceasefire status is now a moving target \u2014 Iran on, Iran off, oil up, oil down has been the pattern all week.",
+      "ECB September rate hike expectations are rising specifically because markets see the U.S.-Iran ceasefire as 'essentially over.' This keeps inflation risk alive via oil and complicates the Fed's path \u2014 particularly relevant with CPI printing Tuesday 7/14. WTI +1.0% to $72.80/bbl; Strait of Hormuz volatility premium is not going away."
+    ],
+    "darkpool": [
+      {
+        "ticker": "SPY",
+        "flow": "$5.0B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Index flow leader when ETFs included \u2014 broad ask-side demand at the index level"
+      },
+      {
+        "ticker": "QQQ",
+        "flow": "$4.3B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Tech index ask-side \u2014 real index activity stacking on the ask side into a light-data Friday"
+      },
+      {
+        "ticker": "MU",
+        "flow": "$4.5B",
+        "side": "mixed",
+        "timing": "session",
+        "note": "Led top single-name flow for second straight day \u2014 memory theme dominating the board; SNDK $2.9B also mixed"
+      },
+      {
+        "ticker": "META",
+        "flow": "$2.0B",
+        "side": "mixed",
+        "timing": "session",
+        "note": "Third largest \u2014 AI chip production news driving flow; shows up in 3 spots on scanner today"
+      },
+      {
+        "ticker": "JPM",
+        "flow": "$933M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Single-name leader, 2nd straight session on ask AH \u2014 institutions positioning into 7/14 earnings + CPI"
+      },
+      {
+        "ticker": "IBM",
+        "flow": "$917M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Right behind JPM on ask side AH \u2014 earnings coming this month; Failed 2D setup adds confluence"
+      },
+      {
+        "ticker": "AMAT",
+        "flow": "$418M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Notable: only major bid-side print near the top \u2014 also a bearish gapper today. Side + gap = aligned bear"
+      },
+      {
+        "ticker": "WDAY",
+        "flow": "$366M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Workday on the board AH"
+      },
+      {
+        "ticker": "PATH",
+        "flow": "$359M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side AH print \u2014 AI automation play"
+      },
+      {
+        "ticker": "CAT",
+        "flow": "$313M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side AH \u2014 also showing Failed 2U on scanner"
+      },
+      {
+        "ticker": "DDOG",
+        "flow": "$311M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Under 3 prints on board \u2014 watch for setup development through the session"
+      },
+      {
+        "ticker": "NTAP",
+        "flow": "$270M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed AH \u2014 data infrastructure"
+      },
+      {
+        "ticker": "PEP",
+        "flow": "$256M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed AH \u2014 coming off yesterday's earnings beat; downgraded at Citigroup this morning"
+      },
+      {
+        "ticker": "CRWV",
+        "flow": "$244M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side AH \u2014 watch continuation from yesterday's tier-2 setup"
+      }
+    ],
+    "events": [
+      {
+        "type": "BMO Results",
+        "detail": "DAL (Delta Air Lines) \u2014 beat Q2 EPS by $0.07, beat revenues, guided Q3 EPS in-line, reaffirmed FY26 guidance. Demand strong through H2. Stock -2.25% premarket as market focuses on fuel cost risk from elevated oil. CEO: pricing power from jet fuel surge expected to last even as oil falls. Opener for airline earnings season."
+      },
+      {
+        "type": "First Day Trading",
+        "detail": "SKHY (SK Hynix U.S. ADR) \u2014 priced $149/ADS, raised ~$26B in the largest IPO in years. 7x oversubscribed. KOSPI ripped ~4% overnight. Watch for memory/semi sector reaction as it starts trading in the U.S. Piquing supply worries for the broader memory trade."
+      },
+      {
+        "type": "All Day",
+        "detail": "CZR (Caesars Entertainment) \u2014 last trading day before the go-shop period ends on the Feritta Entertainment buyout offer. Event-driven setup for arb players."
+      },
+      {
+        "type": "All Day",
+        "detail": "Nasdaq releases latest short interest report. High short interest names could see outsized moves on any positive catalyst today."
+      },
+      {
+        "type": "Watch Next Week",
+        "detail": "Tuesday 7/14 is a double catalyst day: CPI print + bank earnings start (JPM, GS, WFC). JPM has led single-name DP flow 2 sessions running. Fed Warsh semi-annual monetary policy report also expected next week. This is the tape-defining week."
+      }
+    ],
+    "morning_prep": {}
   }
 }
