@@ -8079,53 +8079,49 @@
         {
           "title": "Call Option",
           "notes": [
-            "Gives the holder the RIGHT (but not the obligation) to BUY shares at an agreed upon price, on or before a particular date",
-            "Owning a Call Option allows you to buy stock at the strike price anytime before expiration \u2014 no matter where the stock price is",
-            "Exercise Call Option = take advantage of the right to buy stock at a lower price"
+            "RIGHT (not obligation) to BUY shares at agreed upon price, on or before expiration",
+            "Allows you to buy at the strike price anytime before expiration \u2014 no matter where stock trades",
+            "Exercise = take advantage of the right to buy at a lower price"
           ]
         },
         {
           "title": "Put Option",
           "notes": [
-            "Gives the holder the RIGHT (but not the obligation) to SELL shares at an agreed upon price, on or before a particular date",
-            "Owning a Put Option allows you to SELL stock at the strike price anytime before expiration \u2014 no matter where the stock price is",
-            "Buying Put Option = Buying Insurance | Selling Put Option = Selling Insurance"
-          ]
-        },
-        {
-          "title": "Strike Price & Expiration Date",
-          "notes": [
-            "Strike Price = the agreed upon price at which the stock will be bought or sold",
-            "Expiration Date = the particular date at which the option contract expires",
-            "Example: Call | Strike $120 | Exp 30 days \u2192 can buy at $120/share anytime within 30 days"
-          ]
-        },
-        {
-          "title": "Why Trade Options? (Insurance Concept)",
-          "notes": [
-            "Options = simply Insurance for an investor",
-            "You don't have to own the stock to trade options",
-            "Less Capital \u2192 Less Risk",
+            "RIGHT (not obligation) to SELL shares at agreed upon price, on or before expiration",
+            "Allows you to SELL at the strike price anytime before expiration \u2014 no matter where stock trades",
             "Buying Put = Buying Insurance | Selling Put = Selling Insurance"
+          ]
+        },
+        {
+          "title": "Strike Price & Expiration",
+          "notes": [
+            "Strike Price = the agreed upon price at which stock is bought or sold",
+            "Expiration Date = the date the contract expires",
+            "Example: Call | Strike $120 | Exp 30 days \u2192 can buy at $120 anytime within 30 days"
+          ]
+        },
+        {
+          "title": "Why Trade Options?",
+          "notes": [
+            "Options = Insurance for an investor \u2014 you don't have to own the stock",
+            "Less Capital \u2192 Less Risk"
           ]
         },
         {
           "title": "Reading the Option Chain",
           "notes": [
             "Option Chain = list of all available options & the price of each one",
-            "Bid Price = SELL (where the market is willing to buy it FROM you)",
+            "Bid Price = SELL (where market is willing to buy FROM you)",
             "Ask Price = BUY (where the sellers are)",
-            "Stocks trade in shares \u2014 Options trade in Contracts",
-            "1 Contract = 100 shares \u2014 just remove the decimal to get the dollar cost"
+            "1 Contract = 100 shares \u2014 remove the decimal to get dollar cost",
+            "Cost = Ask Price \u00d7 100 | Example: $2.81 \u00d7 100 = $281 premium"
           ]
         },
         {
-          "title": "Contracts & Premium Math",
+          "title": "P&L Math",
           "notes": [
-            "Cost = Ask Price \u00d7 100 (the multiplier)",
-            "Example: Ask $2.81 \u00d7 100 = $281 premium for 1 contract",
-            "1 Contract: Buy @ $2.81 ($281) | Sell @ $4.00 ($400) = +$119 profit",
-            "2 Contracts: Buy @ $2.81 ($562) | Sell @ $4.00 ($800) = +$238 profit"
+            "1 Contract: Buy @ $2.81 ($281) \u2192 Sell @ $4.00 ($400) = +$119 profit",
+            "2 Contracts: Buy @ $2.81 ($562) \u2192 Sell @ $4.00 ($800) = +$238 profit"
           ]
         },
         {
@@ -8140,89 +8136,69 @@
         {
           "title": "ITM vs OTM",
           "notes": [
-            "In-the-Money (ITM) = allows purchase of stock at a DISCOUNT to current market price",
-            "Out-of-the-Money (OTM) = does NOT allow purchase at a discount \u2014 no advantage yet",
-            "Further ITM = MORE expensive | Further OTM = CHEAPER",
-            "Options value at expiration = difference between stock price & strike price (Intrinsic Value)",
-            "ITM at expiration = has intrinsic value | OTM at expiration = WORTHLESS"
+            "ITM = allows purchase at a DISCOUNT to market price \u2014 further ITM = more expensive",
+            "OTM = no discount advantage \u2014 further OTM = cheaper, lower chance of becoming ITM",
+            "At expiration: ITM = has intrinsic value | OTM = WORTHLESS",
+            "Intrinsic Value = the ITM portion of an option's price (difference between stock & strike)"
           ]
         },
         {
           "title": "Time Decay & Extrinsic Value",
           "notes": [
-            "More time = more expensive; less time = cheaper (same as car insurance)",
-            "Extrinsic Value = amount option price is GREATER than its intrinsic value",
-            "Intrinsic Value = the ITM portion of an option's price",
-            "NO TIME LEFT = NO TIME VALUE \u2014 extrinsic value goes to zero",
-            "Time Decay is AGAINST you as a buyer \u2014 options constantly decay toward expiration",
-            "Anytime you buy an option you are fighting this decay every day"
+            "More time = more expensive | Less time = cheaper (same as car insurance)",
+            "Extrinsic Value = amount option price is GREATER than intrinsic value",
+            "NO TIME LEFT = NO TIME VALUE \u2014 extrinsic decays to zero",
+            "Time Decay is AGAINST you as a buyer \u2014 you are fighting it every single day"
           ]
         },
         {
           "title": "Implied Volatility (IV)",
           "notes": [
-            "Volatility = magnitude of a stock's price swings",
-            "High Volatility = large swings (more expensive options) | Low Volatility = small swings (cheaper options)",
-            "Implied Volatility = expected volatility \u2014 the range the market expects the stock to trade in",
-            "IV is like a FEAR gauge for the market",
-            "High IV = Expensive options | Low IV = Cheap options (and vice versa)",
-            "IV determined by option prices \u2014 tells us the expected move of the stock"
+            "High Volatility = large price swings = more expensive options",
+            "Low Volatility = small price swings = cheaper options",
+            "IV = expected volatility range \u2014 like a FEAR gauge for the market",
+            "High IV = Expensive options | Low IV = Cheap options"
           ]
         },
         {
           "title": "The Greeks \u2014 Overview",
           "notes": [
-            "Greeks = measures of how an option's price reacts to changes in the underlying stock price, time to expiration, and implied volatility",
-            "Helps choose which strike selection & expiration to place",
+            "Measures of how option price reacts to: stock price moves, time, and IV",
+            "Helps choose strike selection & expiration",
             "4 Main Greeks: Delta, Gamma, Theta, Vega"
           ]
         },
         {
           "title": "Delta (\u0394)",
           "notes": [
-            "Measures how much an option's price changes if the underlying stock moves $1",
+            "How much option price changes per $1 move in the stock",
             "Example: Delta 0.65 \u2192 stock up $1.00 \u2192 option up $0.65",
-            "Not a fixed number \u2014 changes as stock moves (driven by Gamma)",
+            "Not fixed \u2014 changes as stock moves (driven by Gamma)",
             "Further ITM = higher delta | Further OTM = lower delta",
-            "Negative delta = SHORT position | Positive delta = LONG position",
-            "Bigger delta = more directional exposure",
-            "How big should delta be? Subjective \u2014 depends on your risk tolerance"
+            "Negative delta = SHORT (bearish) | Positive delta = LONG (bullish)",
+            "Bigger delta = more directional exposure \u2014 subjective to your risk tolerance"
           ]
         },
         {
           "title": "Gamma (\u0393)",
           "notes": [
-            "Amount by which DELTA changes if the stock moves $1",
-            "As option value increases, its delta increases",
-            "Delta & Gamma together show how option price is affected by stock price changes",
+            "Amount by which DELTA changes per $1 move in the stock",
+            "As option goes deeper ITM, delta increases \u2014 Gamma drives that change",
             "GAMMA NOT THAT IMPORTANT \u2014 don't overfocus on it"
           ]
         },
         {
           "title": "Theta (\u0398) \u2014 Time Decay",
           "notes": [
-            "Measure of an option's sensitivity to time",
-            "Amount option price changes if 1 day passes",
-            "Time Value is constantly being sucked out of ALL options",
-            "As a buyer you are fighting this decay every single day",
-            "Theta works AGAINST option buyers and FOR option sellers"
+            "Amount option price changes per 1 day passing",
+            "Works AGAINST buyers, FOR sellers \u2014 time value constantly being removed"
           ]
         },
         {
           "title": "Vega (V)",
           "notes": [
-            "Amount option price changes if IV increases by 1.00%",
-            "High IV environment = options more expensive",
-            "Low IV environment = options cheaper"
-          ]
-        },
-        {
-          "title": "Position Greeks",
-          "notes": [
-            "Negative delta = SHORT (bearish) | Positive delta = LONG (bullish)",
-            "Delta of position tells us our directional exposure",
-            "Bigger delta = more exposure to price movement",
-            "Delta = great way to measure risk, not the only way"
+            "Amount option price changes per 1% change in IV",
+            "High IV = more expensive | Low IV = cheaper"
           ]
         }
       ]
@@ -8234,19 +8210,17 @@
           "title": "ATR & Indicators",
           "notes": [
             "ATR = shows the day range on potential calls & puts",
-            "Use $ATY ATR indicator on TradingView \u2014 use them, take off fibonacci numbers",
+            "Use $ATY ATR indicator on TradingView \u2014 turn off fibonacci numbers",
             "Use Bigpoppa code strat & momentum indicator (helps with entries & reversals)",
-            "EMA's help when stocks are trending \u2014 act as support & resistance too (don't focus heavily on this)"
+            "EMAs act as support & resistance when stocks are trending \u2014 don't focus heavily"
           ]
         },
         {
           "title": "The Strat Assistant",
           "notes": [
-            "He uses it all the time for Time Continuity",
-            "Go to style: make sure all blue EXCEPT 2 up/down bar shape",
+            "Used for Time Continuity \u2014 make sure all blue EXCEPT 2 up/down bar shape",
             "Turn off ARROWS \u2014 clouds judgement & isn't always right",
-            "Play WITH the trend, stop going against it",
-            "Higher probability of it going in your favor when you play with the trend"
+            "Play WITH the trend \u2014 higher probability of it going in your favor"
           ]
         },
         {
@@ -8254,100 +8228,72 @@
           "notes": [
             "Favorite indicator \u2014 use auto anchor",
             "DON'T TAKE ENTRY AT VWAP LINE \u2014 price gets caught in consolidation",
-            "Style: turn off all boxes under VWAP, turn from lines to circles & increase thickness of line to top",
-            "Price trading OVER VWAP = bullish territory",
-            "Price trading UNDERNEATH VWAP = bearish territory",
-            "Just because price is over/under VWAP doesn't mean you can't take calls or puts \u2014 it just helps with understanding where you're at on the charts"
+            "Style: turn off boxes under VWAP, switch to circles, increase line thickness",
+            "Above VWAP = bullish territory | Below VWAP = bearish territory",
+            "Being over/under VWAP doesn't mean you can't take calls or puts \u2014 use it for context only"
           ]
         },
         {
           "title": "Wicks",
           "notes": [
-            "Pay attention to if wick is bigger or smaller in the candle",
-            "Wick on TOP of candle = Buyers in Control",
-            "Wick on BOTTOM of candle = Sellers in Control",
-            "Long wicks on BOTH sides = no clear direction, rejecting both highs & lows (buyers & sellers fighting) \u2014 STAY AWAY FROM",
-            "Wicks show WHERE REJECTIONS ARE"
+            "Wick on TOP = Buyers in Control | Wick on BOTTOM = Sellers in Control",
+            "Wicks show WHERE REJECTIONS ARE",
+            "LONG WICKS ON BOTH SIDES = buyers & sellers fighting, no clear direction \u2014 STAY AWAY"
           ]
         },
         {
           "title": "Entries & Trade Management",
           "notes": [
-            "Like to take entries on 5min & hold on 15min",
-            "When 5min crosses above entry = call | When 5min crosses below entry = put",
-            "Take entry on the FOLLOW UP CANDLE \u2014 don't take entry at VWAP (consolidation kills you with theta)",
-            "At 10% profit take it OR have a trailing stop loss right there in the morning when you cross profit \u2014 can always get back in",
-            "Stop allowing trades to swing where you're up 20% and now down 20% if it pulls back",
-            "Sometimes you have the right trade with the wrong contracts",
-            "Watching small timeframe will FAKE YOU OUT \u2014 use 5min for entries & 15min to hold"
+            "Take entries on 5min, hold on 15min \u2014 small timeframe will FAKE YOU OUT",
+            "5min crosses ABOVE entry = call | 5min crosses BELOW entry = put",
+            "Take entry on the FOLLOW UP CANDLE \u2014 not at VWAP (theta kills you in consolidation)",
+            "At 10% profit: take it OR set a trailing stop \u2014 can always get back in",
+            "Don't let a +20% trade swing to -20% \u2014 stop allowing that"
           ]
         },
         {
           "title": "Contracts & Position Sizing",
           "notes": [
-            "Can buy 2 week contracts \u2014 slower but can make a lot of profit",
-            "Buying time means contracts aren't down as much because time is still on your side",
-            "$SPX early morning play: $30-60 contracts out of the money & cheap",
-            "Contracts in general: $40-100 contract max",
-            "If you can catch a $20-30 move & it keeps going you can make a lot more money \u2014 buy cheap & sell high"
+            "2 week contracts = slower but more profit potential (time is on your side)",
+            "$SPX early morning: $30-60 contracts out of the money & cheap, $40-100 max",
+            "Catch a $20-30 move and let it run \u2014 buy cheap, sell high",
+            "Sometimes you have the right trade with the wrong contracts"
           ]
         },
         {
           "title": "Consolidation & Patience",
           "notes": [
-            "Whenever there's consolidation the key to success is being patient (becomes easier)",
-            "Wait for it to breakout & let it close",
-            "If a ticker goes to a level, closes, then comes back up & closes above the level \u2014 it's a reversal",
-            "When something is stuck in the range (consolidation) draw the high & low, then wait for the breakout",
-            "Got to be okay with pullbacks \u2014 it's going to happen, don't panic"
-          ]
-        },
-        {
-          "title": "Swing Trading",
-          "notes": [
-            "Swing trading targets: daily, weekly, monthly chart (NOT 15min chart)",
-            "Buying time means contracts aren't down as much \u2014 time is still on your side"
+            "Draw the high & low of the range \u2014 wait for the breakout, let it close",
+            "If ticker goes to a level, closes, then closes ABOVE it \u2014 that's a reversal",
+            "Be okay with pullbacks \u2014 it's going to happen, don't panic"
           ]
         },
         {
           "title": "Opening Bell Rules",
           "notes": [
-            "First 15mins of opening is EXTREMELY VOLATILE",
-            "My trading time needs to be 8:45am - 10:30am when trading at opening",
+            "First 15mins is EXTREMELY VOLATILE \u2014 trading time: 8:45am\u201310:30am",
             "Be patient & wait for a CLEAR move",
-            "$SPX very quick & volatile \u2014 keep losses small",
-            "Out of money options still risky because pullbacks hurt",
-            "Don't focus on exiting at the absolute bottom on $SPX or at the absolute top on calls \u2014 AVOID THE CHOPPINESS THAT EATS AT PROFIT"
-          ]
-        },
-        {
-          "title": "SPX & Long Wicks",
-          "notes": [
-            "$SPX very quick & volatile \u2014 keep losses small",
-            "When there's wicks on BOTH sides it means no clear direction \u2014 rejecting both highs & lows",
-            "LONG WICKS ON BOTH SIDES = STAY AWAY FROM",
-            "Don't focus on exiting at absolute bottom on $SPX or absolute top on calls \u2014 AVOID THE CHOPPINESS THAT EATS AT PROFIT"
+            "$SPX is very quick & volatile \u2014 keep losses small",
+            "Long wicks on both sides near open = no direction, STAY AWAY",
+            "AVOID THE CHOPPINESS THAT EATS AT PROFIT \u2014 don't chase absolute tops/bottoms"
           ]
         },
         {
           "title": "Morning Routine (5 Things)",
           "notes": [
-            "Every morning check CNBC & search '5 things to know before stock market opens'",
-            "Search Market Insider after",
-            "Then search Google premarket movers",
+            "Check CNBC \u2192 '5 things to know before stock market opens'",
+            "Search Market Insider",
+            "Google premarket movers",
             "Check earnings in chat",
-            "Check watchlist in chat",
-            "Zoom call"
+            "Check watchlist in chat \u2192 Zoom call"
           ]
         },
         {
-          "title": "Key Tools & Rules",
+          "title": "Key Tools",
           "notes": [
-            "Get comfortable trading on laptop",
             "Buy calls @ support | Buy puts @ resistance",
-            "Tradytics = cheatcode \u2014 use the goldensweeps section",
-            "Long wicks on both sides = STAY AWAY (buyers & sellers fighting, no direction)",
-            "When there's wicks on both sides it means there's no clear direction \u2014 rejecting both highs & lows"
+            "Tradytics = cheatcode \u2014 goldensweeps section",
+            "Get comfortable trading on laptop"
           ]
         }
       ]
@@ -8364,120 +8310,96 @@
           ]
         },
         {
-          "title": "Level 1 \u2014 Introduced to Options Trading",
+          "title": "Level 1 \u2014 Introduced to Options",
           "notes": [
-            "Watched a couple YT courses/videos",
-            "Understand the very basics from a 10min video",
-            "Ready to quit job"
+            "Watched YT courses, understand the basics, ready to quit job"
           ]
         },
         {
           "title": "Level 2 \u2014 Callout Trader",
           "notes": [
-            "Making money from discord callouts but have no clue how you made it",
-            "Ready to quit job & looking at luxury cars"
+            "Making money from discord callouts but have no clue how \u2014 ready to quit job & looking at luxury cars"
           ]
         },
         {
           "title": "Level 3 \u2014 The Gambler",
           "notes": [
-            "Risking your entire account on one play after a couple wins",
-            "Confidence high = full porting",
-            "Trade goes left -95%. Damn!"
+            "Risking entire account on one play after a couple wins \u2014 confidence high = full porting \u2014 trade goes left -95%. Damn!"
           ]
         },
         {
           "title": "Level 4 \u2014 Let's Get Serious",
           "notes": [
-            "Better understanding of how the market works",
-            "Know why you're winning/losing",
-            "Even w/ the knowledge you have, you aren't profitable & very inconsistent"
+            "Better understanding of the market, know why you're winning/losing, but still inconsistent & not profitable"
           ]
         },
         {
           "title": "Level 5 \u2014 Money Maker but Account Doesn't Reflect",
           "notes": [
-            "Having consistent green days \u2014 feels like you're profitable",
-            "Bank account doesn't reflect it \u2014 you can't pay yourself",
-            "Then you go on a catastrophic losing streak & wipe out",
-            "*Something wrong (could be small)"
+            "Consistent green days, feels profitable \u2014 but bank account doesn't reflect it",
+            "Can't pay yourself, then catastrophic losing streak & wipe out",
+            "*Something is wrong (could be something small)"
           ]
         },
         {
           "title": "Level 6 \u2014 New Money, Now You",
           "notes": [
-            "Come back fresh ready to conquer",
-            "Make promises to yourself",
-            "Oh No! Bad habits kicked in. Wipe out & blame game"
+            "Come back fresh, make promises to yourself \u2014 bad habits kick back in, wipe out & blame game"
           ]
         },
         {
           "title": "Level 7 \u2014 The Breakeven",
           "notes": [
-            "Having consistent wins but too many small losses",
-            "Account still safe but hit a brick wall",
-            "Not making money but not losing money",
-            "Don't go back \u2014 it gets tiring & hard"
+            "Consistent wins but too many small losses \u2014 account safe but hit a brick wall",
+            "Not making money but not losing money \u2014 don't go back, it gets tiring & hard"
           ]
         },
         {
           "title": "Level 8 \u2014 I'm Profitable (BREAKTHROUGH)",
           "notes": [
-            "Making consistent money",
-            "Small losses happen but they are NOT big enough to overtake the wins",
-            "Paying yourself & you can breathe now",
-            "All hard work & sleepless nights has paid off"
+            "Making consistent money \u2014 small losses happen but can't overtake the wins",
+            "Paying yourself & you can breathe \u2014 all the hard work & sleepless nights paid off"
           ]
         },
         {
           "title": "Looking in the Mirror",
           "notes": [
-            "Who are you? What type of person are you?",
-            "Are you impatient? Are you laid back?",
-            "Can you admit your faults?",
-            "Does your ego hurt when you are wrong?",
+            "Who are you? Are you impatient? Are you laid back?",
+            "Can you admit your faults? Does your ego hurt when you're wrong?",
             "KNOWING WHAT TYPE OF TRADER YOU ARE IS ESSENTIAL"
           ]
         },
         {
-          "title": "Becoming a Good Loser (How You Become Profitable)",
+          "title": "Becoming a Good Loser",
           "notes": [
-            "Understand the risk",
             "Market doesn't owe you anything",
             "How do you respond when things go wrong?",
-            "Take your emotions out of the trade",
-            "Protect your downside at ALL TIMES"
+            "Take your emotions out of the trade"
           ]
         },
         {
           "title": "Small Accounts",
           "notes": [
-            "Be honest with self \u2014 don't have a lot of room for error",
-            "Discipline must be HIGHER",
-            "Less is more \u2014 stop spreading out (target certain days & setups)",
-            "All you need is 1-2 trades (3 max \u2014 should be rare)",
-            "Have a plan & execute the plan",
-            "Ignore the noise",
-            "Max number of trades is 3"
+            "Be honest \u2014 not a lot of room for error, discipline must be HIGHER",
+            "Less is more \u2014 target certain days & setups, stop spreading out",
+            "1-2 trades is all you need (3 max \u2014 rare)",
+            "Have a plan & execute it \u2014 ignore the noise",
+            "DO NOT SIZE UP \u2014 when you size down you trade differently"
           ]
         },
         {
           "title": "When the Account Grows",
           "notes": [
-            "WHEN THE ACCOUNT GROWS, WITHDRAW to avoid doing something dumb",
-            "Trade with LESS in the account",
-            "Transfer before Friday to keep majority of profits"
+            "WITHDRAW \u2014 avoid doing something dumb with a bigger account",
+            "Trade with LESS in the account, transfer before Friday to keep profits"
           ]
         },
         {
-          "title": "Change Your Life \u2014 Daily Habits",
+          "title": "Daily Habits",
           "notes": [
-            "Have rules & stick to them \u2014 look at them before trading every day",
-            "What's your daily routine?",
-            "Get some early morning activity",
-            "Prepare the night before & make adjustments in the morning",
+            "Have rules & look at them before trading every day",
+            "Get early morning activity, prepare the night before",
             "Become routine \u2014 everything is planned, nothing is random",
-            "Don't rush to size up",
             "What is your WHY?"
           ]
         },
@@ -8488,31 +8410,27 @@
             "FOMO \u2014 don't operate with this, there's ALWAYS another play",
             "Cutting losses = living to fight another day",
             "Instead of 'I took a loss' say 'I PRESERVED CAPITAL'",
-            "Greed: chasing after hot stocks with no clue. STOP THAT",
-            "Not taking profits when you reach your desired target is a problem",
-            "Trail stops will help with taking profit \u2014 keep emotions in check",
-            "If energy is off \u2014 DON'T TRADE. Trade with peace of mind",
-            "Adapt to market conditions",
-            "Stick to what works for you"
+            "Greed = chasing hot stocks with no clue. STOP THAT",
+            "Not taking profits at your target is a problem \u2014 use trail stops",
+            "If energy is off \u2014 DON'T TRADE. Peace of mind only",
+            "Adapt to market conditions. Stick to what works for you"
           ]
         },
         {
-          "title": "Journaling Questions (After Every Trade)",
+          "title": "Discipline & Patience",
           "notes": [
-            "Explain how the trade made you feel?",
+            "Slow & steady \u2014 stop trying to hit the 1 home run & it'll come",
+            "Work in self discipline & be fully committed",
+            "Manage fear by staying disciplined"
+          ]
+        },
+        {
+          "title": "Journaling (After Every Trade)",
+          "notes": [
+            "Explain how the trade made you feel",
             "Did you follow your rules?",
             "Did you break those rules?",
             "What will you do differently?"
-          ]
-        },
-        {
-          "title": "Discipline & Fear",
-          "notes": [
-            "Slow & steady \u2014 stop trying to hit that 1 home run & it'll come",
-            "Work in self discipline & be fully committed",
-            "Manage fear by staying disciplined",
-            "If energy is off \u2014 DON'T TRADE. Trade with peace of mind",
-            "Trail stops help with taking profit and keeping emotions in check"
           ]
         }
       ]
@@ -8523,10 +8441,9 @@
         {
           "title": "Position Sizing & The Stop",
           "notes": [
-            "Risk the stop \u2014 this is true position size",
-            "Example: $500 x .10 = $50 risk per trade",
-            "True position sizing = knowing exactly what you're risking on the stop",
-            "DO NOT SIZE UP \u2014 when you size down you trade differently",
+            "Risk the stop \u2014 this IS true position size",
+            "Example: $500 account \u00d7 .10 = $50 max risk per trade",
+            "DO NOT SIZE UP \u2014 sizing down changes how you trade",
             "Max number of trades is 3"
           ]
         },
@@ -8534,11 +8451,8 @@
           "title": "Protecting Capital",
           "notes": [
             "Protect your downside at ALL TIMES",
-            "Cutting losses = living to fight another day",
-            "Instead of 'I took a loss' say 'I PRESERVED CAPITAL'",
-            "Trail stops \u2014 set them, don't move them in your favor emotionally",
-            "WHEN THE ACCOUNT GROWS, WITHDRAW to avoid doing something dumb",
-            "Transfer before Friday to keep majority of profits"
+            "Trail stops \u2014 set them, don't move them emotionally",
+            "Swing trading: daily, weekly, monthly charts \u2014 time on your side means less contract decay"
           ]
         }
       ]
