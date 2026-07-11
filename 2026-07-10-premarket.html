@@ -153,14 +153,43 @@
         min-width: 36px; padding: 3px 6px; border-radius: 4px; text-align: center;
         font-size: 11px; font-weight: 800; flex-shrink: 0;
     }
-    .pb-card {
-        background: var(--bg-hover); border: 1px solid var(--border-s); border-radius: 6px;
-        padding: 11px 14px; margin-bottom: 8px;
+    .pb-accordion { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 6px; }
+    .pb-header {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 11px 14px; cursor: pointer;
+        background: var(--bg-card);
+        transition: background .12s;
+        user-select: none;
     }
-    .pb-card-name { font-size: 12px; font-weight: 800; color: var(--tx1); margin-bottom: 6px; }
-    .pb-note { font-size: 11px; color: var(--tx2); line-height: 1.6; padding: 1px 0; }
-    .pb-note::before { content: "· "; color: var(--tx3); }
-    body.light .pb-card { background: #eff6ff; border-color: #bfdbfe; }
+    .pb-header:hover { background: var(--bg-hover); }
+    .pb-header-left { display: flex; align-items: center; gap: 10px; }
+    .pb-cat-chip {
+        font-size: 8px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+        padding: 2px 7px; border-radius: 10px;
+        background: #1e1230; border: 1px solid #7c3aed44; color: #a78bfa;
+    }
+    .pb-title { font-size: 12px; font-weight: 700; color: var(--tx1); }
+    .pb-chevron {
+        font-size: 10px; color: var(--tx3); transition: transform .2s;
+        flex-shrink: 0;
+    }
+    .pb-accordion.open .pb-chevron { transform: rotate(180deg); }
+    .pb-body {
+        display: none;
+        padding: 0 14px 12px;
+        background: var(--bg-hover);
+        border-top: 1px solid var(--border-s);
+    }
+    .pb-accordion.open .pb-body { display: block; }
+    .pb-note {
+        font-size: 11px; color: var(--tx2); line-height: 1.7;
+        padding: 3px 0; display: flex; gap: 8px;
+    }
+    .pb-note::before { content: "–"; color: var(--tx3); flex-shrink: 0; padding-top: 1px; }
+    .pb-empty { font-size: 11px; color: var(--tx3); font-style: italic; padding: 8px 0 4px; }
+    body.light .pb-cat-chip { background: #ede9fe; border-color: #c4b5fd; color: #7c3aed; }
+    body.light .pb-body { background: #f1f5ff; }
+    body.light .pb-accordion { border-color: var(--border); }
     .ref-candle-body { flex: 1; }
     .ref-candle-name { font-size: 12px; font-weight: 700; color:var(--tx1); margin-bottom: 3px; }
     .ref-candle-def { font-size: 11px; color:var(--tx2); line-height: 1.5; }
@@ -1141,20 +1170,7 @@
     </div>
 
     <div class="ref-panel" id="refTab3">
-      <div class="ref-section-label">Core Setups</div>
-<div class="pb-card"><div class="pb-card-name">FTFC — Full Time Frame Continuity</div><div class="pb-note">All time frames pointing same direction — highest conviction</div><div class="pb-note">Monthly → Weekly → Daily → Intraday all aligned</div><div class="pb-note">Absence of FTFC = lower conviction, smaller size</div><div class="pb-note">FTFC to downside: don't fight it, look for continuation entries</div></div>
-<div class="pb-card"><div class="pb-card-name">ORB — Opening Range Breakout</div><div class="pb-note">10 min ORB is the standard — let price set the range first</div><div class="pb-note">On earnings: 10 min ORB ONLY — no pre-open entries</div><div class="pb-note">Trampoline setup: price bounces off OB (opening bar) level</div><div class="pb-note">Allow the play to develop until ~9am before adjusting bias</div></div>
-<div class="pb-card"><div class="pb-card-name">Extreme Volume Play</div><div class="pb-note">Volume is the tell — price follows institutional footprint</div><div class="pb-note">Heatmap level + extreme volume = highest probability setup</div><div class="pb-note">Risk your stop — these can run hard but also reverse hard</div><div class="pb-note">Take profits and leave runners on extreme volume days</div></div>
-<div class="pb-card"><div class="pb-card-name">CPW — Continuation Play</div><div class="pb-note">Paid setup — confirmation required before entry</div><div class="pb-note">Watch for earnings-driven CPW setups</div><div class="pb-note">Catalyst must justify the continuation thesis</div></div>
-<div class="ref-section-label">Earnings Rules</div>
-<div class="pb-card"><div class="pb-card-name">Earnings Entry Protocol</div><div class="pb-note">10 min ORB ONLY on earnings — no pre-open directional trade</div><div class="pb-note">Don't like puts due to gap risk — calls are safer on earnings</div><div class="pb-note">Trampoline: price must bounce off OB or get under key level</div><div class="pb-note">Wait for direction confirmation before committing size</div><div class="pb-note">If it gaps huge, let the initial move exhaust — re-entry cleaner</div></div>
-<div class="ref-section-label">Options Rules</div>
-<div class="pb-card"><div class="pb-card-name">Options Sizing &amp; Expiry</div><div class="pb-note">Weeklies = lotto — size down accordingly</div><div class="pb-note">Buy 1-2 weeks out for safer positioning (not same-week)</div><div class="pb-note">Always good to buy time because drawdowns aren't as bad</div><div class="pb-note">EOD straddle candidate on high-vol events (earnings, data)</div><div class="pb-note">Large put blocks are often hedges, not directional — verify with flow</div></div>
-<div class="ref-section-label">Dark Pool Confluence</div>
-<div class="pb-card"><div class="pb-card-name">Reading DP Prints</div><div class="pb-note">ASK-side = institutional buying pressure</div><div class="pb-note">BID-side = institutional selling pressure</div><div class="pb-note">AH prints are the most informative — no retail noise</div><div class="pb-note">When DP side + gap direction align = rare, high conviction</div><div class="pb-note">&lt; 3 prints on board = watch for setup developing through session</div><div class="pb-note">Large single prints (&gt;$500M) on individual names = positioning, not noise</div></div>
-<div class="pb-card"><div class="pb-card-name">DP + Strat Setup Stack</div><div class="pb-note">DP print alone = not a trade</div><div class="pb-note">DP + Strat setup + catalyst = tier 1 conviction</div><div class="pb-note">DP + gapper + Strat setup = triple confluence</div><div class="pb-note">ETF ask-side flow (SPY/QQQ) = index-level buy pressure, watch leadership sectors</div></div>
-<div class="ref-section-label">0DTE Rules</div>
-<div class="pb-card"><div class="pb-card-name">Friday 0DTE Protocol</div><div class="pb-note">Direction must be read by 9:45 AM — theta burns fast after that</div><div class="pb-note">Inside (1) + 0DTE sweep = pin-or-rip setup, be early</div><div class="pb-note">Mag 7 explosive move watch is the highest probability 0DTE setup</div><div class="pb-note">Size down relative to longer-dated plays — duration risk is real</div><div class="pb-note">If green early, take profits — don't let a winner become a loser on 0DTE</div></div>
+      <div style="color:var(--tx3);font-size:12px;text-align:center;padding:40px 20px;">No strategy notes yet.<br><span style="font-size:10px;margin-top:6px;display:block;">Share your notes and I'll add them here.</span></div>
     </div>
 
   </div>
@@ -1163,6 +1179,10 @@
 function switchTab(i) {
   document.querySelectorAll('.ref-tab').forEach((t,j) => t.classList.toggle('active', i===j));
   document.querySelectorAll('.ref-panel').forEach((p,j) => p.classList.toggle('active', i===j));
+}
+function pbToggle(i) {
+  var el = document.getElementById('pb' + i);
+  if (el) el.classList.toggle('open');
 }
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') document.getElementById('refOverlay').classList.remove('open');
@@ -1184,7 +1204,7 @@ function toggleTheme() {
 <div class="header">
   <h1>CATALYST REPORT</h1>
   <span class="mode">PRE-MARKET</span>
-  <span class="meta">Friday, July 10, 2026 &nbsp;·&nbsp; 08:08 PM</span>
+  <span class="meta">Friday, July 10, 2026 &nbsp;·&nbsp; 08:13 PM</span>
 </div>
 
 
