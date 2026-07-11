@@ -8072,5 +8072,192 @@
       "result": {}
     }
   },
-  "strategy_notes": []
+  "strategy_notes": [
+    {
+      "category": "Options Basics",
+      "name": "Call Option",
+      "notes": [
+        "Gives the option trader/holder the RIGHT (but not the obligation) to BUY shares of stock",
+        "Purchase is at an agreed upon price, on or before a particular date",
+        "Owning a Call Option allows you to buy stock at the strike price anytime before expiration \u2014 no matter where the stock price is",
+        "Exercise Call Option = take advantage of the right to buy stock at a lower price"
+      ]
+    },
+    {
+      "category": "Options Basics",
+      "name": "Put Option",
+      "notes": [
+        "Gives the option holder the RIGHT (but not the obligation) to SELL shares of stock",
+        "Sale is at an agreed upon price, on or before a particular date",
+        "Owning a Put Option allows you to SELL stock at the strike price anytime before expiration \u2014 no matter where the stock price is",
+        "Buying Put Option = Buying Insurance",
+        "Selling Put Option = Selling Insurance"
+      ]
+    },
+    {
+      "category": "Options Basics",
+      "name": "Strike Price & Expiration Date",
+      "notes": [
+        "Strike Price = the 'agreed upon price' at which the stock will be bought or sold",
+        "Expiration Date = the 'particular date' at which the option contract will expire",
+        "Example: Type: Call | Strike: $120 | Expiration: 30 days \u2014 allows you to purchase at $120/share anytime within 30 days"
+      ]
+    },
+    {
+      "category": "Options Basics",
+      "name": "Why Trade Options? (Insurance Concept)",
+      "notes": [
+        "Options is simply Insurance for an investor",
+        "You don't have to own the stock to trade options",
+        "Less Capital \u2192 Less Risk",
+        "Buying Put Option = Buying Insurance (protecting your position)",
+        "Selling Put Option = Selling Insurance (collecting premium)"
+      ]
+    },
+    {
+      "category": "Option Chain",
+      "name": "Reading the Option Chain",
+      "notes": [
+        "Option Chain = list of all options we can trade & the price of each option",
+        "Shows the available options & the price of each one",
+        "Bid Price = SELL (that's where the market is willing to buy it FROM you)",
+        "Ask Price = BUY (that's where the sellers are)",
+        "Stocks trade in shares \u2014 Options trade in Contracts",
+        "1 Contract = 100 shares \u2014 just remove the decimal to get the dollar cost"
+      ]
+    },
+    {
+      "category": "Option Chain",
+      "name": "Contracts & Premium Math",
+      "notes": [
+        "To find cost: take the Ask Price \u00d7 100 (the multiplier) = your premium paid",
+        "Example: Ask Price $2.81 \u00d7 100 = $281 premium for 1 contract",
+        "1 Contract: Buy @ $2.81 ($281 premium) | Sell @ $4.00 ($400) = +$119 profit",
+        "2 Contracts: Buy @ $2.81 ($562 premium) | Sell @ $4.00 ($800) = +$238 profit",
+        "More contracts = same % move, multiplied profit (and loss)"
+      ]
+    },
+    {
+      "category": "Option Pricing",
+      "name": "3 Factors That Move Option Prices",
+      "notes": [
+        "1. Price of the Underlying Stock",
+        "2. Time Till Expiration",
+        "3. Volatility of the Underlying Stock",
+        "Call Option price typically goes UP if the stock goes UP",
+        "Put Option price typically goes UP if the stock goes DOWN"
+      ]
+    },
+    {
+      "category": "Option Pricing",
+      "name": "ITM vs OTM",
+      "notes": [
+        "In-the-Money (ITM) = allows us to purchase the stock at a DISCOUNT to the current market price",
+        "Out-of-the-Money (OTM) = does NOT allow us to purchase the stock at a discount (no advantage yet)",
+        "The further ITM = the MORE expensive the option (bigger discount = more valuable)",
+        "The further OTM = the CHEAPER it is (lower likelihood of becoming ITM)",
+        "Stock price rising = Call options increase in value",
+        "Stock price falls = Put options increase in value"
+      ]
+    },
+    {
+      "category": "Option Pricing",
+      "name": "Option Value at Expiration",
+      "notes": [
+        "Options value at expiration = difference between stock price & strike price",
+        "Options value is determined by how far In-the-Money (ITM) it is = Intrinsic Value",
+        "ITM Options at expiration = difference between strike price & stock price (intrinsic value)",
+        "OTM Options at expiration = WORTHLESS",
+        "If there is NO TIME LEFT \u2192 WORTHLESS"
+      ]
+    },
+    {
+      "category": "Time & Volatility",
+      "name": "Time Decay & Extrinsic Value",
+      "notes": [
+        "Correlation to insurance: car insurance 6 months ($60) vs 12 months ($120) \u2014 options price the same way",
+        "More time = more expensive; less time = cheaper",
+        "OTM options have value when further from expiration because there's still a CHANCE they become ITM",
+        "The further OTM \u2192 cheaper because likelihood of becoming ITM is lower",
+        "NO TIME LEFT = NO TIME VALUE (Extrinsic Value goes to zero)",
+        "Extrinsic Value = amount by which option's price is GREATER than its Intrinsic Value",
+        "Intrinsic Value = the ITM portion of an option's price",
+        "Time Decay is AGAINST YOU as a buyer \u2014 options are constantly decaying toward expiration date",
+        "Anytime you buy an option you are fighting time decay"
+      ]
+    },
+    {
+      "category": "Time & Volatility",
+      "name": "Implied Volatility (IV)",
+      "notes": [
+        "Volatility = magnitude of a stock's price swings",
+        "High Volatility = large swings in price (more risk, MORE expensive options)",
+        "Low Volatility = small swings in price (less risk, CHEAPER options)",
+        "Implied Volatility = Expected Volatility (the range the market expects the stock to trade in)",
+        "IV is like a FEAR gauge for the market",
+        "High IV = Expensive option prices | Low IV = Cheap option prices (and vice versa)",
+        "IV is determined by the option prices themselves \u2014 tells us the expected move of the stock",
+        "What causes IV to rise: more buyers (demand) pushes prices up | more sellers (supply) pushes prices down"
+      ]
+    },
+    {
+      "category": "The Greeks",
+      "name": "Delta (\u0394)",
+      "notes": [
+        "Measures how much an option's price will CHANGE if the underlying stock moves $1",
+        "Example: Delta = 0.65 \u2192 stock goes up $1.00 \u2192 option goes up $0.65",
+        "Delta is NOT a fixed number \u2014 it changes as the stock moves (that change is driven by Gamma)",
+        "Helps us choose which strike selection & expiration to place",
+        "Further ITM = higher delta | Further OTM = lower delta",
+        "Negative delta = SHORT position | Positive delta = LONG position",
+        "Bigger delta = more directional exposure",
+        "Delta is a great way to measure risk \u2014 but not the only way",
+        "How big should delta be? Subjective \u2014 depends on your risk tolerance"
+      ]
+    },
+    {
+      "category": "The Greeks",
+      "name": "Gamma (\u0393)",
+      "notes": [
+        "Amount by which DELTA will change if the stock moves up by $1",
+        "Important: as an option's value increases, its delta will increase",
+        "The further ITM an option is, the smaller delta gets smaller (Gamma effect)",
+        "Delta & Gamma together help us understand how option price is affected by stock price changes",
+        "GAMMA NOT THAT IMPORTANT \u2014 don't overfocus on it"
+      ]
+    },
+    {
+      "category": "The Greeks",
+      "name": "Theta (\u0398) \u2014 Time Decay",
+      "notes": [
+        "Measure of an option's SENSITIVITY TO TIME",
+        "Amount by which an option's price will change if 1 day passes",
+        "Time Value is constantly being sucked out of ALL options",
+        "Anytime you buy an option you are fighting this decay every single day",
+        "Theta works AGAINST option buyers and FOR option sellers"
+      ]
+    },
+    {
+      "category": "The Greeks",
+      "name": "Vega (V) \u2014 Volatility Sensitivity",
+      "notes": [
+        "Amount by which an option's price will change if IV increases by 1.00%",
+        "High IV environment = Vega makes options more expensive",
+        "Low IV environment = Vega makes options cheaper",
+        "Vega rises when uncertainty/fear rises in the market"
+      ]
+    },
+    {
+      "category": "The Greeks",
+      "name": "Position Greeks",
+      "notes": [
+        "Negative delta = SHORT (bearish position)",
+        "Positive delta = LONG (bullish position)",
+        "Delta of a position tells us our DIRECTIONAL EXPOSURE",
+        "Bigger delta = more exposure to price movement",
+        "Delta is a great way to measure risk \u2014 not the only way",
+        "How do you know if delta is big or small? It's SUBJECTIVE \u2014 depends on your risk tolerance"
+      ]
+    }
+  ]
 }
