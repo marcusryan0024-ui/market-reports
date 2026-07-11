@@ -8226,6 +8226,131 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SLU Foundational: The Beginning",
+      "sections": [
+        {
+          "title": "ATR & Indicators",
+          "notes": [
+            "ATR = shows the day range on potential calls & puts",
+            "Use $ATY ATR indicator on TradingView \u2014 use them, take off fibonacci numbers",
+            "Use Bigpoppa code strat & momentum indicator (helps with entries & reversals)",
+            "EMA's help when stocks are trending \u2014 act as support & resistance too (don't focus heavily on this)"
+          ]
+        },
+        {
+          "title": "The Strat Assistant",
+          "notes": [
+            "He uses it all the time for Time Continuity",
+            "Go to style: make sure all blue EXCEPT 2 up/down bar shape",
+            "Turn off ARROWS \u2014 clouds judgement & isn't always right",
+            "Play WITH the trend, stop going against it",
+            "Higher probability of it going in your favor when you play with the trend"
+          ]
+        },
+        {
+          "title": "VWAP",
+          "notes": [
+            "Favorite indicator \u2014 use auto anchor",
+            "DON'T TAKE ENTRY AT VWAP LINE \u2014 price gets caught in consolidation",
+            "Style: turn off all boxes under VWAP, turn from lines to circles & increase thickness of line to top",
+            "Price trading OVER VWAP = bullish territory",
+            "Price trading UNDERNEATH VWAP = bearish territory",
+            "Just because price is over/under VWAP doesn't mean you can't take calls or puts \u2014 it just helps with understanding where you're at on the charts"
+          ]
+        },
+        {
+          "title": "Wicks",
+          "notes": [
+            "Pay attention to if wick is bigger or smaller in the candle",
+            "Wick on TOP of candle = Buyers in Control",
+            "Wick on BOTTOM of candle = Sellers in Control",
+            "Long wicks on BOTH sides = no clear direction, rejecting both highs & lows (buyers & sellers fighting) \u2014 STAY AWAY FROM",
+            "Wicks show WHERE REJECTIONS ARE"
+          ]
+        },
+        {
+          "title": "Entries & Trade Management",
+          "notes": [
+            "Like to take entries on 5min & hold on 15min",
+            "When 5min crosses above entry = call | When 5min crosses below entry = put",
+            "Take entry on the FOLLOW UP CANDLE \u2014 don't take entry at VWAP (consolidation kills you with theta)",
+            "At 10% profit take it OR have a trailing stop loss right there in the morning when you cross profit \u2014 can always get back in",
+            "Stop allowing trades to swing where you're up 20% and now down 20% if it pulls back",
+            "Sometimes you have the right trade with the wrong contracts",
+            "Watching small timeframe will FAKE YOU OUT \u2014 use 5min for entries & 15min to hold"
+          ]
+        },
+        {
+          "title": "Contracts & Position Sizing",
+          "notes": [
+            "Can buy 2 week contracts \u2014 slower but can make a lot of profit",
+            "Buying time means contracts aren't down as much because time is still on your side",
+            "$SPX early morning play: $30-60 contracts out of the money & cheap",
+            "Contracts in general: $40-100 contract max",
+            "If you can catch a $20-30 move & it keeps going you can make a lot more money \u2014 buy cheap & sell high"
+          ]
+        },
+        {
+          "title": "Consolidation & Patience",
+          "notes": [
+            "Whenever there's consolidation the key to success is being patient (becomes easier)",
+            "Wait for it to breakout & let it close",
+            "If a ticker goes to a level, closes, then comes back up & closes above the level \u2014 it's a reversal",
+            "When something is stuck in the range (consolidation) draw the high & low, then wait for the breakout",
+            "Got to be okay with pullbacks \u2014 it's going to happen, don't panic"
+          ]
+        },
+        {
+          "title": "Swing Trading",
+          "notes": [
+            "Swing trading targets: daily, weekly, monthly chart (NOT 15min chart)",
+            "Buying time means contracts aren't down as much \u2014 time is still on your side"
+          ]
+        },
+        {
+          "title": "Opening Bell Rules",
+          "notes": [
+            "First 15mins of opening is EXTREMELY VOLATILE",
+            "My trading time needs to be 8:45am - 10:30am when trading at opening",
+            "Be patient & wait for a CLEAR move",
+            "$SPX very quick & volatile \u2014 keep losses small",
+            "Out of money options still risky because pullbacks hurt",
+            "Don't focus on exiting at the absolute bottom on $SPX or at the absolute top on calls \u2014 AVOID THE CHOPPINESS THAT EATS AT PROFIT"
+          ]
+        },
+        {
+          "title": "SPX & Long Wicks",
+          "notes": [
+            "$SPX very quick & volatile \u2014 keep losses small",
+            "When there's wicks on BOTH sides it means no clear direction \u2014 rejecting both highs & lows",
+            "LONG WICKS ON BOTH SIDES = STAY AWAY FROM",
+            "Don't focus on exiting at absolute bottom on $SPX or absolute top on calls \u2014 AVOID THE CHOPPINESS THAT EATS AT PROFIT"
+          ]
+        },
+        {
+          "title": "Morning Routine (5 Things)",
+          "notes": [
+            "Every morning check CNBC & search '5 things to know before stock market opens'",
+            "Search Market Insider after",
+            "Then search Google premarket movers",
+            "Check earnings in chat",
+            "Check watchlist in chat",
+            "Zoom call"
+          ]
+        },
+        {
+          "title": "Key Tools & Rules",
+          "notes": [
+            "Get comfortable trading on laptop",
+            "Buy calls @ support | Buy puts @ resistance",
+            "Tradytics = cheatcode \u2014 use the goldensweeps section",
+            "Long wicks on both sides = STAY AWAY (buyers & sellers fighting, no direction)",
+            "When there's wicks on both sides it means there's no clear direction \u2014 rejecting both highs & lows"
+          ]
+        }
+      ]
     }
   ]
 }
