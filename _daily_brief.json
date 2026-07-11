@@ -8450,15 +8450,6 @@
           ]
         },
         {
-          "title": "Position Sizing & Risk",
-          "notes": [
-            "Risk the stop \u2014 this is true position size",
-            "Example: $500 x .10 = $50 risk per trade",
-            "True position sizing = knowing exactly what you're risking on the stop",
-            "DO NOT SIZE UP \u2014 when you size down you trade differently"
-          ]
-        },
-        {
           "title": "Small Accounts",
           "notes": [
             "Be honest with self \u2014 don't have a lot of room for error",
@@ -8506,22 +8497,48 @@
           ]
         },
         {
-          "title": "Risk Management",
-          "notes": [
-            "Slow & steady \u2014 stop trying to hit that 1 home run & it'll come",
-            "Work in self discipline & be fully committed",
-            "Manage fear by staying disciplined",
-            "Trail stops help with taking profit and keeping emotions in check",
-            "Protect your downside at all times"
-          ]
-        },
-        {
           "title": "Journaling Questions (After Every Trade)",
           "notes": [
             "Explain how the trade made you feel?",
             "Did you follow your rules?",
             "Did you break those rules?",
             "What will you do differently?"
+          ]
+        },
+        {
+          "title": "Discipline & Fear",
+          "notes": [
+            "Slow & steady \u2014 stop trying to hit that 1 home run & it'll come",
+            "Work in self discipline & be fully committed",
+            "Manage fear by staying disciplined",
+            "If energy is off \u2014 DON'T TRADE. Trade with peace of mind",
+            "Trail stops help with taking profit and keeping emotions in check"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Risk Management",
+      "sections": [
+        {
+          "title": "Position Sizing & The Stop",
+          "notes": [
+            "Risk the stop \u2014 this is true position size",
+            "Example: $500 x .10 = $50 risk per trade",
+            "True position sizing = knowing exactly what you're risking on the stop",
+            "DO NOT SIZE UP \u2014 when you size down you trade differently",
+            "Max number of trades is 3"
+          ]
+        },
+        {
+          "title": "Protecting Capital",
+          "notes": [
+            "Protect your downside at ALL TIMES",
+            "Cutting losses = living to fight another day",
+            "Instead of 'I took a loss' say 'I PRESERVED CAPITAL'",
+            "Trail stops \u2014 set them, don't move them in your favor emotionally",
+            "WHEN THE ACCOUNT GROWS, WITHDRAW to avoid doing something dumb",
+            "Transfer before Friday to keep majority of profits"
           ]
         }
       ]
