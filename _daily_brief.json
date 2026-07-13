@@ -8722,7 +8722,46 @@
         "detail": "NFLX earnings \u2014 3 Bar/Outside setup today could be the pre-earnings direction tell. Also ASML, UNH, JNJ reporting this week."
       }
     ],
-    "morning_prep": {},
+    "morning_prep": {
+      "theme": "Iran/oil bid vs memory crash. META holding as relative strength anchor. Energy names are the clearest directional play \u2014 Hormuz closure sustains oil premium. Banks positioning into tomorrow's CPI + earnings double catalyst. Play with the energy trend, wait for memory to stabilize before touching.",
+      "rules": [
+        "Play with the trend \u2014 energy is trending, don't fight it",
+        "Don't catch falling knives in memory \u2014 wait for stabilization first",
+        "Tomorrow is CPI + bank earnings \u2014 size down into close today",
+        "Take profits and leave runners on energy names",
+        "If energy reverses on Iran headline, exit fast \u2014 yo-yo can flip in minutes"
+      ],
+      "market": "Risk-off Monday. NDX -1.0%, SPX -0.4%. Iran declared Strait of Hormuz closed over weekend \u2014 oil +3.4%. Memory group crashing (SKHY -15% Korea, MU -5%, SNDK -5.5%) on profit taking not fundamentals. META only Mag 7 holding firm \u2014 AI demand confirmed by TSM +68% YoY. Tomorrow is the biggest single day of the summer: CPI + bank earnings (JPM/GS/C/WFC/BAC) + Fed Chair Warsh's first congressional testimony. Today = positioning day.",
+      "setups": [
+        {
+          "ticker": "META",
+          "tier": 1,
+          "catalyst": "Only Mag 7 holding firm on a broad down tape. $2.5B ask DP Friday, +6% Friday on SemiAnalysis compute report. Triple confluence last Friday delivered. AI demand intact per TSM",
+          "levels": "Friday's close as support | VWAP as intraday anchor \u2014 stay long above",
+          "bull": "Relative strength + ask DP + AI demand confirmed = continuation long",
+          "bear": "Broad AI selloff bleeds in; loses VWAP = reassess",
+          "note": "When the whole complex sells and META doesn't go down, the market is telling you something"
+        },
+        {
+          "ticker": "XOM",
+          "tier": 1,
+          "catalyst": "Inside (1) + bullish gapper + XLE/USO both kickers. Iran Strait of Hormuz closure. WTI +3.4% to $73.84. Sector-wide bid confirmed",
+          "levels": "Inside (1) \u2014 break above triggers oil momentum continuation | VWAP as anchor",
+          "bull": "Hormuz closure sustains premium \u2014 Inside resolves higher = momentum entry",
+          "bear": "Iran headline reversal (ceasefire language) deflates premium fast \u2014 have an exit",
+          "note": "XLE + USO both kickers on the board = sector bid, not just single name. Play the theme"
+        },
+        {
+          "ticker": "WFC",
+          "tier": 1,
+          "catalyst": "$300M ask AH Friday. Reports earnings tomorrow with JPM/GS/C/BAC. First bank read of the cycle. AXP upgraded JPMorgan tgt $400, COF upgraded HSBC tgt $229 \u2014 analysts upgrading into the print",
+          "levels": "Watch pre-earnings flow into close | Don't trade through the earnings open tomorrow",
+          "bull": "Ask DP + analyst upgrades + rate environment = beat thesis",
+          "bear": "Oil-driven CPI surprise tomorrow = credit outlook concern = sell on earnings",
+          "note": "Today is about positioning into tomorrow \u2014 watch how it trades into close as the tell"
+        }
+      ]
+    },
     "mag7_0dte": {
       "ticker": "META",
       "bias": "BULL",
