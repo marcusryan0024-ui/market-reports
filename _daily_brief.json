@@ -8470,7 +8470,8 @@
         "levels": "Inside (1) \u2014 break above triggers oil momentum continuation",
         "bull": "Hormuz closure sustains oil premium \u2014 XOM direct beneficiary, Inside breakout to upside",
         "bear": "Iran headline reversal (ceasefire language) deflates premium fast",
-        "note": "XLE and USO both kickers on the board \u2014 sector-wide bid confirms this isn't just one name"
+        "note": "XLE and USO both kickers on the board \u2014 sector-wide bid confirms this isn't just one name",
+        "strat": "Inside (1)"
       },
       {
         "ticker": "CVX",
@@ -8479,7 +8480,8 @@
         "levels": "3 Bar/Outside \u2014 watch for direction confirmation on open",
         "bull": "Oil stays elevated, 3 Bar resolves higher = momentum long",
         "bear": "Hormuz southern route open (Bloomberg) \u2014 if that narrative dominates, oil fade = CVX fade",
-        "note": "Play with the energy theme, not against it \u2014 Iran yo-yo can flip fast"
+        "note": "Play with the energy theme, not against it \u2014 Iran yo-yo can flip fast",
+        "strat": "3 Bar/Outside"
       },
       {
         "ticker": "OXY",
@@ -8488,7 +8490,8 @@
         "levels": "3 Bar/Outside resolution \u2014 wider range means wider stops needed",
         "bull": "Oil continuation above $73 = OXY outperforms the energy group",
         "bear": "Oil reversal = OXY drops hardest",
-        "note": "High beta oil play \u2014 size accordingly"
+        "note": "High beta oil play \u2014 size accordingly",
+        "strat": "3 Bar/Outside"
       },
       {
         "ticker": "WFC",
@@ -8497,7 +8500,8 @@
         "levels": "Watch pre-earnings positioning into close today",
         "bull": "Ask-side DP build + strong loan/rate environment = earnings beat thesis",
         "bear": "Buy-the-rumor sell-the-news if energy inflation complicates the credit outlook",
-        "note": "Bank earnings tomorrow \u2014 entire financial sector sets tone for Q2"
+        "note": "Bank earnings tomorrow \u2014 entire financial sector sets tone for Q2",
+        "strat": "Bullish Gapper"
       },
       {
         "ticker": "NFLX",
@@ -8506,7 +8510,8 @@
         "levels": "3 Bar/Outside \u2014 outside bar sets the range, watch breakout direction",
         "bull": "Pre-earnings bid + 3 Bar upside resolution = momentum entry",
         "bear": "3 Bar breaks lower = short into earnings uncertainty",
-        "note": "Earnings 7/16 \u2014 buy time, not same-week weeklies"
+        "note": "Earnings 7/16 \u2014 buy time, not same-week weeklies",
+        "strat": "3 Bar/Outside"
       },
       {
         "ticker": "MU",
@@ -8515,7 +8520,8 @@
         "levels": "Bearish gap \u2014 watch open for direction. Friday ask DP vs today's gap = conflicting signals",
         "bull": "TSM June revenue +68% YoY confirms AI demand intact \u2014 memory sell is positioning, not fundamentals. Stabilization = bounce candidate",
         "bear": "KOSPI -9%, SK Hynix -15% \u2014 momentum sell continues through open",
-        "note": "Friday DP was ask-side but it's gapping down today. Wait for the open to resolve before entry \u2014 don't catch a falling knife"
+        "note": "Friday DP was ask-side but it's gapping down today. Wait for the open to resolve before entry \u2014 don't catch a falling knife",
+        "strat": "Bearish Gapper"
       },
       {
         "ticker": "SNDK",
@@ -8524,7 +8530,8 @@
         "levels": "Bid DP vs bearish gap \u2014 watch which narrative wins at open",
         "bull": "Bid-side $3.5B is massive institutional positioning \u2014 could mean accumulation on the dip",
         "bear": "Bearish gap + sector pressure + no positive fundamental catalyst this morning",
-        "note": "SNDK is the most interesting conflict on the board \u2014 bid DP + bearish gap. Watch, don't assume"
+        "note": "SNDK is the most interesting conflict on the board \u2014 bid DP + bearish gap. Watch, don't assume",
+        "strat": "Bearish Gapper"
       },
       {
         "ticker": "GOOG",
@@ -8533,7 +8540,8 @@
         "levels": "Inside (1) \u2014 breakout above or below sets near-term direction",
         "bull": "Inside resolves up + AI demand intact per TSM + pre-earnings positioning into 7/22",
         "bear": "Memory/AI selloff bleeds into GOOG; Inside breaks lower = short-term momentum bear",
-        "note": "9 days to earnings \u2014 Inside setup today could be the pre-earnings direction tell"
+        "note": "9 days to earnings \u2014 Inside setup today could be the pre-earnings direction tell",
+        "strat": "Inside (1)"
       },
       {
         "ticker": "IWM",
@@ -8542,7 +8550,8 @@
         "levels": "3 Bar sets the range. CPI tomorrow = the catalyst that breaks it",
         "bull": "CPI comes in cool = rate cut expectations rise = small caps rip",
         "bear": "Oil-driven inflation in CPI = rates stay higher for longer = IWM breaks down through 3 Bar",
-        "note": "Hold through tomorrow's CPI \u2014 3 Bar today is the setup, CPI is the trigger"
+        "note": "Hold through tomorrow's CPI \u2014 3 Bar today is the setup, CPI is the trigger",
+        "strat": "3 Bar/Outside"
       },
       {
         "ticker": "AMZN",
@@ -8551,7 +8560,8 @@
         "levels": "Watch open; $255 strike is the call sweep target for August",
         "bull": "Bid DP + call sweep + UOV all pointing directional bull into August",
         "bear": "AI/tech selloff on Iran + memory contagion drags AMZN in the near term",
-        "note": "Call sweep is August-dated \u2014 this is a medium-term play not today's trade"
+        "note": "Call sweep is August-dated \u2014 this is a medium-term play not today's trade",
+        "strat": "Bearish Gapper"
       }
     ],
     "bulls": [
