@@ -8457,5 +8457,267 @@
         }
       ]
     }
-  ]
+  ],
+  "2026-07-13": {
+    "headline": "Iran Strait Closure + Memory Crash \u2014 CPI & Bank Earnings Tomorrow",
+    "overview": "Weekend flipped the script. Friday closed green \u2014 then the U.S. and Iran traded fresh airstrikes, Iran declared the Strait of Hormuz 'closed' and attacked a commercial ship, KOSPI plunged ~9% (trading halt), SK Hynix -15%, and LNG carrier traffic through Hormuz effectively stopped. We're opening Monday with Nasdaq leading the decline (-1.0% futures) on memory/AI weakness, while energy is the only sector with a bid \u2014 WTI +3.4% to $73.84. The critical divergence: TSM reported June revenue +68% YoY (beat high end of Q2 guide, AI packaging sold out) \u2014 AI demand is intact, this is a memory positioning unwind, not a fundamental crack. Tomorrow is the most consequential single day of the summer: CPI print + bank earnings (JPM/GS/C/WFC/BAC) + Fed Chair Warsh's first-ever congressional testimony.",
+    "market_context": "Futures: NDX -1.0%, SPX -0.4%, DJIA flat. S&P 500 at resistance near 7,600 after last week's record highs. VIX +8%, Bitcoin lower \u2014 modest risk-off shift. Iran declared Strait of Hormuz closed; southern route reportedly still open (Bloomberg) but LNG carrier traffic has effectively stopped \u2014 natural gas jumping. China imposed temporary helium export restrictions on Middle East tensions. 10-yr yield +1bp to 4.58%, 2-yr +1bp to 4.22%. DXY flat at 100.92. WTI +3.4% to $73.84, Brent +3.3% to $78.59. Gold -1.2% (risk-off but real rates rising), silver -2.1%. European markets flat overall \u2014 defensives (staples, utilities, energy, insurance) leading; semis (ASML, Infineon, STMicro) underperforming. Monday itself is light on U.S. data \u2014 the tape is positioning for tomorrow.",
+    "setups": [
+      {
+        "ticker": "XOM",
+        "tier": 1,
+        "catalyst": "Inside (1) + bullish gapper + XLE/USO both bullish kickers. Iran Strait of Hormuz closure driving energy bid. < 3 prints on board",
+        "levels": "Inside (1) \u2014 break above triggers oil momentum continuation",
+        "bull": "Hormuz closure sustains oil premium \u2014 XOM direct beneficiary, Inside breakout to upside",
+        "bear": "Iran headline reversal (ceasefire language) deflates premium fast",
+        "note": "XLE and USO both kickers on the board \u2014 sector-wide bid confirms this isn't just one name"
+      },
+      {
+        "ticker": "CVX",
+        "tier": 1,
+        "catalyst": "3 Bar/Outside setup + energy sector bid on Iran/Hormuz. WTI +3.4% to $73.84",
+        "levels": "3 Bar/Outside \u2014 watch for direction confirmation on open",
+        "bull": "Oil stays elevated, 3 Bar resolves higher = momentum long",
+        "bear": "Hormuz southern route open (Bloomberg) \u2014 if that narrative dominates, oil fade = CVX fade",
+        "note": "Play with the energy theme, not against it \u2014 Iran yo-yo can flip fast"
+      },
+      {
+        "ticker": "OXY",
+        "tier": 1,
+        "catalyst": "3 Bar/Outside + energy theme. High beta oil name \u2014 moves harder than XOM/CVX on oil",
+        "levels": "3 Bar/Outside resolution \u2014 wider range means wider stops needed",
+        "bull": "Oil continuation above $73 = OXY outperforms the energy group",
+        "bear": "Oil reversal = OXY drops hardest",
+        "note": "High beta oil play \u2014 size accordingly"
+      },
+      {
+        "ticker": "WFC",
+        "tier": 1,
+        "catalyst": "$300M ask AH Friday. Reports earnings TOMORROW with JPM/GS/C/BAC \u2014 this is the first bank earnings read of the cycle",
+        "levels": "Watch pre-earnings positioning into close today",
+        "bull": "Ask-side DP build + strong loan/rate environment = earnings beat thesis",
+        "bear": "Buy-the-rumor sell-the-news if energy inflation complicates the credit outlook",
+        "note": "Bank earnings tomorrow \u2014 entire financial sector sets tone for Q2"
+      },
+      {
+        "ticker": "NFLX",
+        "tier": 2,
+        "catalyst": "3 Bar/Outside + earnings Thursday 7/16. Unusual options volume. Live TV/bundle story (WSJ) still in play",
+        "levels": "3 Bar/Outside \u2014 outside bar sets the range, watch breakout direction",
+        "bull": "Pre-earnings bid + 3 Bar upside resolution = momentum entry",
+        "bear": "3 Bar breaks lower = short into earnings uncertainty",
+        "note": "Earnings 7/16 \u2014 buy time, not same-week weeklies"
+      },
+      {
+        "ticker": "MU",
+        "tier": 2,
+        "catalyst": "Bearish gapper on KOSPI/SK Hynix crash BUT $537M ask AH Friday (conflicting). Memory group under broad selling pressure",
+        "levels": "Bearish gap \u2014 watch open for direction. Friday ask DP vs today's gap = conflicting signals",
+        "bull": "TSM June revenue +68% YoY confirms AI demand intact \u2014 memory sell is positioning, not fundamentals. Stabilization = bounce candidate",
+        "bear": "KOSPI -9%, SK Hynix -15% \u2014 momentum sell continues through open",
+        "note": "Friday DP was ask-side but it's gapping down today. Wait for the open to resolve before entry \u2014 don't catch a falling knife"
+      },
+      {
+        "ticker": "SNDK",
+        "tier": 2,
+        "catalyst": "$3.5B bid-side Friday (second largest on board) + bearish gapper this morning. Memory group under pressure",
+        "levels": "Bid DP vs bearish gap \u2014 watch which narrative wins at open",
+        "bull": "Bid-side $3.5B is massive institutional positioning \u2014 could mean accumulation on the dip",
+        "bear": "Bearish gap + sector pressure + no positive fundamental catalyst this morning",
+        "note": "SNDK is the most interesting conflict on the board \u2014 bid DP + bearish gap. Watch, don't assume"
+      },
+      {
+        "ticker": "GOOG",
+        "tier": 2,
+        "catalyst": "Inside (1) + earnings July 22 (9 days). AAPL suing OpenAI = competitive AI landscape shifting",
+        "levels": "Inside (1) \u2014 breakout above or below sets near-term direction",
+        "bull": "Inside resolves up + AI demand intact per TSM + pre-earnings positioning into 7/22",
+        "bear": "Memory/AI selloff bleeds into GOOG; Inside breaks lower = short-term momentum bear",
+        "note": "9 days to earnings \u2014 Inside setup today could be the pre-earnings direction tell"
+      },
+      {
+        "ticker": "IWM",
+        "tier": 2,
+        "catalyst": "3 Bar/Outside + CPI data tomorrow. Small caps most rate-sensitive \u2014 CPI read will move this hard",
+        "levels": "3 Bar sets the range. CPI tomorrow = the catalyst that breaks it",
+        "bull": "CPI comes in cool = rate cut expectations rise = small caps rip",
+        "bear": "Oil-driven inflation in CPI = rates stay higher for longer = IWM breaks down through 3 Bar",
+        "note": "Hold through tomorrow's CPI \u2014 3 Bar today is the setup, CPI is the trigger"
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 2,
+        "catalyst": "$285M bid AH + call sweep $255C 8/21 + unusual options volume \u2014 three separate signals on one name",
+        "levels": "Watch open; $255 strike is the call sweep target for August",
+        "bull": "Bid DP + call sweep + UOV all pointing directional bull into August",
+        "bear": "AI/tech selloff on Iran + memory contagion drags AMZN in the near term",
+        "note": "Call sweep is August-dated \u2014 this is a medium-term play not today's trade"
+      }
+    ],
+    "bulls": [
+      "TSM June revenue +68% YoY (+6.2% MoM), beat high end of Q2 guidance ahead of earnings this week. AI packaging capacity SOLD OUT, $40B+ AI chip revenue expected this year \u2014 AI demand is structurally intact despite memory noise",
+      "Energy sector bid on Hormuz closure: WTI +3.4% to $73.84, Brent +3.3% to $78.59. XLE and USO both bullish kickers with DP. XOM, CVX, OXY all have Strat setups. LNG traffic effectively stopped = nat gas premium builds",
+      "XOM Inside (1) + bullish gapper + sector confluence. < 3 prints on board = setup still developing",
+      "WFC $300M ask AH into bank earnings tomorrow \u2014 3-week DP pattern in financials building into JPM/GS/C/WFC/BAC reports",
+      "AAPL $500M ask AH Friday \u2014 large single-name bid. AAPL suing OpenAI for trade secrets = positioning in AI hardware race",
+      "META holding firm this morning despite broader AI/semi wobble \u2014 +6% Friday on SemiAnalysis compute report, still acting as relative strength leader",
+      "CMG: Oppenheimer reiterates Outperform tgt $51 \u2014 25x forward P/E vs ~40x 3yr avg, 6 straight quarters of negative EPS revision now entering rear view. Earnings July 29",
+      "SHOP upgrade (multiple firms) \u2014 AI commerce theme holding even in risk-off",
+      "21st Century Road to Housing Act signed into law \u2014 limits institutional buying of single-family homes, reduces supply regulations. Homebuilders (TOL, DHI, LEN) potential beneficiary"
+    ],
+    "bears": [
+      "Memory crash: KOSPI -9% (market-wide trading halt), SK Hynix -15%, Samsung hit hard. MU, SNDK, NVDA, MRVL all bearish gappers \u2014 profit taking after exceptional run, but no negative fundamental news",
+      "Strait of Hormuz 'closed' by Iran \u2014 commercial shipping slowed significantly, LNG carrier traffic effectively stopped. Oil +3-4% complicates tomorrow's CPI read directly",
+      "Nasdaq leading the decline (-1.0% futures) \u2014 AI/memory names at the epicenter. VIX +8%, Bitcoin lower \u2014 risk-off positioning shift after last week's record highs",
+      "GLD bearish kicker with confluence \u2014 gold selling despite geopolitical stress suggests rising real rates (not fear) are the dominant driver",
+      "VWAGY: supervisory board rejected overhaul plan \u2014 European auto sector structural issues deepening",
+      "AZN downgraded \u2014 biotech/pharma under pressure post-pipeline setbacks last week (IONS/AZN ATTR-CM failure still fresh)",
+      "SPY $620P 12/18/26 at $3M \u2014 long-dated index put sweep. Someone is buying December 2026 downside protection at scale. Not a near-term trade but a flag",
+      "QQQ DP: $506M BID-side Friday (vs SPY $604M ask) \u2014 ETF flow divergence: tech buyers vs broad market buyers split at the index level"
+    ],
+    "trump_stocks": [
+      {
+        "ticker": "XOM",
+        "pct": "watch",
+        "news": "Iran declared Strait of Hormuz closed after weekend strikes; U.S. and Iran exchanged fresh airstrikes. WTI +3.4% to $73.84. XOM and energy names directly in play on any Iran escalation/de-escalation headline."
+      },
+      {
+        "ticker": "CVX",
+        "pct": "watch",
+        "news": "Same Hormuz/Iran dynamic. CVX 3 Bar/Outside setup today \u2014 energy bid sustained as long as Hormuz disruption narrative holds."
+      },
+      {
+        "ticker": "XLE",
+        "pct": "watch",
+        "news": "Bullish kicker with DP on board. Entire energy ETF benefiting from Iran-driven oil premium. < 3 prints = still building."
+      }
+    ],
+    "trump_context": [
+      "U.S. and Iran traded fresh airstrikes over the weekend \u2014 Iran hit U.S. facilities in multiple Gulf countries and declared the Strait of Hormuz 'closed' (Axios). Bloomberg reports the southern route remains open. LNG carrier traffic has effectively stopped, natural gas prices jumping. This is the most significant Hormuz escalation in years.",
+      "The 'yo-yo' pattern continues: ceasefire signals from last week are gone. Oil is now pricing in a meaningful disruption premium (WTI +3.4%, Brent +3.3%). This feeds directly into tomorrow's CPI \u2014 any oil-driven inflation surprise keeps the Fed hawkish and complicates new Fed Chair Warsh's first testimony to Congress. Iran is now the dominant swing factor for rates, not just energy."
+    ],
+    "darkpool": [
+      {
+        "ticker": "SPY",
+        "flow": "$5.3B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Led all flow incl ETFs \u2014 broad index ask-side into a Friday close at highs"
+      },
+      {
+        "ticker": "MU",
+        "flow": "$4.3B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Led single-name flow \u2014 ask-side Friday but gapping DOWN this morning on Korea read. Conflicting signal"
+      },
+      {
+        "ticker": "SNDK",
+        "flow": "$3.5B",
+        "side": "bid",
+        "timing": "session",
+        "note": "Second \u2014 bid-side all week AND in single print. Now a bearish gapper. Watch which narrative wins at open"
+      },
+      {
+        "ticker": "META",
+        "flow": "$2.5B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Third \u2014 ask-side and holding firm this morning relative to rest of AI group. +6% Friday on SemiAnalysis compute report"
+      },
+      {
+        "ticker": "MU",
+        "flow": "$537M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Largest single-name print AH \u2014 ask-side but gapping down Monday. Friday buyers vs weekend sellers"
+      },
+      {
+        "ticker": "SNDK",
+        "flow": "$516M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Second largest, bid-side AH \u2014 still a bearish gapper today. Institutional bid vs price action conflict"
+      },
+      {
+        "ticker": "AAPL",
+        "flow": "$500M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Large ask-side print. Now suing OpenAI for trade secrets \u2014 AI hardware competition intensifying"
+      },
+      {
+        "ticker": "CVS",
+        "flow": "$322M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side AH \u2014 healthcare/pharma flow"
+      },
+      {
+        "ticker": "WFC",
+        "flow": "$300M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side AH into bank earnings tomorrow \u2014 building the financial sector position"
+      },
+      {
+        "ticker": "PG",
+        "flow": "$300M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed AH \u2014 defensive consumer staples bid in risk-off environment"
+      },
+      {
+        "ticker": "DDOG",
+        "flow": "$286M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side AH \u2014 also on < 3 prints earlier this week. Watch for setup development"
+      },
+      {
+        "ticker": "AMZN",
+        "flow": "$285M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid AH + call sweep + unusual options volume \u2014 three signals, August-dated call thesis building"
+      },
+      {
+        "ticker": "ADI",
+        "flow": "$265M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Analog Devices \u2014 mixed AH, semi-adjacent but analog (not memory)"
+      },
+      {
+        "ticker": "GEV",
+        "flow": "$249M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "GE Vernova \u2014 power infrastructure theme continues building quietly"
+      }
+    ],
+    "events": [
+      {
+        "type": "12:30 PM ET",
+        "detail": "Fed Governor Waller (FOMC voter) speaks \u2014 first Fed commentary of the week before tomorrow's CPI. Watch for any signal on how the Fed views oil-driven inflation and September rate path."
+      },
+      {
+        "type": "2:00 PM ET",
+        "detail": "June Treasury Budget \u2014 secondary data, but watch in context of deficit spending narrative heading into CPI week."
+      },
+      {
+        "type": "This Morning",
+        "detail": "TSM June revenue: +68% YoY, +6.2% MoM \u2014 beat high end of Q2 guidance. AI packaging sold out, $40B+ AI chip revenue expected this year. Reports full earnings later this week. Separates AI demand (strong) from memory positioning (unwinding)."
+      },
+      {
+        "type": "Watch Tomorrow \u2014 Tuesday 7/14",
+        "detail": "CPI print + Bank Earnings (JPM, GS, C, WFC, BAC) + Fed Chair Warsh's first-ever congressional testimony. All three on the same day. Most consequential single session of the summer. CPI high = Iran oil feeding inflation = Warsh hawkish = banks pressured. CPI low = rate cut path opens = banks rip on net interest margin confidence."
+      },
+      {
+        "type": "Watch Thursday \u2014 7/16",
+        "detail": "NFLX earnings \u2014 3 Bar/Outside setup today could be the pre-earnings direction tell. Also ASML, UNH, JNJ reporting this week."
+      }
+    ],
+    "morning_prep": {}
+  }
 }
