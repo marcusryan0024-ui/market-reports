@@ -8786,6 +8786,15 @@
           "bull": "Inside breaks above $187.59 \u2014 PT raise to $210 gives room",
           "bear": "Inside breaks down under $182.50 \u2014 put play",
           "note": "Paid us before, can pay us again. Two-sided setup \u2014 wait for ORB to show direction."
+        },
+        {
+          "ticker": "CMG",
+          "tier": 2,
+          "catalyst": "Teal candle before open. Price targets raised.",
+          "levels": "Watch pre-market teal level as support \u2014 break above holds the bid",
+          "bull": "Teal pre-market + PT raise = institutions positioning \u2014 continuation play on open",
+          "bear": "Fades back below pre-market teal level = trap",
+          "note": "PT raise adds fuel. Teal before open signals early institutional buying."
         }
       ]
     },
