@@ -8807,7 +8807,14 @@
       "key_levels": "Friday's high | VWAP as support \u2014 stay long above VWAP, reassess below",
       "expected_move": "Watch for continuation above Friday's close",
       "why": "When the whole AI/semi complex is selling and META refuses to go down, the market is telling you something. AI demand confirmed by TSM +68% YoY, and META is the AI equity that institutions are rotating INTO, not out of. Triple confluence last Friday (top flow + 3 Bar + gapper) delivered. Same setup today with a cleaner entry on a pullback tape.",
-      "expected_move_pct": "\u00b12.8%"
+      "expected_move_pct": "\u00b12.8%",
+      "result": {
+        "outcome": "MISS",
+        "actual_move": "-0.72%",
+        "hod": "$676.62",
+        "lod": "$654.20",
+        "recap": "META opened at $661.51 but failed to hold the bid on a risk-off Monday. Pulled back to LOD $654.20. Bull thesis required holding above VWAP \u2014 didn't sustain. Iran + memory sector pressure weighed on the tape."
+      }
     }
   }
 }
