@@ -51,6 +51,12 @@
     }
     .rpt-back:hover { color: var(--tx1); }
     .rpt-nav-btns { display: flex; gap: 8px; }
+    .rpt-nav-title {
+        font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--tx2);
+        display: flex; align-items: center; gap: 8px;
+    }
+    .rpt-nav-mode-pre { color: #58a6ff; }
+    .rpt-nav-mode-cls { color: #3fb950; }
     .rpt-btn {
         font-size: 11px; font-weight: 600; padding: 5px 13px; border-radius: 6px;
         text-decoration: none; border: 1px solid; display: inline-flex; align-items: center;
@@ -84,6 +90,7 @@
         border-bottom: 1px solid var(--border-s);
         margin: 0 -24px 20px;
     }
+    .rpt-body-top { margin-top: 20px; }
     .theme-btn {
         font-size: 10px; font-weight: 600; padding: 3px 10px; border-radius: 4px;
         border: 1px solid var(--border); background: transparent; color: var(--tx3);
@@ -988,6 +995,9 @@
 <body>
 <div class="rpt-nav">
   <a class="rpt-back" href="index.html">&#8592;&thinsp;All Reports</a>
+  <div class="rpt-nav-title">
+    CATALYST REPORT&nbsp;&nbsp;&#183;&nbsp;&nbsp;<span class="rpt-nav-mode-pre">PRE-MARKET</span>&nbsp;&nbsp;&#183;&nbsp;&nbsp;Tuesday, July 14, 2026
+  </div>
   <div class="rpt-nav-btns">
     <button class="rpt-rules-btn" onclick="document.getElementById('refOverlay').classList.add('open')">&#9776;&thinsp;Rules</button>
     <a class="rpt-btn rpt-pre rpt-active" href="2026-07-14-premarket.html">&#9651;&thinsp;Pre-Market</a>
@@ -1211,12 +1221,50 @@ function toggleTheme() {
   }
 })();
 </script>
-<div class="header">
-  <h1>CATALYST REPORT</h1>
-  <span class="mode">PRE-MARKET</span>
-  <span class="meta">Tuesday, July 14, 2026 &nbsp;·&nbsp; 11:28 AM</span>
-</div>
 
+<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
+          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+        <div class="wl-pill">
+          <span class="sym">IWM</span>
+          <span class="chg down">-0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">QQQ</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">SPY</span>
+          <span class="chg up">+0.0%</span>
+        </div><span class="wl-group-label">MAG 7</span>
+        <div class="wl-pill">
+          <span class="sym">AAPL</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">MSFT</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">NVDA</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">GOOGL</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">AMZN</span>
+          <span class="chg down">-0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">META</span>
+          <span class="chg up">+0.0%</span>
+        </div>
+        <div class="wl-pill">
+          <span class="sym">TSLA</span>
+          <span class="chg up">+0.0%</span>
+        </div></div>
+        </div>
 
         <div class="headline-bar">
           <span class="headline-tag">TOP HEADLINE</span>
@@ -1525,52 +1573,9 @@ function toggleTheme() {
         </div>
 <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
               <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">THIS WEEK</div>
-              <div style="display:grid;grid-template-columns:1fr 2fr 1fr 1fr 1fr;gap:1px;background:#21262d;"><div style="background:#0a0e13;padding:9px 10px;border-left:3px solid #0d1117;"><div style="font-size:9px;font-weight:700;color:#2d3540;letter-spacing:.08em;margin-bottom:7px;">MON 7/13</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:11px;font-weight:700;color:#2d3540;min-width:34px;">IBM</span><span style="font-size:8px;color:#2d3540;">bmo</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #21262d;"><div style="font-size:9px;color:#4a4a5a;line-height:1.8;letter-spacing:.01em;">TSM — July sales data</div></div></div><div style="background:#0c1929;padding:11px 12px;border-left:3px solid #1f6feb;"><div style="font-size:11px;font-weight:800;color:#58a6ff;letter-spacing:.08em;margin-bottom:7px;">TUE 7/14</div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">JPM</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±7.3%</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">BAC</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">C</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">WFC</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">GS</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±10.1%</span><span style="font-size:8px;color:var(--tx3);font-style:italic;margin-left:auto;white-space:nowrap;">blowout quarter</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">FAST</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±7.6%</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #122040;"><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">CPI 8:30</div><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">Warsh 10am</div><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">Trump 11am</div></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">WED 7/15</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">ASML</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #21262d;"><div style="font-size:9px;color:var(--tx2);line-height:1.8;letter-spacing:.01em;">PGR — June sales</div></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">THU 7/16</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">TSM</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">UNH</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">NFLX</span><span style="width:5px;height:5px;border-radius:50%;background:#3a2a70;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">AMC</span></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">FRI 7/17</div><span style="font-size:9px;color:#2d3540;font-style:italic;">—</span></div></div>
+              <div style="display:grid;grid-template-columns:1fr 2fr 1fr 1fr 1fr;gap:1px;background:#21262d;"><div style="background:#0a0e13;padding:9px 10px;border-left:3px solid #0d1117;"><div style="font-size:9px;font-weight:700;color:#2d3540;letter-spacing:.08em;margin-bottom:7px;">MON 7/13</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:11px;font-weight:700;color:#2d3540;min-width:34px;">IBM</span><span style="font-size:8px;color:#2d3540;">bmo</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #21262d;"><div style="font-size:9px;color:#4a4a5a;line-height:1.8;letter-spacing:.01em;">TSM — July sales data</div></div></div><div style="background:#0c1929;padding:11px 12px;border-left:3px solid #1f6feb;"><div style="font-size:11px;font-weight:800;color:#58a6ff;letter-spacing:.08em;margin-bottom:7px;">TUE 7/14</div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">JPM</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±7.3%</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">BAC</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">C</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">WFC</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">GS</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±10.0%</span><span style="font-size:8px;color:var(--tx3);font-style:italic;margin-left:auto;white-space:nowrap;">blowout quarter</span></div><div style="display:flex;align-items:center;gap:5px;padding:3px 0;border-bottom:1px solid #122040;"><span style="font-size:13px;font-weight:800;color:var(--tx1);min-width:40px;">FAST</span><span style="width:6px;height:6px;border-radius:50%;background:#f0883e;flex-shrink:0;"></span><span style="font-size:8px;font-weight:700;color:#f0883e;">BMO</span><span style="font-size:9px;color:var(--tx3);">±7.8%</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #122040;"><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">CPI 8:30</div><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">Warsh 10am</div><div style="font-size:9px;color:#ffd54f;line-height:1.8;letter-spacing:.01em;">Trump 11am</div></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">WED 7/15</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">ASML</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="margin-top:7px;padding-top:6px;border-top:1px solid #21262d;"><div style="font-size:9px;color:var(--tx2);line-height:1.8;letter-spacing:.01em;">PGR — June sales</div></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">THU 7/16</div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">TSM</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">UNH</span><span style="width:5px;height:5px;border-radius:50%;background:#5a3f1f;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">BMO</span></div><div style="display:flex;align-items:center;gap:4px;padding:2px 0;"><span style="font-size:12px;font-weight:700;color:var(--tx2);min-width:36px;">NFLX</span><span style="width:5px;height:5px;border-radius:50%;background:#3a2a70;flex-shrink:0;"></span><span style="font-size:8px;color:#4a4a5a;">AMC</span></div></div><div style="background:var(--bg-card);padding:9px 10px;border-left:3px solid #21262d;"><div style="font-size:9px;font-weight:700;color:var(--tx3);letter-spacing:.08em;margin-bottom:7px;">FRI 7/17</div><span style="font-size:9px;color:#2d3540;font-style:italic;">—</span></div></div>
             </div>
 
-<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
-          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
-        <div class="wl-pill">
-          <span class="sym">IWM</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">QQQ</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">SPY</span>
-          <span class="chg up">+0.0%</span>
-        </div><span class="wl-group-label">MAG 7</span>
-        <div class="wl-pill">
-          <span class="sym">AAPL</span>
-          <span class="chg down">-0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">MSFT</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">NVDA</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">GOOGL</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">AMZN</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">META</span>
-          <span class="chg up">+0.0%</span>
-        </div>
-        <div class="wl-pill">
-          <span class="sym">TSLA</span>
-          <span class="chg up">+0.0%</span>
-        </div></div>
-        </div>
 <div style="display:flex;gap:1px;background:#21262d;background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
           <div style="flex:0 0 50%;min-width:0;overflow:hidden;display:flex;flex-direction:column;">
             <div style="padding:14px;background:var(--bg-card);">
