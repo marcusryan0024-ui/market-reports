@@ -9221,23 +9221,14 @@
       }
     ],
     "earnings_bmo": [
-      "BAC",
       "JPM",
+      "BAC",
       "C",
       "WFC",
       "GS",
-      "FAST",
-      "ANGO",
-      "CRMT"
+      "FAST"
     ],
-    "earnings_amc": [
-      "AEHR",
-      "AIR",
-      "EQBK",
-      "LOOP",
-      "KMTS",
-      "PXED"
-    ],
+    "earnings_amc": [],
     "week_calendar": [
       {
         "date": "2026-07-13",
@@ -9276,6 +9267,10 @@
           {
             "ticker": "GS",
             "news": "blowout quarter"
+          },
+          {
+            "ticker": "FAST",
+            "news": null
           }
         ],
         "earnings_amc": [],
