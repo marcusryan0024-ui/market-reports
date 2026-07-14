@@ -9233,99 +9233,56 @@
       {
         "date": "2026-07-13",
         "label": "MON 7/13",
-        "earnings_bmo": [
-          {
-            "ticker": "IBM",
-            "news": "−20% on guidance cut"
-          }
-        ],
+        "earnings_bmo": [{"ticker": "IBM", "news": "−20% on guidance cut"}],
         "earnings_amc": [],
         "events": [
-          {
-            "event": "TSM July Sales"
-          }
+          {"ticker": "TSM",  "type": "SALES"},
+          {"ticker": "GLOO", "type": "MEETING"},
+          {"ticker": "FIZZ", "type": "DIVIDEND"},
+          {"ticker": "STRS", "type": "DIVIDEND"},
+          {"ticker": "PSQH", "type": "SPLIT"}
         ]
       },
       {
         "date": "2026-07-14",
         "label": "TUE 7/14",
         "earnings_bmo": [
-          {
-            "ticker": "JPM",
-            "news": null
-          },
-          {
-            "ticker": "BAC",
-            "news": null
-          },
-          {
-            "ticker": "C",
-            "news": null
-          },
-          {
-            "ticker": "WFC",
-            "news": null
-          },
-          {
-            "ticker": "GS",
-            "news": "blowout quarter"
-          },
-          {
-            "ticker": "FAST",
-            "news": null
-          }
+          {"ticker": "JPM",  "news": null},
+          {"ticker": "BAC",  "news": null},
+          {"ticker": "C",    "news": null},
+          {"ticker": "WFC",  "news": null},
+          {"ticker": "GS",   "news": "blowout quarter"},
+          {"ticker": "FAST", "news": null}
         ],
         "earnings_amc": [],
         "events": [
-          {
-            "time": "8:30",
-            "event": "June CPI"
-          },
-          {
-            "time": "10:00",
-            "event": "Warsh Testimony"
-          },
-          {
-            "time": "11:00",
-            "event": "Trump / Iraq PM"
-          }
+          {"time": "8:30",  "event": "June CPI"},
+          {"time": "10:00", "event": "Warsh Testimony"},
+          {"time": "11:00", "event": "Trump / Iraq PM"},
+          {"ticker": "BIIB", "type": "CONFERENCE"},
+          {"ticker": "GOSS", "type": "MEETING"}
         ]
       },
       {
         "date": "2026-07-15",
         "label": "WED 7/15",
-        "earnings_bmo": [
-          {
-            "ticker": "ASML",
-            "news": null
-          }
-        ],
+        "earnings_bmo": [{"ticker": "ASML", "news": null}],
         "earnings_amc": [],
         "events": [
-          {
-            "event": "PGR June Sales"
-          }
+          {"ticker": "PGR",  "type": "SALES"},
+          {"ticker": "FCX",  "type": "DIVIDEND"},
+          {"ticker": "ABT",  "type": "DIVIDEND"},
+          {"ticker": "ABBV", "type": "DIVIDEND"}
         ]
       },
       {
         "date": "2026-07-16",
         "label": "THU 7/16",
         "earnings_bmo": [
-          {
-            "ticker": "TSM",
-            "news": null
-          },
-          {
-            "ticker": "UNH",
-            "news": null
-          }
+          {"ticker": "TSM", "news": null},
+          {"ticker": "UNH", "news": null}
         ],
-        "earnings_amc": [
-          {
-            "ticker": "NFLX",
-            "news": null
-          }
-        ],
+        "earnings_amc": [{"ticker": "NFLX", "news": null}],
         "events": []
       },
       {
@@ -9333,7 +9290,11 @@
         "label": "FRI 7/17",
         "earnings_bmo": [],
         "earnings_amc": [],
-        "events": []
+        "events": [
+          {"ticker": "WSM",  "type": "DIVIDEND"},
+          {"ticker": "EOG",  "type": "DIVIDEND"},
+          {"ticker": "WDFC", "type": "DIVIDEND"}
+        ]
       }
     ]
   }
