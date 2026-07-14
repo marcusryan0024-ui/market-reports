@@ -9204,32 +9204,20 @@
     "trump_context": "Trump reinstated blockade on Iranian shipping through Strait of Hormuz \u2014 keeping Brent crude above $87 and WTI above $80. XLE and USO catching the bid as direct result. Trump also speaking at 11am ET (war/economic topics expected) and meeting with Iraq PM \u2014 watching for any de-escalation signals that could reverse the oil trade and ease inflation concerns into CPI. Watch White House Live at 11am.",
     "events": [
       {
-        "type": "8:30 ET \u2014 CPI",
-        "detail": "June CPI: headline ~-0.2% MoM / annual ~3.8% / core ~2.8-2.9%"
+        "type": "8:30 ET",
+        "detail": "June CPI \u2014 headline ~-0.2% MoM, annual ~3.8%, core ~2.8-2.9%"
       },
       {
-        "type": "BMO EARNINGS",
-        "detail": "BAC \u00b7 JPM \u00b7 C \u00b7 WFC \u00b7 GS \u00b7 FAST \u00b7 ANGO \u00b7 CRMT"
+        "type": "10:00 ET",
+        "detail": "Fed Chair Warsh \u2014 first congressional testimony, House Financial Services"
       },
       {
-        "type": "10:00 ET \u2014 FED",
-        "detail": "Chair Warsh first congressional testimony (House Financial Services)"
+        "type": "11:00 ET",
+        "detail": "Trump speaking \u2014 Iraq PM visit; Hormuz/war/econ topics expected"
       },
       {
-        "type": "11:00 ET \u2014 TRUMP",
-        "detail": "President Trump speaking \u2014 Iraq PM visit; Hormuz/war/econ expected"
-      },
-      {
-        "type": "AMC EARNINGS",
-        "detail": "AEHR \u00b7 AIR \u00b7 EQBK \u00b7 LOOP \u00b7 KMTS \u00b7 PXED"
-      },
-      {
-        "type": "CONFERENCE",
-        "detail": "BIIB \u2014 Alzheimer's Assoc. International Conference, London"
-      },
-      {
-        "type": "MEETING",
-        "detail": "GOSS"
+        "type": "12:00 ET",
+        "detail": "BIIB Conference \u2014 Alzheimer's Assoc. International Conference, London"
       }
     ],
     "earnings_bmo": [
