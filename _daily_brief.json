@@ -9241,7 +9241,9 @@
         ],
         "earnings_amc": [],
         "events": [
-          "TSM — July sales data"
+          {
+            "event": "TSM July Sales"
+          }
         ]
       },
       {
@@ -9275,9 +9277,18 @@
         ],
         "earnings_amc": [],
         "events": [
-          "CPI 8:30",
-          "Warsh 10am",
-          "Trump 11am"
+          {
+            "time": "8:30",
+            "event": "June CPI"
+          },
+          {
+            "time": "10:00",
+            "event": "Warsh Testimony"
+          },
+          {
+            "time": "11:00",
+            "event": "Trump / Iraq PM"
+          }
         ]
       },
       {
@@ -9291,7 +9302,9 @@
         ],
         "earnings_amc": [],
         "events": [
-          "PGR — June sales"
+          {
+            "event": "PGR June Sales"
+          }
         ]
       },
       {
