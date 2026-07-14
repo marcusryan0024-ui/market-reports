@@ -9205,7 +9205,11 @@
     "events": [
       {
         "type": "EARNINGS BMO",
-        "detail": "JPM, BAC, WFC, GS, C \u2014 bank earnings season opens"
+        "detail": "BAC, JPM, C, WFC, GS \u2014 major banks; also FAST, ANGO, CRMT"
+      },
+      {
+        "type": "EARNINGS AMC",
+        "detail": "AEHR, AIR, EQBK, LOOP, KMTS, PXED"
       },
       {
         "type": "MACRO 8:30 ET",
@@ -9217,11 +9221,15 @@
       },
       {
         "type": "TRUMP 11:00 ET",
-        "detail": "President Trump speaking \u2014 Iraq PM visit; Hormuz/war/econ topics expected"
+        "detail": "Trump speaking \u2014 Iraq PM visit; Hormuz/war/econ topics expected"
       },
       {
         "type": "CONFERENCE",
-        "detail": "BIIB \u2014 Alzheimer's Assoc. International Conference, London (12:00 ET)"
+        "detail": "BIIB \u2014 Alzheimer's Assoc. International Conference, London"
+      },
+      {
+        "type": "MEETING",
+        "detail": "GOSS"
       }
     ]
   }
