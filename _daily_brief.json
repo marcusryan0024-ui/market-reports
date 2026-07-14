@@ -8949,5 +8949,258 @@
         "flow": ""
       }
     ]
+  },
+  "2026-07-14": {
+    "headline": "Triple-Header: CPI + Bank Earnings + Warsh \u2014 IBM -20%, GS Blowout, Oil Holds Bid",
+    "overview": "Triple-header Tuesday before lunch: June CPI at 8:30, major bank earnings (JPM, BAC, WFC, GS, C), and new Fed Chair Warsh's first congressional testimony at 10. Banks broadly beat but IBM is in freefall (-20%) after a preliminary Q2 miss. Goldman delivers a record quarter while memory names attempt to bounce after Monday's -6% shellacking. Iran/Strait of Hormuz keeps oil elevated (Brent $87+, WTI $80+) \u2014 making today's CPI especially market-moving with energy already back in the picture.",
+    "market_context": "S&P futures -0.08%, Dow futures -176pts (IBM drag), Nasdaq futures +0.43% as semis stabilize. Oil holds bid on Trump's Strait of Hormuz reinstatement \u2014 Brent $87+, WTI $80+. Treasury 10-yr at 4.62%. Asia mixed-constructive: Japan Topix +0.79%, Nikkei +0.74%; China June trade beat (exports +27%, imports +36%). Europe broadly lower on energy/inflation concerns. Warsh's 10am testimony = second volatility event after CPI.",
+    "bulls": [
+      {
+        "ticker": "TSEM",
+        "pct": "+18%",
+        "why": "$3B Japan fab investment (~$1B govt grants); 2028 revenue target raised to $3.6B; 300mm silicon photonics fab",
+        "flow": ""
+      },
+      {
+        "ticker": "GS",
+        "pct": "+1.4%",
+        "why": "Blowout Q2: EPS $20.98 vs $14.48 est; IB fees +30%, markets revenue +35%; every business line hit record",
+        "flow": ""
+      },
+      {
+        "ticker": "MU",
+        "pct": "+bounce",
+        "why": "Failed 2D setup; bouncing off Monday -6% SK Hynix-led lows; dark pool $562M ask AH",
+        "flow": "ask"
+      },
+      {
+        "ticker": "USO",
+        "pct": "+bid",
+        "why": "Iran/Hormuz oil trade continues; bullish gapper with DP on board",
+        "flow": ""
+      },
+      {
+        "ticker": "ASML",
+        "pct": "+gap",
+        "why": "Bullish gapper with DP; earnings tomorrow 7/15 \u2014 AI chip equipment bellwether; pre-positioning",
+        "flow": ""
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "IBM",
+        "pct": "-20.49%",
+        "why": "Preliminary Q2 miss: projects $2.93 EPS vs $3.01 est; sales missed as customers pulled back",
+        "flow": ""
+      },
+      {
+        "ticker": "ERIC",
+        "pct": "-10%",
+        "why": "Revenue SEK52.70B vs SEK53.94B est; gross margin 48.4% vs 47.8% est; elevated component costs warning",
+        "flow": ""
+      },
+      {
+        "ticker": "WFC",
+        "pct": "-1%",
+        "why": "Beat EPS $2.00 vs $1.72 est, revenue $22.62B vs $21.84B est \u2014 but shares selling the news; 3 Bar/Outside setup",
+        "flow": ""
+      },
+      {
+        "ticker": "AAPL",
+        "pct": "-1%",
+        "why": "KeyBanc downgrade to Underweight, $250 target (21% downside); customers tightening spend on rising prices",
+        "flow": ""
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "IBM",
+        "tier": 1,
+        "strat": "Inside (1) Bearish",
+        "catalyst": "Preliminary Q2 miss \u2014 sales missed as customers pulled back; -20% premarket; bearish gapper with DP",
+        "levels": "Dropped ~$65; near gap fill / order block support \u2014 watch $185",
+        "bull": "Short squeeze if actual Q2 report (later) comes in better than preliminary guidance",
+        "bear": "Trend day down \u2014 inside bar breaks lower into continuation sell; sector drags Dow",
+        "note": "Possible consolidation or relief bounce from support \u2014 keep on watch, don't short into gap fill"
+      },
+      {
+        "ticker": "WFC",
+        "tier": 1,
+        "strat": "3 Bar/Outside",
+        "catalyst": "Q2 beat (EPS $2.00 vs $1.72 est) but shares -1% premarket \u2014 sell the news dynamic; 3 Bar/Outside setup on the chart",
+        "levels": "3 Bar resolution determines direction; watch open + first 30min",
+        "bull": "Bank beat narrative + healthy consumer keeps buyers in; reclaims and breaks out of 3 bar to upside",
+        "bear": "Sell the news continues; IBM drag pulls financials sector lower; outside bar resolves down",
+        "note": "3 Bar resolution \u2014 less priority today vs JPM/BAC per JR"
+      },
+      {
+        "ticker": "BAC",
+        "tier": 1,
+        "strat": "3-2 Up Trigger",
+        "catalyst": "Q2 beat (EPS $1.21 vs $1.13 est, revenue $31.7B vs $30.72B est); flat premarket despite beat",
+        "levels": "Bull above $60.05 | Bear below $58.85 | ATH $60.83",
+        "bull": "3-2 Up trigger fires above $60.05; ATH $60.83 in reach",
+        "bear": "Below $58.85 = breakdown; sell the news despite beat",
+        "note": "Wait 10-min ORB \u2014 top flow candidate per JR"
+      },
+      {
+        "ticker": "JPM",
+        "tier": 1,
+        "strat": "Trampoline",
+        "catalyst": "Earnings today: EPS $6.14 vs $5.85 est, revenue $58.02B vs $50.19B est; shares down slightly premarket",
+        "levels": "$320.56 key support \u2014 if fails, opens downside. Pulled into support / order block",
+        "bull": "Bounces off order block support (trampoline); 2-hr trigger + ORB confirmation",
+        "bear": "Fails $320.56 = further downside; sell the news on mixed read vs GS blowout",
+        "note": "JR's favorite setup today \u2014 wait for 2-hr higher timeframe confirmation + ORB"
+      },
+      {
+        "ticker": "GS",
+        "tier": 1,
+        "strat": "Bullish Gapper",
+        "catalyst": "Blockbuster Q2: EPS $20.98 vs $14.48 est; IB fees +30%, markets revenue +35%; every major line hit record",
+        "levels": "Gap fill $1,106 | ATH $1,125",
+        "bull": "Record quarter across every business line \u2014 trend day up if market holds",
+        "bear": "Broader IBM/macro headwinds cap the move; sell the news after massive beat",
+        "note": "Do NOT chase open \u2014 wait 10-min ORB; IV crush destroys premium on gap contracts"
+      },
+      {
+        "ticker": "MU",
+        "tier": 1,
+        "strat": "Failed 2D",
+        "catalyst": "Bouncing after Monday -6% SK Hynix selloff; dark pool $562M ask AH; ASML tomorrow + TSM Thursday = memory week",
+        "levels": "Failed 2D setup \u2014 reclaim of Monday's HOD = continuation bull signal",
+        "bull": "DP accumulation at lows; memory group bounce; ASML/TSM earnings fuel the narrative",
+        "bear": "Dead cat bounce; SK Hynix down 15% in Seoul sets ceiling on the recovery",
+        "note": "Watch ASML tomorrow for confirmation of memory/AI demand thesis"
+      },
+      {
+        "ticker": "TSEM",
+        "tier": 1,
+        "strat": "Bullish Gapper",
+        "catalyst": "$3B Japan fab investment (~$1B government grants); 300mm silicon photonics; 2028 targets raised to $3.6B rev",
+        "levels": "+18% gap \u2014 gap fill vs continuation; no established intraday range yet",
+        "bull": "AI/data center capacity story, government-backed expansion, raised long-term targets",
+        "bear": "First-day gap with no range; profit-taking into gap fill likely",
+        "note": "ZS also on <3 prints filter today \u2014 cross-check for setup"
+      },
+      {
+        "ticker": "ASML",
+        "tier": 2,
+        "strat": "Bullish Gapper",
+        "catalyst": "Earnings tomorrow 7/15; bullish gapper with DP on board today; AI chip equipment bellwether",
+        "levels": "Watch pre-earnings positioning today; tomorrow's reaction baselining off today's close",
+        "bull": "Memory bounce + AI demand narrative builds into print; strong setup day",
+        "bear": "Memory selloff narrative bleeds into equipment names ahead of print",
+        "note": "Today's price action determines tomorrow's sentiment going into ASML numbers"
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BULL",
+      "pattern": "Inside (1)",
+      "flow": "mixed",
+      "catalyst": "Inside bar consolidating after Monday chip selloff; GTC conference in 5 days; ASML/TSM earnings this week = AI demand read-through",
+      "key_levels": "Inside bar resolution \u2014 break above Monday HOD = continuation bull; break below Monday LOD = secondary sell toward next support",
+      "expected_move": "\u00b1$15-20",
+      "expected_move_pct": "\u00b12.1%"
+    },
+    "morning_prep": {
+      "theme": "Triple-Header Tuesday: CPI 8:30 + Bank Earnings + Warsh Testimony \u2014 IBM -20%, Semis Bouncing, Oil Elevated",
+      "rules": [
+        "CPI at 8:30 \u2014 wait for print before taking directional bias; hot core = bonds sell, growth fades",
+        "Banks broadly beat but IBM -20% is the Dow anchor; financials sector split between GS bull and IBM bear",
+        "Memory Failed 2D bounce (MU, WDC) \u2014 valid only if broader market holds post-CPI",
+        "Oil stays bid until de-escalation signal from Trump/Iraq PM meeting; XLE/USO setups remain active",
+        "Warsh testimony at 10 = second volatility event; two potential flush/rip windows today"
+      ],
+      "market": "CPI + bank earnings day. Nasdaq futures outperforming Dow (IBM drag). Oil elevated on Iran. 10yr at 4.62%. GS blowout vs IBM crater = financials sector battle.",
+      "setups": [
+        {
+          "ticker": "IWM",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "Daily bullish kicker; quarterly timeframe flipped bullish; weekly attempting 2-2 reversal",
+          "levels": "PDH $295.78 | PDL $292.60 | Prev Close $293.48 | QO $299.93 | Weekly reversal target ~$301 | ATH ~$302",
+          "bull": "10-min ORB above PDH $295.78; quarterly + daily alignment; target QO $299.93 then ATH ~$302",
+          "bear": "Fails to hold $292.60; still inside weekly range = chop risk",
+          "note": "CPI day = wait for ORB, not the open. Choppy whipsaws expected early."
+        },
+        {
+          "ticker": "IBM",
+          "tier": 1,
+          "strat": "Inside (1) Bearish",
+          "catalyst": "-20% (~$65 drop) on preliminary Q2 miss; landed near gap fill/order block support",
+          "levels": "$185 support / order block | $200 resistance",
+          "bull": "Relief bounce from order block / gap fill support \u2014 consolidation setup",
+          "bear": "Trend day down if support fails; inside bar breaks lower",
+          "note": "Highest conviction bear but near support \u2014 don't short the gap fill zone"
+        },
+        {
+          "ticker": "GS",
+          "tier": 1,
+          "strat": "Bullish Gapper",
+          "catalyst": "Record Q2 blowout: EPS $20.98 vs $14.48; IB fees +30%, markets revenue +35%",
+          "levels": "Gap fill $1,106 | ATH $1,125",
+          "bull": "Trend day up off blowout numbers; ATH $1,125 target if holds",
+          "bear": "Sell the news + IV crush; don't chase gap open",
+          "note": "Wait 10-min ORB; premium collapses post-open"
+        },
+        {
+          "ticker": "BAC",
+          "tier": 1,
+          "strat": "3-2 Up Trigger",
+          "catalyst": "Q2 beat (EPS $1.21 vs $1.13 est); flat premarket \u2014 top flow candidate",
+          "levels": "Bull above $60.05 | Bear below $58.85 | ATH $60.83",
+          "bull": "Fires above $60.05; ATH $60.83 within range",
+          "bear": "Below $58.85 = breakdown signal",
+          "note": "Wait 10-min ORB per JR \u2014 don't blindly buy calls"
+        },
+        {
+          "ticker": "JPM",
+          "tier": 1,
+          "strat": "Trampoline",
+          "catalyst": "Earnings beat (EPS $6.14 vs $5.85 est); shares down slightly premarket \u2014 pulled to support",
+          "levels": "$320.56 key support / order block \u2014 holds = trampoline; fails = downside opens",
+          "bull": "Bounces off order block from support; 2-hr trigger + ORB confirmation",
+          "bear": "Fails $320.56 = extended sell-off into gap below",
+          "note": "JR's favorite setup today \u2014 need 2-hr HF confirmation first"
+        },
+        {
+          "ticker": "MU",
+          "tier": 1,
+          "strat": "Failed 2D",
+          "catalyst": "Bouncing after Monday -6%; $562M dark pool ask AH; ASML/TSM earnings this week",
+          "levels": "Reclaim Monday HOD = bull continuation",
+          "bull": "DP at lows + memory week thesis (ASML tomorrow, TSM Thursday)",
+          "bear": "Dead cat; SK Hynix sets ceiling on recovery",
+          "note": ""
+        },
+        {
+          "ticker": "USO",
+          "tier": 2,
+          "strat": "Bullish Continuation",
+          "catalyst": "Iran/Hormuz oil bid; bullish kicker daily; gapper with DP on board",
+          "levels": "Gap target $125.43 | Take partials, let runners continue",
+          "bull": "Iran headlines keep bid; XLE/oil sector rotation on CPI miss",
+          "bear": "De-escalation signal from Trump/Iraq PM meeting reverses trade",
+          "note": "Trump speech at 11am ET \u2014 watch for Mideast de-escalation comments"
+        },
+        {
+          "ticker": "XOM",
+          "tier": 2,
+          "strat": "Bullish Continuation",
+          "catalyst": "Energy bid on Iran/Hormuz; already moving premarket",
+          "levels": "Targets $145 then $149 \u2014 scale out with Heikin/heatmap",
+          "bull": "Oil holds elevated; energy sector leadership continues",
+          "bear": "CPI-driven risk-off or Hormuz de-escalation pulls crude",
+          "note": "TXN on watch ahead of earnings; JNJ upcoming earnings also"
+        }
+      ]
+    },
+    "trump_stocks": [
+      "XLE",
+      "USO"
+    ],
+    "trump_context": "Trump reinstated blockade on Iranian shipping through Strait of Hormuz \u2014 keeping Brent crude above $87 and WTI above $80. XLE and USO catching the bid as direct result. Trump also speaking at 11am ET (war/economic topics expected) and meeting with Iraq PM \u2014 watching for any de-escalation signals that could reverse the oil trade and ease inflation concerns into CPI. Watch White House Live at 11am."
   }
 }
