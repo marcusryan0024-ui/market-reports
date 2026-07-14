@@ -9201,6 +9201,28 @@
       "XLE",
       "USO"
     ],
-    "trump_context": "Trump reinstated blockade on Iranian shipping through Strait of Hormuz \u2014 keeping Brent crude above $87 and WTI above $80. XLE and USO catching the bid as direct result. Trump also speaking at 11am ET (war/economic topics expected) and meeting with Iraq PM \u2014 watching for any de-escalation signals that could reverse the oil trade and ease inflation concerns into CPI. Watch White House Live at 11am."
+    "trump_context": "Trump reinstated blockade on Iranian shipping through Strait of Hormuz \u2014 keeping Brent crude above $87 and WTI above $80. XLE and USO catching the bid as direct result. Trump also speaking at 11am ET (war/economic topics expected) and meeting with Iraq PM \u2014 watching for any de-escalation signals that could reverse the oil trade and ease inflation concerns into CPI. Watch White House Live at 11am.",
+    "events": [
+      {
+        "type": "EARNINGS BMO",
+        "detail": "JPM, BAC, WFC, GS, C \u2014 bank earnings season opens"
+      },
+      {
+        "type": "MACRO 8:30 ET",
+        "detail": "June CPI \u2014 headline ~-0.2% MoM, annual ~3.8%; core ~2.8-2.9%"
+      },
+      {
+        "type": "FED 10:00 ET",
+        "detail": "Chair Warsh first congressional testimony \u2014 House Financial Services"
+      },
+      {
+        "type": "TRUMP 11:00 ET",
+        "detail": "President Trump speaking \u2014 Iraq PM visit; Hormuz/war/econ topics expected"
+      },
+      {
+        "type": "CONFERENCE",
+        "detail": "BIIB \u2014 Alzheimer's Assoc. International Conference, London (12:00 ET)"
+      }
+    ]
   }
 }
