@@ -10257,7 +10257,16 @@
         "note": "Set alert at 250-251. If it triggers cleanly, then look. Never chase the level."
       }
     ],
-    "mag7_0dte": {},
+    "mag7_0dte": {
+      "ticker": "NVDA",
+      "bias": "BULL",
+      "pattern": "Inside (1) Resolution / ASML Read-Through",
+      "flow": "$524M ask-side AH Tuesday — top 3 Mag 7 dark pool flow; chip complex (SNDK $719M, MU, AVGO) all bidding into ASML print",
+      "catalyst": "ASML beat-and-raise confirms AI demand 'extraordinarily strong' — €9.3B revenue, FY guide raised to €43-45B. NVDA is the direct 0DTE read-through. Inside bar from Tuesday resolves bullish into ASML catalyst. TSM reports Thursday = second catalyst leg on deck.",
+      "key_levels": "Break above Tuesday HOD = explosive continuation | VWAP as intraday floor | Chip complex (SNDK, MU, AVGO) confirming = high conviction | Fails VWAP = wait for re-test",
+      "expected_move": "±$4.47",
+      "expected_move_pct": "±2.1%"
+    },
     "trump_stocks": [
       "XLE",
       "USO"
