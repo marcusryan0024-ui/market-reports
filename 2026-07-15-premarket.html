@@ -389,7 +389,7 @@
         font-size: 9px;
         font-weight: 700;
         letter-spacing: .14em;
-        color: #3d444d;
+        color:var(--tx2);
         padding: 0 4px;
         align-self: center;
     }
@@ -1239,15 +1239,16 @@ function toggleTheme() {
 })();
 </script>
 
-<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
-          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">WATCHLIST — ETFs &amp; MAG 11</div>
+          <div style="padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;"><div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
           <span class="chg up">+0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">QQQ</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">SPY</span>
@@ -1255,7 +1256,7 @@ function toggleTheme() {
         </div><span class="wl-group-label">Mag 11</span>
         <div class="wl-pill">
           <span class="sym">AAPL</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">MSFT</span>
@@ -1266,26 +1267,26 @@ function toggleTheme() {
             <span class="sym" style="color:#3fb950;">&#9733; NVDA</span>
             <span style="font-size:8px;font-weight:800;color:#3fb950;letter-spacing:.06em;">BULL</span>
           </div>
-          <span class="chg down" style="align-self:center;">-0.2%</span>
+          <span class="chg down" style="align-self:center;">-0.3%</span>
           <span style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:2px;white-space:nowrap;">±0.1% · ±$0.15</span>
           <div style="font-size:9px;color:var(--tx2);line-height:1.4;margin-top:3px;text-align:left;white-space:normal;max-width:220px;"><div style="color:var(--tx3);font-style:italic;margin-bottom:1px;">Inside (1) Resolution / ASML Read-Through</div><div>ASML beat-and-raise confirms AI demand 'extraordinarily strong' — €9.3B revenue, FY guide …</div></div>
         </div>
         <div class="wl-pill">
           <span class="sym">GOOGL</span>
-          <span class="chg down">-0.1%</span>
+          <span class="chg down">-0.2%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">AMZN</span>
-          <span class="chg up">+0.0%</span>
+          <span class="chg down">-0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">META</span>
-          <span class="chg down">-6.9%</span>
+          <span class="chg down">-0.2%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">TSLA</span>
           <span class="chg up">+0.1%</span>
-        </div></div>
+        </div></div></div>
         </div>
 
         <div class="headline-bar">
@@ -1460,16 +1461,16 @@ function toggleTheme() {
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">HIS CO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">DJT</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.5%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CRYPTO</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">MSTR</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.4%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">COIN</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">HOOD</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
@@ -1478,28 +1479,28 @@ function toggleTheme() {
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">CHIPS</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">INTC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">DELL</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.8%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.9%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">IBM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.1%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">ENERGY</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">XOM</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.1%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">CVX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">OXY</span>
                   <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">LNG</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.4%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">PRISONS</span>
@@ -1517,16 +1518,16 @@ function toggleTheme() {
                   <span style="font-size:10px;font-weight:600;" class="chg up">+0.2%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">RTX</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">NOC</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.9%</span>
                 </div>
             </div><div style="display:flex;flex-direction:column;padding-right:14px;">
               <span style="font-size:8px;font-weight:700;letter-spacing:.12em;color:#3d444d;text-transform:uppercase;margin-bottom:4px;">STEEL</span>
               <div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">NUE</span>
-                  <span style="font-size:10px;font-weight:600;" class="chg up">+0.0%</span>
+                  <span style="font-size:10px;font-weight:600;" class="chg down">-0.3%</span>
                 </div><div style="display:flex;align-items:center;gap:6px;padding:2px 0;">
                   <span style="font-family:monospace;font-weight:700;font-size:11px;color:var(--tx1);min-width:40px;">X</span>
                   <span style="font-size:10px;font-weight:600;" class="chg muted">—</span>
