@@ -8629,6 +8629,218 @@
           ]
         }
       ]
+    },
+    {
+      "category": "STRAT",
+      "name": "The Strat \u2014 Candle Breakdown & Timeframes",
+      "sections": [
+        {
+          "title": "The 4 Things You Must Know (OHLC)",
+          "notes": [
+            "Things don't just happen on 1 timeframe",
+            "4 things: Open, High, Low, Close \u2014 where did price open & close? What's the high & low?",
+            "Wicks are tales \u2014 what is it telling you? Use Strat Assistant on TradingView",
+            "Candlesticks happen in domino effect \u2014 things happen on smaller timeframe & then move up"
+          ]
+        },
+        {
+          "title": "1 Candle \u2014 Inside Bar (Consolidation)",
+          "notes": [
+            "1 candle = inside bar = CONSOLIDATION",
+            "If it feels choppy on a smaller timeframe it's consolidating on a higher timeframe",
+            "More consolidation could (usually dots) set up for bigger moves",
+            "1 candles are also known as actionable signals \u2014 a lot can be done off 1 candle",
+            "Friday contracts = scalp mode"
+          ]
+        },
+        {
+          "title": "2 Candle \u2014 Directional",
+          "notes": [
+            "2 Candle: Directional \u2014 market moves in a direction, this IS the direction of market",
+            "You don't need the whole move to be in profit \u2014 you just needed that set up",
+            "Put trail stop on at least when in profit especially when play is doing numbers",
+            "How to trail stop on Robinhood: Sell \u2192 3 dots right corner \u2192 enter the percentage"
+          ]
+        },
+        {
+          "title": "Fail 2U / Fail 2D \u2014 Who Has Control?",
+          "notes": [
+            "Fail 2U or Fail 2D are based on WHERE the candle closes",
+            "Whether the previous candle needs to close below that (and vice versa) to stay 2D",
+            "Example: previous candle $424.12 & current candle closes at $424.61 = failed 2 down",
+            "The WICKS make it 2D but the CLOSE makes it 2U (vice versa) \u2014 which means failed 2D",
+            "Sellers lost control \u2192 if in put, sell (showing bullish reversal)",
+            "Buyers lost control \u2192 if in call, look to sell (showing bearish reversal)"
+          ]
+        },
+        {
+          "title": "3 Candle \u2014 Outside Bar",
+          "notes": [
+            "3 candle = outside bar \u2014 takes out BOTH sides",
+            "For a candle to turn into a 3 it must be a failed 2",
+            "Anytime you go above the candle it's 2U",
+            "Print out the strat combos \u2014 Timeframe Analysis is key"
+          ]
+        },
+        {
+          "title": "Timeframe Continuity",
+          "notes": [
+            "Timeframe Continuity is important because it's easier to trade WITH the trend than against it",
+            "If you want to swing trade something for 1 week \u2014 don't buy weekly expiration",
+            "Need 2 weeks minimum but 3-4 weeks is ideal \u2014 need time to develop, there will be pullbacks",
+            "Buy double the time \u2605",
+            "You don't have to hold it if it's up a certain amount \u2014 get out/take profit & leave runners",
+            "If we break below 50 on 6 month timeframe it means we are coming down \u2014 50% marks very helpful",
+            "Get bigger move going with overall trend"
+          ]
+        },
+        {
+          "title": "Top Down Analysis",
+          "notes": [
+            "Higher Timeframe Analysis gives you an overall bias",
+            "When looking at a chart \u2014 what is the higher timeframe showing you?",
+            "What is the larger picture? Knowing this makes trades more successful",
+            "All depends \u2014 entry on 30min doesn't mean you don't check other timeframes before entering",
+            "Swing trading: trading on weekly \u2192 buy 2-3 weeks out | trading on monthly \u2192 buy 2 months out",
+            "Give yourself time to let the position play out \u2014 something may trigger off a higher timeframe, pullback & then run your way"
+          ]
+        },
+        {
+          "title": "The 2 Hour Timeframe",
+          "notes": [
+            "Prefer to use for power hour (1pm-3pm) \u2014 helps find entry & avoid consolidation",
+            "Time that most money is lost is MID DAY \u2014 wait until second half",
+            "Best times: 8:30-10am & 1pm-3pm",
+            "It's less candles on chart \u2014 easier to see what price action is doing",
+            "Set Strat alerts (money call) for 2 hour timeframe",
+            "Don't try to go for homerun at beginning of day \u2014 can leave couple runners for potential grand slams",
+            "Don't overstay your welcome. Get your piece & get out.",
+            "Any small movements at end of day push contract price up fast",
+            "NOT FOR MID DAY SET UP BECAUSE VALUE ISN'T THERE"
+          ]
+        },
+        {
+          "title": "The 6 Hour Timeframe",
+          "notes": [
+            "Power of the 6 hour \u2014 can use both regular & extended trading hours, helps premarket",
+            "To avoid getting cooked because of choppiness \u2014 buy more time",
+            "What you're looking for: actionable signals \u2014 hammers, shooters, inside bars, failed 2D/2U, outside bars, money calls",
+            "Best when market doesn't really gap \u2014 then you can catch the trigger",
+            "Very important to backtest",
+            "Inside 6 hour is just marking the last 30 min candle (15 min)",
+            "You can base hit a lot if not comfortable waiting for homeruns using this timeframe",
+            "This will give you confidence to hold your position until you're right \u2605"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "STRAT",
+      "name": "Setups & Strategies",
+      "sections": [
+        {
+          "title": "Open Range Breakout (ORB)",
+          "notes": [
+            "ORB = Opening Range Breakout \u2014 helps you be patient with the market",
+            "Does apply to any ticker (excluding $IWM & a few others)",
+            "Mark the high & low of first 15 or 30 min candle \u2014 take the break of that candle",
+            "Usually want to see a strong candle in one direction then take the break",
+            "Doesn't have to be a homerun \u2014 it's profitable & helps avoid the fake out",
+            "Only want to be in this trade for 15-20 mins MAX",
+            "Keeps you patient & away from hopping in 2 mins into open & getting clapped",
+            "NO STRATEGY IS 100% BULLETPROOF",
+            "On a shooter \u2192 expect 2UP 2DOWN Reversal | On a hammer \u2192 expect 2DOWN 2UP Reversal"
+          ]
+        },
+        {
+          "title": "30 Min ORB with $QQQ \u2014 THIS IS MY APPROACH \u2605",
+          "notes": [
+            "QQQ big days come from targeted days & tech earnings \u2014 usually 30 min candle",
+            "Let first 30min candle close (8:30-9:00am) then take the NEXT candle break (9:00-9:30am candle)",
+            "THIS NEEDS TO ALWAYS BE MY APPROACH WITH TRADING \u2605",
+            "Rules: Risk stop, don't overleverage & no more than 2-3 trades/day",
+            "Better than 15min ORB \u2014 more consistent & rewarding",
+            "15min ORB good for earnings because earnings move fast",
+            "Sizing down & risking the stop limits losses \u2014 small wins that compound without significant loss"
+          ]
+        },
+        {
+          "title": "Gap Fill Strategy (High Opportunity Setups)",
+          "notes": [
+            "Gap = difference in closing of previous day's price from next day open",
+            "What causes a gap? Catalyst news, earnings, etc \u2014 huge volume thrown at it",
+            "Gap fills 90% of the time but doesn't mean it'll be filled right away",
+            "Gaps act as a form of support & resistance",
+            "Always mark gaps at all times \u2014 look left & see if there's any gaps on chart",
+            "Usually there's almost always a mid day opportunity because of pullback entry",
+            "How to find gappers: Walter-Bloomberg (Twitter), Finviz top gainers/losers, Stocktwits, TradingView",
+            "First thing when stock gaps \u2014 look at daily chart & identify key support or resistance levels",
+            "Provide volume = provide opportunity",
+            "Gaps act as support & resistance but doesn't mean it's going to bounce right away",
+            "Always want to mark gap & set alert 'hey possible gap fill'",
+            "Respect your support & resistance when you have gaps"
+          ]
+        },
+        {
+          "title": "Kicking Patterns",
+          "notes": [
+            "Simple & works really well with earnings plays because of the volatility",
+            "Bullish kicking: close red, open green \u2014 kicked all shorts out",
+            "Bearish kicking: close green, open red \u2014 kicked all calls/buyers out",
+            "Can be a swing play \u2014 let it happen, don't have to hop in right at open",
+            "Best moves: uptrend with bullish candle & gap down OR downtrend with bearish candle & gap up",
+            "Favorite setup for JR",
+            "When earnings comes out \u2014 check which ones may or may not have a kicking pattern"
+          ]
+        },
+        {
+          "title": "Trampoline Bounce \u2014 JR's Most Explosive #1 Setup \u2605 MASTER THIS",
+          "notes": [
+            "What's JR favorite setup? Gapper + earnings reaction = most explosive setups",
+            "It'll gap into resistance or support & then price will bounce off that support",
+            "Price action still has to show its hands \u2014 don't blindly hop in",
+            "ex: most traders see billions dropping for earnings & take it to the downside \u2014 wrong",
+            "Automatically have a bullish bias: price gapped into support area (bullish bias) \u2192 price ends up gapping up",
+            "When it shows it's usually an explosive move",
+            "Calls from gapping down/pulling back from resistance are MORE explosive than puts",
+            "Want to add/set alerts letting you know it's exiting the order block",
+            "Need to be thinking: when it goes crazy to upside (bearish bias) & crazy to downside (bullish bias)",
+            "Doesn't just work with earnings \u2014 works with a lot of things",
+            "When it works you can catch 500% move \u2605"
+          ]
+        },
+        {
+          "title": "Order Blocks & Gaps on Higher Timeframes",
+          "notes": [
+            "When looking at tickers \u2014 mark order blocks, be mindful of them",
+            "Best way to chart is the NIGHT BEFORE with your set up already ready",
+            "Mark high/low of order block & mark 50% of order block",
+            "If no order block on daily \u2192 check weekly \u2192 if nothing on weekly \u2192 check monthly",
+            "On higher timeframe (weekly or monthly) mark that on there",
+            "When drawing order blocks always look left to see if there's any gaps to be filled",
+            "Main levels = 50% marks \u2014 be mindful of 50% level or you will miss out",
+            "Draw Order Blocks off daily: high, low, 50%",
+            "Order block levels = price magnets",
+            "Takes trading to another level"
+          ]
+        },
+        {
+          "title": "PreMarket Entries & Order Block Spacing",
+          "notes": [
+            "Always have extended hours on \u2014 premarket can act as a key for showing support & resistance",
+            "Have to understand there's premarket highs & lows",
+            "Most time JR is taking entries off the 30min timeframe",
+            "Ask yourself: what is the ATR?",
+            "Love to do when range is too big \u2014 use last 30 min candle from premarket or hourly candle & gives the entry",
+            "FAILED 2's ARE ONE OF HIS FAVORITE SIGNALS \u2605",
+            "Always want to mark premarket highs/lows \u2014 give them their own colors",
+            "$QQQ one of his favorite tickers to trade",
+            "Make sure spacing on candles are good",
+            "All Order Blocks are just another form of support & resistance \u2014 are you approaching key support or resistance? Do you have more room to run?",
+            "$IWM gives you 15 mins sometimes"
+          ]
+        }
+      ]
     }
   ],
   "2026-07-13": {
