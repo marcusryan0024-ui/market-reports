@@ -379,37 +379,40 @@
     }
     .watchlist-grid {
         display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 14px 16px;
+        flex-wrap: nowrap;
+        gap: 4px;
+        padding: 8px 12px;
         align-items: center;
-        justify-content: center;
+        overflow-x: auto;
     }
     .wl-group-label {
-        font-size: 9px;
+        font-size: 8px;
         font-weight: 700;
         letter-spacing: .14em;
         color:var(--tx2);
         padding: 0 4px;
         align-self: center;
+        white-space: nowrap;
+        flex-shrink: 0;
     }
     .wl-pill {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 8px 14px;
-        border-radius: 6px;
+        flex-shrink: 0;
+        padding: 5px 8px;
+        border-radius: 5px;
         background:var(--bg-page);
         border:1px solid var(--border);
-        min-width: 72px;
+        min-width: 52px;
     }
     .wl-pill .sym {
         font-family: monospace;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 11px;
         color:var(--tx1);
     }
-    .wl-pill .chg { font-size: 12px; font-weight: 600; margin-top: 2px; }
+    .wl-pill .chg { font-size: 10px; font-weight: 600; margin-top: 1px; }
     .empty { padding: 16px; color:var(--tx2); font-style: italic; font-size: 13px; }
     .spotlight-row {
         display: flex;
@@ -1239,9 +1242,9 @@ function toggleTheme() {
 })();
 </script>
 
-<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;margin-bottom:6px;">
           <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">WATCHLIST — ETFs &amp; MAG 11</div>
-          <div style="padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;"><div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+          <div style="overflow-x:auto;"><div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
           <span class="chg up">+0.4%</span>
@@ -1262,14 +1265,13 @@ function toggleTheme() {
           <span class="sym">MSFT</span>
           <span class="chg up">+2.8%</span>
         </div>
-        <div class="wl-pill" style="border-color:#3fb950;background:#0d2b1a;min-width:80px;align-items:flex-start;">
-          <div style="display:flex;align-items:center;gap:4px;white-space:nowrap;align-self:center;">
+        <div class="wl-pill" style="border-color:#3fb950;background:#0d2b1a;">
+          <div style="display:flex;align-items:center;gap:3px;white-space:nowrap;">
             <span class="sym" style="color:#3fb950;">&#9733; NVDA</span>
-            <span style="font-size:8px;font-weight:800;color:#3fb950;letter-spacing:.06em;">BULL</span>
+            <span style="font-size:7px;font-weight:800;color:#3fb950;letter-spacing:.06em;">BULL</span>
           </div>
-          <span class="chg up" style="align-self:center;">+0.3%</span>
+          <span class="chg up">+0.3%</span>
           <span style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:2px;white-space:nowrap;">±0.1% · ±$0.15</span>
-          <div style="font-size:9px;color:var(--tx2);line-height:1.4;margin-top:3px;text-align:left;white-space:normal;max-width:220px;"><div style="color:var(--tx3);font-style:italic;margin-bottom:1px;">Inside (1) Resolution / ASML Read-Through</div><div>ASML beat-and-raise confirms AI demand 'extraordinarily strong' — €9.3B revenue, FY guide …</div></div>
         </div>
         <div class="wl-pill">
           <span class="sym">GOOGL</span>
@@ -1303,6 +1305,7 @@ function toggleTheme() {
           <span class="sym">MU</span>
           <span class="chg down">-8.0%</span>
         </div></div></div>
+          <div style="padding:4px 12px 6px;font-size:9px;line-height:1.5;border-top:1px solid #21262d;"><span style="color:#3fb950;font-weight:800;margin-right:6px;">&#9733; NVDA BULL</span><span style="color:var(--tx3);font-style:italic;">Inside (1) Resolution / ASML Read-Through</span> · <span style="color:var(--tx2);">ASML beat-and-raise confirms AI demand 'extraordinarily strong' — €9.3B revenue, FY guide …</span></div>
         </div>
 
         <div class="headline-bar">
