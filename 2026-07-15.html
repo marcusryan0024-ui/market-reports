@@ -389,7 +389,7 @@
         font-size: 9px;
         font-weight: 700;
         letter-spacing: .14em;
-        color: #3d444d;
+        color:var(--tx2);
         padding: 0 4px;
         align-self: center;
     }
@@ -1239,8 +1239,9 @@ function toggleTheme() {
 })();
 </script>
 
-<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;">
-          <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
+<div class="rpt-body-top" style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:6px;">
+          <div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;">WATCHLIST — ETFs &amp; MAG 11</div>
+          <div style="padding:6px 14px;display:flex;justify-content:center;flex-wrap:wrap;"><div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
           <span class="chg up">+0.4%</span>
@@ -1285,7 +1286,7 @@ function toggleTheme() {
         <div class="wl-pill">
           <span class="sym">TSLA</span>
           <span class="chg down">-0.4%</span>
-        </div></div>
+        </div></div></div>
         </div>
 
         <div class="headline-bar">
