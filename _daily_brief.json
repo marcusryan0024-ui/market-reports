@@ -10258,14 +10258,14 @@
       }
     ],
     "mag7_0dte": {
-      "ticker": "JNJ",
-      "bias": "BEAR",
-      "pattern": "Bearish Under Support",
-      "flow": "Quarter/Month green but Week/Day red — mixed HF timeframes; historically delivers $8-10+ ATR moves post-earnings",
-      "catalyst": "Earnings today. Support at $244.05 — lose that level and downside opens. Week and Day are both red despite green higher timeframes. High ATR = explosive potential if support fails. Don't anticipate — wait for $244.05 to break with confirmation.",
-      "key_levels": "Support $244.05 — break below = trade on | Hold = no trade | Historical examples: $8+ and $10+ multi-hour trend days post-earnings",
-      "expected_move": "±$8.79",
-      "expected_move_pct": "±3.5%"
+      "ticker": "NVDA",
+      "bias": "BULL",
+      "pattern": "Inside (1) Resolution / ASML Read-Through",
+      "flow": "$524M ask-side AH Tuesday — top 3 Mag 7 dark pool flow; chip complex (SNDK, MU, AVGO) all bidding into ASML print",
+      "catalyst": "ASML beat-and-raise confirms AI demand 'extraordinarily strong' — €9.3B revenue, FY guide raised to €43-45B. NVDA is the direct Mag 7 read-through. Inside bar from Tuesday resolves bullish. TSM reports Thursday = second catalyst leg.",
+      "key_levels": "Break above Tuesday HOD = explosive continuation | VWAP as intraday floor | Chip complex confirming = high conviction | Fails VWAP = wait for re-test",
+      "expected_move": "±$4.47",
+      "expected_move_pct": "±2.1%"
     },
     "trump_stocks": [
       "XLE",
@@ -10326,7 +10326,7 @@
           "levels": "Gap Fill $113.33 | Order Block $100.70 | ATR ~$10",
           "bull": "Hold above ORB → reclaim 100.70 order block; gap-and-go continuation toward prior levels",
           "bear": "Fails ORB → pullback toward gap fill $113.33",
-          "note": "★ Don't buy immediately. Wait, let opening range develop, confirm trend, trade continuation."
+          "note": "Don't buy immediately. Wait, let opening range develop, confirm trend, trade continuation."
         },
         {
           "ticker": "MS",
@@ -10346,7 +10346,7 @@
           "levels": "Support $244.05",
           "bull": "Holds $244.05 → stabilization, no trade",
           "bear": "Loses $244.05 → extended downside; historically trends $8-10+ for multiple hours",
-          "note": "High ATR but don't anticipate. Wait for $244.05 to break with confirmation."
+          "note": "★ High ATR but don't anticipate. Wait for $244.05 to break with confirmation."
         },
         {
           "ticker": "JPM",
