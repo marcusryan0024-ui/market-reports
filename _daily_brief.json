@@ -10297,6 +10297,89 @@
     ],
     "earnings_amc": [
       "UAL"
-    ]
+    ],
+    "morning_prep": {
+      "theme": "PPI Day + Bank Earnings Continuation — AEHR Bullish Kicker, SPY Inside Day Expansion, MS/JNJ Reaction Trades",
+      "rules": [
+        "PPI at 8:30 — wait for print, don't be first; let price reveal direction before taking bias",
+        "Yesterday was an Inside Day on SPY — today expects expansion; only trade AFTER PDH or PDL confirmed broken",
+        "Don't chase opening candles — large opens often reverse; wait for ORB confirmation (10-min minimum)",
+        "AEHR is the standout setup — bullish kicker post-earnings; wait for opening range, confirm trend, trade continuation",
+        "Higher timeframe alignment required; mixed HF signals = lower conviction, smaller size"
+      ],
+      "market": "PPI morning after Inside Day CPI chop. Banks broadly beat with upgrades continuing. AEHR gapping on earnings kicker. SPY/IWM in compression — expansion likely today. MS extreme volume post-earnings creates two-way risk.",
+      "setups": [
+        {
+          "ticker": "AEHR",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "Earnings gap + bullish kicker. Historical ATR reactions 230-300%+. Gap-and-go candidate. ★ Top watch.",
+          "levels": "Gap Fill $113.33 | Order Block $100.70 | ATR ~$10",
+          "bull": "Hold above ORB → reclaim 100.70 order block; gap-and-go continuation toward prior levels",
+          "bear": "Fails ORB → pullback toward gap fill $113.33",
+          "note": "★ Don't buy immediately. Wait, let opening range develop, confirm trend, trade continuation."
+        },
+        {
+          "ticker": "MS",
+          "tier": 1,
+          "strat": "Reaction Trade",
+          "catalyst": "Earnings with extreme volume. Inside Day. Potential bearish kicker. Downside gaps remain below.",
+          "levels": "Key level $224.10 | Downside gaps below",
+          "bull": "Holds above $224.10 + ORB breakout → squeeze back with higher timeframe trend",
+          "bear": "Loses $224.10 → downside continuation into open gaps below",
+          "note": "Two-way trade. Extreme volume = both sides trapped. Wait for confirmation, not anticipation."
+        },
+        {
+          "ticker": "JNJ",
+          "tier": 1,
+          "strat": "Bearish Under Support",
+          "catalyst": "Earnings. Quarter/Month green but Week/Day red — mixed HF. High ATR ($8-10+ historical post-earnings moves).",
+          "levels": "Support $244.05",
+          "bull": "Holds $244.05 → stabilization, no trade",
+          "bear": "Loses $244.05 → extended downside; historically trends $8-10+ for multiple hours",
+          "note": "High ATR but don't anticipate. Wait for $244.05 to break with confirmation."
+        },
+        {
+          "ticker": "JPM",
+          "tier": 1,
+          "strat": "Bullish Continuation",
+          "catalyst": "Price target upgrades post-earnings. Second-day continuation candidate.",
+          "levels": "Prior Day High",
+          "bull": "Holds PDH → ORB breakout = continuation; analyst upgrade tailwind",
+          "bear": "Fails PDH reclaim → consolidation, no trade",
+          "note": "Banks strongest if sector keeps rotating higher post-earnings."
+        },
+        {
+          "ticker": "GS",
+          "tier": 1,
+          "strat": "Bullish Continuation",
+          "catalyst": "Received analyst upgrades after record Q2. ORB breakout setup.",
+          "levels": "ORB high",
+          "bull": "ORB breakout → continuation; sector momentum validates",
+          "bear": "Fails ORB → consolidation",
+          "note": "BAC is the sector laggard watch — consolidated while JPM/GS ran; catch-up candidate."
+        },
+        {
+          "ticker": "SPY",
+          "tier": 2,
+          "strat": "Inside Day Expansion",
+          "catalyst": "Yesterday = Inside Day. Today = expansion expected post-PPI. Weekly 2-Up trigger 755.42.",
+          "levels": "PDH | PDL | Yesterday Close | Weekly trigger 755.42 | IWM key 296.48",
+          "bull": "Breaks PDH with conviction post-8:30 PPI → upside expansion",
+          "bear": "Breaks PDL → downside expansion; both valid after confirmation",
+          "note": "Don't force trades inside the box. Two chop windows: 8:30 PPI and Warsh Senate testimony."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 2,
+          "strat": "Bullish Watch",
+          "catalyst": "Heavy call flow. Alert-based setup — don't chase.",
+          "levels": "250-251",
+          "bull": "Clears 250-251 with momentum → call flow confirms directional move",
+          "bear": "Stalls below 250 → no trade",
+          "note": "Set alert at 250-251. If it triggers cleanly, then look. Never chase the level."
+        }
+      ]
+    }
   }
 }
