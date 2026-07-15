@@ -8632,7 +8632,7 @@
     },
     {
       "category": "STRAT",
-      "name": "The Strat \u2014 Candle Breakdown & Timeframes",
+      "name": "Price Action + Strat Candles",
       "sections": [
         {
           "title": "The 4 Things You Must Know (OHLC)",
@@ -8731,13 +8731,7 @@
             "You can base hit a lot if not comfortable waiting for homeruns using this timeframe",
             "This will give you confidence to hold your position until you're right \u2605"
           ]
-        }
-      ]
-    },
-    {
-      "category": "STRAT",
-      "name": "Setups & Strategies",
-      "sections": [
+        },
         {
           "title": "Open Range Breakout (ORB)",
           "notes": [
