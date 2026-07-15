@@ -8456,6 +8456,102 @@
           ]
         }
       ]
+    },
+    {
+      "category": "RISK",
+      "name": "Risk Management w/ Sam Parikh \u2014 Trade the Stop Loss",
+      "sections": [
+        {
+          "title": "Stop Lying to Yourself",
+          "notes": [
+            "Everybody lies. You cannot become a great trader until you stop lying to yourself/deceiving yourself",
+            "Know your: account value, risk profile, short term goals, long term goals",
+            "It's all about learning how to manage your account",
+            "There are no 2 accounts that are the same",
+            "Sizing down & expecting 0 can be beneficial"
+          ]
+        },
+        {
+          "title": "The Most Important Rule \u2014 Manage to Zero",
+          "notes": [
+            "Don't buy a position based on how much you fantasize you'll make \u2014 manage your account assuming every position will go to zero",
+            "If you aren't okay with it going to zero then don't buy it \u2605",
+            "Instead of $5000 position w/ $1500 stop loss \u2014 just enter the trade with $1500 position",
+            "Takes away emotion & if it pulls back, you won't be stopped out \u2014 trade ends up running the way you want it to after"
+          ]
+        },
+        {
+          "title": "Risk Per Trade",
+          "notes": [
+            "Know how much you're willing to risk BEFORE entering \u2014 starting off w/ small accounts risk no more than 10%",
+            "As the account grows the goal is 2% or less",
+            "Risk more with profits & risk less with your own capital",
+            "Treat trades with similar capital \u2014 don't want to overleverage",
+            "If you expect it to go to 0 you'll trade differently \u2014 helps w/ risk management & account management",
+            "Don't ever counter trade \u2014 doesn't matter if you think it's going to go down (no overtrade)",
+            "Trading is NOT gambling \u2014 it isn't about making bets"
+          ]
+        },
+        {
+          "title": "The Roll Up Strategy \u2014 Playing with House Money",
+          "notes": [
+            "You don't have to get everything in one trade",
+            "Secure profit/take profit & either leave runners OR find another entry w/ a portion of the profits (size down)",
+            "Example: Trade #1 Buy $10k \u2192 Sell $25k = +$15k | Trade #2 Buy $5k \u2192 Sell $0 = -$5k | Net = +$10k STILL GREEN",
+            "Still profitable because you're playing with house money \u2014 This is very important",
+            "Another example: 3 winning trades at +$5k each + 1 loser at -$1k = +$14k total profit",
+            "Use 60/40 rule: only use 40% of profit \u2014 if it goes back it's still up 60% (may go 75/25)",
+            "Instead of averaging down w/ same contracts, buy the ones closer to in the money",
+            "Don't average down. Don't ever counter trend \u2014 NOT SMART"
+          ]
+        },
+        {
+          "title": "The Second Account Rule \u2014 Profits Make People Stupid",
+          "notes": [
+            "Get a second account \u2014 move profits there or you will buy positions that are too big & blow your account",
+            "Will stop you from doing dumb stuff with oversized positions",
+            "Don't buy LEAPs in the same account you day/swing trade in",
+            "End of week: take money out (withdrawal on Thursday) to bank \u2014 keep small % to trade Friday / start next week",
+            "Adding more money to account is required as account grows"
+          ]
+        },
+        {
+          "title": "HOW JR MANAGES \u2014 Successful Trader Protocol",
+          "notes": [
+            "Ex: if up 600% & trade pulls back to 450% \u2014 he sells (much wider stop loss) Trail Stop Loss",
+            "At 75% profit: secure money",
+            "Sell as it goes UP not down",
+            "Secure money \u2014 you probably not taking profits because you don't like the money (get out of this habit)",
+            "When you surpass the weekly goal w/ days remaining \u2014 trade less & portion of profit",
+            "Don't overleverage your profits (respect portfolio)",
+            "It's okay to take small losses because when we win, we win!!!",
+            "Trading with less, you will take differently",
+            "Plan: don't be trading w/ money you need \u2014 set plan that has expenses taken care of before quitting job"
+          ]
+        },
+        {
+          "title": "Nothing is More Important Than the News",
+          "notes": [
+            "Learn to analyze news & think outside the box",
+            "Must be able to instantaneously analyze the implications of the news"
+          ]
+        },
+        {
+          "title": "Goals, Discipline & Mindset",
+          "notes": [
+            "Get discipline & stay discipline \u2014 be intentional about making money",
+            "Your goals & risk level must be in alignment",
+            "Be open to change & always be ready to change",
+            "If they don't share your goals, they won't get your trades \u2014 we don't care about politics, we only care about making money",
+            "Why not trade what's working \u2014 don't consistently take losses doing your own thing",
+            "ex: Trading against the trend \u2014 trade what you plan, play the morning, play w/ profits",
+            "No one day should ever make me out going forward \u2605",
+            "Stop trading like there's no tomorrow",
+            "It's okay to take small losses because when we win, we win!!!",
+            "Trading with less, you will take differently"
+          ]
+        }
+      ]
     }
   ],
   "2026-07-13": {
