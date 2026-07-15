@@ -9140,6 +9140,71 @@
           ]
         }
       ]
+    },
+    {
+      "category": "TOOLS",
+      "name": "Extreme Volume Scanner",
+      "sections": [
+        {
+          "title": "Daily Homework \u2014 How to Use the Scanner",
+          "notes": [
+            "Homework each night: check daily chart \u2014 what does it look like? Chart daily & weekly. Look at flow",
+            "Don't have to get in before market closes but you can chart it ahead",
+            "Look for an entry \u2014 trade things you know. Look for catalyst/event",
+            "Set an alert: mark for bull & bear scenario. No bias",
+            "Watch on 10min ORB @ open for entry (if getting in the next day)",
+            "Great moves when ticker hits scanner BACK TO BACK: yellow then orange = a lot of volatility",
+            "Pay attention to end of day alerts: swing plays (PAY) \u2014 small account friendly OTM that's cheap. Could mean a nice move in the next day or 2. It has to make sense"
+          ]
+        },
+        {
+          "title": "Finding Flow \u2014 Flowms & Querying Bot",
+          "notes": [
+            "When looking for flow: use Flowms + Querying bots to check flow",
+            "Flowms: look for 80%+ calls or puts. Querying bots: see if flow matches (aligned)",
+            "How to use querying bot (Ask only): /bigflow: ticker",
+            "Daily/weekly charts: check if there's any nearby gaps. Check where daily order block is",
+            "Check for catalyst/event to see why it's on the scanner: Flowms (catalyst page) \u00b7 Company website (investor relations search) \u00b7 Scan Twitter using the ticker symbol"
+          ]
+        },
+        {
+          "title": "Market Open Cheat Sheet \u2014 Alert Priority & Timing",
+          "notes": [
+            "Goal: trade high-volume, momentum-driven moves w/ confirmation \u2014 NOT EMOTION",
+            "Alert Priority: Orange = highest priority \u00b7 Yellow = strong \u00b7 Green = moderate",
+            "Scanner tracks volume + momentum, NOT options flow",
+            "Best window: 8:39-8:45am \u2014 opening volatility settles, direction forms, volume confirms participation",
+            "Before entering: pull up charts immediately \u00b7 check options chain (tight spreads) \u00b7 look for explosive price action \u00b7 skip weak setups & wide spreads",
+            "News: check news immediately \u00b7 trade strong catalysts \u00b7 avoid weak headlines",
+            "Good news sources: FSNN, Walter Bloomberg, Wall St Engine, Oracle, Trade Xchange"
+          ]
+        },
+        {
+          "title": "Entry Strategy & Chart Checklist",
+          "notes": [
+            "Use a 10-15min ORB \u2014 wait for a clean break of the ORB high/low",
+            "Enter ONLY after price confirms \u2014 don't guess or anticipate",
+            "Chart Checklist: support & resistance \u00b7 higher timeframe moving averages \u00b7 yesterday's high/low \u00b7 intraday reaction zones",
+            "Avoid buying directly into major resistance or shorting into major support"
+          ]
+        },
+        {
+          "title": "Dark Pool Prints \u2014 Warning Signs",
+          "notes": [
+            "Be cautious if you see: huge volume spike \u00b7 little price movement \u00b7 massive instant wick",
+            "These are often dark pool trades, NOT true momentum",
+            "Risk Management: never overleverage \u00b7 start with small size (starters) \u00b7 risk your stop"
+          ]
+        },
+        {
+          "title": "Trade Checklist & Trading Formula",
+          "notes": [
+            "Be patient \u2014 some setups need time before making the real move",
+            "Trade Checklist: Orange/yellow alert preferred \u00b7 Between 8:39-8:45am \u00b7 Strong news catalyst \u00b7 Explosive price action \u00b7 Tight option spreads \u00b7 ORB breakout confirmed \u00b7 Key levels nearby identified \u00b7 NOT a dark pool print \u00b7 Stop loss set \u00b7 Proper position size",
+            "Trading Formula: Volume + Strong News + ORB Confirmation + Key Levels + Risk Management = HIGH-PROBABILITY TRADE"
+          ]
+        }
+      ]
     }
   ],
   "2026-07-13": {
