@@ -8971,6 +8971,118 @@
           ]
         }
       ]
+    },
+    {
+      "category": "TOOLS",
+      "name": "Heatseeker \u2014 Dealer Positioning Map",
+      "sections": [
+        {
+          "title": "What Heatseeker Is (& Is Not)",
+          "notes": [
+            "Visual map of dealer exposure \u2014 shows where price is pulled, pinned, stalled, or explosively moves",
+            "Heatseeker = context engine (dealer positioning context). Price action = trigger. You = risk manager",
+            "Shows WHERE price is likely to react \u2014 NOT WHEN. Shows where pressure exists, not what price must do",
+            "NOT: a signal system \u00b7 a prediction engine \u00b7 a standalone strategy \u00b7 a guaranteed profit tool",
+            "Markets aren't random \u2014 dealers hedge \u2192 hedging moves price. Follow dealer pressure, not noise",
+            "Market Participants: Dealers (MMs) = liquidity providers, hedge risk, move price | Institutions = large, slow, anchor levels | Customers (retail) = chaotic flow that forces dealer hedging"
+          ]
+        },
+        {
+          "title": "Node Types & Color Logic",
+          "notes": [
+            "Each strike = node w/ value + color (absolute value determines color). Higher value = stronger pull",
+            "Green \u2192 Yellow \u2192 Purple = higher volume. Blue \u2192 Purple = higher volume",
+            "King Nodes: highest value nodes. Where price often gravitates. Late day \u2192 pin. Early touch \u2192 reject/drive away",
+            "Purple Nodes: volatility amplifier. Fast spikes & dumps. Often sharp reversals",
+            "Yellow Nodes: volatility dampener. Price slows/pins. Good for reversals & range trades",
+            "Gatekeeper Nodes: act as barriers before King Nodes. Test + fail \u2192 map reshuffle. Often mark early reversals",
+            "Hedge Nodes: appear during macro/news. Far from price. Slow protective positioning. Closer = more influence",
+            "\u2605 Color does NOT define importance \u2014 MAGNITUDE DOES \u2605"
+          ]
+        },
+        {
+          "title": "Magnet Physics & Freshness Rule",
+          "notes": [
+            "Far from node = weak pull. Near node = strong pull. At node = stall/bounce/reject/pin",
+            "Think ZONES, not exact lines",
+            "Nodes attract & repel \u2014 trending day: price flows toward big node (momentum works) | Range day: between yellow nodes (expect expansion) | Breakout day: fast entry into purple (fade edges)",
+            "Freshness Rule: 1st touch = strongest/best. 2nd touch = weaker (66%). 3rd+ touch = weak/unreliable. Favor untouched nodes",
+            "Rate of Change: Rapid add = strong magnet | Rapid unwind = level weakens | Fast shifts = spikes/reversals",
+            "More tests = less bounce power. Watch speed of exposure change"
+          ]
+        },
+        {
+          "title": "Correct Hierarchy & Node Priority",
+          "notes": [
+            "Correct Hierarchy \u2014 NEVER break this: 1. Price Action \u2192 must agree  2. Heatseeker Context \u2192 validates  3. Risk:Reward \u2192 decides",
+            "If ANY layer fails = no trade",
+            "Node Priority (Gravity Model): 1. King Node \u2192 largest absolute value  2. Gatekeeper Node \u2192 deflection zone  3. Cluster/stacks \u2192 pin/chop zones  4. Single isolated nodes \u2192 lowest priority",
+            "Midpoints = MM trap zone (worst R:R) \u2014 middle of range = uncertainty. Best trade = fade edges, not midpoint"
+          ]
+        },
+        {
+          "title": "King Node (Daily Anchor) & Gatekeepers",
+          "notes": [
+            "King Node = largest node on map. Dealers prefer price near here by EOD/EOW. Treat as primary destination",
+            "Early-day touch \u2192 reject. Late-day approach \u2192 pin",
+            "Gatekeeper Nodes: sit between price & King Node. Test + reject \u2192 bias shift. Early rejection = high-prob reversal",
+            "If SPX, SPY, QQQ don't agree at Gatekeeper \u2192 stand aside",
+            "Bigger absolute value = stronger magnet. Mark only major nodes"
+          ]
+        },
+        {
+          "title": "Range, Trade Locations & Daily Routine",
+          "notes": [
+            "Upper extreme = repeated rejection zone. Lower extreme = repeated bounce zone",
+            "Trade plan: fade extremes \u00b7 avoid midpoints \u00b7 edge = edges",
+            "Best Trade Locations: Range edges \u00b7 King Node area/approach late day \u00b7 Gatekeeper rejection",
+            "NOT: midpoint \u00b7 chasing breakouts into empty space \u00b7 inside chop \u00b7 chasing moves",
+            "Simple Daily Routine: 1. Mark King Node  2. Mark upper/lower range  3. Mark nearest gatekeepers  4. Wait for price to reach edge  5. Let price confirm \u2192 enter  6. Target next major node"
+          ]
+        },
+        {
+          "title": "Validate a Trade \u2014 3-Step Test",
+          "notes": [
+            "1. Near a King or Gatekeeper?",
+            "2. Price shows rejection or acceptance?",
+            "3. SPX, SPY, QQQ aligned?",
+            "If Yes to ALL \u2192 Valid. If ANY is No \u2192 Pass",
+            "Case Study Pattern (TSLA/SPY/QQQ): Hit King or Gatekeeper \u2192 downside nodes start growing \u2192 floors appear below \u2192 short pops or target floors. Targets come from rate of change of nodes, not guessing"
+          ]
+        },
+        {
+          "title": "Market Environment Filters & Reshuffles",
+          "notes": [
+            "Low volume \u2192 maps distort. OPEX/rebalancing \u2192 nodes weaken. News \u2192 price moves first, map updates later",
+            "Trade lighter or wait during these conditions",
+            "Map Reshuffles: nodes can appear, vanish, or move intraday. Pause, re-evaluate & DON'T assume old levels matter",
+            "If map suddenly changes = dealer positioning shifted. Do this: 1. Stop back  2. Mark new King Node  3. Mark new Gatekeeper  4. Wait for structure to stabilize",
+            "Common reshuffle triggers: CPI \u00b7 FOMC \u00b7 Power Hour \u00b7 Big volatility events",
+            "OPEX (3rd Friday): nodes weaken temporarily \u00b7 map distorts \u00b7 position resets \u00b7 After OPEX \u2192 clarity improves. Trade lighter"
+          ]
+        },
+        {
+          "title": "Confluence Rule \u2014 Critical for 0DTE",
+          "notes": [
+            "SPX + SPY + QQQ aligned \u2192 tradeable. Mixed signals \u2192 stand down. No confluence = low probability",
+            "Confluence Boosters: GEX + VEX overlap \u00b7 SPX + SPY + QQQ alignment \u00b7 Price action confirmation",
+            "More confluence = higher probability",
+            "Power Hour (2:30-3:00 CST): forced liquidations / dealer flows \u2192 volatility spikes. Can break or accelerate nodes. Often mechanical, not organic. Reduce size / widen stops",
+            "Core Rules: absolute value > color \u00b7 fresh nodes > reloaded \u00b7 avoid midpoints \u00b7 track King nodes daily \u00b7 watch catalyst (PPI, OPEX, news)"
+          ]
+        },
+        {
+          "title": "Common Mistakes & Winning Mindset",
+          "notes": [
+            "Common Mistakes: treating heatseeker as a signal \u00b7 ignoring price structure \u00b7 trading w/o index alignment \u00b7 expecting perfect symmetry \u00b7 emotional/revenge trades",
+            "Winning Mindset: Heatseeker = contextual intelligence. Price action = trigger. You = risk manager",
+            "\u2605 Calm > Clever. Process > Prediction. Edges > Guesses",
+            "Nodes = levels of interest \u2014 price confirms entry. Asymmetric R:R only. Stay fluid, not biased. Don't fight reshuffles",
+            "How to combine w/ your strategy \u2014 Heatseeker is strategy-agnostic. Use it with: price action \u00b7 liquidity sweeps \u00b7 key Fib retracements \u00b7 breakout/breakdown \u00b7 overflow/delta",
+            "How long to get good: Week 1-2 = learn node types & color logic. Weeks 3-4 = understand reactions & reshuffles. Month 2+ = pattern recognition + confidence. Most traders feel 'flow' after 30 days. Consistency = mastery"
+          ]
+        }
+      ]
     }
   ],
   "2026-07-13": {
