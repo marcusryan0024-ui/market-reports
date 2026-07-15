@@ -9083,6 +9083,63 @@
           ]
         }
       ]
+    },
+    {
+      "category": "TOOLS",
+      "name": "Premium Charts For The Win",
+      "sections": [
+        {
+          "title": "What Is a Premium Chart?",
+          "notes": [
+            "Premium chart = price chart of an options CONTRACT \u2014 shows how the COST (premium) of that option moves over time",
+            "You are trading the premium price itself, not just the stock. Even if the stock moves correctly, the option's premium may not",
+            "Premium moves depending on: Time decay (theta) \u00b7 Volatility changes (IV) \u00b7 Momentum changes \u00b7 Market sentiment around that strike/expiration",
+            "Reading the premium chart helps you understand where BUYERS & SELLERS are comfortable pricing the contract itself"
+          ]
+        },
+        {
+          "title": "Why Premium Charts Matter",
+          "notes": [
+            "You're trading premiums, not just the stock \u2014 premium charts show where the option itself is strong or weak so you don't get trapped buying high",
+            "Helps avoid buying at the 'top' of a move \u2014 if you buy when premium is near resistance you're likely overpaying & more likely to see an instant pullback",
+            "Reduces emotional trading \u2014 when you know where contracts historically gain or lose value, decisions become logical rather than emotional",
+            "Resistance exists: premium often rejects at known resistance. Exiting there protects gains & avoids being caught in reversals",
+            "Support entries = better Risk to Reward \u2014 when you enter near support, your downside is limited & even a small bounce can make you profitable"
+          ]
+        },
+        {
+          "title": "Core Concepts \u2014 Structure, Support & Resistance",
+          "notes": [
+            "Structure of chart: X-axis = time. Y-axis = premium price",
+            "Resistance Level: identify levels where premium repeatedly tops out (ex: $1.50 \u2192 $2.70). These are ideal EXIT zones for taking profit",
+            "Support Levels: identify flat or bounced areas where premium repeatedly holds (ex: $0.80 \u2192 $1)",
+            "Confirmation: premium often hits support when the underlying stock hits technical support \u2014 look for confluence between BOTH charts",
+            "\u2605 Mark your charts ahead of time w/ horizontal lines for key levels. Always mark at least 2-3 levels & gaps"
+          ]
+        },
+        {
+          "title": "Sabrina's Setup \u2014 Marking & Morning Approach",
+          "notes": [
+            "TradingView setup: always has 4 charts up \u2014 30min & 1HR charts + call chart & put charts",
+            "For premiums in morning: start by marking daily chart first",
+            "More volume in the morning \u2192 buys cheaper contracts",
+            "How she marks lows: go to the 2hr mark where it hits a couple times \u2192 down to 1HR & 30min",
+            "Sell into strength",
+            "Minima of 100% plays \u2014 be modest: it shows $2.53, sometimes $1.83 \u2192 $2.20 for the best. Keep in mind wicking",
+            "Don't have to chase \u2014 there will be pullback entries"
+          ]
+        },
+        {
+          "title": "Trade Execution \u2014 Entries, Exits & Timeframes",
+          "notes": [
+            "5min = more data earlier in the day. 2min = if getting in 10mins into market open. 15min = later in day, less data",
+            "Trade failed 2 reversals",
+            "\u2605 Set your sell $1 LESS than target to make sure it closes you out \u2014 if it's showing $1.35 get out/sell at $1.34",
+            "Set limit & walk off",
+            "Support Entries = Better R:R \u2014 enter near support, downside is limited & small bounce = profitable"
+          ]
+        }
+      ]
     }
   ],
   "2026-07-13": {
