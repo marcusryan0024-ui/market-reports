@@ -10434,7 +10434,98 @@
         "why": "Beat on EPS/revs but Q3 guide $2.50-3.50 vs $3.53 est; added $6B fuel cost headwind flagged — guidance shock on the airline"
       }
     ],
-    "setups": [],
+    "setups": [
+      {
+        "ticker": "UNH",
+        "tier": 1,
+        "strat": "Bullish Kicker",
+        "catalyst": "Earnings beat +7% premarket. Bullish Kicker. Monthly Order Block support. Large upside gap overhead. ★ Highest conviction.",
+        "levels": "PM High ~455 (ORB trigger) | Monthly Order Block | 10 AM 2H candle",
+        "bull": "10-min ORB above PM high ~455 → gap-and-go; new 2H candle after 10 AM = second entry",
+        "bear": "Fails ORB → no trade; wait for next confirmation window",
+        "note": "Do NOT chase inside premarket range. Wait for ORB or 10 AM 2H candle confirmation."
+      },
+      {
+        "ticker": "ABT",
+        "tier": 1,
+        "strat": "Bullish Kicker",
+        "catalyst": "Earnings beat. Bullish Order Block. Strong ATR. Historical pattern: strong open, reversal risk after 10-10:30 AM.",
+        "levels": "2H Trigger 93.55 | ORB high",
+        "bull": "Above 93.55 on 10-min ORB → continuation; take profits early",
+        "bear": "Below 93.55 → wait; no trade",
+        "note": "Scale profits early — frequent reversals after 10:00-10:30 AM. Don't overstay the move."
+      },
+      {
+        "ticker": "MRK",
+        "tier": 1,
+        "strat": "Bullish Kicker",
+        "catalyst": "FDA approval catalyst. Bullish Kicker. Quarterly continuation near 52-week highs.",
+        "levels": "52-week high | Quarterly continuation level",
+        "bull": "Holds above 52-week high → continuation; news + technicals align",
+        "bear": "Loses 52-week high → no trade",
+        "note": "News + flow + technicals all aligned = high conviction continuation candidate."
+      },
+      {
+        "ticker": "GE",
+        "tier": 1,
+        "strat": "Bearish Kicker",
+        "catalyst": "Bearish kicker despite earnings beat. Multiple downside gap fills below. Near support.",
+        "levels": "Put trigger 341.56 | 2H breakdown | Downside gap fills",
+        "bull": "Holds 341.56 → squeeze risk; no trade",
+        "bear": "Below 341.56 → wait for 2H breakdown to confirm; gap-fill continuation",
+        "note": "Wait for confirmation. Short the 2H breakdown, not the open gap."
+      },
+      {
+        "ticker": "UAL",
+        "tier": 1,
+        "strat": "Trampoline Setup",
+        "catalyst": "Gap down on earnings. Trampoline pattern at support. Two-way setup.",
+        "levels": "Long above 120 | Short below 119.50",
+        "bull": "Above 120 with confirmation → trampoline bounce off support",
+        "bear": "Below 119.50 → gap-down continuation",
+        "note": "Neutral. Wait for price to commit to one side before entering."
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 2,
+        "strat": "Bullish Watch",
+        "catalyst": "Constructive setup. Earnings approaching — manage size.",
+        "levels": "Bull trigger 256.48 | Gap fill 261.26",
+        "bull": "Above 256.48 → continuation toward 261.26 gap fill",
+        "bear": "Below 256.48 → wait; no trade",
+        "note": "Earnings approaching. Avoid oversized swings. Set alert at 256.48 — don't chase."
+      },
+      {
+        "ticker": "GOOGL",
+        "tier": 2,
+        "strat": "3-2-2 Continuation Watch",
+        "catalyst": "Clearing order block. Potential 3-2-2 continuation. Earnings approaching next week.",
+        "levels": "Trigger 173.65 | Order block",
+        "bull": "Above 173.65 → order block cleared; 3-2-2 continuation",
+        "bear": "Below 173.65 → wait; no trade",
+        "note": "Earnings next week — confirmation entries only. Patience required."
+      },
+      {
+        "ticker": "JPM",
+        "tier": 2,
+        "strat": "3-2-2 Daily Continuation",
+        "catalyst": "Banks remain relatively strong. 3-2-2 Daily trigger in play.",
+        "levels": "3-2-2 Daily Trigger | PDH",
+        "bull": "3-2-2 Daily break → continuation; bank sector momentum",
+        "bear": "Fails trigger → wait",
+        "note": "Use JPM as the sector read. Banks running = risk-on confirmation."
+      },
+      {
+        "ticker": "IWM",
+        "tier": 2,
+        "strat": "Inside Day Expansion",
+        "catalyst": "Inside Day. OPEX consolidation. Waiting on market direction.",
+        "levels": "Bull trigger 294.15 | Target 297.14",
+        "bull": "Breaks 294.15 → expansion toward 297.14",
+        "bear": "Breaks inside day low → downside expansion",
+        "note": "OPEX chop until breakout. Wait for the market to commit."
+      }
+    ],
     "mag7_0dte": {
       "ticker": "AMZN",
       "bias": "BULL",
@@ -10493,10 +10584,107 @@
       "AA"
     ],
     "morning_prep": {
-      "theme": "",
-      "rules": [],
-      "market": "",
-      "setups": []
+      "theme": "OPEX Week + Earnings Flood — Discipline First, Wait for Confirmation",
+      "rules": [
+        "OPEX Week = expect chop; let price confirm direction — you don't get paid for being first, you get paid for being right",
+        "Wait for 10-min ORB or 2H candle confirmation; never trade inside the premarket range",
+        "Check quarterly → monthly → weekly → daily before every trade; HF alignment required",
+        "Align news catalyst + options flow + technicals — missing one piece lowers conviction",
+        "UNH, ABT, MRK are highest conviction; one or two quality trades is enough — protect capital"
+      ],
+      "market": "OPEX week dealer hedging creates choppy, range-bound conditions before a directional move develops. Earnings slate is heavy but UNH (+7%), ABT, and MRK are the standouts. GE and UAL are wait-and-see — confirmation required before entry. Mega-caps (AMZN, GOOGL) remain constructive but earnings approaching — manage size. IWM/SPY both Inside Days. Best approach: smaller size, confirmation entries, quick profit-taking.",
+      "setups": [
+        {
+          "ticker": "UNH",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "Earnings beat +7% premarket. Bullish Kicker. Monthly Order Block support. Large upside gap overhead. ★ Highest conviction.",
+          "levels": "PM High ~455 (ORB trigger) | Monthly Order Block | 10 AM 2H candle",
+          "bull": "10-min ORB above PM high ~455 → gap-and-go; new 2H candle after 10 AM = second entry",
+          "bear": "Fails ORB → no trade; wait for next confirmation window",
+          "note": "Do NOT chase inside premarket range. Wait for ORB or 10 AM 2H candle confirmation."
+        },
+        {
+          "ticker": "ABT",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "Earnings beat. Bullish Order Block. Strong ATR. Historical pattern: strong open, reversal risk after 10-10:30 AM.",
+          "levels": "2H Trigger 93.55 | ORB high",
+          "bull": "Above 93.55 on 10-min ORB → continuation; take profits early",
+          "bear": "Below 93.55 → wait; no trade",
+          "note": "Scale profits early — frequent reversals after 10:00-10:30 AM. Don't overstay the move."
+        },
+        {
+          "ticker": "MRK",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "FDA approval catalyst. Bullish Kicker. Quarterly continuation near 52-week highs.",
+          "levels": "52-week high | Quarterly continuation level",
+          "bull": "Holds above 52-week high → continuation; news + technicals align",
+          "bear": "Loses 52-week high → no trade",
+          "note": "News + flow + technicals all aligned = high conviction continuation candidate."
+        },
+        {
+          "ticker": "GE",
+          "tier": 1,
+          "strat": "Bearish Kicker",
+          "catalyst": "Bearish kicker despite earnings beat. Multiple downside gap fills below. Near support.",
+          "levels": "Put trigger 341.56 | 2H breakdown | Downside gap fills",
+          "bull": "Holds 341.56 → squeeze risk; no trade",
+          "bear": "Below 341.56 → wait for 2H breakdown to confirm; gap-fill continuation",
+          "note": "Wait for confirmation. Short the 2H breakdown, not the open gap."
+        },
+        {
+          "ticker": "UAL",
+          "tier": 1,
+          "strat": "Trampoline Setup",
+          "catalyst": "Gap down on earnings. Trampoline pattern at support. Two-way setup.",
+          "levels": "Long above 120 | Short below 119.50",
+          "bull": "Above 120 with confirmation → trampoline bounce off support",
+          "bear": "Below 119.50 → gap-down continuation",
+          "note": "Neutral. Wait for price to commit to one side before entering."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 2,
+          "strat": "Bullish Watch",
+          "catalyst": "Constructive setup. Earnings approaching — manage size.",
+          "levels": "Bull trigger 256.48 | Gap fill 261.26",
+          "bull": "Above 256.48 → continuation toward 261.26 gap fill",
+          "bear": "Below 256.48 → wait; no trade",
+          "note": "Earnings approaching. Avoid oversized swings. Set alert at 256.48 — don't chase."
+        },
+        {
+          "ticker": "GOOGL",
+          "tier": 2,
+          "strat": "3-2-2 Continuation Watch",
+          "catalyst": "Clearing order block. Potential 3-2-2 continuation. Earnings approaching next week.",
+          "levels": "Trigger 173.65 | Order block",
+          "bull": "Above 173.65 → order block cleared; 3-2-2 continuation",
+          "bear": "Below 173.65 → wait; no trade",
+          "note": "Earnings next week — confirmation entries only. Patience required."
+        },
+        {
+          "ticker": "JPM",
+          "tier": 2,
+          "strat": "3-2-2 Daily Continuation",
+          "catalyst": "Banks remain relatively strong. 3-2-2 Daily trigger in play.",
+          "levels": "3-2-2 Daily Trigger | PDH",
+          "bull": "3-2-2 Daily break → continuation; bank sector momentum",
+          "bear": "Fails trigger → wait",
+          "note": "Use JPM as the sector read. Banks running = risk-on confirmation."
+        },
+        {
+          "ticker": "IWM",
+          "tier": 2,
+          "strat": "Inside Day Expansion",
+          "catalyst": "Inside Day. OPEX consolidation. Waiting on market direction.",
+          "levels": "Bull trigger 294.15 | Target 297.14",
+          "bull": "Breaks 294.15 → expansion toward 297.14",
+          "bear": "Breaks inside day low → downside expansion",
+          "note": "OPEX chop until breakout. Wait for the market to commit."
+        }
+      ]
     }
   }
 }
