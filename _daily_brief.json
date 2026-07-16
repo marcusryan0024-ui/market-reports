@@ -10390,5 +10390,221 @@
         }
       ]
     }
+  },
+  "2026-07-16": {
+    "headline": "Earnings Flood + Semi Sell-the-News — TSM -4% on Record Q2 Beat, UNH +7% Healthcare Blowout, NFLX Reports Tonight",
+    "overview": "Thursday opens with the heaviest earnings slate of the week and a continuation of Wednesday's rotation trade. TSM posted record Q2 revenue of $40.2B (+34%) with gross margins holding 67.7% — AI and HPC now two-thirds of revenue — and still shows as a bearish gapper. The message: the bar for semis is too high. On the other side, UNH is the standout of the morning, posting EPS of $6.38 versus $4.90 expected and raising its full-year guide — a $1.50 beat that sent the stock up 7%+ in premarket. GE Aerospace beat by $0.42, raised guidance, and is still down 4%. JBHT beat by $0.17 and is up 7%. Eli Lilly is acquiring AataiBeckley (ATAI) for $6.75/share plus a CVR tied to pipeline milestones — ATAI jumping 34%. UBER is buying Delivery Hero in a $14.8B cash deal. NFLX reports after the close tonight as the final major event of the week. Retail Sales and jobless claims hit at 8:30 before the open.",
+    "market_context": "Futures mixed: S&P -0.23%, Nasdaq -0.83%, Russell -0.23%, Dow +0.16% as industrials and healthcare offset tech weakness. 10yr yield +3bps to 4.58%. WTI near $80/bbl — Iran risk premium still embedded. TSM's sell-the-news is dragging semiconductors pre-open; South Korea's KOSPI fell 6.4% overnight, Samsung -7%, SK Hynix -9%. Two straight softer inflation prints (CPI Tuesday, PPI Wednesday) have knocked July rate-hike odds below 20% — September is the live debate. Mega-cap tech continues absorbing the rotation: MSFT saw the largest single-name dark pool print of Wednesday at $823M ask-side AH, and Microsoft disclosed it is training its sales force to position in-house AI as an alternative to OpenAI, Anthropic, and Google — a confidence signal in their own product stack.",
+    "bulls": [
+      {
+        "ticker": "UNH",
+        "pct": "+7.2%",
+        "why": "EPS $6.38 vs $4.90 est — $1.50 beat; revenue $112.03B vs $110.85B; raised FY26 EPS guide above consensus — healthcare rotating back in"
+      },
+      {
+        "ticker": "JBHT",
+        "pct": "+6.8%",
+        "why": "EPS $1.73, beat by $0.17; management noted intermodal demand increase throughout Q2 — logistics recovery signal"
+      },
+      {
+        "ticker": "ATAI",
+        "pct": "+34.5%",
+        "why": "Eli Lilly buying for $6.75/share cash plus CVR — $2.8B deal; 26% premium to Wednesday's close"
+      },
+      {
+        "ticker": "MSFT",
+        "pct": "+est",
+        "why": "$823M ask-side AH dark pool print; bullish gapper on DP board; AI enterprise narrative dominant as Microsoft trains sales force to push in-house AI over rivals"
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "TSM",
+        "pct": "-4.0%",
+        "why": "Record Q2 beat ($40.2B rev, $0.50 EPS beat, 67.7% gross margin) — still selling off; Korea KOSPI -6.4%, semi rotation out of the entire complex"
+      },
+      {
+        "ticker": "GE",
+        "pct": "-4.0%",
+        "why": "$0.42 EPS beat, raised FY26 guide to $7.65-7.85 EPS — classic sell-the-news; industrial profit-taking accelerating after strong run"
+      },
+      {
+        "ticker": "UAL",
+        "pct": "-3.2%",
+        "why": "Beat on EPS/revs but Q3 guide $2.50-3.50 vs $3.53 est; added $6B fuel cost headwind flagged — guidance shock on the airline"
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "UNH",
+        "tier": 1,
+        "strat": "Bullish Kicker",
+        "catalyst": "Blowout earnings — $1.50 EPS beat, revenue beat, raised FY26 guide. Bullish kicker gap. Healthcare rotation fuel. ★ Top watch.",
+        "levels": "Gap fill below | ORB high | PDH",
+        "bull": "Holds ORB after open → gap-and-go continuation; healthcare sector bid adds momentum",
+        "bear": "Fails ORB → pullback toward gap fill, no trade",
+        "note": "Don't buy the open spike. Let opening range develop, confirm trend, trade continuation."
+      },
+      {
+        "ticker": "NFLX",
+        "tier": 1,
+        "strat": "Failed 2U / Pre-Earnings Setup",
+        "catalyst": "Failed 2-Up pattern into earnings tonight AMC. High ATR earnings play. Two-way risk extreme post-close.",
+        "levels": "PDH | PDL | Weekly trigger | Prior swing high",
+        "bull": "Reclaims PDH → pre-earnings squeeze; momentum into the print",
+        "bear": "Loses PDL → downside move, earnings uncertainty compounds",
+        "note": "Intraday setup ONLY. Do NOT hold through earnings. Cut before 3:45 PM."
+      },
+      {
+        "ticker": "GE",
+        "tier": 1,
+        "strat": "Bearish Gapper / Sell-the-News",
+        "catalyst": "Beat $0.42 EPS, raised guide — still -4%. Classic sell-the-news dynamic. Industrial names printing sell-on-strength.",
+        "levels": "Premarket gap level | PDC | ORB low",
+        "bull": "Aggressive gap fill reclaim → short squeeze; no trade",
+        "bear": "Fails to reclaim gap → short the failed rally; continuation lower toward PDC",
+        "note": "Don't short the open. Wait for rally attempt, confirm failure, then enter."
+      },
+      {
+        "ticker": "TSM",
+        "tier": 2,
+        "strat": "Bearish Gapper",
+        "catalyst": "Record quarter, clean beat — still -4%. Semi complex read-through for SOXX, NVDA, AMD, MU. Korea semi complex already down 7-9%.",
+        "levels": "Gap level | ORB low | PDC",
+        "bull": "Aggressive gap fill attempt → signal of broader semi resilience",
+        "bear": "Fails opening range → continue lower; semi rotation theme validates",
+        "note": "Use as read for SOXX and Mag 11 semi names. Direction here sets tone for the chip complex all day."
+      },
+      {
+        "ticker": "TSLA",
+        "tier": 2,
+        "strat": "3 Bar / Outside Day Expansion",
+        "catalyst": "Outside day compression building pre-earnings (Jul 23, 6 days). 3-bar setup. Expansion expected.",
+        "levels": "PDH | PDL",
+        "bull": "Breaks PDH → upside expansion; pre-earnings momentum build",
+        "bear": "Breaks PDL → downside expansion; earnings uncertainty pressure",
+        "note": "Earnings in 6 days — size down as you approach the print. Direction today = early tell."
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "AMZN",
+      "bias": "BULL",
+      "pattern": "Bullish Gapper / Mega-Cap Rotation",
+      "flow": "$300M ask-side AH Wednesday; unusual options volume flagged; SPY $6.3B + QQQ $3.3B both bid-side — index flow absorbing semi exit into mega-cap tech",
+      "catalyst": "Wedbush initiated Outperform at $293. Rotation trade is live — money exiting semis (MU, AVGO, TSM all red) moving into AMZN/MSFT/META. Retail Sales at 8:30 = direct consumer spending catalyst for AMZN. Friday 0DTE with clean directional flow supporting the bull side.",
+      "key_levels": "Break above Wednesday HOD = explosive continuation | VWAP as intraday floor | Retail Sales confirm = high conviction | Fails VWAP = no trade",
+      "expected_move": "±$4-6",
+      "expected_move_pct": "±1.8-2.5%"
+    },
+    "trump_stocks": [
+      "XLE",
+      "USO",
+      "XOM"
+    ],
+    "trump_context": "Iran tensions escalating — Trump leaning toward military operations that could include seizure of Iranian islands (WSJ). Iran drew a 'red line,' threatening to crush key Middle East targets if U.S. strikes oil infrastructure next week. Oil holding above $80 (WTI +0.1% to $79.52) despite macro cooling — geopolitical premium firmly embedded. Separately, USTR imposed 25% tariffs on certain imports from Brazil. Trump speaks tonight at 9pm ET — potential late-session volatility catalyst.",
+    "events": [
+      {
+        "type": "8:30 ET",
+        "detail": "Retail Sales (Jun) — consumer spending health check; consensus +0.3%; miss = risk-off for discretionary"
+      },
+      {
+        "type": "8:30 ET",
+        "detail": "Initial Jobless Claims (weekly) + Philadelphia Fed Index (Jul) — labor and regional manufacturing data"
+      },
+      {
+        "type": "12:30 PM ET",
+        "detail": "Dallas Fed President Logan (FOMC voter) — post-PPI commentary; watch for September rate language"
+      },
+      {
+        "type": "7:00 PM ET",
+        "detail": "Fed Governor Jefferson (FOMC voter) — evening Fed commentary"
+      },
+      {
+        "type": "AMC",
+        "detail": "NFLX earnings — streaming giant reports; consensus ~$7.03 EPS; subscriber growth and ad-tier penetration in focus"
+      },
+      {
+        "type": "9:00 PM ET",
+        "detail": "Trump speaks — potential market-moving headlines; stay aware into the close"
+      }
+    ],
+    "earnings_bmo": [
+      "TSM",
+      "UNH",
+      "GE",
+      "ABT",
+      "JBHT",
+      "UAL",
+      "USB",
+      "CFG",
+      "STT"
+    ],
+    "earnings_amc": [
+      "NFLX",
+      "AA"
+    ],
+    "morning_prep": {
+      "theme": "Earnings Flood + Sell-the-News Dynamics — UNH Bullish Kicker, NFLX Pre-Earnings, Retail Sales 8:30",
+      "rules": [
+        "Retail Sales at 8:30 — wait for print; consumer data sets direction before first trade; don't be first",
+        "Semi complex is in sell-the-news mode (TSM -4% on a clean beat) — do not buy semi rallies; wait for failed rally to short",
+        "NFLX earnings AMC tonight — trade the intraday setup only; DO NOT hold through the earnings print",
+        "UNH is the standout bullish kicker — let opening range develop, confirm ORB hold, then trade continuation",
+        "Rotation theme is the playbook: money leaving semis (MU/AVGO/TSM) moving into mega-cap tech (AMZN/MSFT/META) — trade with it"
+      ],
+      "market": "Heavy earnings morning with sell-the-news dominating semis and industrials. UNH is the cleanest setup — blowout beat with gap momentum. NFLX sets up for an intraday play before AMC earnings. Retail Sales and claims at 8:30 provide the macro trigger. Semi complex (SOXX, TSM, MU) continues rotating lower — mega-cap tech absorbing the flow.",
+      "setups": [
+        {
+          "ticker": "UNH",
+          "tier": 1,
+          "strat": "Bullish Kicker",
+          "catalyst": "Blowout beat — $1.50 EPS above est, revenue beat, raised FY26 guide. Healthcare rotation fuel. ★ Top watch.",
+          "levels": "Gap fill below | ORB high | PDH",
+          "bull": "Holds ORB after open → gap-and-go continuation; healthcare sector bid adds momentum",
+          "bear": "Fails ORB → pullback toward gap fill, no trade",
+          "note": "Don't buy the open spike. Wait, let opening range develop, confirm trend, trade continuation."
+        },
+        {
+          "ticker": "NFLX",
+          "tier": 1,
+          "strat": "Failed 2U / Pre-Earnings Setup",
+          "catalyst": "Failed 2-Up into earnings tonight AMC. High ATR post-earnings. Two-way risk extreme after close.",
+          "levels": "PDH | PDL | Weekly trigger | Prior swing high",
+          "bull": "Reclaims PDH → pre-earnings squeeze; momentum into the print",
+          "bear": "Loses PDL → downside move; earnings uncertainty amplifies",
+          "note": "★ Intraday only. Cut before 3:45 PM. Do NOT hold through earnings."
+        },
+        {
+          "ticker": "GE",
+          "tier": 1,
+          "strat": "Bearish Gapper / Sell-the-News",
+          "catalyst": "Beat $0.42 EPS, raised guide — still -4%. Classic sell-the-news. Industrial profit-taking in play.",
+          "levels": "Premarket gap level | PDC | ORB low",
+          "bull": "Aggressive gap fill reclaim → squeeze, no trade",
+          "bear": "Fails to reclaim gap → short the failed rally; continuation lower",
+          "note": "Don't short the open gap. Wait for rally attempt, confirm failure, then enter."
+        },
+        {
+          "ticker": "TSM",
+          "tier": 2,
+          "strat": "Bearish Gapper",
+          "catalyst": "Record quarter, clean beat — still -4%. Semi complex read-through: SOXX, NVDA, AMD, MU all in focus.",
+          "levels": "Gap level | ORB low | PDC",
+          "bull": "Aggressive gap fill → signal of semi resilience; broader market strength",
+          "bear": "Fails opening range → continue lower; semi rotation validates",
+          "note": "Use as the real-time read for SOXX and Mag 11 semi names today."
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 2,
+          "strat": "3 Bar / Outside Day Expansion",
+          "catalyst": "Outside day compression pre-earnings (Jul 23, 6 days out). Expansion expected on direction break.",
+          "levels": "PDH | PDL",
+          "bull": "Breaks PDH → upside expansion; pre-earnings momentum build",
+          "bear": "Breaks PDL → downside expansion; earnings uncertainty pressure",
+          "note": "Size down as earnings approach. Direction break today = early tell on positioning."
+        }
+      ]
+    }
   }
 }
