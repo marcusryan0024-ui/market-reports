@@ -10686,5 +10686,163 @@
         }
       ]
     }
+  },
+  "2026-07-20": {
+    "headline": "Mega-Cap Earnings Week Begins — Chips Bounce, Iran Fades, All Eyes on Wednesday",
+    "overview": "Futures point to a broad recovery open (Nasdaq +0.75%, S&P +0.39%) as the market rotates from last week's semi selloff into the busiest earnings week of the season. MU, SNDK and DRAM are gapping up in a chip bounce attempt, but the M SMH put block sitting underneath it says stay disciplined. Iran struck for the ninth straight time over the weekend with another US service member killed — Brent briefly touched $90 but oil is now fading as diplomatic channels appear open. DPZ missed EPS this morning despite slight revenue beat; AMC Entertainment beat on both top and bottom line. Wednesday is the week's real test: GOOGL + TSLA earnings after close and AMD's Advancing AI event.",
+    "market_context": "S&P futures +29 pts (+0.39%), Nasdaq +218 pts (+0.75%), Dow +111 pts (+0.21%), Russell +21 pts (+0.69%). 10-yr yield -3bps to 4.52%. VIX falling >5%. Crude oil pulling back. Friday closed lower on sharp megacap and semi selloff — NFLX -8% on soft guidance, chips -4 to -6%, energy the lone bright spot. Asian markets mixed: Hong Kong led gains, China higher on policy support expectations, South Korea weak (Samsung/SK Hynix extended declines), Japan closed for holiday. European markets modestly higher — financials and energy outperforming, weakness in staples/healthcare/utilities. Economic calendar light this week (Leading Economic Index 10am only today). No Fed until next week — it's all earnings and geopolitics.",
+    "bulls": [
+      {
+        "ticker": "MU",
+        "pct": "+est",
+        "why": "Leading dark pool flow at .9B ask + bullish gapper with SNDK and DRAM clustering — memory bounce attempt leading the semi recovery"
+      },
+      {
+        "ticker": "AMD",
+        "pct": "+est",
+        "why": "M dark pool ask AH + Failed 2D setup + Advancing AI event Wednesday — NBIS upgraded to Buy alongside as semi sentiment shifts"
+      },
+      {
+        "ticker": "TSLA",
+        "pct": "+est",
+        "why": "Bullish gapper with DP on the board + earnings Wednesday — market positioning into the print as risk appetite recovers"
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "DPZ",
+        "pct": "-est",
+        "why": "Missed EPS despite narrow revenue beat; US comp store sales +0.1% only — consumer spending pressure; Failed 2U setup, shares lower premarket"
+      },
+      {
+        "ticker": "USO",
+        "pct": "-est",
+        "why": "Oil fading despite 9th Iran strike — bearish gapper with DP; diplomatic channels opening ease energy supply fears"
+      },
+      {
+        "ticker": "NOW",
+        "pct": "-est",
+        "why": "Underperform initiation at CLSA (tgt ) + Inside setup with earnings in 2 days — analyst skepticism heading into the print"
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "AMD",
+        "strat": "2D-Failed",
+        "why": "Failed 2D + M DP ask AH + Advancing AI event Wednesday — primary semi setup, current mover",
+        "bias": "BULL"
+      },
+      {
+        "ticker": "MU",
+        "strat": "Bullish Gapper",
+        "why": "Leading DP flow $2.9B ask + DRAM clustering alongside — memory bounce leader",
+        "bias": "BULL"
+      },
+      {
+        "ticker": "TSLA",
+        "strat": "Bullish Gapper",
+        "why": "Bullish gapper with DP + earnings Wednesday — watch open for momentum entry",
+        "bias": "BULL"
+      },
+      {
+        "ticker": "NVDA",
+        "strat": "2D-Failed",
+        "why": "Failed 2D with confluence post-conference — secondary semi bounce play, $2.1B DP ask",
+        "bias": "BULL"
+      },
+      {
+        "ticker": "NOW",
+        "strat": "1-Inside",
+        "why": "Inside setup + Underperform initiation at CLSA ($72 tgt) + earnings in 2 days — directional break required",
+        "bias": "WATCH"
+      },
+      {
+        "ticker": "UNH",
+        "strat": "1-Inside",
+        "why": "Inside setup + unusual options volume flagged by FlowMS — wait for clean break before entry",
+        "bias": "WATCH"
+      },
+      {
+        "ticker": "LMT",
+        "strat": "3-Outside",
+        "why": "3 bar outside with earnings in 3 days — defense name, wide range possible into print",
+        "bias": "WATCH"
+      },
+      {
+        "ticker": "USO",
+        "strat": "Bearish Gapper",
+        "why": "Oil fading despite Iran escalation + bearish gapper with DP — watch if crude accelerates lower",
+        "bias": "BEAR"
+      },
+      {
+        "ticker": "NBIS",
+        "strat": "2D-Failed",
+        "why": "Failed 2D + upgraded to Buy at Freedom Capital ($200 tgt) — current mover, earnings in 9 days",
+        "bias": "BULL"
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "TSLA",
+      "bias": "BULL",
+      "pattern": "Bullish Gapper / Earnings Week Momentum",
+      "flow": "Bullish gapper with DP on board; AMD +3.7% and MU +5% leading semi bounce — risk appetite recovering into mega-cap earnings week",
+      "catalyst": "TSLA earnings Wednesday AMC — market positioning bullish. Iran ceasefire proposal pushing risk-on. Nasdaq futures +0.75%. VIX -5%. Clean gapper setup on a broad risk-on morning.",
+      "key_levels": "Break above PM high = continuation | VWAP as intraday floor | Holds bid = high conviction | Fails VWAP = no trade",
+      "expected_move": "±$8-12",
+      "expected_move_pct": "±3.0-4.5%"
+    },
+    "trump_stocks": [
+      "USO",
+      "XLE",
+      "XOM"
+    ],
+    "trump_context": "Iran ceasefire proposal in play — mediators proposing a 10-day cessation of strikes to revive the MoU. Markets ticking higher and oil prices falling on the headline. USO, XLE and XOM remain on active watch — a confirmed deal would accelerate the oil pullback, but any breakdown or new strike puts them right back on the board. Stay alert; this is still fluid and a single headline can reverse the move.",
+    "events": [
+      {
+        "time": "10:00 AM ET",
+        "event": "Leading Economic Index",
+        "impact": "Low"
+      },
+      {
+        "time": "All Week",
+        "event": "Earnings Season Peak — IBM, NOW, TXN, GM, VZ, LMT, RTX + industrials",
+        "impact": "Medium"
+      },
+      {
+        "time": "Wednesday AMC",
+        "event": "GOOGL + TSLA Earnings",
+        "impact": "High"
+      },
+      {
+        "time": "Wednesday",
+        "event": "AMD Advancing AI Event",
+        "impact": "High"
+      },
+      {
+        "time": "Thursday",
+        "event": "INTC Earnings",
+        "impact": "Medium"
+      },
+      {
+        "time": "Today 07/20",
+        "event": "Dividend Ex-Date: ZTS, CAT, CL, OC, PNC, SVC",
+        "impact": "Low"
+      }
+    ],
+    "earnings_bmo": [
+      "DPZ",
+      "ZION",
+      "AGNC",
+      "STLD",
+      "PLD"
+    ],
+    "earnings_amc": [
+      "AMC"
+    ],
+    "morning_prep": {
+      "theme": "Mega-Cap Earnings Week — Chip Bounce Underway, Wait for Confirmation, Wednesday Is the Real Test",
+      "rules": [],
+      "setups": []
+    }
   }
 }
