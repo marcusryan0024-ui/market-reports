@@ -10827,14 +10827,14 @@
       }
     ],
     "mag7_0dte": {
-      "ticker": "TSLA",
+      "ticker": "AMD",
       "bias": "BULL",
-      "pattern": "Bullish Gapper / Earnings Week Momentum",
-      "flow": "Bullish gapper with DP on board; AMD +3.7% and MU +5% leading semi bounce — risk appetite recovering into mega-cap earnings week",
-      "catalyst": "TSLA earnings Wednesday AMC — market positioning bullish. Iran ceasefire proposal pushing risk-on. Nasdaq futures +0.75%. VIX -5%. Clean gapper setup on a broad risk-on morning.",
-      "key_levels": "Break above PM high = continuation | VWAP as intraday floor | Holds bid = high conviction | Fails VWAP = no trade",
-      "expected_move": "±$8-12",
-      "expected_move_pct": "±3.0-4.5%"
+      "pattern": "Failed 2D / Bullish Gapper",
+      "flow": "$337M dark pool ask AH Friday — strongest single-name DP print of the day. NBIS upgraded alongside as semi sentiment shifts.",
+      "catalyst": "Advancing AI event Wednesday — nearest hard catalyst in the pick pool. Semi bounce broad-based: MU +4.8%, STX +4.2%, LRCX +2.6% all confirming. AMD leading the group.",
+      "key_levels": "Daily trigger ~514 | Gap fill target ~520 | Friday 7/24 expiry preferred — catalyst Wednesday, less theta decay | Fails trigger → no trade",
+      "expected_move": "±$8-14",
+      "expected_move_pct": "±1.5-2.8%"
     },
     "trump_stocks": [
       "USO",
