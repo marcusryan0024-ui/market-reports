@@ -10690,39 +10690,39 @@
   "2026-07-20": {
     "headline": "Mega-Cap Earnings Week Begins — Chips Bounce, Iran Fades, All Eyes on Wednesday",
     "overview": "Futures point to a broad recovery open (Nasdaq +0.75%, S&P +0.39%) as the market rotates from last week's semi selloff into the busiest earnings week of the season. MU, SNDK and DRAM are gapping up in a chip bounce attempt, but the M SMH put block sitting underneath it says stay disciplined. Iran struck for the ninth straight time over the weekend with another US service member killed — Brent briefly touched $90 but oil is now fading as diplomatic channels appear open. DPZ missed EPS this morning despite slight revenue beat; AMC Entertainment beat on both top and bottom line. Wednesday is the week's real test: GOOGL + TSLA earnings after close and AMD's Advancing AI event.",
-    "market_context": "S&P futures +29 pts (+0.39%), Nasdaq +218 pts (+0.75%), Dow +111 pts (+0.21%), Russell +21 pts (+0.69%). 10-yr yield -3bps to 4.52%. VIX falling >5%. Crude oil pulling back. Friday closed lower on sharp megacap and semi selloff — NFLX -8% on soft guidance, chips -4 to -6%, energy the lone bright spot. Asian markets mixed: Hong Kong led gains, China higher on policy support expectations, South Korea weak (Samsung/SK Hynix extended declines), Japan closed for holiday. European markets modestly higher — financials and energy outperforming, weakness in staples/healthcare/utilities. Economic calendar light this week (Leading Economic Index 10am only today). No Fed until next week — it's all earnings and geopolitics.",
+    "market_context": "S&P futures +0.39%, Nasdaq +0.75%, Dow +0.21%, Russell +0.69%. 10-yr yield -3bps to 4.52%. VIX -5%. Semis broadly higher premarket: MU +4.38%, STX +4.21%, SNDK +3.94%, NBIS +3.60%, AMD +3.12%, KLAC +2.73%, LRCX +2.61%, MRVL +2.55% — broad chip bounce attempt. Iran ceasefire: mediators proposing 10-day cessation of strikes to revive MoU — markets ticking higher, oil pulling back, diplomatic channels open. DPZ +7.08% despite EPS miss as revenue beat was enough. NOW -1.88% on Underperform initiation at CLSA. WDAY -1.23% also initiated Underperform at CLSA. UAL +2.85% — premiumization strategy narrative holding. NBIS +3.60% on Freedom Capital Buy upgrade ($200 tgt). Friday closed lower: NFLX -8% on soft guidance, chips -4 to -6%, energy the lone bright spot. Japan closed today (holiday). South Korea weak — Samsung/SK Hynix extended.",
     "bulls": [
       {
         "ticker": "MU",
-        "pct": "+est",
-        "why": "Leading dark pool flow at .9B ask + bullish gapper with SNDK and DRAM clustering — memory bounce attempt leading the semi recovery"
+        "pct": "+4.38%",
+        "why": "Snapping losing streak after SK Hynix memory price warning — leading DP flow at $2.9B ask, semi bounce confirmed"
       },
       {
         "ticker": "AMD",
-        "pct": "+est",
-        "why": "M dark pool ask AH + Failed 2D setup + Advancing AI event Wednesday — NBIS upgraded to Buy alongside as semi sentiment shifts"
+        "pct": "+3.12%",
+        "why": "$337M dark pool ask AH + Failed 2D setup + Advancing AI event Wednesday — chip bounce leader alongside STX +4.21%, LRCX +2.61%, MRVL +2.55%"
       },
       {
-        "ticker": "TSLA",
-        "pct": "+est",
-        "why": "Bullish gapper with DP on the board + earnings Wednesday — market positioning into the print as risk appetite recovers"
+        "ticker": "DPZ",
+        "pct": "+7.08%",
+        "why": "Revenue beat drove the pop despite EPS miss — Domino's shares rising as 2Q revenue beats estimates; consumer discretionary holding up"
       }
     ],
     "bears": [
       {
-        "ticker": "DPZ",
-        "pct": "-est",
-        "why": "Missed EPS despite narrow revenue beat; US comp store sales +0.1% only — consumer spending pressure; Failed 2U setup, shares lower premarket"
-      },
-      {
-        "ticker": "USO",
-        "pct": "-est",
-        "why": "Oil fading despite 9th Iran strike — bearish gapper with DP; diplomatic channels opening ease energy supply fears"
-      },
-      {
         "ticker": "NOW",
-        "pct": "-est",
-        "why": "Underperform initiation at CLSA (tgt ) + Inside setup with earnings in 2 days — analyst skepticism heading into the print"
+        "pct": "-1.88%",
+        "why": "Underperform initiation at CLSA (tgt $72) hitting hard — ServiceNow the standout loser as SaaS names under pressure"
+      },
+      {
+        "ticker": "INTU",
+        "pct": "-1.75%",
+        "why": "Susquehanna lowers PT to $427 (maintains positive) but name still trading lower — bearish gapper confirmed"
+      },
+      {
+        "ticker": "PLTR",
+        "pct": "-1.15%",
+        "why": "Bearish gapper with DP — CEO comments on AI replacing workers headline, Inside setup could break lower"
       }
     ],
     "setups": [
