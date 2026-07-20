@@ -10728,57 +10728,102 @@
     "setups": [
       {
         "ticker": "AMD",
+        "tier": 1,
         "strat": "2D-Failed",
-        "why": "Failed 2D + M DP ask AH + Advancing AI event Wednesday — primary semi setup, current mover",
-        "bias": "BULL"
+        "bias": "BULL",
+        "catalyst": "Advancing AI event Wednesday + $337M dark pool ask AH + Failed 2D setup. NBIS upgraded to Buy at Freedom Capital alongside. Highest conviction play of the week.",
+        "levels": "Daily trigger ~514 | Gap fill target ~520 | Friday 7/24 expiry preferred over 0DTE",
+        "bull": "Above 514 with ORB confirmation → gap fill to 520; size for Wednesday catalyst",
+        "bear": "Fails 514 trigger → no trade; wait for next window",
+        "note": "Consider splitting between same-day and Friday expiry to balance theta vs catalyst timing."
       },
       {
         "ticker": "MU",
+        "tier": 1,
         "strat": "Bullish Gapper",
-        "why": "Leading DP flow $2.9B ask + DRAM clustering alongside — memory bounce leader",
-        "bias": "BULL"
+        "bias": "BULL",
+        "catalyst": "Leading dark pool flow at $2.9B ask. Snapping losing streak after SK Hynix memory price warning. SNDK +3.94% and DRAM clustering confirm memory bounce.",
+        "levels": "PM high / ORB trigger | VWAP as intraday floor",
+        "bull": "Holds bid above PM high on ORB → continuation; memory group confirming broad",
+        "bear": "Fades back into gap on open → no trade; wait for next candle",
+        "note": "Semi bounce is broad-based — STX +4.21%, LRCX +2.61%, MRVL +2.55% all moving together."
+      },
+      {
+        "ticker": "IWM",
+        "tier": 1,
+        "strat": "1-Inside / 2D-Failed",
+        "bias": "WATCH",
+        "catalyst": "Inside Week + Failed 2-down daily + 2H inside. Primary index for intraday setups all week. 2-1-2 bull reversal OR 2-2 bearish continuation possible.",
+        "levels": "Daily trigger ~296.13 | Watch 2H ORB for direction",
+        "bull": "Breaks above 296.13 with ORB + EMA confirmation → 2-1-2 bullish reversal play",
+        "bear": "Fails trigger and loses support → 2-2 bearish continuation; wait for direction",
+        "note": "2H is also inside — stay patient, do not enter until price confirms direction."
       },
       {
         "ticker": "TSLA",
+        "tier": 1,
         "strat": "Bullish Gapper",
-        "why": "Bullish gapper with DP + earnings Wednesday — watch open for momentum entry",
-        "bias": "BULL"
+        "bias": "BULL",
+        "catalyst": "Bullish gapper with DP on board + earnings Wednesday AMC. Risk-on morning with Iran ceasefire proposal pushing sentiment positive.",
+        "levels": "PM high / ORB trigger | VWAP floor | Earnings Wednesday = size accordingly",
+        "bull": "Holds bid above PM high → continuation into Wednesday earnings positioning",
+        "bear": "Fades back into PM range → wait; no trade ahead of earnings without confirmation",
+        "note": "Avoid holding through Wednesday earnings print — enter on setups, exit before close."
       },
       {
-        "ticker": "NVDA",
+        "ticker": "NFLX",
+        "tier": 2,
         "strat": "2D-Failed",
-        "why": "Failed 2D with confluence post-conference — secondary semi bounce play, $2.1B DP ask",
-        "bias": "BULL"
+        "bias": "BULL",
+        "catalyst": "Post-earnings reaction + upgraded at Phillip Securities (tgt $110). Failed 2-down daily setup.",
+        "levels": "Daily trigger ~694.49 | Upgrade doesn't guarantee higher — confirmation required",
+        "bull": "Breaks above 694.49 with confirmation → continuation of post-earnings bounce",
+        "bear": "Fails trigger → no trade; news-driven name needs clean setup",
+        "note": "Upgrade is a tailwind, not a green light. Wait for the trigger to confirm."
       },
       {
         "ticker": "NOW",
+        "tier": 2,
         "strat": "1-Inside",
-        "why": "Inside setup + Underperform initiation at CLSA ($72 tgt) + earnings in 2 days — directional break required",
-        "bias": "WATCH"
+        "bias": "BEAR",
+        "catalyst": "Underperform initiation at CLSA (tgt $72) hitting premarket -1.88%. Inside setup ready to break lower. SaaS names under broad pressure.",
+        "levels": "Inside breakdown trigger | CLSA tgt $72 vs current ~$101",
+        "bull": "Holds inside range and reclaims — flip to WATCH; don't fight the initiation",
+        "bear": "Breaks below inside range on volume → continuation toward CLSA target",
+        "note": "Earnings in 2 days adds event risk — size small if taking the bear side."
       },
       {
-        "ticker": "UNH",
-        "strat": "1-Inside",
-        "why": "Inside setup + unusual options volume flagged by FlowMS — wait for clean break before entry",
-        "bias": "WATCH"
-      },
-      {
-        "ticker": "LMT",
-        "strat": "3-Outside",
-        "why": "3 bar outside with earnings in 3 days — defense name, wide range possible into print",
-        "bias": "WATCH"
+        "ticker": "SPY",
+        "tier": 2,
+        "strat": "2D-Failed",
+        "bias": "WATCH",
+        "catalyst": "Failed 2-down daily setup. Market reacting heavily to geopolitical headlines. Iran ceasefire proposal pushing risk appetite higher this morning.",
+        "levels": "Daily trigger ~750.72 | Watch ORB confirmation",
+        "bull": "Holds above 750.72 on ORB → follow momentum; confirm with broader tape",
+        "bear": "Trigger breaks but headline reversal risk present → don't force; wait for clarity",
+        "note": "Don't trade SPY trigger alone without broader market confirmation."
       },
       {
         "ticker": "USO",
+        "tier": 2,
         "strat": "Bearish Gapper",
-        "why": "Oil fading despite Iran escalation + bearish gapper with DP — watch if crude accelerates lower",
-        "bias": "BEAR"
+        "bias": "BEAR",
+        "catalyst": "Oil fading despite 9th Iran strike. Mediators proposing 10-day cessation — Brent pulling back from $90. Bearish gapper with DP on board.",
+        "levels": "Below PM low | Iran ceasefire headline = accelerator | New strike = snap reversal",
+        "bull": "Iran deal breaks down or new strike → immediate spike; flip to WATCH",
+        "bear": "Ceasefire advances → oil continues lower; bearish gapper confirms",
+        "note": "Single headline can reverse this trade instantly. Keep position size small."
       },
       {
-        "ticker": "NBIS",
-        "strat": "2D-Failed",
-        "why": "Failed 2D + upgraded to Buy at Freedom Capital ($200 tgt) — current mover, earnings in 9 days",
-        "bias": "BULL"
+        "ticker": "DPZ",
+        "tier": 3,
+        "strat": "Bullish Reversal",
+        "bias": "BULL",
+        "catalyst": "+7.08% on 2Q revenue beat despite EPS miss. Bullish reversal off weekly + daily order block. Secondary watch.",
+        "levels": "Weekly order block | Daily order block | ORB confirmation",
+        "bull": "Holds order block and ORB confirms → continuation; revenue beat driving the move",
+        "bear": "Fades gap → no trade; not high conviction",
+        "note": "Secondary watch only — don't force if setup isn't clean."
       }
     ],
     "mag7_0dte": {
