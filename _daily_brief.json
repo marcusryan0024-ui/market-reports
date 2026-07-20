@@ -10804,29 +10804,44 @@
         "impact": "Low"
       },
       {
-        "time": "All Week",
-        "event": "Earnings Season Peak — IBM, NOW, TXN, GM, VZ, LMT, RTX + industrials",
+        "time": "Today 07/20",
+        "event": "Dividend Ex-Date: ZTS, CAT, CL, OC, PNC, SVC",
+        "impact": "Low"
+      },
+      {
+        "time": "Mon 07/20",
+        "event": "QBTS Conference",
+        "impact": "Low"
+      },
+      {
+        "time": "Tue 07/21",
+        "event": "SCHW Sales Event (x2)",
         "impact": "Medium"
       },
       {
-        "time": "Wednesday AMC",
+        "time": "Wed 07/22",
+        "event": "AMD Sales Event + PESI Meeting + STZ Meeting",
+        "impact": "High"
+      },
+      {
+        "time": "Wed 07/22 AMC",
         "event": "GOOGL + TSLA Earnings",
         "impact": "High"
       },
       {
-        "time": "Wednesday",
+        "time": "Wed 07/22",
         "event": "AMD Advancing AI Event",
         "impact": "High"
       },
       {
-        "time": "Thursday",
-        "event": "INTC Earnings",
-        "impact": "Medium"
+        "time": "Thu 07/23",
+        "event": "BF.B Meeting + LOOP Meeting",
+        "impact": "Low"
       },
       {
-        "time": "Today 07/20",
-        "event": "Dividend Ex-Date: ZTS, CAT, CL, OC, PNC, SVC",
-        "impact": "Low"
+        "time": "Thu 07/23",
+        "event": "INTC Earnings",
+        "impact": "Medium"
       }
     ],
     "earnings_bmo": [
@@ -10840,9 +10855,68 @@
       "AMC"
     ],
     "morning_prep": {
-      "theme": "Mega-Cap Earnings Week — Chip Bounce Underway, Wait for Confirmation, Wednesday Is the Real Test",
-      "rules": [],
-      "setups": []
+      "theme": "Patience Week — Biggest Opportunities Tuesday Through Friday, React Don't Predict",
+      "rules": [
+        "Don't force Monday trades — biggest setups develop Tue-Fri; if nothing confirms, do nothing",
+        "Market is headline-driven (Iran/oil/AI) — react to confirmation, never anticipate the move",
+        "AMD: prefer Friday 7/24 expiry contracts over 0DTE — gives time for the Advancing AI catalyst, less theta decay",
+        "NFLX: upgrade does not guarantee higher price — wait for Failed 2D trigger to confirm before entry",
+        "2-hour inside bars require ORB + trigger + EMA confirmation — do not buy simply because premarket highs break",
+        "Avoid holding through earnings — let IV crush, then buy cheaper options if clean setup appears after the print",
+        "A planned trade that loses is part of trading. An impulsive unplanned entry is what destroys accounts."
+      ],
+      "setups": [
+        {
+          "ticker": "AMD",
+          "tier": 1,
+          "strat": "2D-Failed",
+          "catalyst": "Advancing AI event Wednesday — highest conviction play of the week. $337M dark pool ask AH Friday.",
+          "levels": "Daily trigger ~514 | Gap fill target ~520 | Friday 7/24 expiry preferred over 0DTE",
+          "bull": "Above 514 with confirmation → gap fill to 520; size position for Wednesday catalyst",
+          "bear": "Fails 514 trigger → no trade; wait for next confirmation window",
+          "note": "Consider splitting between same-day and Friday expiry to manage theta vs catalyst timing."
+        },
+        {
+          "ticker": "IWM",
+          "tier": 1,
+          "strat": "1-Inside / 2D-Failed",
+          "catalyst": "Inside Week + Failed 2-down daily + 2H inside — primary index for intraday setups all week.",
+          "levels": "Daily trigger ~296.13 | 2-1-2 bull reversal OR 2-2 bearish continuation depending on confirmation",
+          "bull": "Breaks above 296.13 with ORB + EMA confirmation → 2-1-2 bullish reversal play",
+          "bear": "Fails trigger and loses support → 2-2 bearish continuation; wait for direction",
+          "note": "Stay patient — 2H is also inside. Do not enter until price confirms direction."
+        },
+        {
+          "ticker": "SPY",
+          "tier": 1,
+          "strat": "2D-Failed",
+          "catalyst": "Failed 2-down daily setup. Market reacting heavily to geopolitical headlines.",
+          "levels": "Daily trigger ~750.72 | Watch for ORB confirmation above trigger",
+          "bull": "Holds above 750.72 on ORB confirmation → follow momentum",
+          "bear": "Trigger breaks but headline risk present → wait; don't force entry on trigger alone",
+          "note": "Don't force trades solely because trigger breaks — confirm with broader tape."
+        },
+        {
+          "ticker": "NFLX",
+          "tier": 2,
+          "strat": "2D-Failed",
+          "catalyst": "Post-earnings reaction + upgraded at Phillip Securities. Failed 2-down daily setup.",
+          "levels": "Daily trigger ~694.49 | Upgrade doesn't guarantee higher price — confirmation required",
+          "bull": "Breaks above 694.49 with confirmation → continuation of post-earnings bounce",
+          "bear": "Fails trigger → no trade; news-driven name needs clean setup",
+          "note": "Upgrade is a tailwind, not a green light. Wait for the trigger to confirm."
+        },
+        {
+          "ticker": "DPZ",
+          "tier": 2,
+          "strat": "Bullish Reversal",
+          "catalyst": "Secondary watch. Bullish reversal candidate off weekly + daily order block. Revenue beat drove +7% open.",
+          "levels": "Weekly order block | Daily order block | Watch for ORB confirmation",
+          "bull": "Holds order block and ORB confirms → bullish continuation into the week",
+          "bear": "Fades back into gap → no trade; not high conviction",
+          "note": "Secondary watch only — don't force if setup isn't clean."
+        }
+      ]
     }
   }
 }
