@@ -1294,21 +1294,26 @@ function toggleTheme() {
   }
 })();
 
-// ── TTS PLAYER (OpenAI) ──
+// ── TTS PLAYER (ElevenLabs) ──
 (function() {
   var S = { stopped: false, paused: false, idx: 0, audio: null };
-  var OAI = 'https://api.openai.com/v1/audio/speech';
-  var VOICE = 'nova';
+  var EL = 'https://api.elevenlabs.io/v1/text-to-speech/';
+  var DEF_VOICE = 'Z5JpFCNFIz8Nhe4KEikq';
 
-  function getKey() { return localStorage.getItem('_oai_k') || ''; }
+  function getKey()   { return localStorage.getItem('_tts_k') || ''; }
+  function getVoice() { return localStorage.getItem('_tts_v') || DEF_VOICE; }
 
   async function speakChunk(text, key) {
-    var res = await fetch(OAI, {
+    var res = await fetch(EL + getVoice(), {
       method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: 'tts-1-hd', input: text, voice: VOICE })
+      headers: { 'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg' },
+      body: JSON.stringify({
+        text: text,
+        model_id: 'eleven_multilingual_v2',
+        voice_settings: { stability: 0.42, similarity_boost: 0.82, speed: 1.0 }
+      })
     });
-    if (!res.ok) throw new Error('OAI:' + res.status);
+    if (!res.ok) throw new Error('EL:' + res.status);
     var blob = await res.blob();
     var url  = URL.createObjectURL(blob);
     var aud  = new Audio(url);
@@ -1326,9 +1331,9 @@ function toggleTheme() {
 
     var key = getKey();
     if (!key) {
-      key = (prompt('Paste your OpenAI API key (saved locally, never in source):') || '').trim();
+      key = (prompt('Paste your ElevenLabs API key (saved locally, never in source):') || '').trim();
       if (!key) return;
-      localStorage.setItem('_oai_k', key);
+      localStorage.setItem('_tts_k', key);
     }
 
     var player = document.getElementById('ttsPlayer');
@@ -1351,7 +1356,7 @@ function toggleTheme() {
       } catch(e) {
         console.error('TTS:', e);
         if (String(e).includes('401')) {
-          localStorage.removeItem('_oai_k');
+          localStorage.removeItem('_tts_k');
           label.textContent = 'Invalid API key — click Listen to re-enter';
           btn.disabled = false; return;
         }
