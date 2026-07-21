@@ -1307,7 +1307,8 @@ function toggleTheme() {
 
 // ── TTS PLAYER (ElevenLabs) ──
 (function() {
-  var S = { stopped: false, paused: false, idx: 0, audio: null };
+  var S = { stopped: false, paused: false, idx: 0, audio: null, resolve: null };
+  var gen = 0;
   var EL = 'https://api.elevenlabs.io/v1/text-to-speech/';
   var DEF_VOICE = 'Z5JpFCNFIz8Nhe4KEikq';
 
@@ -1330,10 +1331,16 @@ function toggleTheme() {
     var aud  = new Audio(url);
     S.audio  = aud;
     return new Promise(function(ok, fail) {
-      aud.onended = function() { URL.revokeObjectURL(url); ok(); };
+      S.resolve = ok;
+      aud.onended = function() { URL.revokeObjectURL(url); S.resolve = null; ok(); };
       aud.onerror = fail;
       aud.play();
     });
+  }
+
+  function killCurrent() {
+    if (S.audio) { S.audio.pause(); S.audio = null; }
+    if (S.resolve) { S.resolve(); S.resolve = null; }
   }
 
   function buildChips(chunks) {
@@ -1366,6 +1373,9 @@ function toggleTheme() {
       localStorage.setItem('_tts_k', key);
     }
 
+    killCurrent();
+    var myGen = ++gen;
+
     var player = document.getElementById('ttsPlayer');
     var label  = document.getElementById('ttsSectionName');
     var btn    = document.getElementById('ttsBtn');
@@ -1380,7 +1390,7 @@ function toggleTheme() {
     pp.disabled  = false;
     pp.textContent = '⏸';
 
-    while (S.idx < chunks.length && !S.stopped) {
+    while (S.idx < chunks.length && !S.stopped && gen === myGen) {
       label.textContent = chunks[S.idx].label;
       setActiveChip(S.idx);
       try {
@@ -1393,9 +1403,10 @@ function toggleTheme() {
           btn.disabled = false; return;
         }
       }
-      if (!S.stopped) S.idx++;
+      if (!S.stopped && gen === myGen) S.idx++;
     }
 
+    if (gen !== myGen) return;
     if (!S.stopped) { label.textContent = 'Done'; pp.textContent = '▶'; setActiveChip(-1); }
     btn.disabled = false;
   };
