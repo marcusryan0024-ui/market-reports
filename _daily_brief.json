@@ -11173,70 +11173,7 @@
       "COF",
       "IBKR"
     ],
-    "morning_prep": {
-      "theme": "Positioning Day. TSLA and GOOGL report tomorrow \u2014 today the market is setting up for that. Coiled on weekly timeframe across SPY/QQQ/AAPL/NVDA/MU/META (all inside candles). Memory DP is cautious (bid-side) despite TSMC price hike news. TSLA 3-Bar/Outside is the setup of the week.",
-      "rules": [
-        "TSLA is the primary positioning play \u2014 3-Bar/Outside with earnings tomorrow. Break of outside bar high = entry. This is the week's setup.",
-        "NOW and GOOGL (earnings tomorrow AMC) \u2014 same logic, pre-earnings positioning with strat triggers",
-        "Memory names (MU/SNDK) are WATCH not directional \u2014 DP flow is bid-side (cautious) despite TSMC news. Don't fight smart money.",
-        "NVDA is the one clean ask-side chip name \u2014 if you want semiconductor exposure, NVDA is cleaner than MU today",
-        "Lebanon bilateral at 11:15 AM \u2014 oil/energy positions small before that headline resolves",
-        "CALX gap down \u2014 wait 30 min for stabilization before trading either direction. No chasing.",
-        "Market is coiled on weekly inside candles \u2014 the direction break comes off tomorrow's GOOGL/TSLA prints, not today"
-      ],
-      "setups": [
-        {
-          "ticker": "TSLA",
-          "tier": 1,
-          "bias": "BULL",
-          "catalyst": "Earnings tomorrow + 3-Bar/Outside = compressed positioning setup",
-          "levels": "Trigger: outside bar HOD break. Floor: outside bar LOD.",
-          "bull": "Risk-on positioning sustains into close",
-          "bear": "Breaks LOD on distribution",
-          "note": "Primary setup of the week \u2014 0DTE + position trade"
-        },
-        {
-          "ticker": "MMM",
-          "tier": 1,
-          "bias": "BULL",
-          "catalyst": "+7%+ on clean beat + raised guide \u2014 industrial leadership",
-          "levels": "Hold gap open, target measured extension",
-          "bull": "Consolidates and breaks HOD in first hour",
-          "bear": "Gap fades, sellers at resistance",
-          "note": "Cleanest earnings beat of the morning"
-        },
-        {
-          "ticker": "IWM",
-          "tier": 1,
-          "bias": "BULL",
-          "catalyst": "Russell +0.65%, risk-on catch-up",
-          "levels": "Trigger Friday HOD, Target weekly high, Floor $215",
-          "bull": "Broad participation, IWM joins mega-caps",
-          "bear": "Narrow bounce, small caps lag",
-          "note": "Breadth check: IWM participating = real recovery"
-        },
-        {
-          "ticker": "NOW",
-          "tier": 2,
-          "bias": "BULL",
-          "catalyst": "Earnings tomorrow AMC + Failed 2D setup",
-          "levels": "Reclaim prior day close, target weekly high",
-          "bull": "Failed 2D confirms, buyers defend",
-          "bear": "Breaks LOD on earnings uncertainty",
-          "note": "Pre-earnings positioning with strat trigger"
-        },
-        {
-          "ticker": "XOM",
-          "tier": 2,
-          "bias": "WATCH",
-          "catalyst": "Lebanon bilateral 11:15 AM \u2014 headline wildcard",
-          "levels": "$114-116 range",
-          "bull": "No ceasefire progress, oil stays bid",
-          "bear": "Diplomatic signals, oil sells off",
-          "note": "Trade small before Lebanon meeting"
-        }
-      ]
-    },
+    "morning_prep": {},
     "darkpool": [
       {
         "ticker": "MU",
