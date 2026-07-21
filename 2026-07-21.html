@@ -1309,6 +1309,7 @@ function toggleTheme() {
 (function() {
   var S = { stopped: false, paused: false, idx: 0, audio: null, resolve: null };
   var gen = 0;
+  var ctrl = null;
   var EL = 'https://api.elevenlabs.io/v1/text-to-speech/';
   var DEF_VOICE = 'Z5JpFCNFIz8Nhe4KEikq';
 
@@ -1316,8 +1317,10 @@ function toggleTheme() {
   function getVoice() { return localStorage.getItem('_tts_v') || DEF_VOICE; }
 
   async function speakChunk(text, key) {
+    ctrl = new AbortController();
     var res = await fetch(EL + getVoice(), {
       method: 'POST',
+      signal: ctrl.signal,
       headers: { 'xi-api-key': key, 'Content-Type': 'application/json', 'Accept': 'audio/mpeg' },
       body: JSON.stringify({
         text: text,
@@ -1325,6 +1328,7 @@ function toggleTheme() {
         voice_settings: { stability: 0.42, similarity_boost: 0.82, speed: 0.82 }
       })
     });
+    ctrl = null;
     if (!res.ok) throw new Error('EL:' + res.status);
     var blob = await res.blob();
     var url  = URL.createObjectURL(blob);
@@ -1339,6 +1343,7 @@ function toggleTheme() {
   }
 
   function killCurrent() {
+    if (ctrl) { ctrl.abort(); ctrl = null; }
     if (S.audio) { S.audio.pause(); S.audio = null; }
     if (S.resolve) { S.resolve(); S.resolve = null; }
   }
