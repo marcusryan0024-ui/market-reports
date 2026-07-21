@@ -10960,8 +10960,8 @@
   },
   "2026-07-21": {
     "headline": "Nasdaq +1.36% \u2014 Memory Inflation Takes Hold as TSMC Raises Prices 10%, CALX -13.7% on Cost Warning; Lebanon President at White House",
-    "overview": "Futures surging Tuesday led by Nasdaq (+1.36%) as investors buy the technology-led pullback. Two signals define the morning: CALX crashes -13.7% warning about rising memory costs passing to customers as surcharges \u2014 but that warning is directly bullish for memory producers. TSMC confirms the thesis, reportedly planning to raise chip prices up to 10% next year on strong AI demand. MMM (+5.1%) and GM (+1.6%) post clean earnings beats with raised guidance, backing the industrials side. Lebanon's President is at the White House today for a bilateral meeting with Trump at 11:15 AM \u2014 a live geopolitical catalyst with potential ceasefire implications for oil. VIX falls to 17.74. Risk-on across the board with Asia surging (Nikkei +3.26%, TAIEX +4.2%).",
-    "market_context": "S&P +0.52%, Nasdaq +1.36%, Dow +0.43%, Russell +0.65%. VIX -3.85% to 17.74. Bitcoin +1.71% to $66,300. 10yr yield +1bp at 4.60%. Asia broadly higher \u2014 Nikkei +3.26%, TAIEX +4.2%, KOSPI +3.56%, Shanghai +1.79%, Shenzhen +3.58%. Europe +0.25-0.50%. WTI +0.97% at $83.26, Brent +0.95% at $90.07. New headline risk: China reportedly considering tightening export restrictions on AI models, model weights, and advanced chips \u2014 watch NVDA, AMD, AVGO for policy-risk reaction.",
+    "overview": "Futures surging Tuesday led by Nasdaq (+1.36%) as investors buy the technology pullback with 87% of S&P reporters beating so far. MMM jumped 7%+ on a beat and raised guide, GM beat and lifted full-year outlook. But the bigger story is tomorrow: GOOGL and TSLA report Wednesday after close alongside IBM, NOW, TXN \u2014 and AMD's Advancing AI event lands the same day. Today is a positioning session. The market is coiled \u2014 FlowMS notes inside weekly candles on SPY, QQQ, AAPL, NVDA, MU, META \u2014 compression building before the directional break. Memory complex is cautious: MU ($2.4B bid) and SNDK ($2.0B bid + $1.3M put sweep) both sit bid-side with protective options, even as TSMC plans to raise chip prices 10%. NVDA is the one clean ask-side name. Lebanon's President visits the White House today at 11:15 AM \u2014 geopolitical wildcard for oil.",
+    "market_context": "S&P +0.52%, Nasdaq +1.36%, Dow +0.43%, Russell +0.65%. VIX -3.85% to 17.74. Bitcoin +1.71% to $66,300. 10yr +1bp at 4.60%. Asia broadly higher: Nikkei +3.26%, TAIEX +4.2%, KOSPI +3.56%, Shanghai +1.79%. Europe +0.25-0.50%. WTI +0.97% at $83.26, Brent +0.95% at $90.07. DP Monday: MU $2.4B (BID), SNDK $2.0B (BID), NVDA $2.0B (ASK), SPY $7.3B (ASK), QQQ $2.8B (ASK). Memory complex bid-side = cautious, not bullish. GOOGL $235M bid AH ahead of earnings. AAPL $46.7M call block (Sept $285C, cross/structural). China flagging potential AI model/chip export restrictions \u2014 policy risk for semis.",
     "bulls": [
       {
         "ticker": "MMM",
@@ -11014,19 +11014,35 @@
         "ticker": "NOC",
         "pct": "-4.4%",
         "why": "Defense guidance disappoints \u2014 budget pressure or deceleration as diplomatic/ceasefire track gains momentum."
+      },
+      {
+        "ticker": "SNDK",
+        "pct": "bid-side",
+        "why": "$2.0B bid-side DP + $1.3M put sweep into Friday. Memory names both (MU + SNDK) sitting cautious despite TSMC price hike narrative."
       }
     ],
     "setups": [
       {
+        "ticker": "TSLA",
+        "tier": 1,
+        "strat": "3-Bar / Outside Bar",
+        "bias": "BULL",
+        "catalyst": "Earnings tomorrow AMC. 3-Bar/Outside candle = maximum compression, coiled for explosive move. Positioning day \u2014 traders building positions ahead of the print. Risk-on Nasdaq day supports the bull lean.",
+        "levels": "Trigger: break above today's outside bar high. Target: gap into earnings zone. Floor: outside bar low.",
+        "bull": "Risk-on sustains, buyers position into earnings \u2014 TSLA grinds higher all session building into tomorrow's report.",
+        "bear": "Outside bar breaks to the downside \u2014 sellers use earnings uncertainty as an exit, distribution into strength.",
+        "note": "This is the #1 pre-earnings positioning play of the week. TSLA earnings can move 10%+ \u2014 the coil is set."
+      },
+      {
         "ticker": "MU",
         "tier": 1,
         "strat": "2-up continuation",
-        "bias": "BULL",
-        "catalyst": "TSMC raising chip prices 10% next year + CALX memory cost warning = memory price inflation narrative. MU is the direct beneficiary when memory prices rise. Nasdaq +1.36% tech-led day with AI infrastructure in focus.",
+        "bias": "WATCH",
+        "catalyst": "TSMC raising chip prices 10% = fundamental bull case. BUT: DP flow shows $2.4B BID (sellers) + SNDK put sweep = market being cautious on memory here. Conflicting signal \u2014 fundamental tailwind vs. smart money caution.",
         "levels": "Trigger: break above premarket high. Target: $130-132 zone. Floor: $124 key support.",
-        "bull": "Holds above prior close with volume on Nasdaq strength \u2014 memory inflation theme drives institutional rotation into MU.",
-        "bear": "Fails premarket high, reverses below $124 \u2014 Nasdaq fades and sector rotation doesn't hold.",
-        "note": "Memory inflation is the single biggest theme today. MU leads when memory prices go up."
+        "bull": "Fundamental buyers step in at open off TSMC pricing news \u2014 retail/momentum driven.",
+        "bear": "DP bid-side flow wins \u2014 institutions distributing memory into TSMC news strength.",
+        "note": "The divergence between TSMC news (bullish) and DP flow (cautious) makes this a WATCH, not a directional bet."
       },
       {
         "ticker": "MMM",
@@ -11038,6 +11054,17 @@
         "bull": "Consolidates first 30 min then breaks HOD \u2014 institutional accumulation visible in tape.",
         "bear": "Gap fades in first 30 min, sellers step in at prior resistance \u2014 short-term profit taking on initial spike.",
         "note": "Raised guidance is the key \u2014 market rewards companies that raise not just beat."
+      },
+      {
+        "ticker": "NOW",
+        "tier": 2,
+        "strat": "Failed 2-down",
+        "bias": "BULL",
+        "catalyst": "Earnings tomorrow AMC. Failed 2-down daily pattern + earnings positioning = buyers stepping in before the print. Conference Aug 1 adds near-term catalyst stack.",
+        "levels": "Trigger: reclaim prior day close. Target: weekly high. Floor: daily low support.",
+        "bull": "Failed 2D confirms \u2014 buyers defend and push back above prior close into earnings.",
+        "bear": "Breaks daily low \u2014 sellers front-run earnings uncertainty, distribution continues.",
+        "note": "Same pattern as TSLA \u2014 pre-earnings positioning with a strat trigger. Two-day catalyst window."
       },
       {
         "ticker": "IWM",
@@ -11085,14 +11112,14 @@
       }
     ],
     "mag7_0dte": {
-      "ticker": "MU",
+      "ticker": "TSLA",
       "bias": "",
-      "pattern": "2-up continuation on memory inflation theme",
-      "flow": "Prior session $2.9B dark pool ask + semiconductor sector leadership on risk-on day",
-      "catalyst": "TSMC raising chip prices 10% next year + CALX -13.7% on memory cost warning = memory price inflation directly benefits MU. Nasdaq +1.36% tech-led recovery with AI infrastructure leading. NVDA/NBIS stake confirms AI compute demand.",
-      "key_levels": "Trigger: premarket high breakout. Target: $130-132. Floor: $124.",
-      "expected_move": "$5-8",
-      "expected_move_pct": "4-6%"
+      "pattern": "3-Bar / Outside Bar \u2014 maximum compression before earnings",
+      "flow": "Market DP: SPY $7.3B ask + QQQ $2.8B ask = index bid. Memory names (MU/SNDK) bid-side = sector rotation away from memory, into mega-cap. TSLA benefits from risk-on positioning.",
+      "catalyst": "Earnings tomorrow AMC. Outside bar candle = coiled. Nasdaq +1.36% risk-on day = bullish lean for positioning. Week-defining event tomorrow means today is the setup day. Market is building compression \u2014 TSLA is the release valve.",
+      "key_levels": "Trigger: outside bar high break. Target: measured move extension. Floor: outside bar low.",
+      "expected_move": "$8-15 range expansion",
+      "expected_move_pct": "3-6%"
     },
     "trump_stocks": [
       {
@@ -11147,68 +11174,100 @@
       "IBKR"
     ],
     "morning_prep": {
-      "theme": "Memory Inflation Day \u2014 Buy the Dip in Semiconductors. TSMC + CALX confirm memory prices are rising. MU leads. Lebanon meeting at 11:15 AM is the geopolitical wildcard \u2014 trade small in energy until that resolves.",
+      "theme": "Positioning Day. TSLA and GOOGL report tomorrow \u2014 today the market is setting up for that. Coiled on weekly timeframe across SPY/QQQ/AAPL/NVDA/MU/META (all inside candles). Memory DP is cautious (bid-side) despite TSMC price hike news. TSLA 3-Bar/Outside is the setup of the week.",
       "rules": [
-        "MU is the pure-play on today's memory inflation thesis \u2014 TSMC raising prices + CALX warning = direct tailwind, not noise",
-        "MMM earnings gap \u2014 wait for first 15-min candle confirmation before chasing; clean setups are worth the patience",
-        "Lebanon bilateral at 11:15 AM \u2014 size oil/energy positions small before that catalyst, respond after the headline",
-        "CALX gap down \u2014 no catching falling knives; wait for 30-min stabilization before trading either direction",
-        "Nasdaq leading, SPY lagging \u2014 size semiconductor and tech plays heavier than broad index plays today",
-        "China AI export restriction headline could hit intraday \u2014 keep NVDA/AMD/AVGO on watch for policy-risk spike",
-        "COF and IBKR report AMC \u2014 financial sector positioning risk heading into close; don't hold heavy financial exposure"
+        "TSLA is the primary positioning play \u2014 3-Bar/Outside with earnings tomorrow. Break of outside bar high = entry. This is the week's setup.",
+        "NOW and GOOGL (earnings tomorrow AMC) \u2014 same logic, pre-earnings positioning with strat triggers",
+        "Memory names (MU/SNDK) are WATCH not directional \u2014 DP flow is bid-side (cautious) despite TSMC news. Don't fight smart money.",
+        "NVDA is the one clean ask-side chip name \u2014 if you want semiconductor exposure, NVDA is cleaner than MU today",
+        "Lebanon bilateral at 11:15 AM \u2014 oil/energy positions small before that headline resolves",
+        "CALX gap down \u2014 wait 30 min for stabilization before trading either direction. No chasing.",
+        "Market is coiled on weekly inside candles \u2014 the direction break comes off tomorrow's GOOGL/TSLA prints, not today"
       ],
       "setups": [
         {
-          "ticker": "MU",
+          "ticker": "TSLA",
           "tier": 1,
           "bias": "BULL",
-          "catalyst": "Memory inflation \u2014 TSMC +10% pricing + CALX cost warning = bullish for MU directly",
-          "levels": "Trigger: PM high, Target: $130-132, Floor: $124",
-          "bull": "Breaks PM high with Nasdaq momentum behind it",
-          "bear": "Nasdaq fades, semis lose bid, MU fails PM high",
-          "note": "Primary 0DTE candidate \u2014 memory inflation is the theme of the day"
+          "catalyst": "Earnings tomorrow + 3-Bar/Outside = compressed positioning setup",
+          "levels": "Trigger: outside bar HOD break. Floor: outside bar LOD.",
+          "bull": "Risk-on positioning sustains into close",
+          "bear": "Breaks LOD on distribution",
+          "note": "Primary setup of the week \u2014 0DTE + position trade"
         },
         {
           "ticker": "MMM",
           "tier": 1,
           "bias": "BULL",
-          "catalyst": "+5.1% on beat + guidance raise \u2014 industrial leadership confirmed",
+          "catalyst": "+7%+ on clean beat + raised guide \u2014 industrial leadership",
           "levels": "Hold gap open, target measured extension",
-          "bull": "Consolidates and breaks HOD in first hour on volume",
-          "bear": "Gap fades \u2014 sellers step in at prior resistance",
-          "note": "Raised guidance is the key signal, not just the beat"
+          "bull": "Consolidates and breaks HOD in first hour",
+          "bear": "Gap fades, sellers at resistance",
+          "note": "Cleanest earnings beat of the morning"
         },
         {
           "ticker": "IWM",
           "tier": 1,
           "bias": "BULL",
-          "catalyst": "Russell +0.65% risk-on \u2014 small cap catch-up and breadth confirmation",
+          "catalyst": "Russell +0.65%, risk-on catch-up",
           "levels": "Trigger Friday HOD, Target weekly high, Floor $215",
-          "bull": "Broad risk-on sustains, IWM joins mega caps",
-          "bear": "Narrow bounce \u2014 mega caps lead but small caps lag",
-          "note": "Breadth indicator: IWM participating = real recovery"
+          "bull": "Broad participation, IWM joins mega-caps",
+          "bear": "Narrow bounce, small caps lag",
+          "note": "Breadth check: IWM participating = real recovery"
         },
         {
-          "ticker": "CALX",
+          "ticker": "NOW",
           "tier": 2,
-          "bias": "WATCH",
-          "catalyst": "-13.7% memory cost warning \u2014 oversold bounce potential or continuation short",
-          "levels": "Stabilization $15-16, below $14 continuation short, above $16.50 bounce",
-          "bull": "Panic selling exhausts, oversold buyers step in",
-          "bear": "No bid, analyst cuts compound the selling",
-          "note": "Wait 30 min for direction to set before trading"
+          "bias": "BULL",
+          "catalyst": "Earnings tomorrow AMC + Failed 2D setup",
+          "levels": "Reclaim prior day close, target weekly high",
+          "bull": "Failed 2D confirms, buyers defend",
+          "bear": "Breaks LOD on earnings uncertainty",
+          "note": "Pre-earnings positioning with strat trigger"
         },
         {
           "ticker": "XOM",
           "tier": 2,
           "bias": "WATCH",
-          "catalyst": "Lebanon bilateral 11:15 AM \u2014 oil price headline wildcard",
-          "levels": "$114-116 range, respond to Lebanon meeting outcome",
+          "catalyst": "Lebanon bilateral 11:15 AM \u2014 headline wildcard",
+          "levels": "$114-116 range",
           "bull": "No ceasefire progress, oil stays bid",
-          "bear": "Diplomatic signals hit, oil sells off",
-          "note": "Trade small and respond \u2014 do not predict the headline"
+          "bear": "Diplomatic signals, oil sells off",
+          "note": "Trade small before Lebanon meeting"
         }
       ]
-    }
+    },
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$2.4B",
+        "side": "bid"
+      },
+      {
+        "ticker": "SNDK",
+        "size": "$2.0B",
+        "side": "bid"
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$2.0B",
+        "side": "ask"
+      },
+      {
+        "ticker": "SPY",
+        "size": "$7.3B",
+        "side": "ask"
+      },
+      {
+        "ticker": "QQQ",
+        "size": "$2.8B",
+        "side": "ask"
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$235M",
+        "side": "bid"
+      }
+    ]
   }
 }
