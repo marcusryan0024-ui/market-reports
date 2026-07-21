@@ -11173,7 +11173,73 @@
       "COF",
       "IBKR"
     ],
-    "morning_prep": {},
+    "morning_prep": {
+      "theme": "Three earnings setups \u2014 GM (indecisive/inside, wait), MMM (bullish kicker gap, biggest mover of the three, CPW into close), SCHW (flat/3-2 reversal into ATH, be patient). TSLA on watch for good-news continuation. Bitcoin over $67K activates COIN.",
+      "rules": [
+        "GM \u2014 2hr inside, WAIT until after 9AM. Call trigger ONLY above $77.19. Put trigger at $75.36. Price is completely flat \u2014 let it pick a side.",
+        "MMM \u2014 must be ABOVE PMH before entering. Call trigger $171.82. Gap fill targets $174.69 then $177.41. Biggest mover of the three \u2014 CPW into close.",
+        "SCHW \u2014 price action is tricky. 3-2 day already triggered, 3-bar on the week, 2hr reversal setup into ATH $107.50. Stay patient, do not force it.",
+        "TSLA \u2014 got good news, keep on watch for a possible move. Position sizing small until it shows its hand.",
+        "COIN \u2014 when Bitcoin clears $67K it activates. Crypto follows BTC. Keep BTC on watch."
+      ],
+      "setups": [
+        {
+          "ticker": "MMM",
+          "tier": 1,
+          "strat": "Bullish kicker gap / Inside",
+          "bias": "BULL",
+          "catalyst": "Gapped up on earnings beat (bullish kicker candle). Currently inside \u2014 needs to be above PMH to confirm continuation. Usually a real big mover after earnings.",
+          "levels": "Call trigger: $171.82 | Gap fill 1: $174.69 | Gap fill 2: $177.41",
+          "bull": "Hold above PMH \u2192 call trigger $171.82. Targets gap fills at $174.69 then $177.41. CPW into close \u2014 biggest mover of the day.",
+          "bear": "Fails to hold PMH \u2014 gap fade, wait for re-entry or stand aside.",
+          "note": "CPW at end of day. MMM usually moves big post-earnings \u2014 let the setup confirm before entering."
+        },
+        {
+          "ticker": "GM",
+          "tier": 2,
+          "strat": "Failed 2-down quarter / 2hr inside",
+          "bias": "WATCH",
+          "catalyst": "Failed 2-down on the quarter @ $85.41. Yearly open $81.41, monthly open $77. Price completely flat and indecisive \u2014 2hr inside candle. Good spreads on GM typically.",
+          "levels": "Call trigger: above $77.19 | Put trigger: $75.36 | Quarter F2D: $85.41 | Yearly open: $81.41 | Monthly open: $77",
+          "bull": "Break above $77.19 \u2014 call trigger. Be patient, wait for confirmation.",
+          "bear": "Break below $75.36 \u2014 put trigger with momentum.",
+          "note": "2hr inside \u2014 pay attention after 9AM only. Let price pick a side before committing."
+        },
+        {
+          "ticker": "SCHW",
+          "tier": 2,
+          "strat": "3-2 day / 3-bar week / 2hr reversal",
+          "bias": "BULL",
+          "catalyst": "Completely flat. 3-2 day already triggered. Quarterly and monthly high. 3-bar candle on the week. 2hr 3-2 reversal setup potentially into ATH.",
+          "levels": "ATH: $107.50 | 3-2 triggered on day | Quarterly/monthly high = resistance area",
+          "bull": "2hr 3-2 reversal confirms \u2192 run toward ATH at $107.50.",
+          "bear": "Price stays choppy and tricky \u2014 flat action with no direction. Stay out.",
+          "note": "Price action is tricky \u2014 stay patient. Do not force. Let SCHW come to you."
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 2,
+          "strat": "Good news / 3-bar outside",
+          "bias": "WATCH",
+          "catalyst": "Got good news overnight. 3-bar outside candle on the daily. Earnings tomorrow AMC \u2014 positioning day with bullish catalyst behind it.",
+          "levels": "Watch for break of outside bar HOD. Earnings tomorrow AMC = compressed energy.",
+          "bull": "Good news + earnings positioning drives price higher toward outside bar HOD.",
+          "bear": "Outside bar breaks downward \u2014 sellers use earnings uncertainty.",
+          "note": "Keep on watch. Let price show its hand before sizing in."
+        },
+        {
+          "ticker": "COIN",
+          "tier": 2,
+          "strat": "Bitcoin trigger",
+          "bias": "WATCH",
+          "catalyst": "Bitcoin over $67K activates COIN. Crypto follows BTC \u2014 when BTC moves, COIN moves.",
+          "levels": "BTC trigger: $67,000 | Watch COIN for entry after BTC clears level",
+          "bull": "BTC holds above $67K \u2192 COIN momentum play.",
+          "bear": "BTC stalls or fades below $67K \u2014 COIN stays quiet.",
+          "note": "This is a conditional setup. Do not trade COIN until Bitcoin confirms the level."
+        }
+      ]
+    },
     "darkpool": [
       {
         "ticker": "MU",
