@@ -90,6 +90,7 @@
         padding: 5px 24px; background: var(--bg-nav);
         border-bottom: 1px solid var(--border-s);
         margin: 0 -24px 20px;
+        position: sticky; top: 0; z-index: 200;
     }
     .rpt-body-top { margin-top: 20px; }
     .theme-btn {
@@ -1004,13 +1005,20 @@
 
     /* ── TTS PLAYER ── */
     .tts-player {
-      position:fixed;bottom:-90px;left:0;right:0;z-index:9999;
+      position:fixed;bottom:-140px;left:0;right:0;z-index:9999;
       background:var(--bg-nav);border-top:1px solid #21262d;
-      padding:10px 20px;display:flex;align-items:center;gap:14px;
+      display:flex;flex-direction:column;align-items:stretch;gap:0;
       box-shadow:0 -4px 24px rgba(0,0,0,.55);
       transition:bottom .35s cubic-bezier(.4,0,.2,1);
     }
     .tts-player.tts-visible { bottom:0; }
+    .tts-main-row { display:flex;align-items:center;gap:14px;padding:10px 20px; }
+    .tts-chips { display:flex;flex-wrap:nowrap;overflow-x:auto;gap:5px;padding:4px 20px 8px;border-top:1px solid #21262d22; }
+    .tts-chips::-webkit-scrollbar { height:2px; }
+    .tts-chips::-webkit-scrollbar-thumb { background:#30363d;border-radius:1px; }
+    .tts-chip { font-size:9px;font-weight:700;padding:3px 9px;border-radius:3px;background:transparent;border:1px solid #30363d;color:#6e7681;cursor:pointer;white-space:nowrap;flex-shrink:0;transition:all .12s;letter-spacing:.04em; }
+    .tts-chip:hover { color:#58a6ff;border-color:#388bfd55; }
+    .tts-chip.tts-chip-active { color:#58a6ff;background:#1f3358;border-color:#388bfd; }
     .tts-icon { font-size:20px;flex-shrink:0;line-height:1; }
     .tts-info { flex:1;overflow:hidden; }
     .tts-badge { font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--tx3);text-transform:uppercase; }
@@ -1059,16 +1067,19 @@
 </div>
 
 <div id="ttsPlayer" class="tts-player">
-  <span class="tts-icon">&#127911;</span>
-  <div class="tts-info">
-    <div class="tts-badge">Brief Reader &middot; Kokoro AI</div>
-    <div id="ttsSectionName" class="tts-section">Ready</div>
+  <div class="tts-main-row">
+    <span class="tts-icon">&#127911;</span>
+    <div class="tts-info">
+      <div class="tts-badge">Brief Reader &middot; ElevenLabs</div>
+      <div id="ttsSectionName" class="tts-section">Ready</div>
+    </div>
+    <div class="tts-controls">
+      <button id="ttsPP" class="tts-ctrl" onclick="ttsPP()" disabled>&#9654;</button>
+      <button class="tts-ctrl tts-stop" onclick="ttsStop()">&#9632;</button>
+    </div>
+    <button class="tts-x" onclick="ttsStop();document.getElementById('ttsPlayer').classList.remove('tts-visible');">&#10005;</button>
   </div>
-  <div class="tts-controls">
-    <button id="ttsPP" class="tts-ctrl" onclick="ttsPP()" disabled>&#9654;</button>
-    <button class="tts-ctrl tts-stop" onclick="ttsStop()">&#9632;</button>
-  </div>
-  <button class="tts-x" onclick="ttsStop();document.getElementById('ttsPlayer').classList.remove('tts-visible');">&#10005;</button>
+  <div id="ttsChips" class="tts-chips"></div>
 </div>
 
 <div class="ref-overlay" id="refOverlay" onclick="if(event.target===this)this.classList.remove('open')">
@@ -1310,7 +1321,7 @@ function toggleTheme() {
       body: JSON.stringify({
         text: text,
         model_id: 'eleven_multilingual_v2',
-        voice_settings: { stability: 0.42, similarity_boost: 0.82, speed: 1.0 }
+        voice_settings: { stability: 0.42, similarity_boost: 0.82, speed: 0.82 }
       })
     });
     if (!res.ok) throw new Error('EL:' + res.status);
@@ -1325,7 +1336,26 @@ function toggleTheme() {
     });
   }
 
-  window.ttsStart = async function() {
+  function buildChips(chunks) {
+    var box = document.getElementById('ttsChips');
+    if (!box || box.dataset.built) return;
+    box.dataset.built = '1';
+    chunks.forEach(function(c, i) {
+      var b = document.createElement('button');
+      b.className = 'tts-chip';
+      b.textContent = c.label;
+      b.dataset.idx = i;
+      b.onclick = function() { window.ttsStart(i); };
+      box.appendChild(b);
+    });
+  }
+
+  function setActiveChip(idx) {
+    var chips = document.querySelectorAll('.tts-chip');
+    chips.forEach(function(c) { c.classList.toggle('tts-chip-active', +c.dataset.idx === idx); });
+  }
+
+  window.ttsStart = async function(startIdx) {
     var chunks = window._ttsScript || [];
     if (!chunks.length) { alert('No brief loaded for this report.'); return; }
 
@@ -1342,15 +1372,17 @@ function toggleTheme() {
     var pp     = document.getElementById('ttsPP');
 
     player.classList.add('tts-visible');
+    buildChips(chunks);
     S.stopped = false;
     S.paused  = false;
-    S.idx     = 0;
+    S.idx     = (typeof startIdx === 'number') ? startIdx : 0;
     btn.disabled = true;
     pp.disabled  = false;
     pp.textContent = '⏸';
 
     while (S.idx < chunks.length && !S.stopped) {
       label.textContent = chunks[S.idx].label;
+      setActiveChip(S.idx);
       try {
         await speakChunk(chunks[S.idx].text, key);
       } catch(e) {
@@ -1364,7 +1396,7 @@ function toggleTheme() {
       if (!S.stopped) S.idx++;
     }
 
-    if (!S.stopped) { label.textContent = 'Done'; pp.textContent = '▶'; }
+    if (!S.stopped) { label.textContent = 'Done'; pp.textContent = '▶'; setActiveChip(-1); }
     btn.disabled = false;
   };
 
