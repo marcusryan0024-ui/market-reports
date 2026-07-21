@@ -1001,7 +1001,45 @@
     body.light tr:hover td { background: #f4f8ff; }
     body.light .watch-item:hover { background: #f4f8ff; }
     body.light .deck-row:hover { background: #f4f8ff; }
+
+    /* ── TTS PLAYER ── */
+    .tts-player {
+      position:fixed;bottom:-90px;left:0;right:0;z-index:9999;
+      background:var(--bg-nav);border-top:1px solid #21262d;
+      padding:10px 20px;display:flex;align-items:center;gap:14px;
+      box-shadow:0 -4px 24px rgba(0,0,0,.55);
+      transition:bottom .35s cubic-bezier(.4,0,.2,1);
+    }
+    .tts-player.tts-visible { bottom:0; }
+    .tts-icon { font-size:20px;flex-shrink:0;line-height:1; }
+    .tts-info { flex:1;overflow:hidden; }
+    .tts-badge { font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--tx3);text-transform:uppercase; }
+    .tts-section { font-size:12px;font-weight:600;color:var(--tx1);white-space:nowrap;overflow:hidden;text-overflow:ellipsis; }
+    .tts-controls { display:flex;gap:6px; }
+    .tts-ctrl {
+      width:32px;height:32px;border-radius:50%;border:1px solid #388bfd40;
+      background:var(--bg-hover);color:#388bfd;font-size:13px;cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      transition:background .15s,border-color .15s;
+    }
+    .tts-ctrl:hover:not(:disabled){background:#21262d;border-color:#388bfd;}
+    .tts-ctrl:disabled{opacity:.32;cursor:not-allowed;}
+    .tts-ctrl.tts-stop{border-color:#f8514940;color:#f85149;}
+    .tts-ctrl.tts-stop:hover{border-color:#f85149;background:#2d0f0f;}
+    .tts-x {
+      width:24px;height:24px;border-radius:50%;border:1px solid var(--border-s);
+      background:transparent;color:var(--tx3);font-size:11px;cursor:pointer;
+      flex-shrink:0;display:flex;align-items:center;justify-content:center;
+      transition:background .15s;
+    }
+    .tts-x:hover{background:#21262d;color:var(--tx1);}
+    body.light .tts-player{border-top-color:var(--border-s);box-shadow:0 -2px 12px rgba(15,24,40,.1);}
+    body.light .tts-ctrl{background:#f0f6ff;border-color:#bfdbfe;}
+    body.light .tts-ctrl:hover:not(:disabled){background:#dbeafe;}
+    body.light .tts-ctrl.tts-stop{background:#fff5f5;border-color:#fecaca;}
+    body.light .tts-x{border-color:var(--border);}
     </style>
+<script>window._ttsScript=[];</script>
 </head>
 <body>
 <div class="rpt-nav">
@@ -1011,12 +1049,26 @@
   </div>
   <div class="rpt-nav-btns">
     <button class="rpt-rules-btn" onclick="document.getElementById('refOverlay').classList.add('open')">&#9776;&thinsp;Rules</button>
+    <button id="ttsBtn" class="rpt-rules-btn" onclick="ttsStart()" style="border-color:#388bfd40;color:#388bfd;" disabled>&#127911;&thinsp;Listen</button>
     <a class="rpt-btn rpt-pre rpt-active" href="2026-07-21-premarket.html">&#9651;&thinsp;Pre-Market</a>
     <a class="rpt-btn rpt-cls" href="2026-07-21.html">&#9660;&thinsp;After Close</a>
   </div>
 </div>
 <div class="rpt-sub-nav">
   <button id="themeToggle" class="theme-btn" onclick="toggleTheme()">&#9728;&#8202;Light</button>
+</div>
+
+<div id="ttsPlayer" class="tts-player">
+  <span class="tts-icon">&#127911;</span>
+  <div class="tts-info">
+    <div class="tts-badge">Brief Reader &middot; Kokoro AI</div>
+    <div id="ttsSectionName" class="tts-section">Ready</div>
+  </div>
+  <div class="tts-controls">
+    <button id="ttsPP" class="tts-ctrl" onclick="ttsPP()" disabled>&#9654;</button>
+    <button class="tts-ctrl tts-stop" onclick="ttsStop()">&#9632;</button>
+  </div>
+  <button class="tts-x" onclick="ttsStop();document.getElementById('ttsPlayer').classList.remove('tts-visible');">&#10005;</button>
 </div>
 
 <div class="ref-overlay" id="refOverlay" onclick="if(event.target===this)this.classList.remove('open')">
@@ -1241,6 +1293,95 @@ function toggleTheme() {
     if (btn) btn.innerHTML = '&#9790;&thinsp;Dark';
   }
 })();
+
+// ── TTS PLAYER ──
+(function() {
+  var S = { tts: null, ctx: null, src: null, stopped: false, idx: 0 };
+
+  window.ttsStart = async function() {
+    var chunks = window._ttsScript || [];
+    if (!chunks.length) return;
+    var player = document.getElementById('ttsPlayer');
+    var label  = document.getElementById('ttsSectionName');
+    var btn    = document.getElementById('ttsBtn');
+    var pp     = document.getElementById('ttsPP');
+
+    player.classList.add('tts-visible');
+    S.stopped = false;
+    S.idx = 0;
+    btn.disabled = true;
+
+    if (!S.ctx) S.ctx = new (window.AudioContext || window.webkitAudioContext)();
+
+    if (!S.tts) {
+      label.textContent = 'Loading voice model — first run downloads ~82 MB…';
+      pp.disabled = true;
+      try {
+        var mod = await import('https://esm.sh/kokoro-js@1.3.4');
+        S.tts = await mod.KokoroTTS.from_pretrained('onnx-community/Kokoro-82M-v1.0', {
+          dtype: { model: 'q8', embeddings: 'fp32' },
+          device: 'wasm',
+        });
+      } catch(e) {
+        label.textContent = 'Failed to load voice model — check internet connection';
+        btn.disabled = false;
+        console.error('Kokoro TTS load error:', e);
+        return;
+      }
+    }
+
+    pp.disabled = false;
+    pp.textContent = '⏸';
+
+    while (S.idx < chunks.length && !S.stopped) {
+      var chunk = chunks[S.idx];
+      label.textContent = chunk.label;
+      try {
+        var audio = await S.tts.generate(chunk.text, { voice: 'af_heart' });
+        if (S.stopped) break;
+        if (S.ctx.state === 'suspended') await S.ctx.resume();
+        var buf = S.ctx.createBuffer(1, audio.audio.length, audio.sampling_rate);
+        buf.copyToChannel(audio.audio, 0);
+        var src = S.ctx.createBufferSource();
+        src.buffer = buf;
+        src.connect(S.ctx.destination);
+        S.src = src;
+        await new Promise(function(res) { src.onended = res; src.start(); });
+      } catch(e) { console.error('TTS chunk error idx=' + S.idx, e); }
+      S.idx++;
+    }
+
+    if (!S.stopped) {
+      label.textContent = 'Done — click Listen to replay';
+      pp.textContent = '▶';
+    }
+    btn.disabled = false;
+  };
+
+  window.ttsPP = function() {
+    if (!S.ctx) return;
+    var pp = document.getElementById('ttsPP');
+    if (S.ctx.state === 'running') {
+      S.ctx.suspend();
+      pp.textContent = '▶';
+    } else {
+      S.ctx.resume();
+      pp.textContent = '⏸';
+    }
+  };
+
+  window.ttsStop = function() {
+    S.stopped = true;
+    if (S.src) { try { S.src.stop(); } catch(e) {} }
+    if (S.ctx && S.ctx.state === 'suspended') S.ctx.resume();
+    var label = document.getElementById('ttsSectionName');
+    var pp    = document.getElementById('ttsPP');
+    var btn   = document.getElementById('ttsBtn');
+    if (label) label.textContent = 'Stopped';
+    if (pp) pp.textContent = '▶';
+    if (btn) btn.disabled = false;
+  };
+})();
 </script>
 
 
@@ -1289,15 +1430,15 @@ function toggleTheme() {
   <div class="watchlist-grid"><span class="wl-group-label">ETFs</span>
         <div class="wl-pill">
           <span class="sym">IWM</span>
-          <span class="chg up">+0.4%</span>
+          <span class="chg up">+0.5%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">QQQ</span>
-          <span class="chg up">+1.3%</span>
+          <span class="chg up">+1.4%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">SPY</span>
-          <span class="chg up">+0.4%</span>
+          <span class="chg up">+0.5%</span>
         </div><span class="wl-group-label">Mag 11</span>
         <div class="wl-pill">
           <span class="sym">AAPL</span>
@@ -1305,43 +1446,43 @@ function toggleTheme() {
         </div>
         <div class="wl-pill">
           <span class="sym">MSFT</span>
-          <span class="chg down">-1.0%</span>
+          <span class="chg down">-1.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">NVDA</span>
-          <span class="chg up">+1.2%</span>
+          <span class="chg up">+1.4%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">GOOGL</span>
-          <span class="chg up">+0.2%</span>
+          <span class="chg up">+0.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">AMZN</span>
-          <span class="chg down">-0.2%</span>
+          <span class="chg down">-0.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">META</span>
-          <span class="chg up">+0.1%</span>
+          <span class="chg up">+0.7%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">TSLA</span>
-          <span class="chg up">+0.9%</span>
+          <span class="chg up">+1.1%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">AMD</span>
-          <span class="chg up">+4.1%</span>
+          <span class="chg up">+4.3%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">AVGO</span>
-          <span class="chg up">+3.3%</span>
+          <span class="chg up">+3.2%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">INTC</span>
-          <span class="chg up">+5.7%</span>
+          <span class="chg up">+6.0%</span>
         </div>
         <div class="wl-pill">
           <span class="sym">MU</span>
-          <span class="chg up">+6.0%</span>
+          <span class="chg up">+6.2%</span>
         </div></div>
 </div>
 <div class="on-deck"><div class="card-header">ON DECK — NEXT 5 DAYS</div>
