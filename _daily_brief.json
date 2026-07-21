@@ -10828,7 +10828,7 @@
     ],
     "mag7_0dte": {
       "ticker": "AMD",
-      "bias": "BULL",
+      "bias": "",
       "pattern": "Failed 2D / Bullish Gapper",
       "flow": "$337M dark pool ask AH Friday — strongest single-name DP print of the day. NBIS upgraded alongside as semi sentiment shifts.",
       "catalyst": "Advancing AI event Wednesday — nearest hard catalyst in the pick pool. Semi bounce broad-based: MU +4.8%, STX +4.2%, LRCX +2.6% all confirming. AMD leading the group.",
