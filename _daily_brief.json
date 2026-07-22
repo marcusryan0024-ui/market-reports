@@ -11412,14 +11412,14 @@
       }
     ],
     "mag7_0dte": {
-      "ticker": "TSLA",
+      "ticker": "AMD",
       "bias": "",
-      "pattern": "Pre-Earnings Positioning \u2014 maximum compression before the AMC print",
-      "flow": "Nasdaq cautious but TSLA pre-earnings bid. SMCI AI demand confirmation = positive backdrop for high-beta tech. Oil macro headwind = sector rotation risk.",
-      "catalyst": "Earnings tonight AMC. Expected move \u00b16.4%. Automotive margins, robotaxi update, FSD AI commentary. Most-scrutinized print of the week alongside GOOGL. Market has been positioning since Monday \u2014 compression is fully built.",
-      "key_levels": "Trigger: break above premarket high for bull entry. Floor: premarket low. Target: measured move extension pre-earnings.",
-      "expected_move": "$15-25 range expansion on tonight's print",
-      "expected_move_pct": "6-10%"
+      "pattern": "Catalyst Event Day \u2014 AMD Advancing AI event with Lisa Su keynoting all day in San Francisco",
+      "flow": "SMCI +17% on AI server demand blowout = direct read-through for AMD chip demand. DELL +3.8%, HPE +3.1% confirm the AI infrastructure cycle is accelerating. AI event day = intraday headline risk in both directions.",
+      "catalyst": "AMD Advancing AI event all day \u2014 CEO Lisa Su keynote with real-time announcements on AI chip roadmap, data center wins, and partnerships. SMCI margin blowout confirms hyperscaler demand is intact. Any new AMD win announcement = immediate price spike.",
+      "key_levels": "Trigger: break above premarket high on a Lisa Su headline. Floor: premarket low / prior close. Target: measured move extension.",
+      "expected_move": "$8-18 range expansion intraday on event headlines",
+      "expected_move_pct": "4-8%"
     },
     "trump_stocks": [
       {
