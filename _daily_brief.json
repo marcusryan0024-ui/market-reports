@@ -11276,7 +11276,7 @@
   "2026-07-22": {
     "headline": "Biggest earnings night of season — GOOGL, TSLA, IBM, NOW, TXN all report AMC. SMCI +14% on margin blowout. AMD -2.65% as NVDA unveils Vera CPU. Oil +4% on Rubio Iran shipping.",
     "overview": "The most consequential earnings night of the season arrives today: Alphabet (GOOGL), Tesla (TSLA), IBM, ServiceNow (NOW), and Texas Instruments (TXN) all report after the bell. Futures are cautiously lower (Nasdaq -0.55%) as the market waits for the prints while digesting a massive macro wildcard — oil surging 4% as Secretary Rubio declared the U.S. will \"continue to protect shipping\" after strikes on Iran, with WTI pushing above $87 and Brent clearing $94. The AM session has its own catalyst stack: Super Micro Computer (SMCI) gap +14% after preliminary Q4 results showed gross margins nearly doubling prior guidance (15-17% vs. 8.2-8.4%), pulling DELL and HPE higher in sympathy. Arrowhead Pharmaceuticals (ARWR) +18% on Phase 3 drug trial success — biotech explosive move of the morning. On the other side, Pegasystems (PEGA) is collapsing -17% after an earnings miss attributed to AI-driven enterprise software delays, GEV -6.5% despite a beat, and the semiconductor complex is broadly red: MU -4.4%, AMD -2.65% after Nvidia unveiled its next-generation Vera CPU as a direct challenge to AMD. AMD's own Advancing AI event runs all day with CEO Lisa Su keynoting — a two-way catalyst. Trump speaks at 3pm — oil and defense names on alert.",
-    "market_context": "S&P futures -0.21%, Nasdaq -0.55%, Dow -0.06%, Russell -0.25%. Risk-off tone is tech-specific — oil and industrials bid. WTI above $87 (+4%), Brent above $94 on Rubio Iran shipping protection statement. 10yr yield 4.63% (steady). Europe broadly higher +0.35-0.45% led by industrials/banks/energy. Asia mixed: Taiwan +1.34%, KOSPI +0.74%, Nikkei -0.18%, Hang Seng -1% (internet/gaming selloff). SMCI +13.96% gap = DELL +1.98%, HPE +1.67% in sympathy. ARWR +18% on Phase 3 drug trial — biggest percentage gapper. FTAI +11.51% on aviation strength. PEGA -16.84% = AI disruption signal for legacy enterprise software. GEV -6.47% despite revenue beat + guidance raise. AMD -2.65% — Nvidia unveiled next-gen Vera CPU, setting up direct challenge to AMD data center AI chips. MU -4.43% falling on \"3 big hurdles\" concerns. RDDT -5.88% on report it's weighing blocking Google from content use. HAL wins multi-year pact from Kuwait Oil + will build upstream R&D center in Kuwait. OKLO/XE bid on Trump nuclear program for AI data centers. Crude Oil Inventories 10:30am. Trump speech 3:00pm — wildcard for oil and defense.",
+    "market_context": "Nasdaq futures -0.7 to -0.9%, S&P -0.3%. Tuesday closed green across the board: S&P +0.85%, Nasdaq +1.34%, Dow +0.71% to 52,209 — powered by a chip recovery (semis +5.5%, MU +12.5%, INTC +8.6%, AMD +8%). Chips are already giving some back this morning. WTI at a five-week high on Iran situation, Brent ~$91. 10yr yield ~4.64% — higher yields pressuring growth names right as they report. INTC -2.9% premarket after yesterday's +8.6% session. SNDK bearish gapper. SMCI +13.96% on Q4 margin blowout. PEGA -16.84%. GEV -6.47% despite beat + raised guidance. Pattern this earnings season: clearing the bar isn't enough — guidance is doing the work (Danaher -11% on a beat Tuesday). AMD $500M bid-side dark pool print ahead of its Advancing AI event. GOOGL $379M bid-side, TXN $386M mixed — reporting names leaning bid into prints. AAPL $425M, AMZN $413M, META $406M ask-side. Crude Oil Inventories 10:30 AM — matters more than usual with oil at 5-week high. Trump at 3:00 PM.",
     "bulls": [
       {
         "ticker": "SMCI",
@@ -11331,7 +11331,99 @@
         "why": "TE Connectivity announced acquisition of Astrodyne TDI, sees 4Q net sales ~$5.25B. Market reacting negatively to the deal — M&A overhang + near-term dilution concerns."
       }
     ],
-    "darkpool": [],
+    "darkpool": [
+      {
+        "ticker": "MOH",
+        "size": "$514M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Molina Healthcare leads single-name flow ahead of earnings today — flag going into the print."
+      },
+      {
+        "ticker": "AMD",
+        "size": "$500M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Massive bid-side print heading into AMD Advancing AI event today. Watch how it opens — bid-side flow is a lean, not a direction. Pair with PA."
+      },
+      {
+        "ticker": "BSX",
+        "size": "$494M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Part of a healthcare cluster forming (BSX, UNH, MOH all on the board)."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$425M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side — not reporting tonight. Megacaps not in earnings lean ask while reporting names lean bid."
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$413M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side. Same pattern as AAPL — non-reporting megacap."
+      },
+      {
+        "ticker": "META",
+        "size": "$406M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side. Same pattern."
+      },
+      {
+        "ticker": "TXN",
+        "size": "$386M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Reports tonight AMC. Mixed flow into the print."
+      },
+      {
+        "ticker": "GOOG",
+        "size": "$379M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Reports tonight AMC. Bid-side lean — most-watched print of the night for AI cloud capex."
+      },
+      {
+        "ticker": "TSM",
+        "size": "$355M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Bearish kicker on FlowMS board. Mixed DP flow."
+      },
+      {
+        "ticker": "UNH",
+        "size": "$315M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Healthcare cluster — BSX and UNH both elevated alongside MOH."
+      },
+      {
+        "ticker": "SNDK",
+        "size": "$2.2B",
+        "side": "bid",
+        "timing": "session",
+        "note": "Second-largest single-name DP flow (bid). Also has the largest options block: SNDK $2270C 1/15/27 at $85.7M — the biggest block FlowMS has seen in a while, second day running."
+      },
+      {
+        "ticker": "MU",
+        "size": "$2.8B",
+        "side": "bid",
+        "timing": "session",
+        "note": "Leads single-name DP flow (bid). Also bid-side Monday — then ran 12.5% Tuesday. Reminder: bid-side flow is a lean, not a direction. Pair with PA."
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$2.2B",
+        "side": "ask",
+        "timing": "session",
+        "note": "Ask-side. Also has the largest sweep: NVDA $207.5C 7/22/26 at $1.1M — a same-session call bet on NVDA riding the chip bounce."
+      }
+    ],
     "setups": [
       {
         "ticker": "SMCI",
@@ -11487,62 +11579,61 @@
       "TXN"
     ],
     "morning_prep": {
-      "theme": "Two-act session: SMCI gap play in the AM, pre-earnings positioning for GOOGL and TSLA into the close. Oil is the macro wildcard all day. Trump at 3pm = afternoon risk event.",
+      "theme": "This is the session the whole week has been building toward. GOOGL and TSLA both report AMC alongside IBM, NOW, and TXN — four Inside (1) names sitting in compression straight into a catalyst. AMD Advancing AI event runs all day. Chips bounced hard Tuesday then immediately gapping back down. Inside day, inside week conditions mean more chop and fakeouts than trend — wait for confirmation after 10 AM. Process over prediction. One good setup beats five forced trades.",
       "rules": [
-        "SMCI — Wait for first 15 min. If holds PM high, enter for continuation gap and go. If it fades PM high, stand aside — distribution.",
-        "TSLA — Pre-earnings positioning only. No directional conviction — size small. Do NOT hold overnight without account for a 6-10% gap.",
-        "PEGA — Gap down short setup. Wait for 30-min candle bounce to form, then short the bounce. Do NOT fade the open gap.",
-        "GEV — Complex reaction. Revenue beat + raised guidance but -7.9%. Wait 30 min. Buyers may recover — watch for reversal candle.",
-        "Crude Oil Inventories 10:30am — position exits or sizing reduction before data. Oil already at $87 — a big draw moves XOM/USO significantly.",
-        "Trump speaks 3pm — reduce exposure 15 min before. React to what he says on oil/Iran/tariffs, do not predict it.",
-        "GOOGL — watch pre-earnings positioning into close. The tape tonight hinges on cloud AI capex guidance more than any other metric.",
-        "AMD — TWO-WAY today. Down -2.65% premarket from NVDA Vera CPU announcement. Wait for Lisa Su keynote headline. Spike on strong announcement = entry long. No headline conviction = short the bounce off prior close.",
-        "ARWR +18% Phase 3 trial — biotech gap play. Wait 30 min for consolidation. Hold PM high = continuation. Fade = gap fill to -10% range."
+        "Inside day + inside week = lower conviction environment. Trade smaller, wait for confirmation. More fakeouts than breakouts until the market tips its hand.",
+        "After 10 AM the Strat intraday setups refresh — check Strat + Set-Ups scanner for real-time updates. The first 30 min is noise.",
+        "TSLA, IBM, NOW, MSFT are all Inside (1) — compression coils heading into catalysts. Don't anticipate direction. Let price break and confirm before entering.",
+        "Dark pool flow is a lean, not a direction. AMD $500M bid-side is a flag — pair with price action and the full stack. MU was bid-side two days in a row before ripping 12.5%.",
+        "Earnings lesson this season: clearing the bar isn't enough. Guidance is doing the work. Danaher -11% on a beat. GEV -6.5% on a beat + guidance raise. Don't hold into prints expecting a beat = up.",
+        "Crude oil inventories 10:30 AM — oil at a 5-week high, this print matters more than usual. Size down before the number.",
+        "Trump at 3:00 PM — reduce exposure 15 min before. React to headlines, do not predict them.",
+        "GOOGL/TSLA/IBM/NOW/TXN all report AMC — preserve capital through the session. The main event is tonight."
       ],
       "setups": [
         {
-          "ticker": "SMCI",
+          "ticker": "T",
           "tier": 1,
-          "strat": "Gap and Go",
+          "strat": "Bullish Gapper",
           "bias": "BULL",
-          "catalyst": "Q4 prelim gross margins nearly doubled. B+ new orders. Record backlog. AI infrastructure demand confirmed.",
-          "levels": "Trigger: hold PM high first 15 min. Target: PM high extension. Floor: PM low.",
-          "bull": "Holds PM high — continuation run, DELL/HPE follow for confirmation.",
-          "bear": "Fades PM high — gap fill, stand aside.",
-          "note": "Biggest premarket mover of the session. DELL/HPE are the tape confirmation."
+          "catalyst": "AT&T Q2 earnings beat — strong wireless subscriber growth, guidance reaffirmed. Dark pool print on the board. Bullish gapper with earnings confirmation.",
+          "levels": "Trigger: hold above the opening gap / premarket high through the first 30 min. Floor: premarket low. Let it show strength before entering.",
+          "bull": "Gap holds — earnings continuation, buyers step in after the open flush, runs toward gap fill levels.",
+          "bear": "Gap fails and fades back toward prior close — distribution into retail buyers. Stand aside.",
+          "note": "Bullish gapper + DP on board + earnings beat = stacked catalyst. Wait for price to confirm the hold, don't buy the open spike."
         },
         {
-          "ticker": "TSLA",
-          "tier": 2,
-          "strat": "Pre-Earnings Positioning",
-          "bias": "WATCH",
-          "catalyst": "Earnings tonight AMC. Expected ±6.4% move. Maximum pre-print compression.",
-          "levels": "Break PM high = bull lean. Break PM low = bear lean. No overnight without sizing.",
-          "bull": "Buyers load long into close. Gap higher tomorrow on beat.",
-          "bear": "Distribution into close. Miss = gap down tomorrow.",
-          "note": "Size small. Earnings day positioning only — no hero trades."
-        },
-        {
-          "ticker": "PEGA",
+          "ticker": "GM",
           "tier": 1,
-          "strat": "Failed Bounce Short",
-          "bias": "BEAR",
-          "catalyst": "Q2 miss + AI uncertainty delays. -15.7% gap. Enterprise software disruption.",
-          "levels": "Entry: short bounce to 30-min high. Stop: above 30-min high. Target: new lows.",
-          "bull": "Dead cat bounce 30-50% gap fill.",
-          "bear": "No bid. Accelerates lower on analyst downgrades.",
-          "note": "Let the 30-min candle form first. Never short at the open gap."
+          "strat": "3 Bar / Outside",
+          "bias": "BULL",
+          "catalyst": "General Motors earnings beat yesterday with raised outlook. Multiple analyst price target increases. 3 Bar / Outside setup — most powerful Strat pattern. Dark pool on the board.",
+          "levels": "Trigger: break above the outside bar high with confirmation candle. Targets: measured move to the outside bar range extension.",
+          "bull": "Outside bar high breaks with volume — continuation of earnings momentum, measured move plays out.",
+          "bear": "Outside bar high holds — consolidation or reversal back into the bar. Wait for next setup.",
+          "note": "3 Bar / Outside is the strongest Strat setup. Earnings beat + analyst upgrades + DP = triple confirmation. This is the highest-conviction technical setup on the board today."
+        },
+        {
+          "ticker": "AAPL",
+          "tier": 2,
+          "strat": "Failed 2-Down",
+          "bias": "WATCH",
+          "catalyst": "Failed 2-Down reversal setup. Earnings in 8 days — building compression into that catalyst. Dark pool ask-side ($425M AH).",
+          "levels": "Trigger: break above the Failed 2D high on confirming candle. Watch the 4-hour chart for the set up to mature.",
+          "bull": "Failed 2D triggers — reversal momentum, continuation higher. Pre-earnings accumulation in play.",
+          "bear": "Failed 2D fails to trigger — price stays below the level. No trade.",
+          "note": "Ask-side DP ($425M) pairs with the reversal setup. It's Wednesday — theta decay on near-expiration options is brutal before confirmation. Prefer patience."
         },
         {
           "ticker": "GEV",
           "tier": 2,
-          "strat": "Complex Reaction Watch",
+          "strat": "Failed 2-Up / Complex Reaction",
           "bias": "WATCH",
-          "catalyst": "Revenue beat + raised guidance but -7.9%. Distribution into strength.",
-          "levels": "Watch 30-min low. Recovery above PM high = buyers won. Break below = distribution.",
-          "bull": "Buyers step in on raised guidance. Recovers through session.",
-          "bear": "No recovery. Continues lower all session.",
-          "note": "Fundamentals are good. The market is wrong or expectations were too high — let it show you which."
+          "catalyst": "GE Vernova reported this morning — beat revenue + raised full-year guidance but gap down -6.5%. Failed 2-Up on the FlowMS board. Gap fills at ~940.66 and ~1078.",
+          "levels": "Watch the 2-hour inside bar that forms after the gap. Break below = continuation lower toward gap fills. Recovery above PM high = buyers step in.",
+          "bull": "Buyers recognize the raised guidance — reversal from the failed 2U back to prior support.",
+          "bear": "Failed 2U confirms — elevated expectations met reality. Sells toward gap fills.",
+          "note": "GEV is a perfect example of the earnings-season pattern: beat + raise still got sold. Let it form and confirm before touching it. Two-hour inside bar after 10 AM is your signal."
         }
       ]
     }
