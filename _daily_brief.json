@@ -11637,5 +11637,264 @@
         }
       ]
     }
+  },
+  "2026-07-23": {
+    "headline": "TSLA -6.7%, GOOGL -4.8% on AI capex shock. NOW +7.1%, LMT +6.5% on clean beats. Oil charging toward $100 on Red Sea Houthi tanker attacks — rotation into defense, energy, industrials.",
+    "overview": "The earnings season delivered its verdict on AI capex last night, and the tape is paying attention. Tesla (TSLA) reported a revenue beat but crushed margins, EPS miss, capex up 142% YoY, and FCF negative — stock -6.7% premarket. Alphabet (GOOGL) put up a solid beat but raised its capex guidance to $195-205B, and the AI cost fears are winning the tape: -4.8%. IBM cut its 2026 sales outlook on mainframe demand drops. The earnings that actually worked were the names with no AI overhang: ServiceNow (NOW) +7.1% on a clean beat across subs, cRPO, and margins — directly easing enterprise software spend fears. Defense names are the session's leaders: LMT +6.5%, RTX +5.3% on earnings beats while oil charges toward $100. The macro backdrop is shifting fast — Houthi rebels attacked two Saudi tankers in the Red Sea, sending Brent toward $100, 10Y yield to 4.69%, and repricing a more hawkish Fed. Money is rotating hard: into energy, defense, telecom, real estate, and basic resources, and out of tech, staples, luxury, and financials. AMD keynote at 3:30 PM ET is the intraday wildcard — AI chip roadmap expected with Zen 6 Venice CPU and MI450x/MI500 focus. INTC and SAP report after the close.",
+    "market_context": "S&P futures -0.44%, Nasdaq -0.60%, Dow -0.46%, Russell -0.14%. Crude nearing $100 (~$100 WTI) after Houthi rebels attacked two Saudi tankers in the Red Sea — five-week high becomes a run at triple digits. 10Y yield 4.69% — markets pricing a more hawkish Fed as oil revives inflation fears. Earnings driving a wedge in the tape: hyperscalers pressured by soaring capex and weak FCF (TSLA, GOOGL), while semis and infrastructure still winning from AI spend. NOW +7.1% on clean beat directly counters the PEGA AI-disruption narrative from two days ago. Defense and industrials leading: LMT +6.5%, RTX +5.3%, URI +7.2%, CLF +11.9%. Key flag from yesterday's DP: MOH $514M print was a tell — Molina reported BMO and is -8.4%. AMD Advancing AI keynote at 3:30 PM ET is the afternoon catalyst. ECB decision at 8:15 AM — rates held, guidance in focus. INTC and SAP report AMC.",
+    "bulls": [
+      {
+        "ticker": "NOW",
+        "pct": "+7.1%",
+        "why": "ServiceNow clean beat across subscribers, cRPO, and margins. Directly counters the PEGA narrative from July 22 — enterprise software spend is alive. AI integration is adding revenue, not delaying it."
+      },
+      {
+        "ticker": "LMT",
+        "pct": "+6.5%",
+        "why": "Lockheed Martin earnings beat. Perfect storm: beat + rising geopolitical risk (Red Sea Houthi tanker attacks) + oil at $100 = defense rotation fully activated. Money moving into defense from tech."
+      },
+      {
+        "ticker": "RTX",
+        "pct": "+5.3%",
+        "why": "RTX Corp earnings beat. Same defense rotation tailwind as LMT — geopolitical escalation and higher yields favor defense spending names. Clean setup with earnings confirmation."
+      },
+      {
+        "ticker": "CLF",
+        "pct": "+11.9%",
+        "why": "Cleveland-Cliffs earnings beat. Basic resources rotation in play alongside energy and defense — the risk-off tilt into real assets is broad-based, not just oil."
+      },
+      {
+        "ticker": "URI",
+        "pct": "+7.2%",
+        "why": "United Rentals earnings beat. Industrials staying strong — infrastructure and construction demand intact. Rotation beneficiary alongside defense and energy."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "TSLA",
+        "pct": "-6.7%",
+        "why": "Revenue beat but EPS missed. Margins crushed. Capex +142% YoY. FCF negative. The Musk premium is running out of cover — spending is accelerating while profitability deteriorates. AI capex overhang wins."
+      },
+      {
+        "ticker": "GOOGL",
+        "pct": "-4.8%",
+        "why": "Solid beat but capex guidance raised to $195-205B. AI cost fears win the tape. The market is now asking whether AI capex will ever translate to proportional revenue — and GOOGL's answer raised more questions."
+      },
+      {
+        "ticker": "ROL",
+        "pct": "-16.7%",
+        "why": "Rollins earnings miss — biggest laggard of the morning. Pest control giant failing to meet elevated expectations. Not an AI story, just a fundamental miss."
+      },
+      {
+        "ticker": "STM",
+        "pct": "-14.1%",
+        "why": "STMicroelectronics miss. Semiconductor weakness spreading beyond the AI trade — legacy chip demand pressured. Confirms the uneven recovery in semis."
+      },
+      {
+        "ticker": "MOH",
+        "pct": "-8.4%",
+        "why": "Molina Healthcare miss. Yesterday's $514M ask-side dark pool print was the tell — institutional sellers were positioned before the print. Healthcare cost pressures weighing on managed care."
+      }
+    ],
+    "darkpool": [],
+    "setups": [
+      {
+        "ticker": "TSLA",
+        "tier": 1,
+        "strat": "Gap Down / Capex Shock Reaction",
+        "bias": "BEAR",
+        "catalyst": "EPS miss, margins crushed, capex +142% YoY, FCF negative. The market is repricing TSLA as a capex-heavy infrastructure story, not a margin machine. -6.7% premarket.",
+        "levels": "Floor: premarket low. Dead cat bounce: watch 30-min high for short entry. If gap fills 50%+ = distribution exhausted. Target: new lows below PM low.",
+        "bull": "Dead cat bounce exceeds 50% gap fill — buyers step in, short squeeze into prior close.",
+        "bear": "No sustained bid. Fails 30-min high → continuation lower. FCF negative + capex story fully priced in.",
+        "note": "Don't short at the open bell. Wait for the 30-min candle to form and short the bounce. This is the same playbook as PEGA on July 22 — works when there's no bid on the bounce."
+      },
+      {
+        "ticker": "GOOGL",
+        "tier": 1,
+        "strat": "Gap Down / AI Capex Fear",
+        "bias": "WATCH",
+        "catalyst": "Solid beat but capex raised to $195-205B. Market is pricing AI spend as a liability until revenue confirmation arrives. -4.8% premarket. Gap smaller than TSLA — more nuanced reaction.",
+        "levels": "Floor: premarket low. Watch prior close as key decision level. Recovery through prior close = buyers see value. Fail to reclaim = continued pressure.",
+        "bull": "Beat + Google Cloud narrative reasserts itself. Buyers step in at PM low — gap fill trade back to prior close.",
+        "bear": "Capex fear dominates. No recovery through prior close, continuation lower as AI spend concerns spread to other hyperscalers.",
+        "note": "GOOGL is more complex than TSLA today — it actually beat. The question is whether the capex raise is viewed as investment or red flag. Let the 30-min candle show you the answer."
+      },
+      {
+        "ticker": "LMT",
+        "tier": 1,
+        "strat": "Gap Up / Defense Rotation",
+        "bias": "BULL",
+        "catalyst": "Lockheed earnings beat + Houthi tanker attacks driving oil toward $100 + yields rising + rotation out of tech into defense. Triple catalyst stack.",
+        "levels": "Trigger: pullback to premarket high / prior resistance level, then continuation. SLU game plan: clean pullback-to-level continuation setups in defense.",
+        "bull": "Pullback holds PM high level, resumes higher — defense rotation carries through the session alongside oil.",
+        "bear": "PM high fails to hold as resistance, reverses — risk-off sentiment reverses on de-escalation headline.",
+        "note": "SLU says look for pullback-to-level continuation in defense, not gap-chase entries. Wait for the pullback, then buy the confirm. RTX is the confirmation chart — if both hold, the rotation is real."
+      },
+      {
+        "ticker": "NOW",
+        "tier": 2,
+        "strat": "Gap Up / Earnings Beat",
+        "bias": "BULL",
+        "catalyst": "ServiceNow clean beat across all metrics — subs, cRPO, margins. Directly counters the AI-delay narrative. Software spend alive and AI integration is adding to revenue.",
+        "levels": "Trigger: hold PM high first 30 min. Target: measured move extension. Floor: PM low.",
+        "bull": "PM high holds — institutional buyers accumulate, continuation higher. Pulls up MSFT/Salesforce in sympathy.",
+        "bear": "PM high fades — profit-taking into retail buyers. Gap fill trade.",
+        "note": "NOW is the antidote to PEGA's -16.7% from July 22. Two data points don't make a trend, but NOW's beat matters for the software sector narrative going into the rest of earnings season."
+      },
+      {
+        "ticker": "XOM",
+        "tier": 2,
+        "strat": "Oil Momentum / Red Sea Escalation",
+        "bias": "BULL",
+        "catalyst": "Houthi rebels attacked two Saudi tankers in the Red Sea. Brent charging toward $100. Oil at a five-week high. USO showing unusual options volume (FlowMS bullish kicker). SLU says rotation into energy.",
+        "levels": "Trigger: hold above prior close. Targets: measured moves on oil continuation. Floor: crude reversal below $95 on de-escalation headline.",
+        "bull": "Oil holds bid toward $100 — XOM, OXY, XLE, USO all extend. Energy rotation from tech continues.",
+        "bear": "Diplomatic de-escalation in Red Sea — oil reverses sharply, energy names give back gains immediately.",
+        "note": "USO is the cleanest expression if you want direct oil exposure. XOM for equity. OXY also on the SLU rotation list. React to oil headlines — do not predict them."
+      },
+      {
+        "ticker": "INTC",
+        "tier": 2,
+        "strat": "Pre-Earnings Positioning",
+        "bias": "WATCH",
+        "catalyst": "Intel reports AMC today. AI and enterprise read — the market will scrutinize data center AI chip demand after IBM's mainframe weakness and AMD's Advancing AI event all day. INTC has been volatile: +8.6% Tuesday, then -2.9% yesterday.",
+        "levels": "Watch premarket levels for directional lean. No 0DTE into the print — this is a position-sizing event.",
+        "bull": "AI data center demand surprise — Intel AI chip progress credible. Gap up tomorrow.",
+        "bear": "Weak AI data center guidance or market share losses to AMD/NVDA confirmed. Gap down tomorrow.",
+        "note": "FlowMS tags INTC on the watch list alongside SAP. AMD's keynote at 3:30 PM may move INTC in sympathy before the print."
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "AMD",
+      "bias": "TWO-WAY",
+      "pattern": "Timed Keynote Catalyst — AMD Advancing AI 2026 keynote at 3:30 PM ET, San Francisco. Zen 6 Venice CPU and MI450x/MI500 roadmap expected.",
+      "flow": "Tech broadly under pressure: Nasdaq futures -0.60%, TSLA -6.7%, GOOGL -4.8% on AI capex shock. AMD has a $500M bid-side dark pool print from Wednesday's session heading into this keynote. Two-way tension: macro headwind (semis weak, AI capex fears) vs. specific timed catalyst (3:30 PM keynote with new product roadmap).",
+      "catalyst": "AMD Advancing AI 2026 keynote at 3:30 PM ET — CEO Dr. Lisa Su expected to announce Zen 6 Venice CPU and MI450x/MI500 AI chip roadmap. This is the specific event the market has been pricing for two days. A strong announcement counters the TSLA/GOOGL AI capex narrative. A weak keynote with no new wins = AMD accelerates lower with the rest of tech.",
+      "key_levels": "Watch premarket low as the floor. Prior close as the line in the sand. Breakout above prior close on a keynote headline = long trigger. Fail to reclaim prior close + underwhelming keynote = short entry.",
+      "expected_move": "$10-20 intraday range on keynote headlines — semis weak macro vs. specific product catalyst creates the tension",
+      "expected_move_pct": "3-6%"
+    },
+    "trump_stocks": [
+      {
+        "ticker": "XOM"
+      },
+      {
+        "ticker": "XLE"
+      },
+      {
+        "ticker": "USO"
+      },
+      {
+        "ticker": "OXY"
+      },
+      {
+        "ticker": "LMT"
+      },
+      {
+        "ticker": "RTX"
+      }
+    ],
+    "trump_context": [
+      "Houthi rebels attacked two Saudi tankers in the Red Sea — oil charging toward $100 with Brent crossing a five-week high. This directly intersects with Trump's Middle East policy: the U.S. has been striking Houthi targets in Yemen and Red Sea security is a stated priority. Any Trump statement on Iran, the Houthis, or Red Sea shipping lanes will move XOM, USO, XLE, and OXY immediately.",
+      "Oil at $100 changes the political calculus for Trump. He has historically pressured OPEC to increase supply to lower gas prices. A $100 crude environment could prompt a public call to Saudi Arabia or a strategic reserve release — either would move energy names sharply in both directions.",
+      "Defense rotation is the direct beneficiary of geopolitical escalation. LMT +6.5% and RTX +5.3% are leading the tape on their earnings beats plus the Red Sea risk premium. Trump's defense spending agenda and the Houthi escalation are aligned tailwinds for the sector.",
+      "OKLO and X-Energy remain on the nuclear watch list — Trump's executive push for advanced reactors is ongoing regardless of today's oil headline. Any nuclear policy development remains an intraday mover for those names."
+    ],
+    "events": [
+      {
+        "type": "Economic",
+        "detail": "ECB Interest Rate Decision — 8:15 AM ET. Rates expected held; guidance on European inflation and growth in focus. Euro and U.S. bond market reaction could move yield-sensitive names."
+      },
+      {
+        "type": "Corporate Event",
+        "detail": "AMD Advancing AI 2026 Keynote — 3:30 PM ET, San Francisco. CEO Lisa Su presenting Zen 6 Venice CPU and MI450x/MI500 AI chip roadmap. The afternoon wildcard for the entire semi complex."
+      },
+      {
+        "type": "Earnings AMC",
+        "detail": "INTC (Intel), SAP — AI and enterprise software reads. MBLY and APPF also have options pricing double-digit implied moves."
+      },
+      {
+        "type": "Corporate Event",
+        "detail": "STZ (Constellation Brands) Annual Shareholder Meeting."
+      }
+    ],
+    "earnings_bmo": [
+      "MEDP",
+      "ALLE",
+      "CLF",
+      "URI",
+      "LMT",
+      "RTX",
+      "TMO",
+      "ROL",
+      "STM",
+      "MOH",
+      "DOV",
+      "TMUS",
+      "TXN"
+    ],
+    "earnings_amc": [
+      "INTC",
+      "SAP"
+    ],
+    "morning_prep": {
+      "theme": "Respect the rotation. Higher oil + rising yields = risk-off tilt at the open. Defense, energy, and industrials are the strength zones. Mega-cap tech (TSLA, GOOGL) is under capex-driven pressure — let levels confirm before fading or buying. AMD keynote at 3:30 PM is the afternoon pivot. If a scan prints 20+ names, filter for lower-volatility, higher-volume charts with the cleanest recognizable patterns.",
+      "rules": [
+        "Follow the rotation — not the noise. Money is moving OUT of tech/staples/financials and INTO defense, energy, telecom, real estate, basic resources. Trade WITH the rotation, not against it.",
+        "TSLA and GOOGL gap downs — do not short at the open. Wait for the 30-min candle to form. Short the bounce to the 30-min high, not the gap itself. Same playbook as PEGA on July 22.",
+        "Defense names (LMT, RTX): SLU game plan is pullback-to-level continuation. Wait for the pullback to a prior level, then buy the confirm. Don't chase the gap.",
+        "Oil at $100: USO has unusual options volume (FlowMS bullish kicker). Reduce energy exposure before Crude Oil Inventories data if it prints today. React to Red Sea headlines — do not predict them.",
+        "AMD keynote at 3:30 PM ET — position the 0DTE AFTER seeing the tech tape direction for the first hour. If Nasdaq stabilizes, AMD long into the keynote. If Nasdaq bleeds all morning, wait for the announcement headline rather than pre-positioning.",
+        "INTC reports AMC — no directional bets on INTC into the close. Use it as an AI infrastructure read-through for tomorrow's positioning.",
+        "ECB at 8:15 AM — early volatility in European and rate-sensitive names. Let the reaction settle before adding size."
+      ],
+      "setups": [
+        {
+          "ticker": "LMT",
+          "tier": 1,
+          "strat": "Gap Up / Defense Rotation Continuation",
+          "bias": "BULL",
+          "catalyst": "Earnings beat + Houthi Red Sea tanker attacks driving defense rotation. Oil toward $100 adds geopolitical premium. SLU: look for clean pullback-to-level continuation in defense.",
+          "levels": "Trigger: pullback to PM high / key prior level, then hold and confirm. Do not chase the gap. RTX is the confirmation chart.",
+          "bull": "Pullback holds — continuation higher. Defense rotation carries through the session with oil.",
+          "bear": "Red Sea de-escalation headline reverses the geopolitical premium. Oil drops, LMT fades.",
+          "note": "RTX is the double-check. If both LMT and RTX hold their pullback levels simultaneously, the defense rotation is institutional — not just a headline pop."
+        },
+        {
+          "ticker": "TSLA",
+          "tier": 1,
+          "strat": "Failed Bounce Short",
+          "bias": "BEAR",
+          "catalyst": "EPS miss, margins crushed, capex +142% YoY, FCF negative. -6.7% gap. Market repricing Tesla as a capex-heavy story with no near-term profitability recovery.",
+          "levels": "Entry: short bounce to 30-min candle high. Stop: above 30-min high. Target: new lows below PM low.",
+          "bull": "Dead cat bounce exceeds 50% gap fill — short squeeze traps bears, recovery to prior close.",
+          "bear": "No bid on the bounce. Fails 30-min high, continuation lower. FCF negative story compounds.",
+          "note": "Same playbook as PEGA on July 22. Let the 30-min candle form. The open spike is noise — the 30-min high is the entry signal."
+        },
+        {
+          "ticker": "NOW",
+          "tier": 2,
+          "strat": "Gap Up / Earnings Continuation",
+          "bias": "BULL",
+          "catalyst": "ServiceNow clean beat: subs, cRPO, margins all beat. AI integration adding revenue. Directly counters the AI-delay narrative and eases enterprise software spend worry.",
+          "levels": "Trigger: hold PM high first 30 min. Target: measured move extension. Floor: PM low.",
+          "bull": "PM high holds with volume — continuation. Sympathy lift for MSFT, Salesforce.",
+          "bear": "PM high fades — profit-taking. Gap fill back toward prior close.",
+          "note": "NOW is the antidote to PEGA. Two data points, but both matter. If NOW holds, it signals the software spend narrative is NOT broken — that matters for the next two weeks of software earnings."
+        },
+        {
+          "ticker": "XOM",
+          "tier": 2,
+          "strat": "Oil Momentum / Red Sea Escalation",
+          "bias": "BULL",
+          "catalyst": "Houthi rebels attacked two Saudi tankers. Brent toward $100. USO has bullish kicker + unusual options volume on FlowMS. SLU rotation play: energy (USO, XOM, OXY).",
+          "levels": "Trigger: hold above prior close. Targets: measured move with oil. Floor: de-escalation headline sends crude below $95.",
+          "bull": "Oil holds bid toward $100 — XOM, OXY, XLE, USO extend gains through the session.",
+          "bear": "Diplomatic de-escalation headline — oil reverses, energy gives back gains fast.",
+          "note": "USO is the cleanest expression for direct oil exposure. XOM for equity rotation play. OXY also in the SLU energy bucket. Position before Crude Inventories data if that prints today."
+        }
+      ]
+    }
   }
 }
