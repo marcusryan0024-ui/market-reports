@@ -12176,6 +12176,14 @@
       {
         "type": "Earnings this week",
         "detail": "Also reporting this week: QCOM, Visa (V), Mastercard (MA) — all critical reads on semiconductor demand, consumer spending, and cross-border activity."
+      },
+      {
+        "type": "Corporate Meeting",
+        "detail": "Tue 7/28: LIN (Linde) Meeting | VFC (VF Corporation) Meeting"
+      },
+      {
+        "type": "Corporate Meeting",
+        "detail": "Thu 7/30: EXP Meeting | RL (Ralph Lauren) Meeting"
       }
     ],
     "earnings_bmo": [
