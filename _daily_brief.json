@@ -11898,14 +11898,14 @@
     }
   },
   "2026-07-28": {
-    "headline": "US-Iran strikes pause over weekend — oil tumbles to high $80s, Nasdaq futures +1%. Fed decision Wednesday 2pm (live hike, 1-in-3 odds). META + MSFT report Wednesday AMC, AAPL + AMZN Thursday AMC. MU/SNDK/NVDA all bid-side, memory leading DP flow.",
-    "overview": "The weekend reset the board. The US and Iran paused strikes, and that single headline reversed the oil trade that had been driving the inflation scare all month. Brent and WTI are both tumbling back toward the high $80s, giving up the war premium, and futures are responding: Nasdaq 100 leading better than 1% out of the gate. After two weeks of oil dictating direction, the macro headwind is finally pulling in the market's favor — but only temporarily. This is the week everything gets decided. The Fed meets Tuesday and Wednesday, decision at 2:00 PM Wednesday with Chair Warsh's press conference at 2:30. This is a live meeting — hike odds sit at roughly one in three, sharply up from a week ago. And sitting in the exact same window: META and MSFT report Wednesday after the close, then AAPL and AMZN Thursday. Four of the Magnificent Seven and a live Fed decision in 48 hours. That is the biggest two-day risk stack of the year. Today is a positioning day — the tape opens green on the Iran news, but smart money is sizing into what makes sense before Wednesday volatility compresses everything. Memory names anchor the flow board: MU $2.9B bid-side, SNDK $2.0B bid, NVDA $1.9B bid — all three in the same bucket for the second week running. Bid-side is a lean, not a direction, but that is a lot of size clustering on the same group heading into the heaviest week of the season. NVDA is also the individual name to watch: 3 Bar/Outside setup on the Strat board plus reports Nvidia is in talks to help finance a massive OpenAI data-center project alongside Oracle.",
-    "market_context": "Nasdaq 100 futures +1%+, S&P +0.4%, risk-on reversal driven by US-Iran strikes pause over the weekend. Oil tumbling — Brent and WTI back toward high $80s as the war premium deflates. Friday closed mixed: S&P +0.05% to 7,411.98, Dow +235 (AAPL +3.5%), Nasdaq -0.64% to 24,975.82. Week was ugly for tech: Nasdaq -2.9% on AI capex fears and oil spike. Bright spot: July flash PMI showed business activity at 8-month high. This morning ORCL and NVDA in focus — reports Nvidia is in talks to help finance a massive OpenAI data-center build. DP board dominated by memory: MU $2.9B (bid), SNDK $2.0B (bid), NVDA $1.9B (bid). All three on the bid, MU leads with the largest single-name print ($452M AH). Bond market sizing up into the Fed: IEI (intermediate Treasuries) $324M bid + HYG (high-yield credit) $271M bid. MSFT $286M mixed, GOOGL $289M ask (still weighted from capex story). SMH $530P block for month-end = institutional semi hedge despite the bullish open. Durable goods orders 8:30 AM is the only scheduled data. Earnings today: WELL, NUE, UHS, CDNS.",
+    "headline": "US-Iran ceasefire sends oil to $84, Nasdaq futures +1.36%. NVDA $250B OpenAI Ohio data center commitment. AAPL lobbying for Chinese memory chips — MU opposes. CXMT +466% Shanghai debut. Fed decision Wed, META+MSFT Wed AMC, AAPL+AMZN Thu AMC.",
+    "overview": "The weekend reset the board. The US and Iran paused strikes, UN Ambassador Waltz confirmed Trump ordered the halt to give diplomacy 'some space' — but added more military assets are moving into the region and weapon stockpile reports were denied. Iran and Oman are also discussing reopening the Strait of Hormuz. The Houthis are still firing at Saudi Arabia. This is a diplomatic pause, not a peace deal — but markets are taking the relief trade. WTI tumbling -5.9% to $84.03, Brent below $90. Nasdaq futures +1.36% (+385 pts), S&P +0.87%, DJIA +1.10%, Russell +1.15%. VIX -3.5%. Bitcoin +1%. The week stacked in front of us is the biggest of the year: Fed decision Wednesday 2pm (Chair Warsh, live hike 1-in-3 odds), META + MSFT Wednesday AMC, AAPL + AMZN Thursday AMC, June PCE inflation and Q2 GDP Thursday, Bank of Japan decision, and QCOM + V + MA also reporting. Two stories defining the AM: NVDA is in discussions to provide a $250B backstop for OpenAI's massive Ohio data center project — confirming AI infrastructure spend at a scale that reframes the capex debate. On the other side, Apple is lobbying the White House to allow Chinese memory chips in their devices while Micron is directly opposing the plan — a direct threat to MU's privileged domestic supply position that needs to be watched. CXMT, the Chinese DRAM producer, surged 466% in its Shanghai trading debut this morning, validating the memory-chip AI demand thesis from the other side of the globe. Today is the setup day. Wednesday decides everything.",
+    "market_context": "S&P 500 futures +0.87% (+65 pts), Nasdaq +1.36% (+385 pts), DJIA +1.10% (+573 pts), Russell 2000 +1.15% (+33 pts). WTI crude -5.9% to $84.03/bbl, nat gas -3.3% to $2.79/mmbtu. 10-yr yield -3-4 bps to 4.64-4.65%, 2-yr yield -1bp to 4.32%. U.S. Dollar Index -0.09 to 101.38. Gold +0.5% to $4,089/oz, copper +0.5% to $6.39/lb. VIX -3.5%. Bitcoin +1%. Iran ceasefire confirmed by UN Amb. Waltz — diplomatic pause but more military assets moving to region; Strait of Hormuz reopening discussions with Oman; Houthis still firing at Saudi Arabia. Europe broadly higher +0.75-1.25%: autos, banks, retailers, tech leading; utilities, energy lagging. Germany IFO Expectations Index beat. Asia broadly higher: Shenzhen, Australia, Japan, China leading. Singapore unexpectedly tightened for second consecutive meeting on inflation. CXMT +466% in Shanghai debut (Chinese DRAM) — memory AI demand confirmed globally. NVDA in discussions for $250B OpenAI Ohio data center commitment. AAPL lobbying White House to use Chinese memory chips; MU directly opposing the plan. Heat waves straining U.S. power grids on data center demand. White House tariffs likely here to stay (Reuters). Durable Goods Orders 8:30 AM (consensus +2.0%).",
     "bulls": [
       {
         "ticker": "NVDA",
-        "pct": "+1%+",
-        "why": "3 Bar/Outside Strat setup — most powerful pattern on the FlowMS board. Reports Nvidia in talks to help finance a massive OpenAI data-center project with Oracle. Conference in 5 days. $1.9B bid-side DP flow Friday. This is the single highest-conviction setup on the board today."
+        "pct": "+modest",
+        "why": "Confirmed in discussions to provide $250B backstop for OpenAI's massive Ohio data center project — AI infrastructure commitment at a scale that reframes the capex debate. 3 Bar/Outside Strat setup. $1.9B bid-side DP Friday. Conference in 5 days. Also aiming to acquire $1B in shares of Naver (Korean AI). Strongest single setup on the board."
       },
       {
         "ticker": "MU",
@@ -11915,17 +11915,17 @@
       {
         "ticker": "AAPL",
         "pct": "+3.5% Fri",
-        "why": "Led the Dow +3.5% Friday on continued AI integration momentum. $166M bid-side DP print (AH). Earnings Thursday AMC — pre-earnings positioning building. Also has an AAPL $300P November put sweep ($2.5M) suggesting some hedging, but the directional DP flow is bid."
+        "why": "Smart glasses launching next year (Bloomberg) — new product category catalyst. Led Dow +3.5% Friday. Earnings Thursday AMC. Also lobbying White House for Chinese memory chips — saves cost if approved, but MU is opposing. $166M bid-side DP print. Two-sided story: smart glasses bullish, chip sourcing is a political wildcard."
       },
       {
-        "ticker": "NBIS",
-        "pct": "gap up",
-        "why": "Bullish gapper with DP on the FlowMS board. Also has a $47.8M put block (NBIS $170P 8/7) but that's negotiated / structural — the gapper signal with DP support is the active read."
+        "ticker": "RKLB",
+        "pct": "upgrade",
+        "why": "Rocket Lab upgraded to Outperform at KGI Securities, price target $107. Also a bullish recurring theme in prior briefs. Space defense name benefiting from geopolitical risk premium even with Iran pause."
       },
       {
-        "ticker": "NOK",
+        "ticker": "HOOD",
         "pct": "gap up",
-        "why": "Nokia bullish gapper with DP on board. Dividend tomorrow. Also sits in the less-than-3-prints filter — surfacing early before news confirms. One to watch before the catalyst becomes obvious."
+        "why": "Robinhood in discussions with Crypto.com to expand prediction markets (WSJ). Bullish gapper with DP on FlowMS board. Crypto +1% (Bitcoin). Prediction markets + crypto expansion = two catalysts stacking."
       }
     ],
     "bears": [
@@ -11945,14 +11945,14 @@
         "why": "Failed 2-Up setup on FlowMS board. Small caps can't clear the prior range — still trapped inside daily and weekly range. Russell futures -0.14% even as Nasdaq leads +1%. The divergence between large-cap tech and small caps is widening."
       },
       {
-        "ticker": "GOOGL",
-        "pct": "heavy",
-        "why": "$289M ask-side DP print (AH Friday) — the only major reporting name from last week with ask-side flow. AI capex hangover from Wednesday's $195-205B guidance raise isn't clearing. Institutional sellers using strength to distribute."
+        "ticker": "CORZ",
+        "pct": "downgrade",
+        "why": "Core Scientific downgraded to Market Perform at Keefe Bruyette, tgt $25. Crypto mining name under pressure from multiple sides: regulatory uncertainty (Clarity Act blocked by Senate Dems, needs 60 votes), plus valuation reset post-rally."
       },
       {
-        "ticker": "LMT",
-        "pct": "pullback",
-        "why": "Defense rotation that fueled LMT +6.5% last week is losing its geopolitical premium as US-Iran ceasefire holds. Risk-off defense trade unwinding with oil. Likely to give back some of Thursday's gap-up gains."
+        "ticker": "STLA",
+        "pct": "downgrade",
+        "why": "Stellantis downgraded to Underweight at Piper Sandler, tgt $4. Tariffs 'likely here to stay' (Reuters) = structural auto sector headwind. European automakers are the direct victims of persistent White House tariff policy."
       }
     ],
     "darkpool": [
@@ -12105,11 +12105,11 @@
     "mag7_0dte": {
       "ticker": "MU",
       "bias": "BULL",
-      "pattern": "DP Flow Leader — $2.9B bid-side session total, $452M largest single name print (AH Friday). Memory names (MU/SNDK/NVDA) all bid-side for second consecutive week.",
-      "flow": "MU leads all single-name DP flow on the board. SNDK $2.0B bid, NVDA $1.9B bid behind it. The memory cluster is the dominant institutional theme heading into this week. Risk-on open (Nasdaq +1%) on Iran ceasefire is the macro tailwind. Last week MU was bid-side going into Monday, then ran 12.5% Tuesday — same cluster setting up again.",
-      "catalyst": "No specific same-day catalyst (no earnings), but the institutional bid-side flow cluster + Nasdaq risk-on reversal + memory name DP dominance is the setup. Watch how MU responds to the 10 AM candle. If risk-on holds and MU clears the prior close with volume, the DP lean converts to price action.",
-      "key_levels": "Floor: prior close. Trigger: clear prior close + 10 AM candle hold. Target: measured move extension on Nasdaq +1% tape. Stop: prior close breaks on the downside.",
-      "expected_move": "$4-10 range depending on how the Nasdaq +1% open resolves — pure tape-driven day with no specific catalyst",
+      "pattern": "DP Flow Cluster — $2.9B bid-side leads all single names, $452M largest single print (AH). MU/SNDK/NVDA all bid for the second consecutive week.",
+      "flow": "MU leads all single-name DP flow Friday ($2.9B bid, $452M AH print). SNDK $2.0B bid, NVDA $1.9B bid behind it. RISK: AAPL lobbying White House to allow Chinese memory chips — MU is directly opposing the plan. CXMT +466% in Shanghai debut = Chinese DRAM getting a public valuation. Bid-side is a lean — pair with 10 AM candle.",
+      "catalyst": "Institutional DP bid cluster + Nasdaq risk-on (+1.36%) + memory names all bid-side. Key test: if MU clears prior close on the 10 AM candle despite the AAPL/Chinese chips headwind, the DP lean is converting to price. If it can't clear prior close with Nasdaq +1.36%, the China story is weighing.",
+      "key_levels": "Floor: prior close. Trigger: break above prior close + 10 AM candle hold. Target: measured move on Nasdaq risk-on. Stop: prior close breaks to the downside.",
+      "expected_move": "$5-12 intraday range — DP bid lean vs AAPL/Chinese chips political headwind creates tension",
       "expected_move_pct": "2-4%"
     },
     "trump_stocks": [
@@ -12133,10 +12133,11 @@
       }
     ],
     "trump_context": [
-      "US and Iran paused strikes over the weekend — Trump's maximum pressure campaign entered a ceasefire window. This single headline reversed the oil trade: Brent and WTI both tumbling toward high $80s, giving back the war premium that had been driving inflation fears all month. XOM, XLE, USO, OXY all losing the geopolitical bid.",
-      "With oil pulling back from near $100, the inflation scare that was pricing a Fed hike this week loses some urgency. Trump's energy policy goal has been lower oil prices — the ceasefire is delivering that, at least temporarily. Watch Trump's public statements on Iran; any escalation or breakdown in the pause immediately reverses the energy trade.",
-      "OKLO and X-Energy remain on the nuclear watch list regardless of the Iran ceasefire — Trump's executive push for advanced reactors for AI data center power is a separate and ongoing policy thread. Any nuclear deployment or regulatory announcement is an intraday mover for both names.",
-      "The ORCL/NVDA/OpenAI data-center story has a Trump angle: the administration has been supporting domestic AI infrastructure buildout. A major NVDA-financed data center deal with OpenAI is consistent with Trump's stated goal of keeping AI leadership in the US."
+      "UN Ambassador Waltz confirmed Trump ordered the Iran strike pause to give diplomacy 'some space' — but also confirmed more military assets are moving into the region and denied weapon stockpile depletion reports. Iran and Oman are discussing reopening the Strait of Hormuz. The Houthis are still firing missiles and drones at Saudi Arabia. This is a tactical pause, not a peace deal. XOM/XLE/USO are selling the relief trade — but the geopolitical risk premium is not gone.",
+      "White House tariffs are likely here to stay (Reuters) — Trump's trade policy is becoming a structural fixture, not a negotiating chip. STLA (Stellantis) downgraded to Underweight on this thesis. Auto sector is the primary ongoing victim. Watch for any tariff exemption news as an instant reversal catalyst.",
+      "The 'Clarity Act' crypto bill needs 60 Senate votes and Senate Democrats are blocking it citing Trump's personal crypto windfall. CIFR and CORZ are the direct read-throughs. Bitcoin +1% today despite the legislative headwind.",
+      "Heat waves are straining U.S. power grids amid data center demand (Bloomberg). This directly connects to Trump's nuclear energy push (OKLO, XE) — the power capacity crisis is real and accelerating. Any executive action on grid capacity or nuclear deployment is an intraday mover for nuclear names.",
+      "NVDA's $250B OpenAI Ohio data center commitment is aligned with Trump's 'Keep AI in America' stance. The administration has been supportive of domestic AI infrastructure buildout. Any White House comment endorsing the deal moves NVDA and ORCL."
     ],
     "events": [
       {
@@ -12158,6 +12159,18 @@
       {
         "type": "FlowMS",
         "detail": "FlowMS Edge Indicator: Strat Helper with FTFC strip and alerts goes live after market close today. Order block detection ships later this week."
+      },
+      {
+        "type": "Economic",
+        "detail": "Thursday — June PCE Inflation + Q2 GDP. Two of the Fed's most-watched data points, the day AFTER the Fed decision. Massive one-two punch for market direction into August."
+      },
+      {
+        "type": "Central Bank",
+        "detail": "Bank of Japan policy decision this week — BOJ has been moving toward normalization. Any rate hike signal moves yen carry trades and U.S. bond yields."
+      },
+      {
+        "type": "Earnings this week",
+        "detail": "Also reporting this week: QCOM, Visa (V), Mastercard (MA) — all critical reads on semiconductor demand, consumer spending, and cross-border activity."
       }
     ],
     "earnings_bmo": [
