@@ -11900,7 +11900,7 @@
   "2026-07-28": {
     "headline": "US-Iran ceasefire sends oil to $84, Nasdaq futures +1.36%. NVDA $250B OpenAI Ohio data center commitment. AAPL lobbying for Chinese memory chips — MU opposes. CXMT +466% Shanghai debut. Fed decision Wed, META+MSFT Wed AMC, AAPL+AMZN Thu AMC.",
     "overview": "The weekend reset the board. The US and Iran paused strikes, UN Ambassador Waltz confirmed Trump ordered the halt to give diplomacy 'some space' — but added more military assets are moving into the region and weapon stockpile reports were denied. Iran and Oman are also discussing reopening the Strait of Hormuz. The Houthis are still firing at Saudi Arabia. This is a diplomatic pause, not a peace deal — but markets are taking the relief trade. WTI tumbling -5.9% to $84.03, Brent below $90. Nasdaq futures +1.36% (+385 pts), S&P +0.87%, DJIA +1.10%, Russell +1.15%. VIX -3.5%. Bitcoin +1%. The week stacked in front of us is the biggest of the year: Fed decision Wednesday 2pm (Chair Warsh, live hike 1-in-3 odds), META + MSFT Wednesday AMC, AAPL + AMZN Thursday AMC, June PCE inflation and Q2 GDP Thursday, Bank of Japan decision, and QCOM + V + MA also reporting. Two stories defining the AM: NVDA is in discussions to provide a $250B backstop for OpenAI's massive Ohio data center project — confirming AI infrastructure spend at a scale that reframes the capex debate. On the other side, Apple is lobbying the White House to allow Chinese memory chips in their devices while Micron is directly opposing the plan — a direct threat to MU's privileged domestic supply position that needs to be watched. CXMT, the Chinese DRAM producer, surged 466% in its Shanghai trading debut this morning, validating the memory-chip AI demand thesis from the other side of the globe. Today is the setup day. Wednesday decides everything.",
-    "market_context": "S&P 500 futures +0.87% (+65 pts), Nasdaq +1.36% (+385 pts), DJIA +1.10% (+573 pts), Russell 2000 +1.15% (+33 pts). WTI crude -5.9% to $84.03/bbl, nat gas -3.3% to $2.79/mmbtu. 10-yr yield -3-4 bps to 4.64-4.65%, 2-yr yield -1bp to 4.32%. U.S. Dollar Index -0.09 to 101.38. Gold +0.5% to $4,089/oz, copper +0.5% to $6.39/lb. VIX -3.5%. Bitcoin +1%. Iran ceasefire confirmed by UN Amb. Waltz — diplomatic pause but more military assets moving to region; Strait of Hormuz reopening discussions with Oman; Houthis still firing at Saudi Arabia. Europe broadly higher +0.75-1.25%: autos, banks, retailers, tech leading; utilities, energy lagging. Germany IFO Expectations Index beat. Asia broadly higher: Shenzhen, Australia, Japan, China leading. Singapore unexpectedly tightened for second consecutive meeting on inflation. CXMT +466% in Shanghai debut (Chinese DRAM) — memory AI demand confirmed globally. NVDA in discussions for $250B OpenAI Ohio data center commitment. AAPL lobbying White House to use Chinese memory chips; MU directly opposing the plan. Heat waves straining U.S. power grids on data center demand. White House tariffs likely here to stay (Reuters). Durable Goods Orders 8:30 AM (consensus +2.0%).",
+    "market_context": "S&P 500 futures +0.87% (+65 pts), Nasdaq +1.36% (+385 pts), DJIA +1.10% (+573 pts), Russell 2000 +1.15% (+33 pts). WTI crude -5.9% to $84.03/bbl, nat gas -3.3% to $2.79/mmbtu. 10-yr yield -3-4 bps to 4.64-4.65%, 2-yr yield -1bp to 4.32%. U.S. Dollar Index -0.09 to 101.38. Gold +0.5% to $4,089/oz, copper +0.5% to $6.39/lb. VIX -3.5%. Bitcoin +1%. Iran ceasefire confirmed by UN Amb. Waltz — diplomatic pause but more military assets moving to region; Strait of Hormuz reopening discussions with Oman; Houthis still firing at Saudi Arabia. Europe broadly higher +0.75-1.25%: autos, banks, retailers, tech leading; utilities, energy lagging. Germany IFO Expectations Index beat. Asia broadly higher: Shenzhen, Australia, Japan, China leading. Singapore unexpectedly tightened for second consecutive meeting on inflation. CXMT +466% in Shanghai debut (Chinese DRAM) — memory AI demand confirmed globally. NVDA in discussions for $250B OpenAI Ohio data center commitment. AAPL lobbying White House to use Chinese memory chips; MU directly opposing the plan. Heat waves straining U.S. power grids on data center demand. White House tariffs likely here to stay (Reuters). Durable Goods Orders 8:30 AM (consensus +2.0%). Memory complex confirming the DP bid lean: MU +2.5%, SNDK +3.6%, SK Hynix +4.7% premarket on CXMT +466% Shanghai momentum. Energy names getting crushed on oil: XOM -3.2%, CVX -2.7%, APA/DVN/FANG all -4%. D-Wave Quantum (QBTS) +7% on AT&T AI partnership; IonQ +4.5%, Rigetti +3.8% — quantum complex moving. Baker Hughes (BKR) +2.2% on Q2 beat with guidance to midpoint. Forte Biosciences (FTRE) +39% on Argenx ($2.2B cash acquisition at $77/share, 40% premium). AMKR +2.4% into earnings AMC today.",
     "bulls": [
       {
         "ticker": "NVDA",
@@ -11909,8 +11909,8 @@
       },
       {
         "ticker": "MU",
-        "pct": "bidside",
-        "why": "Leads all single-name DP flow at $2.9B (bid) with the largest single print at $452M (bid, AH). Memory cluster — MU, SNDK, NVDA all bid-side for the second straight week. Bid-side is a lean, but that volume clustering is significant heading into a tech-heavy week."
+        "pct": "+2.5%",
+        "why": "DP bid lean is ALREADY converting to price. MU +2.5% premarket as CXMT +466% Shanghai debut carries over to U.S.-listed memory names. SK Hynix +4.7%, SNDK +3.6% alongside it. The whole memory complex is bid — AI-driven DRAM demand confirmed globally. The DP $2.9B bid cluster from Friday is paying off."
       },
       {
         "ticker": "AAPL",
@@ -11926,18 +11926,23 @@
         "ticker": "HOOD",
         "pct": "gap up",
         "why": "Robinhood in discussions with Crypto.com to expand prediction markets (WSJ). Bullish gapper with DP on FlowMS board. Crypto +1% (Bitcoin). Prediction markets + crypto expansion = two catalysts stacking."
+      },
+      {
+        "ticker": "QBTS",
+        "pct": "+7%",
+        "why": "D-Wave Quantum announced AT&T partnership to use annealing quantum computers for AT&T's AI efforts. Quantum complex ripping in sympathy: IonQ (IONQ) +4.5%, Rigetti (RGTI) +3.8%. Quantum computing getting a fresh catalyst day alongside the AI infrastructure theme."
       }
     ],
     "bears": [
       {
-        "ticker": "USO",
-        "pct": "gap down",
-        "why": "Bearish gapper with DP on FlowMS board. US-Iran strike pause deflating the war premium that drove oil toward $100 last week. WTI/Brent both retreating toward high $80s. USO is the cleanest expression of this reversal."
+        "ticker": "XOM",
+        "pct": "-3.2%",
+        "why": "ExxonMobil -3.2% premarket as oil gives back the Iran war premium. US-Iran attacks paused, Strait of Hormuz discussions with Oman — energy complex selling hard. CVX -2.7%, APA/DVN/FANG all -4%. The rotation OUT of energy is violent and broad."
       },
       {
-        "ticker": "EOG",
-        "pct": "gap down",
-        "why": "Bearish gapper with DP on board. Energy names broadly under pressure as oil gives back the Iran risk premium. EOG/XOM/OXY all in the rotation-out category today."
+        "ticker": "CVX",
+        "pct": "-2.7%",
+        "why": "Chevron -2.7% on oil selloff. Same Iran ceasefire trade as XOM — war premium deflating fast. Energy group following oil lower with WTI -5.9% to $84.03."
       },
       {
         "ticker": "IWM",
@@ -12106,11 +12111,11 @@
       "ticker": "MU",
       "bias": "BULL",
       "pattern": "DP Flow Cluster — $2.9B bid-side leads all single names, $452M largest single print (AH). MU/SNDK/NVDA all bid for the second consecutive week.",
-      "flow": "MU leads all single-name DP flow Friday ($2.9B bid, $452M AH print). SNDK $2.0B bid, NVDA $1.9B bid behind it. RISK: AAPL lobbying White House to allow Chinese memory chips — MU is directly opposing the plan. CXMT +466% in Shanghai debut = Chinese DRAM getting a public valuation. Bid-side is a lean — pair with 10 AM candle.",
-      "catalyst": "Institutional DP bid cluster + Nasdaq risk-on (+1.36%) + memory names all bid-side. Key test: if MU clears prior close on the 10 AM candle despite the AAPL/Chinese chips headwind, the DP lean is converting to price. If it can't clear prior close with Nasdaq +1.36%, the China story is weighing.",
+      "flow": "MU +2.5% premarket — the DP bid lean IS converting to price. CXMT +466% Shanghai debut carried directly into U.S.-listed memory: SK Hynix +4.7%, SNDK +3.6%, MU +2.5%. The AAPL/Chinese chips story is a risk but not stopping the move premarket. $2.9B bid-side DP + $452M single print + Nasdaq +1.36% + CXMT momentum = all four inputs pointing the same direction this morning.",
+      "catalyst": "CXMT +466% Shanghai debut proving AI-driven DRAM demand is real and global. Memory complex follow-through: SK Hynix +4.7%, SNDK +3.6%, MU +2.5% already in premarket. DP bid lean confirmed by price. Watch the 10 AM candle — if MU holds its premarket gains through the open flush, the continuation trade is on.",
       "key_levels": "Floor: prior close. Trigger: break above prior close + 10 AM candle hold. Target: measured move on Nasdaq risk-on. Stop: prior close breaks to the downside.",
-      "expected_move": "$5-12 intraday range — DP bid lean vs AAPL/Chinese chips political headwind creates tension",
-      "expected_move_pct": "2-4%"
+      "expected_move": "$6-15 intraday range — premarket already +2.5%, continuation higher if 10 AM candle holds",
+      "expected_move_pct": "3-5%"
     },
     "trump_stocks": [
       {
@@ -12133,7 +12138,7 @@
       }
     ],
     "trump_context": [
-      "UN Ambassador Waltz confirmed Trump ordered the Iran strike pause to give diplomacy 'some space' — but also confirmed more military assets are moving into the region and denied weapon stockpile depletion reports. Iran and Oman are discussing reopening the Strait of Hormuz. The Houthis are still firing missiles and drones at Saudi Arabia. This is a tactical pause, not a peace deal. XOM/XLE/USO are selling the relief trade — but the geopolitical risk premium is not gone.",
+      "UN Ambassador Waltz confirmed Trump ordered the Iran strike pause to give diplomacy 'some space' — but also confirmed more military assets are moving into the region and denied weapon stockpile depletion reports. Iran and Oman are discussing reopening the Strait of Hormuz. The Houthis are still firing missiles and drones at Saudi Arabia. This is a tactical pause, not a peace deal. XOM/XLE/USO are selling the relief trade — but the geopolitical risk premium is not gone. Energy complex is selling the ceasefire hard: XOM -3.2%, CVX -2.7%, APA/DVN/FANG -4%. Baker Hughes CEO referenced 'favorable underlying fundamentals as we manage through Middle East uncertainty' — the geopolitical overhang is still there even with the pause.",
       "White House tariffs are likely here to stay (Reuters) — Trump's trade policy is becoming a structural fixture, not a negotiating chip. STLA (Stellantis) downgraded to Underweight on this thesis. Auto sector is the primary ongoing victim. Watch for any tariff exemption news as an instant reversal catalyst.",
       "The 'Clarity Act' crypto bill needs 60 Senate votes and Senate Democrats are blocking it citing Trump's personal crypto windfall. CIFR and CORZ are the direct read-throughs. Bitcoin +1% today despite the legislative headwind.",
       "Heat waves are straining U.S. power grids amid data center demand (Bloomberg). This directly connects to Trump's nuclear energy push (OKLO, XE) — the power capacity crisis is real and accelerating. Any executive action on grid capacity or nuclear deployment is an intraday mover for nuclear names.",
@@ -12179,7 +12184,9 @@
       "UHS",
       "CDNS"
     ],
-    "earnings_amc": [],
+    "earnings_amc": [
+      "AMKR"
+    ],
     "morning_prep": {
       "theme": "Today is a positioning day, not a trend day. The Iran ceasefire opens green — but the Fed decision Wednesday and four Mag7 earnings in 48 hours mean every position you carry into Wednesday carries two-way risk. Use today to set up the right names at the right sizes. Memory cluster (MU/SNDK/NVDA) is the dominant DP theme. NVDA 3 Bar/Outside is the strongest single setup. Respect the Strat — let the setups come to you.",
       "rules": [
