@@ -12196,61 +12196,59 @@
       "AMKR"
     ],
     "morning_prep": {
-      "theme": "Today is a positioning day, not a trend day. The Iran ceasefire opens green — but the Fed decision Wednesday and four Mag7 earnings in 48 hours mean every position you carry into Wednesday carries two-way risk. Use today to set up the right names at the right sizes. Memory cluster (MU/SNDK/NVDA) is the dominant DP theme. NVDA 3 Bar/Outside is the strongest single setup. Respect the Strat — let the setups come to you.",
+      "theme": "FOMC Wednesday — protect capital above all else. Four clean Strat setups on the board today, all confirmed triggers or near-trigger. No trigger = no trade. Size small into Wednesday. The week's real money is made AFTER the Fed, not before it.",
       "rules": [
-        "Don't chase the green open. The Nasdaq +1% gap is Iran ceasefire relief, not a trend. Let the 10 AM candle show whether buyers sustain it or it fades.",
-        "Position size into Wednesday's Fed decision — hike odds at 1-in-3 means two-way risk is REAL. If you're holding through the 2pm decision, size as if you're holding through a 1% gap in either direction.",
-        "Memory names (MU, SNDK) are the flow leaders — but bid-side is a lean. Pair with PA. MU was bid-side last Monday then ran 12.5% Tuesday. Same cluster, different context (Fed week). Size accordingly.",
-        "NVDA 3 Bar/Outside + ORCL/OpenAI catalyst = the strongest setup on the board. Wait for the outside bar high trigger — do not buy the pre-market spike.",
-        "SMH $530P block into month-end = institutional hedge on semis. Don't ignore it even with the bullish open. The market is buying calls and hedging with puts simultaneously.",
-        "Inside (1) names — AMZN, SHOP — are coils. Let them break and confirm at 10 AM. Do not anticipate direction.",
-        "Durable Goods 8:30 AM — any big print changes the Fed hike narrative immediately. Position exits or size reduction before the number if you're in rate-sensitive names.",
-        "Energy (USO, EOG, XOM): bearish gappers on the Iran ceasefire oil reversal. Short the bounce on oil names, not the open gap."
+        "FOMC is Wednesday at 2pm — every position you hold into that decision carries two-way risk. Manage size accordingly. Do not get greedy chasing Monday setups at full size.",
+        "No trigger = no trade. All four setups below require either ORB confirmation or pre-market high breakout before entry. Do not anticipate. Let price prove the setup.",
+        "10-min ORB is the confirmation tool today — wait for the opening range to form (first 10 minutes), then enter on the break of that range in the direction of the setup.",
+        "AXP and UAL have already triggered their Strat patterns — entry is on reclaim of PM high with 10-min ORB, not on the open.",
+        "VZ and GM are the two names that haven't triggered yet — watch their specific levels ($46.44 and $85.47) for the setup to fire.",
+        "Don't overload the account going into Wednesday. One or two clean setups at smaller size beats four setups at full size into an FOMC landmine."
       ],
       "setups": [
         {
-          "ticker": "NVDA",
+          "ticker": "VZ",
           "tier": 1,
-          "strat": "3 Bar / Outside",
+          "strat": "3-2 Day",
           "bias": "BULL",
-          "catalyst": "3 Bar/Outside Strat setup — most powerful pattern on the board. ORCL/OpenAI data center financing story breaking this morning. $1.9B bid-side DP, conference in 5 days. Nasdaq risk-on tailwind.",
-          "levels": "Trigger: break above outside bar high with confirming volume. Do not buy the gap. Target: measured move from outside bar range.",
-          "bull": "Outside bar high triggers — ORCL catalyst + memory bid + setup confirm. Momentum into conference.",
-          "bear": "Outside bar high holds — no follow-through, compression into later catalysts.",
-          "note": "Strongest individual setup on today's board. Three-layer confirmation: Strat pattern + DP flow + named catalyst. Let price trigger, don't front-run."
+          "catalyst": "3-2 Day pattern — outside bar followed by inside compression, triggering at the day level. Strong technical setup on a telecom name that benefits from falling yields and the risk-on tape.",
+          "levels": "Trigger: $46.44 (3-2 Day level). Confirmation: 10-min Opening Range Breakout above $46.44. No ORB confirmation = no entry.",
+          "bull": "ORB confirms above $46.44 — continuation higher. Yield pullback (10yr -3bps) is a tailwind for VZ as a dividend/yield-sensitive name.",
+          "bear": "$46.44 trigger doesn't hold or ORB fails to confirm — stand aside. No trigger = no trade.",
+          "note": "The ORB is required here. Price printing above $46.44 without ORB confirmation is noise — wait for the 10-min range to break with conviction."
         },
         {
-          "ticker": "MU",
+          "ticker": "GM",
           "tier": 1,
-          "strat": "DP Flow Leader / Momentum",
+          "strat": "Failed 2-Down Quarter",
           "bias": "BULL",
-          "catalyst": "$2.9B bid-side session flow leads all single names. $452M largest single print. Memory cluster with SNDK/NVDA. Risk-on tape + DP bid = dual tailwind.",
-          "levels": "Trigger: clear prior close with volume on the 10 AM candle. Floor: prior close support on Nasdaq fade.",
-          "bull": "10 AM candle holds above prior close — bid-side DP converts to price. Memory names lead the tape.",
-          "bear": "Nasdaq fades the open gap — MU stays rangebound. Bid-side is a lean, not a direction.",
-          "note": "This is the 0DTE Explosive Move Watch pick today. Same cluster as last Monday pre-12.5% run. Different macro context (Fed week) — size smaller than last week."
+          "catalyst": "Failed 2-Down at the quarterly time frame — strongest Strat reversal on a longer time horizon. GM upgraded to Buy at Jefferies (tgt $99) this morning. Target is all-time highs. Quarterly trigger at $85.47.",
+          "levels": "Trigger: $85.47 (Failed 2-Down Quarter). All-time high is the target above. Floor: below $85.47 = no setup.",
+          "bull": "$85.47 triggers and holds — quarterly reversal confirmed, run toward all-time highs. Jefferies upgrade ($99 target) is the fundamental confirmation.",
+          "bear": "$85.47 rejects — quarterly setup not confirmed. Wait for another entry point or stand aside.",
+          "note": "Failed 2-Down on a quarterly timeframe is a big-picture setup. The Jefferies upgrade to $99 pairs with the technical level — two independent inputs pointing the same direction."
         },
         {
-          "ticker": "AMZN",
-          "tier": 2,
-          "strat": "Inside (1) / Pre-Earnings Watch",
-          "bias": "WATCH",
-          "catalyst": "Inside (1) compression coil with earnings Thursday AMC. The tighter it coils today, the bigger the Thursday reaction. AWS guidance is the key metric for the AI infrastructure trade.",
-          "levels": "Watch Inside (1) high and low. 10 AM candle break = direction signal. No trade before 10 AM.",
-          "bull": "Risk-on resolves Inside (1) higher — pre-earnings accumulation begins.",
-          "bear": "Inside (1) fails — chop, wait for Thursday. AWS capex guidance the key question.",
-          "note": "AMZN earnings Thursday = same 48-hour window as the Fed decision. Two-way risk on this name is elevated. Size small if positioning."
+          "ticker": "AXP",
+          "tier": 1,
+          "strat": "Failed 2-Down Day",
+          "bias": "BULL",
+          "catalyst": "Coming out of daily support. Failed 2-Down Day has already triggered at $329. Setup is live — now watching for entry confirmation over pre-market high with 10-min ORB.",
+          "levels": "Trigger: ALREADY FIRED at $329. Entry: reclaim and hold above pre-market high with 10-min ORB confirmation. Do not chase below PM high.",
+          "bull": "ORB confirms above PM high — daily support held, Failed 2D continuation higher.",
+          "bear": "Fails to reclaim PM high after ORB — trigger fired but no follow-through. Stand aside.",
+          "note": "Setup is already triggered — this is about timing the entry correctly, not waiting for the trigger. Pre-market high + 10-min ORB is your entry gate."
         },
         {
-          "ticker": "USO",
+          "ticker": "UAL",
           "tier": 2,
-          "strat": "Bearish Gapper / Oil Reversal",
-          "bias": "BEAR",
-          "catalyst": "Bearish gapper with DP. Oil losing war premium on US-Iran ceasefire. WTI/Brent retreating toward high $80s from near $100 last week.",
-          "levels": "Short trigger: bounce to 30-min high fails. Floor: premarket low. Target: measured move below PM low.",
-          "bull": "Iran ceasefire breaks down — oil spikes back. Re-escalation reverses the trade instantly.",
-          "bear": "Ceasefire holds — oil continues to deflate. USO bearish gapper fades all session.",
-          "note": "EOG and XOM are the equity expressions of the same trade. React to Iran headlines — the ceasefire could break at any point."
+          "strat": "Failed 2-Down Week",
+          "bias": "BULL",
+          "catalyst": "Failed 2-Down Week has already triggered — weekly timeframe reversal setup is live. Airlines benefiting from oil pullback (WTI -5.9% to $84) reducing fuel cost pressure. Entry on reclaim of PM high with 10-min ORB.",
+          "levels": "Trigger: ALREADY FIRED (weekly level). Entry: reclaim and hold above pre-market high with 10-min ORB. Floor: below PM low = exit.",
+          "bull": "ORB confirms above PM high — weekly reversal continuation. Lower oil = direct margin benefit for UAL.",
+          "bear": "Fails PM high on ORB — weekly trigger fired but no intraday follow-through. Stand aside.",
+          "note": "Weekly Failed 2-Down is a longer-duration setup — the reversal may take multiple sessions. Today's entry is the first opportunity. Oil down -5.9% is the fundamental tailwind: airlines are direct beneficiaries of the Iran ceasefire oil drop."
         }
       ]
     }
