@@ -12119,22 +12119,28 @@
     },
     "trump_stocks": [
       {
-        "ticker": "XOM"
+        "ticker": "XOM",
+        "news": "Energy selloff on Iran ceasefire — WTI -5.9% to $84. War premium deflating."
       },
       {
-        "ticker": "XLE"
+        "ticker": "XLE",
+        "news": "Energy ETF gap down; rotation OUT of energy as oil gives back Iran risk premium."
       },
       {
-        "ticker": "USO"
+        "ticker": "USO",
+        "news": "Bearish gapper with DP on board. Direct oil play — WTI to $84 on US-Iran strike pause."
       },
       {
-        "ticker": "OXY"
+        "ticker": "OXY",
+        "news": "Occidental -4% premarket. Iran ceasefire trade hitting all upstream E&P names."
       },
       {
-        "ticker": "OKLO"
+        "ticker": "OKLO",
+        "news": "Nuclear energy play — Trump advanced reactor program for AI data centers ongoing."
       },
       {
-        "ticker": "XE"
+        "ticker": "XE",
+        "news": "X-Energy — Trump nuclear AI infrastructure program. Watch for executive action updates."
       }
     ],
     "trump_context": [
