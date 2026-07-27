@@ -11896,5 +11896,335 @@
         }
       ]
     }
+  },
+  "2026-07-28": {
+    "headline": "US-Iran strikes pause over weekend — oil tumbles to high $80s, Nasdaq futures +1%. Fed decision Wednesday 2pm (live hike, 1-in-3 odds). META + MSFT report Wednesday AMC, AAPL + AMZN Thursday AMC. MU/SNDK/NVDA all bid-side, memory leading DP flow.",
+    "overview": "The weekend reset the board. The US and Iran paused strikes, and that single headline reversed the oil trade that had been driving the inflation scare all month. Brent and WTI are both tumbling back toward the high $80s, giving up the war premium, and futures are responding: Nasdaq 100 leading better than 1% out of the gate. After two weeks of oil dictating direction, the macro headwind is finally pulling in the market's favor — but only temporarily. This is the week everything gets decided. The Fed meets Tuesday and Wednesday, decision at 2:00 PM Wednesday with Chair Warsh's press conference at 2:30. This is a live meeting — hike odds sit at roughly one in three, sharply up from a week ago. And sitting in the exact same window: META and MSFT report Wednesday after the close, then AAPL and AMZN Thursday. Four of the Magnificent Seven and a live Fed decision in 48 hours. That is the biggest two-day risk stack of the year. Today is a positioning day — the tape opens green on the Iran news, but smart money is sizing into what makes sense before Wednesday volatility compresses everything. Memory names anchor the flow board: MU $2.9B bid-side, SNDK $2.0B bid, NVDA $1.9B bid — all three in the same bucket for the second week running. Bid-side is a lean, not a direction, but that is a lot of size clustering on the same group heading into the heaviest week of the season. NVDA is also the individual name to watch: 3 Bar/Outside setup on the Strat board plus reports Nvidia is in talks to help finance a massive OpenAI data-center project alongside Oracle.",
+    "market_context": "Nasdaq 100 futures +1%+, S&P +0.4%, risk-on reversal driven by US-Iran strikes pause over the weekend. Oil tumbling — Brent and WTI back toward high $80s as the war premium deflates. Friday closed mixed: S&P +0.05% to 7,411.98, Dow +235 (AAPL +3.5%), Nasdaq -0.64% to 24,975.82. Week was ugly for tech: Nasdaq -2.9% on AI capex fears and oil spike. Bright spot: July flash PMI showed business activity at 8-month high. This morning ORCL and NVDA in focus — reports Nvidia is in talks to help finance a massive OpenAI data-center build. DP board dominated by memory: MU $2.9B (bid), SNDK $2.0B (bid), NVDA $1.9B (bid). All three on the bid, MU leads with the largest single-name print ($452M AH). Bond market sizing up into the Fed: IEI (intermediate Treasuries) $324M bid + HYG (high-yield credit) $271M bid. MSFT $286M mixed, GOOGL $289M ask (still weighted from capex story). SMH $530P block for month-end = institutional semi hedge despite the bullish open. Durable goods orders 8:30 AM is the only scheduled data. Earnings today: WELL, NUE, UHS, CDNS.",
+    "bulls": [
+      {
+        "ticker": "NVDA",
+        "pct": "+1%+",
+        "why": "3 Bar/Outside Strat setup — most powerful pattern on the FlowMS board. Reports Nvidia in talks to help finance a massive OpenAI data-center project with Oracle. Conference in 5 days. $1.9B bid-side DP flow Friday. This is the single highest-conviction setup on the board today."
+      },
+      {
+        "ticker": "MU",
+        "pct": "bidside",
+        "why": "Leads all single-name DP flow at $2.9B (bid) with the largest single print at $452M (bid, AH). Memory cluster — MU, SNDK, NVDA all bid-side for the second straight week. Bid-side is a lean, but that volume clustering is significant heading into a tech-heavy week."
+      },
+      {
+        "ticker": "AAPL",
+        "pct": "+3.5% Fri",
+        "why": "Led the Dow +3.5% Friday on continued AI integration momentum. $166M bid-side DP print (AH). Earnings Thursday AMC — pre-earnings positioning building. Also has an AAPL $300P November put sweep ($2.5M) suggesting some hedging, but the directional DP flow is bid."
+      },
+      {
+        "ticker": "NBIS",
+        "pct": "gap up",
+        "why": "Bullish gapper with DP on the FlowMS board. Also has a $47.8M put block (NBIS $170P 8/7) but that's negotiated / structural — the gapper signal with DP support is the active read."
+      },
+      {
+        "ticker": "NOK",
+        "pct": "gap up",
+        "why": "Nokia bullish gapper with DP on board. Dividend tomorrow. Also sits in the less-than-3-prints filter — surfacing early before news confirms. One to watch before the catalyst becomes obvious."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "USO",
+        "pct": "gap down",
+        "why": "Bearish gapper with DP on FlowMS board. US-Iran strike pause deflating the war premium that drove oil toward $100 last week. WTI/Brent both retreating toward high $80s. USO is the cleanest expression of this reversal."
+      },
+      {
+        "ticker": "EOG",
+        "pct": "gap down",
+        "why": "Bearish gapper with DP on board. Energy names broadly under pressure as oil gives back the Iran risk premium. EOG/XOM/OXY all in the rotation-out category today."
+      },
+      {
+        "ticker": "IWM",
+        "pct": "lagging",
+        "why": "Failed 2-Up setup on FlowMS board. Small caps can't clear the prior range — still trapped inside daily and weekly range. Russell futures -0.14% even as Nasdaq leads +1%. The divergence between large-cap tech and small caps is widening."
+      },
+      {
+        "ticker": "GOOGL",
+        "pct": "heavy",
+        "why": "$289M ask-side DP print (AH Friday) — the only major reporting name from last week with ask-side flow. AI capex hangover from Wednesday's $195-205B guidance raise isn't clearing. Institutional sellers using strength to distribute."
+      },
+      {
+        "ticker": "LMT",
+        "pct": "pullback",
+        "why": "Defense rotation that fueled LMT +6.5% last week is losing its geopolitical premium as US-Iran ceasefire holds. Risk-off defense trade unwinding with oil. Likely to give back some of Thursday's gap-up gains."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$452M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Largest single-name print Friday. $2.9B total session flow — leads all single names. Memory cluster with SNDK/NVDA all bid-side."
+      },
+      {
+        "ticker": "GOOGL",
+        "size": "$289M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side — standing out as the only major reporting name with ask distribution. AI capex hangover still in the flow."
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$286M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed flow heading into Wednesday earnings. No directional lean — market undecided."
+      },
+      {
+        "ticker": "SNDK",
+        "size": "$256M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Second-largest single print, $2.0B total session. Also has the largest options block two weeks running: SNDK $2270C 1/15/27 at $85.7M."
+      },
+      {
+        "ticker": "LRCX",
+        "size": "$232M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed flow — semi equipment name watching AMD event and memory demand signals."
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$207M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "$1.9B total session flow (bid). 3 Bar/Outside setup + ORCL/OpenAI data center story this morning. Conference in 5 days."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$166M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side into Thursday earnings. +3.5% Friday. Also has AAPL $300P 11/20 at $2.5M put sweep — hedge, not direction."
+      },
+      {
+        "ticker": "GEV",
+        "size": "$159M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "GE Vernova returning bid-side after last week's earnings selloff. Buyers stepping back in at support."
+      },
+      {
+        "ticker": "SHEL",
+        "size": "$146M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side oil major — energy distribution consistent with Iran ceasefire oil selloff."
+      },
+      {
+        "ticker": "HON",
+        "size": "$138M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Honeywell mixed — industrials holding but not leading."
+      },
+      {
+        "ticker": "SMH",
+        "size": "$55.7M",
+        "side": "mixed",
+        "timing": "block",
+        "note": "Largest block of the week: SMH $530P 7/31/26 — semi hedge into month-end. Auctioned/negotiated, read side with care, but sizable protection into a huge week."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "NVDA",
+        "tier": 1,
+        "strat": "3 Bar / Outside",
+        "bias": "BULL",
+        "catalyst": "3 Bar/Outside — most powerful Strat setup. ORCL/OpenAI data center financing story breaking this morning. $1.9B bid-side DP + $207M single print. Conference in 5 days. Nasdaq +1% tailwind.",
+        "levels": "Trigger: break above the outside bar high. Wait for confirmation candle — don't buy the pre-market spike. Target: measured move from the outside bar range.",
+        "bull": "Outside bar high breaks with volume — ORCL catalyst + DP + setup all confirming. Momentum continuation into conference.",
+        "bear": "Outside bar high holds — consolidation, no follow-through on the ORCL story. Let it form.",
+        "note": "This is the single strongest technical setup on the board today. 3 Bar/Outside + DP + named catalyst = three-layer confirmation. Let price trigger — don't anticipate."
+      },
+      {
+        "ticker": "MU",
+        "tier": 1,
+        "strat": "Momentum / DP Leader",
+        "bias": "BULL",
+        "catalyst": "$2.9B bid-side flow leads all single names. $452M largest single print (AH). SNDK and NVDA also bid-side — memory cluster. Risk-on open with Nasdaq +1% is the macro tailwind.",
+        "levels": "Trigger: hold above prior close on Nasdaq risk-on open. Target: measured move extension. Floor: prior close support if Nasdaq fades.",
+        "bull": "Nasdaq holds the +1% open — MU extends bid-side flow into price action. Memory names lead the tape.",
+        "bear": "Risk-on fades, Nasdaq gives back gains — MU DP lean doesn't convert to price. Bid-side is a lean, not a direction.",
+        "note": "MU was bid-side Monday of last week then ran 12.5% Tuesday. Pattern repeating — but context is different: last week was a single earnings catalyst; this week is Fed + Mag7 earnings. Size accordingly."
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 2,
+        "strat": "Inside (1) / Pre-Earnings Compression",
+        "bias": "WATCH",
+        "catalyst": "Inside (1) on FlowMS Strat board — compression coil heading into Thursday earnings AMC. The Strat labels it a coil: wait for the break, don't anticipate direction.",
+        "levels": "Watch the Inside (1) high and low. Break above with volume = bull trigger. Break below = bear trigger. 10 AM is the key read after the opening range forms.",
+        "bull": "Risk-on open resolves the Inside (1) higher — pre-earnings buying starts early.",
+        "bear": "Inside (1) fails to resolve — chop until closer to the print. AWS guidance will be the key metric.",
+        "note": "Don't trade AMZN off the Monday open gap. It's an inside bar — wait for the 10 AM candle to show direction."
+      },
+      {
+        "ticker": "KLAC",
+        "tier": 2,
+        "strat": "3 Bar / Outside / Pre-Earnings",
+        "bias": "WATCH",
+        "catalyst": "3 Bar/Outside setup + earnings tomorrow (Tuesday). Unusual options volume in SNPS (neighbor name). Semi equipment names clustered going into the big week.",
+        "levels": "Trigger: break above outside bar high before earnings. Target: measured move. Stop: outside bar low.",
+        "bull": "Breaks the outside bar high ahead of earnings — buyers positioning bullish into the print.",
+        "bear": "Outside bar high holds — compression holds into the print, wait for the post-earnings reaction.",
+        "note": "Earnings tomorrow AMC — this is a pre-earnings setup. Size appropriately. Semi equipment demand is tied directly to the AI capex story that TSLA/GOOGL just complicated."
+      },
+      {
+        "ticker": "USO",
+        "tier": 2,
+        "strat": "Bearish Gapper / Iran Ceasefire Reversal",
+        "bias": "BEAR",
+        "catalyst": "Bearish gapper with DP on FlowMS board. Oil losing the war premium as US-Iran strikes pause over the weekend. WTI/Brent retreating toward high $80s from near-$100 last week.",
+        "levels": "Floor: premarket low. Short trigger: bounce to 30-min high fails. Target: new lows / measured move down.",
+        "bull": "Iran ceasefire breaks down — oil spikes back. Geopolitical re-escalation reverses the trade.",
+        "bear": "Ceasefire holds through the week — oil continues to give back the risk premium. USO gapper fades all session.",
+        "note": "EOG is the equity expression of the same trade. USO for direct oil exposure. XOM, OXY, XLE all in the same rotation-out bucket."
+      },
+      {
+        "ticker": "SNPS",
+        "tier": 2,
+        "strat": "3 Bar / Outside + Unusual Options",
+        "bias": "WATCH",
+        "catalyst": "3 Bar/Outside Strat setup with unusual options volume (FlowMS flag). SNPS is in EDA software — AI chip design tool demand tied directly to AMD/NVDA/INTC chip roadmaps.",
+        "levels": "Trigger: break above outside bar high. Unusual options volume confirms institutional interest.",
+        "bull": "AMD AI event + NVDA ORCL story drive chip design demand narrative — SNPS breaks out.",
+        "bear": "Outside bar high holds — AI design spend story stays quiet.",
+        "note": "Cross-check the unusual options volume filter for the specific strikes being hit. That adds context to which direction is being positioned."
+      }
+    ],
+    "mag7_0dte": {
+      "ticker": "MU",
+      "bias": "BULL",
+      "pattern": "DP Flow Leader — $2.9B bid-side session total, $452M largest single name print (AH Friday). Memory names (MU/SNDK/NVDA) all bid-side for second consecutive week.",
+      "flow": "MU leads all single-name DP flow on the board. SNDK $2.0B bid, NVDA $1.9B bid behind it. The memory cluster is the dominant institutional theme heading into this week. Risk-on open (Nasdaq +1%) on Iran ceasefire is the macro tailwind. Last week MU was bid-side going into Monday, then ran 12.5% Tuesday — same cluster setting up again.",
+      "catalyst": "No specific same-day catalyst (no earnings), but the institutional bid-side flow cluster + Nasdaq risk-on reversal + memory name DP dominance is the setup. Watch how MU responds to the 10 AM candle. If risk-on holds and MU clears the prior close with volume, the DP lean converts to price action.",
+      "key_levels": "Floor: prior close. Trigger: clear prior close + 10 AM candle hold. Target: measured move extension on Nasdaq +1% tape. Stop: prior close breaks on the downside.",
+      "expected_move": "$4-10 range depending on how the Nasdaq +1% open resolves — pure tape-driven day with no specific catalyst",
+      "expected_move_pct": "2-4%"
+    },
+    "trump_stocks": [
+      {
+        "ticker": "XOM"
+      },
+      {
+        "ticker": "XLE"
+      },
+      {
+        "ticker": "USO"
+      },
+      {
+        "ticker": "OXY"
+      },
+      {
+        "ticker": "OKLO"
+      },
+      {
+        "ticker": "XE"
+      }
+    ],
+    "trump_context": [
+      "US and Iran paused strikes over the weekend — Trump's maximum pressure campaign entered a ceasefire window. This single headline reversed the oil trade: Brent and WTI both tumbling toward high $80s, giving back the war premium that had been driving inflation fears all month. XOM, XLE, USO, OXY all losing the geopolitical bid.",
+      "With oil pulling back from near $100, the inflation scare that was pricing a Fed hike this week loses some urgency. Trump's energy policy goal has been lower oil prices — the ceasefire is delivering that, at least temporarily. Watch Trump's public statements on Iran; any escalation or breakdown in the pause immediately reverses the energy trade.",
+      "OKLO and X-Energy remain on the nuclear watch list regardless of the Iran ceasefire — Trump's executive push for advanced reactors for AI data center power is a separate and ongoing policy thread. Any nuclear deployment or regulatory announcement is an intraday mover for both names.",
+      "The ORCL/NVDA/OpenAI data-center story has a Trump angle: the administration has been supporting domestic AI infrastructure buildout. A major NVDA-financed data center deal with OpenAI is consistent with Trump's stated goal of keeping AI leadership in the US."
+    ],
+    "events": [
+      {
+        "type": "Economic",
+        "detail": "Preliminary Durable Goods Orders — 8:30 AM. Only scheduled data point today. A big miss or beat changes the Fed hike calculus heading into Wednesday's decision."
+      },
+      {
+        "type": "Fed",
+        "detail": "FOMC Meeting begins today (Tuesday-Wednesday). Decision at 2:00 PM Wednesday. Chair Warsh press conference at 2:30 PM. Live hike odds at roughly 1-in-3 — genuinely on the table. This is the biggest macro event of the week."
+      },
+      {
+        "type": "Earnings AMC this week",
+        "detail": "Wednesday AMC: META, MSFT. Thursday AMC: AAPL, AMZN. Four Magnificent Seven names in 48 hours, straddling the Fed decision. Biggest two-day risk window of the year."
+      },
+      {
+        "type": "Earnings BMO Today",
+        "detail": "WELL (Welltower), NUE (Nucor), UHS (Universal Health), CDNS (Cadence) report before the bell today."
+      },
+      {
+        "type": "FlowMS",
+        "detail": "FlowMS Edge Indicator: Strat Helper with FTFC strip and alerts goes live after market close today. Order block detection ships later this week."
+      }
+    ],
+    "earnings_bmo": [
+      "WELL",
+      "NUE",
+      "UHS",
+      "CDNS"
+    ],
+    "earnings_amc": [],
+    "morning_prep": {
+      "theme": "Today is a positioning day, not a trend day. The Iran ceasefire opens green — but the Fed decision Wednesday and four Mag7 earnings in 48 hours mean every position you carry into Wednesday carries two-way risk. Use today to set up the right names at the right sizes. Memory cluster (MU/SNDK/NVDA) is the dominant DP theme. NVDA 3 Bar/Outside is the strongest single setup. Respect the Strat — let the setups come to you.",
+      "rules": [
+        "Don't chase the green open. The Nasdaq +1% gap is Iran ceasefire relief, not a trend. Let the 10 AM candle show whether buyers sustain it or it fades.",
+        "Position size into Wednesday's Fed decision — hike odds at 1-in-3 means two-way risk is REAL. If you're holding through the 2pm decision, size as if you're holding through a 1% gap in either direction.",
+        "Memory names (MU, SNDK) are the flow leaders — but bid-side is a lean. Pair with PA. MU was bid-side last Monday then ran 12.5% Tuesday. Same cluster, different context (Fed week). Size accordingly.",
+        "NVDA 3 Bar/Outside + ORCL/OpenAI catalyst = the strongest setup on the board. Wait for the outside bar high trigger — do not buy the pre-market spike.",
+        "SMH $530P block into month-end = institutional hedge on semis. Don't ignore it even with the bullish open. The market is buying calls and hedging with puts simultaneously.",
+        "Inside (1) names — AMZN, SHOP — are coils. Let them break and confirm at 10 AM. Do not anticipate direction.",
+        "Durable Goods 8:30 AM — any big print changes the Fed hike narrative immediately. Position exits or size reduction before the number if you're in rate-sensitive names.",
+        "Energy (USO, EOG, XOM): bearish gappers on the Iran ceasefire oil reversal. Short the bounce on oil names, not the open gap."
+      ],
+      "setups": [
+        {
+          "ticker": "NVDA",
+          "tier": 1,
+          "strat": "3 Bar / Outside",
+          "bias": "BULL",
+          "catalyst": "3 Bar/Outside Strat setup — most powerful pattern on the board. ORCL/OpenAI data center financing story breaking this morning. $1.9B bid-side DP, conference in 5 days. Nasdaq risk-on tailwind.",
+          "levels": "Trigger: break above outside bar high with confirming volume. Do not buy the gap. Target: measured move from outside bar range.",
+          "bull": "Outside bar high triggers — ORCL catalyst + memory bid + setup confirm. Momentum into conference.",
+          "bear": "Outside bar high holds — no follow-through, compression into later catalysts.",
+          "note": "Strongest individual setup on today's board. Three-layer confirmation: Strat pattern + DP flow + named catalyst. Let price trigger, don't front-run."
+        },
+        {
+          "ticker": "MU",
+          "tier": 1,
+          "strat": "DP Flow Leader / Momentum",
+          "bias": "BULL",
+          "catalyst": "$2.9B bid-side session flow leads all single names. $452M largest single print. Memory cluster with SNDK/NVDA. Risk-on tape + DP bid = dual tailwind.",
+          "levels": "Trigger: clear prior close with volume on the 10 AM candle. Floor: prior close support on Nasdaq fade.",
+          "bull": "10 AM candle holds above prior close — bid-side DP converts to price. Memory names lead the tape.",
+          "bear": "Nasdaq fades the open gap — MU stays rangebound. Bid-side is a lean, not a direction.",
+          "note": "This is the 0DTE Explosive Move Watch pick today. Same cluster as last Monday pre-12.5% run. Different macro context (Fed week) — size smaller than last week."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 2,
+          "strat": "Inside (1) / Pre-Earnings Watch",
+          "bias": "WATCH",
+          "catalyst": "Inside (1) compression coil with earnings Thursday AMC. The tighter it coils today, the bigger the Thursday reaction. AWS guidance is the key metric for the AI infrastructure trade.",
+          "levels": "Watch Inside (1) high and low. 10 AM candle break = direction signal. No trade before 10 AM.",
+          "bull": "Risk-on resolves Inside (1) higher — pre-earnings accumulation begins.",
+          "bear": "Inside (1) fails — chop, wait for Thursday. AWS capex guidance the key question.",
+          "note": "AMZN earnings Thursday = same 48-hour window as the Fed decision. Two-way risk on this name is elevated. Size small if positioning."
+        },
+        {
+          "ticker": "USO",
+          "tier": 2,
+          "strat": "Bearish Gapper / Oil Reversal",
+          "bias": "BEAR",
+          "catalyst": "Bearish gapper with DP. Oil losing war premium on US-Iran ceasefire. WTI/Brent retreating toward high $80s from near $100 last week.",
+          "levels": "Short trigger: bounce to 30-min high fails. Floor: premarket low. Target: measured move below PM low.",
+          "bull": "Iran ceasefire breaks down — oil spikes back. Re-escalation reverses the trade instantly.",
+          "bear": "Ceasefire holds — oil continues to deflate. USO bearish gapper fades all session.",
+          "note": "EOG and XOM are the equity expressions of the same trade. React to Iran headlines — the ceasefire could break at any point."
+        }
+      ]
+    }
   }
 }
