@@ -12606,5 +12606,325 @@
         }
       ]
     }
+  },
+  "2026-07-29": {
+    "headline": "FOMC day: hold is base case (~2/3 odds) but hike sits near 1-in-3 — highest since the Fed stopped tightening. Oil +4.4% to $82.75 on Iran missile attack/US-Saudi strikes. MU dominates dark pool again ($4.8B, $2.3B single AH print, bid) as memory draws outsized attention into the Fed. META + MSFT report AMC — MSFT's FY27 capex guide ($255-260B vs ~$190B this year) is the number everyone's circling after Alphabet got punished for the same thing last week.",
+    "overview": "Good morning — it's Fed day, and it's a genuine toss-up. The decision lands at 2pm ET with Warsh's press conference at 2:30. A hold is the base case at roughly two-thirds odds, but a hike sits near one-in-three — the highest odds for any meeting since the Fed stopped tightening — so even a hold would land as relief. Current range is 3.50-3.75%. September is where the bigger bet lives, around 80% odds of a hike there. Warsh has been openly hawkish and has said he wants less forward guidance, so the press conference is as much the event as the decision itself. Then two of the Magnificent Seven report tonight: MSFT and META both go after the close. The number everyone's circling is MSFT's capex — its reported FY27 plan of $255-260B is a massive step up from ~$190B this year, and after Alphabet got punished for the exact same thing last week, the market is primed to react to the spend, not just the beat. META's AI capital plans are under the same microscope; options imply a 6% swing for META post-report. The rotation out of tech kept running Tuesday: the Dow climbed 537 points (+1.03%) to 52,747.32, a three-day winning streak, while the Nasdaq slipped 0.22% to 24,876.91 as semis stayed under pressure. AAPL briefly touched a $5T market cap, a first, a day after passing NVDA as the world's most valuable company. Oil is the other big mover — WTI +4.4% to $82.75 after Iran launched a surprise (intercepted) missile attack on U.S. targets in the Middle East; the U.S. worked with Saudi Arabia to strike Iran-backed militias in Iraq in response, and Iran rejected Oman's proposal to secure the Strait of Hormuz. Futures are modestly below fair value into the decision (S&P -0.2%, Nasdaq -0.5%, DJIA -0.7%), with SK Hynix's revenue miss (despite huge YoY growth) weighing on the memory/semis complex overnight. Earnings are dense today around the Fed: PG missed on revenue and guided light (-3%), while GEHC, MANH, TER, DB, GD, STX and F all beat/raised on the back of Tuesday's AMC prints. Dark pool flow is telling its own story — MU tops the board again at $4.8B with a rare $2.3B single AH print on the bid, and the memory group (SNDK's $124.5M call block) is clearly getting positioned into the Fed. No U.S. economic data of real note today outside a weekly ADP employment read — everything is pure positioning into 2pm/2:30pm and then the two mega-cap prints tonight.",
+    "market_context": "S&P 500 futures ~0.2% below fair value, Nasdaq 100 futures ~0.5% below fair value, DJIA futures ~0.7% below fair value ahead of the Fed decision. WTI crude +4.4% to $82.75/bbl (Iran missile attack/US-Saudi strikes), nat gas -0.9% to $2.68/mmbtu, copper -0.6% to $6.32/lb, gold -0.2% to $4,029.80/oz. 2-yr yield +3bps to 4.31%, 10-yr yield +3bps to 4.63%. U.S. Dollar Index flat at 101.44. No U.S. economic data of note today outside a weekly ADP read — everything is positioning into the 2pm FOMC decision. MBA Mortgage Applications Index -6.4% w/w. Senate voting to advance legislation authorizing up to 100% tariffs on countries buying Russian energy, plus new Iran sanctions (final Senate passage expected this week, House vote not until September). Europe won't support a joint naval Hormuz coalition until there's a lasting Iran ceasefire. Trump administration reportedly planning to end the Medicare drug plan subsidy program. Brokerage upgrades: BE, KMX, CAKE, PPRUY, LINE, MANH, SWGAY, TXN, UWMC, WPC, WFRD. Downgrades: BRO, CAT, CAKE, CSGP, DEO, GEMI, MPLX, OKE, RLI, YSS.",
+    "bulls": [
+      {
+        "ticker": "STX",
+        "pct": "+6%",
+        "why": "Seagate issued a first-quarter outlook that trounced estimates — adjusted EPS guide of ~$7.30 vs $5.80 consensus, revenue ~$4.1B vs $3.75B expected — as AI-driven cloud storage demand stayed exceptionally strong. Western Digital rose in sympathy."
+      },
+      {
+        "ticker": "GEHC",
+        "pct": "+12%",
+        "why": "GE HealthCare beat with adjusted EPS of $1.13 vs $1.04 consensus and reaffirmed full-year guidance."
+      },
+      {
+        "ticker": "MANH",
+        "pct": "+11%",
+        "why": "Manhattan Associates beat on both revenue and earnings and raised full-year profit and revenue forecasts — supply-chain software demand staying healthy."
+      },
+      {
+        "ticker": "TER",
+        "pct": "+9%",
+        "why": "Teradyne beat on Q2 adjusted earnings/revenue and guided Q3 profit and sales above Street estimates, supported by robust AI-related semiconductor testing demand."
+      },
+      {
+        "ticker": "DB",
+        "pct": "+2%",
+        "why": "Deutsche Bank posted a record after-tax quarterly profit of €1.9B; CFO said all business lines performed well."
+      },
+      {
+        "ticker": "GD",
+        "pct": "+~1%",
+        "why": "General Dynamics beat on both revenue and EPS with a $136.5B backlog — defense demand staying resilient."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "VRT",
+        "pct": "-13%",
+        "why": "Vertiv beat on earnings and revenue but organic revenue growth of 17.8% badly missed the 23.6% FactSet consensus — the market punishing the growth deceleration in an AI-infrastructure name, same pattern that hit Alphabet last week."
+      },
+      {
+        "ticker": "CSTR",
+        "pct": "-15%",
+        "why": "CoStar's Q2 revenue missed estimates and it guided current-quarter revenue to $935-945M, below the $967.5M consensus."
+      },
+      {
+        "ticker": "SWKS",
+        "pct": "-9%",
+        "why": "Skyworks' Q3 adjusted margin of 44.9% narrowly missed the 45.0% estimate; Q4 adjusted EPS guide of $1.27 came in just under the $1.28 LSEG consensus."
+      },
+      {
+        "ticker": "NXPI",
+        "pct": "-1.7%",
+        "why": "NXP's Q3 adjusted EPS guide of $3.89-4.32 straddles but leans below the $3.98 consensus despite in-line gross margin."
+      },
+      {
+        "ticker": "V",
+        "pct": "-2%",
+        "why": "Visa's FY26 guidance (mid-teens adjusted EPS growth) merely matched the 14.7% Street estimate rather than beating it, and the company said it would cut ~2,600 jobs (~7% of headcount) earlier in the day."
+      },
+      {
+        "ticker": "PPG",
+        "pct": "-1%",
+        "why": "PPG's Q2 EPS and adjusted EBITDA missed estimates, though the company reaffirmed full-year EPS guidance."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "MU",
+        "size": "$2.3B",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Single largest print on the entire board and the story of the day — rare size on one name, landing on the bid. MU also leads the flow board outright at $4.8B total session flow, well clear of SPY ($4.5B) and QQQ ($4.1B)."
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$672M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Second-largest single-name ex-ETF print, no clean directional lean."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$606M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side flow the same week AAPL passed NVDA as the world's most valuable company and briefly touched $5T market cap."
+      },
+      {
+        "ticker": "SNDK",
+        "size": "$462M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Memory group riding right behind MU on the bid — same group that saw the $124.5M SNDK call block."
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$287M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "The one clean ask-side name in the chip group while the rest of the board (including MU, AAPL, MSFT) leans bid."
+      },
+      {
+        "ticker": "ORCL",
+        "size": "$268M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed flow, no clear lean."
+      },
+      {
+        "ticker": "NEE",
+        "size": "$224M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed flow, no clear lean."
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$222M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Mixed flow in the chip complex."
+      },
+      {
+        "ticker": "GOOG",
+        "size": "$214M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, part of the broader tech bid-lean heading into the Fed."
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$199M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side flow heading into tonight's AMC print and the FY27 capex guide."
+      },
+      {
+        "ticker": "SMH",
+        "size": "$291M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Semis ETF mixed even as MU/SNDK dominate the single-name board — sector-level flow not as one-sided as the memory names within it."
+      },
+      {
+        "ticker": "SPY",
+        "size": "$502M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Broad index bid-side positioning into the FOMC decision; $4.5B total session flow, second only to MU."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "BE",
+        "tier": 1,
+        "strat": "Inside 6H (earnings reaction)",
+        "bias": "BULL",
+        "catalyst": "Delivered a major earnings beat Tuesday AMC — stronger revenue, expanding margins, higher guidance, management flagging accelerating AI data-center demand — and carries a bullish-kicker tag with DP on the board.",
+        "levels": "Inside 6H bar — look for a trigger after 10am. 10-min ORB entry is only valid if price holds above $190.51 (the bullish-kicker level).",
+        "bull": "Holds above $190.51 on the 10-min ORB — earnings beat, bullish kicker, and the Inside bar all resolving higher together.",
+        "bear": "Fails to hold $190.51 or the Inside bar breaks lower — stand aside, the setup didn't confirm.",
+        "note": "No trade before 10am — let the Inside 6H bar resolve first."
+      },
+      {
+        "ticker": "F",
+        "tier": 1,
+        "strat": "Inside 6H (earnings reaction)",
+        "bias": "WATCH",
+        "catalyst": "Beat Tuesday AMC and raised its FY26 Adjusted EBIT outlook to $10-11B, gapping/running higher into the close (bullish gapper w/ DP). Today's Inside 6H bar is the post-pop compression.",
+        "levels": "Inside 6H — no trigger until price breaks outside the bar after 10am. If still inside past 10am, that's the trigger window to watch.",
+        "bull": "Breaks the Inside 6H high — continuation of Tuesday's earnings pop.",
+        "bear": "Breaks the Inside 6H low — post-earnings pop fades on profit-taking.",
+        "note": "Non-directional coil — wait for the post-10am break, don't anticipate a side."
+      },
+      {
+        "ticker": "SOFI",
+        "tier": 2,
+        "strat": "Trampoline",
+        "bias": "WATCH",
+        "catalyst": "Reports earnings today AMC and sits in the Failed 2D bucket on the board — a bearish setup fighting for a reversal into a binary print.",
+        "levels": "Trampoline — no fixed level given; let the market show its hand before entering.",
+        "bull": "Bounces and holds pre-print — Failed 2D reversal confirms.",
+        "bear": "Rejects and breaks down pre-print — bearish lean into the report continues.",
+        "note": "Same-day AMC earnings — pre-print read only, the report resets everything after the close."
+      },
+      {
+        "ticker": "PG",
+        "tier": 2,
+        "strat": "Trampoline (Sleeper)",
+        "bias": "WATCH",
+        "catalyst": "Missed on revenue and guided light this morning (-3%), landing in the Failed 2U bucket as a bearish gapper with DP on the board.",
+        "levels": "Sleeper trampoline — no fixed trigger; watch for a bounce off the post-earnings selloff or continued breakdown.",
+        "bull": "Trampoline bounce holds — post-earnings selloff finds a floor.",
+        "bear": "No bounce, breaks lower — Failed 2U plus bearish gapper confirms further downside.",
+        "note": "Low-conviction 'sleeper' tag — small size, let price confirm before committing."
+      }
+    ],
+    "events": [
+      {
+        "type": "Fed",
+        "detail": "FOMC decision 2:00 PM ET, Chair Warsh press conference 2:30 PM. Hold is base case (~2/3 odds) but hike odds sit near 1-in-3 — the highest for any meeting since the Fed stopped tightening. Current range 3.50-3.75%. September sits around 80% hike odds. Warsh has been openly hawkish and wants less forward guidance — the presser is as much the event as the decision."
+      },
+      {
+        "type": "Earnings AMC Today",
+        "detail": "MSFT and META report after the close. MSFT's reported FY27 capex plan of $255-260B (vs ~$190B this year) is the number everyone's circling, especially after Alphabet was punished for the same story last week. META's AI capex plans are under the same scrutiny — options imply a 6% swing post-report. QCOM, ARM, SBUX, FTNT, SOFI, HOOD, WING, FVRR, ALGN, CWH, LMND also report tonight; options imply double-digit moves for WING, CWH, and LMND."
+      },
+      {
+        "type": "Earnings BMO Today",
+        "detail": "PG, HUM, BSX, BIIB report before the bell. Merck (MRK) holds all-day presentations at the AIDS Conference."
+      },
+      {
+        "type": "Geopolitical",
+        "detail": "Iran launched a surprise ballistic missile attack on U.S. targets in the Middle East — all missiles intercepted; the U.S. worked with Saudi Arabia to strike Iran-backed militias in Iraq in response. Iran rejected Oman's proposal to secure the Strait of Hormuz. Europe won't back a joint naval Hormuz coalition without a lasting Iran ceasefire."
+      },
+      {
+        "type": "Policy",
+        "detail": "Senate voting to advance legislation authorizing up to 100% tariffs on countries buying Russian energy, plus new Iran sanctions — final Senate passage expected this week, House vote not until September. Trump administration reportedly planning to end the Medicare drug plan subsidy program."
+      },
+      {
+        "type": "Market Structure",
+        "detail": "Dow +537 pts (+1.03%) Tuesday to 52,747.32, a three-day win streak; Nasdaq -0.22% to 24,876.91 as semis stayed pressured. AAPL briefly touched a $5T market cap, a day after passing NVDA as the world's most valuable company. MU still anchors the flow board."
+      },
+      {
+        "type": "Corporate",
+        "detail": "It's the closing date of Zijin Gold's takeover bid for Allied Gold (AAUC:CA) unless extended."
+      }
+    ],
+    "earnings_bmo": [
+      "PG",
+      "HUM",
+      "BSX",
+      "BIIB"
+    ],
+    "earnings_amc": [
+      "MSFT",
+      "META",
+      "SOFI",
+      "HOOD",
+      "QCOM",
+      "ARM",
+      "SBUX",
+      "FTNT",
+      "WING",
+      "FVRR",
+      "ALGN",
+      "CWH",
+      "LMND"
+    ],
+    "morning_prep": {
+      "theme": "Fed day — hold is the base case but hike odds are the highest they've been since tightening ended, and two Mag7 prints land tonight on top of it. Size small, demand confirmation before every entry, and let the 2pm/2:30pm decision do the heavy lifting rather than anticipating it.",
+      "rules": [
+        "FOMC decision 2pm ET, Warsh presser 2:30pm — every position held into that window carries two-way risk on top of already-binary MSFT/META earnings tonight. Manage size accordingly.",
+        "No trigger = no trade. BE and F are both Inside 6H bars — wait for the post-10am break, don't anticipate direction on either.",
+        "BE's 10-min ORB entry is only valid above $190.51 (bullish kicker) — no entry below that level regardless of how the open looks.",
+        "SOFI and HOOD both report AMC today — any pre-print technical read (Failed 2D on both) is early-session only; the print resets everything after the close.",
+        "PG and BSX already reported/report BMO today and sit in the Failed 2U bucket — let price confirm the sleeper/trampoline bounce or breakdown before sizing in.",
+        "MU dominates dark pool flow again ($4.8B, $2.3B single AH print on the bid) with no confirmed Strat trigger — treat it as a flow-led, not a chart-led, name today.",
+        "Don't overload the account into a coin-flip Fed decision. One or two clean, confirmed setups beats four at full size."
+      ],
+      "setups": [
+        {
+          "ticker": "BE",
+          "tier": 1,
+          "strat": "Inside 6H (earnings reaction)",
+          "bias": "BULL",
+          "catalyst": "Major earnings beat Tuesday AMC — revenue, margins, and guidance all higher, management citing accelerating AI data-center demand. Bullish-kicker tag with DP on the board.",
+          "levels": "Inside 6H bar — trigger after 10am. 10-min ORB entry only valid above $190.51 (bullish kicker level).",
+          "bull": "Holds above $190.51 on confirmed ORB — beat, kicker, and Inside bar all resolving higher.",
+          "bear": "Fails $190.51 or breaks the Inside bar lower — stand aside.",
+          "note": "No trade before 10am — let the bar resolve first."
+        },
+        {
+          "ticker": "F",
+          "tier": 1,
+          "strat": "Inside 6H (earnings reaction)",
+          "bias": "WATCH",
+          "catalyst": "Beat Tuesday AMC and raised FY26 Adjusted EBIT guidance, ran into the close as a bullish gapper w/ DP. Today's Inside 6H is the post-pop compression.",
+          "levels": "No trigger until price breaks outside the Inside 6H bar after 10am.",
+          "bull": "Breaks the Inside 6H high — continuation of Tuesday's pop.",
+          "bear": "Breaks the Inside 6H low — pop fades on profit-taking.",
+          "note": "Non-directional — wait for the post-10am break."
+        },
+        {
+          "ticker": "SOFI",
+          "tier": 2,
+          "strat": "Trampoline",
+          "bias": "WATCH",
+          "catalyst": "Earnings today AMC, sitting in the Failed 2D bucket — bearish setup fighting for a reversal into a binary print.",
+          "levels": "No fixed level — let the market show its hand.",
+          "bull": "Bounces and holds pre-print.",
+          "bear": "Rejects and breaks down pre-print.",
+          "note": "Pre-print read only — AMC report resets everything."
+        },
+        {
+          "ticker": "PG",
+          "tier": 2,
+          "strat": "Trampoline (Sleeper)",
+          "bias": "WATCH",
+          "catalyst": "Missed on revenue, guided light this morning (-3%), sitting in the Failed 2U bucket as a bearish gapper w/ DP.",
+          "levels": "No fixed trigger — watch for a bounce off the selloff or continued breakdown.",
+          "bull": "Trampoline bounce holds — selloff finds a floor.",
+          "bear": "No bounce, breaks lower — downside continues.",
+          "note": "Low-conviction 'sleeper' — small size, let price confirm."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "MU",
+      "pattern": "No confirmed Strat trigger on today's board — this is a flow-led pick, not a chart-led one.",
+      "flow": "$4.8B total dark-pool flow (bid-leaning), tops the entire board for a second straight session; the single $2.3B AH print (bid) is the largest print seen in a long time. Memory group (SNDK's $124.5M call block, SK Hynix's overnight revenue miss) is drawing outsized attention into the Fed.",
+      "catalyst": "No MU-specific news catalyst today — this is a pure Fed-day volatility play. The 2pm decision and 2:30pm Warsh presser are the trigger; memory/semis has been the most volatile group all week.",
+      "key_levels": "No fixed Strat trigger — watch premarket high/low and the 10-min ORB for direction at the open; the real move window is the 2-2:30pm decision/presser.",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
