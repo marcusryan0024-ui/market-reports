@@ -3,7 +3,11 @@
     "allow": [
       "Bash(python3 -c ' *)",
       "Bash(python3 -m py_compile position_sizer.py)",
-      "Bash(awk '/Bot starting.*10:20/{found=1} found' bot.log)"
+      "Bash(awk '/Bot starting.*10:20/{found=1} found' bot.log)",
+      "Bash(awk -F: '$1>=869 && $1<=1636')",
+      "Bash(grep -n \"^<script>\\\\|^</div>\\\\s*$\" \"/Users/marcusjohnson/Claude 1/journal.html\")",
+      "Bash(grep -n \"^</div>\\\\s*$\\\\|^<script>\" \"/Users/marcusjohnson/Claude 1/journal.html\")",
+      "Bash(awk -F: '$1>900 && $1<1200')"
     ]
   }
 }
