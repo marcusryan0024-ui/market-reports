@@ -12926,5 +12926,324 @@
       "expected_move_pct": "",
       "bias": ""
     }
+  },
+  "2026-07-31": {
+    "headline": "Jobs report day: July NFP at 8:30am (consensus ~91K, unemployment 4.3%) is the last labor read before a live September Fed meeting (~76% hike odds there). AAPL and AMZN split overnight — AMZN +12% on AWS reaccelerating to 37% growth, AAPL -7% despite record iPhone revenue as the bar was simply too high. Thursday was a violent bounce (Dow +613, Nasdaq +2.78%) off Wednesday's post-Fed selloff (Dow -1,153, worst day since April 2025).",
+    "overview": "Good morning — we made it through the wildest week of the summer, and it closes with a jobs report that matters more than usual. AAPL and AMZN split overnight, and that's the whole earnings season in one night. Both beat, and the market sent them opposite directions again: AMZN is up about 12% premarket on a big AWS reacceleration to 37% growth — its fastest in more than a year — the AI spend finally showing a return. AAPL is down about 7% despite record iPhone revenue (iPhone sales +22%) and an eighth straight EPS beat, because after a 25% run into the print the bar was simply too high. Five of the seven Mag7 have now reported and the pattern never broke all season: nobody is grading on the beat, they're grading on whether the AI story is working right now. AMZN cleared it, AAPL didn't. Now the jobs report: July nonfarm payrolls drop at 8:30, consensus around 91,000 with unemployment at 4.3%. Normally a quiet summer print, but with September now a live Fed meeting after Wednesday's hawkish hold (3 dissents wanted a hike, Warsh gave almost nothing, yields jumped), this is the last big labor read before that decision — a hot number firms up hike bets, a soft one takes pressure off. Thursday was a violent bounce back from Wednesday's brutal post-Fed selloff (Dow -1,153/-2.19%, worst day since April 2025): the Nasdaq jumped 2.78%, the S&P added 1.66%, and the Dow gained 613 points, led by MSFT rallying 15% on its Azure strength after beating Wednesday night. Elsewhere overnight: Replimune (RPRX) rocketed +130% after an FDA advisory panel backed its skin-cancer drug trial; Chevron beat with net income up nearly 400% YoY while Exxon missed and guided soft; Moderna beat on both lines and raised FY guidance but still fell 4%; Coinbase posted a third straight quarterly loss (-5%+); Reddit beat on both lines but dropped 12% on Google search-referral traffic worries; Novo Nordisk fell more than 10% after a phase 3 cardiovascular trial failed to beat placebo. On the board, AAPL still leads dark pool flow at $3.4B on the bid even after its post-earnings drop — size buying the dip — with MSFT $2.3B (ask) and AMZN $2.0B (bid) behind it. The 10-year sits near 4.63%, oil is steadier with the Iran situation quieter this morning, and a packed BMO earnings slate (CVX, ABBV, D, LYB, LIN) rolls on alongside the jobs number.",
+    "market_context": "10-yr yield ~4.63% after the post-Fed jump earlier in the week. Oil steadier this morning as the Iran situation has quieted. Futures hovering near flat into the 8:30am jobs report. Thursday close: Dow +613 pts, S&P +1.66%, Nasdaq +2.78% (MSFT +15% led it) — sharp bounce off Wednesday's post-Fed selloff (Dow -1,153/-2.19%, worst day since April 2025, 3 FOMC dissents wanted a hike). September Fed meeting now carries ~76% hike odds. July NFP at 8:30am: consensus ~91,000 jobs, unemployment rate 4.3%, average hourly earnings also due — the last major labor read before that September decision. Weekly jobless claims, Advance GDP q/q, and Core PCE Price Index m/m were the prior day's macro slate. Next week preview: ON Semiconductor reports Monday BMO, Ford posts monthly sales Monday, and a large memory/storage conference featuring several tech companies lands Tuesday.",
+    "bulls": [
+      {
+        "ticker": "RPRX",
+        "pct": "+130%",
+        "why": "Replimune shares more than doubled after an FDA advisory panel voted in favor of its RP1 drug trial results for a type of skin cancer; Wedbush upgraded to outperform from neutral following the decision."
+      },
+      {
+        "ticker": "CVX",
+        "pct": "modest gain",
+        "why": "Chevron beat on Q2 earnings and revenue, recording $12.1B in net income — a nearly 400% increase from the same period last year."
+      },
+      {
+        "ticker": "AMZN",
+        "pct": "+11-12%",
+        "why": "Reported better-than-expected revenue and cloud growth for Q2 — AWS expanded 37% YoY, surpassing the Street's 31% estimate and marking the unit's fastest growth in 18 quarters. The AI-spend payoff story GOOGL and META have been missing."
+      },
+      {
+        "ticker": "CAT",
+        "pct": "bouncing",
+        "why": "Got hit ~6% Wednesday on a Baird downgrade, then surfaced on the unusual options volume filter and bounced ~3% Thursday in line with the old-economy rotation (AON/HD leading dark pool). Extending gains again premarket as a bullish kicker; reports earnings next week."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "NVO",
+        "pct": "-10%+",
+        "why": "Novo Nordisk fell sharply after phase 3 trial results for ziltivekimab failed to reduce major cardiovascular events compared to placebo."
+      },
+      {
+        "ticker": "RDDT",
+        "pct": "-12%",
+        "why": "Reddit beat on both the top and bottom lines and issued guidance that sailed past expectations, but shares dropped on Wall Street concerns about search-referral traffic from Google — CEO called Q2 referrals 'choppy.'"
+      },
+      {
+        "ticker": "AAPL",
+        "pct": "-7%",
+        "why": "Record iPhone revenue (+22% iPhone sales) and an 8th straight EPS beat weren't enough after a 25% run into the print — the bar was simply too high, same pattern that's defined the whole Mag7 earnings season."
+      },
+      {
+        "ticker": "COIN",
+        "pct": "-5%+",
+        "why": "Posted a third straight quarterly loss — $359.5M / -$1.36 per share vs. an expected -$0.17 — with revenue of $1.22B also missing the $1.31B estimate."
+      },
+      {
+        "ticker": "MRNA",
+        "pct": "-4%",
+        "why": "Beat on both EPS (-$1.97 vs -$2.03 est) and revenue ($145M vs $102.9M est) and raised full-year revenue guidance above expectations, but sold off anyway — sentiment/positioning over fundamentals."
+      },
+      {
+        "ticker": "XOM",
+        "pct": "-2%",
+        "why": "Reported weaker-than-expected Q2 earnings — adjusted EPS of $3.52 vs the $3.60 LSEG consensus."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "AON",
+        "size": "$456M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Unusual name to lead ex-ETF flow — an insurance broker over the usual tech names, fitting the old-economy rotation the board has flashed all week."
+      },
+      {
+        "ticker": "HD",
+        "size": "$448M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, reinforcing the rotation into old-economy names alongside AON and CAT."
+      },
+      {
+        "ticker": "CSCO",
+        "size": "$444M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "The one clean ask-side name near the top of an otherwise bid-heavy board."
+      },
+      {
+        "ticker": "ORCL",
+        "size": "$406M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side flow in the software/AI-infra complex."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$372M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Part of AAPL's $3.4B total bid-side flow leading the entire board the morning after its -7% earnings reaction — size buying the dip."
+      },
+      {
+        "ticker": "AVGO",
+        "size": "$310M",
+        "side": "ask",
+        "timing": "",
+        "note": "Ask-side in the chip complex."
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$307M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Part of AMZN's $2.0B total bid-side flow the morning after its +12% AWS-driven pop."
+      },
+      {
+        "ticker": "CAT",
+        "size": "$283M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, backing the old-economy rotation and CAT's bounce off Wednesday's downgrade-driven selloff."
+      },
+      {
+        "ticker": "AMD",
+        "size": "$246M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side in the chip complex."
+      },
+      {
+        "ticker": "JPM",
+        "size": "$239M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, financials joining the broad rotation."
+      },
+      {
+        "ticker": "SPY",
+        "size": "$741M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Largest single print on the entire board; $7.5B total session flow, bid-side — broad index buying after Thursday's bounce."
+      },
+      {
+        "ticker": "QQQ",
+        "size": "$303M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "$3.3B total session flow, bid-side, third overall."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "AAPL",
+        "tier": 1,
+        "strat": "Failed 2-Down (2H)",
+        "bias": "WATCH",
+        "catalyst": "Fell -7% Wednesday AMC despite record iPhone revenue and an 8th straight beat — the bar was too high after a 25% pre-earnings run. AAPL's own earnings reactions run historically low-ATR/'trash,' but the CPW (1-2 week out contracts) has paid off before. Dark pool still leads the whole board at $3.4B on the bid — size buying the dip.",
+        "levels": "Currently a Failed 2-Down on the 2-hour. Puts under $297, calls above $313.",
+        "bull": "Reclaims and holds above $313 — dip-buying flow (AAPL leading the dark-pool board) confirms.",
+        "bear": "Breaks and holds below $297 — post-earnings weakness continues despite the beat.",
+        "note": "Low historical ATR on AAPL earnings reactions — size the CPW play for a multi-day drift, not a single-day pop. Jobs report at 8:30 adds a second catalyst on top."
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 1,
+        "strat": "Failed 2-Down",
+        "bias": "WATCH",
+        "catalyst": "+12% premarket on AWS reaccelerating to 37% YoY growth, its fastest in 18 quarters — the AI-spend payoff story META/GOOGL have been missing. AAPL still leads dark pool flow but AMZN's $2.0B bid-side flow was third overall Thursday.",
+        "levels": "Currently a Failed 2-Down. Calls above $266, gap fill at $270.64, ATH at $278.50. Possible CPW 2-week-out contracts into end of day.",
+        "bull": "Holds the pop and works toward the $270.64 gap fill / $278.50 ATH.",
+        "bear": "Fails and reverts back through $266 — the first-10-minute move was the whole trade.",
+        "note": "10-min ORB hasn't worked on AMZN's last 3 earnings reactions — most of the move happened in the first 10 minutes and faded from there. Set alerts on the reversal instead of trading the raw ORB break."
+      },
+      {
+        "ticker": "META",
+        "tier": 2,
+        "strat": "Earnings Continuation (Daily OB)",
+        "bias": "WATCH",
+        "catalyst": "Still digesting Wednesday's -9% post-earnings drop; a $97.0M put block at the $1020 1/21/28 strike printed on the floor Thursday — negotiated/structural, but size on META two days running. Last 4 earnings reactions have had genuinely bad price action.",
+        "levels": "Sitting in a daily order block; a break opens room down toward the gap fill (~$539).",
+        "bull": "Holds the order block — earnings-reaction selling exhausted.",
+        "bear": "Breaks the OB — continuation lower toward the gap fill.",
+        "note": "Needs a clean, confirmed setup before sizing in — don't force this one just because it's a Mag7 name."
+      },
+      {
+        "ticker": "COIN",
+        "tier": 2,
+        "strat": "Trampoline (potential bounce)",
+        "bias": "WATCH",
+        "catalyst": "Posted a third straight quarterly loss Thursday AMC (-5%+) — COIN typically moves well on earnings reactions, but the setup's spacing doesn't look amazing here.",
+        "levels": "Potential trampoline bounce off the 2D Weekly level (~$153.80).",
+        "bull": "Bounces cleanly off support — trampoline confirms despite the sloppy spacing.",
+        "bear": "No bounce, breaks the 2D Weekly level — the spacing concern proves right.",
+        "note": "Spacing isn't great on this one — smaller size than usual even if it triggers."
+      },
+      {
+        "ticker": "MRNA",
+        "tier": 2,
+        "strat": "Bounce Setup",
+        "bias": "WATCH",
+        "catalyst": "Beat on both EPS and revenue and raised FY guidance Thursday, but fell -4% anyway — sentiment over fundamentals. Setup spacing looks good technically.",
+        "levels": "Spacing on the bounce setup looks good — no fixed trigger given beyond that read.",
+        "bull": "Setup triggers cleanly and the good spacing plays out despite the post-earnings drop.",
+        "bear": "Wide spreads chew through any edge even if the price direction is right.",
+        "note": "Watch spreads closely before sizing in — the technical read is fine but execution risk is the real concern."
+      }
+    ],
+    "events": [
+      {
+        "type": "Jobs",
+        "detail": "July nonfarm payrolls at 8:30am ET — consensus ~91,000 jobs, unemployment rate 4.3%, average hourly earnings also due. Last major labor read before September's now-live Fed meeting (~76% hike odds there after Wednesday's hawkish hold). A hot number firms up hike bets, a soft one takes pressure off."
+      },
+      {
+        "type": "Earnings Reaction",
+        "detail": "AAPL and AMZN split overnight, closing out 5-of-7 Mag7 reports for the season. AMZN +12% on AWS reaccelerating to 37% YoY growth (fastest in 18 quarters). AAPL -7% despite record iPhone revenue and an 8th straight beat — the bar was too high after a 25% run into the print. Same theme all season: the market grades on whether AI/cloud spend is working, not the beat itself."
+      },
+      {
+        "type": "Market Structure",
+        "detail": "Thursday: Dow +613 pts, S&P +1.66%, Nasdaq +2.78% (MSFT +15% led it) — a sharp bounce off Wednesday's post-Fed selloff (Dow -1,153/-2.19%, worst day since April 2025, 3 FOMC dissents wanted a hike, yields jumped on the hawkish read)."
+      },
+      {
+        "type": "Earnings BMO Today",
+        "detail": "MRNA, CVX, ABBV, D, LYB, LIN report before the bell alongside the jobs number."
+      },
+      {
+        "type": "Options Flow",
+        "detail": "GLD $500P 12/18/26 at $115.4M — a huge gold put block on the floor, largest block on the board by far. META $1020P 1/21/28 at $97.0M — a long-dated put block landing right after META's -9% drop, size on META two days running. QQQ $696C 8/21/26 at $6.1M — a bullish-leaning sweep into the jobs number."
+      },
+      {
+        "type": "Corporate",
+        "detail": "Replimune (RPRX) +130% on an FDA advisory panel backing its RP1 skin-cancer trial results, Wedbush upgrade to outperform. Jersey Mike's made its public debut Thursday, pricing at $23, opening at $21, and closing -6% on the day."
+      },
+      {
+        "type": "Looking Ahead",
+        "detail": "Next week: ON Semiconductor reports Monday BMO, Ford posts monthly sales Monday, and a large memory/storage conference featuring several tech companies lands Tuesday — potential swing setups brewing."
+      }
+    ],
+    "earnings_bmo": [
+      "MRNA",
+      "CVX",
+      "ABBV",
+      "D",
+      "LYB",
+      "LIN"
+    ],
+    "earnings_amc": [],
+    "morning_prep": {
+      "theme": "Jobs report at 8:30 is the swing factor today — the last labor read before a now-live September Fed meeting, landing right after a violent Thursday bounce off Wednesday's post-Fed selloff and a split AAPL/AMZN earnings reaction overnight. Trade the charted levels (AAPL $297/$313, AMZN $266/$270.64/$278.50), respect the spacing/spread warnings on COIN and MRNA, and don't force META until a genuinely clean setup shows up.",
+      "rules": [
+        "July NFP at 8:30am (consensus ~91K, unemployment 4.3%) is the last labor read before September's live Fed meeting — expect the whole tape to react hard either way.",
+        "AAPL: 2H Failed 2-Down, puts under $297 / calls above $313. Earnings reactions run historically low-ATR — the CPW (1-2 week out) has paid off before, don't force a same-day pop trade.",
+        "AMZN: 10-min ORB hasn't worked on the last 3 earnings reactions — most of the move happened in the first 10 minutes and faded. Set alerts on the reversal instead of trading the raw ORB break. Calls above $266, gap fill $270.64, ATH $278.50.",
+        "META needs a genuinely clean setup — last 4 earnings reactions have had bad price action. Currently in a daily OB; a break opens room to the gap fill near $539.",
+        "COIN's trampoline-bounce spacing isn't great — size down even if it triggers. MRNA's spacing looks good but watch spreads closely before sizing in.",
+        "Don't overload the account — this is the fourth big catalyst day in a row (Fed Wednesday, Mag7 Wednesday/Thursday nights, jobs today). One or two clean, confirmed setups beats stacking size across all five names."
+      ],
+      "setups": [
+        {
+          "ticker": "AAPL",
+          "tier": 1,
+          "strat": "Failed 2-Down (2H)",
+          "bias": "WATCH",
+          "catalyst": "Fell -7% despite a beat and record iPhone revenue — bar too high after a 25% run. Dark pool still leads the board at $3.4B bid (dip-buying).",
+          "levels": "2H Failed 2-Down. Puts under $297, calls above $313.",
+          "bull": "Reclaims and holds above $313.",
+          "bear": "Breaks and holds below $297.",
+          "note": "CPW (1-2 wk out) has paid off historically on AAPL's low-ATR earnings reactions."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 1,
+          "strat": "Failed 2-Down",
+          "bias": "WATCH",
+          "catalyst": "+12% on AWS reaccelerating to 37% YoY, fastest in 18 quarters.",
+          "levels": "Calls above $266, gap fill $270.64, ATH $278.50. Possible CPW 2-week-out into end of day.",
+          "bull": "Holds the pop, works toward $270.64/$278.50.",
+          "bear": "Fails back through $266.",
+          "note": "10-min ORB hasn't worked the last 3 earnings reactions — set alerts on the reversal instead."
+        },
+        {
+          "ticker": "META",
+          "tier": 2,
+          "strat": "Earnings Continuation (Daily OB)",
+          "bias": "WATCH",
+          "catalyst": "Still digesting Wednesday's -9% drop; $97.0M put block Thursday.",
+          "levels": "Sitting in a daily OB — a break opens room to the gap fill near $539.",
+          "bull": "Holds the OB.",
+          "bear": "Breaks the OB, continuation lower.",
+          "note": "Last 4 earnings reactions have had bad price action — needs a clean setup, don't force it."
+        },
+        {
+          "ticker": "COIN",
+          "tier": 2,
+          "strat": "Trampoline (potential bounce)",
+          "bias": "WATCH",
+          "catalyst": "Third straight quarterly loss reported Thursday AMC.",
+          "levels": "Potential bounce off the 2D Weekly level (~$153.80).",
+          "bull": "Bounces cleanly off support.",
+          "bear": "Breaks the 2D Weekly level.",
+          "note": "Spacing doesn't look amazing — smaller size even if it triggers."
+        },
+        {
+          "ticker": "MRNA",
+          "tier": 2,
+          "strat": "Bounce Setup",
+          "bias": "WATCH",
+          "catalyst": "Beat and raised guidance Thursday but fell -4% anyway.",
+          "levels": "Spacing looks good technically — no fixed trigger given.",
+          "bull": "Setup triggers cleanly, good spacing plays out.",
+          "bear": "Wide spreads chew through the edge.",
+          "note": "Watch spreads closely — technical read is fine but execution risk is the concern."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "AAPL",
+      "pattern": "Failed 2-Down on the 2-hour, still digesting Wednesday's earnings-reaction drop.",
+      "flow": "Led the entire dark-pool board Thursday at $3.4B on the bid despite closing -7% post-earnings — size buying the dip, the largest single-name print two sessions running.",
+      "catalyst": "Reported record iPhone revenue and an 8th straight EPS beat Wednesday AMC but fell -7% on an unforgiving bar after a 25% pre-earnings run. Today's NFP print adds a second catalyst on top of the ongoing earnings-reaction digestion.",
+      "key_levels": "2H structure in a Failed 2-Down — puts under $297, calls above $313 per the charted levels. Treat the 297/313 zone as the decision boundary.",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
