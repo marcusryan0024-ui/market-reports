@@ -13245,5 +13245,291 @@
       "expected_move_pct": "",
       "bias": ""
     }
+  },
+  "2026-08-03": {
+    "headline": "New trading month opens calmer: real Iran de-escalation over the weekend (Trump called off planned strikes, peace talks resume today) crashes oil (WTI -6%+ toward $79, Brent <$84), unwinding July's war premium. September hike odds ease back to ~64% as a result. PLTR reports AMC today, SpaceX's first-ever public quarterly report lands Tuesday. AMZN sits right at its ATH ($278.56) after last week's AWS-driven pop — the cleanest binary setup on the board.",
+    "overview": "Good morning — it's Monday, and a brand new trading month. After the wildest week of the summer, August opens on a much calmer note. The weekend brought real de-escalation: Trump called off what he'd described as major strikes on Iran and confirmed peace talks resume today, with Gulf allies including Saudi Arabia pushing hard for diplomacy. That's the headline the market wanted. Oil is crashing on it — WTI down more than 6% toward $79, Brent back under $84 — unwinding the war premium that drove the July inflation scare. Futures are up across the board with the Dow leading, a green open to start the month. Oil coming down changes the Fed math again: the whole July story was oil spiking and pushing September hike odds up, and now that's reversing — odds of a September hike have eased back toward 64%. Still a live meeting, but the pressure is easing, and lower oil into a softening labor picture is the friendlier setup stocks have wanted for weeks. The 10-year sits near 4.69%. Earnings aren't done and the calendar is loaded: PLTR reports after the close today, SpaceX posts its first quarterly report as a public company Tuesday, and AMD, DIS, MCD, LLY and more roll through the week. Friday brings the July jobs report — the one the market is really pointing at. Friday closed out July on a quiet, positive note: the S&P added 0.7% to 7,489.72 to cap a roughly 1.1% week, though breadth was thin — decliners actually outnumbered advancers even as the index rose, with the rebound led by a handful of strong earnings names rather than the broad market. This morning changes that tone with oil down hard and the risk-on bid broadening. On the board, AMZN leads dark pool flow at $4.1B on the ask after its 10%+ earnings pop, with MSFT ($3.9B ask) and AAPL ($3.7B bid) right behind — the mega-caps that just reported still own the board. Today's heaviest focus is AAPL and META, both still digesting last week's Mag7 earnings reactions, alongside AMZN's test of its all-time high.",
+    "market_context": "10-yr yield ~4.69%. WTI crude -6%+ toward $79, Brent <$84 on real Iran de-escalation (Trump called off planned strikes, peace talks resume today). September Fed hike odds eased back to ~64% as the oil-driven inflation scare unwinds. Two manufacturing reads today: S&P Global Manufacturing PMI at 9:45am, ISM Manufacturing at 10am (consensus 54.0 vs 53.3 prior) — manufacturing has been hovering near the expansion line, a firm number helps the soft-landing case. Friday close: S&P +0.7% to 7,489.72, capping a ~1.1% week on thin breadth (decliners outnumbered advancers). New monthly candle prints tomorrow.",
+    "bulls": [
+      {
+        "ticker": "GOOG",
+        "pct": "+6.88%",
+        "why": "Friday's clean setup — unusual options activity ran above normal and leaned bullish before the move, sitting in a Failed 2D bucket (bearish attempt that fails and reverses higher). It then ripped to close at $356.65 on renewed AI growth optimism, one of the strongest single-name moves on the board. Options flow and the setup lined up before the catalyst."
+      }
+    ],
+    "bears": [],
+    "darkpool": [
+      {
+        "ticker": "APP",
+        "size": "$852M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Largest ex-ETF single print on the board — AppLovin has been a quiet monster and reports earnings this week, so this is size showing up ahead of the print."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$537M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Still getting repriced on the bid after last week's post-earnings drop; part of AAPL's $3.7B total bid-side flow Friday."
+      },
+      {
+        "ticker": "MSFT",
+        "size": "$330M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Staying near the top of the board after last week's earnings pop; $3.9B total ask-side flow Friday."
+      },
+      {
+        "ticker": "V",
+        "size": "$321M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side flow."
+      },
+      {
+        "ticker": "INTC",
+        "size": "$300M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side, ties into its recent earnings blowout and the broader chip watch."
+      },
+      {
+        "ticker": "WFC",
+        "size": "$299M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side, financials."
+      },
+      {
+        "ticker": "META",
+        "size": "$297M",
+        "side": "bid",
+        "timing": "PRE",
+        "note": "Bid-side premarket flow as it gaps up slightly, watching for a fill of the gap at $585."
+      },
+      {
+        "ticker": "SPCX",
+        "size": "$253M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Showing up ahead of SpaceX's first-ever public quarterly report Tuesday — one to file away."
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$230M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side in the chip complex."
+      },
+      {
+        "ticker": "IVV",
+        "size": "$900M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Largest single print on the entire board — broad index buying, bid-side, consistent with the risk-on lean into the new month."
+      },
+      {
+        "ticker": "SPY",
+        "size": "$747M",
+        "side": "bid",
+        "timing": "",
+        "note": "$8.8B total session flow, bid-side, tops the ETF board."
+      },
+      {
+        "ticker": "QQQ",
+        "size": "$571M",
+        "side": "bid",
+        "timing": "",
+        "note": "$4.6B total session flow, bid-side, second on the ETF board."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "AAPL",
+        "tier": 1,
+        "strat": "Earnings Continuation — Failed 2D Daily + Trampoline Bounce",
+        "bias": "WATCH",
+        "catalyst": "Still digesting last week's earnings reaction. One of the two heaviest-focus names today alongside META, both fresh off Mag7 earnings. Dark pool still shows $537M bid AH, part of $3.7B total bid-side flow Friday.",
+        "levels": "Above $310.69 triggers a Failed 2D-2U on the daily into the gap fill at $333.43. Below $300 triggers a 2-2 daily reversal.",
+        "bull": "Reclaims and holds above $310.69 — Failed 2D-2U confirms, opens the path to the $333.43 gap fill.",
+        "bear": "Breaks below $300 — 2-2 daily reversal confirms further downside.",
+        "note": "One of the two heaviest-focus names today given the fresh Mag7 earnings reaction."
+      },
+      {
+        "ticker": "META",
+        "tier": 1,
+        "strat": "Earnings Continuation",
+        "bias": "WATCH",
+        "catalyst": "Gapped up slightly this morning ($297M bid premarket print); still digesting last week's post-earnings drop. Heaviest focus alongside AAPL today.",
+        "levels": "Watching for a fill of the gap at $585.",
+        "bull": "Pushes and fills the $585 gap — continuation of the gap-up.",
+        "bear": "Fades the gap-up and rolls over — earnings-reaction weakness resumes.",
+        "note": "One of the two heaviest-focus names today given the fresh Mag7 earnings reaction."
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 1,
+        "strat": "ATH Watch",
+        "bias": "WATCH",
+        "catalyst": "Sitting right at its all-time high after last week's +12% AWS-driven earnings pop; led the entire dark-pool board Friday at $4.1B on the ask.",
+        "levels": "ATH at $278.56.",
+        "bull": "Breaks and holds through $278.56 — can see a big squeeze.",
+        "bear": "Rejects at the ATH/OB — moves back to the downside gap.",
+        "note": "The cleanest binary read on the board today — squeeze through the ATH or reject back into the gap."
+      },
+      {
+        "ticker": "MRNA",
+        "tier": 2,
+        "strat": "Earnings Continuation — Failed 2U Month/Daily",
+        "bias": "WATCH",
+        "catalyst": "Continuing earnings-reaction digestion.",
+        "levels": "Above $59.49 triggers a Failed 2D-2U on the month and a 2-2 reversal on the day. Below $54.71 triggers a Failed 2U-2D on the daily; below $53.35 triggers a Failed 2U-2D on the monthly plus a 2-2 reversal on the week. OB near $46.50; below $43.68 triggers a 3-bar on the quarter.",
+        "bull": "Holds above $59.49 — month and day both confirm higher.",
+        "bear": "Breaks below $54.71/$53.35 — daily and monthly both roll over, opening the door to the $46.50 OB and eventually the $43.68 quarterly 3-bar level.",
+        "note": "Multiple timeframe levels stacked — watch which one triggers first for the higher-conviction read."
+      },
+      {
+        "ticker": "XOM",
+        "tier": 2,
+        "strat": "Earnings Continuation — Failed 2D Daily",
+        "bias": "WATCH",
+        "catalyst": "Currently gapping down in the 24hr market, still digesting last week's earnings miss.",
+        "levels": "Above $156.16 triggers a Failed 2D-2U on the daily out of the OB. Below $152.14 triggers a 2-2 reversal; below $151.88 triggers a 2-2 weekly reversal to the downside out of the OB.",
+        "bull": "Reclaims above $156.16 — Failed 2D-2U confirms out of the OB.",
+        "bear": "Breaks below $152.14/$151.88 — daily and weekly both roll over out of the OB.",
+        "note": "Gapping down premarket — let the level structure confirm before entering either side."
+      },
+      {
+        "ticker": "TSN",
+        "tier": 3,
+        "strat": "Earnings Reaction",
+        "bias": "WATCH",
+        "catalyst": "Reports before the bell — reaction develops this morning.",
+        "levels": "No specific levels given yet.",
+        "bull": "Reaction holds gains — earnings well-received.",
+        "bear": "Reaction fades — earnings disappoint or guidance light.",
+        "note": "Limited detail from morning prep — treat as a watch-only name until the reaction plays out."
+      }
+    ],
+    "events": [
+      {
+        "type": "Geopolitical",
+        "detail": "Trump called off planned major strikes on Iran over the weekend and confirmed peace talks resume today, with Gulf allies including Saudi Arabia pushing hard for diplomacy — real de-escalation after weeks of Middle East tension."
+      },
+      {
+        "type": "Oil/Fed",
+        "detail": "WTI down more than 6% toward $79, Brent back under $84, unwinding the war premium that drove July's inflation scare. September hike odds have eased back toward ~64% as a result — still live, but the pressure is easing."
+      },
+      {
+        "type": "Earnings AMC Today",
+        "detail": "PLTR reports after the close."
+      },
+      {
+        "type": "Earnings BMO Today",
+        "detail": "TSN reports before the bell — reaction developing this morning."
+      },
+      {
+        "type": "Economic",
+        "detail": "S&P Global Manufacturing PMI at 9:45am, ISM Manufacturing at 10am (consensus 54.0 vs 53.3 prior)."
+      },
+      {
+        "type": "Looking Ahead",
+        "detail": "SpaceX posts its first-ever quarterly report as a public company Tuesday — already showing $253M ask-side dark pool flow ahead of it. AMD, DIS, MCD, LLY and more report through the week. July jobs report Friday is the week's main event."
+      },
+      {
+        "type": "Options Flow",
+        "detail": "CRWV $110C 3/19/27 at $2.3M — a call sweep on CoreWeave into March 2027. GLD $500P 12/18/26 at $65.0M — same strike as Thursday's $115M GLD block, smaller now but recurring downside gold positioning. LRCX $340P 9/18/26 at $33.1M — a put block on the chip-equipment name."
+      },
+      {
+        "type": "Note",
+        "detail": "New monthly candle prints tomorrow — worth noting for anyone tracking monthly-timeframe levels (MRNA's setup references the monthly directly)."
+      }
+    ],
+    "earnings_bmo": [
+      "TSN"
+    ],
+    "earnings_amc": [
+      "PLTR"
+    ],
+    "morning_prep": {
+      "theme": "A calmer, green-open Monday to kick off August after the wildest week of the summer — real Iran de-escalation crashed oil and eased Fed pressure. AAPL and META get the heaviest focus today as the two Mag7 names still digesting last week's earnings reactions, with AMZN's all-time-high test as the cleanest single read on the board. Respect your port, follow your rules, compound and stay consistent — do your charting, and remember the new monthly candle prints tomorrow.",
+      "rules": [
+        "AAPL and META get the heaviest focus today — both fresh off Mag7 earnings reactions. AAPL: above $310.69 → Failed 2D-2U into the $333.43 gap fill; below $300 → 2-2 daily reversal. META: watching for a fill of the gap at $585.",
+        "AMZN is sitting right at its ATH ($278.56) — a break/hold can trigger a big squeeze, a rejection sends it back to the downside gap. Watch this level closely.",
+        "MRNA has multiple timeframe levels stacked (month/day/week/quarter) — know which trigger fires first before sizing in; above $59.49 is bullish, below $54.71/$53.35 opens the door toward the $46.50 OB.",
+        "XOM is gapping down in the 24hr market — let the $156.16 / $152.14 / $151.88 level structure confirm before entering either side.",
+        "TSN has an earnings reaction developing this morning — watch-only until levels are confirmed.",
+        "New monthly candle prints tomorrow — factor that into any monthly-timeframe reads today.",
+        "Respect your port, follow your rules, compound and stay consistent. Do all your charting."
+      ],
+      "setups": [
+        {
+          "ticker": "AAPL",
+          "tier": 1,
+          "strat": "Earnings Continuation — Failed 2D Daily + Trampoline Bounce",
+          "bias": "WATCH",
+          "catalyst": "Heaviest focus today alongside META, both fresh off Mag7 earnings.",
+          "levels": "Above $310.69 triggers Failed 2D-2U into the $333.43 gap fill. Below $300 triggers a 2-2 daily reversal.",
+          "bull": "Reclaims above $310.69.",
+          "bear": "Breaks below $300.",
+          "note": "Heaviest-focus name today."
+        },
+        {
+          "ticker": "META",
+          "tier": 1,
+          "strat": "Earnings Continuation",
+          "bias": "WATCH",
+          "catalyst": "Gapped up slightly, heaviest focus alongside AAPL.",
+          "levels": "Watching for a fill of the gap at $585.",
+          "bull": "Pushes and fills the $585 gap.",
+          "bear": "Fades and rolls over.",
+          "note": "Heaviest-focus name today."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 1,
+          "strat": "ATH Watch",
+          "bias": "WATCH",
+          "catalyst": "Sitting right at the ATH after last week's AWS pop.",
+          "levels": "ATH at $278.56.",
+          "bull": "Breaks and holds through $278.56 — big squeeze potential.",
+          "bear": "Rejects at the ATH/OB — back to the downside gap.",
+          "note": "Cleanest binary read on the board today."
+        },
+        {
+          "ticker": "MRNA",
+          "tier": 2,
+          "strat": "Earnings Continuation — Failed 2U Month/Daily",
+          "bias": "WATCH",
+          "catalyst": "Continuing earnings-reaction digestion.",
+          "levels": "Above $59.49 bullish (month+day). Below $54.71/$53.35 bearish toward the $46.50 OB and $43.68 quarterly level.",
+          "bull": "Holds above $59.49.",
+          "bear": "Breaks below $54.71/$53.35.",
+          "note": "Stacked multi-timeframe levels — watch which fires first."
+        },
+        {
+          "ticker": "XOM",
+          "tier": 2,
+          "strat": "Earnings Continuation — Failed 2D Daily",
+          "bias": "WATCH",
+          "catalyst": "Gapping down in the 24hr market.",
+          "levels": "Above $156.16 bullish out of the OB. Below $152.14/$151.88 bearish out of the OB.",
+          "bull": "Reclaims above $156.16.",
+          "bear": "Breaks below $152.14/$151.88.",
+          "note": "Let the level structure confirm first."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "AMZN",
+      "pattern": "Sitting right at its all-time high ($278.56) after last week's post-earnings pop — a clean binary technical read for the day.",
+      "flow": "Led the entire dark-pool board Friday at $4.1B on the ask after its earnings pop — institutional flow settling in size right after the move.",
+      "catalyst": "Still riding last week's AWS-reacceleration earnings beat; no new company-specific catalyst today, this is a pure technical ATH test.",
+      "key_levels": "ATH at $278.56 — a break and hold through it opens room for a big squeeze; a rejection at the OB sends it back down to the open gap.",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
