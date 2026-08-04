@@ -13531,5 +13531,285 @@
       "expected_move_pct": "",
       "bias": ""
     }
+  },
+  "2026-08-04": {
+    "headline": "August opens strong: Dow record high, S&P +1.48%, Nasdaq +1.78% Monday on oil -5%+ (Iran cooling) and ISM Manufacturing surging to 55.6. PLTR blowout (+93% rev, +~150% commercial) up ~16% this morning, CAT's first-ever $20B+ sales quarter up ~8%. AMD reports AMC tonight — the chip group's referendum on the Meta/OpenAI compute deals — alongside SpaceX's first-ever public earnings and Spotify/Astera Labs. Friday's jobs report is still the week's real test.",
+    "overview": "Good morning — August came out swinging. Everything caught a bid Monday, and it was broad: the Dow closed at a record high, the S&P jumped 1.48%, and the Nasdaq gained 1.78%. Two things got it going — oil sliding more than 5% as the Iran situation cooled off, and ISM Manufacturing jumping to 55.6, solidly in growth territory. Then after the close Palantir dropped a blowout: revenue up 93%, commercial demand up almost 150%, and it's up around 16% this morning — the AI software story is very much alive. More names delivered this morning: Caterpillar is up about 8% after posting the first $20B-plus sales quarter in company history and beating across the board, the kind of old-school industrial name that's quietly become part of the AI infrastructure build. McDonald's beat on earnings but came up a touch light on revenue, hovering near flat. The bigger questions are still ahead — AMD reports after the close tonight, and that's the one the whole chip group is waiting on: whether it can back up the big Meta and OpenAI compute deals. SpaceX also posts its first earnings ever as a public company tonight, with the stock sitting near an all-time low, plus Spotify and Astera Labs. Futures are pointing higher again this morning with Palantir and Caterpillar setting the tone and the memory names tagging along (MU +3%, MRVL +7%). Oil has settled after Monday's drop, with talk the US and Iran could reach a deal on the Strait of Hormuz this week. One to watch: Amazon is down a touch after crossing a $3 trillion market cap, on news Bezos filed to sell up to $4B of stock. JOLTS job openings and the trade balance this morning give the first look at the labor picture ahead of Friday's jobs report — a strong open, but the week's real tests haven't hit yet.",
+    "market_context": "Oil settled after Monday's 5%+ drop, with talk the US and Iran could reach a deal on the Strait of Hormuz this week. JOLTS job openings and trade balance due this morning — first labor read before Friday's jobs report. ISM Manufacturing jumped to 55.6 Monday (solidly expansionary), helping drive the Dow to a record close, S&P +1.48%, Nasdaq +1.78%. AMZN down slightly despite crossing a $3T market cap, on news Bezos filed to sell up to $4B of stock. Future of Memory and Storage Conference today — AMD, SNDK, ALAB, AMZN, AVGO, BABA, CSCO, GOOGL, META, MPWR, MRVL, CRM all featured.",
+    "bulls": [
+      {
+        "ticker": "PLTR",
+        "pct": "+16%",
+        "why": "Blowout Q2 print Monday AMC — revenue up 93%, commercial demand up almost 150%. The AI software story is very much alive."
+      },
+      {
+        "ticker": "CAT",
+        "pct": "+8%",
+        "why": "Posted the first $20B-plus sales quarter in company history and beat across the board. Closes the loop on a UOV-filter flag from last Thursday (sharp downgrade drop, ~3% bounce Friday, earnings beat sealed it this morning)."
+      }
+    ],
+    "bears": [],
+    "darkpool": [
+      {
+        "ticker": "MSFT",
+        "size": "$826M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Largest ex-ETF single print on the board — big size still stacking on it a week after its earnings pop and Azure strength; $4.7B total ask-side flow led the whole board Monday."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$498M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, part of $3.2B total mixed flow Monday."
+      },
+      {
+        "ticker": "KO",
+        "size": "$481M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "Money spreading out beyond the mega-caps — a non-tech name showing up in size."
+      },
+      {
+        "ticker": "META",
+        "size": "$427M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side flow."
+      },
+      {
+        "ticker": "NBIS",
+        "size": "$427M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, keeps the AI-infrastructure names in the mix."
+      },
+      {
+        "ticker": "TSM",
+        "size": "$309M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, chip complex heading into AMD's report tonight."
+      },
+      {
+        "ticker": "NVDA",
+        "size": "$285M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side, chip complex heading into AMD's report tonight."
+      },
+      {
+        "ticker": "IBM",
+        "size": "$282M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side flow."
+      },
+      {
+        "ticker": "TXN",
+        "size": "$267M",
+        "side": "ask",
+        "timing": "PRE",
+        "note": "Ask-side premarket flow in the chip complex."
+      },
+      {
+        "ticker": "SPY",
+        "size": "$530M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "$7.3B total session flow, bid-side, tops the ETF board."
+      },
+      {
+        "ticker": "USHY",
+        "size": "$330M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "High-yield corporate bonds drawing size — credit still bid underneath the equity rally, a quieter read worth noting."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "AMD",
+        "tier": 1,
+        "strat": "Failed 2D",
+        "bias": "WATCH",
+        "catalyst": "Reports AMC tonight — the whole chip group is waiting to see if it can back up the big Meta and OpenAI compute deals. Also presenting at today's Future of Memory and Storage Conference.",
+        "levels": "Failed 2D setup on the board — no confirmed break yet; watch for the daily trigger ahead of tonight's report.",
+        "bull": "Reversal confirms pre-earnings and the report backs up the compute-deal narrative tonight.",
+        "bear": "Setup fails to trigger, or the report disappoints on compute-deal delivery.",
+        "note": "Binary event risk into the close — the whole chip complex (MU +3%, MRVL +7% today) is riding on this print."
+      },
+      {
+        "ticker": "CAT",
+        "tier": 1,
+        "strat": "Failed 2D (fired)",
+        "bias": "BULL",
+        "catalyst": "Flagged on unusual options volume last Thursday before a downgrade-driven drop, bounced ~3% Friday, and this morning reported its first-ever $20B+ sales quarter, beating across the board — now up ~8%.",
+        "levels": "Failed 2D reversal already confirmed by the earnings beat and the gap up.",
+        "bull": "Holds and extends the gap — multi-day follow-through on the full UOV-to-earnings arc.",
+        "bear": "Fades back into the gap — one-day pop on the beat.",
+        "note": "The cleanest multi-day process example on the board — options flow flagged it before the turn, technicals confirmed, earnings sealed it."
+      },
+      {
+        "ticker": "PLTR",
+        "tier": 2,
+        "strat": "Failed 2U (overridden bullish) / Bullish Kicker",
+        "bias": "BULL",
+        "catalyst": "Blowout Monday AMC print — revenue +93%, commercial demand +~150% — up ~16% this morning despite sitting in the bearish Failed 2U bucket pre-print.",
+        "levels": "Bullish kicker confirmed by the earnings gap — watch whether the gap holds through the session.",
+        "bull": "Holds the gap — the AI-software story stays intact.",
+        "bear": "Fades and fills back into the gap — profit-taking after the pop.",
+        "note": "The Failed 2U bucket was the bearish technical read pre-earnings; the print completely overrode it."
+      },
+      {
+        "ticker": "AMZN",
+        "tier": 2,
+        "strat": "Bearish Kicker",
+        "bias": "WATCH",
+        "catalyst": "Down slightly despite crossing a $3T market cap, on news Bezos filed to sell up to $4B of stock. Also sits in today's bearish-kicker list.",
+        "levels": "No fixed level given — watch for follow-through on the bearish kicker tag.",
+        "bull": "Shrugs off the Bezos-sale news and holds/extends yesterday's ATH test.",
+        "bear": "Bearish kicker confirms — follow-through selling on the stock-sale headline.",
+        "note": "Contrast with yesterday's ATH-squeeze setup — today's kicker tag is the opposite read, worth reconciling before sizing in."
+      },
+      {
+        "ticker": "MCD",
+        "tier": 3,
+        "strat": "3 Bar / Outside, Bullish Kicker",
+        "bias": "WATCH",
+        "catalyst": "Beat on earnings but came up light on revenue, hovering near flat.",
+        "levels": "3 Bar/Outside coil on the board — wait for the break of the outside bar.",
+        "bull": "Breaks the outside bar high — earnings beat wins out over the revenue miss.",
+        "bear": "Breaks the outside bar low — light revenue outweighs the EPS beat.",
+        "note": "Also tagged as a bullish kicker despite the mixed print — conflicting signals, wait for confirmation."
+      }
+    ],
+    "events": [
+      {
+        "type": "Economic",
+        "detail": "JOLTS job openings and trade balance this morning — the first piece of labor data before Friday's July jobs report."
+      },
+      {
+        "type": "Earnings BMO Today",
+        "detail": "CAT (+8%, first-ever $20B+ sales quarter, beat across the board) and MCD (beat on EPS, light on revenue, near flat) already out."
+      },
+      {
+        "type": "Earnings AMC Today",
+        "detail": "AMD is the one the whole chip group is waiting on — can it back up the big Meta/OpenAI compute deals. SpaceX posts its first earnings ever as a public company, stock sitting near an all-time low. Spotify and Astera Labs also report."
+      },
+      {
+        "type": "Conference",
+        "detail": "Future of Memory and Storage Conference today, featuring AMD, SNDK, ALAB, AMZN, AVGO, BABA, CSCO, GOOGL, META, MPWR, MRVL, CRM."
+      },
+      {
+        "type": "Corporate",
+        "detail": "Amazon crossed a $3 trillion market cap; shares down slightly on news Jeff Bezos filed to sell up to $4B of stock."
+      },
+      {
+        "type": "Geopolitical/Oil",
+        "detail": "Oil settled after Monday's 5%+ drop, with talk the US and Iran could reach a deal on the Strait of Hormuz this week."
+      },
+      {
+        "type": "Market Structure",
+        "detail": "Monday: Dow closed at a record high, S&P +1.48%, Nasdaq +1.78%, driven by oil -5%+ and ISM Manufacturing jumping to 55.6."
+      },
+      {
+        "type": "Options Flow",
+        "detail": "SPY $775C 8/21/26 at $5.2M — bullish-leaning index sweep riding the rally. INTC $80C 12/18/26 at $3.8M — longer-dated upside sweep after Intel's blowout. AMZN $240C 11/20/26 at $39.1M — the largest block on the board, printed the day after AMZN crossed $3T."
+      },
+      {
+        "type": "Looking Ahead",
+        "detail": "Friday brings the July jobs report — the week's real test, still ahead."
+      }
+    ],
+    "earnings_bmo": [
+      "CAT",
+      "MCD"
+    ],
+    "earnings_amc": [
+      "AMD",
+      "SPCX",
+      "SPOT",
+      "ALAB"
+    ],
+    "morning_prep": {
+      "theme": "August opened with a broad, record-setting rally on cooling oil and a strong ISM print, plus blowout PLTR and CAT earnings. AMD tonight is the real test for the chip group — the referendum on whether the big Meta/OpenAI compute deals are for real — alongside SpaceX's first-ever public earnings. Friday's jobs report is still the week's biggest catalyst, still ahead.",
+      "rules": [
+        "AMD reports AMC tonight — binary event risk for the whole chip complex (MU, MRVL already running on PLTR/CAT strength today). Sits in a Failed 2D setup pre-earnings; size for the report, not just the technical read.",
+        "CAT is the cleanest process example on the board — UOV flag → technical bounce → earnings beat → today's +8% gap. Multi-day follow-through is the actual test now.",
+        "PLTR's blowout print overrode a bearish Failed 2U pre-earnings setup entirely — watch whether the gap holds through the session rather than assuming continuation.",
+        "AMZN carries conflicting signals — a bearish kicker tag today against yesterday's bullish ATH-squeeze setup. Reconcile before sizing in, and factor in the Bezos $4B stock-sale headline.",
+        "MCD is a 3 Bar/Outside coil with a bullish kicker despite a mixed (EPS beat, revenue light) print — wait for the break, don't anticipate.",
+        "JOLTS this morning is the first labor data point before Friday's jobs report — don't overreact to one data point with the bigger catalyst still days away."
+      ],
+      "setups": [
+        {
+          "ticker": "AMD",
+          "tier": 1,
+          "strat": "Failed 2D",
+          "bias": "WATCH",
+          "catalyst": "Reports AMC tonight — chip group's referendum on the Meta/OpenAI compute deals.",
+          "levels": "Failed 2D setup, no confirmed break yet.",
+          "bull": "Reversal confirms and the report backs up the compute-deal narrative.",
+          "bear": "Setup fails or the report disappoints.",
+          "note": "Binary event risk into the close."
+        },
+        {
+          "ticker": "CAT",
+          "tier": 1,
+          "strat": "Failed 2D (fired)",
+          "bias": "BULL",
+          "catalyst": "UOV flag → bounce → first-ever $20B+ sales quarter beat, now +8%.",
+          "levels": "Reversal already confirmed by the earnings gap.",
+          "bull": "Holds and extends the gap.",
+          "bear": "Fades back into the gap.",
+          "note": "Cleanest multi-day process example on the board."
+        },
+        {
+          "ticker": "PLTR",
+          "tier": 2,
+          "strat": "Failed 2U (overridden) / Bullish Kicker",
+          "bias": "BULL",
+          "catalyst": "Blowout print (+93% rev, +150% commercial) up ~16%.",
+          "levels": "Bullish kicker confirmed by the gap — watch if it holds.",
+          "bull": "Holds the gap.",
+          "bear": "Fades and fills back.",
+          "note": "Pre-earnings Failed 2U bucket was completely overridden by the print."
+        },
+        {
+          "ticker": "AMZN",
+          "tier": 2,
+          "strat": "Bearish Kicker",
+          "bias": "WATCH",
+          "catalyst": "Down slightly on Bezos $4B stock-sale filing, despite crossing $3T market cap.",
+          "levels": "No fixed level — watch for kicker follow-through.",
+          "bull": "Shrugs off the news, holds/extends the ATH test.",
+          "bear": "Kicker confirms, follow-through selling.",
+          "note": "Contrasts with yesterday's bullish ATH-squeeze setup — reconcile before sizing in."
+        },
+        {
+          "ticker": "MCD",
+          "tier": 3,
+          "strat": "3 Bar / Outside, Bullish Kicker",
+          "bias": "WATCH",
+          "catalyst": "Beat on EPS, light on revenue — near flat.",
+          "levels": "3 Bar/Outside coil — wait for the break.",
+          "bull": "Breaks the outside bar high.",
+          "bear": "Breaks the outside bar low.",
+          "note": "Conflicting signals — wait for confirmation."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "AMD",
+      "pattern": "Failed 2D setup on the board heading into tonight's AMC report — no confirmed break yet.",
+      "flow": "Chip complex flow leaning into the print — TSM $309M bid AH, NVDA $285M ask AH, TXN $267M ask PRE all active Monday, plus MU +3% and MRVL +7% riding today's PLTR/CAT strength.",
+      "catalyst": "Reports after the close tonight — the whole chip group is waiting to see if AMD can back up the big Meta and OpenAI compute deals. Also presenting at today's Future of Memory and Storage Conference.",
+      "key_levels": "No fixed Strat trigger beyond the Failed 2D read — this is an earnings-event pick, not a technical-level pick.",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
