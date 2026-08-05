@@ -13811,5 +13811,354 @@
       "expected_move_pct": "",
       "bias": ""
     }
+  },
+  "2026-08-05": {
+    "headline": "Records again: Dow closed above 54,000 for the first time ever (+900+ pts), S&P hit a record above 7,700 (+1.79%), Nasdaq +2.59% Tuesday on Bessent saying a US-Iran deal to reopen the Strait of Hormuz could land within days. AMD and SpaceX both beat but sold off anyway on sky-high bars (AMD -8.5%, SPCX -11%). SHOP is today's biggest mover, +23% premarket on a strong quarter; LLY also beat and raised guidance. ADP payrolls this morning previews Friday's jobs report.",
+    "overview": "Good morning — the market just keeps going up. Tuesday was another big up day: the Dow soared more than 900 points to close above 54,000 for the first time ever, the S&P jumped 1.79% to a record above 7,700, and the Nasdaq popped 2.59%. The spark was Treasury Secretary Bessent saying the US and Iran could reach a deal to reopen the Strait of Hormuz within days, which sent oil lower again. PLTR kept running too, up about 29% off Monday's blowout. When the war premium comes out of oil, this market wants to go up. AMD beat and still got sold — sound familiar. Record revenue with its data center business doubling, beat on both lines, guided next quarter above expectations, and it fell about 9% after hours anyway. Same reason as AAPL before it: the stock was already up 140% this year, so a solid beat wasn't the blowout the crowd had priced in. SpaceX had its first-ever earnings as a public company and got a similar reception — revenue jumped 92% but the stock is down around 11% on huge spending. Great numbers aren't enough when the bar is already sky-high. Today it's Shopify, Lilly, and a jobs preview. SHOP is ripping about 23% this morning after a strong quarter, easily the biggest earnings mover of the day and a bullish gapper on the board. LLY beat and raised FY26 revenue guidance on continued Zepbound/Mounjaro demand and is a current mover. Disney reported a mixed quarter (EPS beat, revenue miss) but is up 3%+ on Experiences segment strength (+10% YoY). CVS beat and raised guidance, also a bullish kicker with unusual options volume flagging it pre-move. Elsewhere: Arista +12% (beat, raised guidance), Circle +5% (Arc blockchain partners), Wynn +5% (beat), Kratos +10% (beat across all segments), Booking +7% (gross bookings beat) — while Pinterest -9% (light Q3 guide), Teradata -13% (light Q3 EPS guide), DaVita -5.5% (despite a beat), Uber -3% (light Q3 guide), and Flutter -5%+ (CEO departure, lowered FY guidance) round out the losers. ADP private payrolls this morning is the warm-up to Friday's big jobs report, plus ISM Services. Oil is ticking back up a bit as Trump says the Iran deal could come as soon as today — that headline is still the one moving things. On the board, MSFT keeps leading dark pool flow, still drawing big size a week after its own earnings.",
+    "market_context": "ADP private payrolls 8:15am (forecast 68K vs 98K prior) — first jobs read before Friday's report. ISM Services PMI 10am (forecast 54.5 vs 54.0 prior). Trump speaks 4:30pm. Oil hovering with WTI near $76, Brent near $80, as Hormuz deal talks play out — Trump said a deal could come as soon as today. 10-yr yield ~4.66%. Tuesday close: Dow above 54,000 for the first time ever, S&P record >7,700 (+1.79%), Nasdaq +2.59%. Today's earnings watch also includes NVO, DASH, EBAY, UBER, GFS, Z, SNDK — options trading implies double-digit moves for GFS, FSLY, and APP after their reports. CMC hosts its Investor Day today; COST releases its monthly sales report postmarket.",
+    "bulls": [
+      {
+        "ticker": "SHOP",
+        "pct": "+23%",
+        "why": "Easily the biggest earnings mover of the day after a strong quarter — bullish gapper with DP on the board."
+      },
+      {
+        "ticker": "LLY",
+        "pct": "+6.5%+",
+        "why": "Beat and raised full-year 2026 revenue guidance as demand for Zepbound and Mounjaro continues to surge. Current mover, also a bullish kicker."
+      },
+      {
+        "ticker": "ANET",
+        "pct": "+12%",
+        "why": "Beat on both lines — adjusted EPS $1.02 vs 88c est, revenue $3.04B vs $2.82B est — with Q3 guidance for profit and revenue also above estimates."
+      },
+      {
+        "ticker": "CVS",
+        "pct": "+2.5%+",
+        "why": "Beat on earnings and revenue and raised full-year adjusted EPS guidance to $7.90-8.10 from $7.30-7.50. Bullish kicker, and unusual options volume flagged it pre-move."
+      },
+      {
+        "ticker": "KTOS",
+        "pct": "+10%",
+        "why": "Kratos Defense & Security Solutions beat Wall Street estimates in all segments."
+      },
+      {
+        "ticker": "BKNG",
+        "pct": "+7%",
+        "why": "Gross bookings of $51B beat the Street's $49.35B estimate; adjusted EPS and revenue both topped consensus. Reported Monday night, showed up Tuesday in a Failed 2D reversal as a current mover, and it's still going — the setup and catalyst working together over multiple days."
+      }
+    ],
+    "bears": [
+      {
+        "ticker": "SPCX",
+        "pct": "-11%",
+        "why": "First-ever quarterly report as a public company — revenue +92% YoY beat estimates ($7.81B vs $6.93B), but heavy capex ($18.37B, +550% YoY on AI) weighed on the reaction."
+      },
+      {
+        "ticker": "AMD",
+        "pct": "-8.5%",
+        "why": "Beat on both lines with record revenue (data center doubled) and guided next quarter above expectations, but fell anyway — already +140% YTD, the beat wasn't the blowout priced in."
+      },
+      {
+        "ticker": "TDC",
+        "pct": "-13%",
+        "why": "Teradata slumped after Q3 earnings guidance of 55-59 cents trailed the 62-cent Wall Street consensus."
+      },
+      {
+        "ticker": "PINS",
+        "pct": "-9%",
+        "why": "Pinterest slid on light Q3 revenue guidance ($1.19-1.21B) despite beating on both lines in Q2."
+      },
+      {
+        "ticker": "FLUT",
+        "pct": "-5%+",
+        "why": "Flutter Entertainment announced CEO Peter Jackson's departure (Dan Taylor replacing him Oct. 1) and lowered full-year revenue guidance."
+      },
+      {
+        "ticker": "DVA",
+        "pct": "-5.5%",
+        "why": "DaVita fell despite better-than-expected Q2 results — full-year guidance of $14.10-15.20 adjusted EPS came in with a wider range than the $14.88 consensus, and the market sold it anyway."
+      }
+    ],
+    "darkpool": [
+      {
+        "ticker": "MSFT",
+        "size": "$638M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Stays on top — size still stacking on it a week after earnings; led the entire board Tuesday at $4.6B total ask-side flow."
+      },
+      {
+        "ticker": "AMZN",
+        "size": "$482M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, fits a market at record highs."
+      },
+      {
+        "ticker": "AAPL",
+        "size": "$464M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side; $3.9B total flow Tuesday."
+      },
+      {
+        "ticker": "FERG",
+        "size": "$431M",
+        "side": "mixed",
+        "timing": "AH",
+        "note": "The odd one out — Ferguson (plumbing/building products distributor), an old-economy name up top, part of the broadening theme."
+      },
+      {
+        "ticker": "MU",
+        "size": "$403M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side, holding down the chip side; $3.5B total mixed flow Tuesday, third overall on the board."
+      },
+      {
+        "ticker": "MS",
+        "size": "$311M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, financials joining the record-highs rally."
+      },
+      {
+        "ticker": "INTC",
+        "size": "$308M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side, chip complex."
+      },
+      {
+        "ticker": "WFC",
+        "size": "$276M",
+        "side": "bid",
+        "timing": "AH",
+        "note": "Bid-side, financials."
+      },
+      {
+        "ticker": "AMD",
+        "size": "$258M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side flow showing up ahead of this morning's post-earnings drop."
+      },
+      {
+        "ticker": "SPY",
+        "size": "$925M",
+        "side": "ask",
+        "timing": "AH",
+        "note": "Ask-side despite the record close — $9.6B total session flow (bid overall), tops the ETF board."
+      },
+      {
+        "ticker": "QQQ",
+        "size": "$979M",
+        "side": "bid",
+        "timing": "",
+        "note": "Largest single print on the entire board; $6.2B total mixed flow, second on the ETF board."
+      },
+      {
+        "ticker": "VUSB",
+        "size": "$498M",
+        "side": "ask",
+        "timing": "",
+        "note": "Ultra-short bond fund — some cash parking showing up even on a record day."
+      }
+    ],
+    "setups": [
+      {
+        "ticker": "SHOP",
+        "tier": 1,
+        "strat": "Bullish Gapper",
+        "bias": "BULL",
+        "catalyst": "+23% premarket after a strong quarter — easily the biggest earnings mover of the day.",
+        "levels": "Bullish gapper w/ DP on the board — no fixed Strat trigger given; watch for continuation vs. a gap-fill fade.",
+        "bull": "Holds the gap and extends — biggest mover of the day confirms with follow-through.",
+        "bear": "Fades back into the gap — one-day pop on the beat.",
+        "note": "The cleanest, biggest catalyst on the board today."
+      },
+      {
+        "ticker": "LLY",
+        "tier": 1,
+        "strat": "Inside (1) / Bullish Kicker",
+        "bias": "BULL",
+        "catalyst": "Beat and raised FY26 revenue guidance on continued Zepbound/Mounjaro demand surge; up ~6.5%+.",
+        "levels": "Inside (1) compression bar plus a bullish kicker tag — wait for the break of the Inside bar for confirmation.",
+        "bull": "Breaks the Inside bar high — kicker and reversal both confirm higher.",
+        "bear": "Breaks the Inside bar low — kicker fails to hold.",
+        "note": "Current mover with DP on the board — one of the cleanest setups today."
+      },
+      {
+        "ticker": "AMD",
+        "tier": 2,
+        "strat": "Bearish Kicker",
+        "bias": "BEAR",
+        "catalyst": "Beat on both lines with record revenue (data center doubled) and guided above expectations, but fell ~9% AH anyway — already +140% YTD, the beat wasn't the blowout priced in. Same story as SPCX and AAPL before it.",
+        "levels": "Bearish kicker on the board — watch for follow-through selling vs. a dip-buy reversal.",
+        "bull": "Reclaims and holds premarket losses — dip-buying overrides the kicker.",
+        "bear": "Kicker confirms — follow-through selling continues the post-earnings fade.",
+        "note": "High dark-pool attention on the chip complex (MU $403M ask, INTC $308M ask) — AMD's reaction is a read on the whole group."
+      },
+      {
+        "ticker": "CVS",
+        "tier": 2,
+        "strat": "Bullish Kicker",
+        "bias": "BULL",
+        "catalyst": "Beat and raised FY26 adjusted EPS guidance; also showing unusual options volume above average.",
+        "levels": "Bullish kicker w/ DP on the board — no fixed level given.",
+        "bull": "Holds the kicker gap — guidance raise confirms.",
+        "bear": "Fades the gap — profit-taking despite the raise.",
+        "note": "Unusual options volume flagged it pre-move — natural cross-check per FlowMS."
+      },
+      {
+        "ticker": "BKNG",
+        "tier": 2,
+        "strat": "Failed 2D (fired, current mover)",
+        "bias": "BULL",
+        "catalyst": "Reported earnings Monday night, showed up Tuesday in a Failed 2D reversal as a current mover, and it's still going — a multi-day reversal-plus-catalyst combo.",
+        "levels": "Reversal already confirmed — watch for continued follow-through.",
+        "bull": "Extends the reversal — multi-day follow-through confirms the setup+catalyst combo.",
+        "bear": "Fades back — one-and-done reversal.",
+        "note": "The clean process example FlowMS keeps pointing back to — watch how a name behaves in the days after its report, not just the night of."
+      },
+      {
+        "ticker": "DIS",
+        "tier": 3,
+        "strat": "Inside (1)",
+        "bias": "WATCH",
+        "catalyst": "Reported a mixed quarter (EPS beat, revenue miss) but +3%+ on Experiences segment strength (+10% YoY).",
+        "levels": "Inside (1) compression — wait for the break.",
+        "bull": "Breaks the Inside bar high — Experiences strength wins out.",
+        "bear": "Breaks the Inside bar low — revenue miss weighs.",
+        "note": "Mixed print — let the Inside bar resolve before sizing in."
+      }
+    ],
+    "events": [
+      {
+        "type": "Geopolitical/Oil",
+        "detail": "Treasury Secretary Bessent said the US and Iran could reach a deal to reopen the Strait of Hormuz within days, sending oil lower Tuesday; Trump said today the deal could come as soon as today. WTI near $76, Brent near $80."
+      },
+      {
+        "type": "Market Structure",
+        "detail": "Dow closed above 54,000 for the first time ever (+900+ pts) Tuesday, S&P hit a record above 7,700 (+1.79%), Nasdaq +2.59%. PLTR +29% off Monday's blowout."
+      },
+      {
+        "type": "Economic",
+        "detail": "ADP private payrolls 8:15am (forecast 68K vs 98K prior) — first jobs read before Friday's report. ISM Services PMI 10am (forecast 54.5 vs 54.0 prior). Trump speaks 4:30pm."
+      },
+      {
+        "type": "Earnings Today",
+        "detail": "SHOP (+23%), LLY (+6.5%+), DIS (+3%+, mixed), CVS (+2.5%+), NVO, UBER (-3%), DASH, EBAY, GFS, Z, SNDK all report — options imply double-digit moves for GFS, FSLY, and APP after their reports."
+      },
+      {
+        "type": "Earnings Reaction (Yesterday)",
+        "detail": "AMD -8.5% (beat, record revenue, guided above expectations — bar was too high). SpaceX -11% on its first-ever public earnings (revenue +92% YoY beat, but heavy AI-driven capex weighed)."
+      },
+      {
+        "type": "Corporate",
+        "detail": "CMC hosts its Investor Day today. COST releases its monthly sales report postmarket. CRS holds a conference. SAR pays a dividend."
+      },
+      {
+        "type": "Options Flow",
+        "detail": "QQQ $700C 8/31/26 at $23.4M — large bullish sweep riding the record run. NVDA $212.5C 8/5/26 at $1.2M — same-week sweep, NVDA's own earnings still weeks out. GLD $500P 12/18/26 at $31.3M — the recurring gold put block. TSM $400C 9/18/26 at $18.3M — a call block into September."
+      },
+      {
+        "type": "Looking Ahead",
+        "detail": "Friday brings the July jobs report — the week's real test, still ahead."
+      }
+    ],
+    "earnings_bmo": [
+      "SHOP",
+      "LLY",
+      "DIS",
+      "CVS",
+      "NVO",
+      "UBER",
+      "SNDK"
+    ],
+    "earnings_amc": [
+      "GFS",
+      "FSLY",
+      "APP"
+    ],
+    "morning_prep": {
+      "theme": "Back-to-back record closes with oil rolling over on Hormuz deal hopes — the market wants to go up when the war premium comes out of oil. AMD and SpaceX both showed that great numbers aren't enough against a sky-high bar. Today SHOP is the standout mover, LLY and CVS both confirm with kickers, and BKNG's multi-day Failed 2D reversal keeps working. ADP this morning previews Friday's real test.",
+      "rules": [
+        "SHOP is the biggest, cleanest catalyst today (+23% premarket, bullish gapper) — watch for continuation vs. a gap-fill fade rather than assuming an automatic hold.",
+        "LLY: Inside (1) plus bullish kicker — wait for the break of the Inside bar before sizing in, don't anticipate off the premarket move alone.",
+        "AMD is a bearish kicker despite beating and guiding above expectations — same high-bar pattern as SPCX/AAPL. Watch for dip-buying vs. follow-through selling; the chip complex (MU, INTC) is watching this reaction too.",
+        "CVS: bullish kicker plus unusual options volume flagged pre-move — a natural cross-check setup.",
+        "BKNG is the process example to study — Monday earnings, Tuesday Failed 2D reversal, still a current mover today. Watch how names behave in the days after a report, not just the night of.",
+        "ADP private payrolls at 8:15am previews Friday's jobs report — don't overreact to one data point with the bigger catalyst still two days out."
+      ],
+      "setups": [
+        {
+          "ticker": "SHOP",
+          "tier": 1,
+          "strat": "Bullish Gapper",
+          "bias": "BULL",
+          "catalyst": "+23% premarket, biggest earnings mover of the day.",
+          "levels": "No fixed trigger — watch continuation vs. gap-fill fade.",
+          "bull": "Holds the gap and extends.",
+          "bear": "Fades back into the gap.",
+          "note": "Biggest catalyst on the board today."
+        },
+        {
+          "ticker": "LLY",
+          "tier": 1,
+          "strat": "Inside (1) / Bullish Kicker",
+          "bias": "BULL",
+          "catalyst": "Beat, raised FY26 guidance on Zepbound/Mounjaro demand.",
+          "levels": "Wait for the break of the Inside bar.",
+          "bull": "Breaks the Inside bar high.",
+          "bear": "Breaks the Inside bar low.",
+          "note": "Current mover, one of the cleanest setups today."
+        },
+        {
+          "ticker": "AMD",
+          "tier": 2,
+          "strat": "Bearish Kicker",
+          "bias": "BEAR",
+          "catalyst": "Beat and guided above expectations, fell ~9% AH anyway — bar too high after +140% YTD.",
+          "levels": "Watch for follow-through selling vs. dip-buy reversal.",
+          "bull": "Reclaims premarket losses.",
+          "bear": "Kicker confirms, follow-through selling continues.",
+          "note": "Read on the whole chip complex today."
+        },
+        {
+          "ticker": "CVS",
+          "tier": 2,
+          "strat": "Bullish Kicker",
+          "bias": "BULL",
+          "catalyst": "Beat and raised FY26 EPS guidance; unusual options volume flagged it.",
+          "levels": "No fixed level — watch the kicker gap.",
+          "bull": "Holds the gap.",
+          "bear": "Fades despite the raise.",
+          "note": "Natural cross-check via unusual options volume."
+        },
+        {
+          "ticker": "BKNG",
+          "tier": 2,
+          "strat": "Failed 2D (fired, current mover)",
+          "bias": "BULL",
+          "catalyst": "Monday earnings → Tuesday Failed 2D reversal → still a current mover.",
+          "levels": "Reversal already confirmed — watch for follow-through.",
+          "bull": "Extends the reversal.",
+          "bear": "Fades back — one-and-done.",
+          "note": "The clean multi-day process example."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "AMD",
+      "pattern": "Bearish kicker on the board following Tuesday AMC's post-earnings drop — no confirmed reversal yet.",
+      "flow": "$258M ask AH Tuesday alongside heavy chip-complex flow (MU $403M ask AH, INTC $308M ask AH) — the whole group repricing off AMD's reaction.",
+      "catalyst": "Beat on both lines with record revenue (data center doubled) and guided above expectations, but fell ~9% after hours anyway — already +140% YTD, the beat wasn't the blowout priced in. Same pattern as SPCX (-11% despite +92% revenue) and the whole earnings season.",
+      "key_levels": "No fixed Strat trigger beyond the bearish kicker read — watch for follow-through selling vs. a dip-buy reversal given the extreme premarket move already realized.",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
