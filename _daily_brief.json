@@ -14160,5 +14160,105 @@
       "expected_move_pct": "",
       "bias": ""
     }
+  },
+  "2026-08-06": {
+    "headline": "Earnings-reaction Thursday: SNDK, IONQ, and OXY all digesting recent prints with clean multi-timeframe Strat levels in play. Preview build — news/flow not yet added for today.",
+    "overview": "Morning prep so far is built entirely around earnings-reaction setups on the Strat board. SNDK is digesting its earnings reaction with a 10-min ORB or higher-timeframe Strat setup in play, plus a possible 3-bar off the open. IONQ sits in a 2-1 Daily structure with levels stacked toward both a daily and monthly trigger. OXY is working through a 3-bar Daily post-earnings, with levels stacked toward both a daily and monthly trigger as well. News and flow context for today have not been added yet — this is a preview build from morning prep only.",
+    "market_context": "Not yet available — news and FlowMS batches for today haven't been provided. This section will be filled in once those arrive.",
+    "bulls": [],
+    "bears": [],
+    "darkpool": [],
+    "setups": [
+      {
+        "ticker": "SNDK",
+        "tier": 1,
+        "strat": "Earnings Reaction — 10m ORB / HTF Strat Setup",
+        "bias": "WATCH",
+        "catalyst": "Digesting its earnings reaction. Watching either the 10-min ORB or a higher-timeframe Strat setup for the trigger, plus a possible 3-bar forming off the open.",
+        "levels": "Chart levels: Gap Filled $1,350.50, Gap Entry $1,124.00, Gap Filled $1,015.89, 2D Week $998.19.",
+        "bull": "Holds above the gap-fill levels and confirms the ORB or HTF setup higher.",
+        "bear": "Breaks back down through the gap-entry zone — earnings-reaction weakness continues.",
+        "note": "Also watching for a potential 3-bar off the open — two possible reads on the same name today."
+      },
+      {
+        "ticker": "IONQ",
+        "tier": 1,
+        "strat": "2-1 Daily (Earnings Reaction)",
+        "bias": "WATCH",
+        "catalyst": "Digesting its earnings reaction in a 2-1 Daily structure.",
+        "levels": "Above $41.90 triggers a 2-1-2U on the daily. Below $39.70 triggers a 2-1-2D on the daily; below $31.81 triggers a 2D on the monthly.",
+        "bull": "Reclaims and holds above $41.90 — 2-1-2U confirms.",
+        "bear": "Breaks below $39.70 — 2-1-2D confirms on the daily, with $31.81 the bigger monthly level to watch below that.",
+        "note": "Stacked daily/monthly levels — know which one triggers first before sizing in."
+      },
+      {
+        "ticker": "OXY",
+        "tier": 1,
+        "strat": "3-Bar Daily (Earnings Reaction)",
+        "bias": "WATCH",
+        "catalyst": "Digesting its earnings reaction in a 3-bar Daily structure.",
+        "levels": "Above $55.59 triggers a 3-2U on the daily; above $58.99 triggers a Failed 2D-2U on the month. Below $53.66 triggers a 3-2D on the day; below $47.77 triggers a 2D on the month.",
+        "bull": "Reclaims and holds above $55.59, with $58.99 the bigger monthly confirmation above that.",
+        "bear": "Breaks below $53.66 on the day, with $47.77 the bigger monthly breakdown level below that.",
+        "note": "Four stacked levels across daily and monthly timeframes — let price show which one is in play before sizing in."
+      }
+    ],
+    "events": [],
+    "earnings_bmo": [],
+    "earnings_amc": [],
+    "morning_prep": {
+      "theme": "Preview build — three earnings-reaction names (SNDK, IONQ, OXY) with clean multi-timeframe Strat levels. News and flow context still to come.",
+      "rules": [
+        "SNDK: watch the 10-min ORB or the higher-timeframe setup, and keep an eye out for a 3-bar off the open.",
+        "IONQ: above $41.90 is bullish (2-1-2U), below $39.70 is bearish (2-1-2D), with $31.81 the bigger monthly level below that.",
+        "OXY: above $55.59 is bullish (3-2U), below $53.66 is bearish (3-2D), with $58.99/$47.77 the bigger monthly confirmation levels beyond those.",
+        "This is a preview build — treat it as a working draft until news and flow are added and the report is regenerated."
+      ],
+      "setups": [
+        {
+          "ticker": "SNDK",
+          "tier": 1,
+          "strat": "Earnings Reaction — 10m ORB / HTF Strat Setup",
+          "bias": "WATCH",
+          "catalyst": "Digesting its earnings reaction.",
+          "levels": "Gap Filled $1,350.50, Gap Entry $1,124.00, Gap Filled $1,015.89, 2D Week $998.19.",
+          "bull": "Holds above gap-fill levels, ORB/HTF setup confirms higher.",
+          "bear": "Breaks back through the gap-entry zone.",
+          "note": "Also watching for a 3-bar off the open."
+        },
+        {
+          "ticker": "IONQ",
+          "tier": 1,
+          "strat": "2-1 Daily (Earnings Reaction)",
+          "bias": "WATCH",
+          "catalyst": "Digesting its earnings reaction.",
+          "levels": "Above $41.90 bullish. Below $39.70 bearish; below $31.81 monthly breakdown.",
+          "bull": "Holds above $41.90.",
+          "bear": "Breaks below $39.70/$31.81.",
+          "note": "Stacked daily/monthly levels."
+        },
+        {
+          "ticker": "OXY",
+          "tier": 1,
+          "strat": "3-Bar Daily (Earnings Reaction)",
+          "bias": "WATCH",
+          "catalyst": "Digesting its earnings reaction.",
+          "levels": "Above $55.59/$58.99 bullish. Below $53.66/$47.77 bearish.",
+          "bull": "Holds above $55.59.",
+          "bear": "Breaks below $53.66.",
+          "note": "Four stacked levels — let price confirm."
+        }
+      ]
+    },
+    "mag7_0dte": {
+      "ticker": "",
+      "pattern": "",
+      "flow": "",
+      "catalyst": "Not yet selected — pool candidates need today's dark-pool/news context to make a fair pick.",
+      "key_levels": "",
+      "expected_move": "",
+      "expected_move_pct": "",
+      "bias": ""
+    }
   }
 }
