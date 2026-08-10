@@ -14532,7 +14532,63 @@
       "PLUG",
       "QUBT"
     ],
-    "morning_prep": {},
+    "morning_prep": {
+      "theme": "No explicit morning prep today — this section is built from the Strat setups/dark-pool board instead. Big week ahead, but today's about positioning: CPI Wednesday is the real event. MSFT's flow dominance and META's setup+block alignment are the cleanest reads on the board; MNDY and ASTS both carry same-day earnings binary risk on top of their technical setups.",
+      "rules": [
+        "MSFT: no fixed Strat trigger, pure flow-led — largest single print and total flow Friday, all ask-side, all after hours. Watch premarket action and the 10-min ORB rather than anticipating a level.",
+        "META: 3 Bar/Outside setup aligned with a $69.8M call block and bid-side flow — wait for the outside bar break to confirm, don't chase the premarket pop.",
+        "MNDY and ASTS both report earnings today with technical setups already in play (bearish kicker on MNDY, Inside(1) on ASTS) — treat both as pre-print reads only, the report resets everything.",
+        "INTC: fresh $15B stock offering layered onto a Failed 2U setup — real dilution catalyst, not just a technical read, worth extra weight if it breaks down.",
+        "HPE: analyst-upgrade-driven bullish kicker, different risk profile than the earnings-day names — no binary print risk today.",
+        "Broader tell: ask-side leans clustered across MSFT/MU/TXN/AVGO/NVDA/AMD Friday, and bid-side money into Treasury ETFs (IEF, TLT) — positioning ahead of Wednesday's CPI, worth watching as a group not just individual names."
+      ],
+      "setups": [
+        {
+          "ticker": "MSFT",
+          "tier": 1,
+          "strat": "Flow-led (no fixed Strat trigger)",
+          "bias": "WATCH",
+          "catalyst": "Dominates Friday's dark pool board — largest single print ($975M) and top total flow ($3.3B), all ask-side, all after hours.",
+          "levels": "No fixed trigger — watch premarket action and the 10-min ORB.",
+          "bull": "Holds and extends on top of Friday's dominant flow.",
+          "bear": "Fades despite the flow — ask-side lean proves to be distribution.",
+          "note": "Part of a broader ask-side lean across mega-cap tech/chips today."
+        },
+        {
+          "ticker": "META",
+          "tier": 1,
+          "strat": "3 Bar / Outside, Bullish Gapper",
+          "bias": "BULL",
+          "catalyst": "$69.8M long-dated call block, bid-side flow, up ~2% premarket — setup and flow aligned.",
+          "levels": "Wait for confirmed break of the outside bar high/low.",
+          "bull": "Breaks the outside bar high — call block, bid flow, and gapper status confirm together.",
+          "bear": "Breaks the outside bar low — de-risking despite the bullish structure.",
+          "note": "One of the cleanest setup+flow alignments on today's board."
+        },
+        {
+          "ticker": "MNDY",
+          "tier": 2,
+          "strat": "Bearish Kicker (earnings today)",
+          "bias": "BEAR",
+          "catalyst": "-9.6% premarket, bearish kicker with DP on the board, reports today.",
+          "levels": "No fixed level — same-day earnings risk on top.",
+          "bull": "Shrugs off premarket weakness, reclaims before the print.",
+          "bear": "Kicker confirms, follow-through selling into the print.",
+          "note": "Pre-print read only — the report resets everything."
+        },
+        {
+          "ticker": "ASTS",
+          "tier": 2,
+          "strat": "Inside (1), earnings today",
+          "bias": "WATCH",
+          "catalyst": "AST SpaceMobile reports today, sitting in an Inside (1) compression bar.",
+          "levels": "Wait for the break of the Inside bar high/low post-earnings.",
+          "bull": "Breaks the Inside bar high.",
+          "bear": "Breaks the Inside bar low.",
+          "note": "Inside bar plus same-day print is a loaded combination — size accordingly."
+        }
+      ]
+    },
     "week_calendar": [
       {
         "date": "2026-08-10",
