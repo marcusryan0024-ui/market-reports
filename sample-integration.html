@@ -1,0 +1,179 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sample &mdash; Catalyst Calendar Feeding the Daily Report</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--hov:#1c2128;--bd:#30363d;--bds:#21262d;
+--t1:#e6edf3;--t2:#8b949e;--t3:#6e7681;--t4:#b1bac4;--acc:#58a6ff;--up:#3fb950;--dn:#f85149;
+--warn:#f0883e;--gold:#e3b341;--pur:#a78bfa}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+font-size:13px;line-height:1.5;padding:16px;max-width:1400px;margin:0 auto}
+h1{font-size:21px;font-weight:800;letter-spacing:-.035em;
+background:linear-gradient(90deg,#58a6ff,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:11px;color:var(--t3);margin:3px 0 16px;line-height:1.6}
+.note{background:#0c1929;border:1px solid #1f6feb;border-radius:6px;padding:11px 14px;margin-bottom:14px;
+font-size:11px;color:#9fc9ff;line-height:1.6}
+.step{font-size:9px;font-weight:800;letter-spacing:.16em;color:#3d444d;text-transform:uppercase;margin:22px 0 8px;
+display:flex;align-items:center;gap:8px}
+.step span{background:var(--acc);color:#0d1117;padding:2px 7px;border-radius:3px;letter-spacing:.06em}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:6px;margin-bottom:8px;overflow:hidden}
+.ch{background:var(--bg);padding:8px 14px;border-bottom:1px solid var(--bds);font-size:9px;font-weight:700;
+letter-spacing:.12em;color:var(--t2);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.pad{padding:12px 14px}
+pre{background:#010409;border:1px solid var(--bds);border-radius:6px;padding:12px 14px;overflow-x:auto;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;line-height:1.6;color:var(--t4)}
+.k{color:#7ee787}.v{color:#a5d6ff}.c{color:#6e7681}
+
+.gp{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--bds);align-items:flex-start}
+.gp:last-child{border-bottom:none}
+.gpl{flex:0 0 96px}
+.gpt{font-size:15px;font-weight:800}
+.gpw{font-size:9px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:2px}
+.gpr{flex:1;min-width:0}
+.gpd{font-size:11px;color:var(--t4);line-height:1.55}
+.badge{display:inline-block;font-size:8px;font-weight:800;letter-spacing:.08em;padding:2px 6px;border-radius:3px;margin-left:5px}
+.bv{background:#1d1b2e;border:1px solid #6e40c9;color:var(--pur)}
+.bu{background:#2b1d0e;border:1px solid #9e6a03;color:var(--warn)}
+.bn{background:#0f2a17;border:1px solid #238636;color:var(--up)}
+
+.grid{display:grid;grid-template-columns:repeat(5,minmax(215px,1fr));gap:1px;background:var(--bds);min-width:1100px}
+.scroll{overflow-x:auto}
+.day{background:var(--card);padding:8px 10px}
+.day.today{background:#0c1929;border-top:3px solid var(--acc)}
+.dn{font-size:9px;font-weight:800;letter-spacing:.07em;color:var(--t3);margin-bottom:5px}
+.day.today .dn{color:var(--acc)}
+.sec{font-size:7px;font-weight:700;letter-spacing:.1em;color:#3d444d;margin:7px 0 3px;text-transform:uppercase}
+.ev{padding:2px 0}
+.evt{font-size:9px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.evd{font-size:9.5px;color:var(--t4);line-height:1.4}
+.auto{color:var(--pur);font-weight:700}
+.none{font-size:9px;color:#3d444d;font-style:italic}
+.legend{font-size:10px;color:var(--t3);padding:10px 14px;line-height:1.7;border-top:1px solid var(--bds)}
+.legend b{color:var(--t2)}
+</style>
+
+<h1>How the Catalyst Calendar Feeds the Report</h1>
+<div class="sub">Same data, three places. Nothing below is typed by hand each morning &mdash;
+it renders from <span style="color:var(--acc)">catalysts.json</span>, which is why it costs the 4-minute build nothing.</div>
+
+<div class="note">
+  Everything shown is <strong>real, current data</strong> from the file as it stands right now &mdash; 7 upcoming
+  entries. Where something is unconfirmed it says so; nothing here is filled in to make the example look fuller.
+</div>
+
+<div class="step"><span>1</span> The file &mdash; one entry, written once</div>
+<pre><span class="c">// I add this once, from NVIDIA's own IR release. It then appears everywhere below.</span>
+{
+  <span class="k">"ticker"</span>: <span class="v">"NVDA"</span>,
+  <span class="k">"type"</span>:   <span class="v">"earnings_call"</span>,
+  <span class="k">"date"</span>:   <span class="v">"2026-08-26"</span>,
+  <span class="k">"time_ct"</span>:<span class="v">"3:20pm results / 4:00pm call"</span>,
+  <span class="k">"note"</span>:   <span class="v">"Q2 FY2027. Lands the day BEFORE Jackson Hole opens."</span>,
+  <span class="k">"source"</span>: <span class="v">"nvidianews.nvidia.com/..."</span>,
+  <span class="k">"verified"</span>: <span class="v">true</span>
+}</pre>
+
+<div class="step"><span>2</span> Game plan &mdash; today's entries, next to the setups</div>
+<div class="card">
+  <div class="ch"><span>Catalysts Today</span><span style="color:var(--t3);font-weight:600;letter-spacing:0;text-transform:none;">auto &middot; times CT</span></div>
+  <div class="pad">
+    <div class="gp">
+      <div class="gpl"><div class="gpt" style="color:var(--gold)">13F</div><div class="gpw">ALL DAY</div></div>
+      <div class="gpr"><div class="gpd"><strong>Q2 institutional filing deadline.</strong> Watch for position shifts in
+        NVDA, META, TSLA, CRWV, GLW. <span class="badge bv">VERIFIED</span></div></div>
+    </div>
+    <div class="gp">
+      <div class="gpl"><div class="gpt">BMY</div><div class="gpw">ALL DAY</div></div>
+      <div class="gpr"><div class="gpd">Last trading day before the FDA action date on iberdomide.
+        <span class="badge bv">VERIFIED</span></div></div>
+    </div>
+  </div>
+  <div class="legend">Those two are what the file actually holds for Friday 8/14. On a day like today it would have
+    surfaced <b>SNDK investor day, 8:00am CT</b> in this same card &mdash; sitting directly above the SNDK setup,
+    instead of you having to remember the connection.</div>
+</div>
+
+<div class="step"><span>3</span> This Week &mdash; the EVENTS column, populated automatically</div>
+<div class="card">
+  <div class="ch"><span>This Week &mdash; On Deck</span><span style="color:var(--t3);font-weight:600;letter-spacing:0;text-transform:none;">purple = from the calendar</span></div>
+  <div class="scroll"><div class="grid">
+    <div class="day today">
+      <div class="dn">FRI 8/14 &nbsp;TODAY</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">7:30am</span><div class="evd">July Retail Sales</div></div>
+      <div class="sec">Events</div>
+      <div class="ev"><div class="evd auto">13F deadline &mdash; NVDA, META, TSLA, CRWV, GLW</div></div>
+      <div class="ev"><div class="evd auto">BMY &mdash; last day before FDA action date</div></div>
+    </div>
+    <div class="day">
+      <div class="dn">MON 8/17</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><div class="none">Nothing confirmed</div></div>
+      <div class="sec">Events</div>
+      <div class="ev"><div class="none">None on file</div></div>
+    </div>
+    <div class="day">
+      <div class="dn">TUE 8/18</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">7:30am</span><div class="evd">Housing Starts <span style="color:var(--t3)">(unconfirmed)</span></div></div>
+      <div class="sec">Events</div>
+      <div class="ev"><div class="none">None on file</div></div>
+    </div>
+    <div class="day">
+      <div class="dn">WED 8/19</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">1:00pm</span><div class="evd">FOMC Minutes <span style="color:var(--t3)">(unconfirmed)</span></div></div>
+      <div class="sec">Events</div>
+      <div class="ev"><div class="none">None on file</div></div>
+    </div>
+    <div class="day">
+      <div class="dn">THU 8/20</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">7:30am</span><div class="evd">Jobless Claims</div></div>
+      <div class="sec">Events</div>
+      <div class="ev"><div class="none">None on file</div></div>
+    </div>
+  </div></div>
+  <div class="legend">The three empty days are <b>honest, not broken</b> &mdash; the file genuinely has nothing for
+    8/17&ndash;8/20 yet because 45 of your 53 tickers still need the research pass. As those fill in, these columns
+    populate on their own.</div>
+</div>
+
+<div class="step"><span>4</span> Sunday &mdash; the same entries, looking further out</div>
+<div class="card">
+  <div class="ch">Catalyst Watch &mdash; Beyond This Week</div>
+  <div class="pad">
+    <div class="gp">
+      <div class="gpl"><div class="gpt" style="color:var(--gold)">NVDA</div><div class="gpw">WED 8/26</div></div>
+      <div class="gpr"><div class="gpd"><strong>Q2 FY27 earnings.</strong> Results ~3:20pm CT, call 4:00pm CT.
+        Biggest catalyst of the month &mdash; and it lands the day before Jackson Hole opens.
+        <span class="badge bv">VERIFIED</span></div></div>
+    </div>
+    <div class="gp">
+      <div class="gpl"><div class="gpt">AAPL</div><div class="gpw">WED 8/26</div></div>
+      <div class="gpr"><div class="gpd">Likely iPhone event <em>invitation</em> &mdash; not the event. Same day as NVDA.
+        Event itself ~Sept 8&ndash;9. <span class="badge bu">UNCONFIRMED</span></div></div>
+    </div>
+    <div class="gp">
+      <div class="gpl"><div class="gpt" style="color:var(--t3)">MACRO</div><div class="gpw">AUG 27&ndash;29</div></div>
+      <div class="gpr"><div class="gpd"><strong>Jackson Hole symposium.</strong> Powell not yet on the published agenda.
+        <span class="badge bv">VERIFIED</span></div></div>
+    </div>
+    <div class="gp">
+      <div class="gpl"><div class="gpt">QCOM</div><div class="gpw">SEP 22&ndash;24</div></div>
+      <div class="gpr"><div class="gpd"><strong>Snapdragon Summit, Maui.</strong> Biggest platform showcase of their
+        year, next flagship chipset expected. Multi-day &mdash; the move can extend across the window.
+        <span class="badge bv">VERIFIED</span></div></div>
+    </div>
+    <div class="gp">
+      <div class="gpl"><div class="gpt">COST</div><div class="gpw">EARLY SEP</div></div>
+      <div class="gpr"><div class="gpd">August monthly sales, after the close. Costco doesn't pre-announce the date
+        &mdash; confirmed pattern is the first week of the following month. Pinned once IR posts it.
+        <span class="badge bn">RECURRING</span></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="sub" style="margin-top:18px">Verified means a real source URL is attached. Unconfirmed renders as tentative
+and never as fact. Recurring means the pattern is known but the exact date isn't published yet &mdash; so it gets a
+window, not an invented date.</div>
