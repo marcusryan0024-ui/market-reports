@@ -2,40 +2,103 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Recaps</title>
 <style>
-:root{--bg:#0d1117;--card:#161b22;--bd:#30363d;--bds:#21262d;--t1:#e6edf3;--t2:#8b949e;--t3:#6e7681;--acc:#58a6ff}
+:root{--bg:#0d1117;--card:#161b22;--hov:#1c2128;--bd:#30363d;--bds:#21262d;
+--t1:#e6edf3;--t2:#8b949e;--t3:#6e7681;--t4:#b1bac4;--acc:#58a6ff;--up:#3fb950;--dn:#f85149;--warn:#f0883e;--gold:#e3b341}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-font-size:13px;line-height:1.5;padding:22px 16px;max-width:820px;margin:0 auto}
-.back{font-size:9px;font-weight:700;letter-spacing:.14em;color:#3d444d;text-transform:uppercase;text-decoration:none;display:inline-block;margin-bottom:16px}
+font-size:13px;line-height:1.55;padding:22px 16px 60px;max-width:900px;margin:0 auto}
+.back{font-size:9px;font-weight:700;letter-spacing:.14em;color:#3d444d;text-transform:uppercase;
+text-decoration:none;display:inline-block;margin-bottom:16px}
 .back:hover{color:var(--t2)}
 h1{font-size:20px;font-weight:800;letter-spacing:-.03em;margin-bottom:3px}
-.sub{font-size:11px;color:var(--t3);margin-bottom:20px;line-height:1.6}
-.lbl{font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.18em;text-transform:uppercase;margin:22px 0 9px}
-.r{display:flex;align-items:center;gap:12px;padding:9px 13px;background:var(--card);border:1px solid var(--bd);
-border-radius:6px;margin-bottom:5px;text-decoration:none;color:inherit;transition:border-color .15s}
-.r:hover{border-color:#484f58}
+.sub{font-size:11px;color:var(--t3);margin-bottom:22px;line-height:1.6}
+.lbl{font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.18em;text-transform:uppercase;margin:24px 0 9px}
+
+details{background:var(--card);border:1px solid var(--bd);border-radius:6px;margin-bottom:6px;overflow:hidden}
+details[open]{border-color:#484f58}
+details.wk{border-left:2px solid var(--acc)}
+summary{display:flex;align-items:center;gap:12px;padding:11px 14px;cursor:pointer;list-style:none;transition:background .12s}
+summary::-webkit-details-marker{display:none}
+summary:hover{background:var(--hov)}
 .dow{font-size:9px;font-weight:800;color:var(--t3);letter-spacing:.1em;min-width:30px}
-.d{font-size:13px;font-weight:700;min-width:74px}
-.n{font-size:11px;color:var(--t2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.wk{border-left:2px solid var(--acc)}
-.tag{font-size:8px;font-weight:800;letter-spacing:.09em;padding:2px 6px;border-radius:3px;
-background:#0d2137;border:1px solid #1f6feb;color:var(--acc)}
-.empty{font-size:11px;color:var(--t3);font-style:italic;padding:9px 13px}
+.dt{font-size:13px;font-weight:700;min-width:76px}
+.hl{font-size:11px;color:var(--t2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag{font-size:8px;font-weight:800;letter-spacing:.09em;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.tag.open{background:#2b1d0e;border:1px solid #9e6a03;color:var(--warn)}
+.tag.done{background:#0f2a17;border:1px solid #238636;color:var(--up)}
+.chev{font-size:9px;color:var(--t3);transition:transform .15s}
+details[open] .chev{transform:rotate(90deg)}
+
+.body{padding:2px 16px 16px;border-top:1px solid var(--bds)}
+.mac{font-size:11px;color:var(--t4);line-height:1.65;padding:12px 0;border-bottom:1px solid var(--bds)}
+.mac b{color:var(--t1)}
+.sh{font-size:9px;font-weight:700;color:#3d444d;letter-spacing:.14em;text-transform:uppercase;margin:16px 0 8px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{text-align:left;font-size:8px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;
+padding:0 8px 6px 0;border-bottom:1px solid var(--bds)}
+td{padding:7px 8px 7px 0;border-bottom:1px solid var(--bds);color:var(--t4);vertical-align:top}
+td.sym{font-weight:800;color:var(--t1);font-size:12px;width:56px}
+td.tier{width:34px;font-weight:800;font-size:9px;color:var(--t3)}
+td.tier.t1{color:var(--gold)}
+.lvl{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px;color:var(--acc)}
+.px{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10px}
+.g{color:var(--up)}.r{color:var(--dn)}
+.blank{font-size:11px;color:var(--t3);font-style:italic;padding:9px 0;line-height:1.6}
+.rlink{display:inline-block;margin-top:14px;font-size:10px;font-weight:700;color:var(--t3);
+letter-spacing:.06em;text-decoration:none}
+.rlink:hover{color:var(--acc)}
+.empty{font-size:11px;color:var(--t3);font-style:italic;padding:11px 14px;
+background:var(--card);border:1px dashed var(--bd);border-radius:6px}
 </style>
 
 <a class="back" href="../">&lsaquo;&thinsp;Reports</a>
 <h1>Recaps</h1>
 <div class="sub">Daily notes Monday&ndash;Thursday, weekly rollup Sunday. Each daily scores the morning report's
-pre-open setup calls against what actually happened.</div>
+pre-open setup calls against what actually happened &mdash; called vs happened, not reconstructed after the fact.</div>
 
 <div class="lbl">August 2026</div>
 
-<a class="r" href="2026-08-13.md">
-  <span class="dow">THU</span>
-  <span class="d">Aug 13</span>
-  <span class="n">PPI hot &middot; SNDK investor day &middot; CSCO bearish kicker</span>
-  <span class="tag">OPEN</span>
-</a>
+<details open>
+  <summary>
+    <span class="chev">&#9656;</span>
+    <span class="dow">THU</span>
+    <span class="dt">Aug 13</span>
+    <span class="hl">PPI hot &middot; SNDK investor day &middot; CSCO bearish kicker</span>
+    <span class="tag open">OPEN</span>
+  </summary>
+  <div class="body">
+    <div class="mac">
+      <b>Macro.</b> July PPI ran hot &mdash; +0.9% m/m against +0.2% expected, four times the estimate, core the
+      hottest since early 2022. Flipped Wednesday's friendly CPI (headline +0.1% m/m, 3.4% y/y). September cut odds
+      only ticked down. Jobless claims same time; $25B 30-yr auction at 12:00pm CT.<br>
+      <b>Tape read going in.</b> Dead ETF week, no movement. Plan was catalyst/system only &mdash; no forced index trades.
+    </div>
 
-<div class="lbl">Weekly</div>
-<div class="empty">First Sunday rollup publishes Aug 16.</div>
+    <div class="sh">1 &middot; Called &mdash; committed before the open</div>
+    <table>
+      <tr><th>Ticker</th><th></th><th>Setup</th><th>Level called</th><th>8:22am</th></tr>
+      <tr><td class="sym">IWM</td><td class="tier">T2</td><td>2 Up at ATH, 6HR also 2U</td>
+        <td class="lvl">Clean price action only &mdash; flagged iffy</td><td class="px g">+0.37%</td></tr>
+      <tr><td class="sym">SNDK</td><td class="tier t1">T1</td><td>Investor day 8:00am CT</td>
+        <td class="lvl">2U day 1400 &middot; Failed 2UP 1300</td><td class="px g">+0.42%</td></tr>
+      <tr><td class="sym">CSCO</td><td class="tier">T2</td><td>Bearish kicker on a beat</td>
+        <td class="lvl">Let the market show its hands</td><td class="px r">&minus;7.06%</td></tr>
+      <tr><td class="sym">JD</td><td class="tier">T2</td><td>CPW candidate</td>
+        <td class="lvl">Next-week expiration contracts</td><td class="px r">&minus;2.97%</td></tr>
+    </table>
+
+    <div class="sh">2 &middot; Happened</div>
+    <div class="blank">Not filled in yet &mdash; actual closes and whether each level triggered.</div>
+
+    <div class="sh">3 &middot; Traded</div>
+    <div class="blank">Not filled in yet. Held going in: $DRAM straddle, letting it play out per prep.</div>
+
+    <div class="sh">4 &middot; Notes</div>
+    <div class="blank">Not filled in yet.</div>
+
+    <a class="rlink" href="../2026-08-13-premarket.html">View the morning report &rsaquo;</a>
+  </div>
+</details>
+
+<div class="lbl">Weekly Rollups</div>
+<div class="empty">First Sunday rollup publishes Aug 16 &mdash; Mon&ndash;Thu scored, P&amp;L, and repeating themes.</div>
