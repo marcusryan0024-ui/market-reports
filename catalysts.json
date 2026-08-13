@@ -9,7 +9,8 @@
       "time is 12-hour Central Time, or null when only the date is known",
       "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
       "never add an entry without a source - omit it instead",
-      "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in."
+      "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in.",
+      "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why."
     ],
     "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
     "last_updated": "2026-08-13"
@@ -23,36 +24,6 @@
       "time_ct": "8:00am",
       "note": "MU and the DRAM complex trade in sympathy. Lined up with a $672M ask-side dark pool print the night before.",
       "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "IDXX",
-      "name": "IDEXX Laboratories",
-      "type": "analyst_day",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "AMPX",
-      "name": "Amprius Technologies",
-      "type": "analyst_day",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "type": "fda_date",
-      "date": "2026-08-14",
-      "time_ct": null,
-      "note": "Last trading day before the FDA action date on iberdomide.",
-      "source": "carried from 2026-08-12 premarket report This Week grid",
       "verified": true
     },
     {
