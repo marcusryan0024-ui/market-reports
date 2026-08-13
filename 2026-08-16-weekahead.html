@@ -1,0 +1,234 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week Ahead &mdash; August 17-21, 2026</title>
+<style>
+:root{--bg-page:#0d1117;--bg-card:#161b22;--bg-hover:#1c2128;--border:#30363d;--border-s:#21262d;
+--tx1:#e6edf3;--tx2:#8b949e;--tx3:#6e7681;--tx4:#b1bac4;--tx5:#7d8590;
+--up:#3fb950;--dn:#f85149;--acc:#58a6ff;--warn:#f0883e;--gold:#e3b341;--pur:#a78bfa;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg-page);color:var(--tx1);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+font-size:13px;line-height:1.5;padding:14px;max-width:1500px;margin:0 auto}
+.hdr{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:12px;
+padding-bottom:10px;border-bottom:1px solid var(--border)}
+h1{font-size:23px;font-weight:800;letter-spacing:-.04em;
+background:linear-gradient(90deg,#58a6ff,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:11px;font-weight:500;color:var(--tx3);letter-spacing:.06em}
+.tag{font-size:9px;font-weight:800;letter-spacing:.1em;color:#0d1117;background:var(--acc);padding:3px 8px;border-radius:3px}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;margin-bottom:8px;overflow:hidden}
+.ch{background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;
+letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.pad{padding:12px 14px}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px;margin-bottom:8px}
+.hcard{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--acc);border-radius:6px;padding:12px 14px}
+.hcard.red{border-left-color:var(--dn)}.hcard.gold{border-left-color:var(--gold)}
+.hrank{font-size:9px;font-weight:800;letter-spacing:.1em;color:var(--tx3);margin-bottom:4px}
+.htitle{font-size:16px;font-weight:800;letter-spacing:-.02em;margin-bottom:3px}
+.hwhen{font-size:10px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:5px}
+.hwhy{font-size:11px;color:var(--tx4);line-height:1.55}
+.grid{display:grid;grid-template-columns:repeat(5,minmax(230px,1fr));gap:1px;background:var(--border-s);min-width:1180px}
+.scroll{overflow-x:auto}
+.day{background:var(--bg-card);padding:9px 11px;border-top:3px solid var(--border-s)}
+.day.big{border-top-color:var(--acc);background:#0c1929}
+.dname{font-size:10px;font-weight:800;letter-spacing:.07em;color:var(--tx3);margin-bottom:2px}
+.day.big .dname{color:var(--acc)}
+.dnote{font-size:9px;color:var(--tx3);font-style:italic;margin-bottom:7px;line-height:1.4}
+.sec{font-size:7px;font-weight:700;letter-spacing:.1em;color:#3d444d;margin:8px 0 4px;text-transform:uppercase}
+.ev{padding:3px 0;border-bottom:1px solid var(--border-s)}
+.ev:last-child{border-bottom:none}
+.evt{font-size:9px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.evd{font-size:10px;color:var(--tx4);line-height:1.4}
+.tk{display:inline-flex;align-items:center;gap:4px;padding:2px 0}
+.sym{font-size:11px;font-weight:700;color:var(--tx1);min-width:46px}
+.sym.hot{color:var(--gold)}
+.when{font-size:8px;font-weight:700;color:var(--tx3);letter-spacing:.05em}
+.row{display:flex;align-items:center;gap:6px;padding:1px 0}
+.pill{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.05em}
+.pill.b{background:#0d2137;border:1px solid #1f6feb;color:var(--acc)}
+.pill.g{background:#0f2a17;border:1px solid #238636;color:var(--up)}
+.pill.o{background:#2b1d0e;border:1px solid #9e6a03;color:var(--warn)}
+.pill.p{background:#1d1b2e;border:1px solid #6e40c9;color:var(--pur)}
+.cl{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid var(--border-s);align-items:flex-start}
+.cl:last-child{border-bottom:none}
+.cld{flex:0 0 60px;font-size:10px;font-weight:800;color:var(--acc);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.clt{flex:0 0 60px;font-size:12px;font-weight:800}
+.clb{flex:1;min-width:0;font-size:11px;color:var(--tx4);line-height:1.5}
+.warn{background:#1c1408;border:1px solid #9e6a03;border-radius:6px;padding:10px 13px;margin-bottom:8px;
+font-size:11px;color:#d9a441;line-height:1.55}
+.foot{font-size:10px;color:var(--tx3);text-align:center;padding:14px 0 4px;line-height:1.6}
+a{color:var(--acc);text-decoration:none}
+@media(max-width:700px){.grid{min-width:900px}h1{font-size:19px}}
+</style>
+
+<div class="hdr">
+  <div>
+    <h1>Week Ahead &mdash; Catalyst Map</h1>
+    <div class="sub">MONDAY AUG 17 &ndash; FRIDAY AUG 21, 2026 &middot; PUBLISHED SUNDAY AUG 16</div>
+  </div>
+  <span class="tag">SAMPLE</span>
+</div>
+
+<div class="warn">
+  <strong>Read this first &mdash; it's a heavy week and the shape matters.</strong> Two things dominate: the retail
+  earnings gauntlet runs Tuesday through Friday and gives you a clean consumer read four days running, and the macro
+  block lands back-half with FOMC minutes Wednesday into Jackson Hole opening Friday. Front half is tradeable on
+  single names; back half is macro-gated. Plan size accordingly.
+</div>
+
+<div class="hero">
+  <div class="hcard gold">
+    <div class="hrank">BIGGEST CATALYST OF THE WEEK</div>
+    <div class="htitle">Retail Gauntlet</div>
+    <div class="hwhen">TUE 8/18 &rarr; FRI 8/21 &middot; all premarket</div>
+    <div class="hwhy">HD Tuesday, then TGT + LOW + TJX all Wednesday morning, WMT Thursday, BJ Friday. Four
+      consecutive sessions of consumer data from the companies themselves &mdash; and it lands right after a hot PPI.
+      Watch for the read-through: HD sets the tone Tuesday and LOW trades off it Wednesday.</div>
+  </div>
+  <div class="hcard red">
+    <div class="hrank">MACRO GATE</div>
+    <div class="htitle">Jackson Hole</div>
+    <div class="hwhen">SYMPOSIUM OPENS FRI 8/21 &middot; POWELL SAT 8/22</div>
+    <div class="hwhy">The single most likely source of a gap into the following Monday. After this week's hot PPI
+      and friendly CPI, Powell's framing on the cut path is the thing the whole curve is waiting on. Anything held
+      into Friday's close carries weekend headline risk.</div>
+  </div>
+  <div class="hcard">
+    <div class="hrank">SEMI / TECH CATALYST</div>
+    <div class="htitle">ADI &middot; WOLF &middot; BABA</div>
+    <div class="hwhen">WED 8/19 &ndash; THU 8/20</div>
+    <div class="hwhy">ADI Wednesday premarket is the cleanest semi print of the week and reads across the analog
+      complex. WOLF Wednesday after the close. BABA Thursday premarket carries the China tape with it &mdash;
+      BIDU, IQ, ZTO and NTES all report the same stretch.</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="ch"><span>The Week, Day by Day</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">All times Central</span></div>
+  <div class="scroll"><div class="grid">
+
+    <div class="day">
+      <div class="dname">MON 8/17</div>
+      <div class="dnote">Quiet open. Position for Tuesday.</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">Nothing major confirmed</div></div>
+      <div class="sec">Earnings</div>
+      <div class="row"><span class="sym">HTHT</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">BHP</span><span class="when">&mdash;</span></div>
+      <div class="row"><span class="sym">XP</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">FN</span><span class="when">PM</span></div>
+      <div class="sec">Company Events</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">None on file</div></div>
+    </div>
+
+    <div class="day big">
+      <div class="dname">TUE 8/18 &nbsp;<span class="pill b">HD</span></div>
+      <div class="dnote">Retail gauntlet opens. HD sets the tone for the whole week.</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">7:30am</span><div class="evd">Housing Starts &amp; Building Permits <span style="color:var(--tx3)">(unconfirmed)</span></div></div>
+      <div class="sec">Earnings</div>
+      <div class="row"><span class="sym hot">HD</span><span class="when">AM &middot; est $4.73</span></div>
+      <div class="row"><span class="sym">BIDU</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">IQ</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">KLAR</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">TOL</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">KEYS</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">ZTO</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">JKHY</span><span class="when">PM</span></div>
+      <div class="sec">Company Events</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">None on file</div></div>
+    </div>
+
+    <div class="day big">
+      <div class="dname">WED 8/19 &nbsp;<span class="pill g">3 RETAILERS</span></div>
+      <div class="dnote">Heaviest single day of the week. Three retailers premarket, FOMC minutes afternoon.</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">1:00pm</span><div class="evd">FOMC Minutes (July 29 meeting) <span style="color:var(--tx3)">(date unconfirmed &mdash; one source says 8/20)</span></div></div>
+      <div class="sec">Earnings</div>
+      <div class="row"><span class="sym hot">TGT</span><span class="when">AM &middot; est $2.24</span></div>
+      <div class="row"><span class="sym hot">LOW</span><span class="when">AM &middot; est $4.39</span></div>
+      <div class="row"><span class="sym hot">TJX</span><span class="when">AM &middot; est $1.19</span></div>
+      <div class="row"><span class="sym hot">ADI</span><span class="when">AM &middot; est $3.33</span></div>
+      <div class="row"><span class="sym">EL</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">WB</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">WOLF</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">BILL</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">NDSN</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">COTY</span><span class="when">PM</span></div>
+      <div class="sec">Company Events</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">None on file</div></div>
+    </div>
+
+    <div class="day big">
+      <div class="dname">THU 8/20 &nbsp;<span class="pill g">WMT</span></div>
+      <div class="dnote">WMT is the biggest single consumer read of the year. BABA carries the China tape.</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">7:30am</span><div class="evd">Weekly Initial &amp; Continuing Jobless Claims</div></div>
+      <div class="ev"><span class="evt">&mdash;</span><div class="evd">Philly Fed, Leading Indicators <span style="color:var(--tx3)">(unconfirmed)</span></div></div>
+      <div class="sec">Earnings</div>
+      <div class="row"><span class="sym hot">WMT</span><span class="when">AM &middot; est $0.74</span></div>
+      <div class="row"><span class="sym hot">BABA</span><span class="when">AM &middot; est $1.85</span></div>
+      <div class="row"><span class="sym hot">DE</span><span class="when">AM &middot; est $4.73</span></div>
+      <div class="row"><span class="sym">NTES</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">AAP</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">FUTU</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">ROST</span><span class="when">PM</span></div>
+      <div class="row"><span class="sym">OSIS</span><span class="when">PM</span></div>
+      <div class="sec">Company Events</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">None on file</div></div>
+    </div>
+
+    <div class="day big">
+      <div class="dname">FRI 8/21 &nbsp;<span class="pill o">JACKSON HOLE</span></div>
+      <div class="dnote">Light on names, heavy on macro. Weekend headline risk on anything held.</div>
+      <div class="sec">Economic</div>
+      <div class="ev"><span class="evt">All day</span><div class="evd">Jackson Hole Symposium opens &mdash; <strong>Powell speaks Saturday 8/22</strong></div></div>
+      <div class="sec">Earnings</div>
+      <div class="row"><span class="sym">BJ</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">BEKE</span><span class="when">AM</span></div>
+      <div class="row"><span class="sym">BKE</span><span class="when">AM</span></div>
+      <div class="sec">Company Events</div>
+      <div class="ev"><div class="evd" style="color:var(--tx3);font-style:italic;">None on file</div></div>
+    </div>
+
+  </div></div>
+</div>
+
+<div class="card">
+  <div class="ch"><span>Catalyst Watch &mdash; from the standing calendar</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">catalysts.json</span></div>
+  <div class="pad">
+    <div class="cl">
+      <div class="cld">SAT 8/22</div>
+      <div class="clt" style="color:var(--tx3)">MACRO</div>
+      <div class="clb"><strong>Powell at Jackson Hole.</strong> The week's real destination. Everything Monday through
+        Friday is positioning into this. <span class="pill p">VERIFIED</span></div>
+    </div>
+    <div class="cl">
+      <div class="cld">&mdash;</div>
+      <div class="clt" style="color:var(--tx3)">OPEN</div>
+      <div class="clb">No investor days, analyst days, or conferences currently on file for 8/17&ndash;8/21. That is a
+        gap in the calendar, not a quiet week &mdash; these get announced 2&ndash;6 weeks ahead and the file is new.
+        Sweep pending once the ticker list lands.</div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="ch">How to Trade the Shape of This Week</div>
+  <div class="pad" style="font-size:11px;color:var(--tx4);line-height:1.7">
+    <p style="margin-bottom:8px;"><strong style="color:var(--tx1)">Front half is where the clean single-name setups are.</strong>
+      Monday is dead &mdash; use it to build the list. Tuesday and Wednesday give you HD then TGT/LOW/TJX/ADI with
+      no competing macro until Wednesday afternoon. That's the window where a catalyst trade can actually breathe.</p>
+    <p style="margin-bottom:8px;"><strong style="color:var(--tx1)">Read-throughs to have mapped before Tuesday.</strong>
+      HD &rarr; LOW is the obvious one, same-day-plus-one. TGT &rarr; WMT is the other. ADI reads across the analog
+      names. BABA drags BIDU, IQ, ZTO and NTES with it.</p>
+    <p><strong style="color:var(--tx1)">Back half flips to macro-gated.</strong> FOMC minutes Wednesday afternoon,
+      then Jackson Hole opening Friday with Powell Saturday. Consistent with the paid-before-events rule: anything
+      working by Thursday is a candidate to close rather than carry into a weekend where Powell speaks.</p>
+  </div>
+</div>
+
+<div class="foot">
+  Times are Central. Earnings dates and estimates from the live earnings calendar. Economic releases marked
+  <em>unconfirmed</em> need verification before the week opens &mdash; sources conflicted, and nothing here is estimated
+  or filled in.<br>
+  Sample built Thursday 8/13 to show the format. The real page publishes Sundays.
+</div>
