@@ -8,7 +8,8 @@
     "rules": [
       "time is 12-hour Central Time, or null when only the date is known",
       "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
-      "never add an entry without a source - omit it instead"
+      "never add an entry without a source - omit it instead",
+      "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in."
     ],
     "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
     "last_updated": "2026-08-13"
@@ -42,66 +43,6 @@
       "time_ct": null,
       "note": "",
       "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "PLUG",
-      "name": "Plug Power",
-      "type": "conference",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "CHKP",
-      "name": "Check Point Software",
-      "type": "conference",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "THRM",
-      "name": "Gentherm",
-      "type": "conference",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "AEVA",
-      "name": "Aeva Technologies",
-      "type": "conference",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "EVGO",
-      "name": "EVgo",
-      "type": "conference",
-      "date": "2026-08-13",
-      "time_ct": null,
-      "note": "",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": null,
-      "name": "13F filing deadline",
-      "type": "filing_deadline",
-      "date": "2026-08-14",
-      "time_ct": null,
-      "note": "Q2 institutional position disclosures. Watch NVDA, META, TSLA, CRWV, GLW for position shifts.",
-      "source": "carried from 2026-08-12 premarket report This Week grid",
       "verified": true
     },
     {
