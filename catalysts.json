@@ -143,6 +143,100 @@
       "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' Powell's speech is NOT yet scheduled or confirmed - the KC Fed does not publish the agenda or speaker list until shortly before the event. Historically the Chair speaks Friday morning, which would be Aug 28. CORRECTION: an earlier entry had this as Aug 22 based on the FlowMS newsletter; the KC Fed date is Aug 27-29.",
       "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
       "verified": true
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "type": "product_event",
+      "date": "2026-09-22",
+      "time_ct": null,
+      "note": "Snapdragon Summit 2026, Sept 22-24 in Maui. Qualcomm's biggest platform showcase of the year - next flagship chipset (Snapdragon 8 Elite Gen 6 expected) plus AI/connectivity/imaging roadmap. Multi-day, so the move can extend across the window.",
+      "source": "https://www.gizmochina.com/2026/06/30/qualcomm-confirms-snapdragon-summit-2026-dates-snapdragon-8-elite-gen-6-coming-september-22-24/",
+      "verified": true
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "type": "earnings_call",
+      "date": "2026-09-24",
+      "time_ct": null,
+      "note": "Q4 FY2026 earnings. Date from a secondary aggregator, not yet confirmed against Costco IR - verify before relying on it.",
+      "source": "https://www.tipranks.com/stocks/cost/earnings",
+      "verified": false
     }
-  ]
+  ],
+  "universe": {
+    "_note": "Priority tickers supplied by the user 2026-08-13. Mag 11 is baseline on top of this. Bar for inclusion in events[] is significance to the ticker, not event category.",
+    "user_list": [
+      "SNDK",
+      "MU",
+      "AVAV",
+      "QCOM",
+      "CAVA",
+      "SLB",
+      "HOOD",
+      "SPOT",
+      "TSM",
+      "VRT",
+      "F",
+      "C",
+      "GLW",
+      "HSY",
+      "ARM",
+      "GNRC",
+      "DKNG",
+      "BAC",
+      "LUMN",
+      "FDX",
+      "DDOG",
+      "SBUX",
+      "LCID",
+      "HL",
+      "ONDS",
+      "HD",
+      "GEV",
+      "CVS",
+      "MRNA",
+      "XYZ",
+      "CAT",
+      "AA",
+      "ADBE",
+      "CRM",
+      "HPE",
+      "AFRM",
+      "WULF",
+      "JPM",
+      "TSLA",
+      "RIVN",
+      "GM",
+      "COST"
+    ],
+    "mag11_baseline": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "TSLA",
+      "AMD",
+      "AVGO",
+      "INTC",
+      "MU"
+    ],
+    "flagged_huge": {
+      "SNDK": "investor day",
+      "SPOT": "investor day",
+      "TSLA/RIVN/GM/F": "investor days + quarterly vehicle deliveries",
+      "COST": "monthly sales report"
+    },
+    "recurring_patterns": {
+      "_note": "Schedulable without per-event research. Dates still confirmed against IR before they go in events[].",
+      "COST": "Monthly sales report, released AFTER THE CLOSE, in the first week or so of the following month. Confirmed pattern from Costco IR: Sept 2025 sales reported Oct 8; Oct 2025 sales reported Nov 5. So Aug 2026 sales land early Sept, Sept 2026 sales land early Oct. Exact dates are not pre-announced far ahead - check investor.costco.com in the final week of each month.",
+      "TSLA": "Quarterly vehicle production/delivery report, first days of Jan/Apr/Jul/Oct, premarket.",
+      "RIVN": "Quarterly production/delivery report, early in the month following quarter-end.",
+      "GM": "Quarterly US sales, first business day after quarter-end.",
+      "F": "Monthly/quarterly US sales report."
+    }
+  }
 }
