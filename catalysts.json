@@ -1,0 +1,128 @@
+{
+  "_readme": {
+    "purpose": "Standing catalyst calendar. Holds dated events the earnings API does NOT provide: investor/analyst days, conferences, product launches, sales/delivery reports, FDA action dates, splits, shareholder meetings, filing deadlines, and macro speaking events. Routine earnings are pulled live from the earnings calendar and do not belong here.",
+    "consumed_by": [
+      "daily premarket report - today's entries feed the game plan, next 5 days feed the This Week EVENTS column",
+      "Sunday week-ahead page - full following-week view"
+    ],
+    "rules": [
+      "time is 12-hour Central Time, or null when only the date is known",
+      "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
+      "never add an entry without a source - omit it instead"
+    ],
+    "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
+    "last_updated": "2026-08-13"
+  },
+  "events": [
+    {
+      "ticker": "SNDK",
+      "name": "SanDisk",
+      "type": "investor_day",
+      "date": "2026-08-13",
+      "time_ct": "8:00am",
+      "note": "MU and the DRAM complex trade in sympathy. Lined up with a $672M ask-side dark pool print the night before.",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "IDXX",
+      "name": "IDEXX Laboratories",
+      "type": "analyst_day",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "AMPX",
+      "name": "Amprius Technologies",
+      "type": "analyst_day",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "PLUG",
+      "name": "Plug Power",
+      "type": "conference",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "CHKP",
+      "name": "Check Point Software",
+      "type": "conference",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "THRM",
+      "name": "Gentherm",
+      "type": "conference",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "AEVA",
+      "name": "Aeva Technologies",
+      "type": "conference",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": "EVGO",
+      "name": "EVgo",
+      "type": "conference",
+      "date": "2026-08-13",
+      "time_ct": null,
+      "note": "",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    },
+    {
+      "ticker": null,
+      "name": "13F filing deadline",
+      "type": "filing_deadline",
+      "date": "2026-08-14",
+      "time_ct": null,
+      "note": "Q2 institutional position disclosures. Watch NVDA, META, TSLA, CRWV, GLW for position shifts.",
+      "source": "carried from 2026-08-12 premarket report This Week grid",
+      "verified": true
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "type": "fda_date",
+      "date": "2026-08-14",
+      "time_ct": null,
+      "note": "Last trading day before the FDA action date on iberdomide.",
+      "source": "carried from 2026-08-12 premarket report This Week grid",
+      "verified": true
+    },
+    {
+      "ticker": null,
+      "name": "Powell at Jackson Hole",
+      "type": "macro_speaking",
+      "date": "2026-08-22",
+      "time_ct": null,
+      "note": "Next major macro marker after this week's CPI/PPI. Time not yet confirmed.",
+      "source": "FlowMS morning newsletter 2026-08-13",
+      "verified": true
+    }
+  ]
+}
