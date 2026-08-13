@@ -125,13 +125,23 @@
       "verified": false
     },
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "type": "earnings_call",
+      "date": "2026-08-26",
+      "time_ct": "3:20pm results / 4:00pm call",
+      "note": "Q2 FY2027. Results expected ~1:20pm PT (3:20pm CT), conference call 2:00pm PT (4:00pm CT). CFO written commentary posts immediately after the results release. Lands the day BEFORE Jackson Hole opens. Stored here despite being earnings because the earnings API carries no times.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+      "verified": true
+    },
+    {
       "ticker": null,
-      "name": "Powell at Jackson Hole",
+      "name": "Jackson Hole Economic Policy Symposium",
       "type": "macro_speaking",
-      "date": "2026-08-22",
+      "date": "2026-08-27",
       "time_ct": null,
-      "note": "Next major macro marker after this week's CPI/PPI. Time not yet confirmed.",
-      "source": "FlowMS morning newsletter 2026-08-13",
+      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' Powell's speech is NOT yet scheduled or confirmed - the KC Fed does not publish the agenda or speaker list until shortly before the event. Historically the Chair speaks Friday morning, which would be Aug 28. CORRECTION: an earlier entry had this as Aug 22 based on the FlowMS newsletter; the KC Fed date is Aug 27-29.",
+      "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
       "verified": true
     }
   ]
