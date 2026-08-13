@@ -115,6 +115,16 @@
       "verified": true
     },
     {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "type": "product_event",
+      "date": "2026-08-26",
+      "time_ct": null,
+      "note": "WATCH DATE, not the event. Apple has confirmed to retail staff that its iPhone event lands in the first half of September; on its four-year pattern the invitation goes out exactly two weeks prior, making 8/26 the likely announcement date. Event itself most likely Sept 8 or 9. iPhone 18 Pro, Pro Max, and a first foldable expected.",
+      "source": "https://www.macrumors.com/2026/08/04/apple-september-2026-announcements/",
+      "verified": false
+    },
+    {
       "ticker": null,
       "name": "Powell at Jackson Hole",
       "type": "macro_speaking",
