@@ -10,7 +10,8 @@
       "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
       "never add an entry without a source - omit it instead",
       "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in.",
-      "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why."
+      "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why.",
+      "Entries with no announced date use date:null plus a date_window string. Never assign a placeholder date to an undated event."
     ],
     "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
     "last_updated": "2026-08-13"
@@ -74,6 +75,17 @@
       "time_ct": null,
       "note": "Q4 FY2026 earnings. Date from a secondary aggregator, not yet confirmed against Costco IR - verify before relying on it.",
       "source": "https://www.tipranks.com/stocks/cost/earnings",
+      "verified": false
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "type": "product_event",
+      "date": null,
+      "date_window": "as early as August 2026 - no firm date announced",
+      "time_ct": null,
+      "note": "New Roadster unveiling, reported to include a 'flying' stunt. Reported by The Information 2026-08-14; Tesla has not announced a date. Undated on purpose - do not assign one until Tesla confirms. Watch for an official announcement, which is itself a tradeable catalyst.",
+      "source": "The Information, 2026-08-14 (via user)",
       "verified": false
     }
   ],
