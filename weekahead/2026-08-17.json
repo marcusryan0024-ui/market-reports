@@ -2,9 +2,7 @@
   "title": "August 17-21, 2026",
   "range": "MONDAY AUG 17 &ndash; FRIDAY AUG 21, 2026",
   "published": "PUBLISHED SUNDAY AUG 16",
-
   "lede": "<strong>Read this first &mdash; the shape of the week changed Friday afternoon.</strong> Reddit joins the S&amp;P 500 before Tuesday's open, which is forced index buying on a known date, not a news event. The retail earnings gauntlet then runs Tuesday through Friday and gives a clean consumer read four sessions running. The only macro gate is FOMC minutes Wednesday at 1:00pm. The heavy block is the week AFTER this one &mdash; NVDA earnings Wed 8/26, then Jackson Hole Aug 27-29 &mdash; so this week stays unusually clean for single-name catalyst trades.",
-
   "heroes": [
     {
       "cls": "gold",
@@ -28,18 +26,62 @@
       "why": "Minutes from the July 28-29 meeting, on the standard three-week release schedule. This is the single macro event that can override single-name catalysts this week, and it lands mid-afternoon &mdash; after the Wednesday retail prints have already traded. Nothing else on the calendar competes with it."
     }
   ],
-
   "days": [
     {
       "name": "MON 8/17",
       "big": false,
       "note": "Quiet session. Build the list &mdash; index funds have to be positioned in RDDT by Tuesday's open.",
       "econ": [
-        ["7:30am", "Empire State Manufacturing (Aug) &mdash; est 10.2, prev 15.6"],
-        ["9:00am", "NAHB Housing Market Index (Aug) &mdash; est 35.0, prev 34.0"]
+        [
+          "7:30am",
+          "Empire State Manufacturing (Aug) &mdash; est 10.2, prev 15.6"
+        ],
+        [
+          "9:00am",
+          "NAHB Housing Market Index (Aug) &mdash; est 35.0, prev 34.0"
+        ]
       ],
-      "earnings": [["HTHT", "AM", false], ["BHP", "&mdash;", false], ["XP", "PM", false], ["FN", "PM", false]],
-      "events": []
+      "earnings": [
+        [
+          "HTHT",
+          "AM",
+          false
+        ],
+        [
+          "BHP",
+          "&mdash;",
+          false
+        ],
+        [
+          "XP",
+          "PM",
+          false
+        ],
+        [
+          "FN",
+          "PM",
+          false
+        ],
+        [
+          "FLXS",
+          "PM",
+          false
+        ]
+      ],
+      "events": [
+        [
+          "Aug 17-19",
+          "<strong>EnerCom Denver</strong> &mdash; 31st annual, the largest independent oil &amp; gas investor conference. 70+ presenters including <strong>SLB</strong>, BP, APA, LBRT, DNOW, WTTR and ~20 more, plus a nuclear/power/data-center track (read-through to GEV, VRT). Monday is the golf tournament; presentations run Tue-Wed. Sector event, not a single-name one."
+        ],
+        [
+          "All day",
+          "<strong>MCD</strong> begins selling energy drinks in a partnership with Red Bull."
+        ],
+        [
+          "All day",
+          "Needham Virtual Industrial Tech, Robotics &amp; Power Conference begins (2 days)."
+        ]
+      ]
     },
     {
       "name": "TUE 8/18",
@@ -48,11 +90,93 @@
       "big": true,
       "note": "Two catalysts in one session. RDDT enters the index before the open; HD opens the retail gauntlet.",
       "econ": [
-        ["7:30am", "Housing Starts (Jul) &mdash; est 1.390M, prev 1.427M"],
-        ["7:30am", "Building Permits (Jul) &mdash; est 1.380M, prev 1.367M"]
+        [
+          "7:30am",
+          "Housing Starts (Jul) &mdash; est 1.390M, prev 1.427M"
+        ],
+        [
+          "7:30am",
+          "Building Permits (Jul) &mdash; est 1.380M, prev 1.367M"
+        ]
       ],
-      "earnings": [["HD", "AM &middot; est $4.73", true], ["BIDU", "AM &middot; est $1.35", false], ["IQ", "AM", false], ["KLAR", "AM", false], ["TOL", "PM &middot; est $2.92", false], ["KEYS", "PM &middot; est $2.42", false], ["JKHY", "PM &middot; est $1.44", false], ["ZTO", "PM", false]],
-      "events": [["Before open", "<strong>RDDT joins the S&amp;P 500</strong>, replacing AVB. Announced Fri 8/14."]]
+      "earnings": [
+        [
+          "HD",
+          "AM &middot; est $4.73",
+          true
+        ],
+        [
+          "BIDU",
+          "AM &middot; est $1.35",
+          false
+        ],
+        [
+          "IQ",
+          "AM",
+          false
+        ],
+        [
+          "KLAR",
+          "AM &middot; implies double-digit move",
+          true
+        ],
+        [
+          "PONY",
+          "&mdash; &middot; implies double-digit move",
+          true
+        ],
+        [
+          "AS",
+          "AM",
+          false
+        ],
+        [
+          "TOL",
+          "PM &middot; est $2.92",
+          false
+        ],
+        [
+          "KEYS",
+          "PM &middot; est $2.42",
+          false
+        ],
+        [
+          "JKHY",
+          "PM &middot; est $1.44",
+          false
+        ],
+        [
+          "ZTO",
+          "PM",
+          false
+        ]
+      ],
+      "events": [
+        [
+          "Before open",
+          "<strong>RDDT joins the S&amp;P 500</strong>, replacing AVB. Announced Fri 8/14."
+        ],
+        [
+          "All day",
+          "<strong>CBRS analyst day</strong> &mdash; Cerebras, $47.5B, direct NVDA competitor in AI inference. Analyst day is the highest-signal event type on the week's board, and it printed <strong>$237M on the bid pre-market Friday</strong> in the dark pool. Money positioned ahead of it. Unprofitable, so it trades on roadmap &mdash; which is what an analyst day resets."
+        ],
+        [
+          "All day",
+          "<strong>LITE conference</strong> &mdash; $72.1B cap, 52-week range $111 to $1,086, closed ~$920. The most explosive name on the week's event calendar. AI optical/interconnect, trades on the capex narrative not earnings. Reads to <strong>GLW</strong>."
+        ],
+        [
+          "All day",
+          "<strong>NVDA conference appearance</strong> &mdash; venue unidentified, and it is <em>not</em> Hot Chips (Aug 23-25). Flagged only because it sits 8 days before the 8/26 print. Confirm the venue and whether management presents before acting on it."
+        ],
+        [
+          "All day",
+          "Danish Defence Industry Day &mdash; <strong>LMT, RTX, AVAV, GD</strong> participating. Agenda: security policy, defense industrial capacity, Ukraine, NATO cooperation."
+        ],
+        [
+          "All day",
+          "Seaport Research Partners Summer Investor Conference begins (2 days) &mdash; HWKN, NN, OPFI among participants."
+        ]
+      ]
     },
     {
       "name": "WED 8/19",
@@ -60,33 +184,216 @@
       "pill_cls": "g",
       "big": true,
       "note": "Heaviest day of the week. Three retailers plus ADI premarket, then FOMC minutes at 1:00pm.",
-      "econ": [["1:00pm", "<strong>FOMC Minutes</strong> &mdash; July 28-29 meeting"]],
-      "earnings": [["TGT", "AM &middot; est $2.24", true], ["LOW", "AM &middot; est $4.38", true], ["TJX", "AM &middot; est $1.19", true], ["ADI", "AM &middot; est $3.33", true], ["EL", "AM &middot; est $0.32", false], ["WB", "AM", false], ["WOLF", "PM &middot; est -$1.47", false], ["BILL", "PM &middot; est $0.62", false], ["NDSN", "PM &middot; est $3.09", false], ["COTY", "PM", false]],
-      "events": []
+      "econ": [
+        [
+          "9:00am",
+          "Atlanta Fed Business Inflation Expectations"
+        ],
+        [
+          "1:00pm",
+          "<strong>FOMC Minutes</strong> &mdash; July 28-29 meeting"
+        ]
+      ],
+      "earnings": [
+        [
+          "TGT",
+          "AM &middot; est $2.24",
+          true
+        ],
+        [
+          "LOW",
+          "AM &middot; est $4.38",
+          true
+        ],
+        [
+          "TJX",
+          "AM &middot; est $1.19",
+          true
+        ],
+        [
+          "ADI",
+          "AM &middot; est $3.33",
+          true
+        ],
+        [
+          "EL",
+          "AM &middot; est $0.32",
+          false
+        ],
+        [
+          "WB",
+          "AM",
+          false
+        ],
+        [
+          "WOLF",
+          "PM &middot; est -$1.47 &middot; implies double-digit move",
+          true
+        ],
+        [
+          "BULL",
+          "PM &middot; implies double-digit move",
+          true
+        ],
+        [
+          "BILL",
+          "PM &middot; est $0.62",
+          false
+        ],
+        [
+          "NDSN",
+          "PM &middot; est $3.09",
+          false
+        ],
+        [
+          "COTY",
+          "PM",
+          false
+        ]
+      ],
+      "events": [
+        [
+          "All day",
+          "<strong>PGR monthly results</strong> &mdash; $121.8B, the second-largest name on the week's calendar. Monthly reporting makes this a real recurring catalyst. 10.5 PE near the low end of its 52-week range, so expectations are already depressed."
+        ],
+        [
+          "All day",
+          "<strong>Semicap cluster</strong> &mdash; ENTG, ONTO, NVMI, UCTT, COHU, VECO, AEHR, POWI, DIOD, AOSL and OLED all present the same day (ACLS and SIMO follow Thursday). No universe names in it, but a whole semi-equipment complex speaking at once is a sector read-through to MU, TSM, AVGO, AMD and ARM."
+        ],
+        [
+          "All day",
+          "AI Summit Seoul &amp; Expo begins (3 days) &mdash; <strong>MSFT, STX, ADBE</strong> among participants."
+        ],
+        [
+          "All day",
+          "Circana releases its latest US video game sales report."
+        ]
+      ]
     },
     {
       "name": "THU 8/20",
       "pill": "WMT",
       "pill_cls": "g",
       "big": true,
-      "note": "WMT is the biggest single consumer read of the year. BABA carries the whole China tape with it.",
+      "note": "WMT is the biggest single consumer read of the year &mdash; call at 6:00am CT, options imply a 5% move. BABA carries the whole China tape with it.",
       "econ": [
-        ["7:30am", "Weekly Initial &amp; Continuing Jobless Claims"],
-        ["&mdash;", "Philly Fed Manufacturing, Leading Economic Index <span style=\"color:var(--tx3)\">(time unconfirmed)</span>"]
+        [
+          "7:30am",
+          "Weekly Initial &amp; Continuing Jobless Claims"
+        ],
+        [
+          "7:30am",
+          "Philly Fed Business Conditions (Aug)"
+        ],
+        [
+          "&mdash;",
+          "Leading Economic Index <span style=\"color:var(--tx3)\">(time unconfirmed)</span>"
+        ]
       ],
-      "earnings": [["WMT", "AM &middot; est $0.74", true], ["BABA", "AM &middot; est $1.85", true], ["DE", "AM &middot; est $4.73", true], ["NTES", "AM &middot; est $2.28", false], ["AAP", "AM &middot; est $0.80", false], ["FUTU", "AM", false], ["ROST", "PM &middot; est $1.81", false], ["OSIS", "PM &middot; est $3.77", false]],
-      "events": []
+      "earnings": [
+        [
+          "WMT",
+          "AM &middot; est $0.74 &middot; call 6:00am",
+          true
+        ],
+        [
+          "BABA",
+          "AM &middot; est $1.85",
+          true
+        ],
+        [
+          "DE",
+          "AM &middot; est $4.73",
+          true
+        ],
+        [
+          "NTES",
+          "AM &middot; est $2.28",
+          false
+        ],
+        [
+          "AAP",
+          "AM &middot; est $0.80",
+          false
+        ],
+        [
+          "FUTU",
+          "AM",
+          false
+        ],
+        [
+          "ROST",
+          "PM &middot; est $1.81",
+          false
+        ],
+        [
+          "OSIS",
+          "PM &middot; est $3.77",
+          false
+        ]
+      ],
+      "events": [
+        [
+          "6:00am",
+          "<strong>WMT earnings call.</strong> Key topic is tariff refunds vs price reinvestment. Beat EPS in 15 of the last 16 quarters; options imply a 5% move. Tightest earnings-day correlations: <strong>COST, PSMT, FIVE</strong>. Suppliers with &gt;30% revenue from WMT: SYM, CRWS, JAKK, SJM. Any cyclospora commentary reads through to KR and ACI."
+        ],
+        [
+          "All day",
+          "<strong>AUR analyst day</strong> &mdash; $14.0B. Analyst day is the highest-signal event type on the week's calendar: guidance and roadmap, not a fireside chat. Unprofitable autonomous-trucking name that trades entirely on the roadmap, which is exactly what this resets. Secondary read to the <strong>TSLA</strong> autonomy narrative."
+        ],
+        [
+          "Before open",
+          "SUI replaces WBS in the S&amp;P MidCap 400."
+        ],
+        [
+          "All day",
+          "WTI crude September futures expire &mdash; expiration days have carried extra crude volatility this year."
+        ]
+      ]
     },
     {
       "name": "FRI 8/21",
       "big": false,
-      "note": "Light week-ender and a 0DTE day. Flash PMIs are the only data on the board.",
-      "econ": [["8:45am", "S&amp;P Global flash PMIs (Aug) &mdash; Manufacturing, Services, Composite"]],
-      "earnings": [["BJ", "AM &middot; est $1.19", false], ["BEKE", "AM &middot; est $0.28", false], ["BKE", "AM &middot; est $0.90", false]],
-      "events": []
+      "note": "Light week-ender and a 0DTE day. Flash PMIs are the only scheduled data, but two event-driven names carry weekend risk.",
+      "econ": [
+        [
+          "8:45am",
+          "S&amp;P Global flash PMIs (Aug) &mdash; Manufacturing, Services, Composite"
+        ],
+        [
+          "All day",
+          "Global PMI reports; NY Fed Staff Nowcast update on real GDP growth"
+        ]
+      ],
+      "earnings": [
+        [
+          "BJ",
+          "AM &middot; est $1.19",
+          false
+        ],
+        [
+          "BEKE",
+          "AM &middot; est $0.28",
+          false
+        ],
+        [
+          "BKE",
+          "AM &middot; est $0.90",
+          false
+        ]
+      ],
+      "events": [
+        [
+          "All day",
+          "<strong>Last trading day before the FDA decision on Capricor (CAPR)</strong> &mdash; Deramiocel, amended application on Phase 3 HOPE-3 data. Binary weekend event."
+        ],
+        [
+          "All day",
+          "English Premier League season begins. Most affected: <strong>MANU</strong>. Sportsbooks DKNG, FLUT, MGM may see World-Cup-driven soccer betting interest; CMCSA is the US broadcaster."
+        ]
+      ]
     }
   ],
-
   "watch": [
     {
       "date": "TUE 8/18",
@@ -108,7 +415,7 @@
     {
       "date": "AUG 27-29",
       "ticker": "MACRO",
-      "body": "<strong>Jackson Hole symposium.</strong> Re-verified against the KC Fed this week: Aug 27-29, <em>not</em> this week. Theme is Financial Innovation &mdash; Implications for Payments and Policy. The Chair is not yet on the published agenda; the KC Fed posts it shortly before. <span class=\"pill p\">VERIFIED</span>"
+      "body": "<strong>Jackson Hole symposium &mdash; Kevin Warsh's first as Fed Chair.</strong> That makes it a first policy framing, not a routine reiteration, and a bigger event than a normal year. Re-verified against the KC Fed: Aug 27-29, <em>not</em> this week. Theme is Financial Innovation &mdash; Implications for Payments and Policy. The speech is not yet on the published agenda; the KC Fed posts it shortly before. <span class=\"pill p\">VERIFIED</span>"
     },
     {
       "date": "&mdash;",
@@ -116,13 +423,23 @@
       "body": "No investor days, analyst days, or conferences on file for 8/17&ndash;8/21 beyond RDDT. That is still a gap in the calendar rather than proof of a quiet week &mdash; 45 of the 53 tickers on the list have not been swept yet."
     }
   ],
-
   "howto": [
-    ["The one mechanical catalyst is Tuesday's open.", "RDDT index inclusion is forced buying on a fixed date &mdash; funds tracking the S&amp;P have to own it, and they have to own it by Tuesday. That is a different animal from an earnings reaction, where direction is unknown until the print. The risk is that it front-ran into Friday's announcement pop, so the setup is about how it handles the actual inclusion, not the news."],
-    ["Front half is where the clean single-name setups are.", "Monday is thin. Tuesday and Wednesday give HD, then TGT/LOW/TJX/ADI, with no competing macro until Wednesday at 1:00pm. That is the window where a catalyst trade can breathe. Monday and Wednesday are also 0DTE days."],
-    ["Read-throughs to have mapped before Tuesday opens.", "HD &rarr; LOW is the obvious one, same-day-plus-one. TGT &rarr; WMT is the other. ADI reads across the analog complex. BABA drags BIDU, IQ, ZTO and NTES with it. Mapping these Sunday is worth more than reacting to them Wednesday."],
-    ["Back half is macro-gated, and the real block is next week.", "FOMC minutes Wednesday is the only gate inside this week. The heavy sequence is NVDA earnings Wed 8/26 (results 3:20pm CT, call 4:00pm CT) followed immediately by Jackson Hole Aug 27-29. Consistent with the paid-before-events rule, anything working into the 26th is a candidate to close rather than carry through."]
+    [
+      "The one mechanical catalyst is Tuesday's open.",
+      "RDDT index inclusion is forced buying on a fixed date &mdash; funds tracking the S&amp;P have to own it, and they have to own it by Tuesday. That is a different animal from an earnings reaction, where direction is unknown until the print. The risk is that it front-ran into Friday's announcement pop, so the setup is about how it handles the actual inclusion, not the news."
+    ],
+    [
+      "Front half is where the clean single-name setups are.",
+      "Monday is thin. Tuesday and Wednesday give HD, then TGT/LOW/TJX/ADI, with no competing macro until Wednesday at 1:00pm. That is the window where a catalyst trade can breathe. Monday and Wednesday are also 0DTE days."
+    ],
+    [
+      "Read-throughs to have mapped before Tuesday opens.",
+      "HD &rarr; LOW is the obvious one, same-day-plus-one. TGT &rarr; WMT is the other. ADI reads across the analog complex. BABA drags BIDU, IQ, ZTO and NTES with it. WMT is the widest of all &mdash; COST, PSMT and FIVE correlate tightest on the day, and SYM, CRWS, JAKK and SJM each derive over 30% of revenue from it. Mapping these Sunday is worth more than reacting to them Wednesday."
+    ],
+    [
+      "Back half is macro-gated, and the real block is next week.",
+      "FOMC minutes Wednesday is the only gate inside this week. The heavy sequence is NVDA earnings Wed 8/26 (results 3:20pm CT, call 4:00pm CT) followed immediately by Jackson Hole Aug 27-29 &mdash; which this year is <strong>Kevin Warsh's first Jackson Hole as Fed Chair</strong>, so it carries more weight than the usual. Consistent with the paid-before-events rule, anything working into the 26th is a candidate to close rather than carry through."
+    ]
   ],
-
-  "foot": "Times are Central. Earnings dates and estimates from the live earnings calendar. Economic consensus figures as published; Thursday's Philly Fed and LEI times were not confirmed and are marked as such rather than estimated. Jackson Hole re-verified against the Kansas City Fed &mdash; Aug 27-29, not this week.<br>Built Sunday 8/16 from <code>weekahead/2026-08-17.json</code>."
+  "foot": "Times are Central. Earnings dates and estimates from the live earnings calendar. Economic consensus figures as published. Thursday's Philly Fed time confirmed at 7:30am from the week-ahead news batch; LEI time still unconfirmed and marked as such rather than estimated. Jackson Hole re-verified against the Kansas City Fed &mdash; Aug 27-29, not this week; speaker corrected to Fed Chair Kevin Warsh 8/17.<br>Built Sunday 8/16 from <code>weekahead/2026-08-17.json</code>; company events, conferences and read-through lists added 8/17 from the week-ahead news batch."
 }

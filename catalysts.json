@@ -11,10 +11,11 @@
       "never add an entry without a source - omit it instead",
       "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in.",
       "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why.",
+      "AMENDED 2026-08-17: market cap earns consideration on its own. A large-cap off-universe name gets evaluated on merit rather than auto-rejected for not being on the list. Pull the real cap before judging - do not eyeball it. Cap alone is not sufficient though: weigh it against event-type signal, where monthly sales/results releases and analyst days are high signal, plain conference appearances are low, and annual shareholder MEETINGS are near-zero regardless of cap.",
       "Entries with no announced date use date:null plus a date_window string. Never assign a placeholder date to an undated event."
     ],
     "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
-    "last_updated": "2026-08-13"
+    "last_updated": "2026-08-17"
   },
   "events": [
     {
@@ -36,6 +37,66 @@
       "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
       "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
       "verified": true
+    },
+    {
+      "ticker": "SLB",
+      "name": "Schlumberger",
+      "type": "conference",
+      "date": "2026-08-17",
+      "time_ct": null,
+      "note": "31st annual EnerCom Denver - The Energy Investment Conference, Aug 17-19 at The Westin Denver Downtown. Largest independent investor conference serving oil & gas; 70+ presenting companies across E&P, oil service, midstream, royalty, AND nuclear/power/data center/hydrogen. Monday is the charity golf tournament - company presentations and 1x1s run Tue 8/18 and Wed 8/19. Matters as a sector event more than a single-name one: BP, APA, SM, LBRT, DNOW, WTTR, TXO, GTE, BKV, REPX, PROP, REI, SD, GRNT, BSM, FTK, E, VTS and ~20 more are all presenting in the same window, so the energy complex can move together. Secondary read-through to GEV and VRT from the nuclear/power/data-center track.",
+      "source": "https://www.oilandgas360.com/enercom-opens-registration-for-the-31st-annual-energy-investment-conference-august-17-19-2026-in-denver-colorado/",
+      "verified": true
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "type": "conference",
+      "date": "2026-08-18",
+      "time_ct": null,
+      "note": "TENTATIVE - VENUE UNIDENTIFIED. NVDA shows as a conference appearance on the 8/17 event feed, but the conference itself could not be identified. It is NOT Hot Chips (that is Aug 23-25 at Stanford) and NVIDIA IR publishes no August event. Flagged anyway because of the timing: this lands 8 days before Q2 FY27 earnings on 8/26, inside the pre-earnings window, so any management commentary carries outsized weight into the biggest print of the month. Confirm the venue and whether management (vs an engineer) presents before trading it.",
+      "source": "User event calendar 2026-08-17; ruled out Hot Chips via https://hotchips.org/",
+      "verified": false
+    },
+    {
+      "ticker": "CBRS",
+      "name": "Cerebras Systems",
+      "type": "analyst_day",
+      "date": "2026-08-18",
+      "time_ct": null,
+      "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE + CONFIRMED FLOW - HIGHEST CONVICTION OF THE OFF-UNIVERSE BATCH. Market cap $47.5B. Initially rejected on universe membership before the cap was pulled; that was wrong. AI training/inference chips (Wafer Scale Engine), so a direct NVDA competitor. Three things line up at once: analyst day is the highest-signal event type on the week's board, and it printed $237M on the bid PRE-MARKET Friday 8/14 in the dark pool - institutional money positioned ahead of the event - and it is deeply unprofitable (PE -96.97), meaning it trades entirely on roadmap narrative, which is exactly what an analyst day resets. 52-week range $160.81-$386.34, closed ~$220, so it sits nearer the low than the high.",
+      "source": "FlowMS morning newsletter 2026-08-17 (analyst day + $237M bid print); cap and range from Robinhood fundamentals 2026-08-14",
+      "verified": true
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "type": "conference",
+      "date": "2026-08-18",
+      "time_ct": null,
+      "note": "OFF-UNIVERSE, ADDED ON CAP + MOMENTUM. Market cap $72.1B as of 8/14 close - larger than most of the universe list. 52-week range is $111.20 to $1,085.68 and it closed ~$920, so this is one of the most explosive names on the tape, not a sleepy large cap. AI optical / datacenter interconnect. Conference venue not identified from the event feed. Read-through to GLW (in-universe, optical fiber) and the broader AI datacenter complex. Note the negative PE (-11.26) - this trades on the AI capex narrative, not earnings, which is exactly why a conference appearance can move it.",
+      "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
+      "verified": false
+    },
+    {
+      "ticker": "PGR",
+      "name": "Progressive",
+      "type": "monthly_results",
+      "date": "2026-08-19",
+      "time_ct": null,
+      "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE. Market cap $121.8B - the second largest name on the week's event calendar. Progressive reports MONTHLY results, which is a genuine recurring catalyst rather than a conference slot, and it is the closest thing to a monthly read on the auto insurance cycle. Trading at a 10.5 PE near the low end of its 52-week range ($189.20 low 5/29 vs $254.93 high 8/20/25), so expectations are already depressed going in.",
+      "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
+      "verified": false
+    },
+    {
+      "ticker": "AUR",
+      "name": "Aurora Innovation",
+      "type": "analyst_day",
+      "date": "2026-08-20",
+      "time_ct": null,
+      "note": "OFF-UNIVERSE, ADDED ON EVENT TYPE. Market cap $14.0B. Analyst day is the highest-signal event type on the week's calendar - guidance and roadmap updates, not a fireside chat - and it is the only one on a name of real size. Autonomous trucking; unprofitable (PE -15.07) so this trades entirely on the roadmap, which is what an analyst day resets. Secondary read-through to the TSLA autonomy narrative (in-universe).",
+      "source": "User event calendar 2026-08-17; cap from Robinhood fundamentals 2026-08-14",
+      "verified": false
     },
     {
       "ticker": "AAPL",
@@ -63,7 +124,7 @@
       "type": "macro_speaking",
       "date": "2026-08-27",
       "time_ct": null,
-      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' Powell's speech is NOT yet scheduled or confirmed - the KC Fed does not publish the agenda or speaker list until shortly before the event. Historically the Chair speaks Friday morning, which would be Aug 28. CORRECTION: an earlier entry had this as Aug 22 based on the FlowMS newsletter; the KC Fed date is Aug 27-29.",
+      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' MATERIALLY BIGGER THAN A NORMAL YEAR: this is new Fed Chair KEVIN WARSH's FIRST Jackson Hole speech - a first-ever policy framing from a new Chair, not a routine reiteration. The specific speech is not yet on the published agenda; the KC Fed does not post the speaker list until shortly before the event. Historically the Chair speaks Friday morning, which would be Aug 28. TWO CORRECTIONS LOGGED: (1) an earlier entry had this as Aug 22 based on the FlowMS newsletter - the KC Fed date is Aug 27-29 and the verified date held; (2) the speaker was previously recorded as Powell - FlowMS issued its own correction 2026-08-17 naming Warsh as the new Chair.",
       "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
       "verified": true
     },
@@ -96,6 +157,17 @@
       "time_ct": null,
       "note": "New Roadster unveiling, reported to include a 'flying' stunt. Reported by The Information 2026-08-14; Tesla has not announced a date. Undated on purpose - do not assign one until Tesla confirms. Watch for an official announcement, which is itself a tradeable catalyst.",
       "source": "The Information, 2026-08-14 (via user)",
+      "verified": false
+    },
+    {
+      "ticker": null,
+      "name": "Anthropic IPO",
+      "type": "ipo",
+      "date": null,
+      "date_window": "S-1 could become public within weeks; IPO possibly October 2026 - no date announced",
+      "time_ct": null,
+      "note": "MARKET-WIDE AI CATALYST, UNDATED ON PURPOSE. Reports of strong Q2 performance and revenue approaching $190-200B by 2028. An S-1 filing is itself the tradeable event - it would be the first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing the AI complex (NVDA, AMD, MU, AVGO, CRWV, NBIS). Watch for the S-1 hitting EDGAR, not the IPO date. Do NOT assign a placeholder date.",
+      "source": "Technical Scans morning note 2026-08-17",
       "verified": false
     }
   ],
