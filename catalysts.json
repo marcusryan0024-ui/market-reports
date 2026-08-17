@@ -28,6 +28,16 @@
       "verified": true
     },
     {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "type": "index_inclusion",
+      "date": "2026-08-18",
+      "time_ct": "before the open",
+      "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
+      "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
+      "verified": true
+    },
+    {
       "ticker": "AAPL",
       "name": "Apple",
       "type": "product_event",

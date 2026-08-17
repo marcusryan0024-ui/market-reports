@@ -1,0 +1,128 @@
+{
+  "title": "August 17-21, 2026",
+  "range": "MONDAY AUG 17 &ndash; FRIDAY AUG 21, 2026",
+  "published": "PUBLISHED SUNDAY AUG 16",
+
+  "lede": "<strong>Read this first &mdash; the shape of the week changed Friday afternoon.</strong> Reddit joins the S&amp;P 500 before Tuesday's open, which is forced index buying on a known date, not a news event. The retail earnings gauntlet then runs Tuesday through Friday and gives a clean consumer read four sessions running. The only macro gate is FOMC minutes Wednesday at 1:00pm. The heavy block is the week AFTER this one &mdash; NVDA earnings Wed 8/26, then Jackson Hole Aug 27-29 &mdash; so this week stays unusually clean for single-name catalyst trades.",
+
+  "heroes": [
+    {
+      "cls": "gold",
+      "rank": "BIGGEST CATALYST OF THE WEEK",
+      "title": "RDDT &mdash; S&amp;P 500 Inclusion",
+      "when": "TUE 8/18 &middot; before the open",
+      "why": "S&amp;P Dow Jones Indices announced Friday 8/14 that Reddit replaces AvalonBay (AVB) in the index, effective prior to Tuesday's open. Index funds have to buy &mdash; mechanical demand on a fixed date, which is the cleanest catalyst on the board. Friday's prep already had RDDT 2U on the day, week and quarter, and inside on the month and year."
+    },
+    {
+      "cls": "",
+      "rank": "FOUR-DAY CONSUMER READ",
+      "title": "Retail Gauntlet",
+      "when": "TUE 8/18 &rarr; FRI 8/21 &middot; all premarket",
+      "why": "HD Tuesday, then TGT + LOW + TJX all Wednesday morning, WMT Thursday, BJ Friday. Four consecutive sessions of consumer data straight from the companies &mdash; landing right after a hot PPI. The read-throughs matter more than any single print: HD sets the tone Tuesday and LOW trades off it Wednesday."
+    },
+    {
+      "cls": "red",
+      "rank": "ONLY MACRO GATE",
+      "title": "FOMC Minutes",
+      "when": "WED 8/19 &middot; 1:00pm CT",
+      "why": "Minutes from the July 28-29 meeting, on the standard three-week release schedule. This is the single macro event that can override single-name catalysts this week, and it lands mid-afternoon &mdash; after the Wednesday retail prints have already traded. Nothing else on the calendar competes with it."
+    }
+  ],
+
+  "days": [
+    {
+      "name": "MON 8/17",
+      "big": false,
+      "note": "Quiet session. Build the list &mdash; index funds have to be positioned in RDDT by Tuesday's open.",
+      "econ": [
+        ["7:30am", "Empire State Manufacturing (Aug) &mdash; est 10.2, prev 15.6"],
+        ["9:00am", "NAHB Housing Market Index (Aug) &mdash; est 35.0, prev 34.0"]
+      ],
+      "earnings": [["HTHT", "AM", false], ["BHP", "&mdash;", false], ["XP", "PM", false], ["FN", "PM", false]],
+      "events": []
+    },
+    {
+      "name": "TUE 8/18",
+      "pill": "RDDT + HD",
+      "pill_cls": "b",
+      "big": true,
+      "note": "Two catalysts in one session. RDDT enters the index before the open; HD opens the retail gauntlet.",
+      "econ": [
+        ["7:30am", "Housing Starts (Jul) &mdash; est 1.390M, prev 1.427M"],
+        ["7:30am", "Building Permits (Jul) &mdash; est 1.380M, prev 1.367M"]
+      ],
+      "earnings": [["HD", "AM &middot; est $4.73", true], ["BIDU", "AM &middot; est $1.35", false], ["IQ", "AM", false], ["KLAR", "AM", false], ["TOL", "PM &middot; est $2.92", false], ["KEYS", "PM &middot; est $2.42", false], ["JKHY", "PM &middot; est $1.44", false], ["ZTO", "PM", false]],
+      "events": [["Before open", "<strong>RDDT joins the S&amp;P 500</strong>, replacing AVB. Announced Fri 8/14."]]
+    },
+    {
+      "name": "WED 8/19",
+      "pill": "3 RETAILERS + FOMC",
+      "pill_cls": "g",
+      "big": true,
+      "note": "Heaviest day of the week. Three retailers plus ADI premarket, then FOMC minutes at 1:00pm.",
+      "econ": [["1:00pm", "<strong>FOMC Minutes</strong> &mdash; July 28-29 meeting"]],
+      "earnings": [["TGT", "AM &middot; est $2.24", true], ["LOW", "AM &middot; est $4.38", true], ["TJX", "AM &middot; est $1.19", true], ["ADI", "AM &middot; est $3.33", true], ["EL", "AM &middot; est $0.32", false], ["WB", "AM", false], ["WOLF", "PM &middot; est -$1.47", false], ["BILL", "PM &middot; est $0.62", false], ["NDSN", "PM &middot; est $3.09", false], ["COTY", "PM", false]],
+      "events": []
+    },
+    {
+      "name": "THU 8/20",
+      "pill": "WMT",
+      "pill_cls": "g",
+      "big": true,
+      "note": "WMT is the biggest single consumer read of the year. BABA carries the whole China tape with it.",
+      "econ": [
+        ["7:30am", "Weekly Initial &amp; Continuing Jobless Claims"],
+        ["&mdash;", "Philly Fed Manufacturing, Leading Economic Index <span style=\"color:var(--tx3)\">(time unconfirmed)</span>"]
+      ],
+      "earnings": [["WMT", "AM &middot; est $0.74", true], ["BABA", "AM &middot; est $1.85", true], ["DE", "AM &middot; est $4.73", true], ["NTES", "AM &middot; est $2.28", false], ["AAP", "AM &middot; est $0.80", false], ["FUTU", "AM", false], ["ROST", "PM &middot; est $1.81", false], ["OSIS", "PM &middot; est $3.77", false]],
+      "events": []
+    },
+    {
+      "name": "FRI 8/21",
+      "big": false,
+      "note": "Light week-ender and a 0DTE day. Flash PMIs are the only data on the board.",
+      "econ": [["8:45am", "S&amp;P Global flash PMIs (Aug) &mdash; Manufacturing, Services, Composite"]],
+      "earnings": [["BJ", "AM &middot; est $1.19", false], ["BEKE", "AM &middot; est $0.28", false], ["BKE", "AM &middot; est $0.90", false]],
+      "events": []
+    }
+  ],
+
+  "watch": [
+    {
+      "date": "TUE 8/18",
+      "ticker": "RDDT",
+      "color": "var(--gold)",
+      "body": "<strong>S&amp;P 500 inclusion, effective before the open.</strong> Replaces AvalonBay (AVB). Announced Friday 8/14 by S&amp;P Dow Jones Indices. Added to the standing calendar this week. <span class=\"pill p\">VERIFIED</span>"
+    },
+    {
+      "date": "WED 8/26",
+      "ticker": "NVDA",
+      "color": "var(--gold)",
+      "body": "<strong>NVIDIA Q2 FY27 earnings.</strong> Results ~3:20pm CT, conference call 4:00pm CT. Biggest single catalyst of the month, and it lands the day before Jackson Hole opens. <span class=\"pill p\">VERIFIED</span>"
+    },
+    {
+      "date": "WED 8/26",
+      "ticker": "AAPL",
+      "body": "<strong>Likely iPhone event invitation.</strong> Not the event &mdash; the announcement of it. Apple confirmed a first-half-of-September event to retail staff; on its four-year pattern the invite goes out two weeks prior. Event itself likely Sept 8&ndash;9. <span class=\"pill o\">UNCONFIRMED</span>"
+    },
+    {
+      "date": "AUG 27-29",
+      "ticker": "MACRO",
+      "body": "<strong>Jackson Hole symposium.</strong> Re-verified against the KC Fed this week: Aug 27-29, <em>not</em> this week. Theme is Financial Innovation &mdash; Implications for Payments and Policy. The Chair is not yet on the published agenda; the KC Fed posts it shortly before. <span class=\"pill p\">VERIFIED</span>"
+    },
+    {
+      "date": "&mdash;",
+      "ticker": "OPEN",
+      "body": "No investor days, analyst days, or conferences on file for 8/17&ndash;8/21 beyond RDDT. That is still a gap in the calendar rather than proof of a quiet week &mdash; 45 of the 53 tickers on the list have not been swept yet."
+    }
+  ],
+
+  "howto": [
+    ["The one mechanical catalyst is Tuesday's open.", "RDDT index inclusion is forced buying on a fixed date &mdash; funds tracking the S&amp;P have to own it, and they have to own it by Tuesday. That is a different animal from an earnings reaction, where direction is unknown until the print. The risk is that it front-ran into Friday's announcement pop, so the setup is about how it handles the actual inclusion, not the news."],
+    ["Front half is where the clean single-name setups are.", "Monday is thin. Tuesday and Wednesday give HD, then TGT/LOW/TJX/ADI, with no competing macro until Wednesday at 1:00pm. That is the window where a catalyst trade can breathe. Monday and Wednesday are also 0DTE days."],
+    ["Read-throughs to have mapped before Tuesday opens.", "HD &rarr; LOW is the obvious one, same-day-plus-one. TGT &rarr; WMT is the other. ADI reads across the analog complex. BABA drags BIDU, IQ, ZTO and NTES with it. Mapping these Sunday is worth more than reacting to them Wednesday."],
+    ["Back half is macro-gated, and the real block is next week.", "FOMC minutes Wednesday is the only gate inside this week. The heavy sequence is NVDA earnings Wed 8/26 (results 3:20pm CT, call 4:00pm CT) followed immediately by Jackson Hole Aug 27-29. Consistent with the paid-before-events rule, anything working into the 26th is a candidate to close rather than carry through."]
+  ],
+
+  "foot": "Times are Central. Earnings dates and estimates from the live earnings calendar. Economic consensus figures as published; Thursday's Philly Fed and LEI times were not confirmed and are marked as such rather than estimated. Jackson Hole re-verified against the Kansas City Fed &mdash; Aug 27-29, not this week.<br>Built Sunday 8/16 from <code>weekahead/2026-08-17.json</code>."
+}

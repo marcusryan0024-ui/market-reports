@@ -23,7 +23,7 @@ USAGE
                    title='Friday, August 14, 2026', tts=[...], sections={...})
     R.write('2026-08-17-premarket.html', html)
 """
-import json, re
+import json, re, os, glob, html as _html
 
 # ---------------------------------------------------------------- spec
 # Canonical section names and order. Read off the known-good templates:
@@ -211,7 +211,250 @@ def validate(html, kind):
     return True
 
 
-def write(path, html, kind):
+def write(path, html, kind, index=True):
     validate(html, kind)
+    open(path, 'w', encoding='utf-8').write(html)
+    if index:
+        refresh_index(os.path.dirname(os.path.abspath(path)))
+    return path
+
+
+# ---------------------------------------------------------------- landing page
+# Every dated row on index.html carries the report's own TOP HEADLINE. These
+# were previously filled in by hand, so 13 rows and the featured card sat blank
+# with "No headline available for this date." while the headline was sitting in
+# the report file the row already linked to. Nothing is authored here - the text
+# is lifted from the report, so a row can only go blank if the report itself has
+# no headline.
+SNIP_LEN = 90    # row snippet, matches the existing rows
+FEAT_LEN = 240   # featured card body
+
+ROW_RE  = re.compile(r'(<div class="rleft">)(.*?)(</div>\s*<div class="rlinks">)(.*?)(</div>)', re.S)
+SNIP_RE = re.compile(r'\s*<span class="rsnip">.*?</span>', re.S)
+DATE_RE = re.compile(r'href="(2026-\d\d-\d\d)(?:-premarket)?\.html"')
+# starts at the whole featured block, not feat-right - the date lives in
+# feat-left's links, which sit before the fb body we are filling
+FEAT_RE = re.compile(r'(<div class="feat">.*?<div class="fb")([^>]*)(>)(.*?)(</div>)', re.S)
+
+
+def _plain(fragment):
+    """Report markup -> plain text: drop tags, resolve entities, collapse space."""
+    t = re.sub(r'<[^>]+>', ' ', fragment)
+    t = _html.unescape(t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+
+def _clip(text, n):
+    text = text.strip()
+    out = text if len(text) <= n else text[:n].rstrip() + '…'
+    return _html.escape(out, quote=False)
+
+
+def _legacy_headline(s):
+    """The earliest reports (mid-May) predate the headline bar and lead with a
+    TOP CATALYST spotlight instead. Read that rather than leave the row blank."""
+    m = re.search(r'<div class="sp-rank">TOP CATALYST</div>\s*'
+                  r'<div class="sp-label">([^<]+)</div>.*?'
+                  r'<div class="sp-news">(.*?)</div>', s, re.S)
+    if not m:
+        return None
+    return f'Top catalyst: {_plain(m.group(1))} — {_plain(m.group(2))}'
+
+
+def report_headline(date, dirpath='.'):
+    """The TOP HEADLINE of a date's report. Premarket first, close as fallback."""
+    for suffix in ('-premarket.html', '.html'):
+        p = os.path.join(dirpath, date + suffix)
+        if not os.path.exists(p):
+            continue
+        s = open(p, encoding='utf-8').read()
+        m = re.search(r'<div class="headline-title">(.*?)</div>', s, re.S)
+        t = _plain(m.group(1)) if m else _legacy_headline(s)
+        if t:
+            return t
+    return None
+
+
+def refresh_index(dirpath='.'):
+    """Refill every headline on the landing page from the reports themselves."""
+    path = os.path.join(dirpath, 'index.html')
+    if not os.path.exists(path):
+        return None
+    idx = open(path, encoding='utf-8').read()
+    filled, blank = 0, []
+
+    def do_row(m):
+        nonlocal filled
+        left, links = m.group(2), m.group(4)
+        d = DATE_RE.search(links)
+        if not d:
+            return m.group(0)
+        h = report_headline(d.group(1), dirpath)
+        if not h:
+            blank.append(d.group(1))
+            return m.group(0)
+        body = SNIP_RE.sub('', left).rstrip()
+        body += f'\n    <span class="rsnip">{_clip(h, SNIP_LEN)}</span>\n  '
+        filled += 1
+        return m.group(1) + body + m.group(3) + links + m.group(5)
+
+    idx = ROW_RE.sub(do_row, idx)
+
+    def do_feat(m):
+        nonlocal filled
+        d = DATE_RE.search(m.group(0))
+        h = report_headline(d.group(1), dirpath) if d else None
+        if not h:
+            return m.group(0)
+        filled += 1
+        # drop the placeholder grey so a real headline reads as body text
+        attrs = re.sub(r'\s*style="color:#3d444d"', '', m.group(2))
+        return m.group(1) + attrs + m.group(3) + _clip(h, FEAT_LEN) + m.group(5)
+
+    idx = FEAT_RE.sub(do_feat, idx, count=1)
+    open(path, 'w', encoding='utf-8').write(idx)
+    if blank:
+        print(f'refresh_index: no headline found for {", ".join(blank)}')
+    return filled
+
+
+def validate_index(dirpath='.'):
+    """Fail if any dated row on the landing page is missing its headline."""
+    idx = open(os.path.join(dirpath, 'index.html'), encoding='utf-8').read()
+    missing = [DATE_RE.search(m.group(4)).group(1)
+               for m in ROW_RE.finditer(idx)
+               if 'rsnip' not in m.group(2) and DATE_RE.search(m.group(4))]
+    if 'No headline available' in idx:
+        missing.append('featured card')
+    if missing:
+        raise AssertionError('index.html missing headlines: ' + ', '.join(missing))
+    return True
+
+
+# ---------------------------------------------------------------- week ahead
+# The Sunday catalyst map. Same principle as the daily reports: the shell (meta,
+# title, CSS) is lifted verbatim from a known-good page and the body is generated
+# from data, so a week's content can never drift the layout.
+WEEKAHEAD_SECTIONS = ['lede', 'heroes', 'days', 'watch', 'howto']
+
+
+def weekahead_shell(base_path):
+    """Everything above the first content div - meta, title, style."""
+    h = open(base_path, encoding='utf-8').read()
+    i = h.find('<div class="hdr">')
+    if i < 0:
+        raise ValueError(f'{base_path}: no .hdr block - not a week-ahead base')
+    return h[:i]
+
+
+def _wa_days(days):
+    out = []
+    for d in days:
+        cls = 'day big' if d.get('big') else 'day'
+        pill = (f' &nbsp;<span class="pill {d.get("pill_cls","b")}">{d["pill"]}</span>'
+                if d.get('pill') else '')
+        s = [f'<div class="{cls}">', f'<div class="dname">{d["name"]}{pill}</div>',
+             f'<div class="dnote">{d["note"]}</div>']
+        for label, key in (('Economic', 'econ'), ('Earnings', 'earnings'),
+                           ('Company Events', 'events')):
+            s.append(f'<div class="sec">{label}</div>')
+            rows = d.get(key) or []
+            if not rows:
+                s.append('<div class="ev"><div class="evd" style="color:var(--tx3);'
+                         'font-style:italic;">None on file</div></div>')
+            elif key == 'earnings':
+                for sym, when, hot in rows:
+                    k = 'sym hot' if hot else 'sym'
+                    s.append(f'<div class="row"><span class="{k}">{sym}</span>'
+                             f'<span class="when">{when}</span></div>')
+            else:
+                for t, desc in rows:
+                    s.append(f'<div class="ev"><span class="evt">{t}</span>'
+                             f'<div class="evd">{desc}</div></div>')
+        s.append('</div>')
+        out.append('\n'.join(s))
+    return '\n\n'.join(out)
+
+
+def build_weekahead(data, base):
+    """Assemble the Sunday week-ahead page from a data dict."""
+    head = weekahead_shell(base)
+    head = re.sub(r'<title>[^<]*</title>',
+                  f'<title>Week Ahead &mdash; {data["title"]}</title>', head)
+
+    heroes = '\n'.join(
+        f'<div class="hcard {h.get("cls","")}">'
+        f'<div class="hrank">{h["rank"]}</div>'
+        f'<div class="htitle">{h["title"]}</div>'
+        f'<div class="hwhen">{h["when"]}</div>'
+        f'<div class="hwhy">{h["why"]}</div></div>' for h in data['heroes'])
+
+    watch = '\n'.join(
+        f'<div class="cl"><div class="cld">{w["date"]}</div>'
+        f'<div class="clt" style="color:{w.get("color","var(--tx3)")}">{w["ticker"]}</div>'
+        f'<div class="clb">{w["body"]}</div></div>' for w in data['watch'])
+
+    howto = '\n'.join(
+        f'<p style="margin-bottom:8px;"><strong style="color:var(--tx1)">{t}</strong> {b}</p>'
+        for t, b in data['howto'])
+
+    body = f'''<div class="hdr">
+  <div>
+    <h1>Week Ahead &mdash; Catalyst Map</h1>
+    <div class="sub">{data["range"]} &middot; {data["published"]}</div>
+  </div>
+</div>
+
+<div class="warn">{data["lede"]}</div>
+
+<div class="hero">
+{heroes}
+</div>
+
+<div class="card">
+  <div class="ch"><span>The Week, Day by Day</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">All times Central</span></div>
+  <div class="scroll"><div class="grid">
+{_wa_days(data["days"])}
+  </div></div>
+</div>
+
+<div class="card">
+  <div class="ch"><span>Catalyst Watch &mdash; from the standing calendar</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">catalysts.json</span></div>
+  <div class="pad">
+{watch}
+  </div>
+</div>
+
+<div class="card">
+  <div class="ch">How to Trade the Shape of This Week</div>
+  <div class="pad" style="font-size:11px;color:var(--tx4);line-height:1.7">
+{howto}
+  </div>
+</div>
+
+<div class="foot">{data["foot"]}</div>
+'''
+    return head + body
+
+
+def validate_weekahead(html, n_days=5):
+    errs = []
+    if _depth(html) != 0:
+        errs.append(f'whole-file div depth {_depth(html):+d}')
+    if html.count('class="day') != n_days:
+        errs.append(f'{html.count(chr(34)+"day")} day columns, expected {n_days}')
+    if 'SAMPLE' in html:
+        errs.append('SAMPLE badge still present')
+    for lbl in ('The Week, Day by Day', 'Catalyst Watch', 'How to Trade'):
+        if lbl not in html:
+            errs.append(f'missing section: {lbl}')
+    if errs:
+        raise AssertionError('WEEK-AHEAD INVALID:\n  - ' + '\n  - '.join(errs))
+    return True
+
+
+def write_weekahead(path, data, base):
+    html = build_weekahead(data, base)
+    validate_weekahead(html, n_days=len(data['days']))
     open(path, 'w', encoding='utf-8').write(html)
     return path
