@@ -77,16 +77,71 @@ HDR  = ('<div style="background:var(--bg-page);padding:8px 14px;border-bottom:1p
 ROW  = ('<div style="display:flex;gap:1px;background:#21262d;background:var(--bg-card);border:1px solid var(--border);'
         'border-radius:6px;overflow:hidden;margin-bottom:6px;">')
 ROW6 = '<div style="display:flex;gap:6px;margin-bottom:6px;align-items:stretch;">'
-COL_L = '<div style="flex:0 0 50%;min-width:0;overflow:hidden;display:flex;flex-direction:column;">'
-COL_R = '<div style="flex:0 0 50%;background:var(--bg-card);padding:14px;overflow-y:auto;display:flex;flex-direction:column;">'
-# left column has appeared with and without overflow:hidden - match either
-COL_L_RE = re.compile(r'<div style="flex:0 0 50%;min-width:0;[^"]*flex-direction:column;">')
-COL_R_RE = re.compile(r'<div style="flex:0 0 50%;background:var\(--bg-card\);padding:14px;')
+# Columns default to an even split, but a row is free to weight one side. The
+# prep panel carries six detailed cards against a short overview, so it takes
+# ~2/3 and the overview column shrinks to fit its own content instead of
+# padding out half the page with empty space.
+def col_l(pct=50):
+    return (f'<div style="flex:0 0 {pct}%;min-width:0;overflow:hidden;'
+            'display:flex;flex-direction:column;">')
+
+
+def col_r(pct=50):
+    return (f'<div style="flex:0 0 {pct}%;background:var(--bg-card);padding:14px;'
+            'overflow-y:auto;display:flex;flex-direction:column;">')
+
+
+COL_L = col_l()
+COL_R = col_r()
+# left column has appeared with and without overflow:hidden - match either.
+# The width is a capture-anything because rows are no longer always 50/50;
+# validate() cares that the two columns are SIBLINGS, not how wide they are.
+COL_L_RE = re.compile(r'<div style="flex:0 0 \d+%;min-width:0;[^"]*flex-direction:column;">')
+COL_R_RE = re.compile(r'<div style="flex:0 0 \d+%;background:var\(--bg-card\);padding:14px;')
 
 
 def card(label, body, right_note=''):
     note = (f'<span style="font-size:9px;font-weight:700;color:#f0883e;">{right_note}</span>' if right_note else '')
     return CARD + HDR.format(label, note) + body + '</div>'
+
+
+def top_setups(rows, label='Top Setups'):
+    """The left column of the prep row: three ranked names against six prep cards.
+
+    The left column is always the shorter of the two, and the leftover used to
+    pile up as one dead block under the last setup. Each entry now takes an
+    EQUAL share of whatever height the row ends up being (flex:1) with its text
+    centred in that share, so the surplus is spread between the three names
+    instead of collecting at the bottom. If the column happens to be tall enough
+    already, flex:1 costs nothing - the entries just sit at their natural size.
+
+    rows: [(tier, tier_colour, ticker, change, name, why), ...]
+    """
+    out = ('<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:6px;'
+           'overflow:hidden;flex:1;display:flex;flex-direction:column;margin-top:6px;">'
+           + HDR.format(label, '')
+           + '<div style="padding:4px 14px 8px;flex:1;display:flex;flex-direction:column;">')
+    for i, (tier, tc, sym, chg, name, why) in enumerate(rows):
+        border = '' if i == len(rows) - 1 else 'border-bottom:1px solid var(--border-s);'
+        cc = '#3fb950' if chg.startswith('+') else '#f85149'
+        out += (f'<div style="padding:9px 0;{border}flex:1;display:flex;flex-direction:column;'
+                'justify-content:center;">'
+                '<div style="display:flex;align-items:center;gap:5px;margin-bottom:4px;flex-wrap:wrap;">'
+                f'<span style="font-size:9px;font-weight:700;color:{tc};">{tier}</span>'
+                f'<span style="font-size:15px;font-weight:800;color:var(--tx1);">{sym}</span>'
+                f'<span style="font-size:12px;font-weight:800;color:{cc};margin-left:auto;">{chg}</span></div>'
+                f'<div style="font-size:10px;font-weight:700;color:#58a6ff;margin-bottom:3px;">{name}</div>'
+                f'<div style="font-size:10px;color:var(--tx4);line-height:1.5;">{why}</div></div>')
+    return out + '</div></div>'
+
+
+def overview(text, label='Morning Overview'):
+    """Top-left summary card. Content-height - it never absorbs surplus, so the
+    prose stays a tight block and top_setups() below it takes the slack."""
+    return (CARD.replace('margin-bottom:6px;', 'margin-bottom:6px;flex:0 0 auto;')
+            + HDR.format(label, '')
+            + f'<div style="padding:10px 14px;"><p style="margin:0;color:var(--tx4);font-size:11px;'
+              f'line-height:1.65;">{text}</p></div></div>')
 
 
 # ---------------------------------------------------------------- this week
@@ -200,6 +255,50 @@ def thisweek(days):
             'grid-template-columns:repeat(5, minmax(240px, 1fr));gap:1px;background:#21262d;'
             f'min-width:1200px;">{cols}</div></div>')
     return (CARD + HDR.format(LABELS['thisweek'], '') + grid + '</div>')
+
+
+# ---------------------------------------------------------------- morning prep
+# The prep panel is a LEAD PARAGRAPH plus a grid of per-name cards, two to a
+# row. It is not a list of ticker rows - that was built wrong on 2026-08-18 and
+# called out. Each card carries, in this order:
+#     ticker | setup-name tag | tier tag
+#     the read, in prose
+#     the plan line - monospace blue, the price or the actual instruction
+#     the bull case, the bear case
+#     an italic closing note - why it is ranked where it is
+# Read off 2026-08-14-premarket.html, which is the reference rendering.
+def prep(date_pill, lead, cards, width=73):
+    """cards: [(ticker, setup_name, name_colour, tier, read, plan, bull, bear, note), ...]"""
+    out = ''
+    for i in range(0, len(cards), 2):
+        out += '<div style="display:flex;flex-wrap:wrap;gap:8px;flex:1;">'
+        for tk, name, ncol, tier, read, plan, bull, bear, note in cards[i:i + 2]:
+            out += ('<div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);'
+                    'padding:14px 16px;min-width:180px;flex:1;">'
+                    '<div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap;">'
+                    f'<span style="font-weight:700;font-size:16px;color:var(--tx1);">{tk}</span>'
+                    f'<span style="font-size:9px;font-weight:800;color:{ncol};">{name}</span>'
+                    f'<span style="font-size:9px;font-weight:800;color:var(--tx2);">{tier}</span></div>'
+                    f'<div style="font-size:12px;color:var(--tx2);margin-bottom:5px;line-height:1.4;">{read}</div>'
+                    f'<div style="font-size:12px;color:#388bfd;font-weight:600;margin-bottom:5px;'
+                    f'font-family:monospace;">{plan}</div>'
+                    f'<div style="font-size:12px;color:#3fb950;margin-bottom:4px;line-height:1.4;">&#9650; {bull}</div>'
+                    f'<div style="font-size:12px;color:#f85149;margin-bottom:5px;line-height:1.4;">&#9660; {bear}</div>'
+                    f'<div style="font-size:11px;color:var(--tx2);font-style:italic;line-height:1.5;">{note}</div>'
+                    '</div>')
+        out += '</div>'
+
+    return (col_r(width)
+            + '<div style="background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);'
+              'font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;'
+              'margin:-14px -14px 0;display:flex;align-items:center;justify-content:space-between;">'
+              f'<span>{LABELS["prep"]}</span>'
+              '<span style="font-size:9px;font-weight:700;color:#58a6ff;background:#0d2137;'
+              'border:1px solid #1f6feb;padding:2px 7px;border-radius:10px;letter-spacing:.08em;">'
+              f'{date_pill}</span></div>'
+            + '<div style="padding:14px 2px 0;flex:1;display:flex;flex-direction:column;gap:14px;">'
+            + f'<p style="margin:0;color:var(--tx1);font-size:13px;line-height:1.6;font-weight:500;">{lead}</p>'
+            + out + '</div></div>')
 
 
 def row(*children, gap6=False):
