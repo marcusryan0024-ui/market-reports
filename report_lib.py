@@ -23,7 +23,7 @@ USAGE
                    title='Friday, August 14, 2026', tts=[...], sections={...})
     R.write('2026-08-17-premarket.html', html)
 """
-import json, re, os, glob, html as _html
+import json, re, os, glob, html as _html, datetime as _dt
 
 # ---------------------------------------------------------------- spec
 # Canonical section names and order. Read off the known-good templates:
@@ -432,7 +432,16 @@ def write(path, html, kind, index=True):
     validate(html, kind)
     open(path, 'w', encoding='utf-8').write(html)
     if index:
-        refresh_index(os.path.dirname(os.path.abspath(path)))
+        d = os.path.dirname(os.path.abspath(path))
+        # A new date has no row on the landing page until something creates one,
+        # and the only thing that ever did was catalyst_scan's rebuild - the same
+        # pass that overwrites finished reports. So 8/18 had a report and no way
+        # to reach it. Writing through the generator now guarantees the row, and
+        # refresh_index fills its headline from the file we just wrote.
+        m = re.search(r'(2026-\d\d-\d\d)', os.path.basename(path))
+        if m:
+            ensure_row(m.group(1), d)
+        refresh_index(d)
     return path
 
 
@@ -533,6 +542,53 @@ def refresh_index(dirpath='.'):
     if blank:
         print(f'refresh_index: no headline found for {", ".join(blank)}')
     return filled
+
+
+MONTH_RE = re.compile(r'(<div class="mhdr"><span class="mlabel">([A-Z]+ \d{4})</span>'
+                      r'<span class="mcnt">)(\d+)(</span></div>\s*)')
+
+
+def ensure_row(date, dirpath='.'):
+    """Add `date`'s row to index.html if it is not already there.
+
+    Rows are newest-first inside a month block. This inserts directly after that
+    month's header, which is correct for the normal case - a report being written
+    for the newest date in its month. Returns True if a row was added.
+    """
+    path = os.path.join(dirpath, 'index.html')
+    if not os.path.exists(path):
+        return False
+    idx = open(path, encoding='utf-8').read()
+    # Key on the ROW link style, not on the bare href - the featured card at the
+    # top of the page links to the newest date too (with its own larger padding),
+    # and matching that made this think a row already existed when it did not.
+    if re.search(rf'padding:5px 13px;font-size:11px" href="{date}(?:-premarket)?\.html"', idx):
+        return False
+
+    d = _dt.date(*(int(x) for x in date.split('-')))
+    label = d.strftime('%B %Y').upper()
+    row = (f'<div class="row">\n  <div class="rleft">\n'
+           f'    <div class="rdate"><span class="rdow">{d.strftime("%a").upper()}</span>'
+           f'<span class="rmd">{d.strftime("%b")} {d.day}</span></div>\n  </div>\n'
+           f'  <div class="rlinks">'
+           f'<a class="rl pre" style="padding:5px 13px;font-size:11px" '
+           f'href="{date}-premarket.html">&#9651;&thinsp;Pre-Market</a>'
+           f'<a class="rl close" style="padding:5px 13px;font-size:11px" '
+           f'href="{date}.html">&#9660;&thinsp;After Close</a></div>\n</div>\n')
+
+    hit = [False]
+
+    def bump(m):
+        if hit[0] or m.group(2) != label:
+            return m.group(0)
+        hit[0] = True
+        return m.group(1) + str(int(m.group(3)) + 1) + m.group(4) + row
+
+    idx = MONTH_RE.sub(bump, idx)
+    if not hit[0]:
+        return False
+    open(path, 'w', encoding='utf-8').write(idx)
+    return True
 
 
 def validate_index(dirpath='.'):
