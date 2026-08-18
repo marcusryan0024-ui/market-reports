@@ -89,6 +89,119 @@ def card(label, body, right_note=''):
     return CARD + HDR.format(label, note) + body + '</div>'
 
 
+# ---------------------------------------------------------------- this week
+# The five-day grid. The previous markup had two problems the user called out:
+# every column carried border-left:3px solid #21262d - the same colour as the
+# grid gutter, so the days visually merged into one block - and the category
+# labels were #3d444d at 7px, effectively invisible. Event copy was also full
+# prose truncated with an ellipsis, which reads as filler.
+#
+# So: the accent bar is the only thing that separates days, and it must CARRY
+# INFORMATION - amber = the next session, blue = a day with a major macro print,
+# grey = done. And event lines are hard-capped. If a line needs an ellipsis it
+# was too long to belong here; shorten the text instead of truncating it.
+TW_ACCENT = {'next': '#ffd54f', 'macro': '#58a6ff', 'done': '#30363d', '': '#484f58'}
+TW_MAX_EVENTS = 3
+TW_MAX_EARNINGS = 5
+TW_MAX_CHARS = 92    # an event line longer than this is prose, not a calendar entry
+
+# Text colours here are deliberate, not inherited. The palette is NOT ordered by
+# brightness - tx4 (#94b4cc) is far lighter than tx3 (#334d6a) despite the name.
+# Against --bg-card #091220 the contrast ratios are:
+#     tx3 #334d6a  2.15:1   unreadable at 9px - this is what "blends in"
+#     tx2 #5c80a8  4.57:1   fine for a small label
+#     tx4 #94b4cc  8.56:1   the body-copy colour
+#     tx1 #e0eafa  ~15:1    headers and tickers
+# Body copy uses tx4, quiet labels use tx2, and tx3 is not used in this section
+# at all. Hierarchy comes from weight and size, never from fading text into the
+# background.
+TW_BODY = 'var(--tx4)'
+TW_LABEL = 'var(--tx2)'
+
+
+def _tw_label(text):
+    return (f'<div style="font-size:8px;font-weight:700;color:{TW_LABEL};letter-spacing:.1em;'
+            'padding-bottom:3px;margin:9px 0 5px;border-bottom:1px solid var(--border-s);">'
+            f'{text}</div>')
+
+
+RAIL = 50    # px. The shared left rail every row hangs off of.
+
+
+def _tw_row(anchor, text, accent, is_ticker):
+    """One calendar line: anchor in the left rail, detail to the right.
+
+    The anchor is what the eye lands on, so it is the TICKER wherever a ticker
+    exists - monospace, brightest text on the card. Times were previously in
+    this position, which made every event read as "All day" before it read as
+    the company it was about. A time only takes the rail when the line has no
+    ticker (an econ print, a futures expiry, a multi-day conference).
+    """
+    style = ('font-family:monospace;font-weight:700;color:var(--tx1);font-size:10px;'
+             if is_ticker else
+             f'font-weight:700;color:{accent};font-size:9px;')
+    return ('<div style="display:flex;align-items:baseline;padding:3px 0;font-size:10px;">'
+            f'<span style="{style}flex:0 0 {RAIL}px;">{anchor}</span>'
+            f'<span style="color:{TW_BODY};line-height:1.45;min-width:0;">{text}</span></div>')
+
+
+def thisweek(days):
+    """The 5-day On Deck grid.
+
+    days: list of dicts - {day, tag, accent, econ, earnings, events} where
+      day      'TUE 8/18'
+      tag      optional short right-aligned note on the day header
+      accent   key into TW_ACCENT
+      econ     [(time, text), ...]
+      earnings [(ticker, when), ...]           when: 'AM &middot; est $4.73'
+      events   [(ticker, when, text), ...]     ticker '' -> `when` takes the rail
+
+    All three blocks share one left rail, so tickers line up down the whole
+    column and a day can be scanned by symbol without reading a word.
+    """
+    cols = ''
+    for d in days:
+        accent = TW_ACCENT.get(d.get('accent', ''), TW_ACCENT[''])
+        muted = d.get('accent') == 'done'
+        daycol = TW_LABEL if muted else 'var(--tx1)'
+        tag = d.get('tag', '')
+        tag_html = (f'<span style="font-size:8px;font-weight:700;color:{accent};'
+                    f'letter-spacing:.08em;margin-left:auto;">{tag}</span>') if tag else ''
+
+        body = ''
+        if d.get('econ'):
+            body += _tw_label('ECONOMIC')
+            for when, text in d['econ']:
+                body += _tw_row(when, text, accent, is_ticker=False)
+        if d.get('earnings'):
+            body += _tw_label('EARNINGS')
+            for tk, when in d['earnings'][:TW_MAX_EARNINGS]:
+                body += _tw_row(tk, when, accent, is_ticker=True)
+        if d.get('events'):
+            body += _tw_label('EVENTS')
+            for tk, when, text in d['events'][:TW_MAX_EVENTS]:
+                if len(re.sub(r'<[^>]+>|&[a-z]+;', '', text)) > TW_MAX_CHARS:
+                    raise ValueError(f'{d["day"]}: event line is {len(text)} chars - '
+                                     f'shorten it, do not truncate: {text[:70]}...')
+                if tk:
+                    detail = f'{text} <span style="color:{accent};font-weight:700;">{when}</span>'
+                    body += _tw_row(tk, detail, accent, is_ticker=True)
+                else:
+                    body += _tw_row(when, text, accent, is_ticker=False)
+
+        cols += (f'<div style="background:var(--bg-card);border-left:3px solid {accent};padding:0 0 10px;">'
+                 '<div style="background:var(--bg-page);padding:6px 10px;display:flex;align-items:center;'
+                 'border-bottom:1px solid var(--border-s);">'
+                 f'<span style="font-size:10px;font-weight:800;color:{daycol};letter-spacing:.06em;">{d["day"]}</span>'
+                 f'{tag_html}</div>'
+                 f'<div style="padding:0 10px;">{body}</div></div>')
+
+    grid = ('<div style="overflow-x:auto;"><div style="display:grid;'
+            'grid-template-columns:repeat(5, minmax(240px, 1fr));gap:1px;background:#21262d;'
+            f'min-width:1200px;">{cols}</div></div>')
+    return (CARD + HDR.format(LABELS['thisweek'], '') + grid + '</div>')
+
+
 def row(*children, gap6=False):
     """A flex row. Children must be complete, self-closed blocks."""
     for i, c in enumerate(children):
@@ -125,8 +238,13 @@ def build(base, kind, title, tts, body):
     s = shell(base)
     head = re.sub(r'<title>[^<]*</title>',
                   f'<title>Catalyst Report &mdash; {title}</title>', s['head'])
-    head = re.sub(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday), \w+ \d+, \d{4}', title, head)
-    return head + 'window._ttsScript=' + json.dumps(tts, ensure_ascii=False) + s['mid'] + body + s['tail']
+    # The dateline is in BOTH head (<title>, meta) and mid (the on-page report
+    # header bar). Substituting head alone shipped 2026-08-17 close with
+    # "Thursday, August 13, 2026" printed across the top of the page.
+    dateline = re.compile(r'(?:Monday|Tuesday|Wednesday|Thursday|Friday), \w+ \d+, \d{4}')
+    head = dateline.sub(title, head)
+    mid = dateline.sub(title, s['mid'])
+    return head + 'window._ttsScript=' + json.dumps(tts, ensure_ascii=False) + mid + body + s['tail']
 
 
 # ---------------------------------------------------------------- validation
