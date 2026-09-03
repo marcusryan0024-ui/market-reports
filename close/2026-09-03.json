@@ -1,0 +1,411 @@
+{
+ "title": "Thursday, September 3, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 295.18, 294.01],
+     ["QQQ", 717.61, 709.24],
+     ["SPY", 773.16, 765.16]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 328.21, 324.96],
+     ["MSFT", 510.08, 496.82],
+     ["NVDA", 228.40, 224.41],
+     ["GOOGL", 342.48, 337.12],
+     ["AMZN", 258.90, 254.98],
+     ["META", 610.68, 592.85],
+     ["TSLA", 376.36, 357.01],
+     ["AMD", 456.24, 457.06],
+     ["AVGO", 357.24, 367.24],
+     ["INTC", 91.66, 90.05],
+     ["MU", 958.49, 956.08]
+    ]
+   ]
+  ],
+  "focus": [
+   ["SNOW", 356.56, 305.84],
+   ["RBLX", 41.48, 41.21],
+   ["NTAP", 185.38, 180.77],
+   ["HPE", 54.44, 51.83],
+   ["CRWD", 214.97, 203.42]
+  ]
+ },
+ "headline": {
+  "title": "<b>Every earnings gap traded back toward where it came from, and the direction of the gap mattered more than the news inside it.</b> All four names that gapped up on a raised guide closed below their premarket mark &mdash; <b>SNOW +23.4% premarket, +16.58% at the close</b>; <b>WOOF +15.6% premarket, &minus;4.37% at the close</b>; AGX +6.5% to <b>+0.33%</b>; FIVE +5.7% to <b>&minus;1.27%</b>. All three that gapped down overnight on a soft guide closed well above theirs: <b>NTAP &minus;9.4% premarket, +2.55% at the close</b>; <b>HPE &minus;5.1% to +5.04%</b>; AVGO &minus;3.4% to <b>&minus;2.72%</b> after opening &minus;4.2%.",
+  "summary": "<b>The index did not go nowhere this time &mdash; SPY +1.05%, QQQ +1.18%, nine of twelve sectors green.</b> But the money was in software rather than in the prints: <b>NOW +6.45%</b>, <b>CRWD +5.68%</b>, <b>NET +4.24%</b>, CRM +2.92%, DDOG +2.63%, on the read-through from last night's guides rather than from any of the guides themselves. <b>TSLA +5.42%</b> on Cybercab day was the best of the Mag 11. Energy was the one clean failure: bid premarket on the Hormuz escalation with WTI at $93.01, it finished last on the board &mdash; <b>XLE &minus;0.69%</b>, SLB &minus;1.20%, XOM &minus;1.16% &mdash; while gold took the safety bid instead, <b>GDX +3.94%</b>, GLD +1.86%."
+ },
+ "what_happened": [
+  [
+   "The gap was the whole move in both directions.",
+   "y",
+   "Four names gapped up on raised guidance and every one of them closed below where it opened. SNOW printed its high of <b>384.55</b> inside the first thirty minutes and then sold for the rest of the session to close <b>356.56</b>, its low being 355.50 &mdash; still <b>+16.58%</b> on the day, but <b>&minus;5.5% from the open</b>. WOOF went from +15.6% premarket to <b>&minus;4.37%</b>. Three names gapped down and did the exact opposite: NTAP opened <b>162.15</b>, bottomed at <b>161.00</b> in the first minutes, and closed <b>185.38</b> &mdash; <b>+15.1% off the low</b> and green on the day."
+  ],
+  [
+   "Software, not the software earnings, was the trade.",
+   "g",
+   "None of last night's reporters led. The read-through names did: <b>NOW +6.45%</b>, <b>CRWD +5.68%</b> into tonight's investor briefing, <b>NET +4.24%</b>, <b>CRM +2.92%</b>, <b>DDOG +2.63%</b>. The market took SNOW's raised FY27 operating margin guide as a sector datapoint and paid for it everywhere except in SNOW itself, which spent the day giving the gap back."
+  ],
+  [
+   "Energy was bid premarket and sold all day.",
+   "r",
+   "WTI at <b>$93.01</b> and the Hormuz escalation had the whole complex green before the open &mdash; XLE +0.6%, XOM +0.68%, SLB +0.65%. XLE took Wednesday's <b>65.34</b> high in the first hour, printed <b>65.515</b>, and then faded every hour into the close at <b>64.65</b>, <b>&minus;0.69%</b> and last of twelve sectors. The equities gave it up while crude itself held &mdash; <b>USO +0.64%</b>. Gold got the risk bid the oil names did not: <b>GDX +3.94%</b>, <b>GLD +1.86%</b>."
+  ]
+ ],
+ "picks": {
+  "right_note": "1 PAID &middot; 1 SPLIT &middot; 1 FAILED",
+  "rows": [
+   [
+    "SNOW",
+    "+16.58%",
+    "g",
+    "PAID ON THE GAP &middot; TOPPED IN 30 MINUTES",
+    "y",
+    "T1. 2-2 reversal up. Wednesday was a 2 Down closing 305.84 near its 303.89 low; the print gaps it to 377.51, above Wednesday's high and above two weeks of structure. <b>No overhead level.</b>",
+    "That was true and it did not help. The gap <i>was</i> the move: opened <b>377.245</b>, high <b>384.55</b> inside the first thirty minutes, then a one-way fade for six hours to close <b>356.56</b> against a session low of 355.50. Held from Wednesday's close it is <b>+16.58%</b>. Bought at the open it is <b>&minus;5.5%</b>. &lsquo;No overhead level&rsquo; described the chart correctly and said nothing about who was selling into it."
+   ],
+   [
+    "AVGO",
+    "&minus;2.72%",
+    "g",
+    "RIGHT ON THE CANDLE &middot; SQUEEZED ALL DAY",
+    "y",
+    "T1. 1-2 down. Wednesday inside Tuesday, premarket breaks below both &mdash; a clean inside-day breakdown through a week of structure. <b>Under 364.65</b> triggered premarket.",
+    "The daily candle closed red and the call is green on that basis. The path was the opposite of the thesis: <b>342.61 low in the first thirty minutes</b>, then a grind higher every hour to close <b>357.24</b>, <b>+4.3% off the low</b> and near the top of the range. A short taken on the trigger was underwater by lunch and stayed there. 8.4% was implied; the realised range was under half of it."
+   ],
+   [
+    "RBLX",
+    "+0.66%",
+    "y",
+    "TRIGGERED, THEN GAVE IT ALL BACK",
+    "r",
+    "T1. 2-1-2 up. 2 Up 8/31 on 19.6M shares, inside 9/1, 2 Up 9/2 closing 41.21 at its 41.28 high. Continuation already triggered. <b>Calls over 41.58</b> &mdash; Monday 8/31's high, exactly.",
+    "It opened <b>42.79</b>, already through the level, tagged <b>42.83</b>, and never went higher. From there it faded through the whole session and closed <b>41.48</b> &mdash; <b>below the 41.58 trigger</b> and <b>&minus;3.1% from the open</b>. The 2-1-2 fired and failed on the same bar it fired. RDC26 on 9/10 is still ahead of both sweep legs, which is the only reason this is not a straight red."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/1",
+   "tag": "DONE &middot; 5 PRINTS",
+   "accent": "done",
+   "econ": [["9:00am", "ISM Manufacturing and JOLTS &mdash; done"]],
+   "earnings": [["DELL", "PM &middot; blowout"], ["MDB", "PM &middot; sold"], ["CRDO", "PM &middot; sold"]],
+   "events": [["AAPL", "Done", "Ternus day one &mdash; closed +2.61%"]]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "DONE &middot; 5 PRINTS",
+   "accent": "done",
+   "econ": [["7:15am", "ADP private payrolls &mdash; done"], ["1:00pm", "Fed Beige Book &mdash; done"]],
+   "earnings": [
+    ["AVGO", "PM &middot; beat, &minus;3.4%"],
+    ["SNOW", "PM &middot; beat, +23.4%"],
+    ["HPE", "PM &middot; beat, &minus;5.1%"],
+    ["NTAP", "PM &middot; beat, &minus;9.4%"],
+    ["FIVE", "PM &middot; beat, +5.7%"]
+   ],
+   "events": [["DELL", "Done", "Ran to 497.99, closed 492.20 &mdash; the $474 trigger cleared"]]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "DONE &middot; EVERY GAP FADED",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "Jobless claims, Q2 productivity, July trade balance &mdash; done"],
+    ["9:00am", "<b>ISM Services (Aug)</b> &mdash; done, SPY +1.05% on the session"]
+   ],
+   "earnings": [
+    ["CIEN", "AM &middot; beat, closed &minus;10.88%"],
+    ["LULU", "PM &middot; <b>&minus;18.3% after hours</b>"],
+    ["ZS", "PM &middot; &minus;1.9% after hours"],
+    ["DOCU", "PM &middot; +4.4% after hours"]
+   ],
+   "events": [
+    ["TSLA", "Done", "<b>Cybercab launch, Austin</b> &mdash; closed <b>+5.42%</b> at 376.36, best of the Mag 11"],
+    ["CRWD", "Done", "Briefing held &mdash; closed +5.68%; move lands Fri 9/4 and Tue 9/8"]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS",
+   "accent": "next",
+   "econ": [
+    ["7:30am", "<b>August employment report</b> &mdash; consensus ~+25k, unemployment near 4.1%, after July shed ~23k. Last labor read before a live-hike September FOMC"]
+   ],
+   "earnings": [],
+   "events": [["CRWD", "Day 1", "First of the two sessions after the briefing"]]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [["&mdash;", "Labor Day &mdash; U.S. markets closed"]],
+   "earnings": [],
+   "events": [["CRWD", "Skipped", "Holiday pushes day 2 of the window to Tue 9/8"]]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "RDC26",
+   "accent": "macro",
+   "econ": [],
+   "earnings": [],
+   "events": [["RBLX", "9/10-12", "<b>RDC26, San Jose</b> &mdash; both sweep legs expire past it"]]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC decision</b> &mdash; market pricing a live hike after Warsh's Jackson Hole keynote"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["SNOW", "charts/SNOW_2026-09-03.png", "High in 30 min &middot; closed at the low"],
+  ["NTAP", "charts/NTAP_2026-09-03.png", "&minus;9.4% premarket &rarr; +2.55% close"],
+  ["HPE", "charts/HPE_2026-09-03.png", "Failed breakdown &middot; +5.04%"],
+  ["TSLA", "charts/TSLA_2026-09-03.png", "Cybercab day &middot; +5.42%"],
+  ["AVGO", "charts/AVGO_2026-09-03.png", "Red candle, higher all day"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "SOFTWARE &mdash; THE DAY'S REAL TRADE",
+    [["NOW", 6.45], ["CRWD", 5.68], ["NET", 4.24], ["CRM", 2.92], ["DDOG", 2.63]]
+   ],
+   [
+    "GAPPED UP &mdash; ALL FOUR GAVE IT BACK",
+    [["SNOW", 16.58], ["AGX", 0.33], ["FIVE", -1.27], ["WOOF", -4.37]]
+   ],
+   [
+    "GAPPED DOWN &mdash; BOUGHT ALL DAY",
+    [["HPE", 5.04], ["NTAP", 2.55], ["AVGO", -2.72]]
+   ],
+   [
+    "ENERGY &mdash; CRUDE HELD, EQUITIES DIDN'T",
+    [["USO", 0.64], ["CVX", -0.21], ["OXY", -0.5], ["XLE", -0.69], ["XOM", -1.16], ["SLB", -1.2]]
+   ],
+   [
+    "GOLD &mdash; TOOK THE SAFETY BID INSTEAD",
+    [["GDX", 3.94], ["GLD", 1.86]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 9/3 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "TSLA",
+    "T1",
+    "g",
+    "Failed 2D &rarr; reversal &mdash; worked",
+    "g",
+    "Cleared Tuesday's 362.70 high before the open and never looked back. Ran to 384.04 by mid-session and held the range all afternoon.",
+    "close 376.36 &middot; <b>+5.42%</b>",
+    "The cleanest call on the board. Best of the Mag 11 on Cybercab day.",
+    "Closed 8 points off the high &mdash; the last thirty minutes sold 380.84 to 376.36."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "g",
+    "Inside (1) &mdash; resolved up",
+    "g",
+    "Gapped straight through 709.80 at the open, never tested 705.10. High 718.91, closed near it.",
+    "close 717.61 &middot; <b>+1.18%</b>",
+    "The inside day broke the direction the tape was already leaning. Nine of twelve sectors green.",
+    "Payrolls at 7:30am Friday is the first real test of the breakout."
+   ],
+   [
+    "IWM",
+    "T2",
+    "g",
+    "2 Up &mdash; continued",
+    "g",
+    "Opened 293.84 under the level, took Wednesday's 294.35 in the 10am hour and held above it for the rest of the session. High 295.39.",
+    "close 295.18 &middot; <b>+0.40%</b>",
+    "Trigger fired and was never given back. Four sessions off the 9/1 low now.",
+    "Smallest gain of the three index calls &mdash; small caps lagged a broad tape."
+   ],
+   [
+    "SNOW",
+    "T1",
+    "g",
+    "2-2 reversal up &mdash; paid, then bled",
+    "y",
+    "Right on the day and wrong on every hour of it. High 384.55 in the first thirty minutes, then a one-way fade to close 356.56 against a 355.50 low.",
+    "close 356.56 &middot; <b>+16.58%</b> &middot; from open <b>&minus;5.5%</b>",
+    "+16.58% held from Wednesday. The raised FY27 operating margin guide was real and the sector paid for it.",
+    "Closed at the low of the day. &lsquo;No overhead level&rsquo; is not the same as no seller."
+   ],
+   [
+    "AVGO",
+    "T1",
+    "g",
+    "1-2 down &mdash; right candle, wrong path",
+    "y",
+    "Trigger under 364.65 fired premarket and the close is red. But the low was 342.61 inside the first thirty minutes and it grinded higher every hour after.",
+    "close 357.24 &middot; <b>&minus;2.72%</b> &middot; off low <b>+4.3%</b>",
+    "The daily candle is a red 2 Down. Directionally the call was correct.",
+    "A short on the trigger was underwater by lunch. Realised range under half the 8.4% implied."
+   ],
+   [
+    "RBLX",
+    "T1",
+    "y",
+    "2-1-2 up &mdash; fired and failed",
+    "r",
+    "Opened 42.79 already through 41.58, tagged 42.83 and never went higher. Faded all session to close 41.48, back under the trigger.",
+    "close 41.48 &middot; <b>+0.66%</b> &middot; from open <b>&minus;3.1%</b>",
+    "Still green on the day and RDC26 on 9/10 sits ahead of both sweep legs.",
+    "Closed under its own trigger. The continuation lasted one bar."
+   ],
+   [
+    "NTAP",
+    "T2",
+    "r",
+    "Failed 2U &rarr; 2-2 down &mdash; wrong",
+    "r",
+    "The gap-down continuation was exactly backwards. Opened 162.15, low 161.00 in the first minutes, then bid all day to close 185.38 &mdash; above Tuesday's 185.30 the failure was supposed to have confirmed.",
+    "close 185.38 &middot; <b>+2.55%</b> &middot; off low <b>+15.1%</b>",
+    "Nothing to salvage on the short side.",
+    "Worst call of the day. A $4.85B vs $4.86B deferred-revenue miss got sold for nine percent and bought back inside an hour."
+   ],
+   [
+    "XLE",
+    "T2",
+    "r",
+    "2 Up &mdash; triggered, then last on the board",
+    "r",
+    "Took Wednesday's 65.34 high in the first hour, printed 65.515, and faded every hour after into a 64.65 close.",
+    "close 64.65 &middot; <b>&minus;0.69%</b>",
+    "Crude itself held &mdash; USO +0.64%. The commodity was not the problem.",
+    "Last of twelve sectors on a nine-green day. The Hormuz bid was sold, not bought."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "The direction of the gap predicted the day better than the contents of the print.",
+   "Four companies raised guidance and gapped up; all four closed below their premarket mark and three of the four closed red or flat &mdash; <b>SNOW +23.4% &rarr; +16.58%</b>, <b>AGX +6.5% &rarr; +0.33%</b>, <b>FIVE +5.7% &rarr; &minus;1.27%</b>, <b>WOOF +15.6% &rarr; &minus;4.37%</b>. Three companies beat and guided softly and gapped down; all three closed well above their premarket mark and two closed green &mdash; <b>NTAP &minus;9.4% &rarr; +2.55%</b>, <b>HPE &minus;5.1% &rarr; +5.04%</b>, <b>AVGO &minus;3.4% &rarr; &minus;2.72%</b>. That is seven for seven in the same direction: toward the prior close. The morning report ranked the setups on what the guides said. The tape traded the gap, not the guide."
+  ],
+  [
+   "HPE and NTAP were the two cleanest failed breakdowns of the week.",
+   "HPE opened <b>47.21</b> and printed <b>45.70</b> in the first thirty minutes on a 16-20% FY27 growth guide against 18.7% consensus. It then closed <b>54.44</b> &mdash; <b>+19.1% off the low</b>, +5.04% on the day, and the final thirty minutes traded <b>9.68 million shares</b>, more than the rest of the session combined. NTAP ran the same shape: low <b>161.00</b> in the opening minutes, close <b>185.38</b>, +15.1% off the low, finishing back above the 185.30 level whose loss was the entire bear case. Both gaps were fully reclaimed inside one session."
+  ],
+  [
+   "The index calls were right and small; the single-name calls were large and mixed.",
+   "QQQ, IWM and SPY all did what the morning note said &mdash; QQQ resolved its inside day up through 709.80 and closed <b>717.61 (+1.18%)</b>, IWM took 294.35 and held it to close <b>295.18 (+0.40%)</b>, SPY <b>+1.05%</b>. Three for three, worth about a percent. The four T1 single names produced one clean win (TSLA <b>+5.42%</b>), one that paid only if you already owned it (SNOW), one that was right on the close and wrong on every hour (AVGO), and one that failed on the bar it triggered (RBLX). The index read was the higher-quality call and the smallest payout."
+  ],
+  [
+   "Energy was the day's one unambiguous miss.",
+   "The setup was a 2 Up with a live geopolitical catalyst, WTI at <b>$93.01</b>, and the whole complex green premarket. XLE cleared the 65.34 trigger inside the first hour at <b>65.515</b> and then went down every single hour into the close at <b>64.65</b>, finishing <b>last of twelve sectors</b> on a day when nine were green. The tell was that crude held while the equities did not &mdash; <b>USO +0.64%</b> against <b>SLB &minus;1.20%</b>, <b>XOM &minus;1.16%</b>. And the safety bid that would have justified the trade went somewhere else entirely: <b>GDX +3.94%</b>, <b>GLD +1.86%</b>."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>No FlowMS letter arrived today, so this is Wednesday's board graded against Thursday's tape &mdash; a second-day read, not today's positioning.</b> Wednesday showed <b>SPY $6.7B cumulative bid</b> and <b>NVDA $4.9B bid</b> against <b>MU $4.4B ask</b> and <b>SNDK $3.1B ask</b>. The bid side went two for two again: SPY <b>+1.05%</b>, NVDA <b>+1.78%</b>. The ask side did not resolve &mdash; MU <b>+0.25%</b> and SNDK <b>+0.11%</b> both finished flat rather than down. Four sessions of tracking this now: the bid-side blocks have led the tape, the ask-side blocks have mostly meant nothing.",
+  "right_note": "WED 9/2 TAPE &middot; DAY-2 GRADE",
+  "dim": true,
+  "chips": [
+   ["SPY", "$6.7B", "bid &#8594; +1.05% &middot; HIT", "g"],
+   ["NVDA", "$4.9B", "bid &#8594; +1.78% &middot; HIT", "g"],
+   ["MU", "$4.4B", "ask &#8594; +0.25% &middot; FLAT", "y"],
+   ["SNDK", "$3.1B", "ask &#8594; +0.11% &middot; FLAT", "y"]
+  ]
+ },
+ "sectors": {
+  "right_note": "NINE GREEN, ENERGY LAST &mdash; SPY +1.05%",
+  "rows": [
+   ["XLF", "Financials", 1.53],
+   ["XLY", "Discretionary", 1.39],
+   ["XLK", "Technology", 1.31],
+   ["XLRE", "Real Estate", 1.19],
+   ["XLI", "Industrials", 1.02],
+   ["XLC", "Communications", 0.87],
+   ["XLU", "Utilities", 0.8],
+   ["SMH", "Semis", 0.4],
+   ["XLV", "Health Care", 0.2],
+   ["XLP", "Staples", -0.33],
+   ["XLB", "Materials", -0.59],
+   ["XLE", "Energy", -0.69]
+  ]
+ },
+ "lessons": [
+  [
+   "On an earnings gap, the first thirty minutes is the trade and the rest of the day is the giveback.",
+   "y",
+   "Seven of seven gapped names closed nearer the prior close than they opened. SNOW's high was <b>384.55</b> inside thirty minutes and its close was <b>356.56</b>. HPE's low was <b>45.70</b> inside thirty minutes and its close was <b>54.44</b>. NTAP's low was <b>161.00</b> in the opening minutes and its close was <b>185.38</b>. The extreme printed early in every case. A setup ranked on the overnight guide is being ranked on the part of the move that is already gone by the time the market opens."
+  ],
+  [
+   "&lsquo;No overhead level&rsquo; is a statement about the chart, not about the seller.",
+   "r",
+   "SNOW was ranked T1 this morning specifically because a 23% gap put it above two weeks of structure with nothing in the way. That was accurate. It also topped six minutes into the session and closed at the low of the day, <b>5.5% below the open</b>. Clean air above tells you where price <i>can</i> go; it says nothing about whether anyone is bidding it there. Both facts were available at 7:45am and only one of them was used."
+  ],
+  [
+   "A red daily candle and a profitable short are not the same call.",
+   "y",
+   "AVGO closed <b>&minus;2.72%</b> and the 1-2 down is graded green on the candle. But the low was in at <b>342.61</b> thirty minutes after the open and the position was underwater from lunch onward, closing <b>+4.3% off the low</b>. RBLX is the same problem in the other direction: it triggered over 41.58 and closed at 41.48, green on the day and <b>below its own trigger</b>. Grading a setup on the close hides how it actually traded, and the intraday path is where the money is."
+  ],
+  [
+   "The bid-side block tape is still leading; the ask side still is not.",
+   "g",
+   "Wednesday's board had SPY and NVDA bid and MU and SNDK offered. The bid names went <b>+1.05%</b> and <b>+1.78%</b>; the offered names went <b>+0.25%</b> and <b>+0.11%</b>. That is now four sessions with the same asymmetry &mdash; the bid-side blocks have preceded the move and the ask-side blocks have preceded nothing in particular. Worth continuing to track as one-sided rather than as a signal in both directions."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "LULU",
+   "r",
+   "Closed <b>+1.43% at 121.79</b> and is trading <b>99.50 after hours, &minus;18.3%</b>. That is the largest gap into a Friday in the book and it lands on the same morning as payrolls. Given today's seven-for-seven fade pattern, the opening print is the level to watch rather than the one to take."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>August employment report at 7:30am CT</b> &mdash; consensus about <b>+25k</b> with unemployment near <b>4.1%</b>, after July shed roughly 23k. This is the last labor read before a September FOMC the market is pricing as a live hike, and it arrives with SPY at 773.16, one session into a fresh breakout."
+  ],
+  [
+   "CRWD",
+   "g",
+   "Closed <b>+5.68% at 214.97</b> into last night's investor briefing. The historical pattern puts the actual move on <b>day one (Friday) and day two</b> &mdash; and Labor Day pushes day two to Tuesday 9/8, so the window is split across a long weekend rather than running back to back."
+  ],
+  [
+   "ZS / DOCU",
+   "y",
+   "ZS closed <b>+3.15% at 178.17</b> and is <b>&minus;1.9%</b> after hours; DOCU closed <b>+0.89% at 65.97</b> and is <b>+4.4%</b> after hours. Both are small enough to be inside a normal opening range. On today's evidence, neither overnight mark is where either one closes."
+  ],
+  [
+   "XLE",
+   "y",
+   "It triggered over 65.34 and closed last of twelve sectors at <b>64.65</b>. Crude held &mdash; <b>USO +0.64%</b>, WTI $93.01 &mdash; so the divergence is in the equities, not the commodity. Either the complex catches up to crude or the Hormuz bid is finished; a failed 2 Up here would be the cleaner short than anything on the long side."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>The pattern to carry into Friday:</b> every gap traded back toward the prior close today, in both directions and without a single exception across seven names. If Friday opens with a payrolls gap, the same question applies to the index itself &mdash; and there is no evidence yet whether this was one session's mean reversion or the start of a regime where the overnight move is consistently the wrong side."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Thursday September third, the close. Every earnings gap traded back toward where it came from. S P Y closed up one point zero five percent, Q Q Q up one point one eight, with nine of twelve sectors green. But the story was underneath. All four names that gapped up on raised guidance closed below their premarket mark. Snowflake went from plus twenty three point four percent premarket to plus sixteen point five eight at the close. Petco went from plus fifteen point six to minus four point four. And all three that gapped down on soft guidance closed well above theirs. NetApp went from minus nine point four premarket to plus two point five five at the close. H P E went from minus five point one to plus five point zero four. The real money was in software rather than in the prints. ServiceNow up six point four five, CrowdStrike five point six eight, Cloudflare four point two four. Tesla up five point four two on Cybercab day was the best of the Mag eleven. Energy was the one clean failure, last of twelve sectors at minus zero point six nine percent."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Tesla was the clean one. The failed two down reversal cleared Tuesday's three sixty two seventy before the open, ran to three eighty four, and closed three seventy six thirty six, up five point four two percent. The three index calls all worked and all paid small. Q Q Q resolved its inside day up and closed up one point one eight, I W M took two ninety four thirty five and closed up zero point four zero. Snowflake was right on the day and wrong on every hour of it. It was ranked tier one because a twenty three percent gap left no overhead level, and that was accurate, but it printed its high of three eighty four fifty five inside the first thirty minutes and closed at three fifty six fifty six, its low. Plus sixteen point five eight percent if you held it from Wednesday, minus five and a half percent if you bought the open. Broadcom closed red at minus two point seven two so the one two down grades green on the candle, but the low was in thirty minutes after the open and it ground higher all day. Roblox triggered over forty one fifty eight, tagged forty two eighty three, and closed forty one forty eight, back under its own trigger. NetApp and X L E were the two wrong ones."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, on an earnings gap the first thirty minutes is the trade and the rest of the day is the giveback. Seven of seven gapped names closed nearer the prior close than they opened, and the extreme printed early in every single case. Second, no overhead level is a statement about the chart, not about the seller. Snowflake had clean air above it and closed at the low of the day. Third, a red daily candle and a profitable short are not the same call. Broadcom closed down two point seven two percent while finishing four point three percent off its low, and grading that setup on the close hides how it actually traded. Fourth, the bid side of the block tape is still leading and the ask side still is not. Wednesday's bid names, S P Y and Nvidia, closed up one point zero five and one point seven eight. The offered names, Micron and SanDisk, closed flat. That is four sessions with the same asymmetry."
+  }
+ ]
+}
