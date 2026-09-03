@@ -1,0 +1,172 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week Ahead &mdash; August 24-28, 2026</title>
+<style>
+:root{--bg-page:#0d1117;--bg-card:#161b22;--bg-hover:#1c2128;--border:#30363d;--border-s:#21262d;
+--tx1:#e6edf3;--tx2:#8b949e;--tx3:#6e7681;--tx4:#b1bac4;--tx5:#7d8590;
+--up:#3fb950;--dn:#f85149;--acc:#58a6ff;--warn:#f0883e;--gold:#e3b341;--pur:#a78bfa;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg-page);color:var(--tx1);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+font-size:13px;line-height:1.5;padding:14px;max-width:1500px;margin:0 auto}
+.hdr{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:12px;
+padding-bottom:10px;border-bottom:1px solid var(--border)}
+h1{font-size:23px;font-weight:800;letter-spacing:-.04em;
+background:linear-gradient(90deg,#58a6ff,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:11px;font-weight:500;color:var(--tx3);letter-spacing:.06em}
+.tag{font-size:9px;font-weight:800;letter-spacing:.1em;color:#0d1117;background:var(--acc);padding:3px 8px;border-radius:3px}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;margin-bottom:8px;overflow:hidden}
+.ch{background:var(--bg-page);padding:8px 14px;border-bottom:1px solid var(--border-s);font-size:9px;font-weight:700;
+letter-spacing:.12em;color:var(--tx2);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.pad{padding:12px 14px}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:8px;margin-bottom:8px}
+.hcard{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--acc);border-radius:6px;padding:12px 14px}
+.hcard.red{border-left-color:var(--dn)}.hcard.gold{border-left-color:var(--gold)}
+.hrank{font-size:9px;font-weight:800;letter-spacing:.1em;color:var(--tx3);margin-bottom:4px}
+.htitle{font-size:16px;font-weight:800;letter-spacing:-.02em;margin-bottom:3px}
+.hwhen{font-size:10px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-bottom:5px}
+.hwhy{font-size:11px;color:var(--tx4);line-height:1.55}
+.grid{display:grid;grid-template-columns:repeat(5,minmax(230px,1fr));gap:1px;background:var(--border-s);min-width:1180px}
+.scroll{overflow-x:auto}
+.day{background:var(--bg-card);padding:9px 11px;border-top:3px solid var(--border-s)}
+.day.big{border-top-color:var(--acc);background:#0c1929}
+.dname{font-size:10px;font-weight:800;letter-spacing:.07em;color:var(--tx3);margin-bottom:2px}
+.day.big .dname{color:var(--acc)}
+.dnote{font-size:9px;color:var(--tx3);font-style:italic;margin-bottom:7px;line-height:1.4}
+.sec{font-size:7px;font-weight:700;letter-spacing:.1em;color:#3d444d;margin:8px 0 4px;text-transform:uppercase}
+.ev{padding:3px 0;border-bottom:1px solid var(--border-s)}
+.ev:last-child{border-bottom:none}
+.evt{font-size:9px;font-weight:700;color:var(--warn);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.evd{font-size:10px;color:var(--tx4);line-height:1.4}
+.tk{display:inline-flex;align-items:center;gap:4px;padding:2px 0}
+.sym{font-size:11px;font-weight:700;color:var(--tx1);min-width:46px}
+.sym.hot{color:var(--gold)}
+.when{font-size:8px;font-weight:700;color:var(--tx3);letter-spacing:.05em}
+.row{display:flex;align-items:center;gap:6px;padding:1px 0}
+.pill{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.05em}
+.pill.b{background:#0d2137;border:1px solid #1f6feb;color:var(--acc)}
+.pill.g{background:#0f2a17;border:1px solid #238636;color:var(--up)}
+.pill.o{background:#2b1d0e;border:1px solid #9e6a03;color:var(--warn)}
+.pill.p{background:#1d1b2e;border:1px solid #6e40c9;color:var(--pur)}
+.cl{display:flex;gap:10px;padding:7px 0;border-bottom:1px solid var(--border-s);align-items:flex-start}
+.cl:last-child{border-bottom:none}
+.cld{flex:0 0 60px;font-size:10px;font-weight:800;color:var(--acc);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.clt{flex:0 0 60px;font-size:12px;font-weight:800}
+.clb{flex:1;min-width:0;font-size:11px;color:var(--tx4);line-height:1.5}
+.warn{background:#1c1408;border:1px solid #9e6a03;border-radius:6px;padding:10px 13px;margin-bottom:8px;
+font-size:11px;color:#d9a441;line-height:1.55}
+.foot{font-size:10px;color:var(--tx3);text-align:center;padding:14px 0 4px;line-height:1.6}
+a{color:var(--acc);text-decoration:none}
+@media(max-width:700px){.grid{min-width:900px}h1{font-size:19px}}
+</style>
+
+<style>
+.day{display:flex;flex-direction:column}
+.sec{display:flex;align-items:center;gap:5px}
+.sec .cnt{font-size:7px;font-weight:800;color:var(--tx3);background:var(--bg-page);
+  border:1px solid var(--border-s);border-radius:7px;padding:1px 5px;letter-spacing:0}
+.eern{display:flex;flex-wrap:wrap;gap:3px;align-items:center;margin-bottom:3px}
+.tgrp{font-size:7px;font-weight:800;letter-spacing:.1em;color:#3d444d;margin-right:2px}
+.tick{font-size:9px;font-weight:700;color:var(--tx2);background:var(--bg-page);
+  border:1px solid var(--border-s);border-radius:3px;padding:1px 4px;line-height:1.6;
+  white-space:nowrap}
+.tick.hot{color:var(--gold);border-color:#9e6a03;background:#2b1d0e}
+/* the one name that defines the day - filled, not just outlined, so it reads
+   before anything else in the column */
+.tick.lead{color:#0b0e15;background:var(--gold);border-color:var(--gold);
+  font-size:10px;font-weight:800;letter-spacing:.03em;padding:2px 6px}
+.tick.lead .tkt{opacity:.75;font-weight:700}
+.tick.more{color:#3d444d;border-style:dashed;background:none}
+/* the release name was competing with its own description - lift it out */
+.evd strong{color:var(--tx1);font-weight:700}
+.day.big .dnote{color:var(--tx4);font-style:normal}
+.tick .tkt{font-size:8px;font-weight:600;opacity:.8;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.day.big .tick.hot{border-color:var(--gold)}
+</style><div class="hdr">
+  <div>
+    <h1>Week Ahead &mdash; Catalyst Map</h1>
+    <div class="sub">MONDAY AUG 24 &ndash; FRIDAY AUG 28, 2026 &middot; PUBLISHED MONDAY AUG 24</div>
+  </div>
+</div>
+
+<div class="warn"><strong>Read this first &mdash; the whole week points at Wednesday, and Wednesday is stacked twice.</strong> July PCE and the second estimate of Q2 GDP both land Wednesday at 7:30am CT, and then NVIDIA reports Q2 FY2027 after that same close. The Fed's preferred inflation gauge and the largest single-name print of the month inside one session. Jackson Hole then opens Thursday and runs through Saturday, with new Fed Chair Kevin Warsh delivering his first-ever keynote as Chair on <strong>Friday</strong> &mdash; not a routine reiteration of a known framework, but a first policy framing from a new Chair, landing 48 hours after the inflation print he will be asked about. Monday and Tuesday are the only quiet sessions; treat them as preparation, not opportunity.</div>
+
+<div class="hero">
+<div class="hcard gold"><div class="hrank">BIGGEST CATALYST OF THE WEEK</div><div class="htitle">NVDA &mdash; Q2 FY2027 Earnings</div><div class="hwhen">WED 8/26 &middot; 3:20pm results &middot; 4:00pm call</div><div class="hwhy">Consensus $2.07. Results are expected around 3:20pm CT with the call at 4:00pm CT, and the CFO's written commentary posts immediately with the release &mdash; that document usually moves the stock before a single word is spoken on the call. This is the largest weight in the index reporting on the same day as the Fed's preferred inflation gauge, and the day before Jackson Hole opens. The whole semi complex trades off it: AMD, MU, AVGO, MRVL, ARM, SMH.</div></div>
+<div class="hcard "><div class="hrank">MACRO EVENT OF THE WEEK</div><div class="htitle">Jackson Hole &mdash; Warsh's First Keynote</div><div class="hwhen">THU 8/27 &ndash; SAT 8/29 &middot; Warsh speaks FRI 8/28</div><div class="hwhy">The Kansas City Fed symposium at Jackson Lake Lodge; 2026 theme is 'Financial Innovation: Implications for Payments and Policy.' This is materially bigger than a normal year because it is Kevin Warsh's first Jackson Hole as Chair &mdash; a first-ever policy framing rather than a restatement of a known one. He is widely expected to have to address inflation directly, two days after the July PCE print. Note the sequencing risk: the market gets the data first and the interpretation second.</div></div>
+<div class="hcard "><div class="hrank">THE DATA THAT SETS UP THE SPEECH</div><div class="htitle">July PCE + Q2 GDP 2nd Estimate</div><div class="hwhen">WED 8/26 &middot; 7:30am CT</div><div class="hwhy">Personal income, personal spending, headline and core PCE, plus the second estimate of Q2 GDP, all released together an hour before the open. Q2 growth is expected around 1.5%, a marked slowdown from the 2.1% recorded in Q1. Core PCE is the number Warsh will be asked about on Friday, so Wednesday's print is what gives his speech its content.</div></div>
+</div>
+
+<div class="card">
+  <div class="ch"><span>The Week, Day by Day</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">All times Central</span></div>
+  <div class="scroll"><div class="grid">
+<div class="day">
+<div class="dname">MON 8/24</div>
+<div class="dnote">TODAY. Quiet by design &mdash; nothing scheduled that moves the index. Use it to build the list and size the week's risk before Wednesday.</div>
+<div class="sec">Earnings</div>
+<div class="eern"><span class="tgrp">AM</span><span class="tick hot">PDD</span><span class="tick">XPEV</span><span class="tick">NSSC</span></div><div class="eern"><span class="tgrp">PM</span><span class="tick">TUYA</span><span class="tick">PICS</span></div>
+</div>
+
+<div class="day">
+<div class="dname">TUE 8/25</div>
+<div class="dnote">Second and last quiet session. A software and retail cluster, but no macro gate.</div>
+<div class="sec">Earnings</div>
+<div class="eern"><span class="tgrp">AM</span><span class="tick hot">DKS</span><span class="tick">VIPS</span></div><div class="eern"><span class="tgrp">PM</span><span class="tick hot">INTU</span><span class="tick hot">ZM</span><span class="tick">BOX</span><span class="tick">NCNO</span><span class="tick">HEI</span><span class="tick">SMTC</span></div><div class="eern"><span class="tick more">+5 more</span></div>
+</div>
+
+<div class="day big">
+<div class="dname">WED 8/26</div>
+<div class="dnote">THE day. Inflation and GDP before the open, NVIDIA after the close, and a heavy software print list in between. Everything else this week is positioning around this session.</div>
+<div class="sec">Economic</div>
+<div class="ev"><span class="evt">7:30am</span><div class="evd"><strong>PCE &amp; Core PCE (Jul)</strong> &mdash; the Fed's preferred inflation gauge, released with personal income and spending</div></div>
+<div class="ev"><span class="evt">7:30am</span><div class="evd"><strong>Q2 GDP, second estimate</strong> &mdash; ~1.5% expected vs 2.1% in Q1</div></div>
+<div class="sec">Earnings</div>
+<div class="eern"><span class="tgrp">PM</span><span class="tick lead">NVDA <span class="tkt">3:20pm</span></span><span class="tick hot">CRM</span><span class="tick hot">CRWD</span><span class="tick hot">SNPS</span><span class="tick">HPQ</span><span class="tick">OKTA</span><span class="tick">VEEV</span><span class="tick">NTNX</span></div><div class="eern"><span class="tick more">+11 more</span></div>
+<div class="sec">Company Events</div>
+<div class="ev"><span class="evt">3:20pm</span><div class="evd"><strong>NVDA</strong> &mdash; CFO written commentary posts with the release, ahead of the 4:00pm call.</div></div>
+<div class="ev"><span class="evt">Watch date</span><div class="evd"><strong>AAPL</strong> &mdash; on its four-year pattern the iPhone event invitation goes out two weeks prior, making 8/26 the likely announcement. Event expected Sept 8 or 9. A watch date, not a confirmed event.</div></div>
+</div>
+
+<div class="day">
+<div class="dname">THU 8/27</div>
+<div class="dnote">The morning after NVIDIA, and Jackson Hole opens. The semi complex reprices on the print while the macro event begins in the background.</div>
+<div class="sec">Economic</div>
+<div class="ev"><span class="evt">7:30am</span><div class="evd">Initial &amp; Continuing Jobless Claims (week ending Aug 22)</div></div>
+<div class="sec">Earnings</div>
+<div class="eern"><span class="tgrp">AM</span><span class="tick hot">DG</span><span class="tick">DLTR</span><span class="tick">BBY</span></div><div class="eern"><span class="tgrp">PM</span><span class="tick lead">MRVL</span><span class="tick hot">ADSK</span><span class="tick hot">WDAY</span><span class="tick hot">AFRM</span><span class="tick">ULTA</span></div><div class="eern"><span class="tick more">+12 more</span></div>
+<div class="sec">Company Events</div>
+<div class="ev"><span class="evt">Opens</span><div class="evd"><strong>Jackson Hole</strong>, Aug 27-29 at Jackson Lake Lodge. Theme: 'Financial Innovation: Implications for Payments and Policy.' Warsh does not speak until Friday.</div></div>
+</div>
+
+<div class="day big">
+<div class="dname">FRI 8/28</div>
+<div class="dnote">Warsh's first keynote as Fed Chair. A new Chair's opening policy framing, delivered two days after the inflation print, with a preliminary payrolls revision the same morning.</div>
+<div class="sec">Economic</div>
+<div class="ev"><span class="evt">Morning</span><div class="evd"><strong>Chair Kevin Warsh keynote, Jackson Hole</strong> &mdash; his first as Chair. The KC Fed posts the agenda shortly before the event; the Chair has historically spoken Friday morning.</div></div>
+<div class="ev"><span class="evt">Morning</span><div class="evd"><strong>Preliminary annual payrolls revision</strong> &mdash; the benchmark revision to prior payroll counts, a third anchor for the week alongside PCE and the symposium.</div></div>
+</div>
+  </div></div>
+</div>
+
+<div class="card">
+  <div class="ch"><span>Catalyst Watch &mdash; from the standing calendar</span><span style="color:var(--tx3);font-weight:600;letter-spacing:0;text-transform:none;">catalysts.json</span></div>
+  <div class="pad">
+<div class="cl"><div class="cld">WED 8/26</div><div class="clt" style="color:var(--gold)">NVDA</div><div class="clb"><strong>Q2 FY2027 earnings.</strong> Results ~3:20pm CT, call 4:00pm CT, CFO written commentary posts immediately with the release. Stored on the standing calendar because the earnings API carries no times. Lands the day before Jackson Hole opens. <span class="pill p">VERIFIED</span></div></div>
+<div class="cl"><div class="cld">WED 8/26</div><div class="clt" style="color:var(--tx3)">AAPL</div><div class="clb"><strong>Watch date, not the event.</strong> Apple has confirmed to retail staff that its iPhone event lands in the first half of September; on its four-year pattern the invitation goes out exactly two weeks prior, making 8/26 the likely announcement date. Event most likely Sept 8 or 9. iPhone 18 Pro, Pro Max and a first foldable expected. <span class="pill">UNVERIFIED</span></div></div>
+<div class="cl"><div class="cld">THU 8/27 &ndash; SAT 8/29</div><div class="clt" style="color:var(--gold)">JACKSON HOLE</div><div class="clb"><strong>Warsh's first keynote as Chair, now confirmed for Friday 8/28.</strong> Two corrections are logged against this entry: the date was briefly recorded as Aug 22 from a newsletter before the KC Fed date held, and the speaker was recorded as Powell before FlowMS issued its own correction on 8/17 naming Warsh. <span class="pill p">VERIFIED</span></div></div>
+<div class="cl"><div class="cld">UNDATED</div><div class="clt" style="color:var(--tx3)">TSLA</div><div class="clb"><strong>New Roadster unveiling</strong>, reported to include a 'flying' stunt. Reported by The Information 8/14; Tesla has announced no date. Deliberately undated &mdash; the announcement is itself the tradeable catalyst. <span class="pill">UNVERIFIED</span></div></div>
+<div class="cl"><div class="cld">UNDATED</div><div class="clt" style="color:var(--tx3)">ANTHROPIC IPO</div><div class="clb"><strong>Market-wide AI catalyst, undated on purpose.</strong> An S-1 filing is itself the tradeable event &mdash; first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing NVDA, AMD, MU, AVGO, CRWV and NBIS. Watch EDGAR, not a rumoured IPO date. <span class="pill">UNVERIFIED</span></div></div>
+<div class="cl"><div class="cld">TUE 9/22</div><div class="clt" style="color:var(--tx3)">QCOM</div><div class="clb"><strong>Snapdragon Summit 2026</strong>, Sept 22-24 in Maui. Qualcomm's biggest platform showcase of the year &mdash; next flagship chipset plus the AI, connectivity and imaging roadmap. Multi-day, so the move can extend across the window. <span class="pill p">VERIFIED</span></div></div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="ch">How to Trade the Shape of This Week</div>
+  <div class="pad" style="font-size:11px;color:var(--tx4);line-height:1.7">
+<p style="margin-bottom:8px;"><strong style="color:var(--tx1)">Wednesday is not one catalyst, it is two with a gap in between.</strong> PCE and GDP at 7:30am CT set the tone for the session; NVDA lands after that same close. A position taken on the morning data is not a position into the earnings print, and treating them as one trade is how a good morning read gets given back at 3:20pm. Decide in advance which of the two you are actually trading.</p>
+<p style="margin-bottom:8px;"><strong style="color:var(--tx1)">The NVDA number that moves it is not on the call.</strong> The CFO's written commentary posts immediately with the 3:20pm release, and it carries the segment detail and the forward guide. The 4:00pm call is where that gets explained, not where it gets revealed. If the plan is to trade the reaction, the decision window opens at the release, not at the call.</p>
+<p style="margin-bottom:8px;"><strong style="color:var(--tx1)">Warsh is an unknown framing, not an unknown number.</strong> With a known Chair, Jackson Hole is a reiteration and the market prices the deviation. With a first-ever keynote there is no baseline framing to deviate from, which widens the distribution of outcomes in both directions. That is the textbook case for realising profit before a scheduled event rather than holding through it, and it is why the sequencing matters: the data comes Wednesday, the interpretation comes Friday.</p>
+<p style="margin-bottom:8px;"><strong style="color:var(--tx1)">Thursday's semis print into a decided tape.</strong> MRVL, and to a lesser degree the rest of the complex, reports the morning after NVDA has already repriced the group. That is a materially different setup from reporting into an open question &mdash; the direction is largely set and the print becomes a confirmation or a divergence, both of which are cleaner to read than a coin flip.</p>
+  </div>
+</div>
+
+<div class="foot">Times are Central. Earnings from the live earnings calendar pulled 2026-08-24 for the 8/24 window, high-market-cap filter; where a report is marked unverified upstream it is presented as tentative. Economic dates from the published week-ahead calendars &mdash; PCE, personal income/spending and the Q2 GDP second estimate are confirmed for Wednesday 8/26 at 7:30am CT, and jobless claims for Thursday. Durable goods and the final Michigan sentiment revision could not be confirmed for this week and are deliberately omitted rather than assumed. Jackson Hole dates from the Kansas City Fed; Warsh's Friday keynote confirmed from the week-ahead coverage. Catalyst Watch entries are the standing calendar in catalysts.json.</div>
