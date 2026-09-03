@@ -1,0 +1,924 @@
+{
+ "title": "Friday, August 28, 2026",
+ "kind": "premarket",
+ "watchlist": {
+  "stamp": "PREMARKET 6:55AM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      299.43,
+      299.81
+     ],
+     [
+      "QQQ",
+      719.31,
+      721.11
+     ],
+     [
+      "SPY",
+      771.1612,
+      771.1
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      316.232,
+      314.58
+     ],
+     [
+      "MSFT",
+      503.83,
+      505.06
+     ],
+     [
+      "NVDA",
+      227.02,
+      227.98
+     ],
+     [
+      "GOOGL",
+      341.5,
+      340.65
+     ],
+     [
+      "AMZN",
+      257.26,
+      256.26
+     ],
+     [
+      "META",
+      572.7166,
+      571.1
+     ],
+     [
+      "TSLA",
+      355.54,
+      354.81
+     ],
+     [
+      "AMD",
+      471.75,
+      476.67
+     ],
+     [
+      "AVGO",
+      372.0,
+      371.54
+     ],
+     [
+      "INTC",
+      90.16,
+      92.09
+     ],
+     [
+      "MU",
+      917.37,
+      935.39
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "IWM",
+    299.43,
+    299.81
+   ],
+   [
+    "CRWD",
+    228.05,
+    227.96
+   ],
+   [
+    "MRVL",
+    221.051,
+    241.45
+   ],
+   [
+    "PYPL",
+    51.83,
+    61.47
+   ]
+  ],
+  "em": {
+   "MU": 6.61,
+   "INTC": 6.52,
+   "NVDA": 6.11,
+   "AMD": 5.7,
+   "TSLA": 4.58,
+   "AVGO": 4.51,
+   "META": 3.7,
+   "AMZN": 3.06,
+   "GOOGL": 2.94,
+   "MSFT": 2.81,
+   "AAPL": 2.57
+  }
+ },
+ "headline": {
+  "title": "<b>Chair Warsh delivers his first Jackson Hole keynote at 9:00am CT</b> &mdash; the first policy framing from a new Fed Chair rather than a restatement of a known one. July core PCE is stuck at <b>3.3%</b> with headline at 3.7%, two Fed officials have already called inflation too hot, and <b>roughly a third of bond traders are pricing a September hike</b>. Warsh has deliberately reduced forward guidance, so anything he says on inflation, productivity, the balance sheet or the conditions for another hike is potentially market-moving. Chicago PMI 8:45am CT, final Michigan sentiment 9:00am. <b>The Nasdaq is the clear laggard</b> into it, futures &minus;0.29% against a Dow fractionally positive, with the 10-year +2bps to <b>4.69%</b>.",
+  "summary": "The tape is genuinely two-sided into it. <b>MRVL is &minus;8.5%</b> despite a record $2.74B quarter and an a raise of <b>both</b> its FY2027 and FY2028 revenue outlooks on strong AI bookings. EPS $0.94 beat $0.93 and revenue rose 37% to $2.739B. The stock is <b>up 184% this year</b> &mdash; that is the whole story. Non-GAAP gross margin guided <b>57.5-58.5% against a 58.5% consensus</b>, and limited new detail on the Google opportunity disappointed. A pure expectations gap. <b>PYPL is &minus;15.7%</b> after a reported <b>$60.50-a-share, ~$53B Advent/Stripe-led approach was rejected by the board</b>, erasing the deal premium built since July. On the other side, ESTC <b>+17.8%</b>, AFRM <b>+13.0%</b> and UMC <b>+10.1%</b> lead. Semis are giving back Thursday&#8217;s rip &mdash; MU &minus;1.9%, INTC &minus;2.1%, SMH &minus;0.9%."
+ },
+ "overview": "Prep&#8217;s header: <b>&ldquo;Jackson Hole and CRWD at EOD, only real focus today.&rdquo;</b> The framing question is <b>&ldquo;for ports to continue to grow: how do you respond every day?&rdquo;</b> with a hard cap of <b>$50-66 max, do not overleverage</b>, and the honest admission that <b>we do not have a clue how the market will react to Jackson Hole</b> &mdash; new speaker, no baseline. The plan is a straddle, sized to lose: <b>place it and expect $0, no guarantees, do not size up or chase.</b> Be in position <b>before 9:00am, at 8:50-8:55am</b>, because the new 6HR candle opens at 9:00 and the break is taken then. If it happens great, if not we move on.",
+ "setups": [
+  [
+   "T1",
+   "y",
+   "IWM",
+   "&minus;0.1%",
+   "Inside week &middot; straddle the break",
+   "Prep: IWM usually reacts more to data and Jackson Hole days. <b>Verified inside week</b> &mdash; this week has traded 297.40 to 300.315, a range of just <b>$2.92</b> across four sessions, entirely inside last week&#8217;s 297.04-304.33. Straddle: <b>$302-304 calls and $295-297 puts</b>, $3-5 OTM. The 297 put sits essentially at this week&#8217;s low and the 302 call $1.69 above its high."
+  ],
+  [
+   "T1",
+   "y",
+   "CRWD",
+   "+0.0%",
+   "Investor day 9/2 &middot; possible CPW at EOD",
+   "Prep&#8217;s second and only other focus. The premarket high of <b>229.75 is a fresh 52-week high</b>. Possible CPW at the end of day, but <b>wait on the JR signal to confirm</b> &mdash; and if no signal comes, the CPW entry moves to next week, closer to the 9/2 event day."
+  ],
+  [
+   "T1",
+   "y",
+   "MRVL",
+   "&minus;8.5%",
+   "Failed 2U &mdash; not a prep name",
+   "Not on the sheet, but it is the session&#8217;s largest single-name move. Beat and raised both FY27 and FY28 and fell 8% anyway on a +184% YTD setup. Below Thursday&#8217;s entire candle premarket."
+  ]
+ ],
+ "prep": {
+  "pill": "FRI 8/28 &middot; RISK $50-66",
+  "lead": "<b>Two things only: Jackson Hole and CRWD at the end of day.</b> Risk is capped at <b>$50-66</b> and the sheet says it plainly &mdash; we do not have a clue how the market reacts to a new speaker, so the straddle is <b>placed expecting $0</b>. No sizing up, no chasing. Be in before 9:00am because the 6HR candle opens then and the break gets taken at 9:00; the bot will take it too. A <b>10% trailing stop</b> goes on once it moves, and <b>IWM hitting the extreme volume scanner is the confirmation of an explosive move</b>. Everything else on this page is context, not a trade.",
+  "cards": [
+   [
+    "IWM",
+    "Inside week &middot; straddle the break",
+    "#ffd54f",
+    "T1",
+    "Prep: IWM usually reacts more to data and Jackson Hole days than the other index ETFs. The plan is a straddle placed <b>before 9:00am, at 8:50-8:55am</b>, because the new 6HR candle opens at 9:00 and the break is taken then. <b>The bot will take the break at 9:00 as well.</b>",
+    "<b>Calls $302-304 &middot; puts $295-297</b>, $3-5 OTM. Premarket $299.43. This week: H <b>300.315</b> &middot; L <b>297.40</b> &mdash; a $2.92 range. Last week 297.04-304.33.",
+    "Verified inside week. The 302 call sits $1.69 above this week&#8217;s high; 304 sits just under last week&#8217;s 304.33.",
+    "The 297 put sits essentially <b>at</b> this week&#8217;s 297.40 low; 295 is below last week&#8217;s 297.04.",
+    "<b>Place it and expect $0. No guarantees. Do not size up or chase.</b> Put a <b>10% trailing stop</b> on once it hits a certain percentage and let it play out. If IWM hits the extreme volume scanner, that is confirmation of an explosive move."
+   ],
+   [
+    "CRWD",
+    "Investor day 9/2 &middot; CPW at EOD",
+    "#3fb950",
+    "T1",
+    "The only single name on the sheet. Net-new ARR $333M vs $286M and a raised FY guide on Wednesday; the premarket high of <b>229.75 is a fresh 52-week high</b>.",
+    "Premarket $228.05, flat on the day. Thursday closed 227.96, already through the 227.62 ATH reference from yesterday&#8217;s sheet.",
+    "Possible <b>CPW at the end of day</b> into the 9/2 investor day.",
+    "<b>Wait on the JR signal to confirm.</b> No signal means the CPW entry moves to next week, closer to the event.",
+    "This is the patient half of the sheet. The event is 9/2 &mdash; today is only about whether the signal shows up before the close."
+   ],
+   [
+    "MRVL",
+    "Failed 2U &middot; not on the sheet",
+    "#f85149",
+    "T2",
+    "EPS $0.94 vs $0.93, revenue +37% to $2.739B, and management raised <b>both</b> FY2027 and FY2028 outlooks on strong AI bookings. It fell 8% anyway.",
+    "Premarket $221.05, &minus;8.5%. Thu O 253.44 &middot; H 254.60 &middot; L 240.38 &middot; close 241.45 on 41.0M shares.",
+    "A reclaim of 240.38 would put it back inside Thursday&#8217;s range.",
+    "It was <b>+184% YTD</b> going in, gross margin guided 57.5-58.5% against 58.5%, and the Google detail was thin.",
+    "Second AI-chip read this week to disappoint expectations rather than numbers. Running 5-10x average options volume."
+   ],
+   [
+    "PYPL",
+    "Deal premium erased &middot; not on the sheet",
+    "#f85149",
+    "T2",
+    "Bloomberg reported Advent and Stripe abandoned the effort after a <b>$60.50-per-share proposal was judged inadequate by the board</b>. It would have been one of the largest leveraged buyouts.",
+    "Premarket $51.83, &minus;15.7%. Thu O 61.98 &middot; H 62.31 &middot; L 61.37 &middot; close 61.47.",
+    "Nothing structural supports it &mdash; this is a repricing, not a setup.",
+    "$9.64 below Thursday&#8217;s close and below every session since the deal talk began in July.",
+    "Thursday was already a failed 2U before the news broke: it took Wednesday&#8217;s 62.06 high and closed near its own low."
+   ],
+   [
+    "AAPL",
+    "Inside day gapping out &middot; not on the sheet",
+    "#3fb950",
+    "T2",
+    "No company catalyst. Thursday sat entirely inside Wednesday, and premarket is above both sessions &mdash; the only Mag 11 name breaking structure while the semis fade.",
+    "Premarket $316.23. Thu 309.40-315.40, inside Wed 308.80-315.43.",
+    "Above both highs before the bell.",
+    "Lowest implied move on the board at 2.57%, so the range here is genuinely tight.",
+    "Worth watching as the defensive-rotation tell if Warsh comes in hawkish at 9:00am."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/24",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [],
+   "earnings": [
+    [
+     "PDD",
+     "AM &middot; &minus;1.5%"
+    ],
+    [
+     "XPEV",
+     "AM &middot; &minus;8.7%"
+    ]
+   ],
+   "events": [
+    [
+     "NVDA",
+     "Close",
+     "&minus;2.9%, seventh straight down session"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 8/25",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "9:00am",
+     "Consumer Confidence"
+    ]
+   ],
+   "earnings": [
+    [
+     "DKS",
+     "AM &middot; &minus;30.6%"
+    ],
+    [
+     "INTU",
+     "PM &middot; guide cut"
+    ]
+   ],
+   "events": [
+    [
+     "NVDA",
+     "Close",
+     "+2.2%, inside day"
+    ]
+   ]
+  },
+  {
+   "day": "WED 8/26",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "7:30am",
+     "Core PCE 3.3% in line &middot; headline 3.7%, hot by a tenth"
+    ]
+   ],
+   "earnings": [
+    [
+     "NVDA",
+     "PM &middot; beat, ~70% FY28 growth guide"
+    ],
+    [
+     "CRM",
+     "PM"
+    ],
+    [
+     "CRWD",
+     "PM"
+    ],
+    [
+     "OKTA",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "",
+     "Close",
+     "index flat &mdash; SPY +0.01%"
+    ]
+   ]
+  },
+  {
+   "day": "THU 8/27",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "7:30am",
+     "Jobless claims 203k vs ~208k est &middot; continuing 1.778M"
+    ]
+   ],
+   "earnings": [
+    [
+     "MRVL",
+     "PM &middot; record qtr, &minus;8.5% now"
+    ],
+    [
+     "WDAY",
+     "PM"
+    ],
+    [
+     "ADSK",
+     "PM"
+    ],
+    [
+     "AFRM",
+     "PM &middot; +13.0%"
+    ],
+    [
+     "ESTC",
+     "PM &middot; +17.8%"
+    ]
+   ],
+   "events": [
+    [
+     "NVDA",
+     "Close",
+     "+6%, tagged 230.47 then closed 227.98"
+    ],
+    [
+     "",
+     "Close",
+     "S&amp;P +0.7%, Nasdaq +1.6% &mdash; ~3/4 of S&amp;P above the 200-day"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 8/28",
+   "tag": "TODAY &middot; WARSH 9:00AM",
+   "accent": "macro",
+   "econ": [
+    [
+     "8:45am",
+     "Chicago PMI"
+    ],
+    [
+     "9:00am",
+     "<b>Chair Warsh Jackson Hole keynote</b> &mdash; his first as Chair"
+    ],
+    [
+     "9:00am",
+     "Final Michigan sentiment"
+    ]
+   ],
+   "earnings": [
+    [
+     "FRO",
+     "AM"
+    ],
+    [
+     "MNSO",
+     "AM"
+    ],
+    [
+     "BBAR",
+     "AM"
+    ],
+    [
+     "CHA",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "NEE",
+     "Ex-div",
+     "also TMUS, BAX, EBAY, PRGO"
+    ],
+    [
+     "IONS",
+     "All day",
+     "biotech conference slate with BBIO, CYTK, ARWR, ALNY"
+    ],
+    [
+     "CRNX",
+     "Meeting",
+     "shareholder vote on the Vertex takeover"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "IWM",
+   "charts/IWM_2026-08-28.png",
+   "Inside week &middot; $2.92 range"
+  ],
+  [
+   "CRWD",
+   "charts/CRWD_2026-08-28.png",
+   "52wk high &middot; 9/2 investor day"
+  ],
+  [
+   "MRVL",
+   "charts/MRVL_2026-08-28.png",
+   "Failed 2U &middot; &minus;8.5%"
+  ],
+  [
+   "PYPL",
+   "charts/PYPL_2026-08-28.png",
+   "Deal collapse &middot; &minus;15.7%"
+  ],
+  [
+   "AAPL",
+   "charts/AAPL_2026-08-28.png",
+   "Inside day gapping out"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET &middot; WARSH 9:00AM CT",
+  "groups": [
+   [
+    "GAPPING UP",
+    [
+     [
+      "ESTC",
+      17.75
+     ],
+     [
+      "AFRM",
+      12.98
+     ],
+     [
+      "UMC",
+      10.12
+     ],
+     [
+      "TTWO",
+      2.5
+     ]
+    ]
+   ],
+   [
+    "GAPPING DOWN",
+    [
+     [
+      "PYPL",
+      -15.68
+     ],
+     [
+      "MRVL",
+      -8.45
+     ],
+     [
+      "IREN",
+      -6.24
+     ],
+     [
+      "ADSK",
+      -3.91
+     ]
+    ]
+   ],
+   [
+    "SEMIS FADING",
+    [
+     [
+      "INTC",
+      -2.1
+     ],
+     [
+      "MU",
+      -1.93
+     ],
+     [
+      "AMD",
+      -1.03
+     ],
+     [
+      "SMH",
+      -0.94
+     ]
+    ]
+   ],
+   [
+    "QUIET BID",
+    [
+     [
+      "AAPL",
+      0.53
+     ],
+     [
+      "AMZN",
+      0.39
+     ],
+     [
+      "META",
+      0.28
+     ],
+     [
+      "GOOGL",
+      0.25
+     ]
+    ]
+   ],
+   [
+    "FED DAY",
+    [
+     [
+      "GLD",
+      -0.31
+     ],
+     [
+      "SPY",
+      0.01
+     ],
+     [
+      "QQQ",
+      -0.25
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "COMPUTED FROM THU CANDLE",
+  "rows": [
+   [
+    "MRVL",
+    "T1",
+    "y",
+    "Failed 2U",
+    "r",
+    "Took Wednesday&#8217;s high to 254.60 then closed 241.45 near its low on 41.0M shares. Premarket is below the whole candle. Beat and raised both FY27 and FY28; margin guide 57.5-58.5% vs 58.5%, and it was +184% YTD.",
+    "pre 221.05 &middot; Thu H 254.60 / L 240.38 / C 241.45",
+    "Reclaim 240.38 to get back inside Thursday.",
+    "Below the entire candle pre-bell."
+   ],
+   [
+    "PYPL",
+    "T1",
+    "y",
+    "Deal collapse",
+    "r",
+    "$60.50/share, ~$53B Advent/Stripe approach rejected. Thursday was already a failed 2U before the news.",
+    "pre 51.83 &middot; Thu H 62.31 / L 61.37 / C 61.47",
+    "No structural support &mdash; this is a repricing.",
+    "$9.64 below Thursday&#8217;s close."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "y",
+    "Inside day resolving up",
+    "g",
+    "Thursday entirely inside Wednesday; premarket above both highs. Lowest implied move on the board at 2.57%.",
+    "pre 316.23 &middot; Thu 309.40-315.40 &middot; Wed H 315.43",
+    "Above both highs before the bell.",
+    "Back under 315.40 and the break has failed."
+   ],
+   [
+    "MU",
+    "T2",
+    "mute",
+    "Outside day &middot; under the mid",
+    "o",
+    "Took both of Wednesday&#8217;s extremes across a $61.82 range and closed mid. Premarket back below the middle.",
+    "pre 917.37 &middot; Thu H 968.71 / L 906.89 / C 935.39",
+    "Reclaim 935.39 for the upper half.",
+    "Widest risk on the board into a Fed event."
+   ],
+   [
+    "META",
+    "T2",
+    "mute",
+    "Inside day",
+    "b",
+    "Inside Wednesday&#8217;s huge settlement-headline range. Uncommitted into the speech.",
+    "pre 572.72 &middot; Thu H 588.39 / L 567.62 / C 571.10",
+    "Through 588.39 resolves up.",
+    "Under 567.62 resolves down."
+   ],
+   [
+    "NVDA",
+    "T2",
+    "mute",
+    "2 Up &middot; tagged 230 and failed",
+    "o",
+    "Thursday ran to <b>230.47</b>, clearing yesterday&#8217;s prep entry of 230 by 47 cents, then closed 227.98 back below it on 298.9M shares &mdash; 2.7x average.",
+    "pre 227.02 &middot; Thu H 230.47 / L 220.90 / C 227.98",
+    "Back over 230.47 and the level is confirmed.",
+    "Cleared the entry by 47 cents and closed under it &mdash; the week&#8217;s recurring pattern."
+   ],
+   [
+    "SMH",
+    "T2",
+    "mute",
+    "2 Up, closed at the high",
+    "o",
+    "Thursday closed 573.00 at its own 573.21 high. Premarket is giving back 0.9% on the MRVL read-through.",
+    "pre 567.63 &middot; Thu H 573.21 / L 562.54 / C 573.00",
+    "Holding 562.54 keeps Thursday intact.",
+    "MRVL &minus;8.5% is the drag on the whole group."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "mute",
+    "2 Up &middot; inside premarket",
+    "b",
+    "Thursday took Wednesday&#8217;s high and closed 721.11 near it. Premarket is back inside the range at 719.31.",
+    "pre 719.31 &middot; Thu H 721.35 / L 714.525 / C 721.11",
+    "Through 721.35 continues the 2 Up.",
+    "Under 714.525 and Thursday fails."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "ESTC",
+    17.75,
+    "Reported after the close and gapped &mdash; the largest mover on the board this morning."
+   ],
+   [
+    "AFRM",
+    12.98,
+    "Reported after the close. Also tagged Outside (3) on Thursday&#8217;s candle with dark pool behind it."
+   ],
+   [
+    "UMC",
+    10.12,
+    "Chip foundry, up on a sales update. Tagged Failed 2D."
+   ],
+   [
+    "TTWO",
+    2.5,
+    "Bullish kicker with dark pool. NFLX hosted its exclusive Grand Theft Auto 6 event yesterday afternoon."
+   ],
+   [
+    "AAPL",
+    0.53,
+    "Inside day resolving up &mdash; above both Thursday&#8217;s and Wednesday&#8217;s highs."
+   ],
+   [
+    "AMZN",
+    0.39,
+    "Quiet bid with the non-AI mega caps."
+   ],
+   [
+    "META",
+    0.28,
+    "Inside day, uncommitted into the speech."
+   ],
+   [
+    "GOOGL",
+    0.25,
+    "Took $500M mixed and $701M ask-side across GOOG/GOOGL Thursday."
+   ],
+   [
+    "TSLA",
+    0.21,
+    "Modest bid."
+   ],
+   [
+    "AVGO",
+    0.12,
+    "The one semi holding green &mdash; took $357M ask-side Thursday."
+   ],
+   [
+    "PANW",
+    0.82,
+    "Rallied ~12% Thursday on the CRWD read-through to ~$383, near its ~$396 52-week high and +112% YTD. Back on the board this morning at 73% calls, ~5x normal."
+   ],
+   [
+    "MRNA",
+    1.3,
+    "FDA approved the 2026-27 formulas of Spikevax and mNEXSPIKE. Also priced an upsized $2.6B convertible senior notes offering, ~$2,562.9M net. Upgraded."
+   ],
+   [
+    "GAP",
+    16.5,
+    "EPS $0.52 beat $0.48 though revenue missed and comps fell 1%. Guided FY27 EPS and revenue above consensus, and named <b>Michael Francis CEO of Old Navy</b> from Nov 2."
+   ],
+   [
+    "QNRX",
+    22.8,
+    "Announced a private placement financing of up to $50.0M."
+   ],
+   [
+    "SOLS",
+    13.8,
+    "ESI and SOLS mutually terminated their merger agreement; SOLS reaffirmed guidance and authorized a $500M buyback."
+   ],
+   [
+    "NABL",
+    10.9,
+    "Boosted its share repurchase authorization by $50M."
+   ],
+   [
+    "LLY",
+    1.0,
+    "Mounjaro won an FDA label expansion for cardiovascular risk reduction in adults with type 2 diabetes."
+   ]
+  ],
+  "bear": [
+   [
+    "PYPL",
+    -15.68,
+    "A reported $60.50-a-share, ~$53B approach from an Advent/Stripe-led group was rejected by the board, erasing the deal premium built since July."
+   ],
+   [
+    "MRVL",
+    -8.45,
+    "EPS $0.94 vs $0.93, revenue +37% to $2.739B, and <b>raised both FY27 and FY28 outlooks</b> on strong AI bookings &mdash; but gross margin guided 57.5-58.5% against a 58.5% consensus and the stock was +184% YTD. Running 5-10x average options volume."
+   ],
+   [
+    "IREN",
+    -6.24,
+    "Reported and sold."
+   ],
+   [
+    "ADSK",
+    -3.91,
+    "Reported after the close and sold."
+   ],
+   [
+    "SNDK",
+    -2.35,
+    "Memory giving back with the group."
+   ],
+   [
+    "INTC",
+    -2.1,
+    "Semis fading Thursday&#8217;s rip."
+   ],
+   [
+    "MU",
+    -1.93,
+    "Back under the midpoint of a true outside day that covered $61.82. Highest implied move on the board."
+   ],
+   [
+    "DELL",
+    -1.74,
+    "Reported Thursday night; giving back."
+   ],
+   [
+    "ULTA",
+    -1.5,
+    "Reported and sold; tagged a bearish kicker with dark pool."
+   ],
+   [
+    "AMD",
+    -1.03,
+    "Two Down Thursday and lower again."
+   ],
+   [
+    "SMH",
+    -0.94,
+    "The whole complex giving back on the MRVL read-through."
+   ],
+   [
+    "WDAY",
+    -0.81,
+    "Reported Thursday night; tagged Failed 2U."
+   ],
+   [
+    "CRM",
+    -0.61,
+    "Easing after closing 252.05 Thursday, well through the 236 level."
+   ],
+   [
+    "OKTA",
+    -0.51,
+    "Easing after closing 172.91, above both the 161 level and the 166 gap fill."
+   ],
+   [
+    "GLD",
+    -0.31,
+    "Gold softer into the speech despite a $94.5M call trade Wednesday."
+   ],
+   [
+    "QQQ",
+    -0.25,
+    "Back inside Thursday&#8217;s range."
+   ],
+   [
+    "MSFT",
+    -0.24,
+    "Took the largest single-name print Thursday at $841M ask-side."
+   ],
+   [
+    "IWM",
+    -0.13,
+    "Small caps flat to lower."
+   ],
+   [
+    "RBRK",
+    -4.5,
+    "Beat on both lines &mdash; EPS $0.20 vs $0.04, revenue $427M vs $396M &mdash; and raised FY ARR to $1.88-1.885B and EPS to $0.50 from $0.30. Sold on non-GAAP gross margin of 81% against 81.7% expected."
+   ],
+   [
+    "ADSK",
+    -3.91,
+    "Beat by $0.18 but guided Q3 EPS <b>below</b> consensus at $3.04-3.09 against $3.14."
+   ],
+   [
+    "S",
+    -3.8,
+    "EPS, revenue and ARR modestly exceeded and FY sales guidance was raised, but EPS guidance was cut to $0.30-0.32 from $0.32-0.38 on a higher share count."
+   ],
+   [
+    "ULTA",
+    -3.0,
+    "Beat by $0.35, beat on revenue, and <b>raised FY27 EPS, revenue and comp guidance</b> &mdash; down 3% anyway."
+   ],
+   [
+    "KZIA",
+    -15.4,
+    "New clinical data for paxalisib; also commenced an ADS offering."
+   ],
+   [
+    "RIVN",
+    -1.6,
+    "CFO Claire McDonough steps down Oct 30; Derek Mulvey expected to serve as interim CFO."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "Thursday&#8217;s board flipped to <b>heavily ask-side</b> on mega-cap tech and semis, the mirror image of Wednesday&#8217;s bid-side stacking. The largest single-name print was <b>MSFT $841M on the ask</b> after hours, and cumulative flow ran <b>NVDA $8.3B ask</b> out front, then SPY $5.0B ask, MU $4.1B ask and MSFT $3.3B ask. On the ETF side <b>VOO $958M on the ask topped the entire board</b> as the single largest print, with IVV $763M ask and short-duration Treasuries <b>VGSH $684M ask</b> behind it &mdash; benchmark and rate money repositioning directly into the Fed&#8217;s main event. <b>Both of the loudest options tickets were calls:</b> an <b>NEE $40C 01/15/27 block at $417.3M</b>, the biggest single options ticket on the board by a wide margin, and an <b>NVDA $200C 01/15/27 sweep at $56.6M</b>. Constructive footprints, but that is two prints, not the whole tape, into a speech nobody has heard before.",
+  "right_note": "THURSDAY 8/27",
+  "dim": false,
+  "chips": [
+   [
+    "MSFT",
+    "$841M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "GOOG",
+    "$701M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$692M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "QCOM",
+    "$513M",
+    "MIXED &middot; AH",
+    "mute"
+   ],
+   [
+    "GOOGL",
+    "$500M",
+    "MIXED &middot; AH",
+    "mute"
+   ],
+   [
+    "STX",
+    "$500M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "PLTR",
+    "$436M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "C",
+    "$420M",
+    "MIXED &middot; AH",
+    "mute"
+   ],
+   [
+    "AVGO",
+    "$357M",
+    "ASK &middot; AH",
+    "g"
+   ],
+   [
+    "BAC",
+    "$354M",
+    "BID &middot; AH",
+    "r"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Friday August twenty eighth, premarket. Chair Warsh delivers his first Jackson Hole keynote at nine a m central. This is a first policy framing from a new Fed Chair rather than a restatement of a known one. July core P C E is stuck at three point three percent with headline at three point seven, two Fed officials have already called inflation too hot, and roughly a third of bond traders are pricing a September hike. Chicago P M I lands at eight forty five and final Michigan sentiment at nine. There is no second event today."
+  },
+  {
+   "label": "Movers",
+   "text": "The tape is genuinely two sided into it. Marvell is down eight and a half percent despite a record two point seven four billion dollar quarter and an above consensus guide. The Street is trading a softer gross margin outlook near fifty eight percent, down about ninety basis points sequentially, plus customer concentration. That is an expectations gap, not a miss. PayPal is down almost sixteen percent after a reported sixty dollars fifty a share, roughly fifty three billion dollar approach from an Advent and Stripe led group was rejected by the board. On the other side Elastic is up almost eighteen, Affirm up thirteen and U M C up ten. Semis are giving back Thursday's rip."
+  },
+  {
+   "label": "Plan",
+   "text": "Morning prep. Jackson Hole and CrowdStrike at end of day, only real focus today. Risk fifty to sixty six dollars max, do not overleverage. The sheet says it plainly. We do not have a clue how the market reacts to Jackson Hole because it is a new speaker with no baseline. So the plan is a straddle on I W M, which usually reacts more to data and Jackson Hole days. Verified inside week. This week has traded two ninety seven forty to three hundred point three one five, a range of just two dollars and ninety two cents across four sessions, entirely inside last week. The straddle is three oh two to three oh four calls and two ninety five to two ninety seven puts, three to five dollars out of the money. Be in position before nine a m, between eight fifty and eight fifty five, because the new six hour candle opens at nine and the break gets taken then. The bot will take it too. Place it and expect zero. No guarantees, do not size up, do not chase. Ten percent trailing stop once it moves. If I W M hits the extreme volume scanner that is confirmation of an explosive move. CrowdStrike is the other half. Investor day September second, possible C P W at end of day, but wait on the J R signal to confirm. No signal means the entry moves to next week closer to the event."
+  }
+ ]
+}
