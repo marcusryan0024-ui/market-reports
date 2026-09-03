@@ -1,0 +1,1212 @@
+{
+ "title": "Tuesday, September 1, 2026",
+ "kind": "premarket",
+ "watchlist": {
+  "stamp": "PREMARKET 8:22AM CT",
+  "em_label": "IMPLIED MOVE &mdash; 9/4 ATM STRADDLE, MON CLOSE MARKS",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      291.83,
+      293.93
+     ],
+     [
+      "QQQ",
+      706.9,
+      716.76
+     ],
+     [
+      "SPY",
+      761.7501,
+      767.05
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      316.46,
+      316.85
+     ],
+     [
+      "MSFT",
+      501.11,
+      507.29
+     ],
+     [
+      "NVDA",
+      216.91,
+      220.78
+     ],
+     [
+      "GOOGL",
+      335.18,
+      339.35
+     ],
+     [
+      "AMZN",
+      255.0,
+      259.77
+     ],
+     [
+      "META",
+      558.215,
+      572.34
+     ],
+     [
+      "TSLA",
+      361.49,
+      367.95
+     ],
+     [
+      "AMD",
+      458.87,
+      470.72
+     ],
+     [
+      "AVGO",
+      363.9,
+      370.34
+     ],
+     [
+      "INTC",
+      86.775,
+      89.51
+     ],
+     [
+      "MU",
+      937.93,
+      958.73
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "CVX",
+    209.7,
+    206.14
+   ],
+   [
+    "XOM",
+    163.7503,
+    160.95
+   ],
+   [
+    "PFE",
+    28.75,
+    28.46
+   ],
+   [
+    "NVS",
+    162.2,
+    152.06
+   ],
+   [
+    "MDT",
+    93.49,
+    90.65
+   ]
+  ],
+  "em": {
+   "AVGO": 8.19,
+   "INTC": 4.98,
+   "MU": 4.59,
+   "AMD": 4.39,
+   "TSLA": 4.12,
+   "META": 3.1,
+   "NVDA": 2.84,
+   "AMZN": 2.52,
+   "GOOGL": 2.31,
+   "MSFT": 2.25,
+   "AAPL": 2.12
+  }
+ },
+ "headline": {
+  "title": "<b>Yields are the story, and they are being pushed from two directions at once.</b> The 10-year hit <b>4.788%</b>, its highest since <b>Jan 14, 2025</b>; the 30-year is 5.279%. Japan's 10-year JGB touched <b>3.00% for the first time since 1996</b> with Bessent publicly pressuring Tokyo to hike, and European 10-years jumped ~10bp. Underneath it, <b>WTI +2.2% to ~$87.63</b> and Brent ~$91.93 after two tankers were struck near the Strait of Hormuz.",
+  "summary": "Higher discount rates plus higher energy input costs is what long-duration growth cannot absorb, and the tape shows it: <b>SMH &minus;2.1%</b>, QQQ &minus;1.4%, <b>INTC &minus;3.1%, AMD &minus;2.5%, META &minus;2.5%</b>. Monday itself was thin and slightly red &mdash; Dow &minus;374 to 53,186, S&amp;P &minus;0.3% to 7,686, Nasdaq &minus;0.1% to 26,370 &mdash; but August still closed green, the Dow's <b>fifth straight winning month at +2.1%</b>, S&amp;P ~+3%, Nasdaq ~+4%. <b>ISM Manufacturing (seen ~55, prior 55.6) and JOLTS (seen ~7.3M) both land at 9:00am CT</b>, and with September <i>hike</i> odds now 57-62%, ISM Prices Paid is the line that matters. Five report tonight &mdash; <b>DELL, PANW, MDB, CRDO and GTLB</b> &mdash; with implied moves of 10.4%, 9.3%, 15.9% and 11.7%."
+ },
+ "overview": "<b>The prep sheet is a patience sheet today, and the tape agrees with it.</b> &ldquo;Be very patient and secure profits before swinging overnight&rdquo; at <b>$50 risk</b>, with <b>Wednesday through Friday flagged as the main days this week</b> &mdash; today is a setup session, not a swing-for-it session. The index plan is mechanical: <b>data at 9:00am, then a 30-minute ORB</b>, which is also the cleanest way to resolve the conflict sitting under the index. SPY and IWM printed real <b>2 Downs</b> Monday and both trade below Monday's low; <b>QQQ is a Failed 2D</b> that premarket is voiding. Against that, Monday's block tape was <b>index accumulation on the bid &mdash; SPY $3.5B and IVV $2.4B cumulative</b>, the two largest lines on the whole board. Block money bought; option money paid for downside via a <b>$2.3M QQQ $715P sweep</b>. The single-name conviction is <b>CVX</b>: a <b>2-2-2 up on the daily</b> with ATH at <b>$214.69</b> overhead, and today's premarket already clears Monday's high to put the third leg in motion.",
+ "setups": [
+  [
+   "T1",
+   "g",
+   "CVX",
+   "+1.7%",
+   "2-2-2 up on the daily &middot; ATH overhead",
+   "The prep sheet's highest-conviction name and the board's cleanest structure. Monday was the <b>second consecutive 2 Up</b> &mdash; H 208.4152 over Friday's 202.24 &mdash; and premarket <b>209.70 already clears it</b>, putting the third leg in motion. <b>ATH sits at $214.69</b>, roughly 2.4% above. Plan is a <b>10-minute ORB and remain patient</b>. Monday's tape had CVX at $307M on the &le;3-print concentrated list."
+  ],
+  [
+   "T1",
+   "g",
+   "PFE",
+   "+1.0%",
+   "3-2 day &middot; triggering up",
+   "Monday was a genuine <b>outside day</b> &mdash; it broke Friday's 28.02 high and 27.77 low, then closed 28.46 near the top. That sets today up as the <b>2</b>, and premarket <b>28.75 is already through Monday's 28.70 high</b>. <b>Trump named PFE at yesterday's press conference</b>, and it made the &le;3-print concentrated list. <b>10-minute ORB, or a post-10:00am trigger on the 6HR 1-3.</b>"
+  ],
+  [
+   "T1",
+   "o",
+   "SPY / QQQ / IWM",
+   "&minus;0.7% / &minus;1.4% / &minus;0.7%",
+   "Data at 9:00am, then a 30-min ORB",
+   "Market is down and all three trade below Monday's low, but the signal is not clean: SPY and IWM are real 2 Downs while <b>QQQ is a Failed 2D being voided</b>, and Monday's block tape bought the index on the bid at <b>SPY $3.5B / IVV $2.4B</b>. <b>JOLTS and ISM land at 9:00am, then take the 30-minute opening range.</b> No pre-positioning ahead of the print."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; TUE 9/1 &middot; $50 RISK",
+  "lead": "&#9888; <b>&ldquo;Be very patient and secure profits before swinging overnight.&rdquo;</b> <b>Wednesday through Friday are the main days this week</b> &mdash; today is a setup session. Price action has been trash; if you have been hesitant, that was the tape, not you. Risk is <b>$50</b>. ETFs trade off a 30-minute ORB after the 9:00am data; single names off a 10-minute ORB.",
+  "cards": [
+   [
+    "CVX",
+    "2-2-2 up on the daily &middot; the conviction name",
+    "g",
+    "T1",
+    "Energy is the only bid on the board. <b>Trump meeting with oil &amp; gas</b> today alongside the 9:00am data, on top of the Hormuz tanker strikes.",
+    "Premarket <b>209.70, +1.7%</b>. Mon H 208.4152 / L 203.8355 &mdash; already cleared. <b>ATH $214.69</b> is the target overhead.",
+    "Monday was the second straight 2 Up; premarket above Monday's high starts the third. <b>10-minute ORB and remain patient.</b>",
+    "Running straight into an all-time high after a two-session run. That is where patience earns its keep &mdash; and where profit gets secured, not held overnight.",
+    "<b>This settles the tag dispute.</b> The FlowMS board calls CVX a Failed 2U; the daily OHLC and the prep sheet both read 2-2-2 up, and the daily is what this board is built on. MPC and BP show the same pattern."
+   ],
+   [
+    "PFE",
+    "3-2 day &middot; Trump named it at the presser",
+    "g",
+    "T1",
+    "<b>Trump mentioned PFE yesterday during the press conference.</b> PFE also made Monday's &le;3-print concentrated-interest list.",
+    "Premarket <b>28.75, +1.0%</b>. Monday broke <i>both</i> of Friday's extremes &mdash; H 28.70 over 28.02, L 27.64 under 27.77 &mdash; a clean <b>outside day (3)</b>, and closed 28.46 near the high.",
+    "That makes today the <b>2</b>. Premarket is already through Monday's <b>28.70</b> high, so the up-leg is triggering. Plan is a <b>10-minute ORB</b>, or wait for a trigger after 10:00am on the <b>1-3 setup on the 6HR</b>.",
+    "A presser mention is a headline catalyst with no follow-through guaranteed. 27.64 is the outside-bar low &mdash; back under it and the 3-2 resolved the other way.",
+    "The outside bar did the work of building the range; the 2 is just direction. Both extremes are known, which is what makes this one of the cleaner risk definitions on the sheet."
+   ],
+   [
+    "ETFs",
+    "Data at 9:00am, then a 30-minute ORB",
+    "o",
+    "T1",
+    "<b>JOLTS (~7.3M) and ISM Manufacturing (~55, prior 55.6) at 9:00am CT.</b> With September hike odds 57-62%, ISM Prices Paid is the line that matters.",
+    "SPY pre <b>761.85</b> &middot; Mon L 764.715, broken. QQQ 706.92 &middot; Mon L 713.16, broken. IWM 291.91 &middot; Mon L 292.705, broken.",
+    "<b>Market is down</b> and all three are below Monday's low. But SPY and IWM are real 2 Downs while <b>QQQ is a Failed 2D premarket is voiding</b> &mdash; not the same trade.",
+    "Monday's block tape bought this exact thing: <b>SPY $3.5B and IVV $2.4B cumulative bid</b>, the two biggest lines on the whole board. Option money took the other side with a $2.3M QQQ $715P sweep.",
+    "<b>The 30-minute ORB is the right mechanic precisely because the signal is split.</b> Let the data print and the range build, then trade the break. No pre-positioning."
+   ],
+   [
+    "NVS",
+    "Bullish kicker &middot; buy time, not the gap",
+    "g",
+    "T2",
+    "Remibrutinib met the primary endpoint in <b>two Phase III relapsing MS trials</b>. Conferences <b>this week 9/3 and next week 9/8</b>.",
+    "Premarket <b>162.20, +6.7%</b>. Monday closed 152.06 near its low (H 152.74 / L 151.685) &mdash; the gap above the whole range is the kicker.",
+    "<b>3 bar on the 6HR, so be patient trading into resistance.</b> 10-minute ORB, keep on watch.",
+    "A 6.7% gap means the easy part already happened. Chasing it is paying for someone else's overnight.",
+    "<b>Buying time could be helpful here</b> &mdash; two dated conferences ahead give the thesis a runway that a same-day contract does not."
+   ],
+   [
+    "MDT",
+    "Bullish kicker, but the lower timeframes say no trade",
+    "y",
+    "T2",
+    "Beat by $0.06 and on revenue; <b>FY27 organic revenue guidance raised to 7.25-7.75%</b>. Organic growth 13.7%.",
+    "Premarket <b>93.49, +3.1%</b>. Daily was an inside day expanding up; <b>6HR and 2HR are still inside</b>. Calls at $96.05, setup <b>2-1-2</b>.",
+    "<b>Inside on 6HR/2HR = no trade. Wait until after 9:00am.</b> The only way this gets traded is if there is real flow at the open.",
+    "An extra selling week added roughly seven points of reported growth, which flatters the headline acceleration.",
+    "<b>Correcting my own earlier build:</b> I had this at T1 on the daily expansion alone. The lower timeframes are still coiled and the prep sheet is right to gate it on flow. Demoted."
+   ],
+   [
+    "NIO",
+    "Cheap contracts, but into resistance",
+    "b",
+    "T2",
+    "Reported this morning. Contracts are <b>super cheap at the money</b> on a $4 stock, which is the whole appeal.",
+    "Premarket <b>4.16, &minus;1.7%</b>. Monday H 4.41 / L 4.23 broke <i>both</i> of Friday's extremes &mdash; an <b>outside day</b> on the daily, which the FlowMS board also tags as Outside (3).",
+    "<b>F2D on the 6HR, but close to resistance.</b> That is the problem &mdash; the reversal signal has no room in front of it.",
+    "On watch, not excited. Cheap premium is a reason to size small, not a reason to take the trade.",
+    "Note the daily candle is an outside bar rather than a plain 2 Down &mdash; both extremes went. It closed at the low, which is why it reads as a down day."
+   ],
+   [
+    "MDB / CRDO / DELL / PANW / GTLB",
+    "Five prints tonight &mdash; and the week's real days start tomorrow",
+    "y",
+    "T2",
+    "All five report after the close. Implied off the 9/4 straddle: <b>MDB 15.9%, CRDO 11.7%, DELL 10.4%, PANW 9.3%</b>. AVGO, the marquee AI print, follows Wednesday.",
+    "<b>DELL and MDB both printed inside days Monday</b> &mdash; coiled straight into their own catalyst. CRDO was a 2 Down and is extending.",
+    "<b>INTC</b> is the second-order name: 19% of revenue from Dell, premarket &minus;3.1% at 86.78 before DELL has reported.",
+    "A 15.9% implied on MDB means full freight for the event. And the prep sheet's own warning applies &mdash; secure profits, do not swing these overnight.",
+    "<b>This is what makes Wednesday through Friday the main days.</b> Tonight's five, AVGO Wednesday, then payrolls Friday. Today is positioning for that, not the event itself."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/1",
+   "tag": "TODAY &middot; ISM + FIVE PRINTS",
+   "accent": "macro",
+   "econ": [
+    [
+     "8:45am",
+     "S&amp;P Global U.S. Manufacturing PMI &mdash; final"
+    ],
+    [
+     "9:00am",
+     "<b>ISM Manufacturing (Aug)</b> &mdash; seen ~55, prior 55.6. Prices Paid is the line that matters"
+    ],
+    [
+     "9:00am",
+     "JOLTS Job Openings (Jul) &mdash; seen ~7.3M"
+    ]
+   ],
+   "earnings": [
+    [
+     "MDT",
+     "AM &middot; beat, raised"
+    ],
+    [
+     "MDB",
+     "PM &middot; 15.9% implied"
+    ],
+    [
+     "CRDO",
+     "PM &middot; 11.7%"
+    ],
+    [
+     "DELL",
+     "PM &middot; 10.4%"
+    ],
+    [
+     "PANW",
+     "PM &middot; 9.3%"
+    ],
+    [
+     "GTLB",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "AAPL",
+     "Effective",
+     "John Ternus replaces Tim Cook &mdash; first CEO change since 2011"
+    ],
+    [
+     "Trump",
+     "Today",
+     "Meeting with oil &amp; gas executives &mdash; direct read-through to the energy complex"
+    ],
+    [
+     "G20",
+     "2-day",
+     "Tech forum, Chapel Hill &mdash; Huang, Musk and Altman"
+    ],
+    [
+     "CRM",
+     "Today",
+     "Q2 FY27 Product Adoption &amp; Momentum webinar &mdash; 3.5% implied"
+    ],
+    [
+     "CRWD",
+     "Final day",
+     "Fal.Con 2026 closes; investor briefing follows Wednesday"
+    ],
+    [
+     "House",
+     "Today",
+     "Vote to extend government funding from Sept 30 to Dec 11"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "AVGO &mdash; MARQUEE AI PRINT",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:15am",
+     "ADP National Employment (Aug)"
+    ]
+   ],
+   "earnings": [
+    [
+     "AVGO",
+     "PM &middot; 8.2% implied"
+    ],
+    [
+     "SNOW",
+     "PM"
+    ],
+    [
+     "HPE",
+     "PM"
+    ],
+    [
+     "FIVE",
+     "PM"
+    ],
+    [
+     "NTAP",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "COST",
+     "3:15pm",
+     "August sales, after the close"
+    ],
+    [
+     "CRWD",
+     "TBA",
+     "Investor briefing inside Fal.Con"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "CYBERCAB",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "Jobless Claims"
+    ],
+    [
+     "7:30am",
+     "Fed Governor Waller &mdash; Reuters NEXT"
+    ],
+    [
+     "9:00am",
+     "ISM Services (Aug)"
+    ]
+   ],
+   "earnings": [
+    [
+     "LULU",
+     "PM"
+    ],
+    [
+     "ZS",
+     "PM"
+    ],
+    [
+     "DOCU",
+     "PM"
+    ],
+    [
+     "CIEN",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "TSLA",
+     "TBA",
+     "Cybercab launch, Austin &mdash; invite-only, livestreamed"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS &middot; HIKE DEBATE",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August Employment Report</b> &mdash; consensus ~+25k, unemployment near 4.1%, after July shed ~23k jobs. Last labor read before a September FOMC pricing a live hike, so a weak print collides directly with Warsh's inflation focus"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "",
+     "Next Mon",
+     "Labor Day, Sept 7 &mdash; markets closed"
+    ]
+   ]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [
+    [
+     "&mdash;",
+     "Labor Day &mdash; U.S. markets closed"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "",
+     "Tue 9/8",
+     "Shortened week resumes into a fresh CPI cycle ahead of the September FOMC"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "CVX",
+   "charts/CVX_2026-09-01.png",
+   "2-2-2 up &middot; ATH 214.69 overhead"
+  ],
+  [
+   "QQQ",
+   "charts/QQQ_2026-09-01.png",
+   "Failed 2D &middot; premarket voiding it"
+  ],
+  [
+   "NVS",
+   "charts/NVS_2026-09-01.png",
+   "Bullish kicker &middot; +6.7%"
+  ],
+  [
+   "MDT",
+   "charts/MDT_2026-09-01.png",
+   "Daily expands, 6HR/2HR still inside"
+  ],
+  [
+   "PFE",
+   "charts/PFE_2026-09-01.png",
+   "3-2 &middot; through Monday's 28.70 high"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:22AM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; HORMUZ",
+    [
+     [
+      "USO",
+      2.6
+     ],
+     [
+      "BP",
+      1.94
+     ],
+     [
+      "DVN",
+      1.94
+     ],
+     [
+      "MPC",
+      1.82
+     ],
+     [
+      "XOM",
+      1.76
+     ],
+     [
+      "CVX",
+      1.67
+     ],
+     [
+      "COP",
+      1.67
+     ],
+     [
+      "OXY",
+      1.56
+     ],
+     [
+      "XLE",
+      1.31
+     ],
+     [
+      "SLB",
+      1.3
+     ]
+    ]
+   ],
+   [
+    "INDEX &mdash; DP BOUGHT IT",
+    [
+     [
+      "QQQ",
+      -1.38
+     ],
+     [
+      "SPY",
+      -0.69
+     ],
+     [
+      "IWM",
+      -0.71
+     ],
+     [
+      "IVV",
+      -0.7
+     ],
+     [
+      "VOO",
+      -0.58
+     ]
+    ]
+   ],
+   [
+    "SEMIS &mdash; YIELD HIT",
+    [
+     [
+      "INTC",
+      -3.06
+     ],
+     [
+      "SMTC",
+      -4.77
+     ],
+     [
+      "ALAB",
+      -3.02
+     ],
+     [
+      "AMD",
+      -2.52
+     ],
+     [
+      "QCOM",
+      -2.34
+     ],
+     [
+      "MU",
+      -2.17
+     ],
+     [
+      "SMH",
+      -2.05
+     ],
+     [
+      "NVDA",
+      -1.75
+     ],
+     [
+      "AVGO",
+      -1.74
+     ]
+    ]
+   ],
+   [
+    "AI INFRA UNWIND",
+    [
+     [
+      "CRWV",
+      -3.43
+     ],
+     [
+      "NBIS",
+      -3.15
+     ],
+     [
+      "SNDK",
+      -2.82
+     ],
+     [
+      "NOW",
+      -2.49
+     ],
+     [
+      "PLTR",
+      -2.23
+     ]
+    ]
+   ],
+   [
+    "REPORTS TONIGHT",
+    [
+     [
+      "CRDO",
+      -2.21
+     ],
+     [
+      "MDB",
+      -1.97
+     ],
+     [
+      "PANW",
+      -1.72
+     ],
+     [
+      "GTLB",
+      -3.22
+     ],
+     [
+      "DELL",
+      -0.63
+     ]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     [
+      "AAPL",
+      -0.12
+     ],
+     [
+      "MSFT",
+      -1.22
+     ],
+     [
+      "GOOGL",
+      -1.23
+     ],
+     [
+      "TSLA",
+      -1.76
+     ],
+     [
+      "AMZN",
+      -1.84
+     ],
+     [
+      "META",
+      -2.47
+     ]
+    ]
+   ],
+   [
+    "GREEN ON THE BOARD",
+    [
+     [
+      "DUOL",
+      6.63
+     ],
+     [
+      "NVS",
+      5.58
+     ],
+     [
+      "HALO",
+      3.0
+     ],
+     [
+      "HUM",
+      2.96
+     ],
+     [
+      "UMC",
+      2.72
+     ],
+     [
+      "MDT",
+      2.7
+     ],
+     [
+      "TEM",
+      2.22
+     ],
+     [
+      "HOOD",
+      1.63
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 8/31 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "CVX",
+    "T1",
+    "g",
+    "2 Up &rarr; 2-2-2 &#128293;",
+    "g",
+    "Second straight 2 Up Monday &mdash; H 208.4152 over Friday's 202.24. Premarket 209.70 clears it and starts the third leg. <b>ATH $214.69</b> overhead.",
+    "pre 209.70 &middot; Mon H 208.4152 / L 203.8355",
+    "$307M and on the &le;3-print concentrated list.",
+    "FlowMS tags this Failed 2U; the daily OHLC says 2 Up."
+   ],
+   [
+    "PFE",
+    "T1",
+    "g",
+    "3-2 &mdash; outside then 2 &#128293;",
+    "g",
+    "Monday broke both of Friday's extremes (H 28.70 / L 27.64) and closed 28.46 near the high. Today is the 2, and premarket already clears 28.70.",
+    "pre 28.75 &middot; Mon H 28.70 / L 27.64",
+    "Trump named it at the presser; on the &le;3-print list.",
+    "27.64 flips it &mdash; the outside bar defines both sides."
+   ],
+   [
+    "QQQ",
+    "T1",
+    "o",
+    "Failed 2D &mdash; being voided",
+    "o",
+    "<b>Not a 2 Down.</b> It broke Friday's 715.085 low to 713.16 and closed 716.76 back above it. Premarket 706.90 is below the whole thing, which unwinds the reversal.",
+    "pre 706.90 &middot; Mon H 717.58 / L 713.16",
+    "QQQ took $358M bid-side Monday; the largest index option ticket was a $2.3M $715P sweep.",
+    "Block tape bid, options tape short. Pick a side after 30 minutes."
+   ],
+   [
+    "SPY",
+    "T1",
+    "r",
+    "2 Down &rarr; 2-2",
+    "r",
+    "A real 2 Down &mdash; Monday's entire range sat below Friday's 768.31 low. Premarket 761.75 is under Monday's 764.715.",
+    "pre 761.75 &middot; Mon H 767.995 / L 764.715",
+    "IWM printed the identical shape and is also below.",
+    "<b>But SPY drew $3.5B cumulative bid</b> &mdash; the biggest line on the board."
+   ],
+   [
+    "NVS",
+    "T2",
+    "g",
+    "Bullish kicker &#128293;",
+    "g",
+    "Monday closed 152.06 near its low; premarket gaps clear above the whole range. Phase III MS data is the catalyst.",
+    "pre 162.20 &middot; <b>+6.7%</b> &middot; Mon H 152.74 / L 151.685",
+    "3 bar on the 6HR &mdash; patient into resistance.",
+    "Conferences 9/3 and 9/8; buying time helps."
+   ],
+   [
+    "MDT",
+    "T2",
+    "g",
+    "Kicker &middot; 6HR/2HR still inside",
+    "y",
+    "Daily expanded out of the inside day on the beat and the FY27 raise, but <b>6HR and 2HR are still inside</b>. Calls at $96.05, setup 2-1-2.",
+    "pre 93.49 &middot; <b>+3.1%</b> &middot; Mon H 91.12 / L 90.04",
+    "No trade until after 9:00am.",
+    "Only tradeable if there is flow at the open."
+   ],
+   [
+    "NIO",
+    "T2",
+    "b",
+    "Outside day &middot; F2D on 6HR",
+    "b",
+    "Monday broke both of Friday's extremes &mdash; H 4.41 over 4.39, L 4.23 under 4.31. FlowMS tags it Outside (3) too. Closed at the low.",
+    "pre 4.16 &middot; &minus;1.7% &middot; Mon H 4.41 / L 4.23",
+    "ATM contracts are very cheap.",
+    "F2D on the 6HR but sitting close to resistance."
+   ],
+   [
+    "NVDA",
+    "T2",
+    "r",
+    "Failed 2D &middot; at the line &#128293;",
+    "r",
+    "Broke Friday's 216.81 low to 216.21 Monday and closed 220.78 back above. Premarket 216.91 is sitting right on the reference.",
+    "pre 216.91 &middot; Mon H 221.30 / L 216.21",
+    "$500M ask AH, plus a $1.6M $175P 11/20 sweep &mdash; the largest single-name sweep on either board.",
+    "216.21 decides it in the first minutes."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "DUOL",
+    6.63,
+    "Evercore ISI upgraded to Outperform from In Line on strong survey data. Biggest premarket gainer on the board."
+   ],
+   [
+    "NVS",
+    5.58,
+    "Remibrutinib met the primary endpoint in <b>two Phase III relapsing MS trials</b>, significantly cutting relapse rates. Offsets the recently paused autoimmune programs."
+   ],
+   [
+    "HALO",
+    3.0,
+    "Outside day Monday on the FlowMS board, and on the &le;3-print concentrated-interest list."
+   ],
+   [
+    "PFE",
+    1.02,
+    "<b>Outside day Monday, closed near the high &mdash; today is the 2.</b> Trump named it at yesterday's press conference, and it made the &le;3-print concentrated-interest list."
+   ],
+   [
+    "HUM",
+    2.96,
+    "<b>$24.8M dark pool print on a ~$21B cap</b> &mdash; the only name on the Outsized board. Bullish kicker, and gapping above Monday's whole 2 Down range."
+   ],
+   [
+    "UMC",
+    2.72,
+    "Bullish kicker with dark pool. Green in a semi group that is otherwise down 2%."
+   ],
+   [
+    "MDT",
+    2.7,
+    "Beat by $0.06 and on revenue, raised FY27 organic revenue guidance to 7.25-7.75%. <b>Expanding out of Monday's inside day.</b>"
+   ],
+   [
+    "USO",
+    2.6,
+    "WTI +2.2% to ~$87.63, Brent ~$91.93 after two tankers were struck near Hormuz. Above Monday's high."
+   ],
+   [
+    "TEM",
+    2.22,
+    "Upgraded this morning."
+   ],
+   [
+    "DVN",
+    1.94,
+    "Energy complex bid on the same Hormuz premium."
+   ],
+   [
+    "BP",
+    1.94,
+    "On the FlowMS movers board with dark pool behind it."
+   ],
+   [
+    "MPC",
+    1.82,
+    "Refiner bid with crude."
+   ],
+   [
+    "XOM",
+    1.76,
+    "<b>2 Up Monday, above Monday's 161.59 high premarket.</b> Third session on the same headline."
+   ],
+   [
+    "CVX",
+    1.67,
+    "<b>$307M mixed and on the &le;3-print concentrated list</b> &mdash; a few large tickets rather than a drip."
+   ],
+   [
+    "COP",
+    1.67,
+    "Inside the same energy bid."
+   ],
+   [
+    "HOOD",
+    1.63,
+    "Morgan Stanley to Overweight. <b>Failed 2D already printed on Monday's candle</b> &mdash; this is confirmation, not setup."
+   ],
+   [
+    "OXY",
+    1.56,
+    "Advanced with the group; XLE +1.3%."
+   ],
+   [
+    "SLB",
+    1.3,
+    "2 Up Monday after a +4.87% session."
+   ],
+   [
+    "SRE",
+    0.98,
+    "First green print in the California utility group after three sessions down."
+   ],
+   [
+    "EIX",
+    0.42,
+    "Stabilising after &minus;23.08% Monday."
+   ],
+   [
+    "PCG",
+    0.14,
+    "Flat after three straight down sessions and 154.0M shares Monday. First hint of a real range."
+   ]
+  ],
+  "bear": [
+   [
+    "SMTC",
+    -4.77,
+    "Failed 2D on the FlowMS board and the worst semi on the tape."
+   ],
+   [
+    "CRCL",
+    -3.95,
+    "Outside day Monday, now extending down."
+   ],
+   [
+    "CRWV",
+    -3.43,
+    "Failed 2D with a clustering tag. The AI-infrastructure complex is taking the rate hit hardest."
+   ],
+   [
+    "GTLB",
+    -3.22,
+    "Gives back Monday's +3.68% and reports tonight."
+   ],
+   [
+    "MSTR",
+    -3.31,
+    "Bitcoin &minus;1.2% to $78,315. Failed 2D Monday, bearish kicker with DP."
+   ],
+   [
+    "NBIS",
+    -3.15,
+    "Same AI-infrastructure unwind."
+   ],
+   [
+    "INTC",
+    -3.06,
+    "Weakest Mag 11 name. <b>Takes 19% of revenue from Dell</b>, which reports tonight with a 10.4% implied &mdash; the second-order risk is being priced ahead of the print."
+   ],
+   [
+    "ALAB",
+    -3.02,
+    "Inside day Monday, breaking down out of the coil."
+   ],
+   [
+    "SNDK",
+    -2.82,
+    "<b>$2.8B cumulative ask-side Monday, second-biggest line on the whole board</b>, plus a ~$500M single print. A lot of ask-side size stacking into one memory name, and it is down this morning."
+   ],
+   [
+    "AMD",
+    -2.52,
+    "Failed 2D with clustering Monday &mdash; and premarket is voiding it. SMH &minus;2.1%."
+   ],
+   [
+    "NOW",
+    -2.49,
+    "Failed 2D Monday, bearish kicker with DP."
+   ],
+   [
+    "META",
+    -2.47,
+    "Weakest mega cap. 9/4 straddle implies 3.1%."
+   ],
+   [
+    "QCOM",
+    -2.34,
+    "$245M mixed AH. Bearish kicker with dark pool."
+   ],
+   [
+    "PLTR",
+    -2.23,
+    "Failed 2D Monday, now giving it back."
+   ],
+   [
+    "CRDO",
+    -2.21,
+    "2 Down Monday, extending into tonight's print. 11.7% implied."
+   ],
+   [
+    "MU",
+    -2.17,
+    "Semis leading the yield-driven retreat. 9/4 straddle implies 4.6%."
+   ],
+   [
+    "MDB",
+    -1.97,
+    "Inside day Monday into tonight's report. <b>15.9% implied</b>, the largest on the board."
+   ],
+   [
+    "AMZN",
+    -1.84,
+    "The <b>FTC and 22 states</b> filed suit alleging deceptive practices inflated prices in its search-advertising auctions, extracting tens of billions from advertisers."
+   ],
+   [
+    "TSLA",
+    -1.76,
+    "Gives back part of Monday's +5.50%. Musk speaks at the G20 tech forum today; Cybercab launches Thursday."
+   ],
+   [
+    "NVDA",
+    -1.75,
+    "<b>Failed 2D being retested at the tick &mdash; 216.21.</b> $500M ask AH and a $1.6M $175P 11/20 sweep against it."
+   ],
+   [
+    "AVGO",
+    -1.74,
+    "Inside day Monday, breaking below the coil. Reports Wednesday, <b>8.2% implied</b>, still the highest in the Mag 11."
+   ],
+   [
+    "PANW",
+    -1.72,
+    "Gives back Monday's +2.84% ahead of its own print tonight. 9.3% implied."
+   ],
+   [
+    "QQQ",
+    -1.38,
+    "<b>Failed 2D on Monday's candle, and premarket is voiding it.</b> A $2.3M $715P sweep was the largest index option ticket."
+   ],
+   [
+    "GOOGL",
+    -1.23,
+    "Biggest single-name print on Monday's tape: <b>$774M bid-side AH</b>, with GOOG adding another $500M bid. The flow was bid and the stock is down."
+   ],
+   [
+    "MSFT",
+    -1.22,
+    "Inside day Monday, breaking below the coil. $500M mixed AH."
+   ],
+   [
+    "VEEV",
+    -0.94,
+    "Gives a little back after closing <b>+3.25%</b> Monday on the Outsized flag &mdash; the look-back that flagged the filter working."
+   ],
+   [
+    "DELL",
+    -0.63,
+    "Inside day into tonight's print. 10.4% implied."
+   ],
+   [
+    "SWKS",
+    -0.22,
+    "<b>$275M mixed AH</b> &mdash; the odd name out on Monday's single-name list. An Apple RF supplier that rarely prints this size, so worth watching whether the interest sticks."
+   ],
+   [
+    "AAPL",
+    -0.12,
+    "Effectively flat &mdash; least-damaged Mag 11 name. <b>John Ternus takes over as CEO today</b>, the first change since 2011. $257M mixed AH."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Monday's block tape bought the index while the tape closed red, and that is the day's central conflict.</b> The two largest lines on the entire board were <b>SPY $3.5B and IVV $2.4B cumulative, both bid</b>, and the single biggest print on the tape was <b>IVV $1.3B bid AH</b>, with SPY $1.2B, SPYM $1.0B and QQQ $358M behind it &mdash; index money crossing in size into the close even as futures pointed lower. The loudest single name went the other way: <b>SNDK $2.8B cumulative ask</b>, second on the whole board, plus a ~$500M print of its own. Ex-ETF the biggest single print was <b>GOOGL $774M bid</b> (with GOOG adding $500M bid) and it is down 1.2% this morning. <b>Options money took the short side:</b> the largest index ticket was a <b>$2.3M QQQ $715P sweep</b> and the largest single-name sweep a <b>$1.6M NVDA $175P 11/20/26</b> &mdash; long-dated downside that reads as a hedge as easily as a bet. The largest block on either board was <b>GS $800C 09/18/26 at $54.6M</b>, a crossed floor ticket. Bid-side index ETFs against ask-side single names is a lean, not a verdict.",
+  "right_note": "MONDAY 8/31 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   [
+    "SPY",
+    "$3.5B",
+    "cumulative BID &middot; #1 board",
+    "g"
+   ],
+   [
+    "SNDK",
+    "$2.8B",
+    "cumulative ask &middot; #2 board",
+    "r"
+   ],
+   [
+    "IVV",
+    "$2.4B",
+    "cumulative BID",
+    "g"
+   ],
+   [
+    "IVV",
+    "$1.3B",
+    "biggest single print, bid AH",
+    "g"
+   ],
+   [
+    "SPY",
+    "$1.2B",
+    "bid AH",
+    "g"
+   ],
+   [
+    "SPYM",
+    "$1.0B",
+    "bid AH",
+    "g"
+   ],
+   [
+    "GOOGL",
+    "$774M",
+    "biggest single name, bid AH",
+    "g"
+   ],
+   [
+    "ITOT",
+    "$713M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "SNDK",
+    "$501M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "MSFT",
+    "$500M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "GOOG",
+    "$500M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$500M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "QQQ",
+    "$358M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "CRM",
+    "$329M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "CVX",
+    "$307M",
+    "mixed &middot; &le;3 prints",
+    "y"
+   ],
+   [
+    "SWKS",
+    "$275M",
+    "mixed &middot; odd name out",
+    "y"
+   ],
+   [
+    "AAPL",
+    "$257M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "QCOM",
+    "$245M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "GS",
+    "$54.6M block",
+    "$800C 11/20 &middot; largest ticket",
+    "b"
+   ],
+   [
+    "QQQ",
+    "$2.3M sweep",
+    "$715P &middot; largest index",
+    "r"
+   ],
+   [
+    "NVDA",
+    "$1.6M sweep",
+    "$175P 11/20 &middot; largest name",
+    "r"
+   ],
+   [
+    "HUM",
+    "$24.8M",
+    "outsized for ~$21B cap",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Tuesday September first, premarket. Yields are the story and they are being pushed from two directions at once. The ten year hit four point seven eight eight percent, its highest since January fourteenth, twenty twenty five. The thirty year is at five point two eight. Japan's ten year J G B touched three percent for the first time since nineteen ninety six, with Treasury Secretary Bessent publicly pressuring Tokyo to hike, and European ten years jumped about ten basis points. Underneath it, W T I is up two point two percent to about eighty seven sixty and Brent near ninety two after two tankers were struck near the Strait of Hormuz. Monday itself was thin and slightly red, but August still closed green, the Dow's fifth straight winning month."
+  },
+  {
+   "label": "Movers",
+   "text": "Higher discount rates plus higher energy costs is what long duration growth cannot absorb, and the tape shows it. Semis are down about two percent as a group. Intel down three, A M D down two and a half, Meta down two and a half, Nasdaq futures down one point four. The A I infrastructure names are worse. CoreWeave down three point four, Nebius down three point two, Sandisk down two point eight. I S M Manufacturing, seen near fifty five against a prior fifty five point six, and JOLTS, seen around seven point three million, both land at nine a m Central. With September hike odds now fifty seven to sixty two percent, I S M Prices Paid is the line that matters. Five report tonight. Dell, Palo Alto, MongoDB, Credo and GitLab, with implied moves of ten point four, nine point three, fifteen point nine and eleven point seven percent."
+  },
+  {
+   "label": "Plan",
+   "text": "The prep sheet is a patience sheet today and the tape agrees with it. Be very patient and secure profits before swinging overnight, at fifty dollars risk, with Wednesday through Friday flagged as the main days this week. Today is a setup session. The index plan is mechanical. JOLTS and I S M at nine a m Central, then a thirty minute opening range breakout. That is also the right way to handle the conflict under the index. S P Y and Russell printed real two downs Monday and both are below Monday's low, but Q Q Q is a failed two down that premarket is voiding, and Monday's block tape bought the index on the bid at S P Y three and a half billion and I V V two point four billion, the two largest lines on the whole board. Option money took the other side with a two point three million dollar Q Q Q seven fifteen put sweep. Pfizer is the other tier one. Monday was a genuine outside day, breaking both of Friday's extremes and closing near the high, which makes today the two, and premarket already clears Monday's twenty eight seventy high. Trump named Pfizer at yesterday's press conference and it made the three print concentrated list. Ten minute opening range, or wait for a trigger after ten a m on the six hour one three. The other conviction name is Chevron. Two two two up on the daily, all time high at two fourteen sixty nine overhead, and premarket already clears Monday's high to start the third leg. Ten minute opening range and remain patient. Tier two is Novartis on a bullish kicker after Phase three M S data, three bar on the six hour so be patient into resistance, with conferences on the third and the eighth meaning buying time helps. Medtronic is a kicker but the six hour and two hour are still inside, so no trade until after nine a m and only if there is flow at the open. And N I O has very cheap at the money contracts but printed an outside day and its six hour failed two down sits close to resistance. On watch, not excited."
+  }
+ ]
+}
