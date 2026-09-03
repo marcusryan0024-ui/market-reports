@@ -1,0 +1,1236 @@
+{
+ "title": "Wednesday, September 2, 2026",
+ "kind": "premarket",
+ "watchlist": {
+  "stamp": "PREMARKET 8:04AM CT",
+  "em_label": "IMPLIED MOVE &mdash; 9/4 ATM STRADDLE, TUE CLOSE MARKS",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      290.94,
+      290.57
+     ],
+     [
+      "QQQ",
+      706.81,
+      707.64
+     ],
+     [
+      "SPY",
+      762.065,
+      761.78
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      326.51,
+      325.13
+     ],
+     [
+      "MSFT",
+      499.2881,
+      501.02
+     ],
+     [
+      "NVDA",
+      217.89,
+      217.44
+     ],
+     [
+      "GOOGL",
+      336.1314,
+      335.02
+     ],
+     [
+      "AMZN",
+      254.68,
+      254.92
+     ],
+     [
+      "META",
+      577.4,
+      578.54
+     ],
+     [
+      "TSLA",
+      357.54,
+      356.09
+     ],
+     [
+      "AMD",
+      456.7109,
+      459.61
+     ],
+     [
+      "AVGO",
+      369.8898,
+      369.68
+     ],
+     [
+      "INTC",
+      88.36,
+      88.97
+     ],
+     [
+      "MU",
+      929.64,
+      933.44
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "DELL",
+    465.99,
+    425.0
+   ],
+   [
+    "GTLB",
+    56.97,
+    45.09
+   ],
+   [
+    "AAPL",
+    326.8,
+    325.13
+   ],
+   [
+    "PANW",
+    353.92,
+    362.09
+   ],
+   [
+    "COST",
+    941.875,
+    939.96
+   ]
+  ],
+  "em": {
+   "AVGO": 8.4,
+   "INTC": 4.54,
+   "MU": 4.18,
+   "AMD": 3.88,
+   "TSLA": 3.4,
+   "META": 2.95,
+   "NVDA": 2.52,
+   "AMZN": 2.13,
+   "GOOGL": 2.06,
+   "MSFT": 1.97,
+   "AAPL": 1.95
+  }
+ },
+ "headline": {
+  "title": "<b>Five companies beat last night, and what separated the winners from the losers was not the beat &mdash; it was the margin.</b> <b>GTLB +23.3%</b> printed a <b>15% operating margin against 11.2% consensus</b>. <b>DELL +9.1%</b> raised full-year sales guidance by <b>$25 billion</b>. On the other side, <b>CRDO &minus;10.5%</b> beat both lines and got sold because non-GAAP gross margin came in at <b>68.0% against 68.3% expected</b>, and <b>PANW &minus;1.8%</b> beat with Next-Gen Security ARR up 64% but the headline read <i>margins narrow</i>. <b>MDB &minus;12.0%</b> beat and raised, and lost because Atlas growth held at 29% instead of accelerating.",
+  "summary": "<b>Margin expansion is being paid, margin compression is being sold, and a beat by itself buys nothing.</b> That is a sharper rule than hardware-versus-software, and it survives every one of last night's five prints. DELL's number was scale &mdash; EPS $7.04 against $4.90, revenue $47B against $44.7B, AI server revenue doubled to <b>$16.4B</b> with orders at $60.9B, and strength running well beyond AI into traditional servers, networking, storage and PCs. HPE +4.3% and NTAP +2.1% ride that read into their own prints tonight. The AI-adjacent complex is broadly lower with them: <b>DDOG &minus;3.3%, MRVL &minus;1.6%, SMTC &minus;1.2%, ALAB &minus;1.2%</b>. Macro offers nothing: the 10-year is up 2bp to <b>4.81%</b>, VIX +2.4% to 16.73, Brent <b>$95.11</b>. <b>BOJ Governor Ueda signalled a hike could come this month</b> and Asia broke &mdash; <b>KOSPI &minus;3.99%, Nikkei &minus;2.85%</b>. New Zealand hiked 25bp overnight."
+ },
+ "overview": "<b>Everything today points at one report, and last night set the bar it has to clear.</b> AVGO reports after the close carrying an <b>8.4% implied move</b> &mdash; more than double any other Mag 11 name &mdash; into a tape that just proved a beat is worth nothing without margin behind it. Its Tuesday candle is a <b>Failed 2D</b>, the second straight session it and NVDA both printed one. Meanwhile <b>the index has stopped trending</b>: SPY, QQQ and IWM each printed a third consecutive 2 Down Tuesday, but all three are trading <b>inside</b> Tuesday's range this morning rather than below it &mdash; no continuation trigger, a coil into the Beige Book at 1:00pm CT. The rotation underneath is real and it is not AI: <b>travel and cruise lines are bid across the board</b> into Trump's 11:30am meeting with U.S. travel executives, and <b>gold and silver miners are bid</b> alongside the yield move. The one Mag 11 name in a clean uptrend is <b>AAPL</b>, a 2 Up that closed +2.61% on John Ternus's first day and is extending on the cheapest premium on the board.",
+ "setups": [
+  [
+   "T1",
+   "g",
+   "DELL",
+   "+9.6%",
+   "2-2 reversal up &middot; calls over $474",
+   "The prep sheet's double-star. Tuesday was a 2 Down that closed 425.00 near its low; the blowout gaps it to <b>465.99</b> and through Tuesday's 463.00 high &mdash; a <b>2-2 reversal up</b>, almost a bullish kicker. The trigger is <b>calls above $474</b>, and that level is a real shelf: Monday's high was 474.49, Friday's 474.74. <b>Allow price to show its hands</b> &mdash; the 6HR is still inside, and if it consolidates here that is the tell worth watching."
+  ],
+  [
+   "T1",
+   "g",
+   "AAPL",
+   "+0.5%",
+   "3 bar on 6HR &middot; calls over 327.30",
+   "Tuesday took Monday's 321.235 high to <b>327.30</b> and closed 325.13, <b>+2.61%</b>, on John Ternus's first day as CEO. <b>3 bar on the 6HR.</b> The trigger is <b>calls above $327.30 for the 2-2U</b> &mdash; premarket 326.80 sits just under it. In a Mag 11 where MSFT, AMD, INTC and MU are all lower, this is the one name with a structure, and the 9/4 straddle implies only <b>1.95%</b>, the cheapest on the board."
+  ],
+  [
+   "T1",
+   "y",
+   "AVGO",
+   "&minus;0.1%",
+   "Failed 2D into an 8.4% implied print",
+   "Not on the prep sheet, but it is the day's gravity. Tuesday broke Monday's 366.30 low to 362.00 and closed <b>369.68 back above</b> &mdash; a Failed 2D. The 9/4 straddle prices <b>8.4%</b>, more than double any other Mag 11 name. It reports into a tape that sold three beats last night, and the bar it has to clear is not a beat, it is <b>margin</b>. <b>The event is tonight; today is positioning, not the trade.</b>"
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; WED 9/2",
+  "lead": "&#9888; <b>Main focus: respect your point.</b> Three earnings names off last night's prints, one news name, and two set up for the end of the day. The through-line on this sheet is patience &mdash; <i>allow price to show its hands</i> on DELL, <i>stay patient</i> on GTLB, and PANW is an explicit no-trade. <b>COST is the end-of-day swing</b>, a straddle into monthly sales at 3:15pm CT.",
+  "cards": [
+   [
+    "DELL",
+    "2-2 reversal up &middot; calls over $474",
+    "g",
+    "T1",
+    "EPS <b>$7.04 vs $4.90</b>, revenue ~<b>$47B</b>, a record <b>$95B AI-server backlog</b>, and FY27 revenue guidance raised to ~$192B. <b>It still fell about 7% after hours</b> on an already-extended run before reversing overnight.",
+    "Premarket <b>465.99, +9.6%</b>. Tuesday was a 2 Down closing 425.00 near its 421.89 low; the gap has already cleared Tuesday's 463.00 high.",
+    "<b>2-2 reversal up, almost a bullish kicker. Calls above $474</b> &mdash; and there is a lot of resistance there: Monday's high 474.49, Friday's 474.74, 8/27's 472.50. A three-session shelf.",
+    "<b>The 6HR is still inside</b>, so the lower timeframe has not confirmed. It also sold off 7% after hours before this gap &mdash; that round trip is why paying the open into a known shelf is the wrong side of the trade.",
+    "<b>The flow backs it.</b> DELL is a bullish kicker with dark pool behind it, and it ran <b>65% calls at ~6.8&times; average volume</b>. If it consolidates under 474, that is the must-watch."
+   ],
+   [
+    "GTLB",
+    "Bullish kicker &middot; gap fill at $61.79",
+    "g",
+    "T1",
+    "EPS <b>$0.24 vs $0.18</b>, revenue $286.3M vs $273.3M, and a <b>15% operating margin against 11.2% consensus</b>. Raised full-year revenue and EPS guidance.",
+    "Premarket <b>56.97, +26.4%</b> &mdash; the largest move on the board. Tuesday was a 2 Down closing 45.09.",
+    "<b>Bullish kicker. 10-minute ORB, with the gap fill target at $61.79</b> &mdash; about 8.5% above the premarket print.",
+    "A 26% gap is most of a quarter's move in one session. <b>Stay patient</b> &mdash; this is the sheet's own instruction and it is the whole trade.",
+    "GTLB is the cleanest expression of the margin thesis on the board: it beat on <b>operating margin</b>, not just revenue, and it is the name being paid the most for it."
+   ],
+   [
+    "AAPL",
+    "3 bar on 6HR &middot; calls over 327.30",
+    "g",
+    "T1",
+    "John Ternus's first day as CEO, the first change since 2011. The stock closed <b>+2.61%</b> on it.",
+    "Premarket <b>326.80, +0.5%</b>. Tuesday took Monday's 321.235 high to <b>327.30</b> and closed 325.13 &mdash; a clean 2 Up.",
+    "<b>3 bar on the 6HR. Calls above $327.30 for the 2-2U</b> &mdash; premarket is sitting just under the trigger, so it has to go first.",
+    "It has already run two sessions off 316.85. Tuesday's 314.73 low is where the structure fails.",
+    "<b>The flow backs it.</b> AAPL lit the Unusual Options Volume filter at <b>56% calls across 28 prints</b>. The 9/4 straddle prices only <b>1.95%</b>, the cheapest in the Mag 11 &mdash; cheap premium on the one clean structure, with call flow already there."
+   ],
+   [
+    "PANW",
+    "Inside week &mdash; explicit no-trade",
+    "r",
+    "T2",
+    "Beat: EPS $1.02 ex-items on $3.41B revenue against $0.98 and $3.35B, Next-Gen Security ARR <b>+64% to $9.1B</b>. Sold anyway &mdash; the headline is <b>margins narrow</b>.",
+    "Premarket <b>353.92, &minus;2.3%</b>, already below Tuesday's 357.26 low.",
+    "<b>Inside week &mdash; not a fan of trading while it looks like this.</b> No trade.",
+    "It is the mildest of the three sold beats and the easiest to talk yourself into. That is exactly why it is written down as a pass.",
+    "It still belongs on the sheet as evidence: PANW beat on growth and lost on margin, which is the same verdict CRDO got for 30 basis points."
+   ],
+   [
+    "COST",
+    "End-of-day swing &middot; straddle into monthly sales",
+    "b",
+    "T1",
+    "<b>August monthly sales land 3:15pm CT</b>, after the close. Tuesday printed an <b>outside day</b> &mdash; it broke both of Monday's extremes.",
+    "Premarket <b>941.88, +0.2%</b>. The <b>9/4 940 straddle marks at $16.95, implying 1.80%</b> &mdash; breakevens roughly 923 and 957.",
+    "<b>Straddle for monthly sales, put on end of day before the close.</b> Direction is unknown, which is the point of the structure.",
+    "1.80% is cheap for an event, but it is still premium against a two-day expiry and a weekend. And an outside day means the recent range is already wide.",
+    "<b>Be on alert for the callout if it is going to happen.</b> This is the one deliberate overnight hold on the sheet, and it is structured so direction does not have to be right."
+   ],
+   [
+    "CRWD",
+    "Investor day is afternoon &middot; the move comes after",
+    "y",
+    "T2",
+    "Investor briefing <b>tomorrow</b>, and it lands in the <b>afternoon</b>. Note the earlier week-ahead calendar had it Wednesday; the prep sheet puts it Thursday, and Fal.Con itself closed 9/1, so Thursday is the consistent read.",
+    "Premarket <b>214.70, &minus;0.2%</b>. It closed 215.07 Tuesday, having given back most of Monday's +5.79% Fal.Con run.",
+    "<b>An afternoon event means it could simply consolidate through tomorrow.</b> The move usually shows up in the <b>two sessions after</b> the investor day, not on the day itself.",
+    "<b>That is a problem for 9/4 contracts.</b> With the briefing Thursday afternoon, the two-day move window is Friday 9/4 and &mdash; because <b>Monday 9/7 is Labor Day</b> &mdash; Tuesday 9/8. A 9/4 expiry dies at the close of day one of that window and gets no second day at all.",
+    "<b>Next week's contracts are a lot safer here, and 9/11 exists.</b> It covers both sessions of the expected move plus buffer, and it does not pay for the consolidation. Keep next week in mind &mdash; the event is tomorrow but the trade is after it."
+   ],
+   [
+    "MDB / CRDO",
+    "Margin is what got sold",
+    "r",
+    "T2",
+    "Both beat. <b>CRDO &minus;10.5%</b> on non-GAAP gross margin of <b>68.0% vs 68.3%</b> &mdash; 30 basis points. <b>MDB &minus;12.0%</b> beat and raised; Atlas growth held at 29% rather than accelerating.",
+    "MDB pre <b>382.07</b> &middot; Tue L 430.53. CRDO pre <b>184.89</b> &middot; Tue L 206.12. Both far below Tuesday's entire range.",
+    "Both were 2 Downs <i>before</i> the prints, so this is a third leg down, not a first.",
+    "A 30bp gross-margin miss taking 10% off a beat-and-raise is positioning unwinding, not a valuation you can model. Day one of that does not bottom.",
+    "<b>Listed as the day's thesis, not a trade.</b> The rule that fits all five prints: margin expansion paid, compression sold, a beat alone worth nothing. That is what AVGO has to clear tonight."
+   ],
+   [
+    "XLE / SLB",
+    "The flow is fighting itself in energy",
+    "y",
+    "T2",
+    "<b>SLB drew the largest options block on either board &mdash; $182.3M of $42.5 calls expiring 9/18</b>, a crossed floor ticket, and it goes ex-dividend today.",
+    "Against that, <b>XLE printed a Failed 2U on Tuesday's candle and ran 60% puts at ~3.4&times; average</b>. XLE is &minus;0.4% premarket, BP &minus;1.9%, XOM &minus;1.0%.",
+    "A $182M bullish block in the biggest services name, against a topping signal and put flow in the sector ETF. Both are real and they point opposite ways.",
+    "Energy has run three sessions on the Hormuz premium and Brent is already $94-95. A Failed 2U at the top of that run is exactly where the trade ends.",
+    "<b>Not a trade today &mdash; a warning.</b> The single-name block may simply be dividend-related positioning. When the sector ETF tops and the flow splits, the resolution comes from price, not from either ticket."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/31",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet docket. Energy the only green sector, XLE +2.00%"
+    ]
+   ],
+   "earnings": [
+    [
+     "SAIC",
+     "AM &middot; done"
+    ]
+   ],
+   "events": [
+    [
+     "MSCI",
+     "Done",
+     "SNDK, CRS and ATI added to the World Index at the close"
+    ],
+    [
+     "CRWD",
+     "Done",
+     "Fal.Con opened &mdash; stock closed +5.79%"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "DONE &middot; 5 PRINTS",
+   "accent": "done",
+   "econ": [
+    [
+     "9:00am",
+     "ISM Manufacturing and JOLTS &mdash; done"
+    ]
+   ],
+   "earnings": [
+    [
+     "MDT",
+     "AM &middot; beat, faded"
+    ],
+    [
+     "DELL",
+     "PM &middot; blowout"
+    ],
+    [
+     "GTLB",
+     "PM &middot; margin beat"
+    ],
+    [
+     "MDB",
+     "PM &middot; sold"
+    ],
+    [
+     "CRDO",
+     "PM &middot; sold"
+    ]
+   ],
+   "events": [
+    [
+     "AAPL",
+     "Done",
+     "John Ternus replaced Tim Cook &mdash; stock closed +2.61%"
+    ],
+    [
+     "CVX",
+     "Done",
+     "Completed the 2-2-2 up, closed 211.05 at its high"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "TODAY &middot; AVGO &middot; BEIGE BOOK",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:15am",
+     "<b>ADP private payrolls (Aug)</b> &mdash; seen ~48k, prior 44k"
+    ],
+    [
+     "9:00am",
+     "Factory orders; EIA crude inventories"
+    ],
+    [
+     "1:00pm",
+     "<b>Fed Beige Book</b> &mdash; last major read before the Sept 16 FOMC"
+    ]
+   ],
+   "earnings": [
+    [
+     "AVGO",
+     "PM &middot; <b>8.4% implied</b>"
+    ],
+    [
+     "SNOW",
+     "PM &middot; 13.0%"
+    ],
+    [
+     "HPE",
+     "PM &middot; 11.9%"
+    ],
+    [
+     "NTAP",
+     "PM"
+    ],
+    [
+     "FIVE",
+     "PM &middot; Inside day"
+    ]
+   ],
+   "events": [
+    [
+     "COST",
+     "3:15pm",
+     "August monthly sales, after the close"
+    ],
+    [
+     "CRWD",
+     "Today",
+     "Monthly sales update &mdash; briefing is tomorrow"
+    ],
+    [
+     "APH",
+     "Today",
+     "Stock split effective"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "CYBERCAB",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "Jobless Claims"
+    ],
+    [
+     "7:30am",
+     "Fed Governor Waller &mdash; Reuters NEXT"
+    ],
+    [
+     "9:00am",
+     "ISM Services (Aug)"
+    ]
+   ],
+   "earnings": [
+    [
+     "LULU",
+     "PM"
+    ],
+    [
+     "ZS",
+     "PM"
+    ],
+    [
+     "DOCU",
+     "PM"
+    ],
+    [
+     "CIEN",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "CRWD",
+     "TBA",
+     "Investor briefing, afternoon &mdash; move usually lands Fri 9/4 and Tue 9/8"
+    ],
+    [
+     "TSLA",
+     "TBA",
+     "Cybercab launch, Austin &mdash; invite-only, livestreamed"
+    ],
+    [
+     "NVS",
+     "9/3",
+     "Conference &mdash; second one follows 9/8"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS &middot; HIKE DEBATE",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August Employment Report</b> &mdash; consensus ~+25k, unemployment near 4.1%, after July shed ~23k jobs. Last labor read before a September FOMC pricing a live hike"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "",
+     "Next Mon",
+     "Labor Day, Sept 7 &mdash; markets closed"
+    ]
+   ]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [
+    [
+     "&mdash;",
+     "Labor Day &mdash; U.S. markets closed"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "NVS",
+     "Tue 9/8",
+     "Second conference of the run"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [
+    [
+     "TBA",
+     "<b>September FOMC decision</b> &mdash; market pricing a live hike after Warsh's Jackson Hole keynote. Today's Beige Book is the last major input"
+    ]
+   ],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  [
+   "AVGO",
+   "charts/AVGO_2026-09-02.png",
+   "Failed 2D &middot; 8.4% implied tonight"
+  ],
+  [
+   "AAPL",
+   "charts/AAPL_2026-09-02.png",
+   "2 Up &middot; Ternus day one"
+  ],
+  [
+   "DELL",
+   "charts/DELL_2026-09-02.png",
+   "+9.0% &middot; gap stops at Tue's high"
+  ],
+  [
+   "CRDO",
+   "charts/CRDO_2026-09-02.png",
+   "Beat, &minus;10.6% on 30bp margin"
+  ],
+  [
+   "QQQ",
+   "charts/QQQ_2026-09-02.png",
+   "3rd 2 Down &middot; coiled inside"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:04AM CT",
+  "groups": [
+   [
+    "MARGIN BEAT &mdash; PAID",
+    [
+     [
+      "GTLB",
+      23.33
+     ],
+     [
+      "DELL",
+      9.11
+     ],
+     [
+      "HPE",
+      4.29
+     ],
+     [
+      "NTAP",
+      2.09
+     ]
+    ]
+   ],
+   [
+    "MARGIN MISS &mdash; SOLD",
+    [
+     [
+      "MDB",
+      -12.01
+     ],
+     [
+      "CRDO",
+      -10.52
+     ],
+     [
+      "PANW",
+      -1.82
+     ]
+    ]
+   ],
+   [
+    "AI-ADJACENT BLEED",
+    [
+     [
+      "DDOG",
+      -3.31
+     ],
+     [
+      "SNOW",
+      -2.5
+     ],
+     [
+      "MRVL",
+      -1.58
+     ],
+     [
+      "SMTC",
+      -1.23
+     ],
+     [
+      "ALAB",
+      -1.21
+     ]
+    ]
+   ],
+   [
+    "TRAVEL &mdash; 11:30AM CATALYST",
+    [
+     [
+      "UBER",
+      1.65
+     ],
+     [
+      "CCL",
+      1.46
+     ],
+     [
+      "BKNG",
+      1.28
+     ],
+     [
+      "NCLH",
+      1.23
+     ],
+     [
+      "DAL",
+      1.2
+     ],
+     [
+      "AAL",
+      1.17
+     ],
+     [
+      "UAL",
+      0.99
+     ],
+     [
+      "RCL",
+      0.87
+     ],
+     [
+      "LUV",
+      0.9
+     ]
+    ]
+   ],
+   [
+    "GOLD &amp; SILVER MINERS",
+    [
+     [
+      "HL",
+      2.3
+     ],
+     [
+      "CDE",
+      2.08
+     ],
+     [
+      "AU",
+      1.56
+     ],
+     [
+      "NEM",
+      1.52
+     ],
+     [
+      "RGLD",
+      0.95
+     ]
+    ]
+   ],
+   [
+    "INDEX &mdash; COILED INSIDE",
+    [
+     [
+      "IWM",
+      0.13
+     ],
+     [
+      "SPY",
+      0.04
+     ],
+     [
+      "QQQ",
+      -0.12
+     ]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     [
+      "AAPL",
+      0.42
+     ],
+     [
+      "TSLA",
+      0.41
+     ],
+     [
+      "GOOGL",
+      0.33
+     ],
+     [
+      "NVDA",
+      0.21
+     ],
+     [
+      "AVGO",
+      0.06
+     ],
+     [
+      "AMZN",
+      -0.09
+     ],
+     [
+      "META",
+      -0.2
+     ],
+     [
+      "MSFT",
+      -0.35
+     ]
+    ]
+   ],
+   [
+    "ENERGY &mdash; GIVING BACK",
+    [
+     [
+      "BP",
+      -1.96
+     ],
+     [
+      "USO",
+      -1.58
+     ],
+     [
+      "HAL",
+      -1.44
+     ],
+     [
+      "MPC",
+      -1.2
+     ],
+     [
+      "OXY",
+      -1.07
+     ],
+     [
+      "DVN",
+      -1.02
+     ],
+     [
+      "XOM",
+      -0.9
+     ],
+     [
+      "SLB",
+      -0.89
+     ],
+     [
+      "COP",
+      -0.87
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/1 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "DELL",
+    "T1",
+    "g",
+    "2-2 reversal up &#128293;",
+    "g",
+    "Tuesday closed 425.00 near its 421.89 low. The blowout gaps it to 465.99, through Tuesday's 463.00 high &mdash; a 2-2 reversal, almost a bullish kicker.",
+    "pre 465.99 &middot; <b>+9.6%</b> &middot; Tue H 463.00 / L 421.89",
+    "<b>Calls over $474</b> &mdash; Mon H 474.49, Fri H 474.74.",
+    "6HR still inside. If it consolidates, that is the must-watch."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "g",
+    "2 Up &#128293;",
+    "g",
+    "Took Monday's 321.235 high to 327.30 and closed 325.13, +2.61%, on Ternus's first day as CEO. Premarket extends it.",
+    "pre 326.51 &middot; Tue H 327.30 / L 314.73 &middot; EM &plusmn;1.95%",
+    "<b>Calls over 327.30 for the 2-2U.</b> 3 bar on 6HR.",
+    "Cheapest premium on the board."
+   ],
+   [
+    "GTLB",
+    "T1",
+    "g",
+    "2 Down &rarr; bullish kicker &#128293;",
+    "g",
+    "Beat on <b>operating margin</b> &mdash; 15% against 11.2% consensus &mdash; and raised guidance. Tuesday was a 2 Down closing 45.09.",
+    "pre 56.97 &middot; <b>+26.4%</b> &middot; Tue H 46.39 / L 44.46",
+    "10-min ORB, gap fill target <b>$61.79</b>.",
+    "Stay patient &mdash; 26% is most of a quarter in one session."
+   ],
+   [
+    "AVGO",
+    "T1",
+    "y",
+    "Failed 2D &middot; ER tonight &#128293;",
+    "y",
+    "Broke Monday's 366.30 low to 362.00 and closed 369.68 back above it. Second straight session AVGO and NVDA both printed a Failed 2D.",
+    "pre 369.89 &middot; <b>EM &plusmn;8.4%</b> &middot; Tue H 371.40 / L 362.00",
+    "More than double the next Mag 11 implied move.",
+    "The event is tonight &mdash; today is positioning."
+   ],
+   [
+    "COST",
+    "T1",
+    "b",
+    "Outside day &middot; sales 3:15pm",
+    "b",
+    "Broke both of Monday's extremes Tuesday. August monthly sales land after the close.",
+    "pre 941.88 &middot; 9/4 940 straddle <b>$16.95 = 1.80%</b>",
+    "End-of-day straddle, direction agnostic.",
+    "The one deliberate overnight hold on the sheet."
+   ],
+   [
+    "PANW",
+    "&mdash;",
+    "mute",
+    "Inside week &middot; no trade",
+    "r",
+    "Beat with NGS ARR +64% to $9.1B, but margins narrowed. Already below Tuesday's 357.26 low.",
+    "pre 353.92 &middot; &minus;2.3% &middot; Tue H 375.92 / L 357.26",
+    "Inside week &mdash; explicit pass on the prep sheet.",
+    "Same verdict CRDO got: growth fine, margin not."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "o",
+    "3rd 2 Down &middot; coiled",
+    "o",
+    "Third consecutive 2 Down &mdash; broke Monday's 713.16 low to 704.66. But premarket 706.81 is <b>inside</b> Tuesday's range, not below it.",
+    "pre 706.81 &middot; Tue H 712.30 / L 704.66",
+    "SPY and IWM are coiled the same way.",
+    "Beige Book 1:00pm resolves it."
+   ],
+   [
+    "MDB",
+    "T2",
+    "r",
+    "2 Down &rarr; 3rd leg",
+    "r",
+    "Was already a 2 Down before the print. Beat and raised, and lost 12% because Atlas growth held at 29% instead of accelerating.",
+    "pre 381.96 &middot; <b>&minus;12.0%</b> &middot; Tue H 448.68 / L 430.53",
+    "Gapping far below Tuesday's entire range.",
+    "Day one of a repricing &mdash; no level to lean on."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "GTLB",
+    26.35,
+    "EPS <b>$0.24 vs $0.18</b>, revenue $286.3M vs $273.3M, and a <b>15% operating margin against 11.2% consensus</b>. Raised full-year guidance. Largest move on the board. Prep-sheet gap-fill target <b>$61.79</b>."
+   ],
+   [
+    "DELL",
+    9.64,
+    "EPS <b>$7.04 vs $4.90</b>, revenue $47B vs $44.7B, AI server revenue doubled to $16.4B, orders $60.9B, full-year sales guidance raised by <b>$25 billion</b>, to $192B from $167B. Premarket sits within twenty cents of Tuesday's 463.00 high."
+   ],
+   [
+    "HPE",
+    4.29,
+    "Riding the DELL read-through into its own print tonight. <b>11.9% implied</b> on the 9/4 straddle."
+   ],
+   [
+    "SIRI",
+    3.64,
+    "Deutsche Bank upgraded to Buy with a <b>$45 target, implying more than 60% upside</b>."
+   ],
+   [
+    "HL",
+    2.3,
+    "Gold and silver miners bid alongside the yield move &mdash; CDE +2.1%, AU +1.6%, NEM +1.5%, RGLD +1.0%."
+   ],
+   [
+    "UBER",
+    1.65,
+    "Cutting <b>3,300 jobs</b> and reducing management layers."
+   ],
+   [
+    "CCL",
+    1.46,
+    "<b>Trump meets U.S. travel executives at 11:30am CT.</b> Carnival and Barclays also launched a new Rewards Mastercard. The whole group is bid &mdash; BKNG +1.3%, NCLH +1.2%, DAL +1.2%, AAL +1.2%, UAL +1.0%, RCL +0.9%, LUV +0.9%."
+   ],
+   [
+    "SMCI",
+    1.34,
+    "Server maker riding the same DELL read-through as HPE and NTAP."
+   ],
+   [
+    "SIRI",
+    3.0,
+    "Deutsche Bank upgraded to Buy with a <b>$45 target, implying more than 60% upside</b> from current levels."
+   ],
+   [
+    "NTAP",
+    2.09,
+    "Same hardware read-through, and also reports tonight. Tuesday was a 2 Down; premarket is above Tuesday's 185.30 high."
+   ],
+   [
+    "AAPL",
+    0.51,
+    "<b>2 Up Tuesday</b>, closed +2.61% on John Ternus's first day as CEO. The only Mag 11 name in a clean uptrend, and the cheapest implied move at 1.95%."
+   ],
+   [
+    "TSLA",
+    0.41,
+    "Inside day Tuesday. Cybercab launches tomorrow in Austin, and Musk is at the G20 tech forum today."
+   ],
+   [
+    "GOOGL",
+    0.33,
+    "Modest bid."
+   ],
+   [
+    "NVDA",
+    0.21,
+    "Second consecutive Failed 2D. AVGO tonight is the direct read-through."
+   ],
+   [
+    "IWM",
+    0.13,
+    "Third 2 Down Tuesday but trading inside Tuesday's range, not below it."
+   ],
+   [
+    "AVGO",
+    0.06,
+    "Failed 2D into tonight's print. <b>8.4% implied</b> &mdash; more than double the next Mag 11 name."
+   ],
+   [
+    "SPY",
+    0.04,
+    "Coiled inside Tuesday's 764.67 / 759.48 range. Beige Book at 1:00pm CT."
+   ],
+   [
+    "HUM",
+    0.03,
+    "Closed <b>+3.04%</b> Tuesday on the outsized dark-pool print called yesterday morning. The 2 Up completed."
+   ]
+  ],
+  "bear": [
+   [
+    "MDB",
+    -12.01,
+    "Beat and raised &mdash; revenue $772M against ~$735M expected, full-year revenue guidance to $2.99-3.03B. <b>Sold because Atlas growth held at 29% rather than accelerating.</b>"
+   ],
+   [
+    "DDOG",
+    -3.31,
+    "Worst of the AI-adjacent complex. Shares have fallen 5.6% and it did not report &mdash; this is the margin verdict spreading to names that have not printed yet."
+   ],
+   [
+    "CRDO",
+    -10.52,
+    "Beat on both lines and guided fiscal Q2 revenue to ~$530M against $517M expected. <b>Down ~10% because non-GAAP gross margin printed 68.0% against 68.3%.</b> A 30 basis point miss."
+   ],
+   [
+    "NIO",
+    -3.69,
+    "2 Down Tuesday and extending. The 6HR Failed 2D flagged yesterday never got room &mdash; resistance held."
+   ],
+   [
+    "SNOW",
+    -2.5,
+    "2 Down Tuesday, reports tonight with a <b>13.0% implied move</b>, the largest of tonight's group."
+   ],
+   [
+    "MRVL",
+    -1.58,
+    "Named in the same AI-infrastructure bleed as SMTC &minus;1.2% and ALAB &minus;1.2%. None of them reported."
+   ],
+   [
+    "BP",
+    -1.96,
+    "Energy giving back after three sessions on the Hormuz premium."
+   ],
+   [
+    "USO",
+    -1.58,
+    "Crude is still elevated &mdash; Brent $95.11, WTI $90.37 &mdash; but the vehicles are easing after Tuesday's run."
+   ],
+   [
+    "PANW",
+    -2.26,
+    "Beat: EPS $1.02 ex-items on $3.41B against $0.98 and $3.35B, Next-Gen Security ARR <b>+64% to $9.1B</b>. Sold anyway &mdash; the headline is <b>margins narrow</b>. Already below Tuesday's 357.26 low."
+   ],
+   [
+    "SLB",
+    -0.89,
+    "With the complex."
+   ],
+   [
+    "XOM",
+    -0.87,
+    "2 Up Tuesday, closed 164.55 near the high. Easing this morning with the rest of energy."
+   ],
+   [
+    "COP",
+    -0.87,
+    "Same giveback."
+   ],
+   [
+    "MPC",
+    -0.78,
+    "Same."
+   ],
+   [
+    "HOOD",
+    -0.75,
+    "2 Up Tuesday but faded hard from 106.96 to close 103.51. The upgrade gap got sold, as flagged."
+   ],
+   [
+    "INTC",
+    -0.69,
+    "<b>Not confirming the DELL read-through</b> despite taking 19% of its revenue from Dell. Closed 88.97 Tuesday, exactly at Monday's low."
+   ],
+   [
+    "AMD",
+    -0.63,
+    "2 Down Tuesday, gapped below Monday's entire range."
+   ],
+   [
+    "NVS",
+    -0.46,
+    "Easing after Tuesday's kicker gap closed 161.25. Conference tomorrow, second one 9/8."
+   ],
+   [
+    "CVX",
+    -0.45,
+    "Completed the 2-2-2 up Tuesday at 211.05, its high. <b>ATH 214.69</b> still overhead."
+   ],
+   [
+    "MU",
+    -0.41,
+    "Outside day Tuesday &mdash; broke both of Monday's extremes and closed 933.44 near the low."
+   ],
+   [
+    "XLE",
+    -0.4,
+    "Energy sector easing."
+   ],
+   [
+    "MSFT",
+    -0.35,
+    "2 Down Tuesday, gapped clear below Monday's range."
+   ],
+   [
+    "META",
+    -0.2,
+    "<b>Outside day Tuesday</b> &mdash; opened 558.35, broke to 556.10, then reversed the whole range to close 578.54 near the high. The biggest structural reversal on the board."
+   ],
+   [
+    "MDT",
+    -0.15,
+    "Faded from 95.41 to close 92.04 Tuesday. The prep sheet's 'no trade without flow at the open' was the right gate."
+   ],
+   [
+    "QQQ",
+    -0.12,
+    "Third 2 Down Tuesday, but coiled inside the range this morning rather than breaking."
+   ],
+   [
+    "AMZN",
+    -0.09,
+    "Flat. The FTC and 22-state suit over search-ad auctions is still the overhang."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Tuesday's tape leaned bid where the size stacked up &mdash; index ETFs and mega-cap tech &mdash; and leaned ask in exactly one corner: memory.</b> <b>SPY was the single biggest line on the entire board at $6.7B cumulative bid</b>, with QQQ $4.5B bid top-three, and the largest single print on the tape was <b>SPYM $1.0B bid</b>. Ex-ETF, <b>NVDA led twice</b> &mdash; the biggest single-name print at <b>$761M bid</b> and cumulative flow <b>$4.9B bid, by a mile</b>. Right behind it sat the other side of the same trade: <b>MU $4.4B ask and SNDK $3.1B ask</b>, with <b>WDC $406M ask</b> rounding out the memory/storage theme. Institutions bought the index and the GPU and sold the memory complex. <b>The options tape split just as cleanly.</b> The largest block on either board was <b>$182.3M of SLB $42.5C 09/18</b>, a crossed floor ticket and a loud bullish-energy footprint &mdash; against the largest sweeps being long-dated downside, <b>$4.9M of QQQ $677P 11/30</b> and <b>$2.9M of ANET $190P 01/21/28</b>. A $182M energy call block versus index and semi put sweeps is genuinely mixed, which is the honest read into a Fed-heavy, oil-driven week. <b>Two filters back names already on this sheet:</b> AAPL lit Unusual Options Volume at <b>56% calls across 28 prints</b>, and Options Above Average flagged <b>DELL at 65% calls, ~6.8&times; average</b> and <b>HPE 76% bullish, ~3.7&times;</b> into their catalysts. <b>XLE went the other way at 60% puts, ~3.4&times;</b> &mdash; and XLE also printed a <b>Failed 2U</b>, which is the first real topping tell in the energy trade. Odd name out: <b>SUNB $453M</b>, an equipment-rental company that rarely prints this size, #7 ex-ETF and one of the &le;3-print concentrated names alongside WDC, MA, WFC and BRK.B.",
+  "right_note": "TUESDAY 9/1 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   [
+    "SPY",
+    "$6.7B",
+    "cumulative BID &middot; #1 board",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$4.9B",
+    "cumulative BID &middot; #1 ex-ETF",
+    "g"
+   ],
+   [
+    "QQQ",
+    "$4.5B",
+    "cumulative bid",
+    "g"
+   ],
+   [
+    "MU",
+    "$4.4B",
+    "cumulative ASK &middot; memory",
+    "r"
+   ],
+   [
+    "SNDK",
+    "$3.1B",
+    "cumulative ask",
+    "r"
+   ],
+   [
+    "SPYM",
+    "$1.0B",
+    "biggest single print, bid AH",
+    "g"
+   ],
+   [
+    "SPY",
+    "$992M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$761M",
+    "biggest single name, bid AH",
+    "g"
+   ],
+   [
+    "VOO",
+    "$572M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "IVV",
+    "$572M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "GOOG",
+    "$500M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "GOOGL",
+    "$500M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "MSFT",
+    "$500M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "AMZN",
+    "$495M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "MA",
+    "$495M",
+    "bid AH &middot; &le;3 prints",
+    "g"
+   ],
+   [
+    "SUNB",
+    "$453M",
+    "mixed &middot; odd name out",
+    "y"
+   ],
+   [
+    "WDC",
+    "$406M",
+    "ASK &middot; memory/storage",
+    "r"
+   ],
+   [
+    "SLB",
+    "$182.3M block",
+    "$42.5C 09/18 &middot; largest ticket",
+    "g"
+   ],
+   [
+    "QQQ",
+    "$4.9M sweep",
+    "$677P 11/30 &middot; largest sweep",
+    "r"
+   ],
+   [
+    "ANET",
+    "$2.9M sweep",
+    "$190P 01/21/28",
+    "r"
+   ],
+   [
+    "AAPL",
+    "56% calls",
+    "unusual vol &middot; 28 prints",
+    "g"
+   ],
+   [
+    "DELL",
+    "65% calls",
+    "~6.8&times; average",
+    "g"
+   ],
+   [
+    "HPE",
+    "76% bull",
+    "~3.7&times; average",
+    "g"
+   ],
+   [
+    "XLE",
+    "60% puts",
+    "~3.4&times; &middot; + Failed 2U",
+    "r"
+   ],
+   [
+    "CRS",
+    "$50.0M",
+    "outsized for ~$20B cap &middot; Inside",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Wednesday September second, premarket. Five companies beat last night, and what separated the winners from the losers was not the beat. It was the margin. GitLab is up twenty three percent after printing a fifteen percent operating margin against eleven point two expected. Dell is up nine after raising full year sales guidance by twenty five billion dollars. On the other side, Credo is down ten and a half percent. It beat on both lines and got sold because non GAAP gross margin came in at sixty eight point zero against sixty eight point three. Palo Alto is down one point eight, beat, with next generation security A R R up sixty four percent, but the headline read margins narrow. And MongoDB is down twelve after a beat and a raise, because Atlas growth held at twenty nine percent instead of accelerating."
+  },
+  {
+   "label": "Movers",
+   "text": "Margin expansion is being paid, margin compression is being sold, and a beat by itself buys nothing. That rule survives all five prints last night, and it is sharper than hardware versus software. Dell's number was scale. Earnings of seven dollars four cents against four ninety, revenue of forty seven billion against forty four point seven, A I server revenue doubled to sixteen point four billion, orders at sixty point nine billion. H P E and NetApp ride that read into their own prints tonight. The A I adjacent complex is lower with them. Datadog down three point three, Marvell down one point six, Semtech and Astera both down about one point two, and none of them reported. Underneath, the rotation is not A I at all. Travel and cruise lines are bid across the board into Trump's eleven thirty meeting with travel executives, and gold and silver miners are bid alongside the yield move. The ten year is up two basis points to four point eight one and Brent is at ninety five eleven. Tuesday's block tape leaned bid where the size stacked up. S P Y was the biggest line on the entire board at six point seven billion bid, Q Q Q four and a half billion bid, and ex E T F Nvidia led twice, the biggest single name print at seven sixty one million bid and cumulative flow at four point nine billion bid by a mile. Right behind it, the other side of the same trade. Micron four point four billion ask and Sandisk three point one billion ask. Institutions bought the index and the G P U and sold memory. The options tape split too. The largest block on either board was one hundred eighty two million dollars of Schlumberger forty two and a half calls, against the largest sweeps being long dated downside in Q Q Q and Arista."
+  },
+  {
+   "label": "Plan",
+   "text": "Main focus today, respect your point. Dell is the double star. Tuesday was a two down that closed at four twenty five near its low, and the blowout gaps it to four sixty six, through Tuesday's four sixty three high. That is a two two reversal up, almost a bullish kicker. The trigger is calls above four seventy four, and there is a lot of resistance there. Monday's high was four seventy four forty nine, Friday's four seventy four seventy four. The six hour is still inside, so allow price to show its hands, and if it consolidates under that shelf, that is the must watch. GitLab is a bullish kicker, up twenty six percent, ten minute opening range with a gap fill target at sixty one seventy nine. Stay patient. Apple has a three bar on the six hour with calls above three twenty seven thirty for the two two up, and premarket is sitting just under that trigger. Palo Alto is an inside week and an explicit no trade. Broadcom is not on the sheet but it is the day's gravity, reporting tonight at eight point four percent implied, and the bar it has to clear is not a beat, it is margin. End of day before the close, Costco straddle for monthly sales at three fifteen. The nine four nine forty straddle marks at sixteen ninety five, about one point eight percent, with breakevens near nine twenty three and nine fifty seven. Be on alert for the callout if it is going to happen. And CrowdStrike has its briefing tomorrow."
+  }
+ ]
+}
