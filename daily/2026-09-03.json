@@ -1,0 +1,878 @@
+{
+  "title": "Thursday, September 3, 2026",
+  "kind": "premarket",
+  "headline": {
+    "title": "<b>Five more companies beat last night and four of them are being sold. What the market is paying for is the guide, not the quarter.</b> <b>AVGO &minus;3.4%</b> beat on both lines and guided Q4 revenue to <b>$34.8B against $35.03B</b> &mdash; and Q4 non-GAAP operating margin to <b>66% against 66.5%</b>. <b>NTAP &minus;9.4%</b> beat by <b>$0.46</b>, guided above, raised the full year, and printed gross margin <b>70.6% vs 69.7%</b> expected &mdash; then lost nine percent on deferred revenue of <b>$4.85B against $4.86B</b>. <b>HPE &minus;5.1%</b> beat by $0.18 and guided FY27 earnings growth to <b>16-20% against 18.7%</b> consensus. <b>SNOW +23.4%</b> is the exception, and the reason is precise.",
+    "summary": "<b>SNOW cut its product gross margin guide by 100 basis points and gained 23%. AVGO cut its Q4 operating margin guide by 50 basis points and lost 3%.</b> The difference is which line: SNOW raised FY27 <i>operating</i> margin guidance to <b>14.5% from 13.5%</b> and let gross margin go on AI mix. The market is paying for operating leverage and forgiving the cost of getting it. <b>AVGO also got upgraded to Outperform at Macquarie with a $490 target this morning and is still down 3%</b> &mdash; a 50bp forward margin miss outweighed an upgrade."
+  },
+  "overview": "<b>The index split three ways yesterday and only one of them has a trigger today.</b> SPY printed a <b>2 Up</b> closing 765.16 near its high, <b>IWM printed a 2 Up closing 294.01 exactly at its high</b> &mdash; its first up day after three straight 2 Downs &mdash; and <b>QQQ went inside</b>, no trigger, and is still inside this morning at 707.91. Breadth is leading and the Nasdaq is coiled, with the 10-year down 3bps to <b>4.77%</b> underneath it. That coil resolves into <b>ISM Services at 9:00am CT</b>, thirty minutes after the open. Underneath, the guide-not-the-quarter rule is doing all the work: <b>SNOW +23.4%</b> dragged the whole software complex up with it (DDOG +5.9%, NOW +3.1%, NET +2.2%) after those same names sat in yesterday's bleed bucket. <b>Energy is bid without a headline</b> &mdash; WTI +2.2% to <b>$93.01</b> and Brent pushing $100 on the Hormuz escalation, while Trump has <b>zero on-camera events today</b> and Reuters reports his advisors are pushing him to keep Iran quiet into the midterms. An oil bid with no one talking is positioning, not news. And <b>TSLA launches Cybercab in Austin today</b>, +1.6% premarket, the biggest mover on the Mag 11 board.",
+  "watchlist": {
+    "stamp": "PREMARKET 7:45AM CT",
+    "em_label": "IMPLIED MOVE &mdash; 9/4 ATM STRADDLE, WED CLOSE MARKS",
+    "groups": [
+      [
+        "ETFs",
+        [
+          [
+            "IWM",
+            293.94,
+            294.01
+          ],
+          [
+            "QQQ",
+            707.91,
+            709.24
+          ],
+          [
+            "SPY",
+            765.35,
+            765.16
+          ]
+        ]
+      ],
+      [
+        "Mag 11",
+        [
+          [
+            "AAPL",
+            323.62,
+            324.96
+          ],
+          [
+            "MSFT",
+            499.8,
+            496.82
+          ],
+          [
+            "NVDA",
+            224.44,
+            224.41
+          ],
+          [
+            "GOOGL",
+            337.92,
+            337.12
+          ],
+          [
+            "AMZN",
+            255.4,
+            254.98
+          ],
+          [
+            "META",
+            597.0,
+            592.85
+          ],
+          [
+            "TSLA",
+            362.74,
+            357.01
+          ],
+          [
+            "AMD",
+            453.27,
+            457.06
+          ],
+          [
+            "AVGO",
+            354.69,
+            367.24
+          ],
+          [
+            "INTC",
+            89.18,
+            90.05
+          ],
+          [
+            "MU",
+            949.48,
+            956.08
+          ]
+        ]
+      ]
+    ],
+    "focus": [
+      [
+        "SNOW",
+        377.51,
+        305.84
+      ],
+      [
+        "RBLX",
+        41.46,
+        41.21
+      ],
+      [
+        "NTAP",
+        163.78,
+        180.77
+      ],
+      [
+        "HPE",
+        49.18,
+        51.83
+      ],
+      [
+        "CRWD",
+        207.95,
+        203.42
+      ]
+    ],
+    "em": {
+      "INTC": 3.73,
+      "TSLA": 3.54,
+      "MU": 3.33,
+      "AMD": 3.23,
+      "META": 2.48,
+      "NVDA": 2.14,
+      "AMZN": 1.86,
+      "GOOGL": 1.8,
+      "AAPL": 1.59,
+      "MSFT": 1.53
+    }
+  },
+  "setups": [
+    [
+      "T1",
+      "g",
+      "SNOW",
+      "+23.4%",
+      "2-2 reversal up &middot; blue sky",
+      "Wednesday was a <b>2 Down closing 305.84 near its 303.89 low</b>. The print gaps it to <b>377.51</b>, above Wednesday's 319.25 high and above every level in the prior two weeks &mdash; a <b>2-2 reversal up</b>, a bullish kicker with nothing overhead. Adjusted EPS <b>$0.62 vs $0.45</b>, revenue $1.55B vs $1.48B, FY27 product revenue raised to <b>$6.07B</b>, RPO <b>+30% to $9.0B</b>, and the number that did it: <b>FY27 operating margin guide raised to 14.5% from 13.5%</b>. Because the gap clears all structure, <b>there is no level here except the one it makes</b> &mdash; the opening range is the level. A +23% gap is not a thing to pay for at 8:30."
+    ],
+    [
+      "T1",
+      "g",
+      "RBLX",
+      "+0.6%",
+      "2-1-2 up &middot; calls over 41.58",
+      "The golden sweep name. <b>41.58 is Monday 8/31's high to the penny</b>, and it has not been touched in three sessions. The daily reads <b>2 Up (8/31, on 19.6M shares) &rarr; inside (9/1) &rarr; 2 Up (9/2, closed 41.21 at its 41.28 high)</b>: a <b>2-1-2 continuation already triggered</b> and now sitting one tick under the swing high. Premarket <b>41.46</b>, twelve cents below the trigger, not reaching. <b>RDC26 is Sept 10-12 in San Jose</b> &mdash; which is exactly why the sweep bought <b>9/18 42.5C/45C and 9/25 43C/45C</b> and not a weekly. A 9/11 contract expires on day two of the conference."
+    ],
+    [
+      "T1",
+      "r",
+      "AVGO",
+      "&minus;3.4%",
+      "Inside-day break down &middot; 1-2D",
+      "Wednesday was an <b>inside day</b> (H 371.09, L 364.65) inside Tuesday's 371.40/362.00 range. Premarket <b>354.69 is below both</b> &mdash; a clean <b>1-2 down</b> off the coil and through a week of structure. It beat: revenue $29.59B, adjusted EPS $3.32. It got sold on <b>Q4 revenue $34.8B vs $35.03B and Q4 operating margin 66% vs 66.5%</b>. <b>The counter-signal is the size of the move.</b> The 9/4 straddle priced an <b>8.4%</b> event; a 3.4% break means premium sellers won and the shorts got less than the market paid for. Macquarie upgraded it this morning to Outperform, $490."
+    ],
+    [
+      "T1",
+      "y",
+      "TSLA",
+      "+1.6%",
+      "Failed 2D &middot; Cybercab today",
+      "<b>Cybercab launches in Austin today</b> &mdash; invite-only, livestreamed, time not announced. TSLA is the <b>biggest mover on the Mag 11 board at +1.6%</b> premarket and Wednesday's candle is a <b>Failed 2D</b>: it broke Tuesday's 352.96 low to 349.92 and closed 357.01 back above it. Premarket <b>362.74 is above Tuesday's 362.70 high</b>, which turns the Failed 2D into a reversal with follow-through. The 9/4 straddle implies <b>3.54%</b>, second-widest on the board. A launch with no announced time is a headline that can land in any hour of the session."
+    ],
+    [
+      "T2",
+      "y",
+      "QQQ",
+      "&minus;0.2%",
+      "Inside day &middot; no trigger yet",
+      "Three sessions: <b>2 Down, 2 Down, inside</b>. Wednesday's range is 705.10 to 709.80 and premarket 707.91 sits inside it &mdash; <b>there is still no trigger</b>. Over <b>709.80</b> is the 1-2 up, under <b>705.10</b> is the 1-2 down, and the thing most likely to pick is <b>ISM Services at 9:00am CT</b>, thirty minutes after the open. Trading the coil before the data is paying for someone else's decision."
+    ],
+    [
+      "T2",
+      "g",
+      "IWM",
+      "&minus;0.0%",
+      "2 Up closing at the high",
+      "The cleanest structure on the index board and the one nobody is looking at. IWM printed <b>2 Downs on 8/28, 8/31 and 9/1</b>, then Wednesday took 292.94 and <b>closed 294.01 at its 294.35 high</b> &mdash; a 2 Up that finished on its high after three days of lower highs and lower lows. The 10-year at <b>4.77%, down 3bps</b>, is the tailwind. Premarket flat, so the reversal has not been given back."
+    ],
+    [
+      "T2",
+      "r",
+      "NTAP",
+      "&minus;9.4%",
+      "Failed 2U &rarr; gap below",
+      "The sharpest test of the rule on the board. NTAP <b>beat by $0.46</b>, guided Q2 above, raised FY27, and printed <b>non-GAAP gross margin 70.6% against 69.7%</b> expected &mdash; a margin beat. It is down nine percent on <b>deferred revenue of $4.85B against $4.86B</b>, a $10M miss on the forward-bookings line. Wednesday was already a <b>Failed 2U</b> (took 185.30 to 189.21, closed 180.77 back below); premarket 163.78 is far under Wednesday's 180.03 low. <b>Trailing margin did not save it. The forward number decided it.</b>"
+    ],
+    [
+      "T2",
+      "g",
+      "XLE",
+      "+0.6%",
+      "2 Up &middot; WTI $93.01",
+      "<b>WTI +2.2% to $93.01, Brent pushing $100.</b> The U.S. escorted 40 commercial vessels carrying 18 million barrels through the Strait of Hormuz Tuesday and expects to continue offensive strikes near the waterway; Kuwait's army confronted Iranian missile and drone attacks. XLE printed a <b>2 Up</b> Wednesday closing 65.10 and the whole complex is bid premarket &mdash; OXY +0.8%, XOM +0.7%, SLB +0.7%, CVX +0.6%. <b>CVX has now closed higher three straight sessions</b> off its 9/1 2-2-2. Gold is moving with it: futures +1.7% to $4,487.40, GDX +1.9%."
+    ]
+  ],
+  "prep": {
+    "pill": "MORNING PREP &middot; THU 9/3",
+    "lead": "&#9888; <b>The guide is the whole trade.</b> Four companies beat last night and are red; one raised its operating margin guide and is up 23%. <b>SNOW is the momentum name, RBLX is the swing, AVGO is the breakdown, and TSLA has a launch with no announced time.</b> The index has one trigger (IWM), one coil (QQQ), and <b>ISM Services at 9:00am CT</b> sitting thirty minutes into the session.",
+    "cards": [
+      [
+        "SNOW",
+        "2-2 reversal up &middot; +23.4%",
+        "g",
+        "T1",
+        "Adjusted EPS <b>$0.62 vs $0.45</b>, revenue <b>$1.55B vs $1.48B</b>. FY27 product revenue guide raised to <b>$6.07B</b> (36% growth), Q3 guide implies <b>37-38%</b> &mdash; accelerating. RPO <b>+30% y/y to $9.0B</b> with 54% converting inside twelve months. 692 net new customers, <b>32% more additions than a year ago</b>.",
+        "Premarket <b>377.51, +23.4%</b>. Wednesday was a 2 Down closing 305.84 near its 303.89 low; the gap clears Wednesday's 319.25 high and every level for two weeks.",
+        "<b>2-2 reversal up, a bullish kicker into blue sky.</b> The gap is above all recent structure, so <b>the only level is the opening range</b> &mdash; there is nothing overhead to reference until it builds some.",
+        "<b>It is a 23% gap.</b> The whole move may already be paid for. Non-GAAP operating margin expanded 400bps to 15% and the FY27 guide went to 14.5% from 13.5% &mdash; but <b>product gross margin guidance came down 100bps</b> on AI mix, and if the tape decides to read that line instead, this reverses hard.",
+        "Read-through is already live: <b>DDOG +5.9%, NOW +3.1%, NET +2.2%, CRM +1.6%</b> &mdash; the same names that sat in yesterday's AI-adjacent bleed bucket."
+      ],
+      [
+        "RBLX",
+        "2-1-2 up &middot; calls over 41.58",
+        "g",
+        "T1",
+        "Golden sweep plus unusual options flow, structured as a swing rather than a weekly. <b>RDC26 &mdash; the Roblox Developers Conference &mdash; runs Sept 10-12 at the San Jose McEnery Convention Center</b>, the venue where Roblox unveils engine upgrades, creator tools and monetization features.",
+        "Premarket <b>41.46, +0.6%</b>. 41.58 is <b>Monday 8/31's high exactly</b>, untouched for three sessions.",
+        "<b>2-1-2 continuation, already triggered.</b> 8/31 was a 2 Up on 19.6M shares &mdash; more than double the prior week's pace. 9/1 went inside it. 9/2 took Tuesday's 40.99 high and <b>closed 41.21 at its 41.28 high</b>. It is coiled one tick under the swing high, not reaching for it.",
+        "Three sessions have now failed to take 41.58. A fourth failure turns the shelf into a top rather than a base, and the 9/2 candle would become the high of a lower-high sequence.",
+        "<b>Contract selection from the sweep:</b> 9/18 <b>42.5C / 45C</b>, 9/25 <b>43C / 45C</b>. Both legs sit past RDC26 on purpose &mdash; a 9/11 weekly would expire on day two of the conference and never see the follow-through. Added to the catalyst calendar."
+      ],
+      [
+        "AVGO",
+        "Inside-day break down &middot; &minus;3.4%",
+        "r",
+        "T1",
+        "Beat: Q3 revenue <b>$29.59B</b>, adjusted EPS <b>$3.32</b>. Sold on the guide: Q4 revenue <b>$34.8B vs $35.03B</b> and Q4 non-GAAP operating margin <b>66% vs 66.5%</b>. <b>Macquarie upgraded it to Outperform this morning with a $490 target and it is still down three percent.</b>",
+        "Premarket <b>354.69, &minus;3.4%</b>. Wednesday was an inside day (371.09/364.65); premarket is below that low and below Tuesday's 362.00.",
+        "<b>1-2 down off the inside bar</b> &mdash; a clean Strat trigger through a week of structure.",
+        "<b>The move is smaller than the market paid for.</b> The 9/4 straddle implied <b>8.4%</b>; a 3.4% gap means the event was over-hedged. That is the setup for a reclaim, not a slide, and the Q4 revenue guide is still <b>+17.6% sequential</b> off the quarter just printed.",
+        "No implied-move badge on the watchlist today &mdash; the 9/4 straddle marked to Wednesday's close was earnings premium, and it was consumed overnight. Publishing it as a forward number would misread it."
+      ],
+      [
+        "TSLA",
+        "Failed 2D &middot; Cybercab launch",
+        "y",
+        "T1",
+        "<b>Cybercab launches in Austin today</b> &mdash; invite-only and livestreamed, with no announced time. That is the whole risk profile: a scheduled catalyst that can land in any hour.",
+        "Premarket <b>362.74, +1.6%</b> &mdash; the largest mover on the Mag 11 board and <b>above Tuesday's 362.70 high</b>.",
+        "Wednesday was a <b>Failed 2D</b>: broke Tuesday's 352.96 low to 349.92 and closed 357.01 back above it. Premarket clearing 362.70 turns that into a reversal with follow-through.",
+        "The 9/4 straddle implies <b>3.54%</b>, second-widest on the board. A livestream with no time attached means the move can come after any decision you have already made.",
+        ""
+      ],
+      [
+        "QQQ",
+        "Inside day &middot; ISM Services 9:00am",
+        "y",
+        "T2",
+        "The Nasdaq has gone <b>2 Down, 2 Down, inside</b> across three sessions and has not triggered in either direction.",
+        "Premarket <b>707.91, &minus;0.2%</b> &mdash; still inside Wednesday's 705.10 to 709.80 range.",
+        "<b>Over 709.80 is the 1-2 up. Under 705.10 is the 1-2 down.</b> Neither is live yet.",
+        "<b>ISM Services lands at 9:00am CT</b>, thirty minutes into the session, and is the most likely thing to resolve the coil. Taking a side before it is paying for someone else's decision.",
+        "SPY and IWM both printed 2 Ups Wednesday while QQQ went inside &mdash; <b>breadth is leading, the Nasdaq is lagging.</b>"
+      ],
+      [
+        "NTAP",
+        "Beat, margin beat, sold &minus;9.4%",
+        "r",
+        "T2",
+        "The cleanest counter-example of the week. NTAP beat by <b>$0.46</b>, guided Q2 above consensus, raised FY27 on both lines, and printed <b>non-GAAP gross margin of 70.6% against 69.7%</b> expected.",
+        "Premarket <b>163.78, &minus;9.4%</b>, well below Wednesday's 180.03 low.",
+        "Wednesday was already a <b>Failed 2U</b> &mdash; took Tuesday's 185.30 to 189.21 and closed 180.77 back under it. The gap extends that into a full 2-2 reversal down.",
+        "<b>A margin beat did not save it.</b> Deferred revenue came in at $4.85B against $4.86B &mdash; a ten-million-dollar miss on the forward-bookings line, on a quarter that beat everywhere else.",
+        "HPE is the same shape and less extreme: beat by $0.18, guided Q4 and FY26 above, and is <b>&minus;5.1%</b> on FY27 earnings growth guidance of 16-20% against 18.7% consensus. Wednesday's Failed 2D is failing."
+      ],
+      [
+        "CRWD",
+        "Investor briefing this afternoon",
+        "y",
+        "T2",
+        "The briefing is today, afternoon, time not announced. Carrying yesterday's read forward because it played out: <b>CRWD fell 6.0% Wednesday</b> (215.07 to 203.42), a 2 Down, exactly the consolidation-into-the-event pattern.",
+        "Premarket <b>207.95, +2.2%</b> &mdash; recovering part of it into the day.",
+        "The 12% two-day slide off Monday's 233.88 high is the consolidation. <b>The move usually lands in the two sessions after the briefing</b>, not on the day.",
+        "Those two sessions are <b>Fri 9/4 and Tue 9/8</b>, because Labor Day removes Monday 9/7. <b>A 9/4 contract expires at the close of day one and never sees the second day.</b>",
+        "<b>Next week's contracts are the safer expression</b> &mdash; 9/11 weeklies exist and cover both sessions of the window."
+      ],
+      [
+        "XLE",
+        "Energy bid with no headline",
+        "g",
+        "T2",
+        "<b>WTI +2.2% to $93.01; Brent pushing $100.</b> The U.S. escorted <b>40 commercial vessels carrying 18 million barrels</b> through the Strait of Hormuz Tuesday and expects to continue offensive strikes near the waterway. Kuwait's army confronted Iranian missile and drone attacks.",
+        "XLE premarket <b>65.49, +0.6%</b>, after a 2 Up close at 65.10. OXY +0.8%, XOM +0.7%, SLB +0.7%, CVX +0.6%.",
+        "XLE <b>2 Up</b>; <b>CVX 2 Up and higher three sessions running</b> off its 9/1 2-2-2; XOM a Failed 2U; SLB a Failed 2D now bid.",
+        "<b>The bid has no headline behind it.</b> Trump has zero on-camera events today and Reuters reports his advisors are pushing to keep the Iran war quiet into the midterms. Oil moving while nobody talks is positioning, and positioning unwinds faster than news.",
+        "Gold is riding the same trade &mdash; futures <b>+1.7% to $4,487.40</b>, GDX +1.9%, GLD +1.2% after a 2 Up Wednesday."
+      ]
+    ]
+  },
+  "thisweek": [
+    {
+      "day": "MON 8/31",
+      "tag": "DONE",
+      "accent": "done",
+      "econ": [
+        [
+          "&mdash;",
+          "Quiet docket. Energy the only green sector, XLE +2.00%"
+        ]
+      ],
+      "earnings": [
+        [
+          "SAIC",
+          "AM &middot; done"
+        ]
+      ],
+      "events": [
+        [
+          "MSCI",
+          "Done",
+          "SNDK, CRS and ATI added to the World Index at the close"
+        ],
+        [
+          "CRWD",
+          "Done",
+          "Fal.Con opened &mdash; stock closed +5.79%"
+        ]
+      ]
+    },
+    {
+      "day": "TUE 9/1",
+      "tag": "DONE &middot; 5 PRINTS",
+      "accent": "done",
+      "econ": [
+        [
+          "9:00am",
+          "ISM Manufacturing and JOLTS &mdash; done"
+        ]
+      ],
+      "earnings": [
+        [
+          "MDT",
+          "AM &middot; beat, faded"
+        ],
+        [
+          "DELL",
+          "PM &middot; blowout"
+        ],
+        [
+          "GTLB",
+          "PM &middot; margin beat"
+        ],
+        [
+          "MDB",
+          "PM &middot; sold"
+        ],
+        [
+          "CRDO",
+          "PM &middot; sold"
+        ]
+      ],
+      "events": [
+        [
+          "AAPL",
+          "Done",
+          "Ternus day one &mdash; closed +2.61%"
+        ],
+        [
+          "CVX",
+          "Done",
+          "Completed the 2-2-2 up, closed 211.05 at its high"
+        ]
+      ]
+    },
+    {
+      "day": "WED 9/2",
+      "tag": "DONE &middot; 5 PRINTS",
+      "accent": "done",
+      "econ": [
+        [
+          "7:15am",
+          "ADP private payrolls &mdash; done"
+        ],
+        [
+          "1:00pm",
+          "Fed Beige Book &mdash; done"
+        ]
+      ],
+      "earnings": [
+        [
+          "AVGO",
+          "PM &middot; beat, &minus;3.4%"
+        ],
+        [
+          "SNOW",
+          "PM &middot; beat, +23.4%"
+        ],
+        [
+          "HPE",
+          "PM &middot; beat, &minus;5.1%"
+        ],
+        [
+          "NTAP",
+          "PM &middot; beat, &minus;9.4%"
+        ],
+        [
+          "FIVE",
+          "PM &middot; beat, +5.7%"
+        ]
+      ],
+      "events": [
+        [
+          "DELL",
+          "Done",
+          "Ran to 497.99, closed 492.20 &mdash; the $474 trigger cleared"
+        ],
+        [
+          "AAPL",
+          "Done",
+          "Took 327.30 to 328.40 and closed 324.96 &mdash; Failed 2U"
+        ]
+      ]
+    },
+    {
+      "day": "THU 9/3",
+      "tag": "TODAY &middot; CYBERCAB &middot; ISM",
+      "accent": "next",
+      "econ": [
+        [
+          "7:30am",
+          "<b>Jobless claims</b>; Q2 productivity and unit labor costs; July trade balance"
+        ],
+        [
+          "7:30am",
+          "Fed Governor Waller &mdash; Reuters NEXT"
+        ],
+        [
+          "8:45am",
+          "S&amp;P Global US Services PMI &mdash; final"
+        ],
+        [
+          "9:00am",
+          "<b>ISM Services (Aug)</b> &mdash; 30 min after the open"
+        ]
+      ],
+      "earnings": [
+        [
+          "LULU",
+          "PM"
+        ],
+        [
+          "ZS",
+          "PM"
+        ],
+        [
+          "DOCU",
+          "PM"
+        ],
+        [
+          "CIEN",
+          "AM &middot; beat, gap gone"
+        ]
+      ],
+      "events": [
+        [
+          "TSLA",
+          "TBA",
+          "<b>Cybercab launch, Austin</b> &mdash; invite-only, livestreamed"
+        ],
+        [
+          "CRWD",
+          "PM",
+          "Investor briefing &mdash; move usually lands Fri 9/4 and Tue 9/8"
+        ],
+        [
+          "POTUS",
+          "12:00pm",
+          "VP Vance press briefing &mdash; the only on-camera event today"
+        ]
+      ]
+    },
+    {
+      "day": "FRI 9/4",
+      "tag": "PAYROLLS",
+      "accent": "macro",
+      "econ": [
+        [
+          "7:30am",
+          "<b>August employment report</b> &mdash; consensus ~+25k, unemployment near 4.1%, after July shed ~23k. Last labor read before a live-hike September FOMC"
+        ]
+      ],
+      "earnings": [],
+      "events": [
+        [
+          "CRWD",
+          "Day 1",
+          "First of the two sessions after the briefing"
+        ]
+      ]
+    },
+    {
+      "day": "MON 9/7",
+      "tag": "CLOSED",
+      "accent": "macro",
+      "econ": [
+        [
+          "&mdash;",
+          "Labor Day &mdash; U.S. markets closed"
+        ]
+      ],
+      "earnings": [],
+      "events": [
+        [
+          "CRWD",
+          "Skipped",
+          "Holiday pushes day 2 of the window to Tue 9/8"
+        ],
+        [
+          "NVS",
+          "Tue 9/8",
+          "Second conference of the run"
+        ]
+      ]
+    },
+    {
+      "day": "THU 9/10",
+      "tag": "RDC26",
+      "accent": "macro",
+      "econ": [],
+      "earnings": [],
+      "events": [
+        [
+          "RBLX",
+          "9/10-12",
+          "<b>RDC26, San Jose</b> &mdash; both sweep legs expire past it"
+        ]
+      ]
+    },
+    {
+      "day": "WED 9/16",
+      "tag": "FOMC DECISION",
+      "accent": "macro",
+      "econ": [
+        [
+          "TBA",
+          "<b>September FOMC decision</b> &mdash; market pricing a live hike after Warsh's Jackson Hole keynote"
+        ]
+      ],
+      "earnings": [],
+      "events": []
+    }
+  ],
+  "charts": [
+    [
+      "SNOW",
+      "charts/SNOW_2026-09-03.png",
+      "2 Down &rarr; +23.4% kicker"
+    ],
+    [
+      "AVGO",
+      "charts/AVGO_2026-09-03.png",
+      "Inside day &middot; breaking down"
+    ],
+    [
+      "QQQ",
+      "charts/QQQ_2026-09-03.png",
+      "Inside &middot; still no trigger"
+    ],
+    [
+      "IWM",
+      "charts/IWM_2026-09-03.png",
+      "2 Up, closed at the high"
+    ],
+    [
+      "RBLX",
+      "charts/RBLX_2026-09-03.png",
+      "2-1-2 &middot; under 41.58"
+    ]
+  ],
+  "charts_note": "SWIPE &#8594;",
+  "trump": {
+    "stamp": "PREMARKET 7:45AM CT",
+    "groups": [
+      [
+        "RAISED THE GUIDE &mdash; PAID",
+        [
+          [
+            "SNOW",
+            23.43
+          ],
+          [
+            "WOOF",
+            15.59
+          ],
+          [
+            "AGX",
+            6.5
+          ],
+          [
+            "FIVE",
+            5.73
+          ]
+        ]
+      ],
+      [
+        "BEAT, SOFT GUIDE &mdash; SOLD",
+        [
+          [
+            "NTAP",
+            -9.4
+          ],
+          [
+            "CPB",
+            -6.48
+          ],
+          [
+            "HPE",
+            -5.11
+          ],
+          [
+            "AVGO",
+            -3.42
+          ],
+          [
+            "CIEN",
+            -0.05
+          ]
+        ]
+      ],
+      [
+        "SOFTWARE READ-THROUGH",
+        [
+          [
+            "DDOG",
+            5.91
+          ],
+          [
+            "NOW",
+            3.11
+          ],
+          [
+            "NET",
+            2.24
+          ],
+          [
+            "CRWD",
+            2.23
+          ],
+          [
+            "CRM",
+            1.58
+          ]
+        ]
+      ],
+      [
+        "ENERGY &mdash; WTI +2.2% TO $93.01",
+        [
+          [
+            "OXY",
+            0.76
+          ],
+          [
+            "XOM",
+            0.68
+          ],
+          [
+            "SLB",
+            0.65
+          ],
+          [
+            "XLE",
+            0.6
+          ],
+          [
+            "CVX",
+            0.6
+          ]
+        ]
+      ],
+      [
+        "GOLD &mdash; FUTURES +1.7%",
+        [
+          [
+            "GDX",
+            1.85
+          ],
+          [
+            "GLD",
+            1.23
+          ]
+        ]
+      ]
+    ]
+  },
+  "strat": {
+    "stamp": "WEDNESDAY 9/2 CLOSE &amp; CANDLE",
+    "rows": [
+      [
+        "SNOW",
+        "T1",
+        "g",
+        "2-2 reversal up &#128293;",
+        "g",
+        "Wednesday was a 2 Down closing 305.84 near its 303.89 low. The print gaps it to 377.51 &mdash; above Wednesday's high and above two weeks of structure.",
+        "pre 377.51 &middot; <b>+23.4%</b> &middot; Wed H 319.25 / L 303.89",
+        "<b>No overhead level</b> &mdash; the opening range is the level.",
+        "Gross margin guide cut 100bps; operating margin guide raised to 14.5%."
+      ],
+      [
+        "RBLX",
+        "T1",
+        "g",
+        "2-1-2 up",
+        "g",
+        "2 Up 8/31 on 19.6M shares, inside 9/1, 2 Up 9/2 closing 41.21 at its 41.28 high. Continuation already triggered.",
+        "pre 41.46 &middot; <b>+0.6%</b> &middot; Wed H 41.28 / L 39.37",
+        "<b>Calls over 41.58</b> &mdash; Monday 8/31's high, exactly.",
+        "9/18 42.5C/45C, 9/25 43C/45C. RDC26 is 9/10-12."
+      ],
+      [
+        "AVGO",
+        "T1",
+        "r",
+        "1-2 down",
+        "r",
+        "Wednesday inside Tuesday. Premarket breaks below both &mdash; a clean inside-day breakdown through a week of structure.",
+        "pre 354.69 &middot; <b>&minus;3.4%</b> &middot; Wed H 371.09 / L 364.65",
+        "<b>Under 364.65</b> triggered premarket.",
+        "8.4% was implied; 3.4% delivered. Macquarie upgrade, $490."
+      ],
+      [
+        "TSLA",
+        "T1",
+        "y",
+        "Failed 2D &rarr; reversal",
+        "g",
+        "Broke Tuesday's 352.96 low to 349.92 and closed 357.01 back above. Premarket clears Tuesday's 362.70 high.",
+        "pre 362.74 &middot; <b>+1.6%</b> &middot; Wed H 360.62 / L 349.92",
+        "<b>Over 362.70</b> confirms the reversal.",
+        "Cybercab launch today, Austin. No announced time."
+      ],
+      [
+        "QQQ",
+        "T2",
+        "y",
+        "Inside (1)",
+        "y",
+        "2 Down, 2 Down, then inside. No trigger in either direction, and premarket is still inside the range.",
+        "pre 707.91 &middot; <b>&minus;0.2%</b> &middot; Wed H 709.80 / L 705.10",
+        "<b>Over 709.80 / under 705.10.</b>",
+        "ISM Services at 9:00am CT is the likely resolver."
+      ],
+      [
+        "IWM",
+        "T2",
+        "g",
+        "2 Up at the high",
+        "g",
+        "Three straight 2 Downs into 9/1, then took 292.94 and closed 294.01 at its 294.35 high. The reversal has not been given back.",
+        "pre 293.94 &middot; <b>&minus;0.0%</b> &middot; Wed H 294.35 / L 291.19",
+        "<b>Over 294.35</b> continues it.",
+        "10-year 4.77%, down 3bps &mdash; the tailwind."
+      ],
+      [
+        "NTAP",
+        "T2",
+        "r",
+        "Failed 2U &rarr; 2-2 down",
+        "r",
+        "Took Tuesday's 185.30 to 189.21 and closed 180.77 back under it. The gap extends the failure well below Wednesday's low.",
+        "pre 163.78 &middot; <b>&minus;9.4%</b> &middot; Wed H 189.21 / L 180.03",
+        "Already through <b>180.03</b>.",
+        "Gross margin beat 70.6% vs 69.7%. Deferred revenue missed by $10M."
+      ],
+      [
+        "XLE",
+        "T2",
+        "g",
+        "2 Up",
+        "g",
+        "Took Tuesday's 64.95 high and closed 65.10 near its 65.34 high. The whole complex is bid premarket on the Hormuz escalation.",
+        "pre 65.49 &middot; <b>+0.6%</b> &middot; Wed H 65.34 / L 64.25",
+        "<b>Over 65.34</b> continues.",
+        "CVX up three straight. WTI $93.01, Brent near $100."
+      ]
+    ]
+  },
+  "gappers": {
+    "bull": [
+      [
+        "SNOW",
+        23.43,
+        "Adjusted EPS <b>$0.62 vs $0.45</b>, revenue $1.55B vs $1.48B. FY27 product revenue guide to <b>$6.07B</b>, RPO <b>+30% to $9.0B</b>, and <b>FY27 operating margin guidance raised to 14.5% from 13.5%</b>. Product gross margin guide came <i>down</i> 100bps on AI mix and it did not matter."
+      ],
+      [
+        "WOOF",
+        15.59,
+        "Adjusted EBITDA margin <b>8.2% against 7.4%</b> consensus. Ex the tariff benefit it was 7.7% &mdash; still a beat. Another margin-line win."
+      ],
+      [
+        "AGX",
+        6.5,
+        "EPS <b>$3.76 vs $2.64</b> and revenue <b>$384M vs $300.5M</b>. The rare case where the quarter was large enough to carry it on its own."
+      ],
+      [
+        "DDOG",
+        5.91,
+        "No news of its own &mdash; pure SNOW read-through. It was in yesterday's AI-adjacent bleed bucket at &minus;3.3%."
+      ],
+      [
+        "FIVE",
+        5.73,
+        "EPS <b>$1.68 vs $1.40</b>, revenue $1.26B vs $1.22B, comps <b>+14.1%</b>, FY27 EPS/revenue/comps guidance all raised, plus a <b>$600M</b> buyback."
+      ],
+      [
+        "NOW",
+        3.11,
+        "Software complex lifting with SNOW."
+      ],
+      [
+        "CRWD",
+        2.23,
+        "Recovering part of Wednesday's 6.0% slide into this afternoon's investor briefing."
+      ]
+    ],
+    "bear": [
+      [
+        "RARE",
+        -46.63,
+        "Phase 3 Aspire <b>missed its primary and key secondary endpoints</b> in Angelman syndrome. Four downgrades this morning &mdash; Wells Fargo, JPMorgan, Baird and Evercore, targets between $16 and $36."
+      ],
+      [
+        "NTAP",
+        -9.4,
+        "Beat by <b>$0.46</b>, guided above, raised FY27, and beat on gross margin at <b>70.6% vs 69.7%</b>. Sold on <b>deferred revenue $4.85B against $4.86B</b> &mdash; a $10M miss on forward bookings."
+      ],
+      [
+        "CPB",
+        -6.48,
+        "In-line on both lines, then guided FY27 EPS to <b>$1.65-1.80 against $1.83</b> consensus, forecast a wider revenue contraction, and <b>cut the dividend 36%</b>."
+      ],
+      [
+        "HPE",
+        -5.11,
+        "Beat by $0.18 and guided Q4 and FY26 above &mdash; but FY27 earnings growth of <b>16-20% against 18.7%</b> consensus. Cash flow at least $5B vs the Street's $4.79B."
+      ],
+      [
+        "AVGO",
+        -3.42,
+        "Revenue $29.59B and adjusted EPS $3.32, both beats. Q4 revenue guided to <b>$34.8B vs $35.03B</b> and Q4 operating margin to <b>66% vs 66.5%</b>. Upgraded to Outperform at Macquarie, $490 target, this morning."
+      ],
+      [
+        "MRNA",
+        -2.93,
+        "Downgraded to Sell at Rothschild &amp; Co Redburn, target <b>$81</b> &mdash; the firm called it overvalued after the melanoma cancer-vaccine surge."
+      ],
+      [
+        "CIEN",
+        -0.05,
+        "Beat by <b>$0.38</b> and guided Q4 revenue above consensus. Gapped up 1.8% and <b>has already given all of it back</b>."
+      ]
+    ]
+  },
+  "darkpool": {
+    "note": "<b>FlowMS has not arrived yet this morning.</b> Wednesday's board read <b>SPY $6.7B cumulative bid</b> and <b>NVDA $4.9B bid</b> against <b>MU $4.4B ask</b> and <b>SNDK $3.1B ask</b> &mdash; institutions bought the index and the GPU and sold the memory complex. Wednesday's tape agreed with the first half of that: NVDA closed <b>+3.21%</b> on a 2 Up. This section updates when today's letter lands.",
+    "right_note": "AWAITING TODAY'S LETTER",
+    "dim": true,
+    "chips": []
+  },
+  "tts": [
+    {
+      "label": "Premarket",
+      "text": "Thursday September third, premarket. Five more companies beat last night and four of them are being sold. What the market is paying for is the guide, not the quarter. Broadcom beat on both lines and is down three and a half percent, because it guided fourth quarter revenue to thirty four point eight billion against thirty five point zero three, and fourth quarter operating margin to sixty six percent against sixty six and a half. NetApp beat by forty six cents, guided above, raised the full year, and beat on gross margin at seventy point six against sixty nine point seven, and it is down nine percent on a ten million dollar miss in deferred revenue. Hewlett Packard Enterprise beat by eighteen cents and is down five, on fiscal twenty seven earnings growth guidance of sixteen to twenty percent against eighteen point seven expected. Snowflake is the exception, up twenty three percent, and the reason is precise. Snowflake cut its gross margin guide by a hundred basis points and gained twenty three percent. Broadcom cut its operating margin guide by fifty basis points and lost three. The market is paying for operating leverage and forgiving the cost of getting it."
+    },
+    {
+      "label": "Movers",
+      "text": "Snowflake up twenty three point four, and it is pulling the whole software complex with it. Datadog up five point nine, ServiceNow up three point one, Cloudflare up two point two, Salesforce up one point six. Those same names sat in yesterday's A I adjacent bleed bucket. On the other side, NetApp down nine point four, Campbell's down six and a half after cutting its dividend thirty six percent, Hewlett Packard Enterprise down five point one, Broadcom down three point four. Ultragenyx is down forty six and a half percent after its Phase three Angelman trial missed both its primary and key secondary endpoints, and it has taken four downgrades this morning. Energy is bid across the board with W T I up two point two percent to ninety three dollars and one cent, and gold futures up one point seven to forty four eighty seven."
+    },
+    {
+      "label": "Plan",
+      "text": "The index split three ways yesterday and only one of them has a trigger. S P Y printed a two up. Russell printed a two up and closed at its high, its first up day after three straight two downs. And the Q's went inside, no trigger, and they are still inside this morning. Breadth is leading and the Nasdaq is coiled. Over seven oh nine point eight is the one two up, under seven oh five point one is the one two down, and I S M Services at nine A M Central is the most likely thing to pick. Roblox is the swing. Forty one fifty eight is Monday's high to the penny, untouched for three sessions, and the daily reads two up, inside, two up. That continuation has already triggered and it is sitting one tick under the swing high. R D C twenty six runs September tenth through twelfth in San Jose, which is why the sweep bought the eighteenth and the twenty fifth and not a weekly. And Tesla launches Cybercab in Austin today, invite only and livestreamed with no announced time, up one point six percent premarket and above Tuesday's high."
+    }
+  ]
+}
