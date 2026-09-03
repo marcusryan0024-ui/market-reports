@@ -1,0 +1,416 @@
+{
+ "title": "August 31 - September 4, 2026",
+ "range": "MONDAY AUG 31 &ndash; FRIDAY SEP 4, 2026",
+ "published": "PUBLISHED SUNDAY AUG 30",
+ "lede": "<strong>Jobs week, and the chips report into it.</strong> Payrolls Friday 7:30am, ISM either side. Four reports land together Tuesday night. Apple changes CEO Tuesday, Tesla launches Cybercab Thursday. <strong>Labor Day is Sept 7</strong> &mdash; all five sessions open.",
+ "heroes": [
+  {
+   "cls": "gold",
+   "rank": "BIGGEST CATALYST OF THE WEEK",
+   "title": "WED 9/2 &mdash; AVGO, COST &amp; CRWD",
+   "when": "ONE SESSION &middot; THREE CATALYSTS",
+   "why": "<strong>AVGO</strong> post-close, consensus $3.16 &mdash; weakest large semi all month, closed 371.54, carrying the AI-financing question that widened its bond yields in August. <strong>COST August sales 3:15pm</strong>, July was $23.12B +10.7%. <strong>CRWD investor day</strong> during the session. Two land fifteen minutes apart."
+  },
+  {
+   "cls": "",
+   "rank": "MACRO EVENT OF THE WEEK",
+   "title": "August Employment Report",
+   "when": "FRI 9/4 &middot; 7:30am CT",
+   "why": "Consensus <strong>+55k, 4.2% unemployment, 0.2% wages</strong>. Core PCE stuck at 3.3% with a third of the bond market pricing a September hike &mdash; hot and soft point at different Septembers. ISM Tuesday and Thursday bracket it."
+  },
+  {
+   "cls": "",
+   "rank": "THE EVENT NOBODY HAS PRICED",
+   "title": "TSLA &mdash; Cybercab Launch",
+   "when": "THU 9/3 &middot; Austin, TX &middot; time TBA",
+   "why": "Public robotaxi launch, invite-only with livestream. No steering wheel, no pedals; riders may hail one through Tesla's existing app. On the calendar all year without a date until now. Nevada approved the permit 8/21 and the stock ran ~5% on 2x volume."
+  }
+ ],
+ "days": [
+  {
+   "name": "MON 8/31",
+   "big": false,
+   "note": "Month-end. Two conferences open, both belonging to Wednesday's reporters.",
+   "econ": [
+    [
+     "All day",
+     "Fed monthly G.20 Finance Companies release &mdash; volume and composition of loans and leases held by US finance companies"
+    ]
+   ],
+   "earnings": [
+    [
+     "SAIC",
+     "AM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "CRWD &middot; 3-day",
+     "<strong>Fal.Con opens.</strong> Investor briefing Wednesday."
+    ],
+    [
+     "AVGO &middot; 3-day",
+     "<strong>VMware Explore opens.</strong>"
+    ],
+    [
+     "MSCI &middot; close",
+     "<strong>SNDK, CRS, ATI join the MSCI World Index.</strong> Mechanical buying, fixed date.",
+     true
+    ],
+    [
+     "2:00-3:00pm",
+     "Month-end rebalancing. Late volume spike carries no direction."
+    ],
+    [
+     "Ex-div",
+     "NKE, MCD, NOC, QCOM this week."
+    ]
+   ]
+  },
+  {
+   "name": "TUE 9/1",
+   "big": true,
+   "note": "Four reports one night. Apple changes CEO.",
+   "econ": [
+    [
+     "9:00am",
+     "<strong>ISM Manufacturing PMI (Aug)</strong> &mdash; expected to show another month of expansion"
+    ]
+   ],
+   "earnings": [
+    [
+     "PANW",
+     "PM",
+     "lead"
+    ],
+    [
+     "DELL",
+     "PM",
+     "lead"
+    ],
+    [
+     "MDB",
+     "PM",
+     true
+    ],
+    [
+     "CRDO",
+     "PM",
+     true
+    ],
+    [
+     "MDT",
+     "AM",
+     true
+    ],
+    [
+     "GTLB",
+     "PM",
+     false
+    ],
+    [
+     "NIO",
+     "AM",
+     false
+    ],
+    [
+     "VRNT",
+     "PM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "AAPL &middot; effective",
+     "<strong>Ternus replaces Cook</strong>, who moves to executive chairman. First change since 2011.",
+     true
+    ],
+    [
+     "DELL &middot; PM",
+     "<b>10% swing implied.</b>",
+     true
+    ],
+    [
+     "PANW &middot; PM",
+     "<b>+112% YTD</b>, near a <b>$396</b> high. Options <b>73% calls at 5x</b> normal."
+    ],
+    [
+     "G20 &middot; 2-day",
+     "<b>Musk, Altman, Huang</b> on one stage, North Carolina."
+    ],
+    [
+     "Also",
+     "CRDO double-digit implied; EV deliveries NIO/XPEV/LI/BYDDF; BIDU dual listing effective; <b>UAV Expo opens</b> (AMZN Prime Air, DJI, OUST); <b>KTB Helly Hansen investor day</b>."
+    ]
+   ]
+  },
+  {
+   "name": "WED 9/2",
+   "big": true,
+   "note": "The day. AVGO and COST post-close, CRWD during, ADP and JOLTS in the morning.",
+   "econ": [
+    [
+     "7:15am",
+     "ADP National Employment Report (Aug)"
+    ],
+    [
+     "9:00am",
+     "JOLTS Job Openings (Jul) &mdash; consensus ~7.39M, from 7.36M"
+    ]
+   ],
+   "earnings": [
+    [
+     "AVGO",
+     "PM",
+     "lead"
+    ],
+    [
+     "SNOW",
+     "PM",
+     true
+    ],
+    [
+     "HPE",
+     "PM",
+     true
+    ],
+    [
+     "NTAP",
+     "PM",
+     true
+    ],
+    [
+     "FIVE",
+     "PM",
+     false
+    ],
+    [
+     "PVH",
+     "PM",
+     false
+    ],
+    [
+     "GOLD",
+     "PM",
+     false
+    ],
+    [
+     "AI",
+     "PM",
+     false
+    ],
+    [
+     "OLLI",
+     "AM",
+     false
+    ],
+    [
+     "AGX",
+     "PM",
+     false
+    ],
+    [
+     "BF.B",
+     "AM",
+     false
+    ],
+    [
+     "CXM",
+     "AM",
+     false
+    ],
+    [
+     "GIII",
+     "AM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "CRWD &middot; TBA",
+     "<strong>Investor briefing inside Fal.Con.</strong> No start time published. Prep's main focus &mdash; possible CPW at EOD, wait on the JR signal.",
+     true
+    ],
+    [
+     "COST &middot; 3:15pm",
+     "<strong>August sales</strong>, post-close, confirmed on Costco IR. July <b>$23.12B, +10.7%</b>.",
+     true
+    ],
+    [
+     "HPE &middot; PM",
+     "Same night as AVGO."
+    ]
+   ]
+  },
+  {
+   "name": "THU 9/3",
+   "big": false,
+   "note": "Claims, Waller, ISM Services, then software into payrolls.",
+   "econ": [
+    [
+     "7:30am",
+     "Initial &amp; Continuing Jobless Claims"
+    ],
+    [
+     "7:30am",
+     "<strong>Fed Governor Christopher Waller</strong> &mdash; virtual Reuters NEXT Newsmaker interview"
+    ],
+    [
+     "9:00am",
+     "<strong>ISM Services PMI (Aug)</strong>"
+    ]
+   ],
+   "earnings": [
+    [
+     "LULU",
+     "PM",
+     true
+    ],
+    [
+     "ZS",
+     "PM",
+     true
+    ],
+    [
+     "DOCU",
+     "PM",
+     true
+    ],
+    [
+     "CIEN",
+     "AM",
+     true
+    ],
+    [
+     "GWRE",
+     "PM",
+     false
+    ],
+    [
+     "AMBA",
+     "PM",
+     false
+    ],
+    [
+     "PATH",
+     "PM",
+     false
+    ],
+    [
+     "IOT",
+     "PM",
+     false
+    ],
+    [
+     "ASAN",
+     "PM",
+     false
+    ],
+    [
+     "CPB",
+     "AM",
+     false
+    ],
+    [
+     "TTC",
+     "AM",
+     false
+    ],
+    [
+     "WLY",
+     "AM",
+     false
+    ],
+    [
+     "BRC",
+     "AM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "TSLA &middot; TBA",
+     "<strong>Cybercab launch, Austin.</strong> Invite-only, livestreamed, <b>no start time announced</b>.",
+     true
+    ],
+    [
+     "ZS &middot; PM",
+     "Follows CRWD, OKTA and RBRK."
+    ],
+    [
+     "Also",
+     "<b>CIEN</b> reads through to AVGO on optical networking; double-digit implied for VSXY and PL; <b>MTCH investor event on Tinder</b>, hosted by CEO Spencer Rascoff."
+    ]
+   ]
+  },
+  {
+   "name": "FRI 9/4",
+   "big": true,
+   "note": "Payrolls 7:30am, into a three-day weekend.",
+   "econ": [
+    [
+     "7:30am",
+     "<strong>August Employment Report</strong> &mdash; consensus <strong>+55k payrolls, 4.2% unemployment, 0.2% monthly wage growth</strong>"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "7:30am",
+     "Core PCE <b>3.3%</b>, headline <b>3.7%</b>. One session to price it.",
+     true
+    ],
+    [
+     "60 days out",
+     "<strong>60 days to the election</strong> &mdash; managers start repositioning."
+    ],
+    [
+     "ACA",
+     "Votes on the CRH buyout, trading 3.2% under the $150 deal price."
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "date": "TUE 9/22",
+   "ticker": "QCOM",
+   "body": "<strong>Snapdragon Summit</strong>, Sept 22-24, Maui. Next flagship chipset plus the AI and connectivity roadmap. Multi-day, so the move can extend. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "THU 9/24",
+   "ticker": "COST",
+   "body": "<strong>Q4 FY2026 earnings.</strong> Date from a secondary aggregator, not confirmed against Costco IR. <span class=\"pill\">UNVERIFIED</span>"
+  },
+  {
+   "date": "UNDATED",
+   "ticker": "TSLA",
+   "body": "<strong>Roadster unveiling</strong>, reported to include a flying stunt. No date announced &mdash; the announcement is itself the catalyst. <span class=\"pill\">UNVERIFIED</span>"
+  },
+  {
+   "date": "UNDATED",
+   "ticker": "ANTHROPIC IPO",
+   "body": "<strong>Market-wide AI catalyst.</strong> The S-1 is the tradeable event &mdash; first public financials for a frontier lab, repricing NVDA, AMD, MU, AVGO, CRWV, NBIS. Watch EDGAR. <span class=\"pill\">UNVERIFIED</span>"
+  }
+ ],
+ "howto": [
+  [
+   "Do not read the first ten minutes Tuesday night.",
+   "Four reports land on one close. PANW carries the most positioning of the four."
+  ],
+  [
+   "Trade Intel off Dell.",
+   "19% of Intel's revenue is Dell, and INTC has followed DELL's direction <b>88% of the time</b> after these reports. A stated hit rate on a name that is not the one reporting."
+  ],
+  [
+   "Buy low expectations, not high ones.",
+   "MRVL raised both years and fell 8% at +184% YTD. Check what a name has already done before the print, not just what it prints."
+  ],
+  [
+   "Be flat by Thursday's close.",
+   "Mon-Wed is idiosyncratic, Thu-Fri is macro, and only Friday reprices the curve. An earnings position held into payrolls is a different trade than the one you opened."
+  ]
+ ],
+ "foot": "Times Central. Earnings pulled 8/30, high-market-cap filter. Payrolls and claims are fixed dates; <strong>ADP, JOLTS and ISM Services sit on conventional days &mdash; confirm before trading. Tesla and CrowdStrike have published no start times; marked TBA, not estimated.</strong> Apple's CEO change is a board-effective date, not a timed event. Labor Day is Sept 7. Catalyst Watch is catalysts.json."
+}
