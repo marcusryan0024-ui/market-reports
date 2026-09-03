@@ -1,0 +1,450 @@
+{
+ "title": "August 24-28, 2026",
+ "range": "MONDAY AUG 24 &ndash; FRIDAY AUG 28, 2026",
+ "published": "PUBLISHED MONDAY AUG 24",
+ "lede": "<strong>Read this first &mdash; the whole week points at Wednesday, and Wednesday is stacked twice.</strong> July PCE and the second estimate of Q2 GDP both land Wednesday at 7:30am CT, and then NVIDIA reports Q2 FY2027 after that same close. The Fed's preferred inflation gauge and the largest single-name print of the month inside one session. Jackson Hole then opens Thursday and runs through Saturday, with new Fed Chair Kevin Warsh delivering his first-ever keynote as Chair on <strong>Friday</strong> &mdash; not a routine reiteration of a known framework, but a first policy framing from a new Chair, landing 48 hours after the inflation print he will be asked about. Monday and Tuesday are the only quiet sessions; treat them as preparation, not opportunity.",
+ "heroes": [
+  {
+   "cls": "gold",
+   "rank": "BIGGEST CATALYST OF THE WEEK",
+   "title": "NVDA &mdash; Q2 FY2027 Earnings",
+   "when": "WED 8/26 &middot; 3:20pm results &middot; 4:00pm call",
+   "why": "Consensus $2.07. Results are expected around 3:20pm CT with the call at 4:00pm CT, and the CFO's written commentary posts immediately with the release &mdash; that document usually moves the stock before a single word is spoken on the call. This is the largest weight in the index reporting on the same day as the Fed's preferred inflation gauge, and the day before Jackson Hole opens. The whole semi complex trades off it: AMD, MU, AVGO, MRVL, ARM, SMH."
+  },
+  {
+   "cls": "",
+   "rank": "MACRO EVENT OF THE WEEK",
+   "title": "Jackson Hole &mdash; Warsh's First Keynote",
+   "when": "THU 8/27 &ndash; SAT 8/29 &middot; Warsh speaks FRI 8/28",
+   "why": "The Kansas City Fed symposium at Jackson Lake Lodge; 2026 theme is 'Financial Innovation: Implications for Payments and Policy.' This is materially bigger than a normal year because it is Kevin Warsh's first Jackson Hole as Chair &mdash; a first-ever policy framing rather than a restatement of a known one. He is widely expected to have to address inflation directly, two days after the July PCE print. Note the sequencing risk: the market gets the data first and the interpretation second."
+  },
+  {
+   "cls": "",
+   "rank": "THE DATA THAT SETS UP THE SPEECH",
+   "title": "July PCE + Q2 GDP 2nd Estimate",
+   "when": "WED 8/26 &middot; 7:30am CT",
+   "why": "Personal income, personal spending, headline and core PCE, plus the second estimate of Q2 GDP, all released together an hour before the open. Q2 growth is expected around 1.5%, a marked slowdown from the 2.1% recorded in Q1. Core PCE is the number Warsh will be asked about on Friday, so Wednesday's print is what gives his speech its content."
+  }
+ ],
+ "days": [
+  {
+   "name": "MON 8/24",
+   "big": false,
+   "note": "TODAY. Quiet by design &mdash; nothing scheduled that moves the index. Use it to build the list and size the week's risk before Wednesday.",
+   "econ": [],
+   "earnings": [
+    [
+     "PDD",
+     "AM",
+     true
+    ],
+    [
+     "XPEV",
+     "AM",
+     false
+    ],
+    [
+     "NSSC",
+     "AM",
+     false
+    ],
+    [
+     "TUYA",
+     "PM",
+     false
+    ],
+    [
+     "PICS",
+     "PM",
+     false
+    ]
+   ],
+   "events": []
+  },
+  {
+   "name": "TUE 8/25",
+   "big": false,
+   "note": "Second and last quiet session. A software and retail cluster, but no macro gate.",
+   "econ": [],
+   "earnings": [
+    [
+     "INTU",
+     "PM",
+     true
+    ],
+    [
+     "ZM",
+     "PM",
+     true
+    ],
+    [
+     "DKS",
+     "AM",
+     true
+    ],
+    [
+     "BOX",
+     "PM",
+     false
+    ],
+    [
+     "NCNO",
+     "PM",
+     false
+    ],
+    [
+     "HEI",
+     "PM",
+     false
+    ],
+    [
+     "SMTC",
+     "PM",
+     false
+    ],
+    [
+     "VIPS",
+     "AM",
+     false
+    ],
+    [
+     "BNS",
+     "AM",
+     false
+    ],
+    [
+     "BMO",
+     "AM",
+     false
+    ],
+    [
+     "BZ",
+     "AM",
+     false
+    ],
+    [
+     "QFIN",
+     "PM",
+     false
+    ],
+    [
+     "JOYY",
+     "PM",
+     false
+    ]
+   ],
+   "events": []
+  },
+  {
+   "name": "WED 8/26",
+   "big": true,
+   "note": "THE day. Inflation and GDP before the open, NVIDIA after the close, and a heavy software print list in between. Everything else this week is positioning around this session.",
+   "econ": [
+    [
+     "7:30am",
+     "<strong>PCE &amp; Core PCE (Jul)</strong> &mdash; the Fed's preferred inflation gauge, released with personal income and spending"
+    ],
+    [
+     "7:30am",
+     "<strong>Q2 GDP, second estimate</strong> &mdash; ~1.5% expected vs 2.1% in Q1"
+    ]
+   ],
+   "earnings": [
+    [
+     "NVDA",
+     "PM &middot; 3:20pm",
+     "lead"
+    ],
+    [
+     "CRM",
+     "PM",
+     true
+    ],
+    [
+     "CRWD",
+     "PM",
+     true
+    ],
+    [
+     "SNPS",
+     "PM",
+     true
+    ],
+    [
+     "HPQ",
+     "PM",
+     false
+    ],
+    [
+     "OKTA",
+     "PM",
+     false
+    ],
+    [
+     "VEEV",
+     "PM",
+     false
+    ],
+    [
+     "NTNX",
+     "PM",
+     false
+    ],
+    [
+     "A",
+     "PM",
+     false
+    ],
+    [
+     "URBN",
+     "PM",
+     false
+    ],
+    [
+     "ANF",
+     "AM",
+     false
+    ],
+    [
+     "WSM",
+     "AM",
+     false
+    ],
+    [
+     "KSS",
+     "AM",
+     false
+    ],
+    [
+     "BBWI",
+     "AM",
+     false
+    ],
+    [
+     "SJM",
+     "AM",
+     false
+    ],
+    [
+     "FL",
+     "AM",
+     false
+    ],
+    [
+     "DY",
+     "AM",
+     false
+    ],
+    [
+     "LI",
+     "AM",
+     false
+    ],
+    [
+     "PLAB",
+     "AM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "3:20pm",
+     "<strong>NVDA</strong> &mdash; CFO written commentary posts with the release, ahead of the 4:00pm call."
+    ],
+    [
+     "Watch date",
+     "<strong>AAPL</strong> &mdash; on its four-year pattern the iPhone event invitation goes out two weeks prior, making 8/26 the likely announcement. Event expected Sept 8 or 9. A watch date, not a confirmed event."
+    ]
+   ]
+  },
+  {
+   "name": "THU 8/27",
+   "big": false,
+   "note": "The morning after NVIDIA, and Jackson Hole opens. The semi complex reprices on the print while the macro event begins in the background.",
+   "econ": [
+    [
+     "7:30am",
+     "Initial &amp; Continuing Jobless Claims (week ending Aug 22)"
+    ]
+   ],
+   "earnings": [
+    [
+     "MRVL",
+     "PM",
+     "lead"
+    ],
+    [
+     "ADSK",
+     "PM",
+     true
+    ],
+    [
+     "WDAY",
+     "PM",
+     true
+    ],
+    [
+     "DG",
+     "AM",
+     true
+    ],
+    [
+     "AFRM",
+     "PM",
+     true
+    ],
+    [
+     "ULTA",
+     "PM",
+     false
+    ],
+    [
+     "DLTR",
+     "AM",
+     false
+    ],
+    [
+     "BBY",
+     "AM",
+     false
+    ],
+    [
+     "BURL",
+     "AM",
+     false
+    ],
+    [
+     "GAP",
+     "PM",
+     false
+    ],
+    [
+     "IREN",
+     "PM",
+     false
+    ],
+    [
+     "ESTC",
+     "PM",
+     false
+    ],
+    [
+     "RBRK",
+     "PM",
+     false
+    ],
+    [
+     "S",
+     "PM",
+     false
+    ],
+    [
+     "BILI",
+     "AM",
+     false
+    ],
+    [
+     "TD",
+     "AM",
+     false
+    ],
+    [
+     "RY",
+     "AM",
+     false
+    ],
+    [
+     "CM",
+     "AM",
+     false
+    ],
+    [
+     "HRL",
+     "AM",
+     false
+    ],
+    [
+     "HQY",
+     "AM",
+     false
+    ]
+   ],
+   "events": [
+    [
+     "Opens",
+     "<strong>Jackson Hole</strong>, Aug 27-29 at Jackson Lake Lodge. Theme: 'Financial Innovation: Implications for Payments and Policy.' Warsh does not speak until Friday."
+    ]
+   ]
+  },
+  {
+   "name": "FRI 8/28",
+   "big": true,
+   "note": "Warsh's first keynote as Fed Chair. A new Chair's opening policy framing, delivered two days after the inflation print, with a preliminary payrolls revision the same morning.",
+   "econ": [
+    [
+     "Morning",
+     "<strong>Chair Kevin Warsh keynote, Jackson Hole</strong> &mdash; his first as Chair. The KC Fed posts the agenda shortly before the event; the Chair has historically spoken Friday morning."
+    ],
+    [
+     "Morning",
+     "<strong>Preliminary annual payrolls revision</strong> &mdash; the benchmark revision to prior payroll counts, a third anchor for the week alongside PCE and the symposium."
+    ]
+   ],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "watch": [
+  {
+   "date": "WED 8/26",
+   "ticker": "NVDA",
+   "color": "var(--gold)",
+   "body": "<strong>Q2 FY2027 earnings.</strong> Results ~3:20pm CT, call 4:00pm CT, CFO written commentary posts immediately with the release. Stored on the standing calendar because the earnings API carries no times. Lands the day before Jackson Hole opens. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "WED 8/26",
+   "ticker": "AAPL",
+   "body": "<strong>Watch date, not the event.</strong> Apple has confirmed to retail staff that its iPhone event lands in the first half of September; on its four-year pattern the invitation goes out exactly two weeks prior, making 8/26 the likely announcement date. Event most likely Sept 8 or 9. iPhone 18 Pro, Pro Max and a first foldable expected. <span class=\"pill\">UNVERIFIED</span>"
+  },
+  {
+   "date": "THU 8/27 &ndash; SAT 8/29",
+   "ticker": "JACKSON HOLE",
+   "color": "var(--gold)",
+   "body": "<strong>Warsh's first keynote as Chair, now confirmed for Friday 8/28.</strong> Two corrections are logged against this entry: the date was briefly recorded as Aug 22 from a newsletter before the KC Fed date held, and the speaker was recorded as Powell before FlowMS issued its own correction on 8/17 naming Warsh. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "UNDATED",
+   "ticker": "TSLA",
+   "body": "<strong>New Roadster unveiling</strong>, reported to include a 'flying' stunt. Reported by The Information 8/14; Tesla has announced no date. Deliberately undated &mdash; the announcement is itself the tradeable catalyst. <span class=\"pill\">UNVERIFIED</span>"
+  },
+  {
+   "date": "UNDATED",
+   "ticker": "ANTHROPIC IPO",
+   "body": "<strong>Market-wide AI catalyst, undated on purpose.</strong> An S-1 filing is itself the tradeable event &mdash; first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing NVDA, AMD, MU, AVGO, CRWV and NBIS. Watch EDGAR, not a rumoured IPO date. <span class=\"pill\">UNVERIFIED</span>"
+  },
+  {
+   "date": "TUE 9/22",
+   "ticker": "QCOM",
+   "body": "<strong>Snapdragon Summit 2026</strong>, Sept 22-24 in Maui. Qualcomm's biggest platform showcase of the year &mdash; next flagship chipset plus the AI, connectivity and imaging roadmap. Multi-day, so the move can extend across the window. <span class=\"pill p\">VERIFIED</span>"
+  }
+ ],
+ "howto": [
+  [
+   "Wednesday is not one catalyst, it is two with a gap in between.",
+   "PCE and GDP at 7:30am CT set the tone for the session; NVDA lands after that same close. A position taken on the morning data is not a position into the earnings print, and treating them as one trade is how a good morning read gets given back at 3:20pm. Decide in advance which of the two you are actually trading."
+  ],
+  [
+   "The NVDA number that moves it is not on the call.",
+   "The CFO's written commentary posts immediately with the 3:20pm release, and it carries the segment detail and the forward guide. The 4:00pm call is where that gets explained, not where it gets revealed. If the plan is to trade the reaction, the decision window opens at the release, not at the call."
+  ],
+  [
+   "Warsh is an unknown framing, not an unknown number.",
+   "With a known Chair, Jackson Hole is a reiteration and the market prices the deviation. With a first-ever keynote there is no baseline framing to deviate from, which widens the distribution of outcomes in both directions. That is the textbook case for realising profit before a scheduled event rather than holding through it, and it is why the sequencing matters: the data comes Wednesday, the interpretation comes Friday."
+  ],
+  [
+   "Thursday's semis print into a decided tape.",
+   "MRVL, and to a lesser degree the rest of the complex, reports the morning after NVDA has already repriced the group. That is a materially different setup from reporting into an open question &mdash; the direction is largely set and the print becomes a confirmation or a divergence, both of which are cleaner to read than a coin flip."
+  ]
+ ],
+ "foot": "Times are Central. Earnings from the live earnings calendar pulled 2026-08-24 for the 8/24 window, high-market-cap filter; where a report is marked unverified upstream it is presented as tentative. Economic dates from the published week-ahead calendars &mdash; PCE, personal income/spending and the Q2 GDP second estimate are confirmed for Wednesday 8/26 at 7:30am CT, and jobless claims for Thursday. Durable goods and the final Michigan sentiment revision could not be confirmed for this week and are deliberately omitted rather than assumed. Jackson Hole dates from the Kansas City Fed; Warsh's Friday keynote confirmed from the week-ahead coverage. Catalyst Watch entries are the standing calendar in catalysts.json."
+}
