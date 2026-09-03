@@ -1,0 +1,934 @@
+{
+ "title": "Monday, August 31, 2026",
+ "kind": "premarket",
+ "watchlist": {
+  "stamp": "PREMARKET 7:56AM CT",
+  "em_label": "IMPLIED MOVE &mdash; 9/4 ATM STRADDLE, FRI CLOSE MARKS",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      294.64,
+      295.75
+     ],
+     [
+      "QQQ",
+      713.96,
+      716.43
+     ],
+     [
+      "SPY",
+      766.45,
+      769.35
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      318.96,
+      319.7
+     ],
+     [
+      "MSFT",
+      508.8,
+      513.53
+     ],
+     [
+      "NVDA",
+      218.1897,
+      217.55
+     ],
+     [
+      "GOOGL",
+      344.1,
+      346.59
+     ],
+     [
+      "AMZN",
+      264.25,
+      266.43
+     ],
+     [
+      "META",
+      579.1702,
+      578.02
+     ],
+     [
+      "TSLA",
+      345.5,
+      348.75
+     ],
+     [
+      "AMD",
+      463.99,
+      465.58
+     ],
+     [
+      "AVGO",
+      366.27,
+      368.79
+     ],
+     [
+      "INTC",
+      88.87,
+      89.47
+     ],
+     [
+      "MU",
+      926.49,
+      932.86
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "XOM",
+    159.973,
+    156.71
+   ],
+   [
+    "CVX",
+    206.55,
+    201.86
+   ],
+   [
+    "USO",
+    134.0799,
+    129.7
+   ],
+   [
+    "PCG",
+    13.77,
+    16.6
+   ],
+   [
+    "EIX",
+    59.0,
+    70.17
+   ]
+  ],
+  "em": {
+   "AVGO": 8.05,
+   "INTC": 5.71,
+   "MU": 5.54,
+   "AMD": 4.99,
+   "TSLA": 4.14,
+   "NVDA": 3.78,
+   "META": 3.68,
+   "AMZN": 3.06,
+   "MSFT": 2.68,
+   "GOOGL": 2.65,
+   "AAPL": 2.39
+  }
+ },
+ "headline": {
+  "title": "<b>Two shocks hit over the weekend, and they push opposite ways.</b> U.S. forces struck Iranian rocket launchers on <b>Larak Island near the Strait of Hormuz</b>; Iran answered with missiles on two U.S. bases in Jordan, and the White House threatened <b>Kharg Island, the terminal that moves ~90% of Iran's crude</b>. Brent is back above <b>$90</b>, WTI in the mid-$80s. Energy is the one green sector on the board: <b>USO +3.4%, HAL +2.6%, COP +2.5%, CVX +2.3%, OXY +2.2%, XOM +2.1%</b>.",
+  "summary": "The second shock is monetary and it is the bigger one. In his <b>first Jackson Hole keynote as Fed Chair, Warsh went hawkish</b> &mdash; \"the Fed's predominant focus right now should be on prices\" &mdash; with headline PCE 3.7% and core 3.3%. <b>September rate-<i>hike</i> odds jumped to ~57% from ~35%</b>, the short end popped ~8bp in a bear flattener. A hike is now the live debate, which makes Friday's payrolls the highest-stakes print of the quarter. Oil spiking into a Fed already worried about prices is the uncomfortable part. Separately, California utilities are in a second day of collapse: <b>PCG &minus;17.1%</b> after &minus;16.6% Friday on 114.4M shares, <b>EIX &minus;15.9%</b>, SRE &minus;3.6%, all cut by Mizuho."
+ },
+ "overview": "<b>Month-end with a quiet U.S. docket, so oil and the Warsh repricing set the tone.</b> Friday's Strat board has a <b>Failed 2U cluster on the index itself</b> &mdash; SPY, QQQ and VOO all broke Thursday's high and closed back under it &mdash; with <b>AVGO and SNOW failing the same way into Wednesday earnings</b>. Against that, dark pool was <b>index accumulation</b>: VOO $3.1B and SPY $2.5B cumulative, all ask-side. The signal and the flow disagree, which is the day's real tension. The 9/4 straddle prices <b>AVGO at an 8.1% move</b>, twice NVDA's 3.8%, and a <b>$2.5M AVGO $370C 9/4 sweep</b> already sits on top of it. SNDK, CRS and ATI join the MSCI World Index at the close.",
+ "setups": [
+  [
+   "T1",
+   "g",
+   "XOM",
+   "+2.1%",
+   "Failed 2D + live catalyst",
+   "The cleanest convergence on the board: a <b>Failed 2D with clustering</b> on Friday's candle, and a real overnight catalyst underneath it. Hormuz strikes put Brent over <b>$90</b>. XOM also showed up in the &le;3-print concentrated-interest group &mdash; a few large tickets, not a drip."
+  ],
+  [
+   "T1",
+   "y",
+   "SPY",
+   "&minus;0.4%",
+   "Failed 2U &mdash; index-wide",
+   "Friday took Thursday's 772.355 high to 775.30 and <b>closed 769.35, back below it</b>. The low never broke, so this is a failed upside break, not an outside day. <b>QQQ and VOO printed the identical failure</b>. Three index vehicles failing the same level on the same day is the strongest Strat signal on the board."
+  ],
+  [
+   "T1",
+   "y",
+   "AVGO",
+   "&minus;0.7%",
+   "Failed 2U + 8.1% implied + a sweep",
+   "Failed 2U with clustering, reports <b>Wednesday</b>, the 9/4 straddle prices an <b>8.1% move</b> &mdash; the highest on the board &mdash; and the largest sweep on either board was <b>$2.5M of AVGO $370C expiring 9/4</b>, sitting right on the print. Signal, vol and flow all pointing at one name."
+  ]
+ ],
+ "prep": {
+  "pill": "OUR WATCHLIST &middot; MON 8/31",
+  "lead": "&#9888; <b>No prep sheet today &mdash; this watchlist is built from the tape.</b> Ranked by convergence: a Strat setup on Friday's real candle, a live catalyst, and confirming flow. Where those three line up it is T1; where only two do it is T2.",
+  "cards": [
+   [
+    "XOM",
+    "Failed 2D &middot; energy is the only green sector",
+    "g",
+    "T1",
+    "Hormuz strikes over the weekend; White House threatening Kharg Island, ~90% of Iran's crude exports. Brent back over $90.",
+    "Premarket <b>$159.97, +2.1%</b>. Failed 2D on Friday's candle with clustering, and &le;3-print concentrated dark pool.",
+    "Holding above Friday's close with the whole complex bid &mdash; HAL +2.6%, COP +2.5%, CVX +2.3%, OXY +2.2%.",
+    "A de-escalation headline unwinds the entire premise in minutes. This is a headline trade, so it is a <b>size-down, not a size-up</b>.",
+    "The F2D setup is the one that showed real promise on untuned rules in the audit. This is that setup with a catalyst attached, which is the version worth taking."
+   ],
+   [
+    "SPY / QQQ",
+    "Failed 2U &middot; fade rallies, don't chase the gap",
+    "o",
+    "T1",
+    "Warsh hawkish Friday; September <b>hike</b> odds ~57% from ~35%. Bear flattener, short end +8bp.",
+    "SPY pre 766.45 &middot; Fri H 775.30, closed 769.35 back under Thursday's 772.355. QQQ and VOO identical.",
+    "Failure confirms below Friday's 768.31 low; the level that matters above is <b>772.355</b>.",
+    "Reclaim 772.355 and the F2U is void &mdash; and dark pool was buying index all day Friday.",
+    "<b>The conflict is the point.</b> The Strat signal says failed breakout; VOO $3.1B and SPY $2.5B ask-side cumulative says institutions accumulated into it. Let the first 30 minutes resolve which one is lying."
+   ],
+   [
+    "AVGO",
+    "Failed 2U &middot; three signals stacked",
+    "y",
+    "T1",
+    "Reports <b>Wednesday</b> after the close. VMware Explore opens today.",
+    "Premarket $366.27. Failed 2U with clustering. <b>9/4 straddle implies 8.1%</b> &mdash; highest on the board, twice NVDA's 3.8%.",
+    "The largest sweep on either board Friday was <b>$2.5M of $370C expiring 9/4</b>, directly on the print.",
+    "An 8.1% implied move means premium is expensive &mdash; you are paying for the event, not stealing it.",
+    "Setup, vol and flow converge here more than anywhere else today. But it is a <b>Wednesday</b> trade being set up on Monday, not a Monday trade."
+   ],
+   [
+    "USO / OXY",
+    "Inside day &middot; coiled on the oil catalyst",
+    "b",
+    "T2",
+    "Same Hormuz catalyst, different structure: both printed <b>Inside days</b> Friday &mdash; compression &mdash; and are now gapping.",
+    "USO pre <b>$134.08, +3.4%</b>, the biggest mover on the board. OXY +2.2%. SHEL +1.3%, also Inside.",
+    "Inside day into a gap is the textbook expansion setup: the range was compressed before the catalyst arrived.",
+    "Gapping out of an inside day means the entry is already extended. Wait for a pullback rather than paying the gap.",
+    "Structurally cleaner than XOM, but the gap has already moved it. USO is a leveraged read on the same idea."
+   ],
+   [
+    "PCG",
+    "Outside day &middot; second leg, but do not touch the knife",
+    "r",
+    "T2",
+    "Mizuho to Neutral $16, BMO to Market Perform $21. Both targets sit <b>above</b> the premarket price.",
+    "Premarket <b>$13.77, &minus;17.1%</b>. Fri outside day, closed 16.60 on <b>114.4M shares</b>, 4-6x normal. EIX &minus;15.9%.",
+    "A reclaim of Friday's 15.84 low puts it back inside the range &mdash; that is the only long worth respecting.",
+    "Two sessions, two downgrades, 4-6x volume. This is a repricing, and repricings do not bottom on day two.",
+    "<b>Listed to be watched, not traded.</b> A 17% gap with no floor and no bid is exactly the setup that punishes a good entry. Note it, size zero, revisit when it prints a real range."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/31",
+   "tag": "TODAY &middot; MONTH-END",
+   "accent": "macro",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet U.S. docket &mdash; oil and the Warsh repricing set the tone"
+    ]
+   ],
+   "earnings": [
+    [
+     "SAIC",
+     "AM"
+    ],
+    [
+     "LX",
+     "AM"
+    ],
+    [
+     "CANG",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "MSCI",
+     "At close",
+     "SNDK, CRS and ATI join the MSCI World Index &mdash; mechanical buying"
+    ],
+    [
+     "CRWD",
+     "3-day",
+     "Fal.Con opens &mdash; GOOGL, SNOW, Cognizant and CLEAR partnerships announced"
+    ],
+    [
+     "AVGO",
+     "3-day",
+     "VMware Explore opens, two days before it reports"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "FOUR PRINTS",
+   "accent": "macro",
+   "econ": [
+    [
+     "9:00am",
+     "ISM Manufacturing (Aug)"
+    ],
+    [
+     "9:00am",
+     "JOLTS (Jul)"
+    ]
+   ],
+   "earnings": [
+    [
+     "DELL",
+     "PM &middot; 10% implied"
+    ],
+    [
+     "PANW",
+     "PM"
+    ],
+    [
+     "MDB",
+     "PM"
+    ],
+    [
+     "CRDO",
+     "PM &middot; double-digit implied"
+    ],
+    [
+     "MDT",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "AAPL",
+     "Effective",
+     "John Ternus replaces Tim Cook &mdash; first CEO change since 2011"
+    ],
+    [
+     "G20",
+     "2-day",
+     "Innovation Ministerial &mdash; Musk, Altman and Huang on one stage"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "AVGO + COST + CRWD",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:15am",
+     "ADP National Employment (Aug)"
+    ]
+   ],
+   "earnings": [
+    [
+     "AVGO",
+     "PM &middot; est $3.16"
+    ],
+    [
+     "SNOW",
+     "PM"
+    ],
+    [
+     "HPE",
+     "PM"
+    ],
+    [
+     "NTAP",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "COST",
+     "3:15pm",
+     "August sales, after the close"
+    ],
+    [
+     "CRWD",
+     "TBA",
+     "Investor briefing inside Fal.Con"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "CYBERCAB",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "Jobless Claims"
+    ],
+    [
+     "7:30am",
+     "Fed Governor Waller &mdash; Reuters NEXT"
+    ],
+    [
+     "9:00am",
+     "ISM Services"
+    ]
+   ],
+   "earnings": [
+    [
+     "LULU",
+     "PM"
+    ],
+    [
+     "ZS",
+     "PM"
+    ],
+    [
+     "DOCU",
+     "PM"
+    ],
+    [
+     "CIEN",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "TSLA",
+     "TBA",
+     "Cybercab launch, Austin &mdash; invite-only, livestreamed"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS &middot; HIKE DEBATE",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August Employment Report</b> &mdash; consensus +55k, 4.2% unemployment. Last labor read before a September FOMC now pricing a live hike"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "",
+     "Next Mon",
+     "Labor Day, Sept 7 &mdash; markets closed"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "XOM",
+   "charts/XOM_2026-08-31.png",
+   "Failed 2D &middot; Brent over $90"
+  ],
+  [
+   "SPY",
+   "charts/SPY_2026-08-31.png",
+   "Failed 2U &middot; closed back under"
+  ],
+  [
+   "AVGO",
+   "charts/AVGO_2026-08-31.png",
+   "Failed 2U &middot; 8.1% implied"
+  ],
+  [
+   "PCG",
+   "charts/PCG_2026-08-31.png",
+   "Outside day &middot; 114.4M shares"
+  ],
+  [
+   "EIX",
+   "charts/EIX_2026-08-31.png",
+   "Outside day &middot; &minus;15.9%"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:56AM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; HORMUZ",
+    [
+     [
+      "USO",
+      3.38
+     ],
+     [
+      "HAL",
+      2.55
+     ],
+     [
+      "COP",
+      2.45
+     ],
+     [
+      "CVX",
+      2.32
+     ],
+     [
+      "OXY",
+      2.17
+     ],
+     [
+      "XOM",
+      2.08
+     ],
+     [
+      "XLE",
+      1.71
+     ]
+    ]
+   ],
+   [
+    "CA UTILITIES",
+    [
+     [
+      "PCG",
+      -17.05
+     ],
+     [
+      "EIX",
+      -15.92
+     ],
+     [
+      "SRE",
+      -3.63
+     ],
+     [
+      "XLU",
+      -1.33
+     ]
+    ]
+   ],
+   [
+    "INDEX &mdash; FAILED 2U",
+    [
+     [
+      "SPY",
+      -0.38
+     ],
+     [
+      "QQQ",
+      -0.34
+     ],
+     [
+      "IWM",
+      -0.38
+     ]
+    ]
+   ],
+   [
+    "REPORTS THIS WEEK",
+    [
+     [
+      "AVGO",
+      -0.68
+     ],
+     [
+      "SNOW",
+      -0.61
+     ],
+     [
+      "DELL",
+      -0.19
+     ],
+     [
+      "PANW",
+      -0.56
+     ]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     [
+      "META",
+      0.2
+     ],
+     [
+      "NVDA",
+      0.29
+     ],
+     [
+      "AAPL",
+      -0.23
+     ],
+     [
+      "GOOGL",
+      -0.72
+     ],
+     [
+      "MSFT",
+      -0.92
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 8/28 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "XOM",
+    "T1",
+    "g",
+    "Failed 2D &#128293;",
+    "g",
+    "Clustering tag, plus &le;3-print concentrated dark pool. Hormuz strikes are the catalyst underneath it.",
+    "pre 159.97 &middot; +2.1%",
+    "Whole complex bid &mdash; HAL, COP, CVX, OXY all +2% or better.",
+    "A de-escalation headline unwinds the premise."
+   ],
+   [
+    "SPY",
+    "T1",
+    "y",
+    "Failed 2U &#128293;",
+    "o",
+    "Took Thursday's 772.355 high to 775.30 and closed 769.35 back under it. The low held, so this is a failed break, not an outside day.",
+    "pre 766.45 &middot; Fri H 775.30 / L 768.31 / C 769.35",
+    "Reclaim 772.355 and it is void.",
+    "QQQ and VOO printed the identical failure."
+   ],
+   [
+    "QQQ",
+    "T1",
+    "y",
+    "Failed 2U &#128293;",
+    "o",
+    "Same shape. Took Thursday's 721.35 high to 724.125, closed 716.43 under it.",
+    "pre 713.96 &middot; Fri H 724.125 / L 715.085",
+    "Reclaim 721.35.",
+    "Three index vehicles failing the same way on the same day."
+   ],
+   [
+    "AVGO",
+    "T1",
+    "y",
+    "Failed 2U &#128293; ER",
+    "y",
+    "Reports Wednesday. 9/4 straddle implies <b>8.1%</b>, highest on the board. Largest sweep on either board was $2.5M of $370C expiring 9/4.",
+    "pre 366.27 &middot; EM &plusmn;8.1%",
+    "Setup, vol and flow all converge.",
+    "Premium is expensive &mdash; you pay for the event."
+   ],
+   [
+    "PCG",
+    "T1",
+    "y",
+    "Outside day &middot; 2nd leg",
+    "r",
+    "Took Thursday's high and low both, closed 16.60 on 114.4M shares. Premarket $2.07 under the outside-bar low.",
+    "pre 13.77 &middot; Fri H 18.35 / L 15.84",
+    "Reclaim 15.84 to re-enter Friday.",
+    "Watch it. Do not trade it on day two of a repricing."
+   ],
+   [
+    "MU",
+    "T2",
+    "mute",
+    "Inside day &#128293;",
+    "b",
+    "Clustering tag on an inside day &mdash; compression with no catalyst attached yet.",
+    "pre 926.49 &middot; &minus;0.7% &middot; EM &plusmn;5.5%",
+    "Expansion out of the coil is the trade.",
+    "Direction unresolved &mdash; wait for the break, don't predict it."
+   ],
+   [
+    "USO",
+    "T2",
+    "mute",
+    "Inside day",
+    "g",
+    "Inside day into the Hormuz gap &mdash; compression, then catalyst. OXY and SHEL printed the same.",
+    "pre 134.08 &middot; <b>+3.4%</b>, biggest mover on the board",
+    "Textbook expansion setup.",
+    "Already gapped &mdash; the entry is extended."
+   ],
+   [
+    "NVDA",
+    "T2",
+    "mute",
+    "2 Down",
+    "o",
+    "Took Thursday's 220.90 low without its 230.47 high, closed 217.55. But dark pool bought <b>$2.3B cumulative bid</b>, #1 on the whole board ex-ETFs.",
+    "pre 218.19 &middot; +0.3%",
+    "Signal says down, flow says accumulation.",
+    "Under 216.81 and the post-earnings gap is gone."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "USO",
+    3.38,
+    "Brent back above <b>$90</b>, WTI mid-$80s after the Larak Island strikes. Biggest mover on the board. Printed an inside day Friday."
+   ],
+   [
+    "HAL",
+    2.55,
+    "Oil services bid with the complex."
+   ],
+   [
+    "COP",
+    2.45,
+    "Named in the FlowMS energy sweep this morning."
+   ],
+   [
+    "CVX",
+    2.32,
+    "Concentrated dark pool &mdash; &le;3 prints, large tickets rather than a drip."
+   ],
+   [
+    "OXY",
+    2.17,
+    "Inside day Friday, now gapping. Bullish kicker with dark pool behind it."
+   ],
+   [
+    "XOM",
+    2.08,
+    "<b>Failed 2D with clustering</b> on Friday's candle, and &le;3-print concentrated flow. The cleanest setup-plus-catalyst convergence today."
+   ],
+   [
+    "SLB",
+    1.87,
+    "Double catalyst: oil, plus acquiring Kelvion from Apollo for ~$3.4B cash and ~$0.7B debt. Near a 52-week high."
+   ],
+   [
+    "XLE",
+    1.71,
+    "The only green sector on the board."
+   ],
+   [
+    "SHEL",
+    1.32,
+    "Inside day, dark pool behind it."
+   ],
+   [
+    "DE",
+    2.88,
+    "Baird upgraded to Outperform, target <b>$800</b>. Gapping above Friday's outside-bar high."
+   ],
+   [
+    "MSTR",
+    0.74,
+    "Saylor posted \"We're Back\" on X, signalling the first Bitcoin purchase since June 22. BTC is ~$77.8K. Inside day."
+   ],
+   [
+    "NVDA",
+    0.29,
+    "Took <b>$2.3B of cumulative bid-side dark pool</b> Friday, #1 on the whole board ex-ETFs."
+   ],
+   [
+    "META",
+    0.2,
+    "Modest bid."
+   ]
+  ],
+  "bear": [
+   [
+    "PCG",
+    -17.05,
+    "Mizuho to Neutral at $16, BMO to Market Perform at $21 &mdash; both above the premarket print. Second day down after Friday's 16.6% fall on 114.4M shares."
+   ],
+   [
+    "EIX",
+    -15.92,
+    "Mizuho cut Edison International to Neutral at $70. It closed Friday at 70.17."
+   ],
+   [
+    "SRE",
+    -3.63,
+    "Third California utility cut by the same desk on the same morning."
+   ],
+   [
+    "NOW",
+    -3.0,
+    "Gives back most of Friday's 4.5% run. Bearish kicker with dark pool."
+   ],
+   [
+    "XLU",
+    -1.33,
+    "The sector carrying the utility damage."
+   ],
+   [
+    "GTLB",
+    -1.36,
+    "Reports tomorrow after the close. Flagged near a 6-month high."
+   ],
+   [
+    "PYPL",
+    -0.95,
+    "Fell ~12% Friday after Stripe and Advent walked away from a reported ~$50B takeover."
+   ],
+   [
+    "MSFT",
+    -0.92,
+    "Weakest Mag 11 name. Largest options block on either board was <b>$56.5M of MSFT $420C 11/20/26</b>."
+   ],
+   [
+    "TSLA",
+    -0.93,
+    "Outside day Friday. Cybercab launches Thursday in Austin."
+   ],
+   [
+    "AMZN",
+    -0.82,
+    "Lower with the mega caps."
+   ],
+   [
+    "GOOGL",
+    -0.72,
+    "Biggest single-name dark pool print on the board: <b>$708M ask-side</b>, and $1.3B cumulative ask."
+   ],
+   [
+    "MU",
+    -0.68,
+    "Inside day with clustering. 9/4 straddle implies 5.5%."
+   ],
+   [
+    "AVGO",
+    -0.68,
+    "<b>Failed 2U with clustering, reports Wednesday, 8.1% implied, and a $2.5M $370C 9/4 sweep on top of it.</b>"
+   ],
+   [
+    "INTC",
+    -0.67,
+    "Failed 2U. 9/4 straddle implies 5.7%."
+   ],
+   [
+    "SNOW",
+    -0.61,
+    "Failed 2U into Wednesday's report."
+   ],
+   [
+    "ARM",
+    -0.58,
+    "ISS and Glass Lewis both recommend voting against a plan awarding CEO Rene Haas up to <b>$800M</b> if Arm reaches a $1T valuation."
+   ],
+   [
+    "AMGN",
+    -0.17,
+    "Phase 3 VESALIUS-CV showed Repatha cut death risk 20% in high-risk adults without a prior heart attack or stroke."
+   ],
+   [
+    "LLY",
+    -0.21,
+    "Acquiring Merida Biosciences for up to $2.875B cash, closing Q4 2026."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Friday leaned ask-side across mega-cap single prints &mdash; with NVDA the exception.</b> The biggest single-name print was <b>GOOGL $708M ask-side</b>, but <b>NVDA topped cumulative single-name flow at $2.3B bid-side</b>, #1 on the entire board ex-ETFs, ahead of GOOGL $1.3B ask and AAPL $939M bid. On the ETF side it was pure index accumulation, all ask: <b>VOO $3.1B and SPY $2.5B cumulative</b> &mdash; the two biggest lines on the whole board. <b>That is the day's central conflict:</b> the Strat board has SPY, QQQ and VOO all printing Failed 2U, while the flow shows institutions buying those exact vehicles into the close. Outsized-for-cap prints: <b>VEEV $43.3M</b> on a ~$28B cap with a 3.4x flow surge, and <b>ENTG $32.5M</b> on ~$18B with 5.5x.",
+  "right_note": "FRIDAY 8/28 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   [
+    "NVDA",
+    "$2.3B",
+    "cumulative BID &middot; #1 ex-ETF",
+    "g"
+   ],
+   [
+    "VOO",
+    "$3.1B",
+    "cumulative ask",
+    "o"
+   ],
+   [
+    "SPY",
+    "$2.5B",
+    "cumulative ask",
+    "o"
+   ],
+   [
+    "GOOGL",
+    "$1.3B",
+    "cumulative ask",
+    "r"
+   ],
+   [
+    "AAPL",
+    "$939M",
+    "bid",
+    "g"
+   ],
+   [
+    "GOOGL",
+    "$708M",
+    "biggest single print, ask AH",
+    "r"
+   ],
+   [
+    "NVDA",
+    "$676M",
+    "bid AH",
+    "g"
+   ],
+   [
+    "BRK.B",
+    "$504M",
+    "mixed AH",
+    "mute"
+   ],
+   [
+    "AFRM",
+    "$463M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "ACN",
+    "$318M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "META",
+    "$317M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "NFLX",
+    "$307M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "TSLA",
+    "$244M",
+    "ask AH",
+    "r"
+   ],
+   [
+    "VEEV",
+    "$43.3M",
+    "3.4x surge &middot; outsized for cap",
+    "y"
+   ],
+   [
+    "ENTG",
+    "$32.5M",
+    "5.5x surge &middot; outsized for cap",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Monday August thirty first, premarket. Two shocks hit over the weekend and they push opposite ways. U S forces struck Iranian rocket launchers on Larak Island near the Strait of Hormuz. Iran answered with missiles on two U S bases in Jordan, and the White House threatened Kharg Island, the terminal that moves about ninety percent of Iran's crude. Brent is back above ninety dollars. Energy is the only green sector on the board. Crude is up three point four percent, Halliburton two point six, Conoco two point five, Chevron two point three, Oxy two point two, Exxon two point one."
+  },
+  {
+   "label": "Movers",
+   "text": "The second shock is monetary and it is the bigger one. In his first Jackson Hole keynote as Fed Chair, Warsh went hawkish, saying the Fed's predominant focus right now should be on prices, with headline P C E at three point seven and core at three point three. September rate hike odds jumped to about fifty seven percent from about thirty five, and the short end popped eight basis points. A hike is now the live debate, which makes Friday's payrolls the highest stakes print of the quarter. Separately, California utilities are in a second day of collapse. P G and E is down seventeen percent, Edison down sixteen, Sempra down three point six, all cut by Mizuho."
+  },
+  {
+   "label": "Plan",
+   "text": "No prep sheet today, so this watchlist is built from the tape. Tier one is Exxon, a failed two down with clustering and a real catalyst underneath it, and the whole energy complex confirming. Tier one also has the index itself. S P Y, Q Q Q and V O O all printed failed two ups Friday, breaking Thursday's high and closing back under it. Three index vehicles failing the same way on the same day. But dark pool bought those exact vehicles, V O O three point one billion and S P Y two point five billion, all ask side. The signal and the flow disagree, so let the first thirty minutes resolve which one is lying. Broadcom is the third tier one. Failed two up, reports Wednesday, the straddle implies eight point one percent, and the largest sweep on either board was two and a half million dollars of three seventy calls expiring Friday. Setup, volatility and flow all converge there. P G and E is on the list to watch, not to trade."
+  }
+ ]
+}
