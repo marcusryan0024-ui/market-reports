@@ -15,7 +15,7 @@
       "Entries with no announced date use date:null plus a date_window string. Never assign a placeholder date to an undated event."
     ],
     "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
-    "last_updated": "2026-08-17"
+    "last_updated": "2026-08-26"
   },
   "events": [
     {
@@ -29,16 +29,6 @@
       "verified": true
     },
     {
-      "ticker": "RDDT",
-      "name": "Reddit",
-      "type": "index_inclusion",
-      "date": "2026-08-18",
-      "time_ct": "before the open",
-      "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
-      "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
-      "verified": true
-    },
-    {
       "ticker": "SLB",
       "name": "Schlumberger",
       "type": "conference",
@@ -46,6 +36,16 @@
       "time_ct": null,
       "note": "31st annual EnerCom Denver - The Energy Investment Conference, Aug 17-19 at The Westin Denver Downtown. Largest independent investor conference serving oil & gas; 70+ presenting companies across E&P, oil service, midstream, royalty, AND nuclear/power/data center/hydrogen. Monday is the charity golf tournament - company presentations and 1x1s run Tue 8/18 and Wed 8/19. Matters as a sector event more than a single-name one: BP, APA, SM, LBRT, DNOW, WTTR, TXO, GTE, BKV, REPX, PROP, REI, SD, GRNT, BSM, FTK, E, VTS and ~20 more are all presenting in the same window, so the energy complex can move together. Secondary read-through to GEV and VRT from the nuclear/power/data-center track.",
       "source": "https://www.oilandgas360.com/enercom-opens-registration-for-the-31st-annual-energy-investment-conference-august-17-19-2026-in-denver-colorado/",
+      "verified": true
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "type": "index_inclusion",
+      "date": "2026-08-18",
+      "time_ct": "before the open",
+      "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
+      "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
       "verified": true
     },
     {
@@ -99,22 +99,12 @@
       "verified": false
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "type": "product_event",
-      "date": "2026-08-26",
-      "time_ct": null,
-      "note": "WATCH DATE, not the event. Apple has confirmed to retail staff that its iPhone event lands in the first half of September; on its four-year pattern the invitation goes out exactly two weeks prior, making 8/26 the likely announcement date. Event itself most likely Sept 8 or 9. iPhone 18 Pro, Pro Max, and a first foldable expected.",
-      "source": "https://www.macrumors.com/2026/08/04/apple-september-2026-announcements/",
-      "verified": false
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "type": "earnings_call",
       "date": "2026-08-26",
       "time_ct": "3:20pm results / 4:00pm call",
-      "note": "Q2 FY2027. Results expected ~1:20pm PT (3:20pm CT), conference call 2:00pm PT (4:00pm CT). CFO written commentary posts immediately after the results release. Lands the day BEFORE Jackson Hole opens. Stored here despite being earnings because the earnings API carries no times.",
+      "note": "Q2 FY2027. Results expected ~1:20pm PT (3:20pm CT), conference call 2:00pm PT (4:00pm CT). CFO written commentary posts immediately after the results release. Lands the day BEFORE Jackson Hole opens. Stored here despite being earnings because the earnings API carries no times. SEQUENCING NOTE added 2026-08-24: July PCE, core PCE and the Q2 GDP second estimate all release the SAME morning at 7:30am CT. The session therefore carries the Fed's preferred inflation gauge before the open and the largest single-name print of the month after the close, with Jackson Hole opening the next day.",
       "source": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
       "verified": true
     },
@@ -124,8 +114,108 @@
       "type": "macro_speaking",
       "date": "2026-08-27",
       "time_ct": null,
-      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' MATERIALLY BIGGER THAN A NORMAL YEAR: this is new Fed Chair KEVIN WARSH's FIRST Jackson Hole speech - a first-ever policy framing from a new Chair, not a routine reiteration. The specific speech is not yet on the published agenda; the KC Fed does not post the speaker list until shortly before the event. Historically the Chair speaks Friday morning, which would be Aug 28. TWO CORRECTIONS LOGGED: (1) an earlier entry had this as Aug 22 based on the FlowMS newsletter - the KC Fed date is Aug 27-29 and the verified date held; (2) the speaker was previously recorded as Powell - FlowMS issued its own correction 2026-08-17 naming Warsh as the new Chair.",
-      "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
+      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' MATERIALLY BIGGER THAN A NORMAL YEAR: this is new Fed Chair KEVIN WARSH's FIRST Jackson Hole speech - a first-ever policy framing from a new Chair, not a routine reiteration. SPEECH DAY CONFIRMED 2026-08-24: Warsh delivers his first keynote as Chair on FRIDAY AUG 28. Week-ahead coverage names Friday explicitly; he is expected to have to address inflation directly, two days after the July PCE print lands Wednesday 8/26. TWO CORRECTIONS LOGGED: (1) an earlier entry had this as Aug 22 based on the FlowMS newsletter - the KC Fed date is Aug 27-29 and the verified date held; (2) the speaker was previously recorded as Powell - FlowMS issued its own correction 2026-08-17 naming Warsh as the new Chair.",
+      "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/ ; Friday keynote day confirmed via week-ahead coverage 2026-08-24",
+      "verified": true
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "type": "leadership",
+      "date": "2026-09-01",
+      "time_ct": null,
+      "note": "CEO TRANSITION TAKES EFFECT. John Ternus, SVP of Hardware Engineering, becomes CEO; Tim Cook becomes executive chairman of the board; Arthur Levinson, non-executive chairman for the past 15 years, becomes lead independent director. Announced April 2026 and unanimously approved by the board, so the news is old but THE EFFECTIVE DATE IS 9/1 - this is Apple's first CEO transition since Cook succeeded Jobs in 2011. Cook stays on to engage with policymakers. A scheduled, known-date leadership change on a $4.5T company is a different animal from an earnings surprise: the event is certain, only the reaction is not.",
+      "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "verified": true
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "type": "webinar",
+      "date": "2026-09-01",
+      "time_ct": "",
+      "note": "Q2 FY27 Product Adoption & Momentum webinar. Listed 11:00 AM on the corporate-events calendar; timezone not stated on the source, so not converted. Option implied straddle 3.5%.",
+      "source": "Corporate events calendar screenshot 2026-09-01",
+      "verified": true
+    },
+    {
+      "ticker": "LI",
+      "name": "Li Auto",
+      "type": "product_launch",
+      "date": "2026-09-01",
+      "time_ct": "",
+      "note": "Middle East sales commencement product launch event.",
+      "source": "Corporate events calendar screenshot 2026-09-01",
+      "verified": true
+    },
+    {
+      "ticker": "FROG",
+      "name": "JFrog",
+      "type": "conference",
+      "date": "2026-09-01",
+      "time_ct": "",
+      "note": "swampUP 2026, 9/1-9/3, with keynote. Option implied straddle 12.0%.",
+      "source": "Corporate events calendar screenshot 2026-09-01",
+      "verified": true
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "type": "investor_day",
+      "date": "2026-09-02",
+      "time_ct": null,
+      "note": "NAMED IN MORNING PREP 2026-08-27 AND 2026-08-28 AS THE MAIN FOCUS. Prep flagged two upcoming CRWD events (8/30 and 9/2) as a possible explosive move, with the 9/2 investor day the primary one. Plan recorded on the 8/28 sheet: possible CPW at end of day, but wait on the JR signal to confirm; no signal means the CPW entry moves to next week closer to the event. Context: CRWD reported 8/26 with net-new ARR $333M vs $286M expected and raised FY guidance, then ran to a fresh 52-week high of 229.75 on 8/28. Investor day is the highest-signal event type on the calendar - guidance and roadmap, not a fireside chat.",
+      "source": "Morning prep sheets 2026-08-27 and 2026-08-28",
+      "verified": true
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "type": "monthly_sales",
+      "date": "2026-09-02",
+      "time_ct": "3:15pm",
+      "note": "AUGUST SALES RESULTS - DATE NOW CONFIRMED FROM COSTCO IR (previously carried only as a recurring pattern with no date). Scheduled 2026-09-02 at 1:15pm PT = 3:15pm CT, which is AFTER the 3:00pm CT close. Prior month for reference: July retail month (four weeks ended 2026-08-02) net sales $23.12B, +10.7% from $20.89B. Lands the same session as AVGO earnings and the CRWD investor day, making 9/2 the heaviest day of the week.",
+      "source": "https://investor.costco.com/events-and-presentations/events/event-details/2026/August-Sales-Results-2026-Qs4hMDL1Nn/",
+      "verified": true
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "type": "product_event",
+      "date": "2026-09-03",
+      "time_ct": null,
+      "note": "CYBERCAB LAUNCH EVENT, Austin TX. Invite-only with a public livestream; invites went out ~8/23-8/24. Framed by Tesla as a chance to 'experience the future of autonomy' - the public launch of the robotaxi product. This is the Cybercab date that had been carried on the catalyst-trading list without a confirmed day. Separate from the undated Roadster unveiling still on this calendar. Context: Nevada approved Tesla's robotaxi permit 8/21 and the stock rose ~5% that session.",
+      "source": "Tesla event invitations, reported 2026-08-23/24 (Electrek, Motor1, Tesla Oracle)",
+      "verified": true
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer",
+      "type": "conference",
+      "date": "2026-09-03",
+      "time_ct": "",
+      "note": "Supermicro Open Storage Summit, running 2026-08-11 through 2026-09-03. Option implied straddle 6.5%.",
+      "source": "Corporate events calendar screenshot 2026-09-01",
+      "verified": true
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "type": "product_event",
+      "date": "2026-09-09",
+      "time_ct": null,
+      "note": "EVENT DATE NOW CONFIRMED as Sept 9 (was previously tracked only as a watch date for the expected invitation on 8/26 - see prior note history). iPhone 18 Pro, Pro Max, and a first foldable expected.",
+      "source": "User confirmed 2026-08-26",
+      "verified": false
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox",
+      "type": "product_event",
+      "date": "2026-09-10",
+      "time_ct": null,
+      "note": "RDC26 - Roblox Developers Conference, Sept 10-12 at the San Jose McEnery Convention Center. Roblox's flagship creator gathering and where it unveils engine upgrades, creator tools and monetization features - the supply side of bookings growth, and the venue that feeds the 10% of global gaming content revenue ambition management has repeated on earnings calls. Multi-day, so the move can extend across the window. Both legs of the 9/1 golden sweep (9/18 and 9/25 expirations) sit past it; a 9/11 weekly would expire the day the conference ends.",
+      "source": "https://devforum.roblox.com/t/save-the-date-rdc26/4556064",
       "verified": true
     },
     {
