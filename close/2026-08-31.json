@@ -1,0 +1,813 @@
+{
+ "title": "Monday, August 31, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      293.91,
+      295.75
+     ],
+     [
+      "QQQ",
+      716.86,
+      716.43
+     ],
+     [
+      "SPY",
+      766.95,
+      769.35
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      317.15,
+      319.7
+     ],
+     [
+      "MSFT",
+      507.32,
+      513.53
+     ],
+     [
+      "NVDA",
+      220.88,
+      217.55
+     ],
+     [
+      "GOOGL",
+      339.31,
+      346.59
+     ],
+     [
+      "AMZN",
+      259.93,
+      266.43
+     ],
+     [
+      "META",
+      572.91,
+      578.02
+     ],
+     [
+      "TSLA",
+      367.92,
+      348.75
+     ],
+     [
+      "AMD",
+      469.95,
+      465.58
+     ],
+     [
+      "AVGO",
+      370.82,
+      368.79
+     ],
+     [
+      "INTC",
+      89.47,
+      89.47
+     ],
+     [
+      "MU",
+      956.68,
+      932.86
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "TSLA",
+    367.92,
+    348.75
+   ],
+   [
+    "CRWD",
+    231.04,
+    218.4
+   ],
+   [
+    "XOM",
+    160.96,
+    156.71
+   ],
+   [
+    "PCG",
+    13.279,
+    16.6
+   ],
+   [
+    "EIX",
+    53.975,
+    70.17
+   ]
+  ]
+ },
+ "headline": {
+  "title": "<b>The index went nowhere and the individual setups did all the work.</b> SPY closed <b>&minus;0.31%</b>, QQQ <b>+0.06%</b> &mdash; but underneath, <b>TSLA +5.50%</b>, <b>CRWD +5.79%</b>, <b>SLB +4.87%</b>, <b>DE +3.93%</b> and <b>MU +2.55%</b> ran, while <b>EIX &minus;23.08%</b> and <b>PCG &minus;20.01%</b> collapsed. A flat tape with a 28-point spread between the best and worst names on the board.",
+  "summary": "Energy was the only green sector, <b>XLE +2.00%</b>, and it was the morning's T1 call: <b>XOM +2.71%</b> closed at its high after fading to 158.74 midday. The Failed 2U on SPY held &mdash; it never came within five points of the 772.355 trigger. But the read that actually paid was the <b>inside day</b>: <b>CRWD cleared 228.69 and ran to +5.79%</b>, and MU expanded up +2.55%. Both coils resolved higher on a day the index did nothing. Meanwhile the Strat-versus-flow conflict flagged this morning resolved <b>in favour of the flow</b> on both names it covered."
+ },
+ "what_happened": [
+  [
+   "Energy delivered exactly what the setup said it would.",
+   "g",
+   "XOM was the morning's top-ranked name on a Failed 2D with a live Hormuz catalyst. It opened 160.54, faded to <b>158.74</b> by late morning &mdash; a real pullback entry &mdash; then closed at <b>160.96, its high</b>, <b>+2.71%</b>. SLB <b>+4.87%</b>, CVX +2.11%, USO +3.11%, XLE +2.00%, the only green sector on the board."
+  ],
+  [
+   "The best trade on the sheet was ranked T2.",
+   "o",
+   "CRWD was listed as a Tier-2 inside day with a trigger at <b>228.69</b>. It cleared the level and closed <b>231.04, +5.79%</b> &mdash; the biggest gainer in the whole watchlist. The level was exact and the direction was right; the ranking was not. MU, the other inside day, expanded up <b>+2.55%</b> to close at 956.68."
+  ],
+  [
+   "California utilities did not bounce.",
+   "r",
+   "<b>EIX closed &minus;23.08% at 53.975</b> and <b>PCG &minus;20.01% at 13.279</b>, PCG finishing near its session low on another 42.6M+ shares. Third session, no bid. The morning call was watch-don't-trade at size zero, which was right about the long and left the whole 20% short on the table."
+  ]
+ ],
+ "picks": {
+  "right_note": "1 CLEAN WIN &middot; 1 HELD &middot; 1 WRONG WAY",
+  "rows": [
+   [
+    "XOM",
+    "+2.71%",
+    "g",
+    "FAILED 2D WORKED &middot; CLOSED AT THE HIGH",
+    "g",
+    "T1. Failed 2D with clustering and a live catalyst. Brent over $90 on the Hormuz strikes. The whole complex confirming.",
+    "Opened 160.54, sold to <b>158.74</b> between 9 and 11am &mdash; the pullback the morning note asked for instead of paying the gap &mdash; then rallied all afternoon to close <b>160.96</b>, the high of the day. Confirmation was broad: <b>SLB +4.87%</b>, CVX +2.11%, USO +3.11%, XLE +2.00%. The one sector that closed green."
+   ],
+   [
+    "SPY / QQQ",
+    "&minus;0.31% / +0.06%",
+    "o",
+    "F2U HELD &middot; BUT NO DOWNSIDE EITHER",
+    "o",
+    "T1. Failed 2U across SPY, QQQ and VOO. Flagged the conflict: dark pool bought those exact vehicles ask-side into Friday's close. Said to let the first 30 minutes resolve it.",
+    "Neither reclaimed its trigger &mdash; SPY's high was <b>767.995</b> against the 772.355 level, never close. So the failed break held. But SPY only lost 0.31% and <b>QQQ closed green</b>. The signal was right about direction and wrong about magnitude, and the index accumulation is why. Calling the conflict rather than picking a side was the correct handling."
+   ],
+   [
+    "AVGO",
+    "+0.55%",
+    "r",
+    "WRONG DIRECTION &middot; SWEEP WAS RIGHT",
+    "r",
+    "T1. Failed 2U with clustering into Wednesday earnings, 8.1% implied, and a $2.5M $370C 9/4 sweep sitting on top of it.",
+    "Closed <b>370.82</b>, above Friday's close and <b>above the $370 strike</b> &mdash; that sweep is now in the money. The Strat signal said failed breakout; the options flow said up, and the flow won. Same outcome as NVDA today. Reports Wednesday after the close."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/31",
+   "tag": "DONE",
+   "accent": "macro",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet docket. Energy the only green sector, XLE +2.00%"
+    ]
+   ],
+   "earnings": [
+    [
+     "SAIC",
+     "AM &middot; done"
+    ]
+   ],
+   "events": [
+    [
+     "MSCI",
+     "Done",
+     "SNDK, CRS and ATI added to the World Index at the close"
+    ],
+    [
+     "CRWD",
+     "Open",
+     "Fal.Con opened &mdash; stock +5.79%"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "TOMORROW &middot; FOUR PRINTS",
+   "accent": "macro",
+   "econ": [
+    [
+     "9:00am",
+     "ISM Manufacturing (Aug)"
+    ],
+    [
+     "9:00am",
+     "JOLTS (Jul)"
+    ]
+   ],
+   "earnings": [
+    [
+     "DELL",
+     "PM &middot; 10% implied"
+    ],
+    [
+     "PANW",
+     "PM"
+    ],
+    [
+     "MDB",
+     "PM"
+    ],
+    [
+     "CRDO",
+     "PM"
+    ],
+    [
+     "MDT",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "AAPL",
+     "Effective",
+     "John Ternus replaces Tim Cook &mdash; first CEO change since 2011"
+    ],
+    [
+     "G20",
+     "2-day",
+     "Innovation Ministerial &mdash; Musk, Altman and Huang"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "AVGO + COST + CRWD",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:15am",
+     "ADP National Employment (Aug)"
+    ]
+   ],
+   "earnings": [
+    [
+     "AVGO",
+     "PM &middot; est $3.16"
+    ],
+    [
+     "SNOW",
+     "PM"
+    ],
+    [
+     "HPE",
+     "PM"
+    ],
+    [
+     "NTAP",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "COST",
+     "3:15pm",
+     "August sales, after the close"
+    ],
+    [
+     "CRWD",
+     "TBA",
+     "Investor briefing inside Fal.Con"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "CYBERCAB",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "Jobless Claims"
+    ],
+    [
+     "9:00am",
+     "ISM Services"
+    ]
+   ],
+   "earnings": [
+    [
+     "LULU",
+     "PM"
+    ],
+    [
+     "ZS",
+     "PM"
+    ],
+    [
+     "DOCU",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "TSLA",
+     "TBA",
+     "Cybercab launch, Austin &mdash; today's +5.50% was front-running it"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS &middot; HIKE DEBATE",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August Employment Report</b> &mdash; consensus +55k. Last labor read before a September FOMC now pricing a live hike"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "",
+     "Next Mon",
+     "Labor Day, Sept 7 &mdash; markets closed"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "XOM",
+   "charts/XOM_2026-08-31.png",
+   "Closed at the high &middot; +2.71%"
+  ],
+  [
+   "SPY",
+   "charts/SPY_2026-08-31.png",
+   "F2U held &middot; never near 772.355"
+  ],
+  [
+   "AVGO",
+   "charts/AVGO_2026-08-31.png",
+   "Wrong way &middot; sweep now ITM"
+  ],
+  [
+   "PCG",
+   "charts/PCG_2026-08-31.png",
+   "&minus;20.01% &middot; closed at the low"
+  ],
+  [
+   "EIX",
+   "charts/EIX_2026-08-31.png",
+   "&minus;23.08%"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; ONLY GREEN SECTOR",
+    [
+     [
+      "SLB",
+      4.87
+     ],
+     [
+      "USO",
+      3.11
+     ],
+     [
+      "XOM",
+      2.71
+     ],
+     [
+      "CVX",
+      2.11
+     ],
+     [
+      "XLE",
+      2.0
+     ]
+    ]
+   ],
+   [
+    "THE DAY'S WINNERS",
+    [
+     [
+      "CRWD",
+      5.79
+     ],
+     [
+      "TSLA",
+      5.5
+     ],
+     [
+      "DE",
+      3.93
+     ],
+     [
+      "GTLB",
+      3.68
+     ],
+     [
+      "PANW",
+      2.84
+     ],
+     [
+      "MU",
+      2.55
+     ]
+    ]
+   ],
+   [
+    "CA UTILITIES",
+    [
+     [
+      "EIX",
+      -23.08
+     ],
+     [
+      "PCG",
+      -20.01
+     ],
+     [
+      "XLU",
+      -1.21
+     ]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     [
+      "NVDA",
+      1.53
+     ],
+     [
+      "AAPL",
+      -0.8
+     ],
+     [
+      "META",
+      -0.88
+     ],
+     [
+      "GOOGL",
+      -2.1
+     ],
+     [
+      "AMZN",
+      -2.44
+     ]
+    ]
+   ],
+   [
+    "REPORTS TUE",
+    [
+     [
+      "PANW",
+      2.84
+     ],
+     [
+      "MDB",
+      1.54
+     ],
+     [
+      "DELL",
+      0.12
+     ],
+     [
+      "CRDO",
+      -2.8
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 8/31 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "XOM",
+    "T1",
+    "g",
+    "Failed 2D &mdash; worked",
+    "g",
+    "Faded to 158.74 midday, closed 160.96 at the high. The pullback entry the morning note asked for did exist.",
+    "close 160.96 &middot; <b>+2.71%</b>",
+    "Complex confirmed: SLB +4.87%, XLE +2.00%.",
+    "A de-escalation headline is still the risk into tomorrow."
+   ],
+   [
+    "CRWD",
+    "T2&#8594;T1",
+    "g",
+    "Inside day &mdash; resolved UP",
+    "g",
+    "Cleared the 228.69 trigger named this morning and never looked back. Fal.Con opened the same day.",
+    "close 231.04 &middot; <b>+5.79%</b>",
+    "Biggest gainer on the whole board.",
+    "Investor briefing Wednesday is the next event."
+   ],
+   [
+    "TSLA",
+    "&mdash;",
+    "mute",
+    "Outside day &mdash; resolved UP",
+    "g",
+    "Not on the morning sheet. Cybercab anticipation plus Musk's weekend post on 100GW/yr solar capacity. 60.9M shares, 46% above the 3-month average.",
+    "close 367.92 &middot; <b>+5.50%</b>",
+    "Ground higher all session, closed near the high.",
+    "Cybercab launches Thursday &mdash; the event it ran into."
+   ],
+   [
+    "MU",
+    "T2",
+    "g",
+    "Inside day &mdash; expanded UP",
+    "g",
+    "The coil broke higher, exactly the expansion the morning note said to wait for rather than predict.",
+    "close 956.68 &middot; <b>+2.55%</b>",
+    "Closed near the session high of 959.97.",
+    "No catalyst attached &mdash; this was pure structure."
+   ],
+   [
+    "SPY",
+    "T1",
+    "o",
+    "Failed 2U &mdash; held",
+    "o",
+    "High of 767.995 never approached the 772.355 trigger. The failed break stood all day.",
+    "close 766.95 &middot; &minus;0.31%",
+    "Direction right, magnitude small.",
+    "QQQ closed green &mdash; the index accumulation cushioned it."
+   ],
+   [
+    "AVGO",
+    "T1",
+    "r",
+    "Failed 2U &mdash; failed",
+    "r",
+    "Closed above Friday and above the $370 strike. The Strat signal lost to the options flow.",
+    "close 370.82 &middot; +0.55%",
+    "That $2.5M $370C 9/4 sweep is now in the money.",
+    "Reports Wednesday, 8.1% implied."
+   ],
+   [
+    "PCG",
+    "T2",
+    "r",
+    "Outside day &mdash; third leg",
+    "r",
+    "No bounce. Closed near the session low on another 42.6M+ shares. Watch-don't-trade was right on the long.",
+    "close 13.279 &middot; <b>&minus;20.01%</b>",
+    "EIX worse at &minus;23.08%.",
+    "Still no bid to lean on."
+   ],
+   [
+    "NVDA",
+    "T2",
+    "g",
+    "2 Down &mdash; failed, flow won",
+    "g",
+    "Signal said down. The $2.3B bid-side dark pool said accumulation. Flow won.",
+    "close 220.88 &middot; <b>+1.53%</b>",
+    "Second name today where flow beat the Strat read.",
+    "Reclaimed Friday's 2 Down low decisively; 229.26 is the next reference above."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "Energy was the cleanest call and it behaved like a clean call.",
+   "XOM was ranked first this morning on a Failed 2D with clustering plus a real overnight catalyst, and the morning note explicitly said to wait for a pullback rather than pay the gap. It opened 160.54, sold off to <b>158.74</b> through late morning, then rallied for the rest of the session and closed at <b>160.96</b> &mdash; the high of the day, <b>+2.71%</b>. The pullback was real, the entry existed, and the confirmation was sector-wide: SLB +4.87%, CVX +2.11%, USO +3.11%, XLE +2.00% as the only green sector on the board."
+  ],
+  [
+   "The Strat-versus-flow conflict was called, and the flow won both times.",
+   "The morning report flagged that Friday's dark pool disagreed with Friday's Strat board, and refused to pick a side. Both names where they conflicted resolved toward the flow. <b>NVDA</b> printed a 2 Down but took <b>$2.3B of bid-side cumulative flow</b>, the biggest single-name line on the board &mdash; it closed <b>+1.53%</b>. <b>AVGO</b> printed a Failed 2U but carried a <b>$2.5M $370C sweep</b> &mdash; it closed 370.82, above the strike. Two for two. On the names where the block tape and the candle disagreed today, the block tape was the better read."
+  ],
+  [
+   "The inside days were the trade, and one of them was under-ranked.",
+   "Both coiled names expanded upward on a day the index did nothing: <b>CRWD +5.79%</b> after clearing the 228.69 trigger named this morning, and <b>MU +2.55%</b> closing near its high. CRWD was the single best performer on the entire watchlist and it was ranked <b>Tier 2</b>. The level was exact and the directional logic was written down correctly &mdash; the error was purely in the ranking, which put two index vehicles and an earnings name above a coiled stock with a conference starting that morning."
+  ],
+  [
+   "The utilities kept going and the 'don't touch it' framing only half worked.",
+   "PCG closed <b>&minus;20.01%</b> and EIX <b>&minus;23.08%</b>, PCG finishing near its low on another 42.6M+ shares. The morning call was watch-don't-trade at size zero, reasoning that a 17% gap with no floor punishes good entries. That protected against catching the knife long &mdash; but it also framed the name as untouchable rather than as a short, and the short paid another 20% today. Avoiding one side is not the same as having no opinion."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Friday's block tape graded out better than Friday's candles.</b> The two names where the two disagreed both resolved toward the flow: NVDA's <b>$2.3B bid-side</b> cumulative, the biggest single-name line on the board, preceded a <b>+1.53%</b> close against a 2 Down signal; AVGO's <b>$2.5M $370C sweep</b> preceded a close above the strike against a Failed 2U. On the ask side, <b>GOOGL's $708M single print and $1.3B cumulative</b> preceded <b>&minus;2.10%</b>, the worst mega-cap of the day. Not everything confirmed &mdash; <b>AAPL took $939M bid-side and still closed &minus;0.80%</b>, and TSLA was ask-side into a <b>+5.50%</b> session &mdash; so call it two clean hits and two misses, not a rule.",
+  "right_note": "FRIDAY 8/28 TAPE &middot; GRADED",
+  "dim": false,
+  "chips": [
+   [
+    "NVDA",
+    "$2.3B",
+    "bid &#8594; +1.53% &middot; HIT",
+    "g"
+   ],
+   [
+    "GOOGL",
+    "$1.3B",
+    "ask &#8594; &minus;2.10% &middot; HIT",
+    "g"
+   ],
+   [
+    "AVGO",
+    "$2.5M sweep",
+    "$370C &#8594; closed ITM &middot; HIT",
+    "g"
+   ],
+   [
+    "AAPL",
+    "$939M",
+    "bid &#8594; &minus;0.80% &middot; MISS",
+    "r"
+   ],
+   [
+    "TSLA",
+    "$244M",
+    "ask &#8594; +5.50% &middot; MISS",
+    "r"
+   ],
+   [
+    "VOO",
+    "$3.1B",
+    "ask &#8594; index held",
+    "o"
+   ],
+   [
+    "SPY",
+    "$2.5B",
+    "ask &#8594; &minus;0.31%",
+    "o"
+   ],
+   [
+    "META",
+    "$317M",
+    "ask &#8594; &minus;0.88%",
+    "g"
+   ],
+   [
+    "AFRM",
+    "$463M",
+    "ask AH",
+    "mute"
+   ],
+   [
+    "VEEV",
+    "$43.3M",
+    "3.4x surge &middot; outsized",
+    "y"
+   ],
+   [
+    "ENTG",
+    "$32.5M",
+    "5.5x surge &middot; outsized",
+    "y"
+   ]
+  ]
+ },
+ "sectors": {
+  "right_note": "ENERGY ALONE &mdash; SPY &minus;0.31%",
+  "rows": [
+   [
+    "XLE",
+    "Energy",
+    2.0
+   ],
+   [
+    "SMH",
+    "Semis",
+    0.6
+   ],
+   [
+    "XLK",
+    "Technology",
+    0.4
+   ],
+   [
+    "XLV",
+    "Health Care",
+    -0.36
+   ],
+   [
+    "XLY",
+    "Cons. Disc.",
+    -0.52
+   ],
+   [
+    "XLP",
+    "Cons. Staples",
+    -0.55
+   ],
+   [
+    "XLF",
+    "Financials",
+    -0.69
+   ],
+   [
+    "XLRE",
+    "Real Estate",
+    -0.83
+   ],
+   [
+    "XLB",
+    "Materials",
+    -0.91
+   ],
+   [
+    "XLI",
+    "Industrials",
+    -1.14
+   ],
+   [
+    "XLU",
+    "Utilities",
+    -1.21
+   ],
+   [
+    "XLC",
+    "Comm. Services",
+    -1.35
+   ]
+  ]
+ },
+ "lessons": [
+  [
+   "When the block tape and the candle disagree, the block tape has been the better read.",
+   "g",
+   "This was written into the morning report as an open conflict rather than a call, and both names resolved the same way. NVDA: 2 Down signal, $2.3B bid-side flow, closed <b>+1.53%</b>. AVGO: Failed 2U signal, $2.5M call sweep, closed above the strike. Two for two today. That is one session, not a system &mdash; but it is worth tracking, because the Strat setup is the thing being ranked and the flow is currently the thing being right."
+  ],
+  [
+   "A correct level in the wrong tier is still a ranking error.",
+   "o",
+   "CRWD's trigger was named exactly &mdash; 228.69 &mdash; and the stock cleared it and closed <b>+5.79%</b>, the best name on the board. It was ranked Tier 2 behind two index vehicles and an earnings name. The analysis was right and the prioritisation was wrong, and only the prioritisation determines what gets traded. Rank by <i>what can move today</i>, not by how interesting the structure is."
+  ],
+  [
+   "'Don't trade it' and 'no opinion' are different things.",
+   "y",
+   "PCG was correctly kept off the long side and it fell another <b>20.01%</b>, with EIX down 23.08%. But framing it as untouchable meant not naming the short either. A name with two downgrades, 4-6x volume and no bid is not a no-trade &mdash; it is a directional trade with a side. Say which side."
+  ],
+  [
+   "A flat index can hide a 28-point spread.",
+   "b",
+   "SPY &minus;0.31% and QQQ +0.06% describe none of today. CRWD +5.79%, TSLA +5.50% and SLB +4.87% ran while EIX fell 23.08%. Energy was the only green sector at +2.00%; nine of twelve closed red. Index quiet does not mean opportunity quiet, and today the setups were where all the movement was."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "DELL",
+   "o",
+   "Reports after the close with a <b>10% move implied</b>, alongside <b>PANW</b>, <b>MDB</b> and <b>CRDO</b> &mdash; four prints in one session. Closed +0.12% today at 456.78. The second-order trade is INTC, which takes <b>19% of its revenue from Dell</b> and has followed DELL's post-earnings direction 88% of the time. INTC closed today at 89.47, exactly unchanged."
+  ],
+  [
+   "PANW",
+   "g",
+   "Closed <b>+2.84% at 382.13</b> going into its own print tomorrow night, already +112% YTD. Friday's candle was a 2 Down; today reversed it."
+  ],
+  [
+   "XOM",
+   "g",
+   "Closed at the high on the Failed 2D. The Hormuz premium is the whole position &mdash; oil gave back nothing today, but a de-escalation headline overnight is the single biggest risk to the entire energy complex, and it would hit SLB, CVX and USO at the same time."
+  ],
+  [
+   "",
+   "",
+   "<b>Data resumes tomorrow after a quiet Monday:</b> ISM Manufacturing and JOLTS both at 9:00am CT. With September hike odds near 57% after Warsh, every inflation-adjacent print now matters more than it did last week."
+  ],
+  [
+   "AVGO",
+   "y",
+   "Two days out, 8.1% implied, and the $370C sweep closed in the money today. VMware Explore runs into the print. <b>COST August sales land 3:15pm CT the same afternoon</b> &mdash; Wednesday has two catalysts stacked after the close."
+  ],
+  [
+   "PCG",
+   "r",
+   "Third straight session down, closed near the low at 13.279 with no bid. If it prints a real range tomorrow that is the first thing worth respecting; until then there is still no level to lean on."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Monday August thirty first, the close. The index went nowhere and the individual setups did all the work. S P Y closed down zero point three one percent, Q Q Q up zero point zero six. But underneath, Tesla ran five and a half percent, CrowdStrike five point eight, Schlumberger four point nine, Deere three point nine and Micron two point six, while Edison International fell twenty three percent and P G and E fell twenty. Energy was the only green sector at plus two percent."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Exxon was tier one on a failed two down with the Hormuz catalyst, and it worked. It faded to one fifty eight seventy four midday, the pullback the note asked for instead of paying the gap, then closed at one sixty ninety six, the high of the day, up two point seven one percent. The failed two up on S P Y held. It never came within five points of the seven seventy two trigger, but it only lost a third of a percent and Q Q Q closed green. Broadcom was the miss. The failed two up called for downside and it closed at three seventy eighty two, above the three seventy strike, which puts Friday's two and a half million dollar call sweep in the money."
+  },
+  {
+   "label": "Lessons",
+   "text": "Three things to carry forward. First, when the block tape and the candle disagree, the block tape was the better read today, two for two. Nvidia printed a two down but took two point three billion of bid side flow and closed up one and a half percent. Broadcom printed a failed two up but carried a call sweep and closed above the strike. Second, a correct level in the wrong tier is still a ranking error. CrowdStrike's trigger was named exactly at two twenty eight sixty nine, it cleared it and closed up five point seven nine percent, the best name on the board, and it was ranked tier two. Third, don't trade it and no opinion are different things. P G and E was correctly kept off the long side and fell another twenty percent, but the short was never named. Tomorrow, Dell, Palo Alto, MongoDB and Credo all report after the close, with I S M Manufacturing and JOLTS at nine a m."
+  }
+ ]
+}
