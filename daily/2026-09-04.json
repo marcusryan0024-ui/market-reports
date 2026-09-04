@@ -1,0 +1,389 @@
+{
+ "title": "Friday, September 4, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>The jobs number landed hot and the tape repriced the Fed inside three minutes.</b> Between 7:26 and 7:33am CT, <b>GLD fell from 409.88 to 402.35</b>, TLT gave up its entire pre-print gain, and <b>IWM dropped 1.49 points</b> while SPY lost only 1.77. Gold is now <b>&minus;1.92%</b> and sitting <b>below Thursday's 408.54 low</b> after a clean 2 Up yesterday &mdash; the single most decisive chart on the board this morning. Waller cracked the door open on a September hold on Thursday and knocked hike odds from ~63% to ~50%; this print pushed back.",
+  "summary": "<b>The rally has not died &mdash; it has narrowed to one group.</b> Semis are the only thing still green: <b>MU +0.86%</b>, <b>AMD +0.95%</b>, <b>NVDA +0.97%</b>, <b>AMAT +2.27%</b>, SNDK +1.16%. But even they are fading &mdash; AMAT was <b>+3.61%</b> and SNDK <b>+3.02%</b> before the number. Everything else is offered: <b>TSLA &minus;3.20%</b> handing back Cybercab day, MSFT &minus;0.53%, META &minus;0.33%, GOOGL &minus;0.33% (ex-dividend today), and <b>IWM &minus;0.50%</b> leading the downside as small caps take the rate hit first. <b>LULU is &minus;20.03% at 97.38</b> after cutting FY guidance to $9.48-9.73 from $13.26 &mdash; and the board's largest options ticket was already a <b>$108.4M LULU $300P 12/18</b> block."
+ },
+ "overview": "<b>Three minutes decided the morning.</b> The August employment report printed hot enough that gold broke, and gold is the cleanest read on the difference between a fear day and a rates day &mdash; <b>GLD 409.88 &rarr; 402.35 on the number</b>, now <b>&minus;1.92%</b> and, critically, <b>under Thursday's 408.54 low</b> after Thursday was a clean 2 Up. That is a failed 2 Up on the one chart that most directly prices the Fed. Underneath it the rotation is narrow and getting narrower: <b>semis are the only green group</b> (MU +0.86%, AMD +0.95%, AMAT +2.27%, NVDA +0.97%) and all of them are well off their pre-print marks. <b>IWM &minus;0.50%</b> is the tell on the other side &mdash; small caps carry the most rate sensitivity and they are leading down, sitting right on Thursday's <b>293.43</b> low. Thursday's dark-pool board was already leaning this way: <b>IVV $4.8B, VOO $3.1B and SPY $3.0B all cumulative ask</b>, the whole index complex on one side into the print, with <b>NVDA $1.7B bid</b> the one big line still taking the other side. Markets are closed Monday for Labor Day, so today is a three-day-weekend close and positioning matters more than usual.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:52AM CT",
+  "em_label": "POST-PRINT MARKS &mdash; JOBS LANDED 7:30AM CT",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 293.72, 295.19],
+     ["QQQ", 718.02, 717.67],
+     ["SPY", 771.57, 773.17]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 327.61, 328.21],
+     ["MSFT", 507.4, 510.12],
+     ["NVDA", 230.66, 228.45],
+     ["GOOGL", 341.13, 342.26],
+     ["AMZN", 259.2, 258.9],
+     ["META", 608.66, 610.68],
+     ["TSLA", 364.33, 376.365],
+     ["AMD", 460.5, 456.16],
+     ["AVGO", 357.92, 357.16],
+     ["INTC", 92.0, 91.67],
+     ["MU", 966.4, 958.16]
+    ]
+   ]
+  ],
+  "focus": [
+   ["LULU", 97.38, 121.77],
+   ["GLD", 402.35, 410.22],
+   ["AMAT", 445.81, 435.91],
+   ["SNDK", 1573.0, 1554.99],
+   ["ZS", 170.0, 177.8]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "r",
+   "GLD",
+   "&minus;1.92%",
+   "Failed 2 Up &middot; broke the low",
+   "Thursday was a clean <b>2 Up</b> &mdash; H <b>413.54</b> / L <b>408.54</b>, entirely above Wednesday's 403.33 high, closing 410.22. The jobs print took it straight through the bottom of that bar: <b>402.35</b>, six dollars under Thursday's low, in three minutes. A 2 Up that loses its own low the next session is a <b>failed 2 Up</b>, and this one failed on the exact catalyst that defines the trade. Gold falling on a hot labour print is a <b>real-yield</b> move, not risk-off &mdash; the same signature that showed up on 9/1 when GLD fell 2.86% and GDX 3.90% into the 4.788% 10-year. <b>Under 408.54 stays broken</b>; a reclaim of it voids the whole thing."
+  ],
+  [
+   "T1",
+   "g",
+   "MU",
+   "+0.86%",
+   "Outside (3) &middot; clearing the high",
+   "Thursday was a genuine <b>outside bar</b> &mdash; H <b>959.76</b> over Wednesday's 958.00, L <b>918.88</b> under Wednesday's 927.16, closing <b>958.16</b> near the top of its own range. That is a 3 with a bullish resolution already implied by the close. Premarket <b>966.40</b> is above the 959.76 outside high, which is the trigger. The caution is that it printed <b>978.39</b> before the jobs number and has given back twelve dollars since, so the level is being tested rather than held. <b>Over 959.76 is the setup</b>; losing it puts the outside bar back in play in the other direction."
+  ],
+  [
+   "T1",
+   "g",
+   "AMD",
+   "+0.95%",
+   "Failed 2D &middot; through two highs",
+   "Thursday broke Wednesday's <b>452.36</b> low down to <b>440.50</b> and then closed <b>456.16</b>, back above it &mdash; a textbook <b>Failed 2 Down</b>. Premarket <b>460.50</b> clears both Thursday's <b>459.77</b> high and Wednesday's <b>462.21</b> is the next one up. This is the cleanest of the semi setups because the reversal bar is already complete and the trigger sits just overhead rather than far below. Same caveat as MU: it was <b>464.59</b> pre-print. <b>Over 459.77</b> confirms, <b>462.21</b> is the extension."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; FRI 9/4",
+  "lead": "&#9888; <b>Hot print, narrow tape, long weekend.</b> Gold broke Thursday's low on the number and that is the highest-conviction chart on the board. Semis are the only green group and they are fading off their pre-print marks. <b>IWM is sitting on 293.43</b> and small caps are leading down. Markets are <b>closed Monday</b>, so anything held today carries three days of headline risk with the FOMC two weeks out.",
+  "cards": [
+   [
+    "GLD",
+    "Failed 2 Up &middot; &minus;1.92%",
+    "r",
+    "T1",
+    "Thursday: 2 Up, H 413.54 / L 408.54, close 410.22, entirely above Wednesday's 403.33 high. The print drove it to <b>402.35</b> &mdash; through the low of the bar.",
+    "The trade is the broken level. <b>408.54</b> is the line: below it the failed 2 Up stands, above it the whole read is void.",
+    "A reclaim of 408.54 would mean the print is being faded and the hold case is back.",
+    "Gold falling with equities on a labour print is a real-yield signature, not a growth scare.",
+    "This is the chart that most directly prices the September FOMC. Watch it over the index."
+   ],
+   [
+    "MU",
+    "Outside (3) &middot; +0.86%",
+    "g",
+    "T1",
+    "Thursday broke both of Wednesday's extremes &mdash; H 959.76 over 958.00, L 918.88 under 927.16 &mdash; and closed 958.16 near the top.",
+    "<b>Over 959.76</b> is the trigger and premarket 966.40 is through it. Position sizing should respect that it printed 978.39 pre-print and has faded.",
+    "Memory is the strongest corner of the strongest group. SNDK +1.16% alongside it.",
+    "The whole semi bid is fading off its highs; a failure back inside the outside bar flips this.",
+    "A 41-point outside bar is a wide stop. Size accordingly."
+   ],
+   [
+    "AMD",
+    "Failed 2D &middot; +0.95%",
+    "g",
+    "T1",
+    "Broke Wednesday's 452.36 low to 440.50, then closed 456.16 back above it. A complete Failed 2 Down.",
+    "<b>Over 459.77</b> (Thursday's high) confirms; <b>462.21</b> is Wednesday's high and the extension target.",
+    "Cleanest structure of the three semi names &mdash; the reversal bar is finished, not forming.",
+    "Was 464.59 pre-print; the giveback is the risk.",
+    "Pairs with MU and AMAT as one correlated bet, not three."
+   ],
+   [
+    "TSLA",
+    "Failed 2 Up &middot; &minus;3.20%",
+    "r",
+    "T1",
+    "Thursday was a big <b>2 Up</b> on Cybercab day &mdash; H 384.04 / L 365.82, close 376.365, entirely above Wednesday's 360.62 high. Premarket <b>364.33 is below Thursday's 365.82 low</b>.",
+    "Same shape as GLD in the other direction. <b>Under 365.82</b> the failed 2 Up is live.",
+    "A reclaim of 365.82 puts the Cybercab move back on.",
+    "The event happened, the stock ran 5.42%, and it is handing it back the next morning &mdash; classic post-catalyst giveback.",
+    "63.6M shares Thursday. Liquidity is not the issue; direction is."
+   ],
+   [
+    "IWM",
+    "2 Up &middot; on the line &middot; &minus;0.50%",
+    "y",
+    "T2",
+    "Thursday: 2 Up, H 296.18 / L <b>293.43</b>, close 295.19, above Wednesday's 294.35. Premarket <b>293.72</b> is sitting fractionally above that low.",
+    "This is the day's cleanest binary. <b>293.43</b> holds and the 2 Up survives; loses it and small caps confirm the rate hit.",
+    "It fell 1.49 points on the print against SPY's 1.77 &mdash; twice the damage per unit of price.",
+    "Small caps carry the most rate sensitivity of any index. This is the purest expression of the FOMC repricing.",
+    "The board already tags IWM as a Data Day name."
+   ],
+   [
+    "LULU",
+    "Outside (3) &middot; &minus;20.03%",
+    "r",
+    "T2",
+    "Thursday broke both of Wednesday's extremes (H 122.60 / L 117.89) and closed 121.77. Then the print: revenue miss, comps <b>&minus;10%</b>, FY guide cut to <b>$9.48-9.73 from $13.26</b>.",
+    "<b>No level applies.</b> At 97.38 it is 20 points below the entire prior structure &mdash; the opening range is the only reference.",
+    "The board's largest options ticket was a <b>$108.4M $300P 12/18</b> block, though deep ITM long-dated puts often carry hedging mechanics rather than directional intent.",
+    "A 43% guidance cut is not a quarter problem.",
+    "Do not fade a gap this size on day one without an opening range."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "WED 9/2",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "ADP and Beige Book &mdash; done"]],
+   "earnings": [["DELL", "+15.8%"], ["GTLB", "+10.0%"], ["CRDO", "&minus;20.0%"], ["MDB", "&minus;13.5%"]],
+   "events": [["PANW", "Done", "Closed &minus;9.28% &mdash; the explicit pass cost a clean short"]]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "DONE &middot; BEST DAY IN A MONTH",
+   "accent": "done",
+   "econ": [
+    ["&mdash;", "Waller backs a September <b>hold</b> &mdash; hike odds ~63% to ~50%, 10-year to ~4.75%"],
+    ["9:00am", "ISM Services <b>55.4</b>, six-month high; claims 206k"]
+   ],
+   "earnings": [["SNOW", "+16.6%"], ["HPE", "+5.0%"], ["NTAP", "+2.6%"], ["AVGO", "&minus;2.7%"]],
+   "events": [
+    ["TSLA", "Done", "Cybercab &mdash; closed <b>+5.42%</b>, handing it back premarket"],
+    ["LULU", "AMC", "Guide cut to $9.48-9.73 from $13.26 &mdash; <b>&minus;20%</b>"]
+   ]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "TODAY &middot; JOBS",
+   "accent": "next",
+   "econ": [
+    ["7:30am", "<b>August employment report</b> &mdash; landed hot; gold broke, yields up, IWM led down"],
+    ["&mdash;", "Last labor read before the <b>Sept 15-16 FOMC</b>"]
+   ],
+   "earnings": [["HURC", "BMO"], ["KNOP", "Call"], ["GROW", "Call"], ["NX", "Call"]],
+   "events": [
+    ["Div", "Today", "BAC, GOOGL, PEP, PYPL, KHC, GM, KMB, D pay or go ex"],
+    ["SUNB", "AM", "<b>$957.9M ask print</b> &mdash; ~3% of the company, no catalyst tag"]
+   ]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [["&mdash;", "Labor Day &mdash; U.S. markets closed"]],
+   "earnings": [],
+   "events": [["China", "Conf", "PDD, JD, BIDU, BABA, NTES, SE &mdash; ADR read for Tuesday"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "APPLE EVENT",
+   "accent": "macro",
+   "econ": [],
+   "earnings": [["CHWY", "BMO"], ["AVAV", "PM"], ["SIG", "BMO"]],
+   "events": [["AAPL", "Event", "<b>&lsquo;Surprise and Shine&rsquo;</b> &mdash; iPhone 18, first under Ternus"]]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "ORCL &middot; PPI",
+   "accent": "macro",
+   "econ": [["7:30am", "August <b>PPI</b>"]],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["RH", "PM"]],
+   "events": [["ORCL", "PM", "September AI capex read &mdash; cloud growth guided north of 55%"]]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [["7:30am", "<b>August CPI</b> &mdash; headline seen near 3.5% y/y; last input before the FOMC"]],
+   "earnings": [["KR", "BMO"]],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["GLD", "charts/GLD_2026-09-04.png", "2 Up &middot; premarket under the low"],
+  ["MU", "charts/MU_2026-09-04.png", "Outside (3) &middot; clearing 959.76"],
+  ["AMD", "charts/AMD_2026-09-04.png", "Failed 2D &middot; through 459.77"],
+  ["TSLA", "charts/TSLA_2026-09-04.png", "2 Up &middot; losing 365.82"],
+  ["IWM", "charts/IWM_2026-09-04.png", "2 Up &middot; sitting on 293.43"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:52AM CT",
+  "groups": [
+   [
+    "SEMIS &mdash; THE ONLY GREEN GROUP",
+    [["AMAT", 2.27], ["SNDK", 1.16], ["NVDA", 0.97], ["AMD", 0.95], ["MU", 0.86], ["INTC", 0.36]]
+   ],
+   [
+    "THE PRINT REACTION &mdash; 7:26 TO 7:33",
+    [["GLD", -1.84], ["IWM", -0.5], ["TLT", -0.41], ["SPY", -0.23]]
+   ],
+   [
+    "GIVING BACK THURSDAY",
+    [["TSLA", -3.2], ["MSFT", -0.53], ["META", -0.33], ["GOOGL", -0.33], ["AAPL", -0.18]]
+   ],
+   [
+    "EARNINGS DAMAGE",
+    [["LULU", -20.03], ["ZS", -4.39], ["DOCU", -0.71]]
+   ],
+   [
+    "ENERGY &mdash; STILL OFFERED",
+    [["USO", -1.24], ["XLE", -0.76]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 9/3 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "GLD",
+    "T1",
+    "r",
+    "Failed 2 Up &#128293;",
+    "r",
+    "Thursday was a clean 2 Up &mdash; H 413.54 / L 408.54, entirely above Wednesday's 403.33 high, closing 410.22. The jobs print drove it to 402.35, six dollars through the low.",
+    "pre 402.35 &middot; <b>&minus;1.92%</b> &middot; Thu H 413.54 / L 408.54",
+    "<b>Under 408.54</b> the failed 2 Up stands.",
+    "A reclaim of 408.54 voids it and says the print is being faded."
+   ],
+   [
+    "MU",
+    "T1",
+    "g",
+    "Outside (3) &#128293;",
+    "g",
+    "Broke both of Wednesday's extremes &mdash; H 959.76 over 958.00, L 918.88 under 927.16 &mdash; and closed 958.16 near the top of the bar.",
+    "pre 966.40 &middot; <b>+0.86%</b> &middot; Thu H 959.76 / L 918.88",
+    "<b>Over 959.76</b> triggered premarket.",
+    "Printed 978.39 pre-jobs and has given back twelve dollars. The level is being tested, not held."
+   ],
+   [
+    "AMD",
+    "T1",
+    "g",
+    "Failed 2D",
+    "g",
+    "Took Wednesday's 452.36 low to 440.50 and closed 456.16 back above it &mdash; a complete failed 2 Down.",
+    "pre 460.50 &middot; <b>+0.95%</b> &middot; Thu H 459.77 / L 440.50",
+    "<b>Over 459.77</b>, then Wednesday's <b>462.21</b>.",
+    "Was 464.59 pre-print. Correlated with MU and AMAT &mdash; one bet, not three."
+   ],
+   [
+    "TSLA",
+    "T1",
+    "r",
+    "Failed 2 Up &#128293;",
+    "r",
+    "Thursday was a 2 Up on Cybercab day, H 384.04 / L 365.82, closing 376.365 above Wednesday's whole range. Premarket 364.33 is below Thursday's low.",
+    "pre 364.33 &middot; <b>&minus;3.20%</b> &middot; Thu H 384.04 / L 365.82",
+    "<b>Under 365.82</b> is the trigger.",
+    "Post-catalyst giveback. A reclaim puts the Cybercab move back on."
+   ],
+   [
+    "AMAT",
+    "T2",
+    "g",
+    "Failed 2D",
+    "g",
+    "Broke Wednesday's 433.57 low to 426.13 and closed 435.91 back above. Premarket clears Thursday's 437.14 high and Wednesday's 443.50.",
+    "pre 445.81 &middot; <b>+2.27%</b> &middot; Thu H 437.14 / L 426.13",
+    "<b>Over 443.50</b> is the real level, and it is through.",
+    "Faded from +3.61% pre-print &mdash; the strongest semi and still losing ground."
+   ],
+   [
+    "IWM",
+    "T2",
+    "y",
+    "2 Up &middot; on the line",
+    "y",
+    "Thursday: 2 Up, H 296.18 / L 293.43, close 295.19 over Wednesday's 294.35. Premarket 293.72 sits fractionally above the low.",
+    "pre 293.72 &middot; <b>&minus;0.50%</b> &middot; Thu H 296.18 / L 293.43",
+    "<b>293.43 holds or it does not.</b> Cleanest binary of the day.",
+    "Fell 1.49 points on the print against SPY's 1.77 &mdash; twice the damage per unit of price."
+   ],
+   [
+    "SNDK",
+    "T2",
+    "y",
+    "Inside (1) &middot; no trigger",
+    "y",
+    "Thursday sat entirely inside Wednesday &mdash; H 1576.80 under 1587.86, L 1511.00 above 1509.24. Premarket 1573.00 is still inside it.",
+    "pre 1573.00 &middot; <b>+1.16%</b> &middot; Thu H 1576.80 / L 1511.00",
+    "<b>Over 1576.80 / under 1511.00.</b> Neither yet.",
+    "Was +3.02% pre-print. An inside bar with a fading gap is a wait, not a trade."
+   ],
+   [
+    "LULU",
+    "T2",
+    "r",
+    "Outside (3) &middot; gap through everything",
+    "r",
+    "Thursday broke both of Wednesday's extremes and closed 121.77. The guidance cut gaps it to 97.38 &mdash; twenty points below the entire prior structure.",
+    "pre 97.38 &middot; <b>&minus;20.03%</b> &middot; Thu H 122.60 / L 117.89",
+    "<b>No level applies.</b> The opening range is the only reference.",
+    "FY guide cut to $9.48-9.73 from $13.26, comps &minus;10%. Not a quarter problem."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["AMAT", 2.27, "No news of its own &mdash; the semi bid carried it. Cleared Wednesday's 443.50 high premarket after a Failed 2 Down Thursday. Note it was <b>+3.61%</b> before the jobs print and has given back a third of the gap."],
+   ["SNDK", 1.16, "Memory strength alongside MU. Still <b>inside</b> Thursday's bar, which was itself inside Wednesday's &mdash; two days of compression with no trigger in either direction. Was +3.02% pre-print."],
+   ["NVDA", 0.97, "The one big name that held its bid through the number. Thursday's dark-pool board had <b>NVDA $1.7B bid</b> as the #1 single name and a <b>$2.1M 230C 09/04</b> sweep &mdash; same-day, at-the-money, expiring today."],
+   ["AMD", 0.95, "Failed 2 Down completed Thursday, premarket through the 459.77 high. Cleanest structure in the group."],
+   ["MU", 0.86, "Outside bar Thursday closing near its high, premarket over the 959.76 trigger. Faded from 978.39 on the print."]
+  ],
+  "bear": [
+   ["LULU", -20.03, "Revenue miss, comps <b>&minus;10%</b>, FY EPS guide cut to <b>$9.48-9.73 from $13.26</b> &mdash; a 43% reduction. The board's largest options ticket was a <b>$108.4M $300P 12/18</b> floor-crossed block, though deep ITM long-dated puts frequently carry hedging or synthetic-stock mechanics rather than a directional view."],
+   ["ZS", -4.39, "Beat on Q4 with revenue <b>$898M, +25%</b>, traded higher after the bell and then faded through it. Now well red &mdash; the same beat-then-sold pattern that ran all week."],
+   ["TSLA", -3.2, "Handing back Cybercab day. Closed <b>+5.42%</b> Thursday at 376.365 on 63.6M shares; premarket 364.33 is under Thursday's 365.82 low, which turns a 2 Up into a failed one."],
+   ["GLD", -1.92, "Broke Thursday's 408.54 low on the jobs print. Gold selling on a hot labour number is a real-yield move &mdash; the same signature as 9/1, when GLD fell 2.86% into a 4.788% 10-year."],
+   ["USO", -1.24, "Energy still offered. XLE &minus;0.76% alongside it, extending Thursday's finish as the worst sector on a nine-green day."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Thursday's board leaned ask into the jobs print, and it leaned that way everywhere that matters.</b> The single largest print on the whole tape was <b>IVV $1.6B (ask, AH)</b> &mdash; the second straight night IVV topped the board ask-side. On cumulative flow the entire index complex sat on one side: <b>IVV $4.8B ask, VOO $3.1B ask, SPY $3.0B ask</b>. The single-name top print also flipped: after NVDA and GOOGL bid prints led all week (<b>NVDA $823M bid</b> Wednesday, <b>$761M bid</b> Tuesday), Thursday's largest was <b>META $618M (ask, AH)</b>. The one big line still drawing bid-side size was <b>NVDA at $1.7B cumulative</b> &mdash; and NVDA is the only mega-cap still green this morning, which is the single cleanest confirmation on the board. Two to discount: <b>BAC $300M bid</b> and <b>PEP $269M bid</b> both print with dividends hitting today, so some of that is mechanical rather than directional. One to watch: <b>DELL $270M ask</b> while sitting at an all-time high after a +15.8% Wednesday and a further run to 516.39 Thursday.",
+  "right_note": "THURSDAY 9/3 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   ["IVV", "$1.6B", "ask &middot; #1 print, AH", "r"],
+   ["IVV", "$4.8B", "cumulative ASK", "r"],
+   ["VOO", "$3.1B", "cumulative ask", "r"],
+   ["SPY", "$3.0B", "cumulative ask", "r"],
+   ["NVDA", "$1.7B", "cumulative BID &middot; #1 name", "g"],
+   ["META", "$618M", "ask &middot; top single name", "r"],
+   ["NVDA", "$500M", "bid, AH", "g"],
+   ["GOOGL", "$500M", "bid, AH", "g"],
+   ["DELL", "$270M", "ask &middot; at all-time high", "r"],
+   ["SUNB", "$957.9M", "ask &middot; ~3% of company", "r"],
+   ["LULU", "$108.4M", "300P 12/18 block", "r"],
+   ["NVDA", "$2.1M", "230C 09/04 sweep &middot; 0DTE", "g"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Friday September fourth, premarket. The jobs number landed hot and the tape repriced the Fed inside three minutes. Between seven twenty six and seven thirty three central, G L D fell from four oh nine eighty eight to four oh two thirty five, T L T gave up its entire pre print gain, and I W M dropped a dollar forty nine while S P Y lost only a dollar seventy seven. Gold is now down one point nine two percent and sitting below Thursday's four oh eight fifty four low, after Thursday was a clean two up. That is the single most decisive chart on the board this morning. Waller had cracked the door open on a September hold on Thursday and knocked hike odds from about sixty three percent down to about fifty. This print pushed back. The rally has not died, it has narrowed to one group. Semis are the only thing still green, with Micron up zero point eight six percent, A M D up zero point nine five, Nvidia up zero point nine seven and Applied Materials up two point two seven. But even they are fading. Applied was up three point six one and SanDisk three point zero two before the number. Everything else is offered. Tesla is down three point two zero percent handing back Cybercab day, and Lululemon is down twenty percent at ninety seven thirty eight after cutting full year guidance to nine forty eight to nine seventy three from thirteen twenty six."
+  },
+  {
+   "label": "Setups",
+   "text": "Three setups. First, gold, tier one, short side. Thursday was a clean two up, high four thirteen fifty four, low four oh eight fifty four, entirely above Wednesday's high, closing four ten twenty two. The jobs print took it straight through the bottom of that bar to four oh two thirty five in three minutes. A two up that loses its own low the next session is a failed two up, and this one failed on the exact catalyst that defines the trade. Under four oh eight fifty four it stays broken. Second, Micron, tier one, long. Thursday was a genuine outside bar, high nine fifty nine seventy six over Wednesday's nine fifty eight, low nine eighteen eighty eight under Wednesday's nine twenty seven, closing nine fifty eight sixteen near the top. Premarket nine sixty six forty is above the outside high, which is the trigger. The caution is it printed nine seventy eight thirty nine before the number and has given back twelve dollars. Third, A M D, tier one, long. Thursday broke Wednesday's four fifty two thirty six low down to four forty fifty, then closed four fifty six sixteen back above it, a textbook failed two down. Premarket four sixty fifty clears Thursday's four fifty nine seventy seven high. Wednesday's four sixty two twenty one is the extension."
+  },
+  {
+   "label": "Levels",
+   "text": "The levels that matter today. Gold, four oh eight fifty four, Thursday's low. Below it the failed two up stands, above it the read is void. Micron, nine fifty nine seventy six, the outside bar high, triggered premarket. A M D, four fifty nine seventy seven then four sixty two twenty one. Tesla, three sixty five eighty two, Thursday's low. Premarket three sixty four thirty three is already under it, which turns Thursday's two up into a failed one. I W M, two ninety three forty three. That is the cleanest binary of the day. It holds and the two up survives. It goes and small caps confirm the rate hit. Small caps fell a dollar forty nine on the print against S P Y's dollar seventy seven, twice the damage per unit of price. SanDisk, one five seven six eighty over, one five one one under, an inside bar inside another inside bar with no trigger yet. And Lululemon has no level at all. At ninety seven thirty eight it is twenty points below the entire prior structure, so the opening range is the only reference. Remember markets are closed Monday for Labor Day, so anything held today carries three days of headline risk with the F O M C two weeks out."
+  }
+ ]
+}
