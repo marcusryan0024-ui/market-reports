@@ -1,0 +1,410 @@
+{
+ "title": "Wednesday, September 2, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 294.01, 290.57],
+     ["QQQ", 709.24, 707.64],
+     ["SPY", 765.16, 761.78]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 324.96, 325.13],
+     ["MSFT", 496.82, 501.02],
+     ["NVDA", 224.41, 217.44],
+     ["GOOGL", 337.12, 335.02],
+     ["AMZN", 254.98, 254.92],
+     ["META", 592.85, 578.54],
+     ["TSLA", 357.01, 356.09],
+     ["AMD", 457.06, 459.61],
+     ["AVGO", 367.24, 369.68],
+     ["INTC", 90.05, 88.97],
+     ["MU", 956.08, 933.44]
+    ]
+   ]
+  ],
+  "focus": [
+   ["DELL", 492.2, 425.0],
+   ["GTLB", 49.59, 45.09],
+   ["PANW", 328.48, 362.09],
+   ["MDB", 375.4, 434.21],
+   ["CRDO", 165.22, 206.63]
+  ]
+ },
+ "headline": {
+  "title": "<b>Five companies reported and the market sorted them entirely by margin, exactly as the morning note said it would.</b> <b>DELL +15.81%</b> after raising full-year sales guidance by $25 billion. <b>GTLB +9.98%</b> on a 15% operating margin against 11.2% consensus. On the other side, <b>CRDO &minus;20.04%</b> and <b>MDB &minus;13.54%</b> &mdash; both of which beat on the headline lines and were sold anyway, on gross margin and on Atlas growth holding at 29% instead of accelerating. <b>PANW &minus;9.28%</b> made it three.",
+  "summary": "<b>The index barely moved and that was the point.</b> SPY <b>+0.44%</b>, QQQ <b>+0.23%</b> in a 4.70-point range, IWM <b>+1.18%</b>. Ten of twelve sectors closed green but none by more than 1.7%, and the entire day's dispersion was inside single names rather than across the tape. Underneath, the semis quietly repaired Tuesday's damage &mdash; <b>NVDA +3.21%</b>, <b>MU +2.43%</b>, SMH +0.96% &mdash; and <b>META +2.47%</b> led the mega caps. The 10-year eased back after Tuesday's 4.788% spike, which is most of why the rate-sensitive names stopped falling."
+ },
+ "what_happened": [
+  [
+   "Margin was the sorting line, and it sorted cleanly in both directions.",
+   "g",
+   "The morning report opened with it: <i>&ldquo;what separated the winners from the losers was not the beat &mdash; it was the margin.&rdquo;</i> That held all day. <b>GTLB printed a 15% operating margin against 11.2% consensus</b> and closed <b>+9.98%</b>. <b>DELL raised full-year sales guidance by $25 billion</b> and closed <b>+15.81%</b>. <b>CRDO beat both lines</b> and lost <b>20.04%</b> on gross margin. <b>MDB beat and raised</b> and lost <b>13.54%</b> because Atlas growth held at 29% rather than accelerating. Five prints, five reactions, one rule."
+  ],
+  [
+   "DELL's gap was not the trade &mdash; the drawdown after it was.",
+   "y",
+   "It gapped to <b>465.99</b> premarket, above Tuesday's 463.00 high, and the note called the 2-2 reversal. What actually happened in the regular session: it opened <b>462.05</b>, sold to <b>439.16</b> inside the first hour &mdash; <b>&minus;4.9% from the open and 27 points below the premarket mark</b> &mdash; and only then began the climb that ran every hour into the close. High <b>497.99</b> in the final thirty minutes, close <b>492.20</b>. Anyone who paid the premarket price sat through a 5% hole first; anyone who waited an hour got the entry of the week."
+  ],
+  [
+   "The index went nowhere while five names moved 9 to 20 percent.",
+   "y",
+   "QQQ's entire regular-session range was <b>705.10 to 709.80</b> &mdash; 4.70 points &mdash; and it closed <b>709.24, +0.23%</b>. SPY <b>+0.44%</b>. Ten of twelve sectors green, none above <b>XLB +1.69%</b>. Meanwhile DELL <b>+15.81%</b>, CRDO <b>&minus;20.04%</b>, MDB <b>&minus;13.54%</b>, GTLB <b>+9.98%</b>, PANW <b>&minus;9.28%</b>. On a day like this index exposure captures none of the available return and none of the available risk, which is a statement about position selection rather than about direction."
+  ]
+ ],
+ "picks": {
+  "right_note": "1 BIG WIN &middot; 1 NEVER TRIGGERED &middot; 1 FADED",
+  "rows": [
+   [
+    "DELL",
+    "+15.81%",
+    "g",
+    "BIGGEST WIN OF THE WEEK &middot; AFTER A 5% HOLE",
+    "g",
+    "T1. 2-2 reversal up. Tuesday closed 425.00 near its 421.89 low. The blowout gaps it to 465.99, through Tuesday's 463.00 high &mdash; a 2-2 reversal, almost a bullish kicker.",
+    "Right, and violently so &mdash; but not on the terms the gap implied. It opened <b>462.05</b>, <i>below</i> the premarket mark, then sold to <b>439.16</b> within the first hour. From there it went up every single hour: 453, 458, 464, 479, 483, 489, and a <b>497.99</b> high in the last thirty minutes, closing <b>492.20</b>. That is <b>+12.1% off the low</b> and <b>+15.81%</b> on the day. The setup was correct and the first hour would have stopped out anyone who sized it off the premarket print."
+   ],
+   [
+    "AAPL",
+    "&minus;0.05%",
+    "y",
+    "TRIGGER NEVER FIRED &mdash; CORRECTLY NO TRADE",
+    "g",
+    "T1. 2 Up. Took Monday's 321.235 high to 327.30 and closed 325.13, +2.61%, on Ternus's first day as CEO. <b>Calls over 327.30 for the 2-2U.</b>",
+    "The level was named precisely and the session high was <b>327.055</b> &mdash; <b>twenty-five cents short</b>. The 2-2 Up never triggered, so there was never a position. It opened 325.16, ranged 323.53 to 327.06, and closed <b>324.96</b>, flat on the day. This grades as a win for the discipline rather than the direction: a setup with a stated trigger that is never reached is a no-trade, and the alternative &mdash; anticipating it &mdash; would have paid nothing across six and a half hours."
+   ],
+   [
+    "GTLB",
+    "+9.98%",
+    "g",
+    "PAID, THEN GAVE BACK TWO-THIRDS",
+    "y",
+    "T1. 2 Down &rarr; bullish kicker. Beat on <b>operating margin</b> &mdash; 15% against 11.2% consensus &mdash; and raised guidance. Tuesday was a 2 Down closing 45.09.",
+    "The thesis was right and the gap was the whole of it. Premarket <b>+26.4%</b> at 56.97; the regular session opened <b>51.94</b>, printed its high of <b>52.11</b> in the first thirty minutes, and faded for the rest of the day to a <b>49.11</b> low, closing <b>49.59</b>. Held from Tuesday it is <b>+9.98%</b>. Bought at the open it is <b>&minus;4.5%</b>. Same shape as SNOW the following day &mdash; the margin beat was real, and the entire payment for it happened before the bell."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/31",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Quiet docket. Energy the only green sector, XLE +2.00%"]],
+   "earnings": [["SAIC", "AM &middot; done"]],
+   "events": [["CRWD", "Done", "Fal.Con opened &mdash; closed +5.79%"]]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "DONE &middot; YIELD SHOCK",
+   "accent": "done",
+   "econ": [
+    ["9:00am", "ISM Manufacturing and JOLTS &mdash; done"],
+    ["&mdash;", "<b>10-year 4.788%</b>, highest since Jan 2025; JGB 3.00%, first since 1996"]
+   ],
+   "earnings": [["DELL", "PM"], ["GTLB", "PM"], ["MDB", "PM"], ["CRDO", "PM"]],
+   "events": [["AAPL", "Done", "Ternus day one as CEO &mdash; closed +2.61%"]]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "DONE &middot; MARGIN SORTED IT",
+   "accent": "done",
+   "econ": [
+    ["7:15am", "ADP private payrolls &mdash; done"],
+    ["1:00pm", "Fed Beige Book &mdash; done"]
+   ],
+   "earnings": [
+    ["DELL", "+15.81%"],
+    ["GTLB", "+9.98%"],
+    ["PANW", "&minus;9.28%"],
+    ["MDB", "&minus;13.54%"],
+    ["CRDO", "&minus;20.04%"]
+   ],
+   "events": [
+    ["COST", "Done", "August sales after the close &mdash; closed 928.48, &minus;1.22%"],
+    ["AVGO", "PM", "Reports tonight &mdash; <b>8.4% implied</b>"]
+   ]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "NEXT &middot; CYBERCAB &middot; ISM",
+   "accent": "next",
+   "econ": [["9:00am", "<b>ISM Services (Aug)</b> &mdash; 30 min after the open"], ["7:30am", "Jobless claims"]],
+   "earnings": [["AVGO", "Reaction"], ["SNOW", "Reaction"], ["HPE", "Reaction"], ["NTAP", "Reaction"], ["FIVE", "Reaction"]],
+   "events": [["TSLA", "TBA", "<b>Cybercab launch, Austin</b> &mdash; invite-only, livestreamed"]]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS",
+   "accent": "macro",
+   "econ": [["7:30am", "<b>August employment report</b> &mdash; last labor read before a live-hike September FOMC"]],
+   "earnings": [],
+   "events": [["CRWD", "Day 1", "First session after the 9/3 briefing"]]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [["&mdash;", "Labor Day &mdash; U.S. markets closed"]],
+   "earnings": [],
+   "events": []
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC decision</b> &mdash; market pricing a live hike after Warsh's Jackson Hole keynote"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["DELL", "charts/DELL_2026-09-02.png", "&minus;4.9% off the open, then +12% to the close"],
+  ["GTLB", "charts/GTLB_2026-09-02.png", "+26% premarket &rarr; +9.98% close"],
+  ["CRDO", "charts/CRDO_2026-09-02.png", "Beat both lines &middot; &minus;20.04%"],
+  ["MDB", "charts/MDB_2026-09-02.png", "Beat and raised &middot; &minus;13.54%"],
+  ["PANW", "charts/PANW_2026-09-02.png", "The explicit pass &middot; &minus;9.28%"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "MARGIN BEAT &mdash; PAID",
+    [["DELL", 15.81], ["GTLB", 9.98]]
+   ],
+   [
+    "MARGIN MISS &mdash; SOLD",
+    [["CRDO", -20.04], ["MDB", -13.54], ["PANW", -9.28]]
+   ],
+   [
+    "SEMIS REPAIRED TUESDAY",
+    [["NVDA", 3.21], ["MU", 2.43], ["SMH", 0.96], ["INTC", 1.21]]
+   ],
+   [
+    "MEGA CAP",
+    [["META", 2.47], ["GOOGL", 0.63], ["AMZN", 0.02], ["AAPL", -0.05], ["AVGO", -0.66], ["MSFT", -0.84]]
+   ],
+   [
+    "GOLD REBOUNDED",
+    [["GDX", 3.13], ["GLD", 1.52]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "WEDNESDAY 9/2 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "DELL",
+    "T1",
+    "g",
+    "2-2 reversal up &mdash; worked, the hard way",
+    "g",
+    "Opened 462.05 below the premarket mark, sold to 439.16 inside the first hour, then advanced every hour to a 497.99 high in the last thirty minutes.",
+    "close 492.20 &middot; <b>+15.81%</b> &middot; off low <b>+12.1%</b>",
+    "Biggest single-name win of the week. The reversal was real and it ran into the bell.",
+    "The first hour took 4.9% off the open. A stop placed off the premarket print never survived to see it."
+   ],
+   [
+    "GTLB",
+    "T1",
+    "g",
+    "Bullish kicker &mdash; gap was the whole move",
+    "y",
+    "Opened 51.94 after a +26.4% premarket mark, high 52.11 in the first thirty minutes, then a one-way fade to a 49.11 low and a 49.59 close.",
+    "close 49.59 &middot; <b>+9.98%</b> &middot; from open <b>&minus;4.5%</b>",
+    "The 15% operating margin against 11.2% consensus was the real thing and the market paid for it overnight.",
+    "Closed near the low. Every hour of the regular session was a giveback."
+   ],
+   [
+    "MDB",
+    "T2",
+    "g",
+    "2 Down &rarr; third leg &mdash; continued",
+    "g",
+    "Gapped far below Tuesday's 430.53 low and stayed there. Opened 379.25, bounced to 398.50, then rolled over to close 375.40 near the 371.00 low.",
+    "close 375.40 &middot; <b>&minus;13.54%</b>",
+    "Direction correct and the third leg extended as the setup implied.",
+    "The 398.50 bounce was a 6% counter-move inside the day &mdash; the trend was right, the path was not free."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "g",
+    "Third 2 Down &mdash; coiled, no trigger",
+    "g",
+    "Premarket 706.81 sat inside Tuesday's range, and the note said no trigger either way. The entire session ran 705.10 to 709.80 &mdash; 4.70 points &mdash; closing 709.24.",
+    "close 709.24 &middot; <b>+0.23%</b> &middot; range 4.70 pts",
+    "The &lsquo;coiled, wait&rsquo; read was exactly right. Nothing to do, and the note said so.",
+    "Three consecutive 2 Downs then an inside day. The compression resolved up the following session."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "y",
+    "2 Up &mdash; trigger never reached",
+    "y",
+    "The level was 327.30 for the 2-2 Up. The regular-session high was <b>327.055</b> &mdash; twenty-five cents short. Opened 325.16, closed 324.96.",
+    "close 324.96 &middot; <b>&minus;0.05%</b> &middot; high 327.055",
+    "A named trigger that is never reached is a no-trade, and that is the correct outcome, not a missed one.",
+    "Twenty-five cents. Anticipating the level instead of waiting for it would have paid nothing all day."
+   ],
+   [
+    "AVGO",
+    "T1",
+    "y",
+    "Failed 2D &middot; quiet into the print",
+    "y",
+    "Ranged 364.65 to 371.09 and closed 367.24, doing nothing ahead of the report. The note flagged it &lsquo;y&rsquo; on the earnings risk rather than calling a direction.",
+    "close 367.24 &middot; <b>&minus;0.66%</b> &middot; EM &plusmn;8.4%",
+    "Correctly held back. The event was the trade and it had not happened yet.",
+    "Reported that evening and gapped down &mdash; the caution was the whole value of the call."
+   ],
+   [
+    "COST",
+    "T1",
+    "r",
+    "Outside day &middot; straddle underpaid",
+    "r",
+    "The trade was an end-of-day straddle, direction agnostic, on the 9/4 940 strike at <b>$16.95 = 1.80% implied</b>. August sales landed at 3:15pm.",
+    "close 928.48 &middot; <b>&minus;1.22%</b> &middot; vs <b>1.80%</b> implied",
+    "The outside day and the scheduled catalyst were both real.",
+    "The realised move was under two-thirds of what was paid for. A direction-agnostic structure still needs the move to clear the premium."
+   ],
+   [
+    "PANW",
+    "&mdash;",
+    "mute",
+    "Inside week &mdash; explicit pass",
+    "r",
+    "The note passed on it deliberately. It then opened 345.53, fell to 327.25 inside the first thirty minutes, and closed 328.47.",
+    "close 328.48 &middot; <b>&minus;9.28%</b>",
+    "The pass avoided a 9% loss on the long side, which is what it was designed to do.",
+    "It also stood aside from the second-cleanest short of the day. A pass is a position, and this one cost something."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "The margin rule was written before the open and it held for all five prints.",
+   "The morning report's lede was that the beat did not matter and the margin line did. <b>GTLB (15% operating margin vs 11.2%) +9.98%</b> and <b>DELL ($25B guidance raise) +15.81%</b> against <b>CRDO (gross margin) &minus;20.04%</b>, <b>MDB (Atlas growth flat at 29%) &minus;13.54%</b> and <b>PANW (margins narrowed) &minus;9.28%</b>. Five for five on the sorting rule. What the rule did <i>not</i> do was tell you when to buy the winners &mdash; GTLB's entire payment happened overnight and DELL's required surviving a 5% drawdown first."
+  ],
+  [
+   "Twenty-five cents decided whether AAPL was a trade at all.",
+   "The note named <b>327.30</b> as the trigger for the 2-2 Up. The regular session high was <b>327.055</b>. That is the cleanest illustration in the book of why a trigger has to be a number rather than a direction: the setup was correct, the thesis was intact, Ternus's first week was going well, and none of it mattered because the level was never taken. The stock closed <b>&minus;0.05%</b>. A trader anticipating the break spent the day in a flat position for no reason; one waiting for it never entered."
+  ],
+  [
+   "The two index calls were both &lsquo;do nothing&rsquo; and both were right.",
+   "QQQ was flagged as a third consecutive 2 Down that had gone inside &mdash; coiled, no trigger in either direction. Its whole session covered <b>4.70 points</b>, 705.10 to 709.80, closing <b>+0.23%</b>. AVGO was flagged &lsquo;y&rsquo; because the earnings event had not happened yet, and it ranged quietly and closed <b>&minus;0.66%</b> before gapping down that night. Two calls whose content was &lsquo;there is nothing here yet&rsquo;, and on a day when five other names moved between 9% and 20%, that restraint was the correct read rather than a missed one."
+  ],
+  [
+   "The PANW pass was safe and expensive, and both halves of that are true.",
+   "The note explicitly declined the trade on an inside week. PANW then fell <b>9.28%</b>, opening 345.53 and losing eighteen points inside the first thirty minutes. On the long side the pass saved the loss it was designed to save. But it also stood aside from the day's second-cleanest short, in a name that had already broken Tuesday's low premarket and was flagged as such in the same paragraph. Recording a pass as costless is how a rule stops being examined &mdash; this one had a price and it is worth naming."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Tuesday's board was the most one-sided of the stretch and the bid side went four for four.</b> <b>SPY was the largest line on the entire tape at $6.7B cumulative bid</b>, with <b>QQQ $4.5B bid</b> top-three; both closed green, <b>+0.44%</b> and <b>+0.23%</b>. <b>NVDA led twice</b> &mdash; biggest single-name print at $761M bid and cumulative <b>$4.9B bid by a mile</b> &mdash; and closed <b>+3.21%</b>, the best mega cap on the board. The largest options block on either side was <b>$182.3M of SLB $42.5C 09/18</b>, a crossed floor ticket, and SLB closed <b>+1.71%</b>. The ask side did not resolve at all: <b>MU $4.4B ask closed +2.43%</b> and <b>SNDK $3.1B ask closed +1.08%</b>, both up. <b>XLE was flagged at 60% puts, ~3.4&times; average, and closed +0.51%.</b> Bid four for four; ask nought for three.",
+  "right_note": "TUESDAY 9/1 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["SPY", "$6.7B", "bid &#8594; +0.44% &middot; HIT", "g"],
+   ["NVDA", "$4.9B", "bid &#8594; +3.21% &middot; HIT", "g"],
+   ["QQQ", "$4.5B", "bid &#8594; +0.23% &middot; HIT", "g"],
+   ["SLB", "$182.3M", "42.5C block &#8594; +1.71% &middot; HIT", "g"],
+   ["MU", "$4.4B", "ask &#8594; +2.43% &middot; MISS", "r"],
+   ["SNDK", "$3.1B", "ask &#8594; +1.08% &middot; MISS", "r"],
+   ["XLE", "60% puts", "3.4&times; avg &#8594; +0.51% &middot; MISS", "r"]
+  ]
+ },
+ "sectors": {
+  "right_note": "TEN GREEN, NONE ABOVE 1.7% &mdash; SPY +0.44%",
+  "rows": [
+   ["XLB", "Materials", 1.69],
+   ["XLC", "Communications", 1.39],
+   ["SMH", "Semis", 0.96],
+   ["XLF", "Financials", 0.8],
+   ["XLV", "Health Care", 0.75],
+   ["XLE", "Energy", 0.51],
+   ["XLP", "Staples", 0.33],
+   ["XLU", "Utilities", 0.26],
+   ["XLY", "Discretionary", 0.24],
+   ["XLI", "Industrials", 0.03],
+   ["XLK", "Technology", -0.02],
+   ["XLRE", "Real Estate", -0.7]
+  ]
+ },
+ "lessons": [
+  [
+   "A trigger is a number, and twenty-five cents is the whole distance between a trade and no trade.",
+   "g",
+   "AAPL's 2-2 Up needed <b>327.30</b> and the session high was <b>327.055</b>. The setup, the catalyst and the direction were all correct, and the position never existed because the number was never printed. That is the system working. The failure mode it protects against is the one where a level becomes a vibe &mdash; and on this day, anticipating the break would have bought a stock that closed flat after six and a half hours of going nowhere."
+  ],
+  [
+   "Grading a gap winner on the close hides whether it was ever buyable.",
+   "y",
+   "GTLB closed <b>+9.98%</b> and DELL closed <b>+15.81%</b>, and those two numbers describe opposite experiences. GTLB opened 51.94, topped at 52.11 in the first thirty minutes and closed 49.59 &mdash; <b>&minus;4.5% from the open</b>. DELL opened 462.05, fell to 439.16, and closed at 492.20 &mdash; <b>+6.5% from the open and +12.1% off the low</b>. Both were &lsquo;wins&rsquo;. Only one paid anyone who showed up when the bell rang, and the close-based grade cannot tell them apart."
+  ],
+  [
+   "&lsquo;Nothing here yet&rsquo; is a call, and it was the right one twice.",
+   "g",
+   "QQQ was coiled with no trigger and moved <b>4.70 points</b> all session. AVGO was held back because the earnings event had not landed, and it went quiet before gapping down that night. On a day when five names moved 9-20%, writing two explicit do-nothings took more discipline than picking a direction would have. The value of a report that says &lsquo;wait&rsquo; only shows up in sessions like this one."
+  ],
+  [
+   "The bid-side blocks led again and the ask side told you nothing &mdash; but 9/1 broke that pattern.",
+   "y",
+   "Tuesday's board went <b>four for four on the bid</b> (SPY, QQQ, NVDA, plus the $182.3M SLB call block) and <b>nought for three on the ask</b> (MU, SNDK, XLE puts). That matches 8/31 and 9/3. It does <i>not</i> match 9/1, where the bid side went <b>0 for 3</b> &mdash; SPY, IVV and GOOGL all fell &mdash; while the put sweeps paid. So the honest record over four sessions is three-for-four on bid-side blocks, not an unbroken run, and the one failure came on the day with the largest macro shock in it."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "AVGO",
+   "o",
+   "Reported after today's close with <b>8.4% implied</b>. It sat quietly all session &mdash; 364.65 to 371.09, closing 367.24 &mdash; which is exactly what a name with a binary that evening should do. Wednesday's 364.65 low is the reference the reaction trades against."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>Four more prints land tonight alongside AVGO</b> &mdash; SNOW, HPE, NTAP and FIVE. Five reactions in one session tomorrow, following five today. The margin rule sorted today's five perfectly; the question is whether it survives a second consecutive night."
+  ],
+  [
+   "DELL",
+   "g",
+   "Closed <b>492.20</b> after a <b>497.99</b> high, up <b>15.81%</b>. The second-order name is <b>INTC</b>, which takes 19% of its revenue from Dell and has followed its post-earnings direction 88% of the time &mdash; it closed <b>+1.21% at 90.05</b> today, a fraction of Dell's move."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>ISM Services at 9:00am CT</b>, thirty minutes after the open, plus jobless claims at 7:30am. QQQ has now printed three 2 Downs and an inside day &mdash; the coil resolves into that release."
+  ],
+  [
+   "TSLA",
+   "b",
+   "<b>Cybercab launch in Austin tomorrow</b>, invite-only and livestreamed, with <b>no announced start time</b>. It closed 357.01 today, +0.26%. An event with no published time is not tradeable on a schedule; the reaction is."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>What to carry:</b> today the index did nothing while five names moved 9 to 20 percent. If tomorrow repeats that shape with five more reactions, then the tradeable question this week is not direction at all &mdash; it is which side of the margin line each name lands on, and whether the gap leaves anything on the table by the time the bell rings."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Wednesday September second, the close. Five companies reported and the market sorted them entirely by margin, exactly as the morning note said it would. Dell up fifteen point eight one percent after raising full year sales guidance by twenty five billion dollars. GitLab up nine point nine eight percent on a fifteen percent operating margin against eleven point two consensus. On the other side, Credo down twenty point zero four percent and MongoDB down thirteen point five four, both of which beat on the headline lines and were sold anyway, on gross margin and on Atlas growth holding at twenty nine percent instead of accelerating. Palo Alto down nine point two eight made it three. The index barely moved and that was the point. S P Y up zero point four four percent, Q Q Q up zero point two three in a four point seven zero point range, I W M up one point one eight. Ten of twelve sectors closed green but none by more than one point seven percent. The entire day's dispersion was inside single names rather than across the tape. Underneath, the semis quietly repaired Tuesday's damage, with Nvidia up three point two one percent and Micron up two point four three."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Dell was the biggest win of the week and it came the hard way. The note called a two two reversal up off a four sixty five ninety nine premarket mark. What actually happened is that it opened four sixty two oh five, below the premarket print, then sold to four thirty nine sixteen inside the first hour, nearly five percent off the open. From there it advanced every single hour, reaching four ninety seven ninety nine in the last thirty minutes and closing four ninety two twenty. Twelve percent off the low. Apple is the instructive one. The note named three twenty seven thirty as the trigger for the two two up, and the session high was three twenty seven oh five and a half. Twenty five cents short. The trigger never fired, so there was never a position, and the stock closed flat. That is the system working, not a miss. GitLab was right on the thesis and the gap was the whole of it, opening fifty one ninety four and closing forty nine fifty nine, down four and a half percent from the open while still up nine point nine eight on the day. Q Q Q and Broadcom were both explicit do nothings and both were correct."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, a trigger is a number, and twenty five cents was the entire distance between a trade and no trade on Apple. The setup, the catalyst and the direction were all correct, and the position never existed because the level was never printed. Second, grading a gap winner on the close hides whether it was ever buyable. GitLab closed up nine point nine eight percent and was down four and a half from the open. Dell closed up fifteen point eight one and was up six and a half from the open. Both are wins and only one paid anyone who showed up at the bell. Third, nothing here yet is a call, and it was the right one twice, on Q Q Q and on Broadcom, in a session where five other names moved between nine and twenty percent. Fourth, the bid side of the block tape led again, four for four Tuesday, while the ask side went nought for three. But that pattern broke on September first, when the bid side went nought for three. So the honest record is three of four sessions, not an unbroken run."
+  }
+ ]
+}

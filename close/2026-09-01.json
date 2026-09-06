@@ -1,0 +1,412 @@
+{
+ "title": "Tuesday, September 1, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 290.57, 293.93],
+     ["QQQ", 707.64, 716.76],
+     ["SPY", 761.78, 767.05]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 325.13, 316.85],
+     ["MSFT", 501.02, 507.29],
+     ["NVDA", 217.44, 220.78],
+     ["GOOGL", 335.02, 339.35],
+     ["AMZN", 254.92, 259.77],
+     ["META", 578.54, 572.34],
+     ["TSLA", 356.09, 367.95],
+     ["AMD", 459.61, 470.72],
+     ["AVGO", 369.68, 370.34],
+     ["INTC", 88.97, 89.51],
+     ["MU", 933.44, 958.73]
+    ]
+   ]
+  ],
+  "focus": [
+   ["CVX", 211.05, 206.14],
+   ["XOM", 164.55, 160.95],
+   ["PFE", 28.55, 28.46],
+   ["NVS", 161.25, 152.06],
+   ["MDT", 92.04, 90.65]
+  ]
+ },
+ "headline": {
+  "title": "<b>The entire day happened before the opening bell.</b> QQQ opened <b>707.37</b> and closed <b>707.64</b> &mdash; twenty-seven cents higher after six and a half hours &mdash; yet finished <b>&minus;1.27%</b> on the session. SPY opened 762.01 and closed <b>761.78</b>, dead flat intraday, <b>&minus;0.69%</b> on the day. Every point of index damage was priced by 8:30am CT, done by the overnight yield shock: the <b>10-year at 4.788%</b>, its highest since <b>Jan 14, 2025</b>, the 30-year at 5.279%, and Japan's 10-year JGB touching <b>3.00% for the first time since 1996</b>.",
+  "summary": "<b>What moved was the rotation underneath, and it was textbook for a real-yield shock.</b> Energy and defensives took the bid &mdash; <b>USO +5.46%</b>, <b>CVX +2.38%</b>, <b>XOM +2.24%</b>, XLE +1.27%, and on the health-care side <b>NVS +6.04%</b> on Phase III data with XLV +0.66%. Long-duration growth paid for it: <b>SMH &minus;2.05%</b>, MU &minus;2.64%, AMD &minus;2.36%, XLY &minus;1.72%, XLK &minus;1.53%. The tell that this was rates rather than risk-off: <b>gold was sold alongside everything else</b>, GLD <b>&minus;2.86%</b> and GDX <b>&minus;3.90%</b>, which is what happens when the move is in real yields and not in fear."
+ },
+ "what_happened": [
+  [
+   "The gap did all the work and the session did none of it.",
+   "y",
+   "QQQ's range for the entire cash session was <b>704.66 to 712.30</b> and it closed <b>707.64</b>, twenty-seven cents above its <b>707.37</b> open. SPY was the same shape: open 762.01, close <b>761.78</b>. Both finished materially red &mdash; <b>&minus;1.27%</b> and <b>&minus;0.69%</b> &mdash; and none of it was available to anyone trading the regular session. On a day like this the only decision that mattered was the one made before the open."
+  ],
+  [
+   "Energy was the one clean trend, and CVX closed on its high.",
+   "g",
+   "The Hormuz bid held all day rather than fading. <b>USO +5.46%</b> with WTI up through the $87 handle, <b>XOM +2.24%</b>, <b>OXY +1.28%</b>, XLE <b>+1.27%</b>, and CVX finishing <b>211.05 against a session high of 211.07</b> &mdash; a close at the high on the third leg of a 2-2-2. The exception was loud: <b>SLB &minus;4.91%</b>, giving back the entire +4.87% it had put on Monday."
+  ],
+  [
+   "Gold sold off with the growth names, which is the rates tell.",
+   "r",
+   "<b>GLD &minus;2.86%</b> and <b>GDX &minus;3.90%</b> on a day the index fell and geopolitical risk was the headline. That combination does not happen in a fear-driven selloff &mdash; it happens when the move is in <i>real</i> yields, and it argues the 10-year at 4.788% was being read as term premium and supply rather than as growth panic. Utilities, the other rate-sensitive, went the other way at <b>+0.78%</b>, so the rotation was not purely mechanical either."
+  ]
+ ],
+ "picks": {
+  "right_note": "1 CLEAN &middot; 1 CORRECT &middot; 1 FADED",
+  "rows": [
+   [
+    "CVX",
+    "+2.38%",
+    "g",
+    "CLOSED AT THE HIGH &middot; THIRD LEG DELIVERED",
+    "g",
+    "T1. 2 Up &rarr; 2-2-2. Second straight 2 Up Monday &mdash; H 208.4152 over Friday's 202.24. Premarket 209.70 clears it and starts the third leg. <b>ATH $214.69</b> overhead.",
+    "The call and the tape agreed all session. It opened <b>208.62</b>, never traded below <b>208.00</b>, based sideways through midday, then went bid from noon CT onward and closed <b>211.05</b> against a high of <b>211.07</b> &mdash; a close at the high, <b>+2.38%</b>. The third leg was real and the complex confirmed it: XOM +2.24%, USO +5.46%, XLE +1.27%. The ATH at 214.69 is still overhead and untested."
+   ],
+   [
+    "QQQ",
+    "&minus;1.27%",
+    "g",
+    "VOIDING CALLED CORRECTLY",
+    "g",
+    "T1. Failed 2D being voided. <b>Not a 2 Down.</b> It broke Friday's 715.085 low to 713.16 and closed 716.76 back above it. Premarket 706.90 is below the whole thing, which unwinds the reversal.",
+    "That read was exactly right and it was right before the open. The premarket level held as the ceiling for the whole session &mdash; QQQ opened <b>707.37</b>, tagged <b>712.30</b> at 10:30am CT, failed there, and closed <b>707.64</b>, <b>&minus;1.27%</b>. The Failed 2D was indeed voided. The honest caveat is that the entire edge was in the overnight gap; the cash session gave back twenty-seven cents of it."
+   ],
+   [
+    "PFE",
+    "+0.32%",
+    "y",
+    "CLEARED THE LEVEL, CLOSED UNDER IT",
+    "r",
+    "T1. 3-2 &mdash; outside then 2. Monday broke both of Friday's extremes (H 28.70 / L 27.64) and closed 28.46 near the high. Today is the 2, and premarket already clears 28.70.",
+    "It opened <b>28.68</b>, printed <b>28.905</b> in the first half hour, and then spent the rest of the day underneath &mdash; a low of <b>28.465</b> and a close of <b>28.565</b>, <b>back below the 28.70 trigger</b>. Green on the day by a third of a percent and a failure by the terms of the setup. The 2 never extended; the outside day was the whole move."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 8/31",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Quiet docket. Energy the only green sector, XLE +2.00%"]],
+   "earnings": [["SAIC", "AM &middot; done"]],
+   "events": [["CRWD", "Done", "Fal.Con opened &mdash; stock closed +5.79%"]]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "DONE &middot; YIELD SHOCK",
+   "accent": "done",
+   "econ": [
+    ["9:00am", "ISM Manufacturing and JOLTS &mdash; done"],
+    ["&mdash;", "<b>10-year 4.788%</b>, highest since Jan 2025; JGB 3.00%, first since 1996"]
+   ],
+   "earnings": [
+    ["MDT", "AM &middot; beat, faded to +1.53%"],
+    ["DELL", "PM &middot; tonight"],
+    ["GTLB", "PM &middot; tonight"],
+    ["MDB", "PM &middot; tonight"],
+    ["CRDO", "PM &middot; tonight"]
+   ],
+   "events": [
+    ["AAPL", "Done", "Ternus day one as CEO &mdash; closed <b>+2.61%</b>"],
+    ["CVX", "Done", "Completed the 2-2-2 up, closed 211.05 at its high"]
+   ]
+  },
+  {
+   "day": "WED 9/2",
+   "tag": "NEXT &middot; 5 REACTIONS",
+   "accent": "next",
+   "econ": [["7:15am", "<b>ADP private payrolls</b>"], ["1:00pm", "<b>Fed Beige Book</b>"]],
+   "earnings": [
+    ["DELL", "Reaction"],
+    ["GTLB", "Reaction"],
+    ["MDB", "Reaction"],
+    ["CRDO", "Reaction"],
+    ["PANW", "Reaction"]
+   ],
+   "events": [["COST", "3:15pm", "August monthly sales after the close"]]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "CYBERCAB &middot; ISM",
+   "accent": "macro",
+   "econ": [["9:00am", "<b>ISM Services (Aug)</b> &mdash; 30 min after the open"]],
+   "earnings": [["AVGO", "PM"], ["SNOW", "PM"], ["HPE", "PM"], ["NTAP", "PM"], ["FIVE", "PM"]],
+   "events": [["TSLA", "TBA", "<b>Cybercab launch, Austin</b> &mdash; invite-only, livestreamed"]]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS",
+   "accent": "macro",
+   "econ": [["7:30am", "<b>August employment report</b> &mdash; last labor read before a live-hike September FOMC"]],
+   "earnings": [],
+   "events": []
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "macro",
+   "econ": [["&mdash;", "Labor Day &mdash; U.S. markets closed"]],
+   "earnings": [],
+   "events": []
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC decision</b> &mdash; market pricing a live hike after Warsh's Jackson Hole keynote"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["CVX", "charts/CVX_2026-09-01.png", "2-2-2 third leg &middot; closed at the high"],
+  ["NVS", "charts/NVS_2026-09-01.png", "Bullish kicker held &middot; +6.04%"],
+  ["QQQ", "charts/QQQ_2026-09-01.png", "Failed 2D voided &middot; flat intraday"],
+  ["MDT", "charts/MDT_2026-09-01.png", "Gap sold &middot; never reached 96.05"],
+  ["GDX", "charts/GDX_2026-09-01.png", "Gold sold with growth &middot; &minus;3.90%"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; THE HORMUZ BID HELD",
+    [["USO", 5.46], ["CVX", 2.38], ["XOM", 2.24], ["OXY", 1.28], ["XLE", 1.27], ["SLB", -4.91]]
+   ],
+   [
+    "HEALTH CARE &mdash; THE OTHER BID",
+    [["NVS", 6.04], ["MDT", 1.53], ["XLV", 0.66], ["PFE", 0.32]]
+   ],
+   [
+    "SEMIS &amp; GROWTH &mdash; YIELD HIT",
+    [["MU", -2.64], ["AMD", -2.36], ["SMH", -2.05], ["XLY", -1.72], ["XLK", -1.53], ["NVDA", -1.51]]
+   ],
+   [
+    "GOLD &mdash; SOLD WITH EVERYTHING",
+    [["GDX", -3.9], ["GLD", -2.86]]
+   ],
+   [
+    "REPORTING TONIGHT &mdash; SOLD INTO IT",
+    [["CRDO", -8.65], ["DELL", -6.8], ["PANW", -5.24], ["MDB", -4.23], ["GTLB", -3.12]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/1 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "CVX",
+    "T1",
+    "g",
+    "2-2-2 up &mdash; third leg delivered",
+    "g",
+    "Opened 208.62, held 208.00 as the floor all morning, then went bid after midday and finished on the high.",
+    "close 211.05 &middot; <b>+2.38%</b> &middot; high 211.07",
+    "Closed at the high with the whole complex confirming. Cleanest call of the day.",
+    "ATH 214.69 still overhead and untested."
+   ],
+   [
+    "NVS",
+    "T2",
+    "g",
+    "Bullish kicker &mdash; gap held",
+    "g",
+    "Opened 162.15 and printed 163.57 in the first thirty minutes, then held a tight 160.7-161.8 band for the rest of the session. No giveback.",
+    "close 161.25 &middot; <b>+6.04%</b>",
+    "A 6% gap that does not fade is rarer than one that does. Phase III MS data was the catalyst and it stuck.",
+    "Closed a point below the open &mdash; the gap was still the entire move."
+   ],
+   [
+    "QQQ",
+    "T1",
+    "g",
+    "Failed 2D &mdash; voided, as called",
+    "g",
+    "Premarket 706.90 sat below the whole structure and that unwound the reversal exactly as written. Tagged 712.30 at 10:30am CT and failed there.",
+    "close 707.64 &middot; <b>&minus;1.27%</b> &middot; open 707.37",
+    "The read was right and it was right before the bell.",
+    "Twenty-seven cents of intraday range to show for it. All the edge was in the gap."
+   ],
+   [
+    "SPY",
+    "T1",
+    "g",
+    "2 Down &rarr; 2-2 &mdash; continued",
+    "g",
+    "A real 2 Down: Monday's entire range sat below Friday's 768.31 low, and Tuesday extended it. Opened 762.01, closed 761.78.",
+    "close 761.78 &middot; <b>&minus;0.69%</b>",
+    "Direction correct, and IWM printed the identical shape at &minus;1.14%.",
+    "Flat from open to close. Nothing to trade inside the session."
+   ],
+   [
+    "NVDA",
+    "T2",
+    "g",
+    "Failed 2D at the line &mdash; broke down",
+    "g",
+    "Premarket 216.91 was sitting right on the reference and it lost it. Opened 216.75, low 215.10, closed 217.44 without reclaiming Monday's 220.78.",
+    "close 217.44 &middot; <b>&minus;1.51%</b>",
+    "The line held as resistance. Semis were the worst group, SMH &minus;2.05%.",
+    "Closed off the low &mdash; it bounced 2.34 off 215.10 into the bell."
+   ],
+   [
+    "MDT",
+    "T2",
+    "y",
+    "Kicker &mdash; the inside-bar caution was right",
+    "g",
+    "The note flagged <b>6HR and 2HR still inside</b> and that is exactly what capped it. Opened 92.08, high 92.98, and the 96.05 call strike was never remotely in play.",
+    "close 92.04 &middot; <b>+1.53%</b> &middot; premarket was 93.49",
+    "The hedge in the write-up did its job &mdash; this was flagged 'y', not 'g'.",
+    "Closed below its own open and well under the premarket mark. The daily kicker had no intraday follow-through."
+   ],
+   [
+    "PFE",
+    "T1",
+    "y",
+    "3-2 &mdash; cleared, then closed under",
+    "r",
+    "Opened 28.68, tagged 28.905 in the first thirty minutes, then spent the whole session below it and closed 28.565 &mdash; under the 28.70 trigger.",
+    "close 28.565 &middot; <b>+0.32%</b>",
+    "Still green, and Monday's outside day was real.",
+    "The 2 never extended. A trigger that clears and closes back under is a failure regardless of the sign on the day."
+   ],
+   [
+    "NIO",
+    "T2",
+    "g",
+    "Outside day &rarr; continuation down",
+    "g",
+    "Closed at the low Monday and kept going. Opened 4.08, low 3.9899, closed 4.06 with volume nearly doubling to 81.9M shares.",
+    "close 4.06 &middot; <b>&minus;4.02%</b>",
+    "The Failed 2D on the 6HR resolved down, as the outside day implied.",
+    "A $4 stock on 82M shares is a crowded tape, not a clean signal."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "This was a gap day, and gap days are not trading days.",
+   "QQQ's open-to-close was <b>+0.27 points</b>. SPY's was <b>&minus;0.23</b>. Both finished materially red on the session &mdash; <b>&minus;1.27%</b> and <b>&minus;0.69%</b> &mdash; and every bit of that was set by the overnight move in yields before a single share traded in the regular session. Three of the four T1 setups were index or index-adjacent, they were all directionally correct, and none of them offered an entry after 8:30am CT better than the one available at the close the night before. That is worth separating from a win."
+  ],
+  [
+   "The rotation was the real signal, and it was a rates rotation rather than a risk-off one.",
+   "Energy led (<b>USO +5.46%</b>, <b>CVX +2.38%</b>, XLE +1.27%) and long-duration growth lagged (<b>SMH &minus;2.05%</b>, MU &minus;2.64%, AMD &minus;2.36%, XLY &minus;1.72%). The confirming detail was gold: <b>GLD &minus;2.86%</b> and <b>GDX &minus;3.90%</b> on a down day with a live geopolitical headline. Fear buys gold; real yields sell it. With the 10-year at <b>4.788%</b> and the JGB through <b>3.00%</b> for the first time since 1996, this was a global duration repricing, and positioning for it in the equity book meant owning cash flows now rather than growth later."
+  ],
+  [
+   "CVX was the one setup that paid inside the session.",
+   "Alone among the day's calls it gave a real intraday entry and held it. It opened <b>208.62</b>, put in its low of <b>208.00</b> inside the first ninety minutes, chopped sideways through midday, then trended from noon CT to the bell to close <b>211.05</b> against a <b>211.07</b> high. That is a close at the high on the third leg of a 2-2-2 with the whole complex confirming. The one discordant note in energy was <b>SLB &minus;4.91%</b>, handing back all of Monday's +4.87% &mdash; a reminder that the services names and the majors were not trading the same catalyst."
+  ],
+  [
+   "The block tape got this one wrong, and the options tape got it right.",
+   "Monday's board had the two largest lines on it bid &mdash; <b>SPY $3.5B</b> and <b>IVV $2.4B</b> cumulative &mdash; plus <b>GOOGL $774M bid</b> as the biggest ex-ETF single name. All three fell: SPY <b>&minus;0.69%</b>, IVV <b>&minus;0.70%</b>, GOOGL <b>&minus;1.28%</b>. Meanwhile the options side of the same board was positioned short &mdash; a <b>$2.3M QQQ 715P sweep</b> and a <b>$1.6M NVDA 175P</b> &mdash; and both paid, QQQ <b>&minus;1.27%</b> and NVDA <b>&minus;1.51%</b>. The one ask-side block, <b>SNDK $2.8B</b>, also worked at <b>&minus;1.90%</b>. Block bid nought for three; options short two for two."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Monday's board was graded today and the two sides disagreed sharply.</b> The block tape's largest lines were index ETFs on the bid &mdash; <b>SPY $3.5B</b> and <b>IVV $2.4B</b> cumulative, with <b>GOOGL $774M bid</b> the biggest single name ex-ETF &mdash; described in the morning report as index money crossing into the close even as futures pointed lower. It did not work: all three closed red. The options tape on the same board leaned the other way, and it did work &mdash; the largest index ticket was a <b>$2.3M QQQ 715P sweep</b> and the largest single-name sweep a <b>$1.6M NVDA 175P</b>, both of which paid. <b>Bid-side blocks 0 for 3; put sweeps 2 for 2.</b> The one ask-side block, SNDK, also resolved correctly at &minus;1.90%. This is the session that breaks the &lsquo;blocks lead&rsquo; read from 8/31 &mdash; worth holding both results rather than the flattering one.",
+  "right_note": "MONDAY 8/31 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["SPY", "$3.5B", "bid &#8594; &minus;0.69% &middot; MISS", "r"],
+   ["IVV", "$2.4B", "bid &#8594; &minus;0.70% &middot; MISS", "r"],
+   ["GOOGL", "$774M", "bid &#8594; &minus;1.28% &middot; MISS", "r"],
+   ["SNDK", "$2.8B", "ask &#8594; &minus;1.90% &middot; HIT", "g"],
+   ["QQQ", "$2.3M", "715P sweep &#8594; &minus;1.27% &middot; HIT", "g"],
+   ["NVDA", "$1.6M", "175P sweep &#8594; &minus;1.51% &middot; HIT", "g"]
+  ]
+ },
+ "sectors": {
+  "right_note": "ENERGY AND DEFENSIVES ONLY &mdash; SPY &minus;0.69%",
+  "rows": [
+   ["XLE", "Energy", 1.27],
+   ["XLU", "Utilities", 0.78],
+   ["XLV", "Health Care", 0.66],
+   ["XLP", "Staples", 0.32],
+   ["XLRE", "Real Estate", -0.16],
+   ["XLC", "Communications", -0.52],
+   ["XLF", "Financials", -0.88],
+   ["XLB", "Materials", -1.18],
+   ["XLI", "Industrials", -1.37],
+   ["XLK", "Technology", -1.53],
+   ["XLY", "Discretionary", -1.72],
+   ["SMH", "Semis", -2.05]
+  ]
+ },
+ "lessons": [
+  [
+   "A correct call on a gap day is not the same as a tradeable one.",
+   "y",
+   "QQQ, SPY and NVDA were all graded green today and all three were decided overnight. QQQ's entire cash-session range was 704.66-712.30 and it closed twenty-seven cents from its open. If the setup is only expressible by holding through the close the night before, then what is being graded is the analysis, not the execution &mdash; and the report should say which one it means. CVX is the counter-example that proves it: it opened, based, and trended, and it paid anyone who showed up at 8:30am."
+  ],
+  [
+   "Gold selling off is how you tell a rates day from a fear day.",
+   "g",
+   "The index was down, Hormuz was the headline, and <b>GLD fell 2.86%</b> with <b>GDX down 3.90%</b>. That combination rules out risk-off and points at real yields, which matched the 10-year at <b>4.788%</b> and the JGB at <b>3.00%</b>. Getting that distinction right at 8:30am changes the whole book: a fear day means buy defensives and gold, a rates day means buy energy and sell duration. Today only one of those worked."
+  ],
+  [
+   "A trigger that clears and closes back under is a failure, whatever the day's sign.",
+   "r",
+   "PFE cleared 28.70 to <b>28.905</b> in the first half hour and closed <b>28.565</b>, under the level, while still finishing <b>+0.32%</b> green. Graded on the close alone it looks like a small win. Graded on its own terms it is a failed 3-2. Same shape as MDT, which gapped to 93.49, opened 92.08, and never came near the 96.05 strike the note named &mdash; though there the write-up had already hedged it to 'y' on the 6HR and 2HR still being inside, and that caution is what saved it."
+  ],
+  [
+   "When the block tape and the options tape disagree, they are not the same signal.",
+   "y",
+   "Monday's board had index ETFs bid in size and index puts swept in size at the same time. The morning note called that an open conflict rather than a call, which was the right framing &mdash; and today it resolved <b>0 for 3 on the bid blocks and 2 for 2 on the put sweeps</b>. Large bid-side ETF prints can be hedges, allocations or rebalances with no directional content at all; a sweep pays a spread to get filled now. Worth weighting them differently rather than reading them off the same board."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>Five reactions in one session.</b> DELL, GTLB, MDB, CRDO and PANW all reported after today's close, and all five were sold into the print today &mdash; CRDO <b>&minus;8.65%</b>, DELL <b>&minus;6.80%</b>, PANW <b>&minus;5.24%</b>, MDB <b>&minus;4.23%</b>, GTLB <b>&minus;3.12%</b>. That is the setup pattern that has been producing the biggest gaps all week."
+  ],
+  [
+   "DELL",
+   "g",
+   "Closed <b>425.00</b> at the low end of its range, <b>&minus;6.80%</b>, having broken Tuesday's structure. Anything that reverses that candle from here is a 2-2 reversal up off a washed-out base, and the second-order name remains <b>INTC</b>, which takes 19% of revenue from Dell and has followed its post-earnings direction 88% of the time."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>ADP private payrolls at 7:15am CT and the Fed Beige Book at 1:00pm.</b> With the 10-year at 4.788% and a live-hike September FOMC being priced, the labour print is the one that can extend or break today's duration move &mdash; and Friday's employment report is the real event behind it."
+  ],
+  [
+   "XLE",
+   "g",
+   "Up <b>1.27%</b> and the only sector with a real trend today, with <b>USO +5.46%</b> behind it. CVX closed at its high with the <b>214.69 ATH</b> overhead as the next reference. The crack in the group is <b>SLB &minus;4.91%</b>, which gave back all of Monday's gain &mdash; watch whether the services names rejoin the majors or keep diverging."
+  ],
+  [
+   "COST",
+   "b",
+   "August monthly sales land at 3:15pm CT tomorrow, after the close. It closed <b>939.96</b> today, <b>&minus;0.42%</b>, having broken both of Monday's extremes on Tuesday &mdash; an outside day going into a scheduled catalyst."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>The question to carry into Wednesday:</b> today's damage was entirely a gap and the cash session did nothing with it. Either the market has absorbed 4.788% and Wednesday trades on the earnings reactions, or the duration move continues and the same rotation runs again. The gold tape is the cleanest tell &mdash; if GLD and GDX keep falling, it is still a rates market."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Tuesday September first, the close. The entire day happened before the opening bell. Q Q Q opened seven oh seven point three seven and closed seven oh seven point six four, twenty seven cents higher after six and a half hours, and still finished down one point two seven percent on the session. S P Y opened seven sixty two oh one and closed seven sixty one seventy eight, dead flat intraday, down zero point six nine percent on the day. All of the damage was done overnight by the yield shock. The ten year hit four point seven eight eight percent, its highest since January twenty twenty five, and Japan's ten year J G B touched three percent for the first time since nineteen ninety six. What moved was the rotation. Energy and defensives took the bid, with U S O up five point four six percent, Chevron two point three eight, Exxon two point two four, and Novartis six point zero four on Phase three data. Long duration growth paid for it, with semis down two point zero five percent, Micron down two point six four, A M D down two point three six. And gold was sold alongside everything else, G L D down two point eight six and G D X down three point nine zero, which is the tell that this was real yields and not fear."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Chevron was the clean one and the only setup that paid inside the session. It opened two oh eight sixty two, put in its low at two oh eight flat in the first ninety minutes, chopped through midday, then trended from noon to the bell and closed two eleven oh five against a high of two eleven oh seven. A close at the high on the third leg of the two two two, up two point three eight percent. Q Q Q was called correctly. The note said the premarket price sat below the whole structure and that this voided the failed two down, and that is exactly what happened, closing down one point two seven percent. But the entire edge was in the gap. S P Y and Nvidia were the same story, both directionally right and both decided overnight. Pfizer was the failure. It cleared twenty eight seventy to twenty eight ninety and a half in the first thirty minutes, then spent the rest of the day underneath and closed twenty eight fifty six and a half, back below the trigger, green by a third of a percent and a failed setup on its own terms. Medtronic was hedged correctly. The note flagged that the six hour and two hour were still inside, and that is precisely what capped it, with the ninety six oh five strike never in play."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, a correct call on a gap day is not the same as a tradeable one. Three of the four tier one setups were index names, all three were directionally right, and none of them offered an entry after eight thirty in the morning better than the prior close. Second, gold selling off is how you tell a rates day from a fear day. The index fell, Hormuz was the headline, and gold fell almost three percent, which rules out risk off and points at real yields. Third, a trigger that clears and closes back under is a failure whatever the day's sign. Pfizer finished green and failed. Fourth, when the block tape and the options tape disagree, they are not the same signal. Monday's board had index E T Fs bid in size and index puts swept in size at the same time. The bid side blocks went nought for three today. The put sweeps went two for two. That is the session that breaks the blocks lead reading, and it is worth keeping alongside the days it worked."
+  }
+ ]
+}
