@@ -1,0 +1,396 @@
+{
+ "title": "Friday, September 4, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 296.01, 295.19],
+     ["QQQ", 718.96, 717.67],
+     ["SPY", 770.19, 773.17]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 319.99, 328.21],
+     ["MSFT", 499.68, 510.12],
+     ["NVDA", 230.35, 228.45],
+     ["GOOGL", 338.5, 342.26],
+     ["AMZN", 258.51, 258.9],
+     ["META", 616.75, 610.68],
+     ["TSLA", 354.08, 376.365],
+     ["AMD", 477.57, 456.16],
+     ["AVGO", 357.87, 357.16],
+     ["INTC", 93.06, 91.67],
+     ["MU", 1016.59, 958.16]
+    ]
+   ]
+  ],
+  "focus": [
+   ["SNDK", 1740.0, 1554.99],
+   ["AMAT", 454.71, 435.91],
+   ["GLD", 406.77, 410.22],
+   ["LULU", 100.61, 121.77],
+   ["SMH", 566.99, 552.6]
+  ]
+ },
+ "headline": {
+  "title": "<b>Payrolls came in at 162,000 against a 56,000 consensus &mdash; nearly three times the estimate &mdash; and the tape did exactly one thing with it.</b> The 2-year yield snapped from <b>4.34% to 4.425% within seconds</b>, the 10-year reached 4.794%, and the curve flattened: short rates moved twice as much as long, which is the signature of a market pricing <i>near-term tightening</i> rather than a term-premium problem. Unemployment held at <b>4.1%</b>, and the revisions did as much work as the print &mdash; July's reported <b>&minus;23k became +21k</b> and June went up 11k, <b>+55k between them</b>.",
+  "summary": "<b>And then the narrowest session of the week broke out underneath it.</b> SPY closed <b>&minus;0.38%</b> with <b>eight of twelve sectors red</b> &mdash; and semis went vertical. <b>SMH +2.60%</b>, and inside it <b>SNDK +11.90% closing at 1740.00, its high</b>, <b>MU +5.93% through $1,000 for the first time</b>, <b>AMD +4.69%</b>, <b>AMAT +4.31%</b>. Everything rate-sensitive paid for it: XLY &minus;1.35%, XLC &minus;1.17%, XLV &minus;1.04%, and gold never reclaimed the level it lost on the print. The other casualty was <b>TSLA &minus;5.92%</b>, hit twice &mdash; Gary Black called the Cybercab event &ldquo;largely a bust&rdquo; on deployment detail, and <b>NHTSA opened an investigation</b> into how Tesla claimed federal safety-standard compliance."
+ },
+ "what_happened": [
+  [
+   "The beat was enormous and the bond market answered before the equity market did.",
+   "r",
+   "<b>162,000 against 56,000 expected.</b> Private payrolls +127k, government +35k. The 2-year &mdash; the maturity that tracks Fed expectations most closely &mdash; went from <b>4.34% to an intraday 4.425% within seconds</b> of the release, while the 10-year moved about three basis points to 4.794%. Short end twice the long end is a market pricing a hike, not a supply problem. The dollar reversed Thursday's Waller-driven slide, <b>DXY +0.33% to 99.236</b>. Two categories supplied <b>101k of the 162k</b> &mdash; food services +59k and local government education +42k &mdash; which is the one soft spot in an otherwise hard number."
+  ],
+  [
+   "Semis did not just lead, they were nearly the entire market.",
+   "g",
+   "<b>SMH +2.60%</b> against <b>SPY &minus;0.38%</b>. <b>SNDK closed at 1740.00 &mdash; the high of its day &mdash; up 11.90%</b> after opening 1586 and never trading below 1581. <b>MU broke $1,000 for the first time</b>, opening 971.34, never printing below 969.00, closing <b>1016.59, +5.93%</b>. AMD <b>+4.69%</b>, AMAT <b>+4.31%</b>. Only four of twelve sectors closed green and XLK's <b>+0.72%</b> was almost entirely this. A rate shock that sells everything except the most expensive growth complex on the board is not the textbook reaction."
+  ],
+  [
+   "Tesla was hit twice, and neither hit was the jobs number.",
+   "r",
+   "It closed <b>354.08, &minus;5.92%</b>, having opened 362.07 and traded down to <b>351.32</b>. Two separate items: Future Fund's Gary Black called Thursday's Cybercab launch <b>&ldquo;largely a bust&rdquo;</b> on limited deployment detail and no livestream, and the <b>NHTSA opened an investigation</b> into the process Tesla used to claim compliance with federal vehicle safety standards. Thursday's +5.42% Cybercab move is now fully retraced and then some &mdash; the two-day round trip is <b>&minus;0.87%</b> from Wednesday's close."
+  ]
+ ],
+ "picks": {
+  "right_note": "3 FOR 3 &middot; ALL THREE PAID",
+  "rows": [
+   [
+    "MU",
+    "+5.93%",
+    "g",
+    "TRIGGER HELD ALL DAY &middot; BROKE $1,000",
+    "g",
+    "T1. Outside (3). Thursday broke both of Wednesday's extremes &mdash; H 959.76 over 958.00, L 918.88 under 927.16 &mdash; closing 958.16 near the top. <b>Over 959.76</b> is the trigger. Caution flagged: it printed 978.39 pre-print and gave back twelve dollars.",
+    "The giveback was the entry. It opened <b>971.34</b>, above the trigger, and <b>never traded below 969.00 all session</b> &mdash; the 959.76 level was never retested. High <b>1017.77</b>, close <b>1016.59</b>, <b>+5.93%</b> and through <b>$1,000 for the first time</b>. 35.2M shares against a 24.2M Thursday. The outside bar resolved in the direction its close implied, and the &ldquo;wide stop&rdquo; warning cost nothing because the low never came."
+   ],
+   [
+    "GLD",
+    "&minus;0.85%",
+    "g",
+    "NEVER RECLAIMED THE BROKEN LEVEL",
+    "g",
+    "T1, short side. Thursday was a clean 2 Up &mdash; H 413.54 / L 408.54, entirely above Wednesday's 403.33, closing 410.22. The jobs print drove it to 402.35, six dollars through the low. <b>Under 408.54</b> the failed 2 Up stands; a reclaim voids it.",
+    "It did not reclaim. Friday's session high was <b>408.00</b> &mdash; fifty-four cents short of the level, which is as clean a test-and-fail as the setup could ask for. Opened 404.66, low 403.96, closed <b>406.77</b>. December COMEX futures fell <b>2.23% to $4,438.50</b> on the day. The read that mattered was the one made before the open: gold falling on hot data is real yields, and the whole session traded that way."
+   ],
+   [
+    "AMD",
+    "+4.69%",
+    "g",
+    "DIPPED UNDER THE TRIGGER, THEN RAN",
+    "g",
+    "T1. Failed 2D. Thursday took Wednesday's 452.36 low to 440.50 and closed 456.16 back above it. <b>Over 459.77</b> (Thursday's high) confirms, <b>462.21</b> the extension. Flagged as correlated with MU and AMAT &mdash; one bet, not three.",
+    "The one that made you sit through something. It opened <b>462.00</b>, already through both levels, then sold to <b>458.00</b> &mdash; back under the 459.77 trigger &mdash; before turning and running the rest of the day to close <b>477.57</b> against a <b>478.83</b> high, <b>+4.69%</b>. The correlation warning was right in the most profitable way possible: MU, AMD and AMAT all worked, which means the position was three times the size it looked."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "WED 9/2",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "ADP and Beige Book &mdash; done"]],
+   "earnings": [["DELL", "+15.8%"], ["GTLB", "+10.0%"], ["CRDO", "&minus;20.0%"], ["MDB", "&minus;13.5%"]],
+   "events": [["PANW", "Done", "Closed &minus;9.28%"]]
+  },
+  {
+   "day": "THU 9/3",
+   "tag": "DONE &middot; BEST DAY IN A MONTH",
+   "accent": "done",
+   "econ": [["&mdash;", "Waller backs a September hold &mdash; hike odds ~63% to ~50%"], ["9:00am", "ISM Services 55.4, six-month high"]],
+   "earnings": [["SNOW", "+16.6%"], ["HPE", "+5.0%"], ["NTAP", "+2.6%"], ["AVGO", "&minus;2.7%"]],
+   "events": [["TSLA", "Done", "Cybercab launch &mdash; closed +5.42%, fully retraced Friday"]]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "DONE &middot; PAYROLLS +162K",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "<b>August payrolls +162,000 vs 56,000 expected.</b> Unemployment 4.1%. July revised &minus;23k to <b>+21k</b>"],
+    ["&mdash;", "2-year 4.34% &rarr; <b>4.425%</b> in seconds; 10-year 4.794%; DXY +0.33%"]
+   ],
+   "earnings": [["KR", "AM &middot; next week"]],
+   "events": [
+    ["SMH", "Done", "<b>+2.60%</b> against SPY &minus;0.38% &mdash; SNDK +11.9%, MU through $1,000"],
+    ["TSLA", "Done", "&minus;5.92% &mdash; Cybercab called a bust, <b>NHTSA investigation opened</b>"]
+   ]
+  },
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "next",
+   "econ": [["&mdash;", "<b>Labor Day &mdash; U.S. markets closed.</b> Four-session week ahead"]],
+   "earnings": [],
+   "events": [["China tech", "Conf", "PDD, JD, BIDU, BABA, NTES, SE &mdash; read lands Tuesday"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "APPLE EVENT",
+   "accent": "macro",
+   "econ": [],
+   "earnings": [["CHWY", "AM"], ["AVAV", "PM"], ["SIG", "AM"]],
+   "events": [["AAPL", "TBA", "<b>&ldquo;Surprise and Shine&rdquo;</b> &mdash; iPhone 18, first under Ternus"]]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "ORCL &middot; PPI",
+   "accent": "macro",
+   "econ": [["7:30am", "August <b>PPI</b>"]],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["RH", "PM"]],
+   "events": [["RBLX", "9/10-12", "RDC26 opens, San Jose"]]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [["7:30am", "<b>August CPI</b> &mdash; the last input before the Sept 15-16 FOMC"]],
+   "earnings": [["KR", "AM"]],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["MU", "charts/MU_2026-09-04.png", "Outside bar resolved &middot; through $1,000"],
+  ["SNDK", "charts/SNDK_2026-09-04.png", "Inside bar broke &middot; closed at the high"],
+  ["AMD", "charts/AMD_2026-09-04.png", "Failed 2D &middot; +4.69%"],
+  ["GLD", "charts/GLD_2026-09-04.png", "Failed 2 Up &middot; 408.54 never reclaimed"],
+  ["TSLA", "charts/TSLA_2026-09-04.png", "2 Up failed &middot; &minus;5.92%"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "SEMIS &mdash; THE WHOLE MARKET",
+    [["SNDK", 11.9], ["MU", 5.93], ["AMD", 4.69], ["AMAT", 4.31], ["SMH", 2.6], ["INTC", 1.52]]
+   ],
+   [
+    "THE RATE HIT",
+    [["XLY", -1.35], ["XLC", -1.17], ["XLV", -1.04], ["XLE", -0.85], ["XLF", -0.79], ["XLRE", -0.77]]
+   ],
+   [
+    "MEGA CAP &mdash; MOSTLY OFFERED",
+    [["META", 0.99], ["NVDA", 0.83], ["AVGO", 0.2], ["AMZN", -0.15], ["GOOGL", -1.1], ["MSFT", -2.05], ["AAPL", -2.5]]
+   ],
+   [
+    "SINGLE-NAME DAMAGE",
+    [["LULU", -17.38], ["TSLA", -5.92]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 9/4 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "MU",
+    "T1",
+    "g",
+    "Outside (3) &mdash; resolved up",
+    "g",
+    "Opened 971.34 above the 959.76 trigger and never traded below 969.00. The retest never came. High 1017.77, close 1016.59 on 35.2M shares.",
+    "close 1016.59 &middot; <b>+5.93%</b> &middot; first close over $1,000",
+    "Cleanest trigger of the day &mdash; it was never in doubt after the open.",
+    "Now extended. 969.00 is the session floor to defend on any pullback."
+   ],
+   [
+    "SNDK",
+    "T2",
+    "g",
+    "Inside (1) &mdash; broke up, closed at the high",
+    "g",
+    "Thursday sat inside Wednesday with no trigger either way. Friday gapped to 1586 &mdash; above the 1576.80 line &mdash; and never looked back. Low 1581, close 1740.00 <i>at</i> the high.",
+    "close 1740.00 &middot; <b>+11.90%</b> &middot; the high of the day",
+    "The compression call was right: two inside days, then the release. 16.6M shares against 8.7M.",
+    "Closing at the high after +11.9% leaves no reference overhead and nothing beneath it either."
+   ],
+   [
+    "AMD",
+    "T1",
+    "g",
+    "Failed 2D &mdash; dipped, then ran",
+    "g",
+    "Opened 462.00 through both levels, sold back to 458.00 &mdash; under the 459.77 trigger &mdash; then turned and trended all day to close 477.57 against a 478.83 high.",
+    "close 477.57 &middot; <b>+4.69%</b> &middot; low 458.00",
+    "The one that required patience. The dip under the trigger was the entry, not the invalidation.",
+    "Correlated with MU and AMAT &mdash; the win was three times the intended size, same as the risk would have been."
+   ],
+   [
+    "AMAT",
+    "T2",
+    "g",
+    "Failed 2D &mdash; worked",
+    "g",
+    "Opened 452.50, above Wednesday's 443.50 level, low 443.36 held it almost exactly, high 460.20.",
+    "close 454.71 &middot; <b>+4.31%</b>",
+    "The 443.50 level was tested to within fourteen cents and held. Textbook.",
+    "Third leg of the same semi bet. Sizing across MU, AMD and AMAT is one position."
+   ],
+   [
+    "TSLA",
+    "T1",
+    "g",
+    "Failed 2 Up &mdash; worked",
+    "g",
+    "Thursday's 365.82 low was the line. Friday opened 362.07 below it, and the session high of 364.69 never reclaimed it. Low 351.32, close 354.08.",
+    "close 354.08 &middot; <b>&minus;5.92%</b> &middot; high 364.69",
+    "Never traded back above the broken level all session. Two catalysts against it &mdash; the Cybercab reception and the NHTSA probe.",
+    "Thursday's entire +5.42% is retraced. 65.0M shares on the way down against 63.6M on the way up."
+   ],
+   [
+    "GLD",
+    "T1",
+    "g",
+    "Failed 2 Up &mdash; worked",
+    "g",
+    "Session high 408.00 against the 408.54 level it needed to reclaim &mdash; fifty-four cents short. Opened 404.66, low 403.96, closed 406.77.",
+    "close 406.77 &middot; <b>&minus;0.85%</b> &middot; high 408.00",
+    "A test that fails by half a dollar is the cleanest kind of confirmation.",
+    "Small move in percentage terms. The signal value was higher than the trade."
+   ],
+   [
+    "IWM",
+    "T2",
+    "g",
+    "2 Up &mdash; held the line by 13 cents",
+    "g",
+    "The binary was 293.43. It opened 293.70, printed a session low of <b>293.56</b> &mdash; thirteen cents above the level &mdash; and then ran to close 296.01 near the 296.18 high.",
+    "close 296.01 &middot; <b>+0.26%</b> &middot; low 293.56",
+    "Small caps held their line on a day the 2-year repriced. That is the surprise of the session.",
+    "Thirteen cents is not margin. A tick lower and this reads as a failure."
+   ],
+   [
+    "LULU",
+    "T2",
+    "y",
+    "Outside (3) &mdash; opening range was the level",
+    "g",
+    "No prior level applied at &minus;20%. It opened 98.15, put in its low of 97.99 in the first minutes, and spent the day above the open &mdash; high 103.16, close 100.61.",
+    "close 100.61 &middot; <b>&minus;17.38%</b> &middot; low 97.99",
+    "The call was to use the opening range rather than fade the gap, and the opening range held as support all day.",
+    "Still &minus;17% on a 43% guidance cut. Recovering off the low is not the same as a bottom."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "Eight setups, eight resolved the way the morning note said.",
+   "MU held its trigger from the open and closed <b>+5.93%</b> through $1,000. AMD dipped under its trigger to 458.00 and closed <b>+4.69%</b>. AMAT held 443.50 to within fourteen cents and closed <b>+4.31%</b>. SNDK broke its inside bar and closed <b>+11.90% at the high</b>. TSLA never reclaimed 365.82 and closed <b>&minus;5.92%</b>. GLD never reclaimed 408.54 and closed <b>&minus;0.85%</b>. IWM held 293.43 by <b>thirteen cents</b> and closed <b>+0.26%</b>. LULU respected its opening range. That is the best single session of grading in this book, and the honest caveat is that four of the eight were the same trade."
+  ],
+  [
+   "The correlation warning was the most important line in the morning note, and it cut the right way today.",
+   "MU, AMD, AMAT and SNDK are one position, not four. The note said so &mdash; <i>&ldquo;pairs with MU and AMAT as one correlated bet, not three&rdquo;</i> &mdash; and on a day when the semi complex ran, that framing understates a very good result. It would have described a very bad one just as accurately. <b>SMH +2.60% against SPY &minus;0.38%</b> with eight of twelve sectors red is the whole point: the entire day's return came from one group, and anyone sized as though they held four independent ideas was carrying four times the intended risk into a rate shock."
+  ],
+  [
+   "A 162k print with a 55k upward revision behind it, and the most rate-sensitive complex on the board went up.",
+   "The bond market did the expected thing &mdash; 2-year from <b>4.34% to 4.425% in seconds</b>, curve flattening, dollar reversing Thursday's Waller slide. The equity market did not. Long-duration growth is supposed to be what a hike prices out, and instead semis added <b>2.60%</b> while staples, health care, discretionary, energy, financials and real estate all fell. Either the AI capex cycle is now being treated as rate-insensitive, or Friday was a positioning move into next week's CPI rather than a considered response to payrolls. <b>ORCL on Thursday 9/10 is the test</b>, since it prices the same capex assumption directly."
+  ],
+  [
+   "Gold gave the cleanest read of the week, twice.",
+   "It broke Thursday's <b>408.54</b> low within three minutes of the print and then, on Friday, rallied to <b>408.00</b> and stopped. Fifty-four cents short of the level, then back down to close <b>406.77</b>. December futures fell <b>2.23% to $4,438.50</b>. Gold selling on strong labour data separates a rates day from a fear day, and it has now done so on three separate sessions this stretch &mdash; 9/1, 9/3 and 9/4. Into a CPI print on 9/11 that Waller named as his own tipping point, it stays the first chart to look at."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Thursday's board leaned ask into the print, and the index side of that read was right.</b> The whole index complex was on one side going in &mdash; <b>IVV $4.8B, VOO $3.1B and SPY $3.0B all cumulative ask</b>, with IVV $1.6B the single largest print on the tape for a second straight night. SPY closed Friday <b>&minus;0.38%</b>. The single-name side split: <b>META $618M ask</b> was the top single name and META closed <b>+0.99%</b>, a miss, while <b>NVDA $1.7B cumulative bid</b> &mdash; the one big line still taking the other side &mdash; closed <b>+0.83%</b>, a hit, and the <b>$2.1M NVDA 230C 09/04 sweep</b> expired at the money with NVDA at 230.35. <b>DELL $270M ask at an all-time high</b> is the one to keep watching. Across this stretch the pattern has not been &ldquo;blocks lead&rdquo; &mdash; it has been that <b>index-level flow has read well and single-name flow has not</b>.",
+  "right_note": "THURSDAY 9/3 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["IVV", "$4.8B", "ask &#8594; SPY &minus;0.38% &middot; HIT", "g"],
+   ["VOO", "$3.1B", "ask &#8594; &minus;0.38% &middot; HIT", "g"],
+   ["SPY", "$3.0B", "ask &#8594; &minus;0.38% &middot; HIT", "g"],
+   ["NVDA", "$1.7B", "bid &#8594; +0.83% &middot; HIT", "g"],
+   ["META", "$618M", "ask &#8594; +0.99% &middot; MISS", "r"],
+   ["NVDA", "$2.1M", "230C 0DTE &#8594; ATM at close", "y"]
+  ]
+ },
+ "sectors": {
+  "right_note": "EIGHT RED &mdash; SMH +2.60% vs SPY &minus;0.38%",
+  "rows": [
+   ["SMH", "Semis", 2.6],
+   ["XLK", "Technology", 0.72],
+   ["XLI", "Industrials", 0.39],
+   ["XLU", "Utilities", 0.07],
+   ["XLB", "Materials", -0.32],
+   ["XLRE", "Real Estate", -0.77],
+   ["XLP", "Staples", -0.77],
+   ["XLF", "Financials", -0.79],
+   ["XLE", "Energy", -0.85],
+   ["XLV", "Health Care", -1.04],
+   ["XLC", "Communications", -1.17],
+   ["XLY", "Discretionary", -1.35]
+  ]
+ },
+ "lessons": [
+  [
+   "Four correlated wins is one win, and the note said so before it was flattering.",
+   "y",
+   "MU, AMD, AMAT and SNDK returned +5.93%, +4.69%, +4.31% and +11.90%. They are one trade. The morning report flagged the correlation as a sizing warning while the outcome was still unknown, which is the only time that warning has any value &mdash; written afterward it is a boast, written beforehand it is risk control. On a day the complex had gone the other way, the same four positions would have produced a single loss of four times the intended size."
+  ],
+  [
+   "A level that fails by half a dollar is a cleaner signal than one that fails by ten.",
+   "g",
+   "GLD needed to reclaim <b>408.54</b> and reached <b>408.00</b>. IWM needed to hold <b>293.43</b> and bottomed at <b>293.56</b>. Both resolved by margins under fifteen cents on IWM and under sixty on GLD, and both held. Tight rejections at a named level are worth more than wide ones because they show the level is being traded rather than coincidentally cleared &mdash; but they also mean the stop and the signal sit almost on top of each other, so the position size has to come down, not up."
+  ],
+  [
+   "The dip under the trigger was the entry, not the invalidation &mdash; and there is no rule that tells you which.",
+   "y",
+   "AMD opened 462.00, above its 459.77 trigger, then traded to <b>458.00</b> before running to close <b>477.57</b>. A stop under the trigger was hit before the move. TSLA is the mirror: it opened below its level and never went back, so the same discipline paid. The distinction was not visible at the time and pretending otherwise would be rewriting the day. What is repeatable is the sizing that survives being wrong about it."
+  ],
+  [
+   "Semis rallying into a hot payroll print is the anomaly worth carrying into next week.",
+   "r",
+   "A 162k beat with a 55k upward revision flattened the curve and reversed the dollar, and the most rate-sensitive complex on the board added <b>2.60%</b> while eight of twelve sectors fell. That is not the textbook response. Either AI capex is being priced as rate-insensitive, or this was positioning into CPI rather than a response to payrolls. <b>ORCL on 9/10 tests the first explanation directly</b>, and CPI on 9/11 tests the second."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "r",
+   "<b>Markets are closed Monday for Labor Day.</b> Four sessions next week, and anything held now carries three days of headline risk. The week's structure is back-loaded: nothing tier-one until PPI Thursday morning."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>August CPI, Friday 9/11 at 7:30am CT</b> &mdash; headline seen near 3.5% y/y. This is the input Waller named out loud: he supports a hold <i>&ldquo;if there is continued progress&rdquo;</i> but would <i>&ldquo;consider a rate hike&rdquo;</i> if inflation runs hot. Today's payrolls raised the odds; CPI decides them before the <b>Sept 15-16 FOMC</b>."
+  ],
+  [
+   "ORCL",
+   "g",
+   "Reports <b>Thursday 9/10 post-close</b> with cloud growth guided north of 55% &mdash; the September checkpoint on AI capex, and the direct test of whether today's semi bid was informed or reflexive. Closed <b>+3.07% at 158.77</b> into it."
+  ],
+  [
+   "AAPL",
+   "r",
+   "<b>&ldquo;Surprise and Shine&rdquo; Wednesday 9/9</b>, iPhone 18 and a first foldable, the first launch under Ternus. It closed today <b>&minus;2.50% at 319.99</b>, heading into its own event on the back foot, with Nikkei reporting foldable production limited to a few hundred units a day. A pre-announced supply constraint caps the upside surprise."
+  ],
+  [
+   "TSLA",
+   "r",
+   "Closed <b>354.08, &minus;5.92%</b>, with Thursday's Cybercab gain fully retraced and an <b>NHTSA investigation</b> now open into its safety-compliance claims. Thursday's 365.82 low is the level it lost; reclaiming it is the first thing that would change the read."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>The question for next week:</b> semis added 2.60% on a day the 2-year repriced a hike in seconds. Either that is a market treating AI capex as rate-insensitive, or it is positioning that unwinds on the first bad print. MU at 1016.59 and SNDK at 1740.00 have no overhead reference left, which cuts both ways &mdash; nothing to stop them and nothing to catch them."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Friday September fourth, the close. Payrolls came in at one hundred sixty two thousand against a fifty six thousand consensus, nearly three times the estimate, and the bond market answered in seconds. The two year yield snapped from four point three four percent to four point four two five, the ten year reached four point seven nine four, and the curve flattened, with short rates moving twice as much as long. That is the signature of a market pricing near term tightening. Unemployment held at four point one percent, and the revisions did as much work as the print. July's reported minus twenty three thousand became plus twenty one thousand. Then the narrowest session of the week broke out underneath it. S P Y closed down zero point three eight percent with eight of twelve sectors red, and semis went vertical. S M H up two point six zero percent. Inside it, SanDisk up eleven point nine zero percent closing at seventeen forty, its high. Micron up five point nine three percent through one thousand dollars for the first time. A M D up four point six nine, Applied Materials up four point three one. Tesla was the other story, down five point nine two percent, hit by a poorly received Cybercab event and a new N H T S A investigation."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls, and this was the best session in the book. Eight setups, eight resolved the way the note said. Micron opened nine seventy one thirty four above its nine fifty nine seventy six trigger and never traded below nine sixty nine all session, closing ten sixteen fifty nine. SanDisk broke its inside bar, gapped above fifteen seventy six eighty, and closed seventeen forty at the high of the day. A M D was the one that required patience. It opened four sixty two, sold back to four fifty eight, under its own trigger, then turned and ran to close four seventy seven fifty seven. Applied Materials held four forty three fifty to within fourteen cents. Tesla never reclaimed Thursday's three sixty five eighty two, with a session high of three sixty four sixty nine, and closed three fifty four oh eight. Gold never reclaimed four oh eight fifty four either, reaching four oh eight flat and stopping fifty four cents short. I W M held two ninety three forty three by thirteen cents at its low and closed two ninety six oh one. And Lululemon respected its opening range all day. The honest caveat is that four of the eight were the same trade."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry into next week. First, four correlated wins is one win. Micron, A M D, Applied Materials and SanDisk are one position, and the morning note flagged that as a sizing warning while the outcome was still unknown, which is the only time that warning is worth anything. Second, a level that fails by half a dollar is a cleaner signal than one that fails by ten. Gold reached four oh eight flat against four oh eight fifty four. I W M bottomed thirteen cents above its line. Both held, but the stop and the signal sit on top of each other, so size comes down, not up. Third, the dip under the trigger was the entry and not the invalidation, and nothing at the time told you which. A M D traded under its trigger before running four and a half percent. What is repeatable is the sizing that survives being wrong about it. Fourth, semis rallying into a hot payroll print is the anomaly worth watching. Oracle on Thursday the tenth tests whether that bid was informed, and C P I on Friday the eleventh tests whether it was just positioning."
+  }
+ ]
+}
