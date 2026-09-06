@@ -625,7 +625,20 @@ def ensure_row(date, dirpath='.'):
 
     idx = MONTH_RE.sub(bump, idx)
     if not hit[0]:
-        return False
+        # The month just rolled over and has no block yet. Create it instead of
+        # returning False: write() does not check this return value, so a missing
+        # header meant every report of a new month vanished from the landing page
+        # with no error at all - builds still printed "validate PASS" while adding
+        # nothing. That is exactly what happened to 2026-09-01 through 09-04.
+        # Months run newest-first, so a brand-new month opens the container.
+        m = re.search(r'<div class="cont-inner">\s*', idx)
+        if not m:
+            return False
+        idx = (idx[:m.end()]
+               + f'<div class="month">\n  <div class="mhdr">'
+                 f'<span class="mlabel">{label}</span>'
+                 f'<span class="mcnt">1</span></div>\n{row}\n</div>\n'
+               + idx[m.end():])
     open(path, 'w', encoding='utf-8').write(idx)
     return True
 
