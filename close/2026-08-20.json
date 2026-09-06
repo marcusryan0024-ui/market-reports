@@ -1,0 +1,345 @@
+{
+ "title": "Thursday, August 20, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 297.67, 301.72],
+     ["QQQ", 710.93, 716.08],
+     ["SPY", 762.6, 769.06]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 311.3, 316.83],
+     ["NVDA", 216.85, 217.56],
+     ["META", 545.83, 546.03],
+     ["TSLA", 345.13, 351.12],
+     ["AMD", 469.46, 466.42],
+     ["MU", 974.33, 937.11],
+     ["MRVL", 251.01, 237.27],
+     ["DELL", 434.78, 437.55]
+    ]
+   ]
+  ],
+  "focus": [
+   ["WMT", 103.84, 114.3],
+   ["DE", 620.94, 580.63],
+   ["BABA", 130.53, 128.9],
+   ["XLE", 63.75, 63.58],
+   ["SMH", 562.65, 560.92]
+  ]
+ },
+ "headline": {
+  "title": "<b>Two retail-scale gaps in opposite directions, and both of them kept going.</b> <b>WMT lost 9.15%</b> &mdash; opening 106.38 after a 114.30 close, trading down to <b>102.85</b>, and finishing <b>103.84</b> near the low on <b>83.6M shares</b>, more than double its prior session. <b>DE gained 6.94%</b>, opening 611.12 and running to a <b>639.00</b> high before closing <b>620.94</b>. The morning note had both: WMT as an outside day resolving down through the gap, DE as a 2 Down completing a 2-2 reversal up.",
+  "summary": "<b>Underneath the two gaps the tape was heavy and narrow.</b> SPY <b>&minus;0.84%</b>, QQQ <b>&minus;0.72%</b>, <b>IWM &minus;1.34%</b>, and only three of twelve sectors closed green &mdash; SMH +0.31%, XLE +0.27%, XLRE +0.20% &mdash; none of them by more than a third of a percent. Health care was the worst at <b>XLV &minus;1.87%</b>, with discretionary and staples behind it. The crypto complex was the loud exception: bitcoin ran past <b>$68,000</b> overnight and printed <b>$71,975</b>, a roughly <b>$1.44B short squeeze</b>, dragging MSTR and COIN with it."
+ },
+ "what_happened": [
+  [
+   "WMT's gap was the whole story and it never bounced.",
+   "r",
+   "It beat on EPS and revenue, missed on US comps, and guided Q3 under consensus &mdash; and the market traded the guide. Wednesday had engulfed Tuesday on both sides, a genuine outside bar, and the gap resolved it down. Opened <b>106.38</b> against a 114.30 close, made its high at <b>107.00</b> in the first minutes, and spent the rest of the session grinding to a <b>102.85</b> low before closing <b>103.84</b>. <b>83.6M shares</b> against 34.3M the day before. There was no point in the session where the gap was being bought."
+  ],
+  [
+   "DE was the mirror image, and the 2-2 reversal completed on the same bar it triggered.",
+   "g",
+   "EPS <b>$5.10 against $4.70</b>, and management calling 2026 the bottom of the ag cycle. Wednesday had taken Tuesday's low without its high &mdash; a clean 2 Down &mdash; and the reversal needed the gap to hold. It did: opened <b>611.12</b>, well above Wednesday's 596.06 high, ran to <b>639.00</b>, and closed <b>620.94</b>, <b>+6.94%</b>. The session low of 586.475 came early and never threatened the prior close."
+  ],
+  [
+   "The index was weak and the breadth was worse.",
+   "r",
+   "Three of twelve sectors green and none above <b>+0.31%</b>; nine red with <b>XLV &minus;1.87%</b>, <b>XLY &minus;1.61%</b> and <b>XLP &minus;1.41%</b> at the bottom. <b>IWM &minus;1.34%</b> underperformed SPY by half a percent. On a day with two 7-9% single-name moves in opposite directions, the index still could not find a bid, which says the dispersion was idiosyncratic rather than a rotation anyone was funding."
+  ]
+ ],
+ "picks": {
+  "right_note": "2 CLEAN &middot; 1 WRONG WAY",
+  "rows": [
+   [
+    "WMT",
+    "&minus;9.15%",
+    "g",
+    "OUTSIDE DAY RESOLVED DOWN &middot; CLOSED NEAR THE LOW",
+    "g",
+    "Outside day / 3 bar. Beat on EPS and revenue but US comps missed and Q3 guidance came in under consensus. Wednesday engulfed Tuesday on both sides; the gap resolves it down. Wed H 116.87 / L 113.99 / C 114.30, premarket 106.54.",
+    "It resolved down and stayed down. Opened <b>106.38</b>, printed its high of <b>107.00</b> almost immediately, and never traded back toward the gap &mdash; low <b>102.85</b>, close <b>103.84</b>, <b>&minus;9.15%</b>, on <b>83.6M shares</b> against 34.3M. An outside bar with a directional catalyst is the one gap structure that tends not to fade, and this one did not offer a single hour of doubt."
+   ],
+   [
+    "DE",
+    "+6.94%",
+    "g",
+    "2-2 REVERSAL COMPLETED &middot; HIGH 639.00",
+    "g",
+    "2 Down &rarr; 2-2 reversal. EPS $5.10 vs $4.70 and 2026 called the bottom of the ag cycle. Wednesday took Tuesday's low without its high &mdash; a clean 2 Down. Wed H 596.06 / L 579.31 / C 580.63, premarket 595.69.",
+    "The reversal needed the gap to clear Wednesday's 596.06 high and hold it, and it opened <b>611.12</b>, fifteen points clear. High <b>639.00</b>, low <b>586.475</b> early, close <b>620.94</b>, <b>+6.94%</b>. Note the low did dip under the trigger level intraday &mdash; the structure survived because the close, not the path, defines a 2-2. It closed eighteen points off the high, which is the one blemish."
+   ],
+   [
+    "BABA",
+    "+1.26%",
+    "r",
+    "BEARISH KICKER FAILED COMPLETELY",
+    "r",
+    "Bearish kicker. Cloud accelerating 45% but capex up 75%. Wednesday was a 2 Up closing near its high; <b>premarket sits below the entire candle</b> at 121.29 against Wed L 127.54.",
+    "The setup was correct at 8:30am and wrong by the close. It opened <b>123.47</b> &mdash; below Wednesday's entire range, exactly as described &mdash; fell to <b>121.88</b>, and then reversed for the rest of the session to close <b>130.53</b>, <b>above Wednesday's 129.50 high</b> and <b>+1.26%</b> on the day. A bearish kicker that closes above the candle it was supposed to reject is a full failure, and the reversal was <b>+7.1% off the low</b> on 28.1M shares."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "WED 8/19",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Quiet docket ahead of the retail prints"]],
+   "earnings": [["WMT", "AM &middot; comps missed"], ["DE", "AM &middot; beat"], ["BABA", "AM &middot; capex +75%"]],
+   "events": [["SMH", "Done", "Lost Tuesday's low without its high &mdash; a 2 Down"]]
+  },
+  {
+   "day": "THU 8/20",
+   "tag": "DONE &middot; TWO BIG GAPS",
+   "accent": "done",
+   "econ": [["&mdash;", "Bitcoin past <b>$68,000</b>, printed $71,975 &mdash; roughly <b>$1.44B</b> short squeeze"]],
+   "earnings": [["WMT", "&minus;9.15%"], ["DE", "+6.94%"], ["BABA", "+1.26%"]],
+   "events": [
+    ["Breadth", "Done", "Three of twelve sectors green, none above +0.31%. IWM &minus;1.34%"],
+    ["SMH", "Done", "The 2 Down breakdown failed &mdash; opened back above Wednesday's low"]
+   ]
+  },
+  {
+   "day": "FRI 8/21",
+   "tag": "NEXT",
+   "accent": "next",
+   "econ": [["&mdash;", "Light docket into the weekend"]],
+   "earnings": [],
+   "events": [["TSLA", "Watch", "Closed 345.13, &minus;1.71%, back inside Wednesday's range"]]
+  },
+  {
+   "day": "MON 8/24",
+   "tag": "AHEAD",
+   "accent": "macro",
+   "econ": [],
+   "earnings": [],
+   "events": [["Jackson Hole", "8/28", "<b>Warsh's first keynote as Chair</b> &mdash; the week's real event"]]
+  },
+  {
+   "day": "THU 8/27",
+   "tag": "NVDA REACTION",
+   "accent": "macro",
+   "econ": [],
+   "earnings": [["NVDA", "8/26 PM"], ["CRM", "8/26 PM"], ["DELL", "PM"], ["MRVL", "PM"]],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["WMT", "charts/WMT_2026-08-20.png", "Outside day down &middot; &minus;9.15% on 83.6M"],
+  ["DE", "charts/DE_2026-08-20.png", "2-2 reversal up &middot; +6.94%"],
+  ["BABA", "charts/BABA_2026-08-20.png", "Bearish kicker failed &middot; +7.1% off the low"],
+  ["SMH", "charts/SMH_2026-08-20.png", "2 Down breakdown did not hold"],
+  ["XLE", "charts/XLE_2026-08-20.png", "Cleared 64.25, closed 63.75"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "THE TWO GAPS",
+    [["DE", 6.94], ["BABA", 1.26], ["WMT", -9.15]]
+   ],
+   [
+    "GREEN &mdash; ALL THREE OF THEM",
+    [["SMH", 0.31], ["XLE", 0.27], ["XLRE", 0.2]]
+   ],
+   [
+    "THE HEAVY END",
+    [["XLV", -1.87], ["XLY", -1.61], ["XLP", -1.41], ["XLI", -1.2], ["XLF", -0.92]]
+   ],
+   [
+    "INDEX",
+    [["QQQ", -0.72], ["SPY", -0.84], ["IWM", -1.34]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 8/20 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "WMT",
+    "T1",
+    "g",
+    "Outside day &mdash; resolved down",
+    "g",
+    "Opened 106.38, high 107.00 in the opening minutes, then one-way to a 102.85 low and a 103.84 close. 83.6M shares against 34.3M.",
+    "close 103.84 &middot; <b>&minus;9.15%</b> &middot; high 107.00",
+    "Never offered a bounce. An outside bar with a guidance catalyst behind it.",
+    "Closed a dollar off the low. The gap was not the entry &mdash; it was the whole move."
+   ],
+   [
+    "DE",
+    "T1",
+    "g",
+    "2 Down &rarr; 2-2 reversal up",
+    "g",
+    "Gapped clear of Wednesday's 596.06 high at the open, ran to 639.00, and closed 620.94.",
+    "close 620.94 &middot; <b>+6.94%</b> &middot; high 639.00",
+    "The reversal completed on the bar that triggered it. Ag-cycle bottom call was the catalyst.",
+    "Closed eighteen points off the high, and the 586.475 low came before the run."
+   ],
+   [
+    "BABA",
+    "T1",
+    "r",
+    "Bearish kicker &mdash; failed",
+    "r",
+    "Opened 123.47 below Wednesday's entire range, printed 121.88, then reversed all session to close 130.53 &mdash; above Wednesday's 129.50 high.",
+    "close 130.53 &middot; <b>+1.26%</b> &middot; off low <b>+7.1%</b>",
+    "Nothing to salvage. The premarket read was accurate and the session inverted it.",
+    "Worst call of the day. A kicker that closes above the rejected candle has no interpretation left."
+   ],
+   [
+    "SMH",
+    "T2",
+    "r",
+    "2 Down &mdash; breakdown failed",
+    "r",
+    "Premarket 555.02 sat under Wednesday's 556.315 low. It opened <b>559.375</b>, back above that low, and closed 562.65 green.",
+    "close 562.65 &middot; <b>+0.31%</b>",
+    "One of only three green sectors, which is the tell that the semi weakness was not confirmed.",
+    "The breakdown never happened. Premarket level did not survive the opening print."
+   ],
+   [
+    "XLE",
+    "T2",
+    "y",
+    "2 Up continuation &mdash; cleared, then faded",
+    "y",
+    "Crude +3.7% on the Iran threat. Premarket 64.45 was already through Wednesday's 64.25 high; the session reached 64.70 and closed 63.75.",
+    "close 63.75 &middot; <b>+0.27%</b> &middot; high 64.70",
+    "Green, and one of only three sectors that were.",
+    "Gave back nearly the whole continuation. Closed below its own open of 64.25."
+   ],
+   [
+    "TSLA",
+    "T2",
+    "y",
+    "2 Up at the high &mdash; gave it back",
+    "y",
+    "Wednesday closed 351.12 against a 351.62 high. The note flagged premarket already giving most of that back inside the range, and the session confirmed it: opened 346.20, low 338.96, close 345.13.",
+    "close 345.13 &middot; <b>&minus;1.71%</b>",
+    "The caution was right &mdash; this was written as a giveback, not a continuation.",
+    "Closed inside Wednesday's range with no trigger in either direction."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "Both retail gaps were called and both ran the full session in the called direction.",
+   "WMT was described as an outside bar resolving down through the gap, and it opened <b>106.38</b>, topped at <b>107.00</b> within minutes, and closed <b>103.84</b> near a <b>102.85</b> low on more than double its average volume. DE was described as a 2 Down completing a 2-2 reversal, and it opened fifteen points clear of Wednesday's high, ran to <b>639.00</b>, and closed <b>+6.94%</b>. Neither required a decision after the bell &mdash; but unlike most gap days this week, neither faded either."
+  ],
+  [
+   "BABA is the one to sit with, because the premarket description was correct and the conclusion was not.",
+   "The note said <i>&ldquo;premarket sits below the entire candle&rdquo;</i> and that was true at 8:30am and true again at the open, which printed <b>123.47</b> against Wednesday's 127.54 low. It then fell to <b>121.88</b> &mdash; a further 1.3% in the setup's favour &mdash; before reversing every hour to close <b>130.53</b>, above Wednesday's high. <b>+7.1% off the low.</b> Cloud accelerating 45% against capex up 75% was read as a negative before the open and as growth by the close. The chart description was accurate; the interpretation of what the market would do with it was the error."
+  ],
+  [
+   "The semi breakdown failed at the opening print, which was knowable in the first minute.",
+   "SMH was flagged as a 2 Down with premarket at <b>555.02</b>, under Wednesday's <b>556.315</b> low. It opened <b>559.375</b> &mdash; three dollars <i>above</i> that low &mdash; which invalidated the structure before a single bar completed. It closed <b>562.65</b>, green, and was one of only three green sectors on the board. A breakdown setup whose premarket level is not held at the open is not a slow failure; it is a same-minute one, and it should come off the sheet rather than be carried."
+  ],
+  [
+   "Breadth was the day's real signal and none of the setups were positioned for it.",
+   "Nine of twelve sectors red, the three green ones up a combined less than 1%, and <b>IWM &minus;1.34%</b> against <b>SPY &minus;0.84%</b>. The book was three single-name gap trades and two sector calls, which meant the day's most reliable observation &mdash; that everything except two gaps was being sold &mdash; had no expression in it. The two gaps paid; the tape underneath them was ignored."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>No FlowMS board is on file for this session.</b> This report was reconstructed from the broker's settled prices and the morning report's own published levels; the institutional flow board for 8/20 was not captured in the archive at the time, so there is nothing to grade here rather than an empty result. Where a board does exist for a session, this panel carries it. Treating the absence as &ldquo;no flow&rdquo; would be the wrong read &mdash; it is simply not recorded.",
+  "right_note": "NO BOARD ON FILE",
+  "dim": true,
+  "chips": []
+ },
+ "sectors": {
+  "right_note": "THREE GREEN, NONE ABOVE 0.31% &mdash; SPY &minus;0.84%",
+  "rows": [
+   ["SMH", "Semis", 0.31],
+   ["XLE", "Energy", 0.27],
+   ["XLRE", "Real Estate", 0.2],
+   ["XLB", "Materials", -0.19],
+   ["XLK", "Technology", -0.29],
+   ["XLU", "Utilities", -0.57],
+   ["XLC", "Communications", -0.57],
+   ["XLF", "Financials", -0.92],
+   ["XLI", "Industrials", -1.2],
+   ["XLP", "Staples", -1.41],
+   ["XLY", "Discretionary", -1.61],
+   ["XLV", "Health Care", -1.87]
+  ]
+ },
+ "lessons": [
+  [
+   "An outside bar with a guidance catalyst is the gap that does not fade.",
+   "g",
+   "WMT engulfed the prior session on both sides and then gapped down through it on a guidance miss, and it never traded back toward the gap &mdash; high in the first minutes, close near the low, volume 2.4&times; normal. That is a different animal from an earnings gap on a beat, which spent this whole stretch mean-reverting. The distinction worth carrying is <i>what</i> the gap is resolving: an outside bar has no defined direction until something resolves it, and a guidance cut resolves it decisively."
+  ],
+  [
+   "A correct chart description is not a correct call.",
+   "r",
+   "BABA's premarket write-up was accurate in every particular &mdash; 2 Up Wednesday closing near the high, premarket below the entire candle &mdash; and the stock closed <b>above Wednesday's high</b>, +1.26%, having rallied 7.1% off its low. The structure said one thing and the flow said another, and the note had no read on the flow. Describing the candle correctly and predicting the session are separate skills, and this report has been conflating them."
+  ],
+  [
+   "A breakdown that is not held at the opening print is over in the first minute.",
+   "r",
+   "SMH's premarket sat below Wednesday's low and it opened three dollars above it. That is not a setup that decays through the day &mdash; it is invalidated on the opening auction, and every hour it was still on the sheet after that was an hour of carrying a thesis the tape had already answered. Worth an explicit rule: a level-based breakdown gets checked against the opening print, not the close."
+  ],
+  [
+   "Two big winners can coexist with a book that missed the day.",
+   "y",
+   "WMT and DE were both right and both large. Meanwhile nine of twelve sectors fell, IWM lost 1.34%, and the three green sectors managed +0.31% between the best of them. The setups captured two idiosyncratic gaps and had nothing to say about the broad tape, which was the more persistent fact. A sheet of gap trades is not a view on the market, and on this day the difference mattered."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "BABA",
+   "r",
+   "Closed <b>130.53</b>, above Wednesday's 129.50 high after reversing 7.1% off a 121.88 low. The failed bearish kicker is now a completed reversal, and 129.50 is the level it has to hold for that to mean anything."
+  ],
+  [
+   "WMT",
+   "y",
+   "Closed <b>103.84</b> near a 102.85 low, <b>&minus;9.15%</b> on 83.6M shares. After a gap of that size the first thing to watch is whether 102.85 holds &mdash; a failed retest of the low is the usual first tradeable structure, not the gap itself."
+  ],
+  [
+   "SMH",
+   "g",
+   "The 2 Down breakdown failed at the open and it closed <b>562.65</b>, green, one of only three green sectors. If semis lead out of a session this weak across everything else, that divergence is the thing to follow rather than the index."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>Breadth is the open question.</b> Nine of twelve sectors red with the three green ones barely positive, and IWM underperforming SPY by half a percent. Either tomorrow broadens or this was distribution dressed as a quiet index day."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Bitcoin past $68,000</b> and a print at $71,975 set off roughly a <b>$1.44B</b> short squeeze, carrying MSTR and COIN with it. The equity proxies move faster than spot in both directions &mdash; worth watching whether the squeeze extends or unwinds into the weekend."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Ahead:</b> Jackson Hole on 8/28, with <b>Warsh delivering his first keynote as Chair</b> &mdash; the first policy framing from a new Chair rather than a restatement of a known one. Everything between here and there is positioning."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Thursday August twentieth, the close. Two retail scale gaps in opposite directions, and both of them kept going. Walmart lost nine point one five percent, opening one oh six thirty eight after a one fourteen thirty close, trading down to one oh two eighty five, and finishing one oh three eighty four near the low on eighty three point six million shares, more than double its prior session. Deere gained six point nine four percent, opening six eleven twelve and running to a six thirty nine high before closing six twenty ninety four. The morning note had both of them. Underneath the two gaps the tape was heavy and narrow. S P Y down zero point eight four percent, Q Q Q down zero point seven two, I W M down one point three four, and only three of twelve sectors closed green, none of them by more than a third of a percent. Health care was the worst at minus one point eight seven percent. The crypto complex was the loud exception, with bitcoin running past sixty eight thousand overnight and printing seventy one thousand nine seventy five, a roughly one point four four billion dollar short squeeze."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Walmart was described as an outside bar resolving down through the gap, and that is exactly what it did. It opened one oh six thirty eight, printed its high of one oh seven within minutes, and never traded back toward the gap, closing one oh three eighty four near a one oh two eighty five low. Deere was described as a two down completing a two two reversal up, and it opened fifteen points clear of Wednesday's high, ran to six thirty nine, and closed up six point nine four percent. Alibaba was the failure and it is the instructive one. The note said the premarket sits below the entire candle, which was true at eight thirty and true again at the open of one twenty three forty seven. It then fell to one twenty one eighty eight and reversed every hour after that to close one thirty fifty three, above Wednesday's high, up seven point one percent off the low. Semis also failed. The note had S M H as a two down with premarket under Wednesday's low, and it opened three dollars above that low, which invalidated the structure in the first minute."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, an outside bar with a guidance catalyst is the gap that does not fade. Walmart engulfed the prior session on both sides and then gapped down through it on a guidance miss, and it never looked back. That is a different animal from an earnings gap on a beat. Second, a correct chart description is not a correct call. Alibaba's write up was accurate in every particular and the stock closed above the candle it was supposed to reject. Third, a breakdown that is not held at the opening print is over in the first minute. Semis opened three dollars above the low the setup required, and every hour it stayed on the sheet after that was carrying a thesis the tape had already answered. Fourth, two big winners can coexist with a book that missed the day. Walmart and Deere were both right and both large, while nine of twelve sectors fell and small caps underperformed by half a percent. A sheet of gap trades is not a view on the market."
+  }
+ ]
+}

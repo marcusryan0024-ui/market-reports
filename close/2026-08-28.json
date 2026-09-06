@@ -1,0 +1,381 @@
+{
+ "title": "Friday, August 28, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 295.75, 299.81],
+     ["QQQ", 716.43, 721.11],
+     ["SPY", 769.35, 771.1]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 319.7, 314.58],
+     ["NVDA", 217.55, 227.98],
+     ["META", 578.02, 571.1],
+     ["TSLA", 348.75, 354.81],
+     ["AMD", 465.58, 476.67],
+     ["MU", 932.86, 935.39],
+     ["MRVL", 216.62, 241.45],
+     ["DELL", 456.24, 472.26]
+    ]
+   ]
+  ],
+  "focus": [
+   ["MRVL", 216.62, 241.45],
+   ["PYPL", 53.66, 61.47],
+   ["AAPL", 319.7, 314.58],
+   ["SMH", 553.11, 573.0],
+   ["NVDA", 217.55, 227.98]
+  ]
+ },
+ "headline": {
+  "title": "<b>Yesterday's semi bid unwound completely, and it took one overnight print to do it.</b> <b>MRVL fell 10.29% to 216.62</b> after reporting, and the read-through ran straight through the complex: <b>SMH &minus;3.47%</b> the session after it closed at its own high, <b>NVDA &minus;4.57%</b> giving back half of Thursday's +8.74%, AMD &minus;2.32%, DELL &minus;3.39%. <b>XLK &minus;1.55%</b> after +3.16% the day before. The two sectors that carried Thursday were the two worst on Friday.",
+  "summary": "<b>And the rotation went the other way rather than simply selling off.</b> Five of twelve sectors closed green &mdash; <b>XLC +1.42%</b>, <b>XLY +1.15%</b>, XLE +0.63%, XLP +0.43%, XLF +0.38% &mdash; while tech and semis took the damage. SPY held at <b>&minus;0.23%</b> and QQQ at <b>&minus;0.65%</b>, but <b>IWM &minus;1.35%</b> was the weakest of the three. All of it around <b>Warsh's first Jackson Hole keynote as Chair at 9:00am CT</b>, with July core PCE ahead of it &mdash; the first policy framing from a new Chair rather than a restatement of a known one. <b>PYPL fell 12.71%</b> on its own news, the Advent/Stripe approach at $60.50 a share rejected."
+ },
+ "what_happened": [
+  [
+   "One earnings print reversed an entire sector in a session.",
+   "r",
+   "MRVL had faded its whole gap into Thursday's close, reported that night, and opened <b>225.255</b> against a 241.45 close. It made its high at <b>228.88</b> in the opening minutes and closed <b>216.62</b>, near a <b>215.55</b> low, <b>&minus;10.29%</b> on 49.0M shares. The read-through was immediate and complete: SMH went from <b>+3.10%</b> Thursday to <b>&minus;3.47%</b> Friday, and NVDA from +8.74% to <b>&minus;4.57%</b>. Thursday's two green sectors were Friday's two worst."
+  ],
+  [
+   "NVDA failed at 230 for the second consecutive session.",
+   "y",
+   "Thursday it ran to <b>230.47</b> and closed 227.98, back below. Friday it opened <b>227.36</b>, reached only <b>229.26</b>, and then lost <b>12.45 points</b> to a <b>216.81</b> low before closing <b>217.55</b>. Two sessions, two rejections at the same round number, and the second one gave back more than half the beat-and-raise move. The morning note had it precisely: <i>&ldquo;tagged 230 and failed&rdquo;</i>, with premarket at 227.02 already back inside."
+  ],
+  [
+   "It was a rotation, not a liquidation.",
+   "g",
+   "Five sectors closed green while tech and semis were sold: <b>XLC +1.42%</b>, <b>XLY +1.15%</b>, <b>XLE +0.63%</b>, XLP +0.43%, XLF +0.38%. SPY only lost <b>0.23%</b> because the money that left semis largely stayed in the market. The exception was small caps &mdash; <b>IWM &minus;1.35%</b>, the weakest index &mdash; which is the piece that looks like genuine de-risking into a Fed unknown rather than a sector switch."
+  ]
+ ],
+ "picks": {
+  "right_note": "3 FOR 3 &middot; ALL THREE PAID",
+  "rows": [
+   [
+    "MRVL",
+    "&minus;10.29%",
+    "g",
+    "FAILED 2U CONFIRMED &middot; CLOSED NEAR THE LOW",
+    "g",
+    "Failed 2U. Took Wednesday's high to 254.60 then closed 241.45 near its low on 41.0M shares. <b>Premarket is below the whole candle</b> at 221.05. Beat and raised both FY27 lines and was sold anyway.",
+    "The failure completed exactly as described. It opened <b>225.255</b>, printed its high of <b>228.88</b> in the opening minutes and never approached the prior candle again &mdash; low <b>215.55</b>, close <b>216.62</b>, <b>&minus;10.29%</b> on <b>49.0M shares</b>. The setup was visible the previous afternoon, when it gave back its entire gap into the print, and the overnight report only confirmed what the Thursday tape had already said."
+   ],
+   [
+    "PYPL",
+    "&minus;12.71%",
+    "g",
+    "DEAL COLLAPSE &middot; NO BOUNCE",
+    "g",
+    "Deal collapse. The <b>$60.50/share, ~$53B Advent/Stripe approach was rejected</b>. Thursday was already a failed 2U before the news broke. Premarket 51.83 against Thu H 62.31 / L 61.37 / C 61.47.",
+    "A deal premium coming out of a stock does not fade back in. It opened <b>53.735</b>, ran to <b>54.76</b> early, and closed <b>53.66</b> against a <b>52.62</b> low &mdash; <b>&minus;12.71%</b> on <b>36.3M shares</b> against 9.2M. Note the structure the note flagged: it was <i>already</i> a failed 2U before the rejection was reported, so the chart and the news pointed the same way rather than the news arriving into a neutral setup."
+   ],
+   [
+    "AAPL",
+    "+1.63%",
+    "g",
+    "INSIDE DAY RESOLVED UP &middot; HELD ALL SESSION",
+    "g",
+    "Inside day resolving up. Thursday entirely inside Wednesday; premarket 316.23 above both highs. <b>Lowest implied move on the board at 2.57%.</b>",
+    "The quietest call and the one that worked without drama. Opened <b>316.845</b>, never traded below <b>315.45</b>, ran to <b>322.37</b> and closed <b>319.70</b>, <b>+1.63%</b> &mdash; green on a day tech fell 1.55% and semis fell 3.47%. The low implied move was the point: on a session with a Fed keynote and a sector unwind, the least volatile name on the sheet was the only long that held."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "WED 8/26",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Quiet into the prints"]],
+   "earnings": [["NVDA", "PM &middot; beat-and-raise"], ["CRM", "PM &middot; FY27 guide"]],
+   "events": []
+  },
+  {
+   "day": "THU 8/27",
+   "tag": "DONE &middot; TWO SECTORS GREEN",
+   "accent": "done",
+   "econ": [["&mdash;", "Light docket"]],
+   "earnings": [["NVDA", "+8.74%"], ["CRM", "+22.58%"], ["MRVL", "PM"], ["DELL", "PM"]],
+   "events": [["Breadth", "Done", "Only XLK +3.16% and SMH +3.10% green; ten sectors red"]]
+  },
+  {
+   "day": "FRI 8/28",
+   "tag": "DONE &middot; JACKSON HOLE",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "July core PCE &mdash; done"],
+    ["9:00am", "<b>Warsh's first Jackson Hole keynote as Chair</b> &mdash; done"]
+   ],
+   "earnings": [["MRVL", "&minus;10.29%"], ["DELL", "&minus;3.39%"]],
+   "events": [
+    ["SMH", "Done", "<b>&minus;3.47%</b> the day after closing at its own high"],
+    ["PYPL", "Done", "Advent/Stripe approach rejected &mdash; <b>&minus;12.71%</b>"]
+   ]
+  },
+  {
+   "day": "MON 8/31",
+   "tag": "NEXT &middot; MONTH-END",
+   "accent": "next",
+   "econ": [["&mdash;", "Month-end rebalancing into the close"]],
+   "earnings": [["SAIC", "AM"]],
+   "events": [
+    ["CRWD", "3-day", "Fal.Con opens"],
+    ["MSCI", "close", "SNDK, CRS and ATI join the World Index &mdash; mechanical buying"]
+   ]
+  },
+  {
+   "day": "TUE 9/1",
+   "tag": "5 PRINTS",
+   "accent": "macro",
+   "econ": [["9:00am", "ISM Manufacturing and JOLTS"]],
+   "earnings": [["DELL", "PM"], ["GTLB", "PM"], ["MDB", "PM"], ["CRDO", "PM"]],
+   "events": [["AAPL", "9/1", "Ternus day one as CEO"]]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS",
+   "accent": "macro",
+   "econ": [["7:30am", "August employment report"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["MRVL", "charts/MRVL_2026-08-28.png", "Failed 2U confirmed &middot; &minus;10.29%"],
+  ["PYPL", "charts/PYPL_2026-08-28.png", "Deal premium out &middot; &minus;12.71%"],
+  ["NVDA", "charts/NVDA_2026-08-28.png", "Second failure at 230"],
+  ["SMH", "charts/SMH_2026-08-28.png", "&minus;3.47% the day after closing at its high"],
+  ["AAPL", "charts/AAPL_2026-08-28.png", "Inside day resolved up &middot; +1.63%"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "THE UNWIND",
+    [["MRVL", -10.29], ["SMH", -3.47], ["NVDA", -4.57], ["DELL", -3.39], ["AMD", -2.32], ["XLK", -1.55]]
+   ],
+   [
+    "WHERE IT WENT",
+    [["XLC", 1.42], ["XLY", 1.15], ["XLE", 0.63], ["XLP", 0.43], ["XLF", 0.38]]
+   ],
+   [
+    "HELD ON A HARD DAY",
+    [["AAPL", 1.63], ["META", 1.21]]
+   ],
+   [
+    "OWN NEWS",
+    [["PYPL", -12.71]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 8/28 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "MRVL",
+    "T1",
+    "g",
+    "Failed 2U &mdash; confirmed",
+    "g",
+    "Opened 225.255 below the entire Thursday candle, high 228.88 in the opening minutes, then straight down to a 215.55 low and a 216.62 close on 49.0M shares.",
+    "close 216.62 &middot; <b>&minus;10.29%</b> &middot; high 228.88",
+    "Beat and raised both FY27 lines and was sold anyway. The Thursday fade telegraphed it.",
+    "Closed near the low. The whole semi complex traded off this one print."
+   ],
+   [
+    "PYPL",
+    "T1",
+    "g",
+    "Deal collapse &mdash; premium removed",
+    "g",
+    "Opened 53.735 after a 61.47 close, high 54.76 early, low 52.62, close 53.66 on 36.3M shares against 9.2M.",
+    "close 53.66 &middot; <b>&minus;12.71%</b>",
+    "Already a failed 2U before the rejection was reported &mdash; chart and news agreed.",
+    "A removed deal premium does not mean-revert. There was no bounce to fade."
+   ],
+   [
+    "NVDA",
+    "T1",
+    "g",
+    "2 Up &mdash; second failure at 230",
+    "g",
+    "Tagged 230.47 Thursday and closed under it; Friday reached only 229.26 before losing 12.45 points to a 216.81 low.",
+    "close 217.55 &middot; <b>&minus;4.57%</b> &middot; high 229.26",
+    "Two consecutive rejections at the same round number, and the note named it before the open.",
+    "Gave back more than half of Thursday's +8.74%. 230 is now a defined ceiling."
+   ],
+   [
+    "SMH",
+    "T2",
+    "g",
+    "2 Up at the high &mdash; gave it all back",
+    "g",
+    "Closed 573.00 at its own 573.21 high Thursday. The note flagged premarket giving back 0.9% on the MRVL read-through; the session gave back four times that.",
+    "close 553.11 &middot; <b>&minus;3.47%</b> &middot; low 552.30",
+    "Direction called correctly off the MRVL read-through.",
+    "The magnitude was well beyond the 0.9% the premarket implied. Closed near the low."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "g",
+    "Inside day &mdash; resolved up and held",
+    "g",
+    "Opened 316.845 above both prior highs, never traded below 315.45, high 322.37, close 319.70.",
+    "close 319.70 &middot; <b>+1.63%</b> &middot; EM 2.57%",
+    "The only long that held on a day tech fell 1.55% and semis 3.47%. Lowest implied move on the board.",
+    "Closed 2.67 off the high. Quiet name, quiet win, no drama in either direction."
+   ],
+   [
+    "META",
+    "T2",
+    "y",
+    "Inside day &mdash; uncommitted, resolved up",
+    "g",
+    "Inside Wednesday's settlement-headline range and, as the note said, uncommitted into the speech. Opened 571.55, ran to 589.19, closed 578.02.",
+    "close 578.02 &middot; <b>+1.21%</b>",
+    "Green on a red tape, and XLC was the best sector at +1.42%.",
+    "Closed eleven points off the high &mdash; the move was made and given back inside the session."
+   ],
+   [
+    "MU",
+    "T2",
+    "y",
+    "Outside day &mdash; under the mid, roughly flat",
+    "y",
+    "Took both of Wednesday's extremes across a $61.82 range Thursday and closed mid. Premarket 917.37 was back below the middle; the session ran 909.09 to 946.80 and closed 932.86.",
+    "close 932.86 &middot; <b>&minus;0.27%</b>",
+    "Held up far better than the rest of the complex on a &minus;3.47% semi day.",
+    "Essentially unchanged. The outside bar still has not resolved in either direction."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "y",
+    "2 Up &mdash; back inside, closed red",
+    "y",
+    "Thursday took Wednesday's high and closed 721.11 near it. Premarket 719.31 was back inside the range, and the session ran 715.085 to 724.125 before closing 716.43.",
+    "close 716.43 &middot; <b>&minus;0.65%</b>",
+    "The &lsquo;back inside&rsquo; read was right &mdash; no continuation.",
+    "Made a new high at 724.125 first, then failed. IWM was the weak one at &minus;1.35%."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "The three ranked calls were all correct and all three were shorts or defensives.",
+   "MRVL <b>&minus;10.29%</b> on a failed 2U that was visible the previous afternoon, PYPL <b>&minus;12.71%</b> on a removed deal premium where the chart already agreed with the news, and AAPL <b>+1.63%</b> on an inside day resolving up in the lowest-implied-move name on the sheet. Three for three, and the common thread is that none of them required predicting the Jackson Hole reaction &mdash; each had a structure that was already resolved or nearly so before Warsh spoke."
+  ],
+  [
+   "A single overnight print reversed an entire sector, and Thursday's tape had already warned about it.",
+   "MRVL gave back its whole gap on Thursday, closing 241.45 near the low after opening 253.44 &mdash; and that was <i>before</i> it reported. The morning note on Thursday had flagged it as an inside day gapping out into an event, and the fade into the close was the market pricing the risk in advance. Friday then delivered <b>&minus;10.29%</b>, and the read-through took SMH from <b>+3.10% to &minus;3.47%</b> and NVDA from <b>+8.74% to &minus;4.57%</b>. Thursday's two green sectors were Friday's two worst, in that order."
+  ],
+  [
+   "NVDA failing twice at the same number is worth more than either failure alone.",
+   "Thursday's high was <b>230.47</b>, Friday's was <b>229.26</b>, and both sessions closed well below. One rejection at a round number is noise; two consecutive ones with a 12.45-point reversal on the second define a level. The morning note wrote <i>&ldquo;tagged 230 and failed&rdquo;</i> with premarket already back inside at 227.02 &mdash; the call was not a prediction so much as a refusal to treat Thursday's beat-and-raise as unfinished business."
+  ],
+  [
+   "The rotation held the index up and the small caps gave it away.",
+   "Five sectors green &mdash; <b>XLC +1.42%</b>, <b>XLY +1.15%</b>, XLE, XLP, XLF &mdash; kept SPY to <b>&minus;0.23%</b> while tech and semis were sold hard. That is money moving rather than leaving. The one piece that does not fit the rotation story is <b>IWM &minus;1.35%</b>, materially worse than either large-cap index, which reads as genuine de-risking ahead of an unknown from a new Fed Chair. Watching the two together separated a sector switch from a market-wide reduction."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>No FlowMS board is on file for this session.</b> This report was reconstructed from settled broker prices and the morning report's own published levels; the institutional flow board for 8/28 was not captured in the archive at the time. There is nothing to grade here rather than a null result &mdash; where a board exists for a session, this panel carries and scores it.",
+  "right_note": "NO BOARD ON FILE",
+  "dim": true,
+  "chips": []
+ },
+ "sectors": {
+  "right_note": "ROTATION, NOT LIQUIDATION &mdash; SPY &minus;0.23%, IWM &minus;1.35%",
+  "rows": [
+   ["XLC", "Communications", 1.42],
+   ["XLY", "Discretionary", 1.15],
+   ["XLE", "Energy", 0.63],
+   ["XLP", "Staples", 0.43],
+   ["XLF", "Financials", 0.38],
+   ["XLB", "Materials", -0.09],
+   ["XLV", "Health Care", -0.24],
+   ["XLRE", "Real Estate", -0.4],
+   ["XLI", "Industrials", -0.93],
+   ["XLU", "Utilities", -1.04],
+   ["XLK", "Technology", -1.55],
+   ["SMH", "Semis", -3.47]
+  ]
+ },
+ "lessons": [
+  [
+   "A name that fades its gap into its own print has already told you the answer.",
+   "g",
+   "MRVL opened 253.44 on Thursday and closed 241.45 near the low, before reporting. That giveback was the market pricing the event, and Friday's <b>&minus;10.29%</b> only confirmed it. The tradeable observation is not the earnings reaction &mdash; it is the session <i>before</i> it, where a gap that cannot hold into a known catalyst is the market declining to underwrite the outcome."
+  ],
+  [
+   "Two consecutive rejections at the same level define it; one does not.",
+   "g",
+   "NVDA reached 230.47 Thursday and 229.26 Friday, closing far below both times, with a 12.45-point reversal on the second attempt. After Thursday alone the tag looked like an extension of a beat-and-raise; after Friday it is a ceiling. Waiting for the second test cost the first move and bought a level that can actually be traded against."
+  ],
+  [
+   "A sector that closes at its high is not safer the next morning &mdash; sometimes it is the opposite.",
+   "r",
+   "SMH closed <b>573.00 against a 573.21 high</b> on Thursday, the strongest possible finish, and opened the next session into a <b>&minus;3.47%</b> day on a single overnight print from a component. A close at the high says the day ended with buyers in control; it says nothing about what lands overnight, and this stretch has repeatedly shown that the overnight gap carries more of the move than the prior candle does."
+  ],
+  [
+   "Green sectors on a red tech day tell you whether it is rotation or exit &mdash; and IWM tells you if that read is wrong.",
+   "y",
+   "Five sectors green kept SPY to &minus;0.23% while semis fell 3.47%, which reads cleanly as rotation. But <b>IWM &minus;1.35%</b> did not participate in any of it. Small caps underperforming both large-cap indices while five sectors rise is the tell that some of the money was leaving rather than moving, and checking those two facts against each other is a better read on a Fed day than either one alone."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>Monday is month-end.</b> Rebalancing into the close carries no direction, and the late-session volume spike should not be read as information. <b>MSCI adds SNDK, CRS and ATI to the World Index at the close</b> &mdash; mechanical buying on a fixed date."
+  ],
+  [
+   "SMH",
+   "r",
+   "Closed <b>553.11</b> near a 552.30 low, <b>&minus;3.47%</b>, the session after finishing at its own high. Whether the MRVL read-through was a one-print event or the start of a broader unwind is the week's first real question."
+  ],
+  [
+   "NVDA",
+   "y",
+   "Closed <b>217.55</b> after a second failure at 230 &mdash; 230.47 Thursday, 229.26 Friday. That level is now defined. It has given back more than half the beat-and-raise move and the 216.81 low is the near reference."
+  ],
+  [
+   "AAPL",
+   "g",
+   "Closed <b>319.70</b>, <b>+1.63%</b>, the only long that held on a hard day for tech, and it never traded below 315.45. Lowest implied move on the board is doing real work here &mdash; and <b>Ternus takes over as CEO on 9/1</b>."
+  ],
+  [
+   "PYPL",
+   "r",
+   "Closed <b>53.66</b>, <b>&minus;12.71%</b>, with the <b>$60.50/share</b> Advent/Stripe premium out of the price on 36.3M shares. Deal premiums do not re-enter on their own; the question is where a standalone valuation sits, not whether the approach returns."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Carry into next week:</b> the index barely moved while its leadership completely inverted in one session. Thursday's two green sectors were Friday's two worst, and small caps underperformed through both. If the same two sectors can flip the whole tape on a single component's earnings, the concentration is the risk &mdash; not the direction."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Friday August twenty eighth, the close. Yesterday's semi bid unwound completely, and it took one overnight print to do it. Marvell fell ten point two nine percent to two sixteen sixty two after reporting, and the read through ran straight through the complex. Semis down three point four seven percent the session after closing at their own high. Nvidia down four point five seven percent, giving back half of Thursday's eight point seven four. A M D down two point three two, Dell down three point three nine, technology down one point five five percent after being up three point one six the day before. The two sectors that carried Thursday were the two worst on Friday. And the rotation went the other way rather than simply selling off. Five of twelve sectors closed green, communications up one point four two percent, discretionary up one point one five, energy, staples and financials behind them. S P Y held at minus zero point two three percent, but small caps were the weakest at minus one point three five. All of it around Warsh's first Jackson Hole keynote as Chair at nine in the morning. PayPal fell twelve point seven one percent on its own news, the sixty dollars fifty cents a share Advent and Stripe approach rejected."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls, and this was three for three. Marvell was the failed two up, with premarket below the entire Thursday candle. It opened two twenty five twenty five, printed its high of two twenty eight eighty eight in the opening minutes, and never came back, closing two sixteen sixty two near a two fifteen fifty five low on forty nine million shares. PayPal was the deal collapse. It opened fifty three seventy three, ran to fifty four seventy six early, and closed fifty three sixty six on thirty six million shares against nine million. The note flagged that it was already a failed two up before the rejection was reported, so the chart and the news pointed the same way. Apple was the quiet one and the only long that held. Inside day resolving up, premarket above both prior highs, and it opened three sixteen eighty four, never traded below three fifteen forty five, and closed three nineteen seventy, up one point six three percent on a day technology fell one and a half percent and semis fell three and a half. Nvidia also worked, failing at two thirty for the second consecutive session."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, a name that fades its gap into its own print has already told you the answer. Marvell opened two fifty three forty four Thursday and closed two forty one forty five near the low, before reporting. That giveback was the market pricing the event, and Friday only confirmed it. Second, two consecutive rejections at the same level define it and one does not. Nvidia reached two thirty forty seven Thursday and two twenty nine twenty six Friday, closing far below both times. After Thursday it looked like an extension. After Friday it is a ceiling. Third, a sector that closes at its high is not safer the next morning, and sometimes it is the opposite. Semis closed twenty one cents off their high Thursday and opened into a three and a half percent decline on one overnight print from a component. Fourth, green sectors on a red tech day tell you whether it is rotation or exit, and small caps tell you if that read is wrong. Five sectors rose while semis fell three and a half percent, which reads as rotation, but small caps underperformed both large cap indices, which reads as de risking."
+  }
+ ]
+}

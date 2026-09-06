@@ -1,0 +1,375 @@
+{
+ "title": "Thursday, August 27, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 299.81, 298.93],
+     ["QQQ", 721.11, 711.37],
+     ["SPY", 771.1, 766.08]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 314.58, 313.45],
+     ["NVDA", 227.98, 209.66],
+     ["META", 571.1, 576.14],
+     ["TSLA", 354.81, 345.82],
+     ["AMD", 476.67, 480.93],
+     ["MU", 935.39, 938.4],
+     ["MRVL", 241.45, 245.11],
+     ["DELL", 472.26, 463.82]
+    ]
+   ]
+  ],
+  "focus": [
+   ["CRM", 252.05, 205.62],
+   ["SMH", 573.0, 555.77],
+   ["NVDA", 227.98, 209.66],
+   ["MU", 935.39, 938.4],
+   ["DELL", 472.26, 463.82]
+  ]
+ },
+ "headline": {
+  "title": "<b>NVDA beat and raised and the market finally paid for it &mdash; +8.74% to 227.98 on 298.9M shares, 2.7&times; its average.</b> Revenue rose <b>105.9% to $96.22B</b> against $92.17B expected, EPS <b>$2.22 versus $2.10</b>, and a <b>$108B Q3 guide that assumes no China at all</b>. The after-hours tape had initially sold it; the regular session did not. It opened 222.86, ran to <b>230.47</b>, and closed 227.98 &mdash; the bullish kicker the morning note called, above both Wednesday's 213.60 and Tuesday's 214.73.",
+  "summary": "<b>And CRM did something larger and quieter: +22.58% to 252.05, and it never traded below its opening price.</b> Open 230.05, low <b>230.05</b>, high 254.48, close 252.05 &mdash; a full session without a single tick under the open, on FY27 EPS guided <b>$16.67-16.71 against $14.17</b>. But the breadth was the story to sit with: <b>only two of twelve sectors closed green</b> &mdash; XLK <b>+3.16%</b> and SMH <b>+3.10%</b> &mdash; and the other ten were all red, XLP &minus;1.38% at the bottom. SPY closed <b>+0.66%</b> purely on tech weight; <b>IWM managed +0.29%</b>."
+ },
+ "what_happened": [
+  [
+   "The index was green and the market was not.",
+   "y",
+   "<b>Two sectors green, ten red.</b> XLK <b>+3.16%</b> and SMH <b>+3.10%</b> carried the entire tape; behind them XLP <b>&minus;1.38%</b>, XLV &minus;1.13%, XLY &minus;1.09%, XLC &minus;1.07%, XLRE &minus;0.95%, XLI &minus;0.85%, XLB &minus;0.82%, XLU &minus;0.76%, XLF &minus;0.65% and XLE &minus;0.22%. SPY finished <b>+0.66%</b> and QQQ <b>+1.37%</b> on cap weighting alone. That is about as narrow as an up day gets, and it is the same shape that showed up again on 9/4."
+  ],
+  [
+   "CRM never traded below its open, which is rarer than the percentage.",
+   "g",
+   "Opened <b>230.05</b> on the FY27 guide, and <b>230.05 was also the low of the day</b>. High <b>254.48</b>, close <b>252.05</b>, <b>+22.58%</b> on 55.5M shares against 14.9M. A 22% gap that never gives a buyer a worse price than the opening print is a different structure from a gap that fades &mdash; there was no entry to wait for, which is both the strength and the difficulty of it."
+  ],
+  [
+   "MU had the same setup as NVDA and did the opposite.",
+   "r",
+   "Both were flagged as gaps clearing prior structure. NVDA opened 222.86 and closed <b>227.98</b>, above its open. MU opened <b>967.01</b>, printed its high at <b>968.71</b> within the first bars, then fell <b>61.82 points</b> to a <b>906.89</b> low and closed <b>935.39</b> &mdash; <b>&minus;0.32% on the day and &minus;3.3% from the open</b>. Same structure, same session, opposite outcome, and nothing in the morning read distinguished them."
+  ]
+ ],
+ "picks": {
+  "right_note": "1 BIG WIN &middot; 1 FULL FADE &middot; 1 EVENT RISK",
+  "rows": [
+   [
+    "NVDA",
+    "+8.74%",
+    "g",
+    "BULLISH KICKER HELD ALL SESSION",
+    "g",
+    "Bullish kicker. Premarket 223.04, above both Wednesday's 213.60 and Tuesday's 214.73, after a beat-and-raise with a <b>$108B Q3 guide assuming no China</b>. Wed H 213.60 / L 209.23 / C 209.66.",
+    "The kicker was real and it held. Opened <b>222.86</b>, never traded below <b>220.90</b>, ran to <b>230.47</b> and closed <b>227.98</b> &mdash; <b>+8.74%</b> on <b>298.9M shares</b>, 2.7&times; average. Revenue <b>+105.9% to $96.22B</b> against $92.17B expected and EPS $2.22 vs $2.10. The after-hours tape had sold it initially and the cash session reversed that judgement inside the first hour."
+   ],
+   [
+    "MU",
+    "&minus;0.32%",
+    "r",
+    "GAP FULLY FADED &middot; CLOSED RED",
+    "r",
+    "Inside day resolving up. Premarket 978.00 clears both highs &mdash; Wednesday 924.60-945.75 sat entirely inside Tuesday, and Tuesday's high was 946.67. Highest implied move on the board.",
+    "It cleared both highs and then gave back every point of it. Opened <b>967.01</b>, high <b>968.71</b> almost immediately, and then a <b>61.82-point</b> slide to a <b>906.89</b> low before closing <b>935.39</b> &mdash; <b>red on the day</b> and <b>&minus;3.3% from the open</b>, below Wednesday's own 945.75 high. The inside day did resolve up, for about fifteen minutes. Highest implied move on the board turned out to describe the range, not the direction."
+   ],
+   [
+    "MRVL",
+    "&minus;1.49%",
+    "y",
+    "FADED INTO ITS OWN PRINT",
+    "y",
+    "Inside day, reports tonight. Premarket 255.01 against Wed H 245.17 / L 236.79 and Tue H 246.70 &mdash; inside day Wednesday, gapping out premarket, and it reports after the close with DELL.",
+    "The note carried the event risk explicitly and that is what decided it. Opened <b>253.44</b>, high <b>254.60</b>, then faded all session to close <b>241.45</b> near a <b>240.38</b> low &mdash; <b>&minus;1.49%</b>, giving back the entire gap ahead of the print on 41.0M shares. It then reported that evening and gapped to 225 the next morning. Holding a gap into an earnings event is the risk the note named, and it landed."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "WED 8/26",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Quiet into the prints"]],
+   "earnings": [["NVDA", "PM &middot; beat-and-raise"], ["CRM", "PM &middot; FY27 guide"]],
+   "events": [["NVDA", "Done", "After-hours tape initially sold the beat"]]
+  },
+  {
+   "day": "THU 8/27",
+   "tag": "DONE &middot; TWO SECTORS GREEN",
+   "accent": "done",
+   "econ": [["&mdash;", "Light docket &mdash; the tape was all single-name"]],
+   "earnings": [
+    ["NVDA", "+8.74%"],
+    ["CRM", "+22.58%"],
+    ["DELL", "PM tonight"],
+    ["MRVL", "PM tonight"]
+   ],
+   "events": [
+    ["Breadth", "Done", "<b>Only XLK +3.16% and SMH +3.10% green</b> &mdash; ten sectors red"],
+    ["MU", "Done", "Cleared both highs, closed red &mdash; a 61.82-point fade"]
+   ]
+  },
+  {
+   "day": "FRI 8/28",
+   "tag": "NEXT &middot; JACKSON HOLE",
+   "accent": "next",
+   "econ": [
+    ["9:00am", "<b>Warsh's first Jackson Hole keynote as Chair</b> &mdash; first framing from a new Chair"],
+    ["7:30am", "July core PCE"]
+   ],
+   "earnings": [["MRVL", "Reaction"], ["DELL", "Reaction"]],
+   "events": [["PYPL", "Watch", "Advent/Stripe approach reportedly rejected"]]
+  },
+  {
+   "day": "MON 8/31",
+   "tag": "MONTH-END",
+   "accent": "macro",
+   "econ": [["&mdash;", "Month-end rebalancing into the close"]],
+   "earnings": [],
+   "events": [["CRWD", "3-day", "Fal.Con opens"]]
+  },
+  {
+   "day": "FRI 9/4",
+   "tag": "PAYROLLS",
+   "accent": "macro",
+   "econ": [["7:30am", "August employment report"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["NVDA", "charts/NVDA_2026-08-27.png", "Bullish kicker held &middot; +8.74% on 298.9M"],
+  ["CRM", "charts/CRM_2026-08-27.png", "+22.58% &middot; never traded below the open"],
+  ["MU", "charts/MU_2026-08-27.png", "Cleared both highs, closed red"],
+  ["SMH", "charts/SMH_2026-08-27.png", "Kicker &middot; closed 573.00 at the high"],
+  ["DELL", "charts/DELL_2026-08-27.png", "2 Up held into the print"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "THE TWO THAT PAID",
+    [["CRM", 22.58], ["NVDA", 8.74]]
+   ],
+   [
+    "THE ONLY GREEN SECTORS",
+    [["XLK", 3.16], ["SMH", 3.1]]
+   ],
+   [
+    "TEN RED SECTORS",
+    [["XLE", -0.22], ["XLF", -0.65], ["XLU", -0.76], ["XLB", -0.82], ["XLI", -0.85], ["XLRE", -0.95], ["XLC", -1.07], ["XLY", -1.09], ["XLV", -1.13], ["XLP", -1.38]]
+   ],
+   [
+    "SEMIS THAT DID NOT FOLLOW",
+    [["DELL", 1.82], ["MU", -0.32], ["AMD", -0.89], ["MRVL", -1.49]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 8/27 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "CRM",
+    "T1",
+    "g",
+    "Bullish kicker &mdash; never traded below the open",
+    "g",
+    "Opened 230.05 on the FY27 guide and 230.05 was the low of the day. High 254.48, close 252.05, on 55.5M shares against 14.9M.",
+    "close 252.05 &middot; <b>+22.58%</b> &middot; low = open",
+    "The largest move on the board and the cleanest structure. FY27 EPS $16.67-16.71 against $14.17.",
+    "No entry ever came below the opening print &mdash; strength and difficulty in the same fact."
+   ],
+   [
+    "NVDA",
+    "T1",
+    "g",
+    "Bullish kicker &mdash; held",
+    "g",
+    "Opened 222.86 above both Wednesday's 213.60 and Tuesday's 214.73, ran to 230.47, closed 227.98. Never below 220.90.",
+    "close 227.98 &middot; <b>+8.74%</b> &middot; 298.9M shares",
+    "Revenue +105.9% to $96.22B, EPS $2.22 vs $2.10, $108B Q3 guide assuming no China.",
+    "Tagged 230.47 and closed under it &mdash; the 230 line becomes the reference for the next session."
+   ],
+   [
+    "SMH",
+    "T2",
+    "g",
+    "Kicker &mdash; closed at the high",
+    "g",
+    "Opened 569.365 above two sessions of range, high 573.21, close 573.00 &mdash; twenty-one cents off its own high.",
+    "close 573.00 &middot; <b>+3.10%</b> &middot; high 573.21",
+    "One of only two green sectors. The whole complex above two sessions of range, as the note described.",
+    "The internals did not match: MU, AMD and MRVL all closed red inside a +3.10% semi tape."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "g",
+    "Inside day &mdash; resolved up",
+    "g",
+    "Wednesday's 707.97-713.02 sat inside Tuesday's 707.45-714.04. Premarket 718.03 was above both, and it opened 716.93 and closed 721.11 near a 721.35 high.",
+    "close 721.11 &middot; <b>+1.37%</b>",
+    "The coil resolved up and held, exactly as called.",
+    "Two sectors carried it. An index-level win on a ten-red-sector day is a weight effect, not breadth."
+   ],
+   [
+    "DELL",
+    "T2",
+    "g",
+    "2 Up &mdash; held into the print",
+    "g",
+    "Premarket 469.58 above Wednesday's 469.40 high. Opened 466.68, high 472.50, closed 472.26 near it, then reported after the close with MRVL.",
+    "close 472.26 &middot; <b>+1.82%</b>",
+    "Held its gap into the event, which MRVL did not.",
+    "Carrying a 2 Up into an earnings print is an event bet regardless of how clean the chart is."
+   ],
+   [
+    "AMD",
+    "T2",
+    "y",
+    "2 Up &mdash; never cleared, as flagged",
+    "g",
+    "The note called it the laggard: premarket 487.00 was still below Wednesday's own 491.12 high. It opened 481.50, reached only 483.00, and closed 476.67.",
+    "close 476.67 &middot; <b>&minus;0.89%</b> &middot; high 483.00",
+    "The caution was precisely right &mdash; it never cleared 491.12 and never came close.",
+    "Red inside a +3.10% semi sector. The laggard label was the correct read."
+   ],
+   [
+    "MRVL",
+    "T2",
+    "y",
+    "Inside day &mdash; gap faded into the print",
+    "y",
+    "Opened 253.44, high 254.60, then a one-way fade to a 240.38 low and a 241.45 close on 41.0M shares, ahead of reporting that evening.",
+    "close 241.45 &middot; <b>&minus;1.49%</b> &middot; from open <b>&minus;4.7%</b>",
+    "The event risk was named in the write-up rather than discovered afterwards.",
+    "Gave back the entire gap before the print, then gapped to 225 the next morning."
+   ],
+   [
+    "MU",
+    "T1",
+    "r",
+    "Inside day resolving up &mdash; failed",
+    "r",
+    "Cleared both highs at the open then reversed 61.82 points. Opened 967.01, high 968.71, low 906.89, close 935.39 &mdash; below Wednesday's 945.75 high.",
+    "close 935.39 &middot; <b>&minus;0.32%</b> &middot; from open <b>&minus;3.3%</b>",
+    "The resolution up was real for about fifteen minutes.",
+    "Worst call of the day. Same structure as NVDA, opposite outcome, and nothing separated them in the morning."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "Two names had the same setup and only one of them worked.",
+   "NVDA and MU were both written as gaps clearing prior structure into strength. NVDA opened <b>222.86</b>, held above <b>220.90</b> all day and closed <b>227.98, +8.74%</b>. MU opened <b>967.01</b>, made its high at <b>968.71</b> in the opening bars, and fell <b>61.82 points</b> to close <b>935.39, red on the day</b>. The morning report offered no criterion that separated them, and there is not an honest one to construct after the fact either. What distinguished them was that NVDA's catalyst was its own earnings and MU's was sympathy &mdash; a distinction worth testing rather than asserting."
+  ],
+  [
+   "CRM was the biggest number on the board and the hardest to actually own.",
+   "It opened <b>230.05</b> and that was the low of the session. High <b>254.48</b>, close <b>252.05</b>, <b>+22.58%</b>. Every conventional discipline &mdash; wait for the pullback, wait for the opening range, wait for a retest of the gap &mdash; produced no entry at all, because there was never a price below the open. The setups that pay the most are frequently the ones the process is designed to avoid, and that tension is worth naming rather than resolving with hindsight."
+  ],
+  [
+   "Two green sectors and the index closed up two-thirds of a percent.",
+   "XLK <b>+3.16%</b> and SMH <b>+3.10%</b> were the only sectors that rose. The other ten fell, with <b>XLP &minus;1.38%</b> at the bottom and even energy red at &minus;0.22%. SPY still closed <b>+0.66%</b> and QQQ <b>+1.37%</b>, entirely on cap weight. Anyone reading the index print as a broad risk-on session would have had it backwards &mdash; and inside the winning sector, MU, AMD and MRVL all closed red, so even the semi bid was two names deep."
+  ],
+  [
+   "The AMD caution was the most useful line in the note and it produced no trade.",
+   "AMD was written as the laggard: premarket <b>487.00</b> still below Wednesday's own <b>491.12</b> high, in a complex where everything else had gapped clear. It reached <b>483.00</b> and closed <b>&minus;0.89%</b> on a day its sector added 3.10%. The value there was not a position &mdash; it was declining one, in the name that looked like the obvious catch-up trade. That is the same category of call as QQQ's coil on 9/2 and AVGO's earnings hold: a write-up whose content is &lsquo;not this one&rsquo;."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>No FlowMS board is on file for this session.</b> The report was reconstructed from settled broker prices and the morning report's own published levels; the institutional flow board for 8/27 was not captured in the archive at the time. There is nothing to grade here rather than a null result &mdash; where a board exists for a session, this panel carries and scores it.",
+  "right_note": "NO BOARD ON FILE",
+  "dim": true,
+  "chips": []
+ },
+ "sectors": {
+  "right_note": "TWO GREEN, TEN RED &mdash; SPY +0.66% ON WEIGHT",
+  "rows": [
+   ["XLK", "Technology", 3.16],
+   ["SMH", "Semis", 3.1],
+   ["XLE", "Energy", -0.22],
+   ["XLF", "Financials", -0.65],
+   ["XLU", "Utilities", -0.76],
+   ["XLB", "Materials", -0.82],
+   ["XLI", "Industrials", -0.85],
+   ["XLRE", "Real Estate", -0.95],
+   ["XLC", "Communications", -1.07],
+   ["XLY", "Discretionary", -1.09],
+   ["XLV", "Health Care", -1.13],
+   ["XLP", "Staples", -1.38]
+  ]
+ },
+ "lessons": [
+  [
+   "A green index print on two green sectors is not a risk-on day.",
+   "y",
+   "SPY <b>+0.66%</b>, QQQ <b>+1.37%</b>, and ten of twelve sectors red. XLK and SMH carried the whole tape on cap weight. The index number and the market's actual behaviour pointed in opposite directions, and the only way to see it was to look at breadth rather than the print. This exact shape recurred on 9/4 with SMH +2.60% against SPY &minus;0.38% &mdash; worth treating as a pattern rather than a one-off."
+  ],
+  [
+   "Identical structures can resolve opposite ways, and pretending otherwise is the error.",
+   "r",
+   "NVDA and MU were both gaps through prior highs on semi strength. One closed <b>+8.74%</b>, the other <b>red after a 61.82-point fade</b>. The difference was that NVDA gapped on its own beat-and-raise and MU gapped on sympathy. That is a plausible criterion and it is stated here as a hypothesis to test, not as the explanation &mdash; because at 8:30am the note had no way to rank them and said nothing about the distinction."
+  ],
+  [
+   "Sometimes the best setup on the board offers no entry the process allows.",
+   "y",
+   "CRM opened 230.05, and 230.05 was the low. There was no pullback, no opening-range retest, no gap fill &mdash; the only way to own <b>+22.58%</b> was to pay the open. A discipline built on waiting for a better price is right far more often than it is wrong, and this is what it costs when it is wrong. Worth logging the frequency rather than changing the rule."
+  ],
+  [
+   "&lsquo;Not this one&rsquo; is a call worth writing down.",
+   "g",
+   "AMD was flagged as the laggard that had not cleared its own prior high, and it closed <b>&minus;0.89%</b> while its sector added <b>3.10%</b>. Declining the obvious catch-up trade inside a strong complex produced no position and avoided the only losing semi long available that day. That kind of call never shows up in a win rate, which is precisely why it needs to be recorded explicitly."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>Jackson Hole tomorrow at 9:00am CT &mdash; Warsh's first keynote as Chair.</b> This is the first policy framing from a new Chair rather than a restatement of a known one, which makes the distribution of outcomes wider than a normal Fed speech. July core PCE lands at 7:30am ahead of it."
+  ],
+  [
+   "MRVL",
+   "r",
+   "Reported after today's close having already given back its entire gap &mdash; opened 253.44, closed <b>241.45</b> near the low on 41.0M shares. The failed 2U into the print is the structure that carries into tomorrow."
+  ],
+  [
+   "DELL",
+   "g",
+   "Closed <b>472.26</b>, <b>+1.82%</b>, holding its 2 Up into the print, unlike MRVL. It reported tonight alongside it &mdash; the two reactions tomorrow are a direct test of whether holding the gap into the event mattered."
+  ],
+  [
+   "NVDA",
+   "y",
+   "Closed <b>227.98</b> after tagging <b>230.47</b> and failing there. That 230 line is now the reference: reclaiming it continues the kicker, and failing it a second time makes the tag look like the high of the move."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>Breadth is the thing to watch, not the index.</b> Two green sectors carried SPY to +0.66%. If tomorrow's Fed framing broadens the tape, that is a genuine change; if the index holds up on the same two sectors again, it is the same narrow bid wearing a different headline."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>The open question from today:</b> MU cleared both prior highs and closed red while NVDA cleared both and closed +8.74%. If the distinction really is own-catalyst versus sympathy, then sympathy gaps in this complex should keep failing &mdash; that is a testable claim and worth tracking across the next several sessions rather than settling now."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Thursday August twenty seventh, the close. Nvidia beat and raised and the market finally paid for it, up eight point seven four percent to two twenty seven ninety eight on two hundred ninety eight point nine million shares, two point seven times its average. Revenue rose one hundred five point nine percent to ninety six point two two billion against ninety two point one seven expected, earnings two twenty two versus two ten, and a one hundred eight billion dollar third quarter guide that assumes no China at all. The after hours tape had initially sold it. The regular session did not. Salesforce did something larger and quieter, up twenty two point five eight percent to two fifty two oh five, and it never traded below its opening price all day. Open two thirty oh five, low two thirty oh five, high two fifty four forty eight. But the breadth is the story to sit with. Only two of twelve sectors closed green, technology up three point one six percent and semis up three point one zero, and the other ten were all red. S P Y closed up zero point six six percent purely on tech weight."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the morning calls. Nvidia was the bullish kicker and it held all session, opening two twenty two eighty six above both Wednesday's and Tuesday's highs, never trading below two twenty ninety, and closing two twenty seven ninety eight. Micron had the same shape and did the opposite. The note called it an inside day resolving up with premarket clearing both highs, and it did clear both highs, at the open. Then it fell sixty one point eight two points from a nine sixty eight seventy one high to a nine oh six eighty nine low and closed nine thirty five thirty nine, red on the day and down three point three percent from its own open. Same structure, same session, opposite outcome, and nothing in the morning read separated them. Marvell faded its entire gap ahead of its own print, closing two forty one forty five near the low, which is the event risk the note named explicitly. And A M D was flagged as the laggard that had not cleared Wednesday's four ninety one twelve high, and it reached only four eighty three and closed red inside a semi sector that added three point one zero percent."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, a green index print on two green sectors is not a risk on day. S P Y closed up two thirds of a percent with ten of twelve sectors red. The only way to see that was breadth, not the print. Second, identical structures can resolve opposite ways. Nvidia and Micron were both gaps through prior highs on semi strength, and one closed up almost nine percent while the other closed red. The plausible difference is that Nvidia gapped on its own beat and Micron gapped on sympathy, but that is a hypothesis to test rather than an explanation, because at eight thirty the note had no way to rank them. Third, sometimes the best setup on the board offers no entry the process allows. Salesforce opened at its low of the day, so waiting for a pullback produced nothing on a twenty two percent move. Fourth, not this one is a call worth writing down. Declining A M D as the laggard avoided the only losing semi long on the board, and that kind of call never shows up in a win rate."
+  }
+ ]
+}
