@@ -1,0 +1,167 @@
+{
+ "title": "September 7 - 11, 2026",
+ "range": "MONDAY SEP 7 &ndash; FRIDAY SEP 11, 2026",
+ "published": "PUBLISHED SUNDAY SEP 6",
+ "lede": "<strong>Four sessions, and the last one decides the Fed.</strong> <strong>Labor Day is Monday Sept 7 &mdash; markets closed.</strong> August CPI lands Friday 7:30am, the final inflation print before the <strong>Sept 15-16 FOMC</strong>, with futures split roughly 50/50 between a hold and a hike. Waller has already named his condition out loud: he backs a hold <em>unless</em> August inflation runs hot. Apple launches the iPhone 18 Wednesday and Oracle reports Thursday. The index closed the week almost exactly where it opened it &mdash; <strong>SPY +0.11%</strong> over five sessions &mdash; while <strong>MU ran 8.8% and broke $1,000</strong>.",
+ "heroes": [
+  {
+   "cls": "gold",
+   "rank": "BIGGEST CATALYST OF THE WEEK",
+   "title": "FRI 9/11 &mdash; AUGUST CPI",
+   "when": "7:30AM CT &middot; LAST INPUT BEFORE THE FOMC",
+   "why": "Headline seen holding near <strong>3.5% y/y</strong>. This is the swing input, not payrolls &mdash; Waller said plainly he is willing to support a hold <strong>&ldquo;if there is continued progress toward our 2 percent goal&rdquo;</strong> but would <strong>&ldquo;consider a rate hike&rdquo;</strong> if inflation comes in hot, and BofA counted <strong>61 inflation references against 30 labor references</strong> in Warsh's Jackson Hole speech. Core over the three months through July ran <strong>3.05%</strong>, down from 4.76% in February. Watch <strong>GLD</strong> first: it is the cleanest read on whether the move is real yields or fear, and it closed Friday at <strong>406.75</strong>, still under the 408.54 low it broke on the jobs print."
+  },
+  {
+   "rank": "SINGLE-NAME EVENT OF THE WEEK",
+   "title": "WED 9/9 &mdash; APPLE &ldquo;SURPRISE AND SHINE&rdquo;",
+   "when": "TIME TBA &middot; FIRST LAUNCH UNDER TERNUS",
+   "why": "iPhone 18 Pro, Pro Max and a <strong>first foldable</strong> expected. The date is now confirmed. Two things make this awkward rather than clean: <strong>AAPL fell 2.50% Friday to 319.99</strong> heading into its own event, and Nikkei reported <strong>foldable production is limited to a few hundred units a day</strong>. A launch into a falling stock with a supply constraint already public is a different setup from a launch into strength. The supplier chain is the wider expression."
+  },
+  {
+   "rank": "THE AI CAPEX READ",
+   "title": "THU 9/10 &mdash; ORCL, ADBE &amp; PPI",
+   "when": "PPI 7:30AM &middot; BOTH REPORTS POST-CLOSE",
+   "why": "<strong>ORCL</strong> is the September checkpoint on AI capex, with cloud growth guided <strong>north of 55%</strong>; it closed Friday <strong>+3.07% at 158.77</strong>, bid into the print. <strong>ADBE</strong> reports the same evening having just named <strong>Anil Chakravarthy</strong> as next CEO (Narayen to Executive Chair Dec 1) &mdash; the stock took that badly, <strong>&minus;6.74% Friday to 266.50</strong>. A leadership change and a print on the same week is the rare case where guidance and credibility get priced together. August <strong>PPI</strong> lands that morning as the warm-up to Friday's CPI."
+  }
+ ],
+ "days": [
+  {
+   "name": "MON 9/7",
+   "big": false,
+   "pill": "CLOSED",
+   "pill_cls": "r",
+   "note": "Labor Day. U.S. markets closed. The China tech slate still runs and sets up Tuesday's ADR open.",
+   "econ": [
+    ["&mdash;", "<strong>Labor Day &mdash; U.S. equity and bond markets closed.</strong> No releases."]
+   ],
+   "earnings": [],
+   "events": [
+    ["China tech", "Conference slate runs through the holiday &mdash; <strong>PDD, JD, BIDU, BABA, NTES, SE</strong>. The read lands on Tuesday's ADR open, not Monday."],
+    ["Positioning", "A three-day weekend means Friday's book carried headline risk across it. Gaps Tuesday are as likely to be weekend news as anything domestic."]
+   ]
+  },
+  {
+   "name": "TUE 9/8",
+   "big": false,
+   "note": "Back from the long weekend. Light on macro, and the first chance to see whether Friday's hot-print reaction held over three days.",
+   "econ": [
+    ["&mdash;", "No tier-one release. The tape re-prices the CPI risk into Friday on its own."]
+   ],
+   "earnings": [
+    ["GME", "PM", false],
+    ["CASY", "PM", false]
+   ],
+   "events": [
+    ["NKE &middot; meeting", "<strong>Shareholder meeting.</strong> Closed Friday 38.41, &minus;0.93%."],
+    ["SNOW &middot; conf", "Presenting. Closed the week at 356.47 after the +16.6% print reaction on 9/3 faded from +23.4% premarket."],
+    ["NVS &middot; conf", "Second conference of the run, pushed from Monday by the holiday."],
+    ["CRWD &middot; day 2", "Second of the two sessions after the 9/3 investor briefing &mdash; the holiday split this window across the weekend."]
+   ]
+  },
+  {
+   "name": "WED 9/9",
+   "big": true,
+   "pill": "APPLE",
+   "pill_cls": "b",
+   "note": "The heaviest single-name day of the week. Apple's launch plus five reports.",
+   "econ": [
+    ["&mdash;", "Quiet docket ahead of PPI Thursday and CPI Friday."]
+   ],
+   "earnings": [
+    ["CHWY", "AM", false],
+    ["AVAV", "PM", false],
+    ["ASO", "AM", false],
+    ["SIG", "AM", false],
+    ["COO", "PM", false]
+   ],
+   "events": [
+    ["AAPL &middot; TBA", "<strong>&ldquo;Surprise and Shine&rdquo; &mdash; iPhone 18 launch, first under CEO Ternus.</strong> Date confirmed, start time not published. Pro, Pro Max and a first foldable expected.", true],
+    ["AAPL supply", "Nikkei: <strong>foldable production limited to a few hundred units per day.</strong> The constraint is public before the launch, which caps the upside surprise."],
+    ["Suppliers", "The wider expression of the event &mdash; the chain moves on unit guidance, not on the keynote."]
+   ]
+  },
+  {
+   "name": "THU 9/10",
+   "big": true,
+   "pill": "ORCL",
+   "pill_cls": "g",
+   "note": "PPI in the morning, two significant reports after the close, and RBLX opens its developer conference.",
+   "econ": [
+    ["7:30am", "<strong>August PPI.</strong> The producer-side warm-up to Friday's CPI &mdash; a hot PPI moves Friday's expectations before the print lands."]
+   ],
+   "earnings": [
+    ["ORCL", "PM", true],
+    ["ADBE", "PM", true],
+    ["RH", "PM", false]
+   ],
+   "events": [
+    ["ORCL &middot; PM", "<strong>The September AI capex read.</strong> Cloud growth guided north of 55%. Closed Friday +3.07% at 158.77.", true],
+    ["ADBE &middot; PM", "Reports days after naming <strong>Anil Chakravarthy</strong> CEO. Closed Friday &minus;6.74% at 266.50."],
+    ["RBLX &middot; 3-day", "<strong>RDC26 opens</strong>, Sept 10-12, San Jose McEnery. Engine upgrades, creator tools and monetization &mdash; the supply side of bookings. Multi-day, so the move can extend. Closed Friday +4.28% at 43.29.", true]
+   ]
+  },
+  {
+   "name": "FRI 9/11",
+   "big": true,
+   "pill": "CPI",
+   "pill_cls": "gold",
+   "note": "The week's decider. Last inflation print before the FOMC, with the market split down the middle.",
+   "econ": [
+    ["7:30am", "<strong>AUGUST CPI.</strong> Headline seen near <strong>3.5% y/y</strong>. The single input Waller named as the thing that would flip him from a hold to a hike.", true],
+    ["&mdash;", "Futures roughly <strong>50/50</strong> on the Sept 15-16 decision. A hot print does not merely raise odds &mdash; it removes the stated condition for the hold."]
+   ],
+   "earnings": [
+    ["KR", "AM", false]
+   ],
+   "events": [
+    ["GLD &middot; watch", "The cleanest tell. It broke Thursday's 408.54 low on the jobs print and closed the week at <strong>406.75</strong>, still under it. Gold falling on hot data is a real-yield move, not fear."],
+    ["Next week", "<strong>FOMC decision Wed 9/16.</strong> Everything this week is positioning into it."]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "date": "WED 9/9",
+   "ticker": "AAPL",
+   "color": "#4fc3f7",
+   "body": "<strong>&ldquo;Surprise and Shine&rdquo; product event.</strong> Date now confirmed as Sept 9; it had previously been tracked only as a watch date. iPhone 18 Pro, Pro Max and a first foldable expected. Start time still unpublished. <span class=\"pill b\">DATE CONFIRMED &middot; TIME TBA</span>"
+  },
+  {
+   "date": "THU 9/10",
+   "ticker": "RBLX",
+   "color": "#3fb950",
+   "body": "<strong>RDC26</strong>, Sept 10-12, San Jose McEnery Convention Center. Roblox's flagship creator gathering, where it unveils engine upgrades, creator tools and monetization &mdash; the supply side of bookings growth and the venue feeding the 10%-of-global-gaming-content ambition management repeats on calls. Multi-day, so the move can extend across the window. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "TUE 9/22",
+   "ticker": "QCOM",
+   "color": "#4fc3f7",
+   "body": "<strong>Snapdragon Summit 2026</strong>, Sept 22-24, Maui. Qualcomm's biggest platform showcase of the year &mdash; next flagship chipset (Snapdragon 8 Elite Gen 6 expected) plus the AI, connectivity and imaging roadmap. Multi-day. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "THU 9/24",
+   "ticker": "COST",
+   "color": "#ffd54f",
+   "body": "<strong>Q4 FY2026 earnings.</strong> Date comes from a secondary aggregator and has <em>not</em> been confirmed against Costco IR. Verify before trading it. <span class=\"pill r\">UNCONFIRMED</span>"
+  }
+ ],
+ "howto": [
+  [
+   "Everything before Friday is positioning, not resolution.",
+   "The FOMC is split 50/50 and CPI is the stated tiebreaker. Monday is closed, Tuesday is empty, and Wednesday and Thursday are single-name events. Nothing between now and 7:30am Friday changes the rate question &mdash; which means size taken earlier in the week is being carried into a binary, across a shortened week, whether or not that was the intent."
+  ],
+  [
+   "Watch gold, not the index, for the inflation read.",
+   "Friday's jobs print gave the template: GLD fell from 409.88 to 402.35 in three minutes while SPY moved a fifth of a percent. Gold broke Thursday's 408.54 low and never reclaimed it, closing the week at 406.75. Gold selling on hot data is a real-yield move rather than a growth scare, and it prices the Fed faster and more legibly than the index does."
+  ],
+  [
+   "Apple is a launch into weakness, which is a different trade.",
+   "AAPL fell 2.50% on Friday into its own event week, and the foldable supply constraint &mdash; a few hundred units a day, per Nikkei &mdash; is already public. Pre-announced constraints cap the upside surprise, and the reliable expression of an Apple launch has usually been the supplier chain on unit guidance rather than the keynote itself."
+  ],
+  [
+   "The index went nowhere last week; the semis did all of it.",
+   "SPY finished the week +0.11% and IWM +0.07%, while MU ran 8.8% and broke $1,000 for the first time. That divergence is the thing to respect: index-level positioning captured none of last week's actual move, and if it persists, an index hedge into CPI is not a hedge on what is actually making money."
+  ]
+ ],
+ "foot": "Times Central. Earnings and event dates pulled Sunday 9/6; index and single-name marks are Friday 9/4 regular-session closes from the broker, not consolidated tape. <strong>Labor Day is Monday Sept 7 &mdash; markets closed, so this is a four-session week.</strong> CPI and PPI are fixed BLS dates. <strong>Apple's event date is confirmed but no start time has been published &mdash; marked TBA, not estimated. Costco's Sept 24 date comes from a secondary aggregator and is not confirmed against company IR.</strong> Waller and Warsh quotes are from the Reuters NEXT interview of 9/3 and the Jackson Hole address respectively. Catalyst Watch is catalysts.json."
+}
