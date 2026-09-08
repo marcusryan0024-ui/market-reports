@@ -137,73 +137,51 @@
  ],
  "prep": {
   "pill": "MORNING PREP &middot; TUE 9/8",
-  "lead": "&#9888; <b>Energy is the theme, ORCL is the single name, and the index is the coil.</b> SPY, IWM and META all printed Inside (1) Friday and <b>SPY premarket is already under Friday's 769.00 low</b>. Quiet data day into a Fed quiet period &mdash; nothing between here and <b>PPI Thursday</b> / <b>CPI Friday</b>.",
+  "lead": "&#9888; <b>Energy is the theme, ORCL is the name, the index is the coil.</b> SPY, IWM and META all printed Inside (1) Friday and <b>SPY is already under 769.00</b>. Quiet data into a Fed quiet period &mdash; nothing until <b>PPI Thursday</b>.",
   "cards": [
    [
     "ORCL",
     "2 Up &middot; +5.52%",
     "g",
     "T1",
-    "Friday 2 Up, H 159.70 / L 156.71, close 158.78. Backlog reported <b>$638B, +363% y/y</b>. Reports <b>Thursday post-close</b>.",
-    "<b>Over 159.70</b> is the structure, already cleared by eight dollars. Size for a two-session hold into an event, not a day trade.",
-    "The AI-capex read of the quarter, and the whole complex trades off it.",
-    "Gapping <i>into</i> its catalyst, not out of it &mdash; the MRVL 8/27 shape.",
-    "A +5.5% gap two days early means the print has to beat a raised bar."
+    "Fri 2 Up, H <b>159.70</b> / L 156.71. Backlog <b>$638B, +363% y/y</b>.",
+    "<b>Over 159.70</b> &mdash; through by eight dollars.",
+    "AI-capex read of the quarter. Reports Thursday.",
+    "Gapping <i>into</i> the print, not out of it. The MRVL 8/27 shape.",
+    "A +5.5% gap two days early raises the bar it has to clear."
    ],
    [
     "XLE",
     "Failed 2D &middot; +1.08%",
     "g",
     "T1",
-    "Friday 2 Down, L 63.375 / H 64.33, close 64.06. Weekend: US and Iran struck tankers, Jazan refinery hit. WTI ~$94, Brent ~$100.",
-    "<b>Over 64.33</b> completes the failed 2D. Confirmation is the breadth &mdash; USO, SHEL, OXY, MPC, XOM all green.",
-    "Crude +30% since late February and a six-week high. The complex is moving together.",
-    "<b>Tehran says an Oman &lsquo;safe route&rsquo; deal is days away.</b> That headline ends this trade.",
-    "Do not carry it un-hedged over a weekend. This one is headline-dated."
+    "Fri 2 Down, L 63.375 / H <b>64.33</b>. WTI ~$94, Brent ~$100.",
+    "<b>Over 64.33.</b> USO, SHEL, OXY, MPC, XOM all confirming.",
+    "Crude +30% since February. The complex moves together.",
+    "<b>Oman &lsquo;safe route&rsquo; deal is days away.</b> That headline ends it.",
+    "Headline-dated. Do not carry it un-hedged."
    ],
    [
     "SPY",
-    "Inside (1) &middot; breaking down",
+    "Inside (1) &middot; &minus;0.25%",
     "r",
     "T1",
-    "Friday inside Thursday &mdash; H 772.87 / L <b>769.00</b> inside 774.03 / 767.45. Premarket <b>768.28 is already below the low</b>.",
-    "<b>Under 769.00</b> the inside bar resolves down. IWM and META printed the same shape and are still inside theirs.",
-    "A clean binary with a level that is already broken before the bell.",
-    "It is a one-cent-scale break so far. Inside bars that open just outside frequently pull back in.",
-    "Quiet data day means the resolution may not come until PPI Thursday."
+    "Fri inside Thu &mdash; H 772.87 / L <b>769.00</b>. Pre 768.28 is under it.",
+    "<b>Under 769.00</b> resolves the inside bar down.",
+    "Cleanest binary today, and the level is already broken.",
+    "A narrow break. Inside bars that open just outside often pull back in.",
+    "Quiet docket &mdash; may not resolve until Thursday."
    ],
    [
     "TSM",
     "2 Up &middot; +1.66%",
     "b",
     "T1",
-    "Friday 2 Up above all of Thursday, close 428.91 near the 429.82 high. <b>$44.6M call block Friday, $50.0M dark-pool ask this morning</b>, monthly sales Thursday.",
-    "<b>Over 429.82</b> continues. The flow is the reason to look, not the reason to size.",
-    "Options size Friday, dark-pool size this morning, catalyst Thursday &mdash; a genuine confluence.",
-    "Deep ITM long-dated calls often carry synthetic-stock mechanics. Size shows positioning, not direction.",
-    "Both prints were on the <b>ask</b>. That cuts against the bullish reading, not for it."
-   ],
-   [
-    "NVS",
-    "2 Down &middot; &minus;12.70%",
-    "r",
-    "T2",
-    "Friday was a 2 Down entirely below Thursday, closing 159.99. Premarket <b>139.67</b> &mdash; twenty dollars below the whole structure &mdash; and it holds its <b>analyst day today</b>.",
-    "<b>No level applies.</b> The opening range is the only reference on a gap this size.",
-    "It ran +6.04% on 9/1 on Phase III data; this reverses far more than that.",
-    "An analyst day on the same session as a 12.7% gap makes the intraday path unpredictable.",
-    "Do not fade day one of a gap this size without an opening range."
-   ],
-   [
-    "AAPL",
-    "2 Down &middot; &minus;0.57%",
-    "y",
-    "T2",
-    "Friday broke Thursday's 324.11 low to <b>317.86</b> and closed <b>319.97</b>, well under it &mdash; a clean 2 Down with no reclaim. Premarket 318.14 is still below.",
-    "<b>Under 324.11 it stays broken.</b> The event is <b>tomorrow at 12:00pm CT</b>, not today.",
-    "Two sessions of weakness into its own launch is information, not noise.",
-    "A launch-day reversal is common and the foldable supply constraint is already public.",
-    "Positioning today is positioning into an event you cannot see the contents of."
+    "Fri 2 Up, close 428.91 near the <b>429.82</b> high. Sales Thursday.",
+    "<b>Over 429.82.</b> Flow is the reason to look, not to size.",
+    "<b>$44.6M call block Fri, $50.0M DP print today.</b>",
+    "Both prints were on the <b>ask</b>. Deep ITM calls read as synthetic stock.",
+    "Positioning, not direction."
    ]
   ]
  },
