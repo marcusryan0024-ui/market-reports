@@ -1,0 +1,770 @@
+{
+ "title": "Tuesday, September 8, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>The weekend did more than the jobs print did.</b> The US struck Iranian tankers, Iran struck back, Iranian-aligned forces hit <b>Saudi Aramco's Jazan refinery</b>, and Tehran says an Oman deal for a &ldquo;safe route&rdquo; through Hormuz is days away. <b>WTI is pressing $94 and Brent is knocking on $100</b> &mdash; a six-week high, and crude is <b>up more than 30% since late February</b>. Energy is the whole Failed 2D board this morning: <b>USO +2.49%</b>, <b>SHEL +1.88%</b>, <b>OXY +1.81%</b>, <b>MPC +1.70%</b>, <b>XOM +1.29%</b>, <b>XLE +1.08%</b>.",
+  "summary": "<b>And ORCL is the single name doing the most work.</b> It gaps <b>+5.52% to 167.55</b>, above Friday's 159.70 high and above every level of the prior two sessions, with the backlog reported at <b>$638B, up 363% year-over-year</b> and the print landing <b>Thursday after the close</b>. Underneath, the memory trade refuses to cool &mdash; <b>MU +1.06% through $1,027</b>, <b>SNDK +0.80%</b> after closing Friday <i>at</i> its high &mdash; on a Friday board where <b>SNDK pulled $5.1B and MU $5.0B of cumulative dark-pool size, over $10B across the two names</b>. The index itself is the coil: <b>SPY, IWM and META all printed Inside (1) on Friday</b>, and SPY's premarket <b>768.28 is already below Friday's 769.00 low</b>."
+ },
+ "overview": "<b>Two tracks, and they are pulling opposite ways.</b> Energy and semis are green; the index is not. SPY premarket <b>768.28</b> sits <b>below Friday's 769.00 low</b>, which breaks the inside bar down before the bell, while <b>QQQ +0.10%</b> holds because ORCL, TSM, MU, SNDK and AVGO are all bid. Friday's macro is still the frame: <b>payrolls 162k against ~55k</b>, unemployment 4.1%, wages +0.3%, and <b>June and July revised up a combined 55k</b> after a long run of downgrades. The 10-year is at <b>~4.77%</b> with <b>2- and 5-year yields at 52-week highs</b>, and the hike is priced somewhere between a coin flip and <b>~60%</b>. What the tape did with that on Friday is the thing to keep in view: the Dow fell 272 points and the <b>Russell closed green</b>, so it was not a broad de-risking. Today is quiet by design &mdash; <b>NFIB small-business optimism</b> this morning, <b>July consumer credit at 2:00pm CT</b>, and the Fed is in its <b>pre-meeting quiet period</b>, so there are no speakers between here and <b>PPI Thursday</b> and <b>CPI Friday</b>. Canada's retaliatory tariffs on <b>$20B of US goods</b> take effect today.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:30AM CT",
+  "em_label": "MARKS VS FRIDAY 9/4 CLOSE &mdash; FIRST SESSION AFTER LABOR DAY",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      295.18,
+      296.01
+     ],
+     [
+      "QQQ",
+      719.67,
+      718.96
+     ],
+     [
+      "SPY",
+      768.28,
+      770.19
+     ]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     [
+      "AAPL",
+      318.14,
+      319.97
+     ],
+     [
+      "NVDA",
+      231.79,
+      230.36
+     ],
+     [
+      "META",
+      615.46,
+      616.77
+     ],
+     [
+      "AMZN",
+      255.97,
+      258.51
+     ],
+     [
+      "AVGO",
+      361.72,
+      357.895
+     ],
+     [
+      "TSM",
+      436.05,
+      428.91
+     ],
+     [
+      "MU",
+      1027.33,
+      1016.59
+     ],
+     [
+      "SNDK",
+      1754.0,
+      1740.0
+     ],
+     [
+      "ORCL",
+      167.55,
+      158.78
+     ]
+    ]
+   ]
+  ],
+  "focus": [
+   [
+    "ORCL",
+    167.55,
+    158.78
+   ],
+   [
+    "USO",
+    145.5,
+    141.96
+   ],
+   [
+    "XLE",
+    64.75,
+    64.06
+   ],
+   [
+    "TSM",
+    436.05,
+    428.91
+   ],
+   [
+    "NVS",
+    139.67,
+    159.99
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "ORCL",
+   "+5.52%",
+   "2 Up &middot; clearing everything",
+   "Friday was a <b>2 Up</b> &mdash; H <b>159.70</b> over Thursday's 156.77, L 156.71 above Thursday's 146.92 &mdash; closing <b>158.78</b> near the top of it. Premarket <b>167.55</b> is nearly eight dollars above that high and above every level of the prior two sessions. The number behind it: a backlog reported at <b>$638B, up 363% year-over-year</b>, with the print landing <b>Thursday after the close</b>. <b>Over 159.70 is the structure</b> and it is already well through. The tension is that the whole move is happening two sessions <i>before</i> the event that justifies it &mdash; this is a gap into a catalyst, not out of one, which is the shape MRVL had on 8/27 before it gave the entire thing back into its own print."
+  ],
+  [
+   "T1",
+   "g",
+   "XLE",
+   "+1.08%",
+   "Failed 2D &middot; the whole complex",
+   "Friday was a <b>2 Down</b> &mdash; L <b>63.375</b> under Thursday's 64.5825, H 64.33 under Thursday's 65.52 &mdash; closing <b>64.06</b> back above the low. Premarket <b>64.75</b> clears Friday's <b>64.33</b> high, which completes the failed 2 Down. This is the cleanest thematic on the board because it is not one name: <b>USO +2.49%</b>, <b>SHEL +1.88%</b> (Outside 3 resolving up, printing at an all-time high), <b>OXY +1.81%</b>, <b>MPC +1.70%</b>, <b>XOM +1.29%</b> &mdash; and MPC, XOM and OXY are each completing their own failed 2 Downs off Friday's lows. <b>Over 64.33</b> is the trigger. The risk is explicit and dated: Tehran says the Oman &ldquo;safe route&rdquo; deal is <b>days away</b>, and that headline unwinds this."
+  ],
+  [
+   "T1",
+   "b",
+   "TSM",
+   "+1.66%",
+   "2 Up &middot; flow confluence",
+   "Friday was a <b>2 Up</b> entirely above Thursday &mdash; H <b>429.82</b> / L 419.42, closing <b>428.91</b> near the high. Premarket <b>436.05</b> is through it. What makes this more than a continuation is the stacking: Friday's <b>largest options block on either board was $44.6M of TSM $380C 11/20</b>, deep in the money; this morning's <b>largest dark-pool print is TSM at $50.0M on the ask</b>; and the <b>monthly sales update lands Thursday</b> with a dividend the week after. Deep ITM calls that far out often read as synthetic stock rather than a directional bet, so treat it as size and structure, not intent. <b>Over 429.82</b> continues it."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; TUE 9/8",
+  "lead": "&#9888; <b>Energy is the theme, ORCL is the single name, and the index is the coil.</b> SPY, IWM and META all printed Inside (1) Friday and <b>SPY premarket is already under Friday's 769.00 low</b>. Quiet data day into a Fed quiet period &mdash; nothing between here and <b>PPI Thursday</b> / <b>CPI Friday</b>.",
+  "cards": [
+   [
+    "ORCL",
+    "2 Up &middot; +5.52%",
+    "g",
+    "T1",
+    "Friday 2 Up, H 159.70 / L 156.71, close 158.78. Backlog reported <b>$638B, +363% y/y</b>. Reports <b>Thursday post-close</b>.",
+    "<b>Over 159.70</b> is the structure, already cleared by eight dollars. Size for a two-session hold into an event, not a day trade.",
+    "The AI-capex read of the quarter, and the whole complex trades off it.",
+    "Gapping <i>into</i> its catalyst, not out of it &mdash; the MRVL 8/27 shape.",
+    "A +5.5% gap two days early means the print has to beat a raised bar."
+   ],
+   [
+    "XLE",
+    "Failed 2D &middot; +1.08%",
+    "g",
+    "T1",
+    "Friday 2 Down, L 63.375 / H 64.33, close 64.06. Weekend: US and Iran struck tankers, Jazan refinery hit. WTI ~$94, Brent ~$100.",
+    "<b>Over 64.33</b> completes the failed 2D. Confirmation is the breadth &mdash; USO, SHEL, OXY, MPC, XOM all green.",
+    "Crude +30% since late February and a six-week high. The complex is moving together.",
+    "<b>Tehran says an Oman &lsquo;safe route&rsquo; deal is days away.</b> That headline ends this trade.",
+    "Do not carry it un-hedged over a weekend. This one is headline-dated."
+   ],
+   [
+    "SPY",
+    "Inside (1) &middot; breaking down",
+    "r",
+    "T1",
+    "Friday inside Thursday &mdash; H 772.87 / L <b>769.00</b> inside 774.03 / 767.45. Premarket <b>768.28 is already below the low</b>.",
+    "<b>Under 769.00</b> the inside bar resolves down. IWM and META printed the same shape and are still inside theirs.",
+    "A clean binary with a level that is already broken before the bell.",
+    "It is a one-cent-scale break so far. Inside bars that open just outside frequently pull back in.",
+    "Quiet data day means the resolution may not come until PPI Thursday."
+   ],
+   [
+    "TSM",
+    "2 Up &middot; +1.66%",
+    "b",
+    "T1",
+    "Friday 2 Up above all of Thursday, close 428.91 near the 429.82 high. <b>$44.6M call block Friday, $50.0M dark-pool ask this morning</b>, monthly sales Thursday.",
+    "<b>Over 429.82</b> continues. The flow is the reason to look, not the reason to size.",
+    "Options size Friday, dark-pool size this morning, catalyst Thursday &mdash; a genuine confluence.",
+    "Deep ITM long-dated calls often carry synthetic-stock mechanics. Size shows positioning, not direction.",
+    "Both prints were on the <b>ask</b>. That cuts against the bullish reading, not for it."
+   ],
+   [
+    "NVS",
+    "2 Down &middot; &minus;12.70%",
+    "r",
+    "T2",
+    "Friday was a 2 Down entirely below Thursday, closing 159.99. Premarket <b>139.67</b> &mdash; twenty dollars below the whole structure &mdash; and it holds its <b>analyst day today</b>.",
+    "<b>No level applies.</b> The opening range is the only reference on a gap this size.",
+    "It ran +6.04% on 9/1 on Phase III data; this reverses far more than that.",
+    "An analyst day on the same session as a 12.7% gap makes the intraday path unpredictable.",
+    "Do not fade day one of a gap this size without an opening range."
+   ],
+   [
+    "AAPL",
+    "2 Down &middot; &minus;0.57%",
+    "y",
+    "T2",
+    "Friday broke Thursday's 324.11 low to <b>317.86</b> and closed <b>319.97</b>, well under it &mdash; a clean 2 Down with no reclaim. Premarket 318.14 is still below.",
+    "<b>Under 324.11 it stays broken.</b> The event is <b>tomorrow at 12:00pm CT</b>, not today.",
+    "Two sessions of weakness into its own launch is information, not noise.",
+    "A launch-day reversal is common and the foldable supply constraint is already public.",
+    "Positioning today is positioning into an event you cannot see the contents of."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "Labor Day &mdash; U.S. markets closed. The weekend produced the Hormuz escalation"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "Oil",
+     "Weekend",
+     "US and Iran struck tankers; <b>Jazan refinery hit</b>. WTI ~$94, Brent ~$100"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/8",
+   "tag": "TODAY &middot; QUIET DATA",
+   "accent": "next",
+   "econ": [
+    [
+     "AM",
+     "<b>NFIB small-business optimism</b>"
+    ],
+    [
+     "2:00pm",
+     "July consumer credit. <b>Fed in its pre-meeting quiet period</b> &mdash; no speakers"
+    ],
+    [
+     "&mdash;",
+     "Canada's retaliatory tariffs on <b>$20B of US goods</b> take effect"
+    ]
+   ],
+   "earnings": [
+    [
+     "GME",
+     "PM"
+    ],
+    [
+     "CASY",
+     "PM"
+    ],
+    [
+     "TTAN",
+     "PM"
+    ],
+    [
+     "BRZE",
+     "PM"
+    ],
+    [
+     "AVO",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "",
+     "Conferences",
+     "Goldman Communacopia, Citi TMT &mdash; GOOGL, AVGO, CRM, SNDK, SNOW, KLAC"
+    ],
+    [
+     "NVS",
+     "AM",
+     "<b>Analyst day</b> &mdash; and the stock is down 12.7% into it"
+    ],
+    [
+     "",
+     "IONQ &middot; AM",
+     "Analyst day, +6.2% premarket"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "APPLE &middot; 12:00PM CT",
+   "accent": "macro",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet ahead of the inflation pair"
+    ]
+   ],
+   "earnings": [
+    [
+     "CHWY",
+     "AM"
+    ],
+    [
+     "AEO",
+     "PM"
+    ],
+    [
+     "ODD",
+     "PM"
+    ],
+    [
+     "SAIL",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "AAPL",
+     "12:00pm",
+     "<b>iPhone 18 launch, first foldable, first under Ternus</b>"
+    ],
+    [
+     "NFL",
+     "7:20pm",
+     "Season opens &mdash; DKNG, FLUT, GENI the direct plays"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "PPI &middot; ORCL",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August PPI</b> and weekly jobless claims"
+    ],
+    [
+     "7:15am",
+     "ECB policy statement; Lagarde presser 7:45am"
+    ]
+   ],
+   "earnings": [
+    [
+     "ORCL",
+     "PM"
+    ],
+    [
+     "ADBE",
+     "PM"
+    ],
+    [
+     "M",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "ORCL",
+     "PM",
+     "<b>Backlog $638B, +363% y/y &mdash; does it convert to revenue?</b>"
+    ],
+    [
+     "TSM",
+     "AM",
+     "Monthly sales update"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30am",
+     "<b>August CPI.</b> July ran <b>3.4% headline, 2.5% core</b> &mdash; oil +30% since Feb is the risk"
+    ],
+    [
+     "9:00am",
+     "Preliminary Michigan sentiment"
+    ]
+   ],
+   "earnings": [
+    [
+     "KR",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "FOMC",
+     "9/16",
+     "Split between a hold and a hike under Chair Warsh"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "ORCL",
+   "charts/ORCL_2026-09-08.png",
+   "2 Up &middot; gapping into Thursday's print"
+  ],
+  [
+   "XLE",
+   "charts/XLE_2026-09-08.png",
+   "Failed 2D &middot; over Friday's 64.33"
+  ],
+  [
+   "TSM",
+   "charts/TSM_2026-09-08.png",
+   "2 Up &middot; flow confluence"
+  ],
+  [
+   "MU",
+   "charts/MU_2026-09-08.png",
+   "2 Up &middot; through $1,027"
+  ],
+  [
+   "SPY",
+   "charts/SPY_2026-09-08.png",
+   "Inside (1) &middot; under 769.00"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:30AM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; THE FAILED 2D WALL",
+    [
+     [
+      "USO",
+      2.49
+     ],
+     [
+      "SHEL",
+      1.88
+     ],
+     [
+      "OXY",
+      1.81
+     ],
+     [
+      "MPC",
+      1.7
+     ],
+     [
+      "XOM",
+      1.29
+     ],
+     [
+      "XLE",
+      1.08
+     ]
+    ]
+   ],
+   [
+    "AI &amp; MEMORY &mdash; STILL BID",
+    [
+     [
+      "ORCL",
+      5.52
+     ],
+     [
+      "TSM",
+      1.66
+     ],
+     [
+      "AVGO",
+      1.07
+     ],
+     [
+      "MU",
+      1.06
+     ],
+     [
+      "SNDK",
+      0.8
+     ],
+     [
+      "NVDA",
+      0.62
+     ]
+    ]
+   ],
+   [
+    "THE INDEX COIL",
+    [
+     [
+      "QQQ",
+      0.1
+     ],
+     [
+      "SPY",
+      -0.25
+     ],
+     [
+      "IWM",
+      -0.28
+     ]
+    ]
+   ],
+   [
+    "OFFERED",
+    [
+     [
+      "META",
+      -0.21
+     ],
+     [
+      "AAPL",
+      -0.57
+     ],
+     [
+      "AMZN",
+      -0.98
+     ],
+     [
+      "NVS",
+      -12.7
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 9/4 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "ORCL",
+    "T1",
+    "g",
+    "2 Up &#128293;",
+    "g",
+    "Friday took Thursday's 156.77 high to 159.70 and closed 158.78 near the top. Premarket gaps nearly eight dollars above that, above two full sessions of structure.",
+    "pre 167.55 &middot; <b>+5.52%</b> &middot; Fri H 159.70 / L 156.71",
+    "<b>Over 159.70</b> &mdash; already well through. Backlog $638B, +363% y/y.",
+    "Gapping into Thursday's print rather than out of it. Same shape MRVL had on 8/27."
+   ],
+   [
+    "XLE",
+    "T1",
+    "g",
+    "Failed 2D &#128293;",
+    "g",
+    "Friday lost Thursday's 64.5825 low to 63.375 without taking its high, then closed 64.06 back above. Premarket clears Friday's own 64.33 high.",
+    "pre 64.75 &middot; <b>+1.08%</b> &middot; Fri H 64.33 / L 63.375",
+    "<b>Over 64.33.</b> USO +2.49%, SHEL +1.88%, OXY +1.81%, MPC +1.70% all confirming.",
+    "Tehran says an Oman &lsquo;safe route&rsquo; deal is <b>days away</b>. That headline ends it."
+   ],
+   [
+    "TSM",
+    "T1",
+    "b",
+    "2 Up &middot; flow stack",
+    "g",
+    "Friday entirely above Thursday, H 429.82 / L 419.42, closing 428.91 near the high. Premarket 436.05 is through it.",
+    "pre 436.05 &middot; <b>+1.66%</b> &middot; Fri H 429.82 / L 419.42",
+    "<b>$44.6M call block Friday, $50.0M DP print this morning</b>, monthly sales Thursday.",
+    "Both prints were on the <b>ask</b>, and deep ITM calls often mean synthetic stock, not direction."
+   ],
+   [
+    "MU",
+    "T2",
+    "g",
+    "2 Up &middot; memory",
+    "g",
+    "Friday ran 969.00 to 1017.77 and closed 1016.59, entirely above Thursday and through $1,000 for the first time. Premarket extends it.",
+    "pre 1027.33 &middot; <b>+1.06%</b> &middot; Fri H 1017.77 / L 969.00",
+    "<b>Over 1017.77.</b> MU pulled <b>$5.0B cumulative dark-pool</b> Friday, SNDK $5.1B.",
+    "That $10B was <b>mixed</b>, not bid &mdash; both sides worked size on the day it ripped."
+   ],
+   [
+    "SPY",
+    "T1",
+    "r",
+    "Inside (1) &middot; breaking down",
+    "r",
+    "Friday sat entirely inside Thursday &mdash; H 772.87 / L 769.00 inside 774.03 / 767.45. Premarket 768.28 is already under the low.",
+    "pre 768.28 &middot; <b>&minus;0.25%</b> &middot; Fri H 772.87 / L 769.00",
+    "<b>Under 769.00</b> resolves the inside bar down.",
+    "IWM and META printed the same Inside (1) and are both still inside theirs."
+   ],
+   [
+    "AVGO",
+    "T2",
+    "g",
+    "Failed 2U &mdash; reclaiming",
+    "g",
+    "Friday took Thursday's 359.40 high to 360.16 then closed 357.895 back below it &mdash; a failed 2 Up. Premarket 361.72 is back above both.",
+    "pre 361.72 &middot; <b>+1.07%</b> &middot; Fri H 360.16 / L 353.70",
+    "<b>Over 360.16</b> voids the failure and turns it into a 2-2 reversal.",
+    "It has failed at this level once already. A second rejection defines it as a ceiling."
+   ],
+   [
+    "NVS",
+    "T2",
+    "r",
+    "2 Down &middot; analyst day today",
+    "r",
+    "Friday was a 2 Down entirely below Thursday, closing 159.99. Premarket 139.67 is twenty dollars below the whole structure, and the analyst day is today.",
+    "pre 139.67 &middot; <b>&minus;12.70%</b> &middot; Fri H 160.93 / L 159.625",
+    "<b>No level applies.</b> The opening range is the only reference.",
+    "It ran +6.04% on 9/1 on Phase III data. This reverses far more than that gain."
+   ],
+   [
+    "AAPL",
+    "T2",
+    "y",
+    "2 Down &middot; event tomorrow",
+    "y",
+    "Friday broke Thursday's 324.11 low to 317.86 and closed 319.97 well under it &mdash; a clean 2 Down with no reclaim. Premarket 318.14 stays below.",
+    "pre 318.14 &middot; <b>&minus;0.57%</b> &middot; Fri H 328.93 / L 317.86",
+    "<b>Under 324.11</b> it stays broken. The launch is <b>tomorrow at 12:00pm CT</b>.",
+    "Two sessions of weakness into its own event, with the foldable supply limit already public."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "ORCL",
+    5.52,
+    "Backlog reported at <b>$638B, up 363% year-over-year</b>, with the print Thursday post-close. Gaps above Friday's 159.70 high and above two sessions of structure. Carries a clustering tag on the board."
+   ],
+   [
+    "USO",
+    2.49,
+    "The weekend did it: US and Iranian tankers struck, <b>Saudi Aramco's Jazan refinery attacked</b>. <b>WTI pressing $94, Brent near $100</b>, a six-week high, with crude up more than 30% since late February."
+   ],
+   [
+    "SHEL",
+    1.88,
+    "Printing at an <b>all-time high</b> and resolving Friday's Outside (3) upward. Took <b>$8.1M on the bid</b> in three or fewer prints &mdash; concentrated size rather than a steady drip."
+   ],
+   [
+    "TSM",
+    1.66,
+    "The flow stack: Friday's <b>$44.6M $380C 11/20 block</b> was the largest options ticket on either board, and this morning's <b>$50.0M ask</b> is the largest dark-pool print of the day. Monthly sales Thursday."
+   ],
+   [
+    "MU",
+    1.06,
+    "Memory will not cool. Dell's COO flagged a <b>$95B AI-server backlog</b> and said chip supply <b>&ldquo;remains insufficient&rdquo;</b>, with DRAM and NAND contract prices expected to climb sharply this quarter."
+   ]
+  ],
+  "bear": [
+   [
+    "NVS",
+    -12.7,
+    "Down twenty dollars into its own <b>analyst day today</b>, having closed 159.99 Friday. It gained 6.04% on 9/1 on Phase III MS data; this erases that and a great deal more, with no level from the prior structure still applicable."
+   ],
+   [
+    "AMZN",
+    -0.98,
+    "Outside (3) on Friday with a clustering tag, and premarket sits near the bottom of that range. It also drew <b>$693M on the ask</b> after hours Friday &mdash; the second-largest single-name print on the board."
+   ],
+   [
+    "AAPL",
+    -0.57,
+    "A clean 2 Down Friday, closing 319.97 under Thursday's 324.11 low, and still below premarket &mdash; two sessions of weakness heading into tomorrow's launch. It drew <b>$259M on the ask</b> Friday."
+   ],
+   [
+    "SPY",
+    -0.25,
+    "Inside (1) Friday and the premarket is already under the <b>769.00</b> low. The index complex printed <b>ask for a third straight session</b> &mdash; IVV $5.6B and SPY $5.4B cumulative, leading the entire board."
+   ],
+   [
+    "META",
+    -0.21,
+    "Inside (1) with a clustering tag, still inside Friday's 617.46-605.27 range. Drew <b>$606M on the ask</b> after hours Friday, third-largest single name."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Third straight session the board leaned ask, and Friday was emphatic.</b> The largest print on the entire tape was <b>SPY $1.3B (ask, AH)</b> with <b>IVV $1.3B (ask)</b> right behind it, and the ex-ETF list runs ask nearly top to bottom &mdash; <b>GOOGL $500M bid was the lone bid in the top ten</b>. On cumulative flow the index complex leads the whole board at <b>IVV $5.6B ask and SPY $5.4B ask</b>, which means broad-index money has now leaned ask <i>into and out of</i> the hot jobs print, with the inflation pair dead ahead. <b>The one to sit with is memory:</b> SNDK pulled <b>$5.1B</b> cumulative and MU <b>$5.0B</b> &mdash; the two largest single-name lines on the board, over <b>$10B combined</b> &mdash; and both were <b>mixed</b>, not bid, on the very session they ripped 7% and 5%. Size on both sides of a name that is going straight up is a different signal from one-way accumulation. And <b>NVDA's $4.8B flipped to ask</b> after a week of bid prints at the top.",
+  "right_note": "FRIDAY 9/4 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   [
+    "SPY",
+    "$1.3B",
+    "ask &middot; #1 print, AH",
+    "r"
+   ],
+   [
+    "IVV",
+    "$5.6B",
+    "cumulative ASK &middot; #1 board",
+    "r"
+   ],
+   [
+    "SPY",
+    "$5.4B",
+    "cumulative ask",
+    "r"
+   ],
+   [
+    "SNDK",
+    "$5.1B",
+    "cumulative MIXED &middot; #1 name",
+    "y"
+   ],
+   [
+    "MU",
+    "$5.0B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
+    "NVDA",
+    "$4.8B",
+    "flipped to ASK",
+    "r"
+   ],
+   [
+    "SUNB",
+    "$958M",
+    "ask &middot; pre-market",
+    "r"
+   ],
+   [
+    "AMZN",
+    "$693M",
+    "ask, AH",
+    "r"
+   ],
+   [
+    "META",
+    "$606M",
+    "ask, AH",
+    "r"
+   ],
+   [
+    "GOOGL",
+    "$500M",
+    "bid &middot; lone bid, top 10",
+    "g"
+   ],
+   [
+    "TSM",
+    "$50.0M",
+    "ask &middot; largest today",
+    "r"
+   ],
+   [
+    "TSM",
+    "$44.6M",
+    "380C 11/20 block &middot; Fri",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Tuesday September eighth, premarket. The weekend did more than the jobs print did. The U S struck Iranian tankers, Iran struck back, Iranian aligned forces hit Saudi Aramco's Jazan refinery, and Tehran says an Oman deal for a safe route through Hormuz is days away. W T I is pressing ninety four dollars and Brent is knocking on one hundred, a six week high, and crude is up more than thirty percent since late February. Energy is the whole failed two down board this morning. U S O up two point four nine percent, Shell up one point eight eight, Occidental up one point eight one, Marathon Petroleum up one point seven zero, Exxon up one point two nine, X L E up one point zero eight. And Oracle is the single name doing the most work, gapping five point five two percent to one sixty seven fifty five, above Friday's one fifty nine seventy high, with the backlog reported at six hundred thirty eight billion dollars, up three hundred sixty three percent year over year, and the print landing Thursday after the close. Underneath, memory refuses to cool. Micron up one percent through one thousand twenty seven, SanDisk up zero point eight zero after closing Friday at its high."
+  },
+  {
+   "label": "Setups",
+   "text": "Three setups. First, Oracle, tier one, long. Friday was a two up, high one fifty nine seventy over Thursday's one fifty six seventy seven, closing one fifty eight seventy eight near the top. Premarket one sixty seven fifty five is nearly eight dollars above that and above every level of the prior two sessions. Over one fifty nine seventy is the structure and it is already well through. The tension is that the whole move is happening two sessions before the event that justifies it. That is a gap into a catalyst, not out of one, which is the shape Marvell had on August twenty seventh before it gave the entire thing back into its own print. Second, X L E, tier one, long, and this is the cleanest thematic because it is not one name. Friday was a two down, low sixty three thirty seven and a half under Thursday's sixty four fifty eight, closing sixty four oh six back above it. Premarket sixty four seventy five clears Friday's sixty four thirty three high, which completes the failed two down, and U S O, Shell, Occidental, Marathon and Exxon are all confirming. The risk is explicit and dated. Tehran says the Oman safe route deal is days away, and that headline unwinds this. Third, Taiwan Semi, tier one but flagged blue rather than green. Friday was a two up closing four twenty eight ninety one near its four twenty nine eighty two high, and premarket four thirty six oh five is through it. The reason to look is the flow stack. Friday's largest options block on either board was forty four point six million dollars of the three eighty calls out to November. This morning's largest dark pool print is Taiwan Semi at fifty million on the ask. And the monthly sales update lands Thursday."
+  },
+  {
+   "label": "Levels",
+   "text": "The levels that matter today. Oracle, one fifty nine seventy, Friday's high, already cleared by eight dollars. X L E, sixty four thirty three, Friday's high, cleared premarket. Taiwan Semi, four twenty nine eighty two. Micron, one thousand seventeen seventy seven, Friday's high. Broadcom, three sixty sixty, where it failed on Friday. And S P Y, seven sixty nine flat, which is Friday's low, and premarket seven sixty eight twenty eight is already under it. That is the cleanest binary of the day. S P Y, I W M and Meta all printed inside days on Friday, and S P Y is the only one that has broken out of its range so far. Novartis has no level at all. At one thirty nine sixty seven it is twenty dollars below the entire prior structure and it holds its analyst day today, so the opening range is the only reference. Apple stays broken under three twenty four eleven, and its launch event is tomorrow at noon central, not today. Remember the Fed is in its pre meeting quiet period, so there are no speakers between here and P P I on Thursday and C P I on Friday."
+  }
+ ]
+}
