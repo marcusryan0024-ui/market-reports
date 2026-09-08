@@ -1,0 +1,397 @@
+{
+ "title": "Tuesday, September 8, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 294.7, 296.01],
+     ["QQQ", 718.38, 718.96],
+     ["SPY", 765.96, 770.19]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 316.31, 319.97],
+     ["NVDA", 225.78, 230.36],
+     ["META", 613.31, 616.77],
+     ["AMZN", 256.95, 258.51],
+     ["AVGO", 368.53, 357.895],
+     ["TSM", 439.01, 428.91],
+     ["MU", 999.94, 1016.59],
+     ["SNDK", 1737.85, 1740.0],
+     ["ORCL", 162.53, 158.78]
+    ]
+   ]
+  ],
+  "focus": [
+   ["AMD", 505.53, 477.57],
+   ["BE", 277.09, 252.87],
+   ["IONQ", 40.47, 39.52],
+   ["XLE", 64.765, 64.06],
+   ["NVS", 137.72, 159.99]
+  ]
+ },
+ "headline": {
+  "title": "<b>&ldquo;Today is a light day. Don't force anything&rdquo; was the instruction, and it turned out to be the whole read.</b> The two names that paid were the two that required no forcing at all. <b>AMD closed 505.53, +5.85%</b> &mdash; it dipped to <b>489.10</b> in the first hour, filling the patient <b>$491</b> call entry, then ran to a <b>510.56</b> high and finished at <b>505.53, right on the $506 gap fill</b>. <b>BE closed 277.09, +9.58%</b> &mdash; through the <b>$277</b> call level at the open, up to <b>283.83</b>, and back to close within a cent of it.",
+  "summary": "<b>IONQ is the one that proves the rule.</b> It opened <b>43.00</b>, printed <b>43.91</b>, and then broke apart around the 11:30am investor day &mdash; a <b>39.45</b> low on <b>2.48M shares in a single hour</b> against 34,000 the hour before &mdash; closing <b>40.47, +2.40%</b> but <b>&minus;5.9% from its own open</b>. It never came near the <b>$46</b> that flips the year green. Underneath, the index did nothing and the rotation did everything: <b>SPY &minus;0.55%</b> with <b>eight of twelve sectors red</b>, energy and semis the only real green &mdash; <b>SMH +1.19%</b>, <b>XLE +1.10%</b>, <b>USO +2.87%</b>, <b>SHEL +2.55%</b>, <b>MPC +2.33%</b> &mdash; and <b>XLV &minus;2.50%</b> the worst, dragged by <b>NVS &minus;13.92%</b>."
+ },
+ "what_happened": [
+  [
+   "The patient entry was the trade, and it was available for exactly one hour.",
+   "g",
+   "AMD opened <b>493.18</b>, already above the <b>$491</b> call entry, and the instruction was <i>be patient</i>. Within the first hour it traded down to <b>489.10</b> &mdash; under the level &mdash; and that was the fill. From there it went one way: 502, 508, a <b>510.56</b> high, and a <b>505.53</b> close, <b>+5.85%</b>. The <b>$506 gap fill</b> named in the morning was reached and the stock closed within fifty cents of it. Both levels on the sheet were hit, in order, in the same session."
+  ],
+  [
+   "IONQ was the name the caution was written for.",
+   "r",
+   "The prep said <i>entry only if it hits extreme volume</i> and <i>don't get caught in consolidation</i>. It opened <b>43.00</b> and chopped in a narrow band for three hours on almost no volume &mdash; 41,996 shares in the 9am hour, 9,857 in the 10am. Then the <b>11:30am investor day</b> landed and it broke: a <b>39.45</b> low on <b>2.48M shares</b>, a 73&times; volume expansion. It closed <b>40.47</b>, still <b>+2.40%</b> on the day but <b>&minus;5.9% from the open</b>, and the <b>$46</b> level that flips the year green was never threatened &mdash; the high was <b>43.91</b>."
+  ],
+  [
+   "Energy and semis were the whole market again.",
+   "y",
+   "Eight of twelve sectors closed red. The green ones were <b>SMH +1.19%</b>, <b>XLE +1.10%</b> and <b>XLU +0.86%</b>, with XLK scraping <b>+0.32%</b>. Inside energy the weekend Hormuz escalation held all day: <b>USO +2.87%</b>, <b>SHEL +2.55%</b> at an all-time high, <b>MPC +2.33%</b>, <b>OXY +1.04%</b>, <b>XOM +0.78%</b>. The damage was in health care &mdash; <b>XLV &minus;2.50%</b> on NVS &mdash; and financials, <b>XLF &minus;1.37%</b>. Same narrow shape as 9/4 and 8/27."
+  ]
+ ],
+ "picks": {
+  "right_note": "2 CLEAN &middot; 1 GAVE BACK THE GAP",
+  "rows": [
+   [
+    "XLE",
+    "+1.10%",
+    "g",
+    "FAILED 2D COMPLETED &middot; HELD ALL DAY",
+    "g",
+    "T1. Failed 2D. Friday was a 2 Down &mdash; L 63.375 under Thursday's 64.5825 &mdash; closing 64.06 back above. <b>Over 64.33</b> (Friday's high) completes it. The stated risk: Tehran says an Oman &ldquo;safe route&rdquo; deal is <b>days away</b>, and that headline unwinds it.",
+    "It opened <b>64.895</b>, already through the trigger, and never closed an hour below it &mdash; low <b>64.312</b>, high <b>65.24</b>, close <b>64.765</b>. The confirmation was the breadth the note asked for: <b>USO +2.87%</b>, <b>SHEL +2.55%</b> printing at an all-time high, <b>MPC +2.33%</b>, <b>OXY +1.04%</b>, <b>XOM +0.78%</b>. The headline risk did not arrive today. It is still dated and still live."
+   ],
+   [
+    "TSM",
+    "+2.35%",
+    "g",
+    "2 UP CONTINUED &middot; NEVER TESTED THE TRIGGER",
+    "g",
+    "T1, flagged blue rather than green. Friday was a 2 Up closing 428.91 near its 429.82 high. <b>Over 429.82</b> continues. Flow stack: Friday's <b>$44.6M $380C 11/20 block</b>, this morning's <b>$50.0M dark-pool print</b>, monthly sales Thursday &mdash; but <b>both prints were on the ask</b>, and deep ITM calls often read as synthetic stock.",
+    "It opened <b>434.95</b>, five dollars above the trigger, and its session low of <b>434.275</b> never came near it. High <b>442.14</b>, close <b>439.01</b>, <b>+2.35%</b>. The caveat still stands rather than being retired: the move happened <i>with</i> ask-side prints on both boards, which means the flow did not tell you the direction here &mdash; the trend did. Monthly sales Thursday is the actual test."
+   ],
+   [
+    "ORCL",
+    "+2.36%",
+    "y",
+    "GAVE BACK MORE THAN HALF THE GAP",
+    "y",
+    "T1. 2 Up. Friday H 159.70 / L 156.71, close 158.78. Premarket <b>167.55, +5.52%</b>. The note flagged the tension explicitly: <i>&ldquo;this is a gap into a catalyst, not out of one, which is the shape MRVL had on 8/27 before it gave the entire thing back into its own print.&rdquo;</i>",
+    "That is close to what happened. The regular session never traded at the premarket mark &mdash; it opened <b>164.64</b>, made its high at <b>164.87</b> in the first two hours, and drifted down all afternoon to a <b>161.18</b> low before closing <b>162.53</b>. Held from Friday it is <b>+2.36%</b>. Measured from the premarket print it is <b>&minus;3.0%</b>, and from the open <b>&minus;1.3%</b>. The gap was the move, again, and the report said so before the bell."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "done",
+   "econ": [["&mdash;", "Labor Day. The weekend produced the Hormuz escalation"]],
+   "earnings": [],
+   "events": [["Oil", "Weekend", "US and Iran struck tankers; Jazan refinery hit"]]
+  },
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE &middot; LIGHT DAY",
+   "accent": "done",
+   "econ": [
+    ["AM", "NFIB small-business optimism &mdash; done"],
+    ["2:00pm", "July consumer credit. Fed in its pre-meeting quiet period"]
+   ],
+   "earnings": [["GME", "PM"], ["CASY", "PM"], ["TTAN", "PM"], ["BRZE", "PM"], ["AVO", "PM"]],
+   "events": [
+    ["NVS", "Done", "Analyst day &mdash; closed <b>&minus;13.92%</b>, dragging XLV to &minus;2.50%"],
+    ["IONQ", "Done", "Investor day &mdash; 43.91 high, 39.45 low, closed +2.40%"],
+    ["Sectors", "Done", "Eight of twelve red. SMH +1.19% and XLE +1.10% the only real green"]
+   ]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "NEXT &middot; APPLE 12:00PM CT",
+   "accent": "next",
+   "econ": [["&mdash;", "Quiet ahead of the inflation pair"]],
+   "earnings": [["CHWY", "AM"], ["AEO", "PM"], ["ODD", "PM"], ["SAIL", "PM"]],
+   "events": [
+    ["AAPL", "12:00pm", "<b>iPhone 18 launch, first foldable, first under Ternus</b>"],
+    ["NFL", "7:20pm", "Season opens &mdash; DKNG, FLUT, GENI"]
+   ]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "PPI &middot; ORCL &middot; ECB",
+   "accent": "macro",
+   "econ": [
+    ["7:15am", "ECB policy statement; Lagarde 7:45am"],
+    ["7:30am", "<b>August PPI</b> and jobless claims"]
+   ],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM"]],
+   "events": [
+    ["ORCL", "PM", "<b>Backlog $638B, +363% y/y &mdash; does it convert?</b>"],
+    ["TSM", "AM", "Monthly sales update"]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [
+    ["7:30am", "<b>August CPI.</b> Core seen holding 2.5%. Oil +30% since Feb is the risk"],
+    ["9:00am", "Preliminary Michigan sentiment"]
+   ],
+   "earnings": [["KR", "AM"]],
+   "events": [["FOMC", "9/16", "Split between a hold and a hike under Chair Warsh"]]
+  }
+ ],
+ "charts": [
+  ["AMD", "charts/AMD_2026-09-08.png", "$491 filled, $506 gap fill reached"],
+  ["BE", "charts/BE_2026-09-08.png", "Through $277 &middot; closed on it"],
+  ["IONQ", "charts/IONQ_2026-09-08.png", "43.91 high &rarr; 39.45 low on the investor day"],
+  ["ORCL", "charts/ORCL_2026-09-08.png", "Gap given back &middot; never traded at 167.55"],
+  ["XLE", "charts/XLE_2026-09-08.png", "Failed 2D held all session"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "THE PREP SHEET",
+    [["BE", 9.58], ["AMD", 5.85], ["IONQ", 2.4]]
+   ],
+   [
+    "ENERGY &mdash; THE WEEKEND HELD",
+    [["USO", 2.87], ["SHEL", 2.55], ["MPC", 2.33], ["XLE", 1.1], ["OXY", 1.04], ["XOM", 0.78]]
+   ],
+   [
+    "SEMIS &amp; AI",
+    [["AVGO", 2.97], ["ORCL", 2.36], ["TSM", 2.35], ["SMH", 1.19], ["SNDK", -0.12], ["MU", -1.64], ["NVDA", -1.99]]
+   ],
+   [
+    "THE RED EIGHT",
+    [["XLRE", -0.08], ["XLC", -0.44], ["XLI", -0.48], ["XLP", -0.67], ["XLY", -0.77], ["XLB", -0.93], ["XLF", -1.37], ["XLV", -2.5]]
+   ],
+   [
+    "SINGLE-NAME DAMAGE",
+    [["NVS", -13.92], ["AAPL", -1.14]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/8 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "BE",
+    "PREP",
+    "g",
+    "Inside 6HR &mdash; broke out",
+    "g",
+    "Opened 278.40, already through the <b>$277</b> call level, ran to a 283.83 high, then faded the last hour to close 277.09 &mdash; within a cent of the level.",
+    "close 277.09 &middot; <b>+9.58%</b> &middot; high 283.83",
+    "The 6HR inside bar broke out and the S&amp;P 500 addition bid held all day.",
+    "Closed back on the level after being 2.4% above it. The last hour gave back six dollars."
+   ],
+   [
+    "AMD",
+    "PREP",
+    "g",
+    "Failed 2D month &mdash; both levels hit",
+    "g",
+    "Opened 493.18 above the entry, dipped to <b>489.10</b> in the first hour to fill the patient <b>$491</b>, then ran one-way to a 510.56 high and closed 505.53 &mdash; on the <b>$506</b> gap fill.",
+    "close 505.53 &middot; <b>+5.85%</b> &middot; low 489.10 / high 510.56",
+    "The best-executed name of the day. Patience was the instruction and it paid within an hour.",
+    "The volume condition was met on the open. It closed five points off the high."
+   ],
+   [
+    "AVGO",
+    "T2",
+    "g",
+    "Failed 2U &mdash; voided",
+    "g",
+    "Premarket had it back above Friday's 360.16 and it never looked back, closing 368.53 against a 357.895 Friday close.",
+    "close 368.53 &middot; <b>+2.97%</b>",
+    "The failed 2 Up was voided and turned into the reversal the note described.",
+    "Best of the AI complex today, and it did it while NVDA fell 1.99%."
+   ],
+   [
+    "TSM",
+    "T1",
+    "g",
+    "2 Up &mdash; continued",
+    "g",
+    "Opened 434.95 above the 429.82 trigger and its low of 434.275 never approached it. High 442.14, close 439.01.",
+    "close 439.01 &middot; <b>+2.35%</b>",
+    "Clean continuation. Monthly sales Thursday is the real test.",
+    "Both flow prints were on the <b>ask</b> and it went up anyway &mdash; the flow did not call this."
+   ],
+   [
+    "ORCL",
+    "T1",
+    "y",
+    "2 Up &mdash; gap given back",
+    "y",
+    "Premarket 167.55 was never seen in the regular session. Opened 164.64, high 164.87, then down all afternoon to a 161.18 low, closing 162.53.",
+    "close 162.53 &middot; <b>+2.36%</b> &middot; from premarket <b>&minus;3.0%</b>",
+    "Still green on the day, and the backlog story is intact into Thursday.",
+    "The &lsquo;gapping into the print&rsquo; caution was correct. Reports Thursday post-close."
+   ],
+   [
+    "IONQ",
+    "PREP",
+    "y",
+    "Double inside month &mdash; consolidation trap",
+    "r",
+    "Opened 43.00, three hours of near-zero-volume chop, then the 11:30am investor day: a 39.45 low on <b>2.48M shares in one hour</b> against 34,000 the hour before. Closed 40.47.",
+    "close 40.47 &middot; <b>+2.40%</b> &middot; from open <b>&minus;5.9%</b>",
+    "Green on the day, and the volume condition did eventually arrive.",
+    "<b>$46 was never threatened</b> &mdash; the high was 43.91. The consolidation warning was the right one."
+   ],
+   [
+    "SPY",
+    "T1",
+    "g",
+    "Inside (1) &mdash; resolved down",
+    "g",
+    "Premarket was already under Friday's 769.00 low and the regular session never reclaimed it &mdash; the highest print all day was 768.31. Closed 765.96.",
+    "close 765.96 &middot; <b>&minus;0.55%</b> &middot; never above 768.31",
+    "The inside bar resolved down exactly as called, and it never gave the level back.",
+    "A slow bleed rather than a break. Eight of twelve sectors red underneath it."
+   ],
+   [
+    "MU",
+    "T2",
+    "r",
+    "2 Up &mdash; failed, lost $1,000",
+    "r",
+    "Premarket 1027.33 was above Friday's 1017.77 high. It opened 1019.46, reached 1025.30, then broke down through the level to a 997.64 low and closed <b>999.94</b>.",
+    "close 999.94 &middot; <b>&minus;1.64%</b> &middot; back under $1,000",
+    "Nothing to salvage. The continuation failed on the day after the breakout.",
+    "Friday's cumulative dark-pool was <b>mixed, not bid</b> &mdash; both sides worked size, and today the other side showed up."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "The instruction at the top of the sheet was the most accurate thing on it.",
+   "<i>&ldquo;Today is a light day. Don't force anything.&rdquo;</i> Three names, and the two that paid required no forcing: AMD gave a patient fill within the first hour and ran, BE opened through its level and held it. The one that punished forcing was IONQ &mdash; three hours of dead chop that would have talked anyone into a position, then a <b>73&times; volume expansion</b> that took it from 43.91 to 39.45. The prep named that exact risk in advance: <i>entry only if it hits extreme volume, don't get caught in consolidation</i>."
+  ],
+  [
+   "AMD is the cleanest execution in this book so far.",
+   "Two levels were written down before the open &mdash; a call entry at <b>$491</b> with the word <i>patient</i> beside it, and a gap fill at <b>$506</b>. The stock opened <b>above</b> the entry at 493.18, which is where impatience costs money, then dipped to <b>489.10</b> within the hour and filled it. It then advanced every hour to <b>510.56</b> and closed <b>505.53</b>. Entry hit, target hit, both in order, on a <b>failed 2 Down month</b> &mdash; the highest-timeframe signal on the sheet. That is what a written level is for."
+  ],
+  [
+   "ORCL repeated the pattern this book has now documented four times.",
+   "Premarket <b>167.55</b>, and the regular session's high was <b>164.87</b>. The gap was never available and the stock spent the afternoon giving it back, closing <b>162.53</b> &mdash; <b>&minus;3.0% from the premarket mark</b>. The morning note said it plainly, comparing it to MRVL on 8/27. That is now SNOW (9/3), GTLB (9/2), MRVL (8/27) and ORCL, all gapping on a catalyst and all handing back a meaningful share of it inside the session. The distinction that keeps holding: <b>a gap out of a completed event fades; a gap into a pending one fades further.</b> ORCL still reports Thursday."
+  ],
+  [
+   "Energy has now held its bid across a weekend, which is different from the 9/3 version.",
+   "On 9/3 the Hormuz bid was sold all session &mdash; XLE cleared its trigger and finished last of twelve sectors. Today the same catalyst produced <b>XLE +1.10% holding above the trigger all day</b>, with <b>USO +2.87%</b>, <b>SHEL +2.55%</b> at an all-time high and <b>MPC +2.33%</b>. The difference is that the escalation is now physical and cumulative &mdash; tankers struck on both sides, the <b>Jazan refinery hit</b> &mdash; rather than a headline. The trade remains explicitly headline-dated: Tehran says an Oman &ldquo;safe route&rdquo; deal is days away."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Friday's board was graded today, and the index side of the ask lean was right again.</b> The whole complex printed ask for a third straight session &mdash; <b>IVV $5.6B and SPY $5.4B cumulative</b>, leading the entire board, with <b>SPY $1.3B</b> the single largest print &mdash; and <b>SPY closed &minus;0.55%</b> with eight of twelve sectors red. On single names it was more mixed: <b>AMZN $693M ask</b> resolved correctly at <b>&minus;0.60%</b> and <b>META $606M ask</b> at <b>&minus;0.56%</b>, while <b>GOOGL's $500M bid</b> &mdash; the lone bid in the top ten &mdash; is the one that needs checking against tomorrow. <b>The memory read was the interesting one.</b> SNDK and MU carried <b>$5.1B and $5.0B cumulative, both mixed</b>, on the session they ripped; today SNDK closed <b>&minus;0.12%</b> and <b>MU &minus;1.64%, back under $1,000</b>. Two-sided size in a vertical name did turn out to mean something, and it was not continuation.",
+  "right_note": "FRIDAY 9/4 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["IVV", "$5.6B", "cumulative ask &#8594; SPY &minus;0.55% &middot; HIT", "g"],
+   ["SPY", "$5.4B", "cumulative ask &#8594; &minus;0.55% &middot; HIT", "g"],
+   ["AMZN", "$693M", "ask &#8594; &minus;0.60% &middot; HIT", "g"],
+   ["META", "$606M", "ask &#8594; &minus;0.56% &middot; HIT", "g"],
+   ["MU", "$5.0B", "mixed &#8594; &minus;1.64% &middot; RESOLVED DOWN", "r"],
+   ["SNDK", "$5.1B", "mixed &#8594; &minus;0.12% &middot; FLAT", "y"],
+   ["NVDA", "$4.8B", "flipped ask &#8594; &minus;1.99% &middot; HIT", "g"],
+   ["TSM", "$50.0M", "ask &#8594; +2.35% &middot; MISS", "r"]
+  ]
+ },
+ "sectors": {
+  "right_note": "EIGHT RED &mdash; ENERGY AND SEMIS ONLY, SPY &minus;0.55%",
+  "rows": [
+   ["SMH", "Semis", 1.19],
+   ["XLE", "Energy", 1.1],
+   ["XLU", "Utilities", 0.86],
+   ["XLK", "Technology", 0.32],
+   ["XLRE", "Real Estate", -0.08],
+   ["XLC", "Communications", -0.44],
+   ["XLI", "Industrials", -0.48],
+   ["XLP", "Staples", -0.67],
+   ["XLY", "Discretionary", -0.77],
+   ["XLB", "Materials", -0.93],
+   ["XLF", "Financials", -1.37],
+   ["XLV", "Health Care", -2.5]
+  ]
+ },
+ "lessons": [
+  [
+   "A level written down before the open is worth more than any read made during it.",
+   "g",
+   "AMD's <b>$491</b> and <b>$506</b> were on paper before the bell, with the word <i>patient</i> attached. The stock opened above the entry &mdash; the exact condition under which people abandon a plan &mdash; came back to fill it within the hour, and then ran to the second number. Nothing about the intraday tape told you to hold out for 489.10; the sheet did. The habit that produced this is the one to keep, independent of the outcome."
+  ],
+  [
+   "Dead volume is a warning, not an invitation.",
+   "r",
+   "IONQ traded <b>41,996 shares in the 9am hour and 9,857 in the 10am</b>, drifting in a one-dollar band. That is the shape that makes a position feel safe. Then the investor day landed and one hour did <b>2.48M shares</b> &mdash; a 73&times; expansion &mdash; and the move was <b>down four dollars</b>. The prep's condition, <i>entry only on extreme volume</i>, was not a preference for confirmation; it was a rule against being positioned when the real volume decides."
+  ],
+  [
+   "Four for four: a gap into a pending catalyst gives more of it back than one out of a completed event.",
+   "y",
+   "ORCL premarket <b>167.55</b>, session high <b>164.87</b>, close <b>162.53</b>. Add it to SNOW on 9/3, GTLB on 9/2 and MRVL on 8/27. In every case the report flagged the shape beforehand and in every case the regular session took back a meaningful part of the gap. This is now a documented pattern rather than an observation, and the useful form of it is: <b>the premarket print is not a price you will get, and on a pending-catalyst gap it is not even close to the day's average.</b>"
+  ],
+  [
+   "Mixed dark-pool size on a vertical name meant distribution, not accumulation.",
+   "y",
+   "Friday, SNDK and MU carried the two largest single-name lines on the board &mdash; <b>$5.1B and $5.0B, both mixed</b> &mdash; on the day they ran 7% and 5%. The morning report flagged the two-sidedness as a different signal from one-way accumulation without saying which way it would resolve. Today it resolved: <b>MU &minus;1.64% back under $1,000</b> and <b>SNDK &minus;0.12%</b>. One session is not a rule, but it is the first data point on what &lsquo;mixed at the top of the board&rsquo; has meant."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "AAPL",
+   "o",
+   "<b>iPhone 18 launch tomorrow at 12:00pm CT</b> &mdash; first foldable, first under Ternus, and Morgan Stanley's most-consequential-since-iPhone-X framing. It closed <b>316.31, &minus;1.14%</b>, a third straight session lower and still under Friday's 324.11. Three days of weakness into its own event, with the foldable supply constraint already public."
+  ],
+  [
+   "AMD",
+   "g",
+   "Closed <b>505.53</b> having hit both levels on the sheet. It is now five points off the 510.56 high with the <b>$506</b> gap fill behind it rather than ahead. The failed 2 Down month is intact; the question is whether a new level is worth writing or whether this one is finished."
+  ],
+  [
+   "IONQ",
+   "y",
+   "Closed <b>40.47</b> after a 43.91-to-39.45 round trip on the investor day. <b>$46 was never reached</b> and remains the line that flips the year green. The end-of-day straddle the prep mentioned is the structure that would have paid on a session with that range and that close."
+  ],
+  [
+   "ORCL",
+   "o",
+   "Closed <b>162.53</b>, having given back 3% from the premarket print but still <b>+2.36%</b>. It reports <b>Thursday post-close</b> against a backlog of <b>$638B, +363% y/y</b>. The gap already happened; the print now has to justify it."
+  ],
+  [
+   "XLE",
+   "g",
+   "Closed <b>64.765</b>, holding above the 64.33 trigger all session, with SHEL at an all-time high. The catalyst is physical now &mdash; tankers and the Jazan refinery &mdash; but the exit remains dated: <b>Tehran says an Oman &ldquo;safe route&rdquo; deal is days away.</b>"
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>The week's real business starts Thursday.</b> ECB at 7:15am, PPI at 7:30, ORCL and ADBE post-close, then <b>CPI Friday</b> with core seen at 2.5%. Today was a light day and the sheet treated it as one. Tomorrow is Apple; after that nothing is light."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Tuesday September eighth, the close. Today is a light day, don't force anything, was the instruction on the prep sheet, and it turned out to be the whole read. The two names that paid were the two that required no forcing at all. A M D closed five oh five fifty three, up five point eight five percent. It dipped to four eighty nine ten in the first hour, filling the patient four ninety one call entry, then ran to a five ten fifty six high and finished at five oh five fifty three, right on the five oh six gap fill. Bloom Energy closed two seventy seven oh nine, up nine point five eight percent, through the two seventy seven call level at the open, up to two eighty three eighty three, and back to close within a cent of it. IonQ is the one that proves the rule. It opened forty three, printed forty three ninety one, and then broke apart around the eleven thirty investor day, a thirty nine forty five low on two point four eight million shares in a single hour against thirty four thousand the hour before, closing forty forty seven. It never came near the forty six that flips the year green. Underneath, S P Y fell zero point five five percent with eight of twelve sectors red."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the calls. X L E was clean. The failed two down needed sixty four thirty three and it opened sixty four eighty nine and a half, already through, never closed an hour below it, and finished sixty four seventy six and a half. The breadth confirmed, with U S O up two point eight seven percent, Shell up two point five five at an all time high and Marathon up two point three three. Taiwan Semi also worked, opening five dollars above its four twenty nine eighty two trigger and closing four thirty nine oh one, up two point three five percent, though both flow prints behind it were on the ask, so the flow did not call this one, the trend did. Oracle is the caveat that landed. Premarket was one sixty seven fifty five and the regular session high was one sixty four eighty seven. It never traded at the premarket mark, drifted down all afternoon and closed one sixty two fifty three. Still up two point three six percent from Friday, but down three percent from the premarket print. The morning note said it before the bell, comparing it to Marvell on August twenty seventh. Micron was the loss, opening above Friday's high and then breaking down to close nine ninety nine ninety four, back under a thousand dollars."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, a level written down before the open is worth more than any read made during it. A M D's four ninety one and five oh six were on paper before the bell with the word patient attached, and the stock opened above the entry, which is exactly when people abandon a plan, then came back and filled it within the hour. Second, dead volume is a warning and not an invitation. IonQ traded under forty two thousand shares in one hour and under ten thousand in the next, drifting in a one dollar band, and that is the shape that makes a position feel safe. Then one hour did two point four eight million and the move was down four dollars. Third, four for four now, a gap into a pending catalyst gives back more than one out of a completed event. Oracle joins Snowflake, GitLab and Marvell. The premarket print is not a price you will get. Fourth, mixed dark pool size on a vertical name meant distribution and not accumulation. SanDisk and Micron carried the two largest lines on Friday's board, both mixed, on the day they ripped, and today Micron closed down one point six four percent back under a thousand."
+  }
+ ]
+}
