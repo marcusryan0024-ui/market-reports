@@ -137,51 +137,40 @@
  ],
  "prep": {
   "pill": "MORNING PREP &middot; TUE 9/8",
-  "lead": "&#9888; <b>Energy is the theme, ORCL is the name, the index is the coil.</b> SPY, IWM and META all printed Inside (1) Friday and <b>SPY is already under 769.00</b>. Quiet data into a Fed quiet period &mdash; nothing until <b>PPI Thursday</b>.",
+  "lead": "&#9888; <b>Today is a light day. Don't force anything.</b> Three names on the sheet, all event-driven, and all three want <b>extreme volume</b> before they are worth touching. Quiet docket into a Fed quiet period &mdash; nothing until <b>PPI Thursday</b>.",
   "cards": [
    [
-    "ORCL",
-    "2 Up &middot; +5.52%",
+    "BE",
+    "Inside 6HR &middot; +7.29%",
     "g",
-    "T1",
-    "Fri 2 Up, H <b>159.70</b> / L 156.71. Backlog <b>$638B, +363% y/y</b>.",
-    "<b>Over 159.70</b> &mdash; through by eight dollars.",
-    "AI-capex read of the quarter. Reports Thursday.",
-    "Gapping <i>into</i> the print, not out of it. The MRVL 8/27 shape.",
-    "A +5.5% gap two days early raises the bar it has to clear."
+    "WATCH",
+    "Gapped up on the <b>S&amp;P 500 addition</b>. <b>Inside on the 6HR</b> &mdash; it has to break out. Trading <b>271.30</b> against a 252.87 close.",
+    "<b>Watch $277 for calls.</b> No breakout, no trade.",
+    "Index addition is mechanical buying, and the 6HR inside bar is coiled directly under the level.",
+    "An inside bar that never breaks out is a pass. The gap is already 7% and the level sits above it.",
+    "Let it come to $277. Do not anticipate the break."
    ],
    [
-    "XLE",
-    "Failed 2D &middot; +1.08%",
+    "AMD",
+    "Failed 2D month &middot; +2.51%",
     "g",
-    "T1",
-    "Fri 2 Down, L 63.375 / H <b>64.33</b>. WTI ~$94, Brent ~$100.",
-    "<b>Over 64.33.</b> USO, SHEL, OXY, MPC, XOM all confirming.",
-    "Crude +30% since February. The complex moves together.",
-    "<b>Oman &lsquo;safe route&rsquo; deal is days away.</b> That headline ends it.",
-    "Headline-dated. Do not carry it un-hedged."
+    "WATCH",
+    "Gapped up with an <b>event today</b>. <b>Failed 2 Down on the month.</b> Trading <b>489.56</b> against a 477.57 close.",
+    "<b>Call entry $491 &mdash; be patient.</b> <b>Gap fill at $506</b> above.",
+    "A monthly failed 2 Down is the highest-timeframe signal on the sheet.",
+    "<b>Pay attention to extreme volume.</b> Without it the gap is just a gap.",
+    "It is 1.44 under the entry right now. Patience is the whole instruction."
    ],
    [
-    "SPY",
-    "Inside (1) &middot; &minus;0.25%",
-    "r",
-    "T1",
-    "Fri inside Thu &mdash; H 772.87 / L <b>769.00</b>. Pre 768.28 is under it.",
-    "<b>Under 769.00</b> resolves the inside bar down.",
-    "Cleanest binary today, and the level is already broken.",
-    "A narrow break. Inside bars that open just outside often pull back in.",
-    "Quiet docket &mdash; may not resolve until Thursday."
-   ],
-   [
-    "TSM",
-    "2 Up &middot; +1.66%",
-    "b",
-    "T1",
-    "Fri 2 Up, close 428.91 near the <b>429.82</b> high. Sales Thursday.",
-    "<b>Over 429.82.</b> Flow is the reason to look, not to size.",
-    "<b>$44.6M call block Fri, $50.0M DP print today.</b>",
-    "Both prints were on the <b>ask</b>. Deep ITM calls read as synthetic stock.",
-    "Positioning, not direction."
+    "IONQ",
+    "Double inside month &middot; +5.74%",
+    "g",
+    "WATCH",
+    "<b>Investor day today at 11:30am</b> &mdash; on watch around that time. <b>Double inside month</b>, and it has <b>already triggered a failed 2 Down on the week</b>. Trading <b>41.79</b>.",
+    "<b>Entry only if it hits extreme volume.</b> Year flips green at <b>$46</b>.",
+    "Double inside month plus a weekly trigger already in hand is a compressed setup with a dated catalyst.",
+    "<b>A lot of resistance at $46</b>, and consolidation is the trap &mdash; do not get caught in it.",
+    "<b>If no move happens today, it can be straddled at the end of day.</b>"
    ]
   ]
  },
