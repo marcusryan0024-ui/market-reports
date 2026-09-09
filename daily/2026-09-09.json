@@ -13,34 +13,110 @@
    [
     "ETFs",
     [
-     ["IWM", 293.0, 294.67],
-     ["QQQ", 714.45, 718.36],
-     ["SPY", 763.31, 765.96]
+     [
+      "IWM",
+      293.0,
+      294.67
+     ],
+     [
+      "QQQ",
+      714.45,
+      718.36
+     ],
+     [
+      "SPY",
+      763.31,
+      765.96
+     ]
     ]
    ],
    [
     "Mag 11",
     [
-     ["AAPL", 315.26, 316.22],
-     ["MSFT", 493.66, 493.95],
-     ["NVDA", 224.58, 225.73],
-     ["GOOGL", 331.16, 338.36],
-     ["AMZN", 253.1, 256.97],
-     ["META", 645.0, 613.48],
-     ["TSLA", 364.31, 368.16],
-     ["AMD", 500.2, 505.74],
-     ["AVGO", 364.91, 368.56],
-     ["INTC", 102.33, 104.47],
-     ["MU", 996.9, 1000.26]
+     [
+      "AAPL",
+      315.26,
+      316.22
+     ],
+     [
+      "MSFT",
+      493.66,
+      493.95
+     ],
+     [
+      "NVDA",
+      224.58,
+      225.73
+     ],
+     [
+      "GOOGL",
+      331.16,
+      338.36
+     ],
+     [
+      "AMZN",
+      253.1,
+      256.97
+     ],
+     [
+      "META",
+      645.0,
+      613.48
+     ],
+     [
+      "TSLA",
+      364.31,
+      368.16
+     ],
+     [
+      "AMD",
+      500.2,
+      505.74
+     ],
+     [
+      "AVGO",
+      364.91,
+      368.56
+     ],
+     [
+      "INTC",
+      102.33,
+      104.47
+     ],
+     [
+      "MU",
+      996.9,
+      1000.26
+     ]
     ]
    ]
   ],
   "focus": [
-   ["META", 645.0, 613.48],
-   ["USO", 148.9, 146.03],
-   ["XLE", 65.43, 64.77],
-   ["TTAN", 65.85, 81.58],
-   ["CASY", 649.14, 733.49]
+   [
+    "META",
+    645.0,
+    613.48
+   ],
+   [
+    "USO",
+    148.9,
+    146.03
+   ],
+   [
+    "XLE",
+    65.43,
+    64.77
+   ],
+   [
+    "TTAN",
+    65.85,
+    81.58
+   ],
+   [
+    "CASY",
+    649.14,
+    733.49
+   ]
   ]
  },
  "setups": [
@@ -71,51 +147,51 @@
  ],
  "prep": {
   "pill": "MORNING PREP &middot; WED 9/9",
-  "lead": "&#9888; <b>Two dated events inside the session and an oil shock underneath them.</b> Treasury buyback size at <b>10:00am CT</b>, Apple at <b>12:00pm CT</b>. Brent over $100, the 10-year at 4.80%, VIX 16.40 &mdash; energy is now moving rates, not just energy.",
+  "lead": "&#9888; <b>Refiners at all-time highs, semis coiled and fading, one mega cap doing all the lifting.</b> Two dated events inside the session &mdash; <b>Apple 12:00pm CT</b> and the <b>10-year auction, also 12:00pm</b>, live with yields at 4.80%. Brent over $100.",
   "cards": [
    [
     "META",
-    "Failed 2U reclaimed &middot; +5.14%",
+    "Failed 2U reclaimed &middot; +5.79%",
     "g",
     "T1",
-    "Tue Failed 2 Up &mdash; took 617.46 to <b>624.80</b>, closed 613.48 under it. Premarket <b>645.00</b>.",
-    "<b>Over 624.80</b> voids the failure. Use the opening range, not the 645 print.",
-    "Twenty dollars above the failed high and above two weeks of structure.",
-    "Four straight gaps of this shape (SNOW, GTLB, MRVL, ORCL) gave back a chunk inside the session.",
-    "The only mega cap bid on a red morning. That is either leadership or a squeeze."
+    "Tue Failed 2 Up &mdash; took 617.46 to <b>624.80</b>, closed 613.48 under it. Premarket <b>648.99</b>.",
+    "<b>Over 624.80</b> voids it. Opening range, not the 649 print.",
+    "A <b>$10.1M call trade</b> went up against a 60% bear options lean &mdash; and so far the single ticket is right.",
+    "Four straight gaps of this shape gave back a chunk intraday. The badge is the crowd; the ticket is one player.",
+    "The only mega cap bid on a red tape. Leadership or a squeeze."
+   ],
+   [
+    "PSX",
+    "Refiners at ATH &middot; +1.91%",
+    "g",
+    "T1",
+    "<b>PSX, MPC and VLO all printing all-time highs</b> with Brent over $100. MPC +1.57%, VLO +1.35%.",
+    "Buy strength in the group, not the laggard. ATH means no overhead reference.",
+    "Crack spreads, not just crude &mdash; refiners capture the spread the majors do not.",
+    "<b>The Oman &lsquo;safe route&rsquo; headline ends this in one print.</b>",
+    "MPC took size in ~3 crosses at 70% calls; PSX at the bid. Concentrated, not drip."
    ],
    [
     "AAPL",
     "2 Down &middot; event 12:00pm CT",
     "b",
     "T1",
-    "Tue broke 317.86 to <b>314.90</b>, closed 316.22 under it. Fourth straight lower close.",
-    "<b>Under 317.86 it stays broken.</b> The event is midday, not at the open.",
-    "Foldable Ultra, $2,000-2,500 pricing, $100-200 Pro increases.",
-    "Four sessions of selling into its own launch, with the supply constraint already public.",
-    "A pricing-power question is answered in the December quarter, not on stage."
+    "Tue broke 317.86 to <b>314.90</b>, closed 316.22 under it. Fourth straight lower close; premarket 315.19.",
+    "<b>Under 317.86 it stays broken.</b> Event is midday, not at the open.",
+    "Foldable Ultra, new Watch Ultra, Ternus's first keynote as CEO.",
+    "Four sessions of selling into its own launch with the supply limit already public.",
+    "Trade the supplier chain on unit guidance, not the keynote."
    ],
    [
-    "USO",
-    "2 Up &middot; +1.97%",
-    "g",
-    "T1",
-    "Tue 2 Up, took 143.03 to <b>146.23</b>, closed 146.03 near the high. <b>Brent $100.82</b>, first over $100 since July.",
-    "<b>Over 146.23.</b> XLE +1.02%, OXY +1.68%, XOM +1.30% confirming.",
-    "Cumulative and physical now &mdash; tankers, then a missile barrage on a US facility in Jordan.",
-    "<b>The Oman &lsquo;safe route&rsquo; headline still ends this in one print.</b>",
-    "Oil is now lifting the 10-year to 4.80%. It cuts both ways for the index."
-   ],
-   [
-    "SPY",
-    "2 Down &middot; &minus;0.35%",
+    "Semis",
+    "Failed 2U wall &middot; fading",
     "r",
     "T2",
-    "Tue was a clean 2 Down &mdash; broke Friday's 769.00 to <b>765.14</b>, closed 765.96 under it. Premarket 763.31 extends it.",
-    "<b>Under 769.00</b> it stays broken. Second session below the level.",
-    "QQQ printed an Outside (3) and IWM an Inside (1) &mdash; all three lean the same way.",
-    "Treasury buyback at 10:00am CT is the one thing that can reverse the rate pressure.",
-    "VIX 16.40 is still low. This is drift, not stress."
+    "<b>SNDK, MU, IONQ clustering with ASML, QCOM, KLAC, WDC, MRVL</b> &mdash; all coiled under Tuesday's highs, all red premarket.",
+    "Nothing to do until one of them takes its Tuesday high. <b>Wait for the break.</b>",
+    "The group refused to go down Tuesday while the Dow fell 627.",
+    "ASML &minus;2.36%, INTC &minus;2.36%, IONQ &minus;2.30% &mdash; the fade is broad this morning.",
+    "A <b>$67.4M Goldman print</b> sits in the same bucket. Size without direction."
    ]
   ]
  },
@@ -124,23 +200,73 @@
    "day": "MON 9/7",
    "tag": "CLOSED",
    "accent": "done",
-   "econ": [["&mdash;", "Labor Day. The weekend produced the first Hormuz escalation"]],
+   "econ": [
+    [
+     "&mdash;",
+     "Labor Day. The weekend produced the first Hormuz escalation"
+    ]
+   ],
    "earnings": [],
-   "events": [["Oil", "Weekend", "US and Iran struck tankers; Jazan refinery hit"]]
+   "events": [
+    [
+     "Oil",
+     "Weekend",
+     "US and Iran struck tankers; Jazan refinery hit"
+    ]
+   ]
   },
   {
    "day": "TUE 9/8",
    "tag": "DONE &middot; LIGHT DAY",
    "accent": "done",
    "econ": [
-    ["AM", "NFIB small-business optimism &mdash; done"],
-    ["2:00pm", "July consumer credit &mdash; done. Fed in its quiet period"]
+    [
+     "AM",
+     "NFIB small-business optimism &mdash; done"
+    ],
+    [
+     "2:00pm",
+     "July consumer credit &mdash; done. Fed in its quiet period"
+    ]
    ],
-   "earnings": [["TTAN", "PM &middot; guide"], ["CASY", "PM &middot; mixed"], ["BRZE", "PM &middot; rev miss"], ["SIG", "AM &middot; beat"], ["CHYM", "PM &middot; beat"]],
+   "earnings": [
+    [
+     "TTAN",
+     "PM &middot; guide"
+    ],
+    [
+     "CASY",
+     "PM &middot; mixed"
+    ],
+    [
+     "BRZE",
+     "PM &middot; rev miss"
+    ],
+    [
+     "SIG",
+     "AM &middot; beat"
+    ],
+    [
+     "CHYM",
+     "PM &middot; beat"
+    ]
+   ],
    "events": [
-    ["SPY", "Done", "Closed <b>&minus;0.55%</b>, eight of twelve sectors red"],
-    ["AMD", "Done", "Closed <b>+5.85%</b> &mdash; both prep levels hit in order"],
-    ["INTC", "Done", "Closed <b>104.47</b> on the Terafab foundry story"]
+    [
+     "SPY",
+     "Done",
+     "Closed <b>&minus;0.55%</b>, eight of twelve sectors red"
+    ],
+    [
+     "AMD",
+     "Done",
+     "Closed <b>+5.85%</b> &mdash; both prep levels hit in order"
+    ],
+    [
+     "INTC",
+     "Done",
+     "Closed <b>104.47</b>, +9% on planned chip price rises and an upgrade"
+    ]
    ]
   },
   {
@@ -148,15 +274,57 @@
    "tag": "TODAY &middot; APPLE &middot; BUYBACK",
    "accent": "next",
    "econ": [
-    ["10:00am", "<b>Treasury announces max buyback size</b> &mdash; market wants well above &ldquo;at least $4B&rdquo;"],
-    ["&mdash;", "<b>Brent $100.82</b>, WTI $95.52, 10-year 4.80%, VIX 16.40"],
-    ["Overnight", "China Aug <b>PPI +3.8% vs 3.6%</b>, core CPI 1.0% vs 0.9% &mdash; firmer"]
+    [
+     "12:00pm",
+     "<b>10-year Treasury auction</b> &mdash; live with yields at 4.80%. Mortgage apps AM"
+    ],
+    [
+     "&mdash;",
+     "<b>Brent $100.82</b>, WTI $95.52, 10-year 4.80%, VIX 16.40"
+    ],
+    [
+     "Overnight",
+     "China Aug <b>PPI +3.8% vs 3.6%</b>, core CPI 1.0% vs 0.9% &mdash; firmer"
+    ]
    ],
-   "earnings": [["CHWY", "AM &middot; beat"], ["AEO", "PM"], ["AVAV", "PM"], ["COO", "PM"], ["SAIL", "PM"]],
+   "earnings": [
+    [
+     "CHWY",
+     "AM &middot; beat"
+    ],
+    [
+     "AEO",
+     "PM"
+    ],
+    [
+     "AVAV",
+     "PM"
+    ],
+    [
+     "COO",
+     "PM"
+    ],
+    [
+     "SAIL",
+     "PM"
+    ]
+   ],
    "events": [
-    ["AAPL", "12:00pm", "<b>iPhone 18 launch &mdash; foldable Ultra, $2,000-2,500 pricing in question</b>"],
-    ["Conferences", "All day", "Goldman Communacopia &mdash; MRVL 10:30, SNDK 13:30, DELL 14:25, AMAT 16:25"],
-    ["POTUS", "8:15pm", "<b>President Trump speaks</b>"]
+    [
+     "AAPL",
+     "12:00pm",
+     "<b>iPhone 18 launch &mdash; foldable Ultra, $2,000-2,500 pricing in question</b>"
+    ],
+    [
+     "Conferences",
+     "All day",
+     "Goldman Communacopia &mdash; MRVL 10:30, SNDK 13:30, DELL 14:25, AMAT 16:25"
+    ],
+    [
+     "POTUS",
+     "8:15pm",
+     "<b>President Trump speaks</b>"
+    ]
    ]
   },
   {
@@ -164,14 +332,45 @@
    "tag": "PPI &middot; ORCL &middot; ECB",
    "accent": "macro",
    "econ": [
-    ["7:15am", "ECB policy statement; Lagarde 7:45am"],
-    ["7:30am", "<b>August PPI</b> and weekly jobless claims"]
+    [
+     "7:15am",
+     "ECB policy statement; Lagarde 7:45am"
+    ],
+    [
+     "7:30am",
+     "<b>August PPI</b> and weekly jobless claims"
+    ]
    ],
-   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM"]],
+   "earnings": [
+    [
+     "ORCL",
+     "PM"
+    ],
+    [
+     "ADBE",
+     "PM"
+    ],
+    [
+     "M",
+     "AM"
+    ]
+   ],
    "events": [
-    ["ORCL", "PM", "<b>Backlog $638B, +363% y/y &mdash; does it convert to revenue?</b>"],
-    ["TSM", "AM", "Monthly sales update"],
-    ["HOOD", "4:05pm", "August sales and revenue release"]
+    [
+     "ORCL",
+     "PM",
+     "<b>Backlog $638B, +363% y/y &mdash; does it convert to revenue?</b>"
+    ],
+    [
+     "TSM",
+     "AM",
+     "Monthly sales update"
+    ],
+    [
+     "HOOD",
+     "4:05pm",
+     "August sales and revenue release"
+    ]
    ]
   },
   {
@@ -179,19 +378,56 @@
    "tag": "CPI",
    "accent": "macro",
    "econ": [
-    ["7:30am", "<b>August CPI.</b> Core seen at 2.5%. Brent over $100 is the risk to that"],
-    ["9:00am", "Preliminary Michigan sentiment"]
+    [
+     "7:30am",
+     "<b>August CPI.</b> Core seen at 2.5%. Brent over $100 is the risk to that"
+    ],
+    [
+     "9:00am",
+     "Preliminary Michigan sentiment"
+    ]
    ],
-   "earnings": [["KR", "AM"]],
-   "events": [["FOMC", "9/16", "Split between a hold and a hike under Chair Warsh"]]
+   "earnings": [
+    [
+     "KR",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "FOMC",
+     "9/16",
+     "Split between a hold and a hike under Chair Warsh"
+    ]
+   ]
   }
  ],
  "charts": [
-  ["META", "charts/META_2026-09-09.png", "Failed 2U &middot; premarket 20 above it"],
-  ["AAPL", "charts/AAPL_2026-09-09.png", "2 Down &middot; fourth lower close into the event"],
-  ["USO", "charts/USO_2026-09-09.png", "2 Up &middot; Brent through $100"],
-  ["SPY", "charts/SPY_2026-09-09.png", "2 Down &middot; second session under 769.00"],
-  ["XLE", "charts/XLE_2026-09-09.png", "2 Up &middot; complex confirming"]
+  [
+   "META",
+   "charts/META_2026-09-09.png",
+   "Failed 2U &middot; premarket 20 above it"
+  ],
+  [
+   "AAPL",
+   "charts/AAPL_2026-09-09.png",
+   "2 Down &middot; fourth lower close into the event"
+  ],
+  [
+   "USO",
+   "charts/USO_2026-09-09.png",
+   "2 Up &middot; Brent through $100"
+  ],
+  [
+   "SPY",
+   "charts/SPY_2026-09-09.png",
+   "2 Down &middot; second session under 769.00"
+  ],
+  [
+   "XLE",
+   "charts/XLE_2026-09-09.png",
+   "2 Up &middot; complex confirming"
+  ]
  ],
  "charts_note": "SWIPE &#8594;",
  "trump": {
@@ -199,23 +435,132 @@
   "groups": [
    [
     "ENERGY &mdash; BRENT OVER $100",
-    [["USO", 1.97], ["OXY", 1.68], ["XOM", 1.3], ["CVX", 1.19], ["XLE", 1.02], ["MPC", 0.94]]
+    [
+     [
+      "USO",
+      1.97
+     ],
+     [
+      "OXY",
+      1.68
+     ],
+     [
+      "XOM",
+      1.3
+     ],
+     [
+      "CVX",
+      1.19
+     ],
+     [
+      "XLE",
+      1.02
+     ],
+     [
+      "MPC",
+      0.94
+     ]
+    ]
    ],
    [
     "THE EARNINGS SPLIT",
-    [["SIG", 10.52], ["CHYM", 9.45], ["SFD", -5.13], ["CASY", -11.5], ["TTAN", -19.28]]
+    [
+     [
+      "SIG",
+      10.52
+     ],
+     [
+      "CHYM",
+      9.45
+     ],
+     [
+      "SFD",
+      -5.13
+     ],
+     [
+      "CASY",
+      -11.5
+     ],
+     [
+      "TTAN",
+      -19.28
+     ]
+    ]
    ],
    [
     "MEGA CAP &mdash; ONE BID, THE REST OFFERED",
-    [["META", 5.14], ["MSFT", -0.06], ["TSLA", -1.05], ["AMZN", -1.51], ["INTC", -2.05], ["GOOGL", -2.13]]
+    [
+     [
+      "META",
+      5.14
+     ],
+     [
+      "MSFT",
+      -0.06
+     ],
+     [
+      "TSLA",
+      -1.05
+     ],
+     [
+      "AMZN",
+      -1.51
+     ],
+     [
+      "INTC",
+      -2.05
+     ],
+     [
+      "GOOGL",
+      -2.13
+     ]
+    ]
    ],
    [
     "SEMIS GIVING BACK",
-    [["MU", -0.34], ["SNDK", -0.4], ["NVDA", -0.51], ["AVGO", -0.99], ["AMD", -1.1], ["TSM", -1.53]]
+    [
+     [
+      "MU",
+      -0.34
+     ],
+     [
+      "SNDK",
+      -0.4
+     ],
+     [
+      "NVDA",
+      -0.51
+     ],
+     [
+      "AVGO",
+      -0.99
+     ],
+     [
+      "AMD",
+      -1.1
+     ],
+     [
+      "TSM",
+      -1.53
+     ]
+    ]
    ],
    [
     "THE INDEX",
-    [["SPY", -0.35], ["QQQ", -0.54], ["IWM", -0.57]]
+    [
+     [
+      "SPY",
+      -0.35
+     ],
+     [
+      "QQQ",
+      -0.54
+     ],
+     [
+      "IWM",
+      -0.57
+     ]
+    ]
    ]
   ]
  },
@@ -314,25 +659,138 @@
  },
  "gappers": {
   "bull": [
-   ["META", 5.14, "Analysts turning positive on the AI assistant. Tuesday was a <b>Failed 2 Up</b> &mdash; took 617.46 to 624.80 and closed 613.48 under it &mdash; and premarket is <b>twenty dollars above that failed high</b>. The only mega cap bid on a red morning."],
-   ["SIG", 10.52, "Adjusted EPS <b>$2.19 against $1.74</b>, revenue $1.53B in line, same-store sales +2.2%. Raised the low end of the full-year profit and comp outlook and expanded the remaining buyback authorization to <b>$700M</b> &mdash; an earnings <i>and</i> capital-return beat on modest top-line growth."],
-   ["CHYM", 9.45, "Q3 revenue guided to <b>$680-690M against $640.6M</b> consensus, and a <b>$590M cash acquisition of Stride Bank</b> announced alongside. Raised 2026 to 26-27% sales growth and 17-18% EBITDA margins, with management pointing at <b>$100M+ of net synergies</b> and lower partner-bank costs."],
-   ["USO", 1.97, "<b>Brent +2.96% to $100.82</b>, its first print over $100 since July, and WTI +2.68% to $95.52. Fresh US strikes on Iranian tankers were answered by an Iranian missile barrage against a US facility in Jordan."],
-   ["LAC", 2.99, "JPMorgan resumed at <b>Overweight from Neutral</b> with a $6 target, roughly 100% upside, citing execution confidence at Thacker Pass and lithium carbonate holding <b>near $22.30/kg</b> since mid-February."]
+   [
+    "META",
+    5.14,
+    "Analysts turning positive on the AI assistant. Tuesday was a <b>Failed 2 Up</b> &mdash; took 617.46 to 624.80 and closed 613.48 under it &mdash; and premarket is <b>twenty dollars above that failed high</b>. The only mega cap bid on a red morning."
+   ],
+   [
+    "SIG",
+    10.52,
+    "Adjusted EPS <b>$2.19 against $1.74</b>, revenue $1.53B in line, same-store sales +2.2%. Raised the low end of the full-year profit and comp outlook and expanded the remaining buyback authorization to <b>$700M</b> &mdash; an earnings <i>and</i> capital-return beat on modest top-line growth."
+   ],
+   [
+    "CHYM",
+    9.45,
+    "Q3 revenue guided to <b>$680-690M against $640.6M</b> consensus, and a <b>$590M cash acquisition of Stride Bank</b> announced alongside. Raised 2026 to 26-27% sales growth and 17-18% EBITDA margins, with management pointing at <b>$100M+ of net synergies</b> and lower partner-bank costs."
+   ],
+   [
+    "USO",
+    1.97,
+    "<b>Brent +2.96% to $100.82</b>, its first print over $100 since July, and WTI +2.68% to $95.52. Fresh US strikes on Iranian tankers were answered by an Iranian missile barrage against a US facility in Jordan."
+   ],
+   [
+    "LAC",
+    2.99,
+    "JPMorgan resumed at <b>Overweight from Neutral</b> with a $6 target, roughly 100% upside, citing execution confidence at Thacker Pass and lithium carbonate holding <b>near $22.30/kg</b> since mid-February."
+   ]
   ],
   "bear": [
-   ["TTAN", -19.28, "Third-quarter revenue guidance fell short of consensus, and that was enough to erase a Q2 revenue beat (<b>$292.8M vs $285.9M</b>) and a raised full-year revenue guide. The quarterly guide outweighed both."],
-   ["CASY", -11.5, "A large FQ1 EPS beat at <b>$7.37 against $6.77</b>, but EBITDA of $485M only modestly cleared the $480M consensus and full-year guidance was merely reiterated. Investors took the <b>0.3% year-over-year decline in fuel sales</b> and softer prepared-food comps instead."],
-   ["SFD", -5.13, "Preannounced FQ3 operating income of just <b>$115-175M against roughly $296M expected</b>, citing fresh-pork spreads and lower hog prices. It follows a downside update from Tyson days earlier &mdash; a protein-complex problem rather than a company one."],
-   ["GOOGL", -2.13, "Announced a <b>&euro;13B AI infrastructure investment in Finland</b>. Capex commitments of that size have been read as margin pressure rather than growth this quarter, and it is the worst of the mega caps this morning."],
-   ["INTC", -2.05, "Giving back part of Tuesday's move. It closed <b>104.47</b> after the Terafab foundry story, and premarket is fading it &mdash; the second-largest single-session gain in the Mag 11 this month now needs a second day to confirm."]
+   [
+    "TTAN",
+    -19.28,
+    "Third-quarter revenue guidance fell short of consensus, and that was enough to erase a Q2 revenue beat (<b>$292.8M vs $285.9M</b>) and a raised full-year revenue guide. The quarterly guide outweighed both."
+   ],
+   [
+    "CASY",
+    -11.5,
+    "A large FQ1 EPS beat at <b>$7.37 against $6.77</b>, but EBITDA of $485M only modestly cleared the $480M consensus and full-year guidance was merely reiterated. Investors took the <b>0.3% year-over-year decline in fuel sales</b> and softer prepared-food comps instead."
+   ],
+   [
+    "SFD",
+    -5.13,
+    "Preannounced FQ3 operating income of just <b>$115-175M against roughly $296M expected</b>, citing fresh-pork spreads and lower hog prices. It follows a downside update from Tyson days earlier &mdash; a protein-complex problem rather than a company one."
+   ],
+   [
+    "GOOGL",
+    -2.13,
+    "Announced a <b>&euro;13B AI infrastructure investment in Finland</b>. Capex commitments of that size have been read as margin pressure rather than growth this quarter, and it is the worst of the mega caps this morning."
+   ],
+   [
+    "INTC",
+    -2.05,
+    "Giving back part of Tuesday's move. It closed <b>104.47</b> after the Terafab foundry story, and premarket is fading it &mdash; the second-largest single-session gain in the Mag 11 this month now needs a second day to confirm."
+   ]
   ]
  },
  "darkpool": {
-  "note": "<b>No FlowMS board has arrived for this session yet.</b> Tuesday's grading stands as the last complete read, and it went the way the ask lean implied: the index complex printed <b>ask for a third straight session</b> into Friday &mdash; <b>IVV $5.6B and SPY $5.4B cumulative</b> &mdash; and SPY has now closed lower on both sessions since. The memory read from that board resolved as well: <b>SNDK $5.1B and MU $5.0B, both mixed</b> rather than bid, on the day they ripped 7% and 5%, and both have gone sideways-to-down since, with <b>MU losing $1,000</b> Tuesday. This section updates when today's letter lands.",
-  "right_note": "AWAITING TODAY'S LETTER",
-  "dim": true,
-  "chips": []
+  "note": "<b>Fourth session in a row the index complex printed ask up top, and Tuesday the largest print on the whole tape was IVV $1.5B (ask, AH).</b> Behind it VOO $1.2B ask and SPY $1.0B ask &mdash; broad-index money has now leaned ask into the hot jobs print, into $100 oil, and into the inflation pair dead ahead. <b>The memory trio owned the cumulative board again:</b> NVDA <b>$5.1B (mixed)</b>, MU <b>$4.7B (bid)</b> and SNDK <b>$3.2B (ask)</b> &mdash; roughly <b>$13B worked through three names on a day the Dow dropped 627</b>. The split inside that is the tell: <b>MU is the one wearing the bid lean</b>, cumulative plus a <b>$413M bid print after hours</b>, while NVDA and SNDK tilt the other way and NVDA's $750M ask was the largest single name for a second straight session. On the options side the loudest tickets disagree with their own tape: a <b>$10.1M META call trade against a 60% bear lean</b>, a <b>$7.7M TSM call trade against 62% bear</b>, and a <b>$17.1M AMZN trade</b> on a Failed 2D at 57% bear. The badge is the crowd; the ticket is one player's conviction. Let price break the tie.",
+  "right_note": "TUESDAY 9/8 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   [
+    "IVV",
+    "$1.5B",
+    "ask &middot; #1 print, AH",
+    "r"
+   ],
+   [
+    "VOO",
+    "$1.2B",
+    "ask, AH",
+    "r"
+   ],
+   [
+    "SPY",
+    "$1.0B",
+    "ask, AH",
+    "r"
+   ],
+   [
+    "NVDA",
+    "$5.1B",
+    "cumulative MIXED",
+    "y"
+   ],
+   [
+    "MU",
+    "$4.7B",
+    "cumulative BID",
+    "g"
+   ],
+   [
+    "SNDK",
+    "$3.2B",
+    "cumulative ask",
+    "r"
+   ],
+   [
+    "NVDA",
+    "$750M",
+    "ask &middot; top single name",
+    "r"
+   ],
+   [
+    "TMO",
+    "$520M",
+    "bid, AH",
+    "g"
+   ],
+   [
+    "AVGO",
+    "$507M",
+    "ask, AH",
+    "r"
+   ],
+   [
+    "MU",
+    "$413M",
+    "bid, AH",
+    "g"
+   ],
+   [
+    "SPCX",
+    "$106M",
+    "bid &middot; largest today",
+    "g"
+   ],
+   [
+    "MRVL",
+    "$9.0M",
+    "270P 01/28 block",
+    "y"
+   ]
+  ]
  },
  "tts": [
   {
