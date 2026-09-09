@@ -1,0 +1,351 @@
+{
+ "title": "Wednesday, September 9, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>Brent is over $100 for the first time since July, and the oil shock is starting to bleed into rates.</b> <b>Brent +2.96% to $100.82</b> and <b>WTI +2.68% to $95.52</b> after fresh US strikes on Iranian tankers were followed by another <b>Iranian missile barrage against a US facility in Jordan</b> &mdash; a cycle of retaliation rather than a single headline. The <b>10-year is at 4.80%</b>, <b>VIX +4.33% to 16.40</b>, and futures are lower across the board: S&amp;P <b>&minus;0.38%</b>, Dow <b>&minus;0.63%</b>, Nasdaq <b>&minus;0.54%</b>, Russell <b>&minus;0.52%</b>.",
+  "summary": "<b>And META is doing something violent in the other direction &mdash; +5.14% to 645.00.</b> Tuesday it printed a <b>Failed 2 Up</b>, taking Friday's 617.46 high to <b>624.80</b> and closing <b>613.48</b> back below it; premarket is <b>twenty dollars above that failed high</b>, on analysts turning positive on its AI assistant. Everything else in mega-cap is offered &mdash; <b>GOOGL &minus;2.13%</b>, <b>INTC &minus;2.05%</b>, <b>TSM &minus;1.53%</b>, <b>AMZN &minus;1.51%</b>. Two days of catalyst risk sit inside this session: the <b>Treasury buyback size at 10:00am CT</b>, where the market wants a number well above the prior &ldquo;at least $4B&rdquo;, and <b>Apple's iPhone launch at 12:00pm CT</b>."
+ },
+ "overview": "<b>The energy shock is no longer isolated, and that is the change from yesterday.</b> Brent through <b>$100.82</b> for the first time since July, with the 10-year up a basis point to <b>4.80%</b> and VIX up <b>4.33% to 16.40</b> &mdash; oil is now raising the discount rate on the same growth assets that have been carrying the index. China's August data pushed the same way overnight: <b>PPI +3.8% against 3.6% expected</b> and <b>core CPI +1.0% versus 0.9%</b>, firmer beneath an in-line 0.8% headline, and hawkish remarks from an Australian central-bank official lifted September hike expectations there too. Europe is broadly weaker, the major eurozone indices down <b>0.75% to 1.0%</b>, with utilities, energy and telecom the only groups holding up. Against that, the AI bid has not broken &mdash; it has narrowed further into hardware. The two dated events today are both binary and both in the middle of the session: the <b>Treasury announces the maximum size of its buyback operation at 10:00am CT</b>, where expectations in some corners reach <b>$10B or more</b> against prior guidance of &ldquo;at least $4B&rdquo;, and <b>Apple takes the stage at 12:00pm CT</b> with a foldable iPhone Ultra and <b>$100-200 price increases on Pro models</b> in question. <b>President Trump speaks at 8:15pm CT.</b>",
+ "watchlist": {
+  "stamp": "PREMARKET 7:38AM CT",
+  "em_label": "MARKS VS TUESDAY 9/8 CLOSE &mdash; BRENT $100.82, VIX 16.40",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 293.0, 294.67],
+     ["QQQ", 714.45, 718.36],
+     ["SPY", 763.31, 765.96]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 315.26, 316.22],
+     ["MSFT", 493.66, 493.95],
+     ["NVDA", 224.58, 225.73],
+     ["GOOGL", 331.16, 338.36],
+     ["AMZN", 253.1, 256.97],
+     ["META", 645.0, 613.48],
+     ["TSLA", 364.31, 368.16],
+     ["AMD", 500.2, 505.74],
+     ["AVGO", 364.91, 368.56],
+     ["INTC", 102.33, 104.47],
+     ["MU", 996.9, 1000.26]
+    ]
+   ]
+  ],
+  "focus": [
+   ["META", 645.0, 613.48],
+   ["USO", 148.9, 146.03],
+   ["XLE", 65.43, 64.77],
+   ["TTAN", 65.85, 81.58],
+   ["CASY", 649.14, 733.49]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "META",
+   "+5.14%",
+   "Failed 2U &middot; reclaimed violently",
+   "Tuesday was a <b>Failed 2 Up</b> &mdash; it took Friday's 617.46 high to <b>624.80</b>, then closed <b>613.48</b> back underneath it. Premarket <b>645.00</b> is not a marginal reclaim; it is <b>twenty dollars above the failed high</b> and above every level of the prior two weeks, on analysts turning positive on the AI assistant. <b>Over 624.80</b> voids the failure and turns it into a 2-2 reversal up, and that level is already through by a wide margin. The caution is the same one this book keeps writing: a 5% premarket gap in a mega cap is rarely available at the open, and the last four gaps of this shape &mdash; SNOW, GTLB, MRVL, ORCL &mdash; all gave back a meaningful part of it inside the session. The opening range is the reference, not the 645 print."
+  ],
+  [
+   "T1",
+   "b",
+   "AAPL",
+   "&minus;0.30%",
+   "2 Down &middot; event at 12:00pm CT",
+   "Tuesday broke Friday's 317.86 low to <b>314.90</b> and closed <b>316.22</b>, still under it &mdash; a clean 2 Down and the fourth consecutive lower close. Premarket <b>315.26</b> has not reclaimed anything. <b>Under 317.86 it stays broken.</b> The launch is at <b>12:00pm CT</b>: foldable iPhone Ultra, potential <b>$2,000-2,500 pricing</b>, and possible <b>$100-200 increases on Pro models</b> &mdash; Morgan Stanley's most-consequential-since-iPhone-X framing, which makes it a pricing-power test rather than a spec refresh. Four sessions of selling into its own event is the fact to weigh, and the answer to a pricing question arrives in the December quarter, not on stage today."
+  ],
+  [
+   "T1",
+   "g",
+   "USO",
+   "+1.97%",
+   "2 Up &middot; Brent through $100",
+   "Tuesday was a <b>2 Up</b> &mdash; it took Friday's 143.03 high to <b>146.23</b> and closed <b>146.03</b> near it. Premarket <b>148.90</b> clears that high. The catalyst is now cumulative and physical rather than a headline: fresh US strikes on Iranian tankers, then an <b>Iranian missile barrage against a US facility in Jordan</b>, with <b>Brent +2.96% to $100.82</b> &mdash; the first print above $100 since July &mdash; and WTI <b>+2.68% to $95.52</b>. <b>XLE +1.02%</b> confirms alongside, with OXY +1.68%, XOM +1.30%, CVX +1.19%. <b>Over 146.23</b> continues it. The Oman &ldquo;safe route&rdquo; headline remains the dated risk that ends this in one print."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; WED 9/9",
+  "lead": "&#9888; <b>Two dated events inside the session and an oil shock underneath them.</b> Treasury buyback size at <b>10:00am CT</b>, Apple at <b>12:00pm CT</b>. Brent over $100, the 10-year at 4.80%, VIX 16.40 &mdash; energy is now moving rates, not just energy.",
+  "cards": [
+   [
+    "META",
+    "Failed 2U reclaimed &middot; +5.14%",
+    "g",
+    "T1",
+    "Tue Failed 2 Up &mdash; took 617.46 to <b>624.80</b>, closed 613.48 under it. Premarket <b>645.00</b>.",
+    "<b>Over 624.80</b> voids the failure. Use the opening range, not the 645 print.",
+    "Twenty dollars above the failed high and above two weeks of structure.",
+    "Four straight gaps of this shape (SNOW, GTLB, MRVL, ORCL) gave back a chunk inside the session.",
+    "The only mega cap bid on a red morning. That is either leadership or a squeeze."
+   ],
+   [
+    "AAPL",
+    "2 Down &middot; event 12:00pm CT",
+    "b",
+    "T1",
+    "Tue broke 317.86 to <b>314.90</b>, closed 316.22 under it. Fourth straight lower close.",
+    "<b>Under 317.86 it stays broken.</b> The event is midday, not at the open.",
+    "Foldable Ultra, $2,000-2,500 pricing, $100-200 Pro increases.",
+    "Four sessions of selling into its own launch, with the supply constraint already public.",
+    "A pricing-power question is answered in the December quarter, not on stage."
+   ],
+   [
+    "USO",
+    "2 Up &middot; +1.97%",
+    "g",
+    "T1",
+    "Tue 2 Up, took 143.03 to <b>146.23</b>, closed 146.03 near the high. <b>Brent $100.82</b>, first over $100 since July.",
+    "<b>Over 146.23.</b> XLE +1.02%, OXY +1.68%, XOM +1.30% confirming.",
+    "Cumulative and physical now &mdash; tankers, then a missile barrage on a US facility in Jordan.",
+    "<b>The Oman &lsquo;safe route&rsquo; headline still ends this in one print.</b>",
+    "Oil is now lifting the 10-year to 4.80%. It cuts both ways for the index."
+   ],
+   [
+    "SPY",
+    "2 Down &middot; &minus;0.35%",
+    "r",
+    "T2",
+    "Tue was a clean 2 Down &mdash; broke Friday's 769.00 to <b>765.14</b>, closed 765.96 under it. Premarket 763.31 extends it.",
+    "<b>Under 769.00</b> it stays broken. Second session below the level.",
+    "QQQ printed an Outside (3) and IWM an Inside (1) &mdash; all three lean the same way.",
+    "Treasury buyback at 10:00am CT is the one thing that can reverse the rate pressure.",
+    "VIX 16.40 is still low. This is drift, not stress."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/7",
+   "tag": "CLOSED",
+   "accent": "done",
+   "econ": [["&mdash;", "Labor Day. The weekend produced the first Hormuz escalation"]],
+   "earnings": [],
+   "events": [["Oil", "Weekend", "US and Iran struck tankers; Jazan refinery hit"]]
+  },
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE &middot; LIGHT DAY",
+   "accent": "done",
+   "econ": [
+    ["AM", "NFIB small-business optimism &mdash; done"],
+    ["2:00pm", "July consumer credit &mdash; done. Fed in its quiet period"]
+   ],
+   "earnings": [["TTAN", "PM &middot; guide"], ["CASY", "PM &middot; mixed"], ["BRZE", "PM &middot; rev miss"], ["SIG", "AM &middot; beat"], ["CHYM", "PM &middot; beat"]],
+   "events": [
+    ["SPY", "Done", "Closed <b>&minus;0.55%</b>, eight of twelve sectors red"],
+    ["AMD", "Done", "Closed <b>+5.85%</b> &mdash; both prep levels hit in order"],
+    ["INTC", "Done", "Closed <b>104.47</b> on the Terafab foundry story"]
+   ]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "TODAY &middot; APPLE &middot; BUYBACK",
+   "accent": "next",
+   "econ": [
+    ["10:00am", "<b>Treasury announces max buyback size</b> &mdash; market wants well above &ldquo;at least $4B&rdquo;"],
+    ["&mdash;", "<b>Brent $100.82</b>, WTI $95.52, 10-year 4.80%, VIX 16.40"],
+    ["Overnight", "China Aug <b>PPI +3.8% vs 3.6%</b>, core CPI 1.0% vs 0.9% &mdash; firmer"]
+   ],
+   "earnings": [["CHWY", "AM &middot; beat"], ["AEO", "PM"], ["AVAV", "PM"], ["COO", "PM"], ["SAIL", "PM"]],
+   "events": [
+    ["AAPL", "12:00pm", "<b>iPhone 18 launch &mdash; foldable Ultra, $2,000-2,500 pricing in question</b>"],
+    ["Conferences", "All day", "Goldman Communacopia &mdash; MRVL 10:30, SNDK 13:30, DELL 14:25, AMAT 16:25"],
+    ["POTUS", "8:15pm", "<b>President Trump speaks</b>"]
+   ]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "PPI &middot; ORCL &middot; ECB",
+   "accent": "macro",
+   "econ": [
+    ["7:15am", "ECB policy statement; Lagarde 7:45am"],
+    ["7:30am", "<b>August PPI</b> and weekly jobless claims"]
+   ],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM"]],
+   "events": [
+    ["ORCL", "PM", "<b>Backlog $638B, +363% y/y &mdash; does it convert to revenue?</b>"],
+    ["TSM", "AM", "Monthly sales update"],
+    ["HOOD", "4:05pm", "August sales and revenue release"]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [
+    ["7:30am", "<b>August CPI.</b> Core seen at 2.5%. Brent over $100 is the risk to that"],
+    ["9:00am", "Preliminary Michigan sentiment"]
+   ],
+   "earnings": [["KR", "AM"]],
+   "events": [["FOMC", "9/16", "Split between a hold and a hike under Chair Warsh"]]
+  }
+ ],
+ "charts": [
+  ["META", "charts/META_2026-09-09.png", "Failed 2U &middot; premarket 20 above it"],
+  ["AAPL", "charts/AAPL_2026-09-09.png", "2 Down &middot; fourth lower close into the event"],
+  ["USO", "charts/USO_2026-09-09.png", "2 Up &middot; Brent through $100"],
+  ["SPY", "charts/SPY_2026-09-09.png", "2 Down &middot; second session under 769.00"],
+  ["XLE", "charts/XLE_2026-09-09.png", "2 Up &middot; complex confirming"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:38AM CT",
+  "groups": [
+   [
+    "ENERGY &mdash; BRENT OVER $100",
+    [["USO", 1.97], ["OXY", 1.68], ["XOM", 1.3], ["CVX", 1.19], ["XLE", 1.02], ["MPC", 0.94]]
+   ],
+   [
+    "THE EARNINGS SPLIT",
+    [["SIG", 10.52], ["CHYM", 9.45], ["SFD", -5.13], ["CASY", -11.5], ["TTAN", -19.28]]
+   ],
+   [
+    "MEGA CAP &mdash; ONE BID, THE REST OFFERED",
+    [["META", 5.14], ["MSFT", -0.06], ["TSLA", -1.05], ["AMZN", -1.51], ["INTC", -2.05], ["GOOGL", -2.13]]
+   ],
+   [
+    "SEMIS GIVING BACK",
+    [["MU", -0.34], ["SNDK", -0.4], ["NVDA", -0.51], ["AVGO", -0.99], ["AMD", -1.1], ["TSM", -1.53]]
+   ],
+   [
+    "THE INDEX",
+    [["SPY", -0.35], ["QQQ", -0.54], ["IWM", -0.57]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/8 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "META",
+    "T1",
+    "g",
+    "Failed 2U &rarr; reclaimed &#128293;",
+    "g",
+    "Tuesday took Friday's 617.46 high to 624.80 and closed 613.48 back under it &mdash; a failed 2 Up. Premarket 645.00 is twenty dollars above that high and above two weeks of structure.",
+    "pre 645.00 &middot; <b>+5.14%</b> &middot; Tue H 624.80 / L 609.74",
+    "<b>Over 624.80</b> voids the failure &mdash; already through by a wide margin.",
+    "A 5% mega-cap gap. The last four of this shape all gave back a chunk inside the session."
+   ],
+   [
+    "USO",
+    "T1",
+    "g",
+    "2 Up &middot; Brent $100.82 &#128293;",
+    "g",
+    "Tuesday took Friday's 143.03 high to 146.23 and closed 146.03 near it. Premarket clears that high on the Jordan strike and the tanker exchange.",
+    "pre 148.90 &middot; <b>+1.97%</b> &middot; Tue H 146.23 / L 143.01",
+    "<b>Over 146.23.</b> XLE, OXY, XOM and CVX all confirming.",
+    "The Oman &lsquo;safe route&rsquo; deal is still &lsquo;days away&rsquo; and ends this in one headline."
+   ],
+   [
+    "XLE",
+    "T2",
+    "g",
+    "2 Up &middot; complex confirming",
+    "g",
+    "Tuesday took Friday's 64.33 high to 65.24 and closed 64.77 above it &mdash; the 2 Up held. Premarket 65.43 clears Tuesday's high as well.",
+    "pre 65.43 &middot; <b>+1.02%</b> &middot; Tue H 65.24 / L 64.31",
+    "<b>Over 65.24.</b> Second consecutive session of holding the trigger.",
+    "Energy is now lifting the 10-year to 4.80%, which works against everything else on the sheet."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "b",
+    "2 Down &middot; event 12:00pm CT",
+    "y",
+    "Tuesday broke Friday's 317.86 low to 314.90 and closed 316.22 under it. Fourth straight lower close, and premarket has reclaimed nothing.",
+    "pre 315.26 &middot; <b>&minus;0.30%</b> &middot; Tue H 320.70 / L 314.90",
+    "<b>Under 317.86</b> it stays broken. Launch at 12:00pm CT.",
+    "Foldable Ultra with $2,000-2,500 pricing and $100-200 Pro increases &mdash; a pricing-power test."
+   ],
+   [
+    "SPY",
+    "T2",
+    "r",
+    "2 Down &middot; second session under",
+    "r",
+    "Tuesday broke Friday's 769.00 low to 765.14 and closed 765.96, still under it. Premarket 763.31 extends the break.",
+    "pre 763.31 &middot; <b>&minus;0.35%</b> &middot; Tue H 769.70 / L 765.14",
+    "<b>Under 769.00.</b> QQQ printed Outside (3), IWM Inside (1) &mdash; all three lean down.",
+    "VIX at 16.40 is still low. This is drift rather than stress."
+   ],
+   [
+    "QQQ",
+    "T2",
+    "y",
+    "Outside (3) &middot; resolving down",
+    "y",
+    "Tuesday broke both of Friday's extremes &mdash; H 721.886 over 721.86, L 715.57 under 716.56 &mdash; and closed 718.36 mid-range. Premarket 714.45 is below the outside bar's low.",
+    "pre 714.45 &middot; <b>&minus;0.54%</b> &middot; Tue H 721.886 / L 715.57",
+    "<b>Under 715.57</b> resolves the outside bar down.",
+    "An outside bar closing mid-range has no implied direction. The break is the signal, not the bar."
+   ],
+   [
+    "ORCL",
+    "T2",
+    "y",
+    "2 Up &middot; inside, reports tomorrow",
+    "y",
+    "Tuesday was a 2 Up on the regular session &mdash; H 164.87 / L 161.18 above Friday's whole range &mdash; but it gave back the premarket gap to close 162.52. Premarket 163.10 sits inside.",
+    "pre 163.10 &middot; <b>+0.36%</b> &middot; Tue H 164.87 / L 161.18",
+    "<b>Over 164.87</b> resumes it. Reports <b>Thursday post-close</b>.",
+    "It already failed to hold a 5.5% gap once this week, two days before the print that justifies it."
+   ],
+   [
+    "TTAN",
+    "T2",
+    "r",
+    "Guidance gap &middot; no level applies",
+    "r",
+    "Q3 revenue guidance fell short despite a Q2 beat at $292.8M against $285.9M and a raised full-year revenue guide. Premarket 65.85 against an 81.58 close.",
+    "pre 65.85 &middot; <b>&minus;19.28%</b> &middot; Tue close 81.58",
+    "<b>No prior level applies.</b> The opening range is the only reference.",
+    "Beat and raised on revenue and lost 19% on the quarterly guide. Same rule as the week of 9/2."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["META", 5.14, "Analysts turning positive on the AI assistant. Tuesday was a <b>Failed 2 Up</b> &mdash; took 617.46 to 624.80 and closed 613.48 under it &mdash; and premarket is <b>twenty dollars above that failed high</b>. The only mega cap bid on a red morning."],
+   ["SIG", 10.52, "Adjusted EPS <b>$2.19 against $1.74</b>, revenue $1.53B in line, same-store sales +2.2%. Raised the low end of the full-year profit and comp outlook and expanded the remaining buyback authorization to <b>$700M</b> &mdash; an earnings <i>and</i> capital-return beat on modest top-line growth."],
+   ["CHYM", 9.45, "Q3 revenue guided to <b>$680-690M against $640.6M</b> consensus, and a <b>$590M cash acquisition of Stride Bank</b> announced alongside. Raised 2026 to 26-27% sales growth and 17-18% EBITDA margins, with management pointing at <b>$100M+ of net synergies</b> and lower partner-bank costs."],
+   ["USO", 1.97, "<b>Brent +2.96% to $100.82</b>, its first print over $100 since July, and WTI +2.68% to $95.52. Fresh US strikes on Iranian tankers were answered by an Iranian missile barrage against a US facility in Jordan."],
+   ["LAC", 2.99, "JPMorgan resumed at <b>Overweight from Neutral</b> with a $6 target, roughly 100% upside, citing execution confidence at Thacker Pass and lithium carbonate holding <b>near $22.30/kg</b> since mid-February."]
+  ],
+  "bear": [
+   ["TTAN", -19.28, "Third-quarter revenue guidance fell short of consensus, and that was enough to erase a Q2 revenue beat (<b>$292.8M vs $285.9M</b>) and a raised full-year revenue guide. The quarterly guide outweighed both."],
+   ["CASY", -11.5, "A large FQ1 EPS beat at <b>$7.37 against $6.77</b>, but EBITDA of $485M only modestly cleared the $480M consensus and full-year guidance was merely reiterated. Investors took the <b>0.3% year-over-year decline in fuel sales</b> and softer prepared-food comps instead."],
+   ["SFD", -5.13, "Preannounced FQ3 operating income of just <b>$115-175M against roughly $296M expected</b>, citing fresh-pork spreads and lower hog prices. It follows a downside update from Tyson days earlier &mdash; a protein-complex problem rather than a company one."],
+   ["GOOGL", -2.13, "Announced a <b>&euro;13B AI infrastructure investment in Finland</b>. Capex commitments of that size have been read as margin pressure rather than growth this quarter, and it is the worst of the mega caps this morning."],
+   ["INTC", -2.05, "Giving back part of Tuesday's move. It closed <b>104.47</b> after the Terafab foundry story, and premarket is fading it &mdash; the second-largest single-session gain in the Mag 11 this month now needs a second day to confirm."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No FlowMS board has arrived for this session yet.</b> Tuesday's grading stands as the last complete read, and it went the way the ask lean implied: the index complex printed <b>ask for a third straight session</b> into Friday &mdash; <b>IVV $5.6B and SPY $5.4B cumulative</b> &mdash; and SPY has now closed lower on both sessions since. The memory read from that board resolved as well: <b>SNDK $5.1B and MU $5.0B, both mixed</b> rather than bid, on the day they ripped 7% and 5%, and both have gone sideways-to-down since, with <b>MU losing $1,000</b> Tuesday. This section updates when today's letter lands.",
+  "right_note": "AWAITING TODAY'S LETTER",
+  "dim": true,
+  "chips": []
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Wednesday September ninth, premarket. Brent is over one hundred dollars for the first time since July, and the oil shock is starting to bleed into rates. Brent up two point nine six percent to one hundred dollars eighty two cents, W T I up two point six eight to ninety five fifty two, after fresh U S strikes on Iranian tankers were followed by another Iranian missile barrage against a U S facility in Jordan. That is a cycle of retaliation rather than a single headline. The ten year is at four point eight zero percent, the V I X is up four point three three percent to sixteen forty, and futures are lower across the board. And Meta is doing something violent in the other direction, up five point one four percent to six forty five. Tuesday it printed a failed two up, taking Friday's six seventeen forty six high to six twenty four eighty and closing six thirteen forty eight back below it. Premarket is twenty dollars above that failed high on analysts turning positive on its A I assistant. Everything else in mega cap is offered, with Alphabet down two point one three percent, Intel down two point zero five, Taiwan Semi down one point five three and Amazon down one point five one."
+  },
+  {
+   "label": "Setups",
+   "text": "Three setups. First, Meta, tier one. Tuesday was a failed two up and premarket is not a marginal reclaim, it is twenty dollars above the failed high and above every level of the prior two weeks. Over six twenty four eighty voids the failure and turns it into a two two reversal up, and that level is already well through. The caution is the one this book keeps writing. A five percent premarket gap in a mega cap is rarely available at the open, and the last four gaps of this shape, Snowflake, GitLab, Marvell and Oracle, all gave back a meaningful part of it inside the session. Use the opening range, not the six forty five print. Second, Apple, tier one but flagged blue. Tuesday broke Friday's three seventeen eighty six low to three fourteen ninety and closed three sixteen twenty two, still under it, a clean two down and the fourth consecutive lower close. The launch is at noon central, with a foldable iPhone Ultra, potential two thousand to twenty five hundred dollar pricing and possible one hundred to two hundred dollar increases on the Pro models. Four sessions of selling into its own event is the fact to weigh. Third, U S O, tier one. Tuesday was a two up closing near its high, and premarket clears it. Over one forty six twenty three continues it, with X L E, Occidental, Exxon and Chevron all confirming."
+  },
+  {
+   "label": "Levels",
+   "text": "The levels that matter today. Meta, six twenty four eighty, Tuesday's failed high, already cleared by twenty dollars. U S O, one forty six twenty three. X L E, sixty five twenty four. Apple, three seventeen eighty six, and it stays broken below that, with the event at noon central rather than at the open. S P Y, seven sixty nine flat, which it lost on Tuesday and has not reclaimed, and premarket seven sixty three thirty one extends the break. Q Q Q printed an outside bar on Tuesday and the level is seven fifteen fifty seven on the downside, which premarket is already under. Oracle needs one sixty four eighty seven to resume, and it reports tomorrow after the close. ServiceTitan has no level at all, down nineteen percent on a quarterly guide despite beating on revenue and raising the full year. Two dated events sit inside this session. The Treasury announces the maximum size of its buyback operation at ten in the morning central, where the market wants a number well above the prior at least four billion, with some expecting ten billion or more. And Apple takes the stage at noon central. President Trump speaks at eight fifteen tonight."
+  }
+ ]
+}
