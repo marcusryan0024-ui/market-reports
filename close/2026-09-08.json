@@ -8,32 +8,110 @@
    [
     "ETFs",
     [
-     ["IWM", 294.7, 296.01],
-     ["QQQ", 718.38, 718.96],
-     ["SPY", 765.96, 770.19]
+     [
+      "IWM",
+      294.7,
+      296.01
+     ],
+     [
+      "QQQ",
+      718.38,
+      718.96
+     ],
+     [
+      "SPY",
+      765.96,
+      770.19
+     ]
     ]
    ],
    [
     "Mag 11",
     [
-     ["AAPL", 316.31, 319.97],
-     ["NVDA", 225.78, 230.36],
-     ["META", 613.31, 616.77],
-     ["AMZN", 256.95, 258.51],
-     ["AVGO", 368.53, 357.895],
-     ["TSM", 439.01, 428.91],
-     ["MU", 999.94, 1016.59],
-     ["SNDK", 1737.85, 1740.0],
-     ["ORCL", 162.53, 158.78]
+     [
+      "AAPL",
+      316.31,
+      319.97
+     ],
+     [
+      "NVDA",
+      225.78,
+      230.36
+     ],
+     [
+      "META",
+      613.31,
+      616.77
+     ],
+     [
+      "AMZN",
+      256.95,
+      258.51
+     ],
+     [
+      "AVGO",
+      368.53,
+      357.895
+     ],
+     [
+      "TSM",
+      439.01,
+      428.91
+     ],
+     [
+      "MU",
+      999.94,
+      1016.59
+     ],
+     [
+      "SNDK",
+      1737.85,
+      1740.0
+     ],
+     [
+      "ORCL",
+      162.53,
+      158.78
+     ],
+     [
+      "INTC",
+      104.47,
+      93.06
+     ],
+     [
+      "TSLA",
+      368.16,
+      354.08
+     ]
     ]
    ]
   ],
   "focus": [
-   ["AMD", 505.53, 477.57],
-   ["BE", 277.09, 252.87],
-   ["IONQ", 40.47, 39.52],
-   ["XLE", 64.765, 64.06],
-   ["NVS", 137.72, 159.99]
+   [
+    "AMD",
+    505.53,
+    477.57
+   ],
+   [
+    "BE",
+    277.09,
+    252.87
+   ],
+   [
+    "IONQ",
+    40.47,
+    39.52
+   ],
+   [
+    "XLE",
+    64.765,
+    64.06
+   ],
+   [
+    "NVS",
+    137.72,
+    159.99
+   ]
   ]
  },
  "headline": {
@@ -94,34 +172,114 @@
    "day": "MON 9/7",
    "tag": "CLOSED",
    "accent": "done",
-   "econ": [["&mdash;", "Labor Day. The weekend produced the Hormuz escalation"]],
+   "econ": [
+    [
+     "&mdash;",
+     "Labor Day. The weekend produced the Hormuz escalation"
+    ]
+   ],
    "earnings": [],
-   "events": [["Oil", "Weekend", "US and Iran struck tankers; Jazan refinery hit"]]
+   "events": [
+    [
+     "Oil",
+     "Weekend",
+     "US and Iran struck tankers; Jazan refinery hit"
+    ]
+   ]
   },
   {
    "day": "TUE 9/8",
    "tag": "DONE &middot; LIGHT DAY",
    "accent": "done",
    "econ": [
-    ["AM", "NFIB small-business optimism &mdash; done"],
-    ["2:00pm", "July consumer credit. Fed in its pre-meeting quiet period"]
+    [
+     "AM",
+     "NFIB small-business optimism &mdash; done"
+    ],
+    [
+     "2:00pm",
+     "July consumer credit. Fed in its pre-meeting quiet period"
+    ]
    ],
-   "earnings": [["GME", "PM"], ["CASY", "PM"], ["TTAN", "PM"], ["BRZE", "PM"], ["AVO", "PM"]],
+   "earnings": [
+    [
+     "GME",
+     "PM"
+    ],
+    [
+     "CASY",
+     "PM"
+    ],
+    [
+     "TTAN",
+     "PM"
+    ],
+    [
+     "BRZE",
+     "PM"
+    ],
+    [
+     "AVO",
+     "PM"
+    ]
+   ],
    "events": [
-    ["NVS", "Done", "Analyst day &mdash; closed <b>&minus;13.92%</b>, dragging XLV to &minus;2.50%"],
-    ["IONQ", "Done", "Investor day &mdash; 43.91 high, 39.45 low, closed +2.40%"],
-    ["Sectors", "Done", "Eight of twelve red. SMH +1.19% and XLE +1.10% the only real green"]
+    [
+     "NVS",
+     "Done",
+     "Analyst day &mdash; closed <b>&minus;13.92%</b>, dragging XLV to &minus;2.50%"
+    ],
+    [
+     "IONQ",
+     "Done",
+     "Investor day &mdash; 43.91 high, 39.45 low, closed +2.40%"
+    ],
+    [
+     "Sectors",
+     "Done",
+     "Eight of twelve red. SMH +1.19% and XLE +1.10% the only real green"
+    ]
    ]
   },
   {
    "day": "WED 9/9",
    "tag": "NEXT &middot; APPLE 12:00PM CT",
    "accent": "next",
-   "econ": [["&mdash;", "Quiet ahead of the inflation pair"]],
-   "earnings": [["CHWY", "AM"], ["AEO", "PM"], ["ODD", "PM"], ["SAIL", "PM"]],
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet ahead of the inflation pair"
+    ]
+   ],
+   "earnings": [
+    [
+     "CHWY",
+     "AM"
+    ],
+    [
+     "AEO",
+     "PM"
+    ],
+    [
+     "ODD",
+     "PM"
+    ],
+    [
+     "SAIL",
+     "PM"
+    ]
+   ],
    "events": [
-    ["AAPL", "12:00pm", "<b>iPhone 18 launch, first foldable, first under Ternus</b>"],
-    ["NFL", "7:20pm", "Season opens &mdash; DKNG, FLUT, GENI"]
+    [
+     "AAPL",
+     "12:00pm",
+     "<b>iPhone 18 launch, first foldable, first under Ternus</b>"
+    ],
+    [
+     "NFL",
+     "7:20pm",
+     "Season opens &mdash; DKNG, FLUT, GENI"
+    ]
    ]
   },
   {
@@ -129,13 +287,40 @@
    "tag": "PPI &middot; ORCL &middot; ECB",
    "accent": "macro",
    "econ": [
-    ["7:15am", "ECB policy statement; Lagarde 7:45am"],
-    ["7:30am", "<b>August PPI</b> and jobless claims"]
+    [
+     "7:15am",
+     "ECB policy statement; Lagarde 7:45am"
+    ],
+    [
+     "7:30am",
+     "<b>August PPI</b> and jobless claims"
+    ]
    ],
-   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM"]],
+   "earnings": [
+    [
+     "ORCL",
+     "PM"
+    ],
+    [
+     "ADBE",
+     "PM"
+    ],
+    [
+     "M",
+     "AM"
+    ]
+   ],
    "events": [
-    ["ORCL", "PM", "<b>Backlog $638B, +363% y/y &mdash; does it convert?</b>"],
-    ["TSM", "AM", "Monthly sales update"]
+    [
+     "ORCL",
+     "PM",
+     "<b>Backlog $638B, +363% y/y &mdash; does it convert?</b>"
+    ],
+    [
+     "TSM",
+     "AM",
+     "Monthly sales update"
+    ]
    ]
   },
   {
@@ -143,19 +328,56 @@
    "tag": "CPI",
    "accent": "macro",
    "econ": [
-    ["7:30am", "<b>August CPI.</b> Core seen holding 2.5%. Oil +30% since Feb is the risk"],
-    ["9:00am", "Preliminary Michigan sentiment"]
+    [
+     "7:30am",
+     "<b>August CPI.</b> Core seen holding 2.5%. Oil +30% since Feb is the risk"
+    ],
+    [
+     "9:00am",
+     "Preliminary Michigan sentiment"
+    ]
    ],
-   "earnings": [["KR", "AM"]],
-   "events": [["FOMC", "9/16", "Split between a hold and a hike under Chair Warsh"]]
+   "earnings": [
+    [
+     "KR",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "FOMC",
+     "9/16",
+     "Split between a hold and a hike under Chair Warsh"
+    ]
+   ]
   }
  ],
  "charts": [
-  ["AMD", "charts/AMD_2026-09-08.png", "$491 filled, $506 gap fill reached"],
-  ["BE", "charts/BE_2026-09-08.png", "Through $277 &middot; closed on it"],
-  ["IONQ", "charts/IONQ_2026-09-08.png", "43.91 high &rarr; 39.45 low on the investor day"],
-  ["ORCL", "charts/ORCL_2026-09-08.png", "Gap given back &middot; never traded at 167.55"],
-  ["XLE", "charts/XLE_2026-09-08.png", "Failed 2D held all session"]
+  [
+   "AMD",
+   "charts/AMD_2026-09-08.png",
+   "$491 filled, $506 gap fill reached"
+  ],
+  [
+   "BE",
+   "charts/BE_2026-09-08.png",
+   "Through $277 &middot; closed on it"
+  ],
+  [
+   "IONQ",
+   "charts/IONQ_2026-09-08.png",
+   "43.91 high &rarr; 39.45 low on the investor day"
+  ],
+  [
+   "ORCL",
+   "charts/ORCL_2026-09-08.png",
+   "Gap given back &middot; never traded at 167.55"
+  ],
+  [
+   "XLE",
+   "charts/XLE_2026-09-08.png",
+   "Failed 2D held all session"
+  ]
  ],
  "charts_note": "SWIPE &#8594;",
  "trump": {
@@ -163,23 +385,136 @@
   "groups": [
    [
     "THE PREP SHEET",
-    [["BE", 9.58], ["AMD", 5.85], ["IONQ", 2.4]]
+    [
+     [
+      "BE",
+      9.58
+     ],
+     [
+      "AMD",
+      5.85
+     ],
+     [
+      "IONQ",
+      2.4
+     ]
+    ]
    ],
    [
     "ENERGY &mdash; THE WEEKEND HELD",
-    [["USO", 2.87], ["SHEL", 2.55], ["MPC", 2.33], ["XLE", 1.1], ["OXY", 1.04], ["XOM", 0.78]]
+    [
+     [
+      "USO",
+      2.87
+     ],
+     [
+      "SHEL",
+      2.55
+     ],
+     [
+      "MPC",
+      2.33
+     ],
+     [
+      "XLE",
+      1.1
+     ],
+     [
+      "OXY",
+      1.04
+     ],
+     [
+      "XOM",
+      0.78
+     ]
+    ]
    ],
    [
     "SEMIS &amp; AI",
-    [["AVGO", 2.97], ["ORCL", 2.36], ["TSM", 2.35], ["SMH", 1.19], ["SNDK", -0.12], ["MU", -1.64], ["NVDA", -1.99]]
+    [
+     [
+      "INTC",
+      12.26
+     ],
+     [
+      "AVGO",
+      2.97
+     ],
+     [
+      "ORCL",
+      2.36
+     ],
+     [
+      "TSM",
+      2.35
+     ],
+     [
+      "SMH",
+      1.19
+     ],
+     [
+      "SNDK",
+      -0.12
+     ],
+     [
+      "MU",
+      -1.64
+     ],
+     [
+      "NVDA",
+      -1.99
+     ]
+    ]
    ],
    [
     "THE RED EIGHT",
-    [["XLRE", -0.08], ["XLC", -0.44], ["XLI", -0.48], ["XLP", -0.67], ["XLY", -0.77], ["XLB", -0.93], ["XLF", -1.37], ["XLV", -2.5]]
+    [
+     [
+      "XLRE",
+      -0.08
+     ],
+     [
+      "XLC",
+      -0.44
+     ],
+     [
+      "XLI",
+      -0.48
+     ],
+     [
+      "XLP",
+      -0.67
+     ],
+     [
+      "XLY",
+      -0.77
+     ],
+     [
+      "XLB",
+      -0.93
+     ],
+     [
+      "XLF",
+      -1.37
+     ],
+     [
+      "XLV",
+      -2.5
+     ]
+    ]
    ],
    [
     "SINGLE-NAME DAMAGE",
-    [["NVS", -13.92], ["AAPL", -1.14]]
+    [
+     [
+      "NVS",
+      -13.92
+     ],
+     [
+      "AAPL",
+      -1.14
+     ]
+    ]
    ]
   ]
  },
@@ -299,31 +634,119 @@
   "right_note": "FRIDAY 9/4 TAPE &middot; GRADED",
   "dim": true,
   "chips": [
-   ["IVV", "$5.6B", "cumulative ask &#8594; SPY &minus;0.55% &middot; HIT", "g"],
-   ["SPY", "$5.4B", "cumulative ask &#8594; &minus;0.55% &middot; HIT", "g"],
-   ["AMZN", "$693M", "ask &#8594; &minus;0.60% &middot; HIT", "g"],
-   ["META", "$606M", "ask &#8594; &minus;0.56% &middot; HIT", "g"],
-   ["MU", "$5.0B", "mixed &#8594; &minus;1.64% &middot; RESOLVED DOWN", "r"],
-   ["SNDK", "$5.1B", "mixed &#8594; &minus;0.12% &middot; FLAT", "y"],
-   ["NVDA", "$4.8B", "flipped ask &#8594; &minus;1.99% &middot; HIT", "g"],
-   ["TSM", "$50.0M", "ask &#8594; +2.35% &middot; MISS", "r"]
+   [
+    "IVV",
+    "$5.6B",
+    "cumulative ask &#8594; SPY &minus;0.55% &middot; HIT",
+    "g"
+   ],
+   [
+    "SPY",
+    "$5.4B",
+    "cumulative ask &#8594; &minus;0.55% &middot; HIT",
+    "g"
+   ],
+   [
+    "AMZN",
+    "$693M",
+    "ask &#8594; &minus;0.60% &middot; HIT",
+    "g"
+   ],
+   [
+    "META",
+    "$606M",
+    "ask &#8594; &minus;0.56% &middot; HIT",
+    "g"
+   ],
+   [
+    "MU",
+    "$5.0B",
+    "mixed &#8594; &minus;1.64% &middot; RESOLVED DOWN",
+    "r"
+   ],
+   [
+    "SNDK",
+    "$5.1B",
+    "mixed &#8594; &minus;0.12% &middot; FLAT",
+    "y"
+   ],
+   [
+    "NVDA",
+    "$4.8B",
+    "flipped ask &#8594; &minus;1.99% &middot; HIT",
+    "g"
+   ],
+   [
+    "TSM",
+    "$50.0M",
+    "ask &#8594; +2.35% &middot; MISS",
+    "r"
+   ]
   ]
  },
  "sectors": {
   "right_note": "EIGHT RED &mdash; ENERGY AND SEMIS ONLY, SPY &minus;0.55%",
   "rows": [
-   ["SMH", "Semis", 1.19],
-   ["XLE", "Energy", 1.1],
-   ["XLU", "Utilities", 0.86],
-   ["XLK", "Technology", 0.32],
-   ["XLRE", "Real Estate", -0.08],
-   ["XLC", "Communications", -0.44],
-   ["XLI", "Industrials", -0.48],
-   ["XLP", "Staples", -0.67],
-   ["XLY", "Discretionary", -0.77],
-   ["XLB", "Materials", -0.93],
-   ["XLF", "Financials", -1.37],
-   ["XLV", "Health Care", -2.5]
+   [
+    "SMH",
+    "Semis",
+    1.19
+   ],
+   [
+    "XLE",
+    "Energy",
+    1.1
+   ],
+   [
+    "XLU",
+    "Utilities",
+    0.86
+   ],
+   [
+    "XLK",
+    "Technology",
+    0.32
+   ],
+   [
+    "XLRE",
+    "Real Estate",
+    -0.08
+   ],
+   [
+    "XLC",
+    "Communications",
+    -0.44
+   ],
+   [
+    "XLI",
+    "Industrials",
+    -0.48
+   ],
+   [
+    "XLP",
+    "Staples",
+    -0.67
+   ],
+   [
+    "XLY",
+    "Discretionary",
+    -0.77
+   ],
+   [
+    "XLB",
+    "Materials",
+    -0.93
+   ],
+   [
+    "XLF",
+    "Financials",
+    -1.37
+   ],
+   [
+    "XLV",
+    "Health Care",
+    -2.5
+   ]
   ]
  },
  "lessons": [
