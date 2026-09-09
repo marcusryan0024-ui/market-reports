@@ -1,0 +1,395 @@
+{
+ "title": "Wednesday, September 9, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 290.7, 294.67],
+     ["QQQ", 716.28, 718.36],
+     ["SPY", 762.38, 765.96]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 315.42, 316.22],
+     ["MSFT", 491.77, 493.95],
+     ["NVDA", 223.7, 225.73],
+     ["GOOGL", 330.66, 338.36],
+     ["AMZN", 252.48, 256.97],
+     ["META", 653.39, 613.48],
+     ["TSLA", 367.8, 368.16],
+     ["AMD", 521.08, 505.74],
+     ["AVGO", 364.42, 368.56],
+     ["INTC", 106.23, 104.47],
+     ["MU", 1027.51, 1000.26]
+    ]
+   ]
+  ],
+  "focus": [
+   ["META", 653.39, 613.48],
+   ["MRVL", 234.98, 225.41],
+   ["USO", 149.94, 146.03],
+   ["XOM", 164.26, 160.66],
+   ["ASML", 1728.73, 1764.85]
+  ]
+ },
+ "headline": {
+  "title": "<b>META closed +6.51% at 653.39 &mdash; and it closed above its own premarket mark, which is the first time a gap of this shape has done that in three weeks.</b> It opened <b>645.35</b>, ran to <b>657.86</b>, and never traded below <b>642.34</b>. The morning note called the Failed 2 Up voided <b>over 624.80</b> and then attached the standing caution &mdash; that SNOW, GTLB, MRVL and ORCL all handed back a chunk of exactly this setup inside the session. <b>That caution was wrong today</b>, and the break in the pattern is worth more than the win.",
+  "summary": "<b>Apple gave the whipsaw the event deserved and closed lower anyway.</b> It opened <b>317.86</b> &mdash; precisely the level the note said had to be reclaimed &mdash; then fell to <b>312.95</b> in the first hour. During the 1:00pm keynote hour it printed a <b>319.15</b> high and a <b>309.90</b> low, a nine-point range on <b>10.8M shares</b>, and closed <b>315.42, &minus;0.25%</b>, still under 317.86 for a fifth straight session. Underneath, breadth was ugly: <b>nine of twelve sectors red</b>, <b>IWM &minus;1.35%</b> the worst index, and only <b>XLE +0.83%</b>, SMH +0.09% and XLK +0.03% green. The semi wall broke selectively &mdash; <b>MRVL +4.25%</b>, <b>AMD +3.03%</b>, <b>MU +2.72%</b> &mdash; while <b>ASML &minus;2.05%</b> and TSM &minus;0.81% went the other way."
+ },
+ "what_happened": [
+  [
+   "The gap-fade pattern broke, and that matters more than the trade.",
+   "g",
+   "Four times in three weeks this book documented the same shape: a large premarket gap into or out of a catalyst, and a regular session that handed a meaningful part of it back. SNOW, GTLB, MRVL, ORCL. This morning META gapped <b>+5.8% to 648.99</b> and the note repeated the caution. Instead it opened <b>645.35</b>, made its low in the first minutes at <b>642.34</b>, and spent the entire session above the premarket print, closing <b>653.39</b> &mdash; <b>+0.7% above where it was quoted before the bell</b>. The pattern was four for four and is now four for five."
+  ],
+  [
+   "Apple's event produced a nine-point range and no resolution.",
+   "y",
+   "The 1:00pm CT keynote hour traded <b>309.90 to 319.15</b> on <b>10.8M shares</b>, roughly three times any other hour of the session. It closed <b>315.42</b> &mdash; below where it opened, below the <b>317.86</b> level, and inside the range it made during the event itself. Five consecutive sessions now without reclaiming that level. After hours it is bid at <b>317.25</b>, right back at the line, which means the actual answer to the pricing-power question has been deferred rather than given."
+  ],
+  [
+   "Breadth was the worst of the week.",
+   "r",
+   "<b>Nine of twelve sectors red.</b> Only <b>XLE +0.83%</b> had a real bid; SMH <b>+0.09%</b> and XLK <b>+0.03%</b> were flat, and everything else fell &mdash; XLI <b>&minus;1.50%</b>, XLY <b>&minus;1.32%</b>, XLP and XLU both <b>&minus;1.15%</b>, XLRE &minus;1.08%, XLB &minus;1.06%. <b>IWM &minus;1.35%</b> against SPY's &minus;0.47% is nearly three times the damage, and it closed at <b>290.70</b>, on its low. With Brent over $100 and the 10-year at 4.80% into tomorrow's PPI, the small-cap tape is where the rate pressure is showing first."
+  ]
+ ],
+ "picks": {
+  "right_note": "3 CLEAN &middot; 1 WHIPSAWED",
+  "rows": [
+   [
+    "META",
+    "+6.51%",
+    "g",
+    "NEVER FADED &middot; CLOSED ABOVE THE PREMARKET",
+    "g",
+    "T1. Failed 2U reclaimed. Tuesday took Friday's 617.46 high to <b>624.80</b> and closed 613.48 under it. <b>Over 624.80</b> voids the failure. The note's caution: <i>&ldquo;the last four gaps of this shape &mdash; SNOW, GTLB, MRVL, ORCL &mdash; all gave back a meaningful part of it inside the session. The opening range is the reference, not the print.&rdquo;</i>",
+    "The setup was right and the caution was wrong, which is the more useful half. It opened <b>645.35</b>, put its low in immediately at <b>642.34</b>, ran to <b>657.86</b>, and closed <b>653.39</b> &mdash; <b>above the 648.99 premarket quote</b>. Anyone who waited for the opening-range pullback the note recommended got filled near 645 and did fine; anyone who waited for a deeper fade never got one. Four for five on the pattern now, and the exception was a mega cap with a <b>$10.1M call ticket</b> against a 60% bear lean."
+   ],
+   [
+    "USO",
+    "+2.68%",
+    "g",
+    "CLEARED AND CLOSED ON THE HIGH",
+    "g",
+    "T1. 2 Up. Tuesday took Friday's 143.03 high to <b>146.23</b> and closed 146.03 near it. <b>Over 146.23</b> continues. Brent <b>+2.96% to $100.82</b>, the first print over $100 since July, after US strikes on five Iranian tankers and IRGC retaliation in the Strait.",
+    "Straightforward. It opened <b>148.50</b>, already through the trigger, never traded below <b>147.755</b>, and closed <b>149.94</b> against a <b>150.01</b> high &mdash; seven cents off the top. <b>XOM +2.24%</b> was the confirmation that mattered, with COP +1.16%, OXY +1.10% and XLE +0.83% behind it. The refiners lagged the crude move: VLO +1.58%, PSX +0.61%, MPC +0.39%."
+   ],
+   [
+    "AAPL",
+    "&minus;0.25%",
+    "g",
+    "STAYED BROKEN THROUGH ITS OWN EVENT",
+    "y",
+    "T1, flagged blue. 2 Down. Tuesday broke Friday's 317.86 low to 314.90 and closed under it. <b>Under 317.86 it stays broken.</b> The note said the event was <b>midday, not at the open</b>, and that a pricing-power question gets answered in the December quarter rather than on stage.",
+    "It opened <b>317.86</b> &mdash; exactly the level &mdash; and immediately failed, dropping to <b>312.95</b> within the hour. The keynote hour then ran <b>309.90 to 319.15</b> on 10.8M shares and it closed <b>315.42</b>, still under. Directionally correct for a fifth straight session, but this was not a clean trade: the level was tagged at the open and again during the event, and anyone positioned through 1:00pm sat through a nine-point range for a quarter-percent result."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Dow fell 627 points. Fed in its pre-meeting quiet period"]],
+   "earnings": [["TTAN", "&minus;18.9%"], ["CASY", "&minus;11.9%"], ["SIG", "+10.5%"], ["CHYM", "+9.5%"]],
+   "events": [["INTC", "Done", "Closed 104.47, +9% on planned chip price rises and an upgrade"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "DONE &middot; APPLE &middot; BRENT $100",
+   "accent": "done",
+   "econ": [
+    ["12:00pm", "10-year auction &mdash; done, with yields at 4.80%"],
+    ["&mdash;", "Brent over <b>$100</b>, first since July. Nine of twelve sectors red"]
+   ],
+   "earnings": [["ODD", "+32.4%"], ["ASO", "+10.6%"], ["AEO", "PM"], ["AVAV", "PM"], ["NAVN", "PM"]],
+   "events": [
+    ["AAPL", "Done", "Keynote hour ran <b>309.90-319.15</b> on 10.8M shares; closed 315.42"],
+    ["META", "Done", "Closed <b>+6.51%</b> &mdash; above its own premarket mark"],
+    ["IWM", "Done", "<b>&minus;1.35%</b>, closed on the low. Nearly 3x SPY's damage"]
+   ]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "NEXT &middot; PPI &middot; ORCL &middot; ECB",
+   "accent": "next",
+   "econ": [
+    ["7:15am", "ECB policy statement; Lagarde 7:45am"],
+    ["7:30am", "<b>August PPI</b> and weekly jobless claims"],
+    ["12:00pm", "30-year auction. Existing home sales at 9:00am"]
+   ],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM"]],
+   "events": [
+    ["ORCL", "PM", "<b>Does the $638B backlog convert to revenue?</b> Closed 161.70 today"],
+    ["TSM", "AM", "Monthly sales update. Closed &minus;0.81%"],
+    ["HOOD", "4:05pm", "August sales and revenue release"]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [
+    ["7:30am", "<b>August CPI.</b> July ran 3.4% headline; August centered 3.3-3.4%"],
+    ["9:00am", "Preliminary Michigan sentiment"]
+   ],
+   "earnings": [["KR", "AM"]],
+   "events": [["FOMC", "9/16", "Market leans <b>~60%</b> toward a 25bp hike under Chair Warsh"]]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC decision</b> &mdash; hold or hike, on the inflation pair"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["META", "charts/META_2026-09-09.png", "Closed above its own premarket &middot; +6.51%"],
+  ["AAPL", "charts/AAPL_2026-09-09.png", "309.90-319.15 in the keynote hour"],
+  ["USO", "charts/USO_2026-09-09.png", "Closed 7 cents off the high"],
+  ["MU", "charts/MU_2026-09-09.png", "Semi wall broke up &middot; +2.72%"],
+  ["IWM", "charts/IWM_2026-09-09.png", "Closed on the low &middot; &minus;1.35%"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   [
+    "THE SEMI WALL BROKE &mdash; SELECTIVELY",
+    [["MRVL", 4.25], ["AMD", 3.03], ["MU", 2.72], ["INTC", 1.68], ["SNDK", 1.48], ["TSM", -0.81], ["AVGO", -1.12], ["ASML", -2.05]]
+   ],
+   [
+    "ENERGY &mdash; BRENT OVER $100",
+    [["USO", 2.68], ["XOM", 2.24], ["VLO", 1.58], ["COP", 1.16], ["OXY", 1.1], ["XLE", 0.83], ["PSX", 0.61], ["MPC", 0.39]]
+   ],
+   [
+    "MEGA CAP &mdash; ONE UP, THE REST DOWN",
+    [["META", 6.51], ["TSLA", -0.1], ["AAPL", -0.25], ["MSFT", -0.44], ["AMZN", -1.75], ["GOOGL", -2.28]]
+   ],
+   [
+    "NINE RED SECTORS",
+    [["XLV", -0.33], ["XLF", -0.42], ["XLC", -0.63], ["XLB", -1.06], ["XLRE", -1.08], ["XLP", -1.15], ["XLU", -1.15], ["XLY", -1.32], ["XLI", -1.5]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "WEDNESDAY 9/9 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "META",
+    "T1",
+    "g",
+    "Failed 2U voided &mdash; and it held",
+    "g",
+    "Opened 645.35, put its low in immediately at 642.34, ran to 657.86 and closed 653.39 &mdash; above the 648.99 premarket quote. It never revisited the gap.",
+    "close 653.39 &middot; <b>+6.51%</b> &middot; low 642.34",
+    "The first gap of this shape in three weeks that did not fade. Four for five now.",
+    "It is 40 points above Tuesday's close with nothing overhead. No reference either way."
+   ],
+   [
+    "MRVL",
+    "T2",
+    "g",
+    "Failed 2U &mdash; broke up",
+    "g",
+    "Sat in the Failed 2U bucket with the rest of the semi wall and was the one that resolved hardest, closing 234.98 against a 225.41 Tuesday close.",
+    "close 234.98 &middot; <b>+4.25%</b>",
+    "Best of the semi complex on a day nine sectors were red.",
+    "The board's largest options block Tuesday was a <b>$9.0M MRVL 270P</b> out to Jan 2028 &mdash; deep ITM, and it went the other way today."
+   ],
+   [
+    "USO",
+    "T1",
+    "g",
+    "2 Up &mdash; closed on the high",
+    "g",
+    "Opened 148.50 through the 146.23 trigger, never traded below 147.755, high 150.01, close 149.94.",
+    "close 149.94 &middot; <b>+2.68%</b> &middot; high 150.01",
+    "Brent over $100 for the first time since July. XOM +2.24% confirming.",
+    "The Oman &lsquo;safe route&rsquo; headline is still the one print that ends this."
+   ],
+   [
+    "AMD",
+    "T2",
+    "g",
+    "2 Up &mdash; extended",
+    "g",
+    "Opened 524.16 above Tuesday's 512.36 high, ranged 517.37 to 526.79, closed 521.08. Second straight strong session after Tuesday's +5.85%.",
+    "close 521.08 &middot; <b>+3.03%</b>",
+    "Two sessions, +9.1% combined, on the failed 2 Down month.",
+    "Closed near the middle of its range after opening at the top. The push is slowing."
+   ],
+   [
+    "SPY",
+    "T2",
+    "g",
+    "2 Down &mdash; third session under",
+    "g",
+    "Never reclaimed 769.00. Ranged 760.94 to 764.465 and closed 762.34, the third consecutive close below the broken level.",
+    "close 762.38 &middot; <b>&minus;0.47%</b>",
+    "Direction correct for a third straight session.",
+    "Narrow range, low volume. It is drifting rather than breaking."
+   ],
+   [
+    "AAPL",
+    "T1",
+    "y",
+    "2 Down &mdash; held through the event",
+    "y",
+    "Opened at 317.86 exactly, failed, fell to 312.95, then the keynote hour ran 309.90 to 319.15 on 10.8M shares before closing 315.42.",
+    "close 315.42 &middot; <b>&minus;0.25%</b> &middot; event range 9.25 pts",
+    "Fifth consecutive session without reclaiming 317.86.",
+    "Bid <b>317.25</b> after hours, right back at the line. The question was deferred, not answered."
+   ],
+   [
+    "IWM",
+    "T2",
+    "r",
+    "Broke down &mdash; closed on the low",
+    "r",
+    "Opened 292.80, fell all session, and closed 290.695 against a 290.315 low &mdash; nearly three times SPY's percentage damage.",
+    "close 290.70 &middot; <b>&minus;1.35%</b>",
+    "Nothing to salvage. Small caps are carrying the rate pressure.",
+    "Brent over $100 and the 10-year at 4.80% into tomorrow's PPI. This is where it shows first."
+   ],
+   [
+    "ASML",
+    "T2",
+    "r",
+    "Failed 2U &mdash; did not break",
+    "r",
+    "Sat in the same Failed 2U bucket as MRVL, MU and AMD and went the other way, closing 1728.73 against 1764.85.",
+    "close 1728.73 &middot; <b>&minus;2.05%</b>",
+    "The bucket was a wall, not a signal &mdash; half of it broke up and half broke down.",
+    "TSM &minus;0.81% and AVGO &minus;1.12% went with it. Grouping them cost more than it helped."
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "A documented pattern failed today, and that is the most valuable thing in this report.",
+   "Four separate sessions in three weeks produced the same result &mdash; SNOW, GTLB, MRVL, ORCL all gapped and all gave back a meaningful share of it inside the regular session &mdash; and this morning's note applied the rule to META and told readers to use the opening range rather than the print. <b>META opened 645.35, made its low in the first minutes at 642.34, and closed 653.39, above the premarket quote.</b> The rule is now four for five. What separates today is worth naming rather than smoothing over: META is a mega cap with a <b>$10.1M single call ticket</b> behind it against a 60% bear options lean, not a mid-cap reacting to its own print. Size and liquidity may be the variable the pattern was missing."
+  ],
+  [
+   "Apple gave the event range and refused to give the answer.",
+   "The keynote hour traded <b>309.90 to 319.15</b> &mdash; a 9.25-point range on <b>10.8M shares</b>, about triple any other hour &mdash; and closed <b>315.42</b>, inside that range and below the <b>317.86</b> level for a fifth straight session. Then after hours it bid to <b>317.25</b>, back at the line. The morning note said a pricing-power question gets answered in the December quarter rather than on stage, and the tape agreed: maximum volatility, no resolution. The tradeable observation is that the level held as resistance through the single largest scheduled catalyst the name had this quarter."
+  ],
+  [
+   "The semi wall was a bucket, not a signal.",
+   "The morning read grouped SNDK, MU, IONQ, ASML, QCOM, KLAC, WDC and MRVL as a Failed 2U wall coiled under Tuesday's highs and said to wait for one of them to break. Half broke up and half broke down: <b>MRVL +4.25%</b>, <b>AMD +3.03%</b>, <b>MU +2.72%</b>, INTC +1.68%, SNDK +1.48% against <b>ASML &minus;2.05%</b>, AVGO &minus;1.12% and TSM &minus;0.81%. SMH finished <b>+0.09%</b> &mdash; flat &mdash; because the two halves cancelled. Treating a shared Strat classification as a shared trade is the error; the bucket described the shape, not the direction."
+  ],
+  [
+   "Breadth deteriorated while the index barely moved.",
+   "SPY fell <b>0.47%</b> and nine of twelve sectors closed red, with <b>IWM &minus;1.35%</b> finishing on its low at 290.70. Only energy had a real bid. That combination &mdash; a quiet index, a broken small-cap tape, Brent over <b>$100</b> and the 10-year at <b>4.80%</b> &mdash; is the setup going into <b>PPI tomorrow at 7:30am</b> and <b>CPI Friday</b>. The index number is not describing what is happening underneath it, and it has not for four sessions."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Tuesday's board was graded today and the index ask lean was right for a fourth straight session.</b> <b>IVV $1.5B ask</b> was the largest print on the whole tape, with VOO $1.2B and SPY $1.0B behind it &mdash; and <b>SPY closed &minus;0.47%</b>, its third consecutive lower close. The memory split resolved in favour of the one wearing the bid: <b>MU carried $4.7B cumulative bid plus a $413M bid print after hours and closed +2.72%</b>, while <b>SNDK's $3.2B ask</b> managed only +1.48% and <b>NVDA's $5.1B mixed with a $750M ask</b> closed <b>&minus;0.90%</b>. That is three for three on the direction of the lean inside one sector. On the options side the loud tickets that disagreed with their own tape were vindicated twice: the <b>$10.1M META call trade against a 60% bear lean</b> closed <b>+6.51%</b>, and the <b>$9.0M MRVL 270P block</b> against a 60% bear lean went the wrong way as MRVL rose <b>4.25%</b>. The badge was the crowd; the ticket was right on META and wrong on MRVL.",
+  "right_note": "TUESDAY 9/8 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["IVV", "$1.5B", "ask &#8594; SPY &minus;0.47% &middot; HIT", "g"],
+   ["SPY", "$1.0B", "ask &#8594; &minus;0.47% &middot; HIT", "g"],
+   ["MU", "$4.7B", "BID &#8594; +2.72% &middot; HIT", "g"],
+   ["SNDK", "$3.2B", "ask &#8594; +1.48% &middot; MISS", "r"],
+   ["NVDA", "$5.1B", "mixed/ask &#8594; &minus;0.90% &middot; HIT", "g"],
+   ["AVGO", "$507M", "ask &#8594; &minus;1.12% &middot; HIT", "g"],
+   ["META", "$355M", "ask &#8594; +6.51% &middot; MISS", "r"],
+   ["META", "$10.1M", "call ticket &#8594; +6.51% &middot; HIT", "g"],
+   ["MRVL", "$9.0M", "270P block &#8594; +4.25% &middot; MISS", "r"]
+  ]
+ },
+ "sectors": {
+  "right_note": "NINE RED &mdash; ONLY ENERGY BID, SPY &minus;0.47%",
+  "rows": [
+   ["XLE", "Energy", 0.83],
+   ["SMH", "Semis", 0.09],
+   ["XLK", "Technology", 0.03],
+   ["XLV", "Health Care", -0.33],
+   ["XLF", "Financials", -0.42],
+   ["XLC", "Communications", -0.63],
+   ["XLB", "Materials", -1.06],
+   ["XLRE", "Real Estate", -1.08],
+   ["XLP", "Staples", -1.15],
+   ["XLU", "Utilities", -1.15],
+   ["XLY", "Discretionary", -1.32],
+   ["XLI", "Industrials", -1.5]
+  ]
+ },
+ "lessons": [
+  [
+   "When a documented pattern fails, name the variable rather than the exception.",
+   "g",
+   "The gap-fade rule was four for four and is now four for five. The lazy move is to call META an outlier. The useful move is to note what is different: it is a <b>mega cap</b> with enormous liquidity, and the gap came from analyst repositioning rather than its own earnings print. Every one of the four that faded &mdash; SNOW, GTLB, MRVL, ORCL &mdash; was reacting to a scheduled company event. That is a testable distinction, and it should be tracked forward rather than settled today."
+  ],
+  [
+   "A shared Strat classification is not a shared trade.",
+   "r",
+   "Eight names sat in the Failed 2U bucket this morning and the note treated them as one wall. MRVL closed <b>+4.25%</b> and ASML closed <b>&minus;2.05%</b>. SMH finished flat at <b>+0.09%</b> because the halves cancelled exactly. The bucket correctly described the <i>shape</i> &mdash; all coiled under Tuesday's highs &mdash; and said nothing about direction. Grouping them into a single line in the prep implied a correlation that did not exist."
+  ],
+  [
+   "The biggest scheduled catalyst can produce range without resolution.",
+   "y",
+   "Apple's keynote hour ran <b>309.90 to 319.15</b> on triple the session's average hourly volume, and the stock closed <b>315.42</b> &mdash; inside that range, below the level it needed, and then bid back to <b>317.25</b> after hours. Maximum volatility, zero information. Positioning ahead of an event on the assumption that the event decides something is the error; this one deferred the decision to the December quarter, exactly as the morning note said it would."
+  ],
+  [
+   "Watch IWM, not SPY, while oil is doing this.",
+   "r",
+   "SPY fell <b>0.47%</b> and IWM fell <b>1.35%</b>, closing on its low. Nine sectors red with only energy bid. With Brent through <b>$100</b> and the 10-year at <b>4.80%</b>, the rate pressure lands on the most leveraged, least liquid part of the tape first, and it has now done so for four consecutive sessions while the index looked calm. Into PPI tomorrow and CPI Friday, the small-cap print is the honest one."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>August PPI at 7:30am CT</b> with jobless claims, and the <b>ECB statement at 7:15am</b> with Lagarde at 7:45am. Three macro events inside forty-five minutes, and a <b>30-year auction at 12:00pm</b> behind them with the 10-year at 4.80%. This is the heaviest morning of the week."
+  ],
+  [
+   "ORCL",
+   "o",
+   "Reports <b>post-close</b> against a backlog of <b>$638B, up 363% year-over-year</b>. It closed <b>161.70, &minus;0.50%</b>, having already failed to hold a 5.5% gap once this week two days before the print. The question is whether that backlog converts to revenue."
+  ],
+  [
+   "META",
+   "g",
+   "Closed <b>653.39</b>, forty points above Tuesday and above its own premarket, with <b>nothing overhead</b>. That cuts both ways &mdash; no resistance and no support. The <b>642.34</b> session low is the only reference it made today."
+  ],
+  [
+   "AAPL",
+   "y",
+   "Closed <b>315.42</b>, still under <b>317.86</b> for a fifth session, but bid <b>317.25</b> after hours. The level is the whole trade: reclaim it and the five-session downtrend is over; fail it again and the event resolved nothing in the bulls' favour."
+  ],
+  [
+   "IWM",
+   "r",
+   "Closed <b>290.70</b> on its low, <b>&minus;1.35%</b>. It has now underperformed SPY on four straight sessions. If PPI runs hot tomorrow this is where it shows up first, and there is no near reference beneath today's low."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Carry into Thursday:</b> the index has drifted 0.5% for three sessions while breadth rotted underneath and energy took the only real bid. Nothing has broken. But the setup into PPI and CPI is a narrow tape, Brent over $100, and a market pricing roughly <b>60%</b> odds of a hike next week."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Wednesday September ninth, the close. Meta closed up six point five one percent at six fifty three thirty nine, and it closed above its own premarket mark, which is the first time a gap of this shape has done that in three weeks. It opened six forty five thirty five, ran to six fifty seven eighty six, and never traded below six forty two thirty four. The morning note called the failed two up voided over six twenty four eighty, and then attached the standing caution that Snowflake, GitLab, Marvell and Oracle all handed back a chunk of exactly this setup inside the session. That caution was wrong today, and the break in the pattern is worth more than the win. Apple gave the whipsaw the event deserved and closed lower anyway. It opened three seventeen eighty six, precisely the level the note said had to be reclaimed, then fell to three twelve ninety five in the first hour. During the one o'clock keynote hour it printed a three nineteen fifteen high and a three oh nine ninety low, a nine point range on ten point eight million shares, and closed three fifteen forty two. Underneath, nine of twelve sectors closed red and small caps fell one point three five percent."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the calls. Three clean, one whipsawed. Meta was the setup and the caution was the miss. It never faded, opening six forty five thirty five, putting its low in immediately, and closing six fifty three thirty nine, above the premarket quote. U S O was straightforward, opening one forty eight fifty already through the one forty six twenty three trigger, never trading below one forty seven seventy five, and closing one forty nine ninety four against a one fifty oh one high, seven cents off the top, with Exxon up two point two four percent confirming. Apple held its direction but was not a clean trade. It opened at three seventeen eighty six exactly, failed there, and closed three fifteen forty two, still under the level for a fifth straight session, but anyone positioned through one o'clock sat through a nine point range for a quarter percent result. And the semi wall was a bucket rather than a signal. Marvell closed up four point two five percent, A M D up three point zero three, Micron up two point seven two, while A S M L fell two point zero five and Taiwan Semi fell zero point eight one. Semis as a group finished flat at plus zero point zero nine because the two halves cancelled."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, when a documented pattern fails, name the variable rather than the exception. The gap fade rule was four for four and is now four for five. Meta is a mega cap with enormous liquidity and the gap came from analyst repositioning rather than its own earnings print, while all four that faded were reacting to a scheduled company event. That is testable and should be tracked forward. Second, a shared Strat classification is not a shared trade. Eight names sat in the failed two up bucket and half broke up while half broke down. The bucket described the shape and said nothing about direction. Third, the biggest scheduled catalyst can produce range without resolution. Apple's keynote hour ran nine and a quarter points on triple the average hourly volume and closed inside that range, below the level it needed. Maximum volatility, zero information. Fourth, watch small caps and not the index while oil is doing this. S P Y fell under half a percent and I W M fell one point three five, closing on its low, and it has now underperformed on four straight sessions."
+  }
+ ]
+}
