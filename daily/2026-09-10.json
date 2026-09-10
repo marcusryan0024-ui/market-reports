@@ -1,0 +1,274 @@
+{
+ "title": "Thursday, September 10, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>PPI came in on consensus and told you nothing until you opened it.</b> August producer prices rose <b>0.4%</b> with core <b>+0.3%</b>, both in line &mdash; but the annual rate <b>accelerated to 5.4%</b> (core 4.7%), and the internals are the oil war in one line: <b>goods +1.1%</b>, <b>energy +4.2%</b>, <b>diesel +24.1%</b>, against <b>services +0.1%</b>. That is inflation arriving through the pipeline rather than through demand, which is precisely the kind a rate hike cannot fix &mdash; and the Fed meets on it in six days.",
+  "summary": "<b>The tape is splitting hard along that line.</b> Energy is the only green on the board &mdash; <b>COP +2.01%</b>, <b>XOM +1.86%</b>, <b>CVX +1.66%</b>, <b>MPC +1.59%</b> with Brent pressing <b>$102</b> &mdash; while semis are being sold: <b>MU &minus;3.00%</b>, <b>SNDK &minus;2.64%</b>, <b>ASML &minus;2.55%</b>, <b>TSM &minus;1.92%</b> into its own sales update. <b>QQQ &minus;1.22%</b> is breaking Wednesday's inside bar to the downside before the bell. The 10-year sits at <b>4.84%</b>, its highest since October 2023, with the 30-year at <b>5.3%</b> &mdash; and Bessent's plan to triple buybacks to $6B was read as confirmation of supply stress rather than relief."
+ },
+ "overview": "<b>Three dated events and one that matters more than the other two.</b> The <b>ECB decides this morning</b> with a 25bp hike to 2.50% fully priced &mdash; Lagarde's tone is the event, not the number &mdash; and a <b>30-year auction at 12:00pm CT</b> lands with the long bond already at <b>5.3%</b>. Then <b>Oracle reports after the close</b>: consensus near <b>$1.75 EPS on roughly $19.1B revenue (+28%)</b>, with the whole AI trade watching whether that <b>$638B backlog</b> converts, and <b>options pricing a double-digit move</b>. Wednesday's session was the third straight down day &mdash; Dow &minus;406 to 52,381, S&amp;P &minus;0.5%, Russell worst at &minus;1.3% &mdash; and the pattern underneath has been consistent all week: the index drifts, breadth rots, energy takes the only bid. One thing did change on the flow board. <b>After four straight sessions of ask-leaning index prints, Wednesday's largest print on the whole tape was IVV $1.1B on the bid</b>, and cumulative flow went with it &mdash; AVGO $1.9B bid, NVDA $1.8B bid, GOOGL $1.4B bid, all bid-side on a red day. One session does not unwind four, but it is the first crack in that pattern since the inflation week began.",
+ "watchlist": {
+  "stamp": "PREMARKET 8:12AM CT",
+  "em_label": "MARKS VS WEDNESDAY 9/9 CLOSE &mdash; PPI 5.4% Y/Y, BRENT ~$102",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 288.58, 290.64],
+     ["QQQ", 707.56, 716.31],
+     ["SPY", 758.63, 762.4]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 317.3, 315.34],
+     ["META", 651.37, 653.69],
+     ["GOOGL", 328.55, 330.65],
+     ["TSLA", 361.53, 367.81],
+     ["TSM", 427.01, 435.36],
+     ["MU", 996.9, 1027.77],
+     ["SNDK", 1717.5, 1764.17],
+     ["ASML", 1685.42, 1729.52],
+     ["ORCL", 159.1, 161.63],
+     ["ADBE", 250.44, 254.86],
+     ["ADI", 357.1, 365.07]
+    ]
+   ]
+  ],
+  "focus": [
+   ["XOM", 167.28, 164.23],
+   ["COP", 139.28, 136.53],
+   ["CVX", 217.36, 213.81],
+   ["ORCL", 159.1, 161.63],
+   ["MU", 996.9, 1027.77]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "XOM",
+   "+1.86%",
+   "2 Up &middot; PPI confirms the theme",
+   "Wednesday was a <b>2 Up</b> &mdash; it took Tuesday's 163.11 high to <b>165.18</b> and closed <b>164.23</b> above it. Premarket <b>167.28</b> clears that high as well. This is no longer only a geopolitical trade: this morning's PPI put <b>energy +4.2%</b> and <b>diesel +24.1%</b> into the producer data, which is the oil war showing up in the official inflation file. The complex is confirming across the board &mdash; <b>COP +2.01%</b>, <b>CVX +1.66%</b>, <b>MPC +1.59%</b> with MPC at an all-time high &mdash; and CVX and COP were the <i>only</i> bullish kickers on the entire board Wednesday. <b>Over 165.18</b> continues it. The Oman &ldquo;safe route&rdquo; headline is still the single print that ends this."
+  ],
+  [
+   "T1",
+   "r",
+   "QQQ",
+   "&minus;1.22%",
+   "Inside (1) &middot; breaking down",
+   "Wednesday sat entirely inside Tuesday &mdash; H <b>719.70</b> / L <b>714.02</b> inside 721.886 / 715.57 &mdash; and closed 716.31 mid-range with no trigger. Premarket <b>707.56</b> is <b>six and a half points below the inside bar's low</b>, which resolves it decisively down before the bell. The driver is underneath: <b>MU &minus;3.00%</b>, <b>SNDK &minus;2.64%</b>, <b>ASML &minus;2.55%</b>, <b>TSM &minus;1.92%</b> into its own monthly sales update, and <b>ADI &minus;2.18%</b> despite a <b>$91.3M mid-side print</b> at the open. <b>Under 714.02</b> the inside bar is resolved. The caution: an inside bar that gaps well beyond its own range often sees a retest of the level, and 714.02 is the line to watch on any bounce."
+  ],
+  [
+   "T1",
+   "y",
+   "ORCL",
+   "&minus;1.57%",
+   "Outside (3) &middot; reports tonight",
+   "Wednesday broke both of Tuesday's regular-session extremes &mdash; H <b>165.15</b> over 164.87, L <b>160.36</b> under 161.18 &mdash; and closed <b>161.63</b>, an outside bar closing in its lower half. Premarket <b>159.10</b> is below that low. It reports <b>after the close</b> against consensus of roughly <b>$1.75 EPS on $19.1B revenue (+28%)</b>, with <b>options pricing a double-digit move</b>. Two things sit on opposite sides: the stock already failed to hold a 5.5% gap earlier this week two sessions before the print, and Wednesday's board carried a <b>$371M bid print in ORCL after hours</b> &mdash; institutional size positioning into the number. <b>No level survives a double-digit implied move</b>; this is an event, not a setup."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; THU 9/10",
+  "lead": "&#9888; <b>PPI put the oil war in the inflation data and the tape split on it.</b> Energy is the only green; semis are being sold. <b>ECB this morning, 30-year auction at 12:00pm, ORCL after the close with a double-digit implied move.</b> The 10-year is at 4.84%, highest since Oct 2023.",
+  "cards": [
+   ["XOM","2 Up &middot; +1.86%","g","T1",
+    "Wed 2 Up &mdash; took 163.11 to <b>165.18</b>, closed 164.23 above it. PPI: <b>energy +4.2%, diesel +24.1%</b>.",
+    "<b>Over 165.18.</b> COP +2.01%, CVX +1.66%, MPC +1.59% at an ATH confirming.",
+    "CVX and COP were the <b>only</b> bullish kickers on the whole board Wednesday.",
+    "<b>The Oman &lsquo;safe route&rsquo; headline still ends this in one print.</b>",
+    "Brent near $102. The trade and the inflation risk are the same thing now."],
+   ["QQQ","Inside (1) breaking down &middot; &minus;1.22%","r","T1",
+    "Wed inside Tue &mdash; H 719.70 / L <b>714.02</b>. Premarket 707.56 is six points below the low.",
+    "<b>Under 714.02</b> resolves it. Watch 714.02 as resistance on any bounce.",
+    "Semis are the driver: MU &minus;3.0%, SNDK &minus;2.6%, ASML &minus;2.6%, TSM &minus;1.9%.",
+    "A gap this far beyond an inside bar frequently retests the level.",
+    "SPY &minus;0.49% and IWM &minus;0.71% &mdash; the Nasdaq is carrying the damage today."],
+   ["ORCL","Outside (3) &middot; reports tonight","y","T1",
+    "Wed outside bar, H 165.15 / L <b>160.36</b>, closed 161.63 in the lower half. Premarket 159.10 is under it.",
+    "<b>No level survives a double-digit implied move.</b> This is an event, not a setup.",
+    "A <b>$371M bid print</b> landed in ORCL after hours Wednesday &mdash; size positioning into the number.",
+    "It already failed to hold a 5.5% gap this week, two sessions before the print.",
+    "Consensus ~$1.75 EPS on ~$19.1B (+28%). The $638B backlog is the question."],
+   ["AAPL","Failed 2D &middot; +0.62%","g","T2",
+    "Wed broke Tue's 314.90 low to <b>309.90</b> during the keynote, then closed <b>315.34</b> back above it &mdash; a failed 2 Down. Premarket 317.30.",
+    "<b>Over 317.86</b> ends the five-session downtrend. It is 56 cents away.",
+    "The event range was 309.90-319.15 and it closed in the upper half.",
+    "Five sessions of failing at 317.86. A sixth makes it a defined ceiling.",
+    "The $1,999 iPhone Duo is the pricing test, and it is answered in December."]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Dow &minus;627. Quiet period begins"]],
+   "earnings": [["TTAN", "&minus;18.9%"], ["CASY", "&minus;11.9%"], ["SIG", "+10.5%"]],
+   "events": [["INTC", "Done", "Closed 104.47, +9% on planned price rises and an upgrade"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "DONE &middot; THIRD DOWN DAY",
+   "accent": "done",
+   "econ": [
+    ["&mdash;", "Dow &minus;406 to 52,381. <b>10-year 4.84%</b>, highest since Oct 2023; 30-year 5.3%"],
+    ["&mdash;", "Bessent's $6B buyback plan read as supply stress, not relief"]
+   ],
+   "earnings": [["AVAV", "beat, +4%"], ["AEO", "&minus;11% on guide"], ["COO", "&minus;15%"], ["NAVN", "&minus;11%"]],
+   "events": [
+    ["AAPL", "Done", "iPhone 18 Pro, Watch 12, and the <b>$1,999 foldable iPhone Duo</b>"],
+    ["META", "Done", "<b>+6.5% to ~654</b> on the launch of Muse, its standalone AI assistant"],
+    ["GOOGL", "Done", "&minus;2.3% as the market scored Muse a direct shot at search"]
+   ]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "TODAY &middot; PPI &middot; ORCL &middot; ECB",
+   "accent": "next",
+   "econ": [
+    ["7:30am", "<b>PPI +0.4% m/m, core +0.3%</b> &mdash; annual to <b>5.4%</b>. Diesel <b>+24.1%</b>"],
+    ["7:30am", "Jobless claims 206k vs 205k. <b>ECB: 25bp to 2.50% fully priced</b>"],
+    ["12:00pm", "<b>30-year auction</b> with the long bond at 5.3%"]
+   ],
+   "earnings": [["ORCL", "PM"], ["ADBE", "PM"], ["M", "AM &middot; &minus;3.8%"], ["CPRT", "PM"], ["RH", "PM"]],
+   "events": [
+    ["ORCL", "PM", "<b>$638B backlog. Options price a double-digit move</b>"],
+    ["TSM", "AM", "Monthly sales update &mdash; and it is &minus;1.92% into it"],
+    ["Flow", "Wed", "<b>IVV $1.1B BID</b> &mdash; first bid lean up top in five sessions"]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "CPI",
+   "accent": "macro",
+   "econ": [
+    ["7:30am", "<b>August CPI.</b> Consensus +0.4% m/m and 3.4% y/y. After PPI, the risk skews hot"],
+    ["9:00am", "Preliminary Michigan sentiment"]
+   ],
+   "earnings": [["KR", "AM"]],
+   "events": [["FOMC", "9/16", "Futures price <b>~62%</b> odds of a 25bp hike, up from 44% a month ago"]]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC</b> &mdash; on an inflation impulse a hike cannot fix"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["XOM", "charts/XOM_2026-09-10.png", "2 Up &middot; PPI energy +4.2%"],
+  ["QQQ", "charts/QQQ_2026-09-10.png", "Inside (1) &middot; gapping below 714.02"],
+  ["ORCL", "charts/ORCL_2026-09-10.png", "Outside (3) &middot; reports tonight"],
+  ["AAPL", "charts/AAPL_2026-09-10.png", "Failed 2D &middot; 56 cents from 317.86"],
+  ["MU", "charts/MU_2026-09-10.png", "Outside (3) &middot; semis sold"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:12AM CT",
+  "groups": [
+   ["ENERGY &mdash; THE ONLY GREEN", [["COP", 2.01], ["XOM", 1.86], ["CVX", 1.66], ["MPC", 1.59]]],
+   ["SEMIS SOLD", [["MU", -3.0], ["SNDK", -2.64], ["ASML", -2.55], ["ADI", -2.18], ["TSM", -1.92]]],
+   ["REPORTING TONIGHT", [["ORCL", -1.57], ["ADBE", -1.73]]],
+   ["THE INDEX", [["META", -0.35], ["SPY", -0.49], ["GOOGL", -0.64], ["IWM", -0.71], ["QQQ", -1.22], ["TSLA", -1.71]]],
+   ["RECLAIMING", [["AAPL", 0.62]]]
+  ]
+ },
+ "strat": {
+  "stamp": "WEDNESDAY 9/9 CLOSE &amp; CANDLE",
+  "rows": [
+   ["XOM","T1","g","2 Up &#128293;","g",
+    "Wednesday took Tuesday's 163.11 high to 165.18 and closed 164.23 above it. Premarket clears that high on PPI energy +4.2% and diesel +24.1%.",
+    "pre 167.28 &middot; <b>+1.86%</b> &middot; Wed H 165.18 / L 162.55",
+    "<b>Over 165.18.</b> Top gapper on the board with the complex confirming.",
+    "The Oman &lsquo;safe route&rsquo; headline remains the single print that ends it."],
+   ["COP","T2","g","Failed 2U &rarr; bullish kicker","g",
+    "One of only two bullish kickers on the entire board Wednesday, alongside CVX, both carrying all-time-high tags.",
+    "pre 139.28 &middot; <b>+2.01%</b> &middot; Wed close 136.53",
+    "Best of the complex premarket. MPC also printing an all-time high.",
+    "Everything in this group is one trade. Size it as one."],
+   ["QQQ","T1","r","Inside (1) &middot; resolving down","r",
+    "Wednesday sat entirely inside Tuesday &mdash; H 719.70 / L 714.02 &mdash; closing 716.31 mid-range with no trigger. Premarket is six points under the low.",
+    "pre 707.56 &middot; <b>&minus;1.22%</b> &middot; Wed H 719.70 / L 714.02",
+    "<b>Under 714.02</b> resolves it decisively.",
+    "A gap this far past an inside bar often retests. 714.02 becomes resistance."],
+   ["ORCL","T1","y","Outside (3) &middot; event tonight","y",
+    "Broke both of Tuesday's regular-session extremes and closed 161.63 in the lower half of the bar. Premarket 159.10 is below the 160.36 low.",
+    "pre 159.10 &middot; <b>&minus;1.57%</b> &middot; Wed H 165.15 / L 160.36",
+    "A <b>$371M bid print</b> landed after hours Wednesday, ahead of the number.",
+    "<b>Options price a double-digit move.</b> No level survives that."],
+   ["AAPL","T2","g","Failed 2D &middot; at the line","g",
+    "Broke Tuesday's 314.90 low to 309.90 during the keynote hour, then closed 315.34 back above it. Premarket 317.30 sits 56 cents under the level.",
+    "pre 317.30 &middot; <b>+0.62%</b> &middot; Wed H 319.15 / L 309.90",
+    "<b>Over 317.86</b> ends a five-session downtrend.",
+    "Five straight failures at 317.86. A sixth makes it a ceiling, not a level."],
+   ["MU","T2","r","Outside (3) &middot; sold","r",
+    "Wednesday broke both of Tuesday's extremes across a fifty-point range and closed 1027.77 in the upper half. Premarket 996.90 gives all of it back and then some.",
+    "pre 996.90 &middot; <b>&minus;3.00%</b> &middot; Wed H 1042.40 / L 992.29",
+    "The 992.29 low is the reference beneath it.",
+    "Worst of the semis premarket. The outside bar is resolving down."],
+   ["TSM","T2","r","Failed 2D &middot; failing again","r",
+    "Wednesday broke Tuesday's 433.72 low to 431.87 and closed 435.36 back above it. Premarket 427.01 is well below both.",
+    "pre 427.01 &middot; <b>&minus;1.92%</b> &middot; Wed H 439.40 / L 431.87",
+    "<b>Monthly sales update today</b> &mdash; and it is being sold into it.",
+    "A failed 2 Down that gives the reclaim straight back is a failed failure."],
+   ["META","T2","y","2 Up &middot; digesting","y",
+    "Wednesday was a clean 2 Up entirely above Tuesday &mdash; H 657.86 / L 638.56 &mdash; closing 653.69 near the high on the Muse launch and nearly double average volume.",
+    "pre 651.37 &middot; <b>&minus;0.35%</b> &middot; Wed H 657.86 / L 638.56",
+    "It held every point of a 6.5% gap. That is what broke the fade pattern.",
+    "Nothing overhead and nothing beneath. 638.56 is the only reference it made."]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["COP", 2.01, "One of only two bullish kickers on the entire board Wednesday, with an all-time-high tag. PPI put <b>energy +4.2%</b> and <b>diesel +24.1%</b> into the producer data this morning, which turns the Hormuz trade into an inflation trade."],
+   ["XOM", 1.86, "Top gapper on the board. Wednesday's 2 Up took Tuesday's 163.11 high to 165.18 and held; premarket clears that. Brent pressing <b>$102</b> on Tehran signalling the escalation is not ending soon."],
+   ["CVX", 1.66, "The other bullish kicker, also at an all-time high. Drew a <b>$276M bid print</b> in SLB alongside it on Wednesday's board &mdash; the services side getting size too."],
+   ["MPC", 1.59, "Printing an <b>all-time high</b> inside an Outside (3) setup. The refiners have led this whole move because they capture the crack spread rather than just the barrel."],
+   ["AAPL", 0.62, "The only mega cap bid. Wednesday's keynote produced a 309.90-319.15 range and it closed in the upper half at 315.34, completing a <b>failed 2 Down</b>. It is <b>56 cents</b> from reclaiming 317.86."]
+  ],
+  "bear": [
+   ["MU", -3.0, "Giving back all of Wednesday's outside-bar rally and more. The 992.29 low is the reference beneath it, and the whole memory complex is being sold with it &mdash; SNDK &minus;2.64%."],
+   ["SNDK", -2.64, "Sitting in the Failed 2D bucket with a clustering tag and fading. It has now gone sideways for four sessions since closing at its own high on 9/4, on cumulative dark-pool size that was <b>mixed</b> rather than bid."],
+   ["ASML", -2.55, "Second straight session down after failing to break with the rest of the Failed 2U wall on Wednesday. It went the opposite way from MRVL and AMD in the same bucket &mdash; a reminder the bucket describes shape, not direction."],
+   ["ADI", -2.18, "Down despite the board's <b>largest dark-pool print of the morning &mdash; $91.3M mid-side, 250,000 shares</b> right around the open, with a $13.0M options trade beside it. A mid print carries no side lean, and price is picking the direction."],
+   ["ORCL", -1.57, "Reports after the close against consensus of roughly <b>$1.75 EPS on $19.1B revenue</b>, with <b>options pricing a double-digit move</b> and a <b>$638B backlog</b> to defend. It drew a <b>$371M bid print</b> after hours Wednesday."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>The streak broke.</b> After four consecutive sessions of ask-leaning index prints, Wednesday's largest print on the whole tape was <b>IVV $1.1B on the bid</b> &mdash; the first bid lean up top since the run began. Cumulative flow went the same way: <b>AVGO $1.9B (bid)</b>, <b>NVDA $1.8B (bid)</b> and <b>GOOGL $1.4B (bid)</b> topped the board, all bid-side on a day the Dow fell 406. <b>NVDA was the top ex-ETF print for a third straight session at $750M</b>, but the side has walked <b>bid &rarr; ask &rarr; mixed</b> across those three days, which is a migration worth watching rather than a signal. The one to sit with is <b>ORCL $371M (bid, AH)</b> &mdash; nine-figure size parked in Oracle the night before earnings, with a <b>$232M CRM bid</b> further down the same list. On the ETF side, <b>IEFA drew $658M</b>, international developed-markets money showing up in size the night before an ECB decision. <b>One bid session does not unwind four ask ones</b>, but it is the first crack in that pattern since the inflation week began.",
+  "right_note": "WEDNESDAY 9/9 &middot; FLOWMS",
+  "dim": false,
+  "chips": [
+   ["IVV", "$1.1B", "BID &middot; #1 print, AH", "g"],
+   ["AVGO", "$1.9B", "cumulative BID", "g"],
+   ["NVDA", "$1.8B", "cumulative BID", "g"],
+   ["GOOGL", "$1.4B", "cumulative BID", "g"],
+   ["NVDA", "$750M", "mixed &middot; 3rd day top name", "y"],
+   ["AVGO", "$684M", "bid, AH", "g"],
+   ["QCOM", "$452M", "mixed, AH", "y"],
+   ["ORCL", "$371M", "BID &middot; night before ER", "g"],
+   ["HPE", "$310M", "ask, AH", "r"],
+   ["SLB", "$276M", "bid, AH", "g"],
+   ["ADI", "$91.3M", "mid &middot; largest today", "y"],
+   ["INSW", "$31.3M", "95C 09/18 block", "g"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Thursday September tenth, premarket. P P I came in on consensus and told you nothing until you opened it. August producer prices rose zero point four percent with core up zero point three, both in line, but the annual rate accelerated to five point four percent, with core at four point seven. And the internals are the oil war in one line. Goods up one point one percent, energy up four point two, diesel up twenty four point one, against services up just zero point one. That is inflation arriving through the pipeline rather than through demand, which is precisely the kind a rate hike cannot fix, and the Fed meets on it in six days. The tape is splitting hard along that line. Energy is the only green on the board, with Conoco up two point zero one percent, Exxon up one point eight six, Chevron up one point six six and Marathon up one point five nine, while Brent presses one hundred two dollars. Semis are being sold. Micron down three percent, SanDisk down two point six four, A S M L down two point five five and Taiwan Semi down one point nine two into its own sales update. Q Q Q down one point two two percent is breaking Wednesday's inside bar to the downside before the bell."
+  },
+  {
+   "label": "Setups",
+   "text": "Three setups. First, Exxon, tier one, long. Wednesday was a two up, taking Tuesday's one sixty three eleven high to one sixty five eighteen and closing one sixty four twenty three above it. Premarket one sixty seven twenty eight clears that high. This is no longer only a geopolitical trade. This morning's P P I put energy up four point two percent and diesel up twenty four point one percent into the producer data. Chevron and Conoco were the only two bullish kickers on the entire board Wednesday, both at all time highs. Over one sixty five eighteen continues it. Second, Q Q Q, tier one, short side. Wednesday sat entirely inside Tuesday, high seven nineteen seventy, low seven fourteen oh two, closing mid range with no trigger. Premarket seven oh seven fifty six is six and a half points below the inside bar's low, which resolves it down before the bell. The caution is that a gap this far beyond an inside bar often retests the level, so seven fourteen oh two becomes resistance on any bounce. Third, Oracle, and this one is flagged yellow because it is an event and not a setup. It broke both of Tuesday's extremes Wednesday and closed in the lower half, and premarket is below that low. It reports after the close with options pricing a double digit move. No level survives that."
+  },
+  {
+   "label": "Levels",
+   "text": "The levels that matter today. Exxon, one sixty five eighteen, Wednesday's high, already cleared premarket. Q Q Q, seven fourteen oh two, Wednesday's inside bar low, and premarket is six points under it. Oracle, one sixty three sixty on the downside, but understand that a double digit implied move makes every level decorative tonight. Apple, three seventeen eighty six, and it is fifty six cents away after completing a failed two down on Wednesday. Five straight sessions have failed at that number. A sixth makes it a ceiling rather than a level. Micron, nine ninety two twenty nine, Wednesday's low, is the reference beneath a three percent premarket decline. And Taiwan Semi has its monthly sales update today while trading down one point nine two percent into it. Three dated events. The E C B this morning with twenty five basis points to two point five zero fully priced, so Lagarde's tone is the event rather than the number. A thirty year auction at noon central with the long bond already at five point three. And Oracle after the close with a six hundred thirty eight billion dollar backlog to defend."
+  }
+ ]
+}
