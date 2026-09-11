@@ -147,51 +147,73 @@
  ],
  "prep": {
   "pill": "MORNING PREP &middot; FRI 9/11",
-  "lead": "&#9888; <b>CPI in line at +0.4% and 3.4%, core 2.4% &mdash; relief, not resolution.</b> Oil exhaling, WTI back under $100. <b>ORCL's backlog is $664B, up $209B y/y.</b> Weekend risk into an FOMC priced near <b>70%</b> for a hike. <b>Moments of silence this morning.</b>",
+  "lead": "&#9888; <b>Let the market show its hands. Next week is the most important FOMC of the year.</b> <b>Sit out today</b> &mdash; next week already has planned events. Just monitor the bot. <b>Seasonal note: on 9/11 the past three years the tape has run a lot after an initial drop</b> &mdash; pay attention in case it happens again. <b>Stay patient at the open</b> and wait until after the <b>9:00am data report</b>.",
   "cards": [
    [
-    "ORCL",
-    "2 Down &rarr; reversal &middot; +6.58%",
+    "ETFs",
+    "Bullish kicker &middot; ripping",
     "g",
-    "T1",
-    "Thu clean 2 Down, H <b>159.24</b>, closed 152.94 &mdash; <b>&minus;5.4% into its own print</b>. Then: revenue $19.3B +30%, EPS $1.92, <b>OCI +121%</b>.",
-    "<b>Over 159.24</b> completes the reversal. Premarket 163.00 is through it.",
-    "<b>RPO backlog $664B, up $209B y/y.</b> $30B+ new AI contracts; FY guide raised to at least $90B.",
-    "It gapped once this week and gave it all back inside a session. +6.6% after &minus;5.4% is a round trip.",
-    "The backlog question is answered. The price is not."
+    "1",
+    "<b>Currently ripping</b> &mdash; SPY <b>+0.95%</b>, QQQ <b>+1.05%</b>, IWM <b>+1.02%</b>. <b>ETFs = bullish kicker</b> off four straight down days.",
+    "<b>Wait until after the 9:00am data report.</b> Stay patient at the open.",
+    "CPI in line, oil exhaling, both dials easing at once for the first time this week.",
+    "<b>9/11 has run after an initial drop three years running.</b> The first move may not be the move.",
+    "Four red days into a bullish kicker is a squeeze setup, not a trend change yet."
    ],
    [
-    "USO",
-    "2 Up &middot; exit headline &middot; &minus;2.83%",
-    "r",
-    "T1",
-    "Thu 2 Up, H <b>158.88</b>, closed 158.38 near it, <b>+5.63%</b>, Brent briefly over <b>$108</b>. Premarket gives back half.",
-    "<b>Under 152.48</b> the 2 Up fails outright.",
-    "This is the exact risk written into every energy card this week, arriving on schedule.",
-    "<b>Nothing physical changed.</b> Houthis hold Mokha; diesel near a record $6; shipping at decade highs.",
-    "A headline about a meeting that has not happened. Do not press the short into the weekend."
+    "ORCL",
+    "Inside &middot; +7.13%",
+    "g",
+    "2",
+    "<b>Inside currently</b> at <b>163.84</b> after the print &mdash; revenue $19.3B +30%, <b>backlog $664B, up $209B y/y</b>.",
+    "<b>Call entry over $167.55.</b> Not here &mdash; it has to push first.",
+    "Next-week contracts are the safer expression.",
+    "It fell 5.4% into its own print yesterday. A +7% gap is a round trip, not yet a trend.",
+    "$167.55 is nearly four dollars above the current print. Let it come."
    ],
    [
-    "AAPL",
-    "2 Up &middot; broke the level",
-    "b",
-    "T1",
-    "Thu took Wed's 319.15 high, ran to <b>326.74</b> and closed <b>326.57</b>, three cents off it, +3.56% on 70.0M shares. Five-session downtrend over.",
-    "<b>Over 326.74</b> continues. Premarket 325.99 is holding the breakout.",
-    "317.86 rejected it five straight sessions and then gave way completely.",
-    "The move came the <i>day after</i> the launch, so it is the reaction being priced, not the news.",
-    "One day of follow-through is not a trend. Weekend risk applies."
+    "KR",
+    "Trampoline setup? &middot; &minus;2.04%",
+    "y",
+    "2",
+    "<b>FTFC to the downside.</b> Currently <b>inside the 2H</b> and <b>inside a support order block</b> at 55.79.",
+    "<b>Put entry under $54.</b> <b>Call entry after 9am</b> for a potential <b>2-1-2 on the 2HR</b>.",
+    "It lowered the FY26 identical-sales outlook to 0.2-0.8% from 1-2% &mdash; the comp cut is the story.",
+    "Sitting inside support with FTFC down is the definition of a coin flip until one side breaks.",
+    "Both entries are conditional. Neither is live at 55.79."
    ],
    [
     "ADBE",
-    "Beat and sold &middot; &minus;3.38%",
-    "r",
-    "T2",
-    "Beat by <b>$0.05</b> with revenue in line and Q4 guided in line &mdash; and it is down, on the <b>freemium push and slower RPO growth</b> clouding AI progress.",
-    "No level applies on a guidance-driven gap. Opening range only.",
-    "It was already &minus;2.37% Thursday into the print, so this is two days of selling.",
-    "Same shape as NTAP, HPE and AVGO on 9/3: beat the lines, lose on the guide.",
-    "The AI-progress question is what is being sold, not the quarter."
+    "CPW candidate &middot; &minus;2.68%",
+    "y",
+    "2",
+    "Beat by $0.05 with revenue in line and sold anyway on the Q4 guide midpoint &mdash; trading <b>242.15</b>, a second straight session lower.",
+    "<b>Great CPW candidate.</b> Same structure flagged on M and AVAV.",
+    "AI-first products crossed a <b>$650M run-rate</b> with a billion monthly active users.",
+    "Two days of selling on a clean beat. The AI-progress question is what is being sold.",
+    "A CPW into an FOMC week carries the decision inside the position."
+   ],
+   [
+    "ARM",
+    "On watch &middot; +1.88%",
+    "b",
+    "3",
+    "<b>Has a lot of flow.</b> <b>Small gap up before the open</b> at <b>258.96</b> from a 254.18 close.",
+    "<b>Pay attention to a potential setup.</b> No trigger named yet &mdash; this is a watch, not a trade.",
+    "Semis are leading the bounce: LRCX +1.8%, ALAB +1.7%, MU +1.3%, MRVL +1.3%.",
+    "A small gap with no level is how you end up in a position you cannot size.",
+    "Let the structure form after the 9am print."
+   ],
+   [
+    "META",
+    "Inside day &middot; +1.68%",
+    "y",
+    "3",
+    "<b>Currently an inside day</b> at <b>655.18</b>. Thursday was an outside bar, H <b>663.50</b> / L 642.14, closing 644.38 in the lower half.",
+    "<b>F2D / REV at $663</b> &mdash; but it is <b>into resistance</b> there.",
+    "It drew the board's largest single-name print Thursday at <b>$644M</b>.",
+    "$663 is Thursday's outside-bar high. Reversing into it is fighting the level, not using it.",
+    "Eight dollars of room to the trigger. An inside day means no trigger yet."
    ]
   ]
  },
