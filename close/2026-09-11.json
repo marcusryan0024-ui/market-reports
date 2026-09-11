@@ -1,0 +1,327 @@
+{
+ "title": "Friday, September 11, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 288.89, 287.7],
+     ["QQQ", 714.85, 708.69],
+     ["SPY", 764.2, 757.83]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 332.23, 326.57],
+     ["MSFT", 495.58, 492.44],
+     ["GOOGL", 338.45, 332.6],
+     ["AMZN", 256.79, 251.89],
+     ["META", 648.23, 644.38],
+     ["TSLA", 365.47, 363.56],
+     ["NVDA", 218.19, 218.36],
+     ["AVGO", 361.8, 360.83],
+     ["TSM", 433.19, 428.03],
+     ["MU", 974.97, 977.41],
+     ["ORCL", 150.26, 152.94]
+    ]
+   ]
+  ],
+  "focus": [
+   ["ARM", 265.0, 254.18],
+   ["KR", 58.46, 56.95],
+   ["ADBE", 252.23, 248.83],
+   ["ORCL", 150.26, 152.94],
+   ["SNDK", 1633.67, 1692.59]
+  ]
+ },
+ "headline": {
+  "title": "<b>Oracle gapped +7.13% and closed &minus;1.76%, and the best decision on the prep sheet was the one that was never taken.</b> The call entry written down this morning was <b>$167.55</b>. The regular session opened <b>156.37</b> &mdash; already seven and a half points below the premarket quote &mdash; made its high at <b>157.25</b> in the first minutes, and fell every hour after to close <b>150.255</b> against a <b>149.84</b> low. From the <b>163.84</b> premarket print to the close is <b>&minus;8.29%</b>. The level was never remotely approached, so there was no trade, and that is the entire result.",
+  "summary": "<b>Everything else the sheet flagged worked, and the reversals were the tell.</b> <b>ARM closed +4.26% at 265.00</b> &mdash; the &ldquo;on watch, has a lot of flow&rdquo; name was the best performer on the page. <b>KR reversed from &minus;2.04% premarket to +2.65%</b>, vindicating the trampoline question, and the <b>$54 put entry never triggered</b> (low 57.75). <b>ADBE went from &minus;2.68% to +1.37%</b>. <b>META never reached $663</b> &mdash; high <b>656.43</b> &mdash; exactly as &ldquo;in resistance&rdquo; implied. Underneath, CPI relief was broad: <b>ten of twelve sectors green</b>, SMH <b>+1.46%</b>, XLK <b>+1.33%</b>, with only XLU and XLV red."
+ },
+ "what_happened": [
+  [
+   "The gap-fade pattern produced its most extreme example yet.",
+   "r",
+   "This book has now documented the same shape six times &mdash; SNOW, GTLB, MRVL, ORCL on 9/8, META as the exception, and now ORCL again. Today was the worst of them. Premarket <b>163.84</b>. Regular-session open <b>156.37</b>, a full <b>7.47 points below</b> the quote before a single share traded. High <b>157.25</b> inside the first hour, then down every hour: 153.23, 151.42, 152.15, 151.70, close <b>150.255</b>. The backlog was real &mdash; <b>$664B, up $209B year-over-year</b> &mdash; the quarter beat, and the stock still finished <b>red on the day</b> and <b>8.29% below where it was quoted at 7:50am</b>."
+  ],
+  [
+   "CPI relief was broad and it held into the weekend.",
+   "g",
+   "In-line CPI plus oil backing off produced the first genuinely broad session in a week: <b>ten of twelve sectors closed green</b>, led by <b>SMH +1.46%</b>, <b>XLK +1.33%</b> and <b>XLI +1.07%</b>, with only <b>XLU &minus;0.33%</b> and <b>XLV &minus;0.18%</b> red. SPY <b>+0.84%</b>, QQQ <b>+0.87%</b>. Compare that with Tuesday through Thursday, when eight, nine and then ten sectors were red and energy was the only bid. The rotation did not narrow today &mdash; it widened."
+  ],
+  [
+   "Apple is now three sessions into a trend nobody had on Monday.",
+   "g",
+   "It closed <b>332.23, +1.73%</b>, having opened 332.41 and run to <b>336.22</b>. That is three consecutive higher closes and roughly <b>+5.4% since Tuesday's 315.34</b>. For five sessions this report tracked a name failing at <b>317.86</b>; it broke that level Thursday and has not looked back. The foldable launch produced a same-day fade and a three-day trend, which is close to the opposite of what the setup implied at the time."
+  ]
+ ],
+ "picks": {
+  "right_note": "PREP SHEET &middot; 5 OF 6 RESOLVED AS WRITTEN",
+  "rows": [
+   [
+    "ORCL",
+    "&minus;1.76%",
+    "g",
+    "LEVEL NEVER HIT &middot; NO TRADE WAS THE TRADE",
+    "g",
+    "Prep: <i>&ldquo;inside currently, call entry over <b>$167.55</b>&rdquo;</i>, with the note that next-week contracts were the safer expression. The morning report added that ORCL had gapped once already this week and handed it back, and that <b>&ldquo;+6.6% after &minus;5.4% is a round trip, not yet a trend.&rdquo;</b>",
+    "The level was never approached. Session high <b>157.25</b> &mdash; <b>ten dollars and thirty cents below the entry</b> &mdash; and from there it fell every hour to close <b>150.255</b>, red on the day and <b>&minus;8.29% from the premarket print</b>. The backlog number was genuine and the quarter beat; none of it mattered to the tape. Writing a level above the market and refusing to chase inside it is what turned a potential 8% loss into nothing at all."
+   ],
+   [
+    "ARM",
+    "+4.26%",
+    "g",
+    "BEST NAME ON THE SHEET &middot; FROM A WATCH LINE",
+    "g",
+    "Prep: <i>&ldquo;On watch: has a lot of flow. Pay attention to potential setup. Small gap up before open.&rdquo;</i> No trigger was named &mdash; it was listed as a watch rather than a trade, at <b>258.96</b> premarket against a 254.18 close.",
+    "It opened <b>255.79</b>, below the premarket mark, then built all session &mdash; 256.09, 261.25, 261.27, a <b>267.69</b> high &mdash; and closed <b>265.00, +4.26%</b>, the strongest name on the page. The structure the prep asked for did form, after the open rather than before it, and the flow note was the reason it was on the sheet at all. A watch line with no level is hard to size, which is the honest cost of catching this one."
+   ],
+   [
+    "KR",
+    "+2.65%",
+    "g",
+    "TRAMPOLINE &middot; PUT NEVER TRIGGERED",
+    "g",
+    "Prep: <i>&ldquo;trampoline setup? FTFC to the downside, currently inside the 2H and inside a support OB. Put entry under <b>$54</b>. Call entry after 9am for a potential 2-1-2 on the 2HR.&rdquo;</i> It was trading <b>55.79</b>, down 2.04%, after cutting its FY26 identical-sales outlook to 0.2-0.8% from 1-2%.",
+    "The question mark was the right punctuation. It opened <b>58.81</b> &mdash; already reversed &mdash; dipped to <b>57.75</b> in the second hour, and closed <b>58.46, +2.65%</b>. <b>The $54 put was never within four dollars</b>, so the downside half cost nothing, and the conditional call-after-9am framing is what left room for the reversal. Being inside support with FTFC down was correctly written as a coin flip rather than a direction."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Dow &minus;627. Eight of twelve sectors red"]],
+   "earnings": [["TTAN", "&minus;18.9%"], ["CASY", "&minus;11.9%"]],
+   "events": [["AMD", "Done", "+5.85% &mdash; both prep levels hit in order"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Third down day. 10-year 4.84%"]],
+   "earnings": [["AVAV", "beat"], ["AEO", "&minus;11%"], ["COO", "&minus;15%"]],
+   "events": [["META", "Done", "+6.5% on Muse &mdash; the one gap that did not fade"]]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "DONE &middot; PPI",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "<b>PPI annual to 5.4%.</b> Diesel +24.1%. Brent briefly over <b>$108</b>"],
+    ["&mdash;", "Fourth down day. ECB +25bp; Lagarde called it a &ldquo;no brainer&rdquo;"]
+   ],
+   "earnings": [["ORCL", "beat $0.18"], ["ADBE", "beat $0.05"], ["RH", "beat $2.32"]],
+   "events": [["AAPL", "Done", "+3.56% &mdash; reclaimed 317.86 and ran"]]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "DONE &middot; CPI IN LINE",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "<b>CPI +0.4% m/m, 3.4% y/y, core 2.4%</b> &mdash; in line. Gasoline +27.4% y/y"],
+    ["&mdash;", "<b>Ten of twelve sectors green.</b> SMH +1.46%, XLK +1.33%"]
+   ],
+   "earnings": [["KR", "+2.65%"], ["ADBE", "+1.37%"]],
+   "events": [
+    ["ORCL", "Done", "Gapped <b>+7.13%</b>, closed <b>&minus;1.76%</b> &mdash; 8.29% round trip"],
+    ["ARM", "Done", "<b>+4.26%</b> &mdash; best name on the prep sheet"],
+    ["META", "Done", "High 656.43 &mdash; <b>never reached the $663 trigger</b>"]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "next",
+   "econ": [["TBA", "<b>September FOMC.</b> Futures near <b>70%</b> for a 25bp hike under Chair Warsh"]],
+   "earnings": [],
+   "events": [["Hormuz", "Mon 9/14", "Gulf ministers reportedly meeting Iran on reopening the Strait"]]
+  }
+ ],
+ "charts": [
+  ["ORCL", "charts/ORCL_2026-09-11.png", "+7.13% premarket &rarr; &minus;1.76% close"],
+  ["ARM", "charts/ARM_2026-09-11.png", "Watch line &middot; +4.26%"],
+  ["KR", "charts/KR_2026-09-11.png", "Trampoline &middot; put never triggered"],
+  ["AAPL", "charts/AAPL_2026-09-11.png", "Third straight higher close"],
+  ["SNDK", "charts/SNDK_2026-09-11.png", "&minus;3.48% against a green tape"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   ["THE PREP SHEET", [["ARM", 4.26], ["KR", 2.65], ["ADBE", 1.37], ["META", 0.6], ["ORCL", -1.76]]],
+   ["BREADTH RETURNED", [["SMH", 1.46], ["XLK", 1.33], ["XLI", 1.07], ["XLC", 0.98], ["XLY", 0.88], ["XLE", 0.3]]],
+   ["MEGA CAP", [["AMZN", 1.95], ["GOOGL", 1.76], ["AAPL", 1.73], ["MSFT", 0.64], ["TSLA", 0.53], ["NVDA", -0.08]]],
+   ["THE TWO RED SECTORS", [["XLV", -0.18], ["XLU", -0.33]]],
+   ["ENERGY UNWOUND", [["USO", -2.23]]]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 9/11 CLOSE &amp; CANDLE",
+  "rows": [
+   ["ARM","WATCH","g","Flow name &mdash; best on the sheet","g",
+    "Opened 255.79 below its own premarket mark, then built every hour to a 267.69 high and closed 265.00.",
+    "close 265.00 &middot; <b>+4.26%</b> &middot; high 267.69",
+    "The setup the prep asked to watch for did form &mdash; after the open, not before it.",
+    "No level was named, so this was hard to size. That is the cost of a watch line."],
+   ["KR","2","g","Trampoline &mdash; reversed","g",
+    "Opened 58.81, already reversed from a &minus;2.04% premarket, dipped to 57.75 in the second hour and closed 58.46.",
+    "close 58.46 &middot; <b>+2.65%</b> &middot; low 57.75",
+    "The $54 put never came within four dollars. The downside half cost nothing.",
+    "FTFC was down and it went up. Inside support was the operative fact, not the timeframe continuity."],
+   ["AAPL","&mdash;","g","2 Up &mdash; third straight","g",
+    "Opened 332.41, ran to 336.22 and closed 332.23. Three consecutive higher closes, roughly +5.4% since Tuesday.",
+    "close 332.23 &middot; <b>+1.73%</b> &middot; high 336.22",
+    "The 317.86 level that rejected it five straight sessions is now eleven dollars behind.",
+    "Closed four points off the high. The last two hours sold."],
+   ["ADBE","2","g","CPW candidate &mdash; reversed up","g",
+    "Opened 246.51 on a &minus;2.68% premarket, put its low in at 245.45, and climbed to a 255.30 high before closing 252.23.",
+    "close 252.23 &middot; <b>+1.37%</b> &middot; low 245.45",
+    "A clean beat sold for two sessions and then bought on the third.",
+    "Closed three points off the high. An FOMC week carries the decision inside a CPW."],
+   ["META","3","y","Inside day &mdash; trigger never reached","g",
+    "Opened 655.51, made its high at 656.43 in the first hour, and never approached the $663 level. Closed 648.23.",
+    "close 648.23 &middot; <b>+0.60%</b> &middot; high 656.43",
+    "&lsquo;F2D / REV at $663 <b>but in resistance</b>&rsquo; &mdash; the qualifier was the whole call.",
+    "Six and a half dollars short of the trigger, and it closed below its own open."],
+   ["ORCL","2","r","Gap &rarr; full round trip","r",
+    "Premarket 163.84. Opened 156.37, high 157.25 in the first minutes, then lower every hour to close 150.255 against a 149.84 low.",
+    "close 150.26 &middot; <b>&minus;1.76%</b> &middot; from premarket <b>&minus;8.29%</b>",
+    "The <b>$167.55 entry was never approached</b>, so the sheet took no damage.",
+    "A $664B backlog, a beat, and a red close. Worst gap-fade in this book to date."],
+   ["SNDK","&mdash;","r","Sold against a green tape","r",
+    "Closed 1633.67 against a 1692.59 Thursday close on a session when ten of twelve sectors rose and semis led.",
+    "close 1633.67 &middot; <b>&minus;3.48%</b>",
+    "Nothing to salvage. It fell while its own sector gained 1.46%.",
+    "Down roughly 7% from the 1740 close on 9/4, on flow that was <b>mixed</b> the whole way."],
+   ["SPY","&mdash;","g","Bullish kicker held","g",
+    "Opened 765.34, ranged 763.81 to 766.26, and closed 764.195 &mdash; a narrow, orderly session that held the CPI gap.",
+    "close 764.20 &middot; <b>+0.84%</b>",
+    "Ten of twelve sectors green. The first broad session in a week.",
+    "It closed below its open. The gap was the move; the session added nothing."]
+  ]
+ },
+ "how_played_out": [
+  [
+   "The best call on the sheet produced no position at all.",
+   "ORCL's call entry was written as <b>$167.55</b> before the open, with the stock quoted at 163.84 and the note that next-week contracts were the safer expression. The session high was <b>157.25</b>. The level was never within ten dollars, so no trade happened &mdash; and the stock closed <b>150.255</b>, red on the day and <b>8.29% below the premarket print</b>. A written level above the market is the cheapest risk control there is: it costs nothing when the setup fails to arrive, and today it was the difference between flat and an eight-percent hole. Nothing about the intraday tape told you to stand aside. The sheet did, before the bell."
+  ],
+  [
+   "Two names reversed off their premarket marks and both were written as conditional.",
+   "KR was quoted <b>&minus;2.04%</b> and closed <b>+2.65%</b>. ADBE was quoted <b>&minus;2.68%</b> and closed <b>+1.37%</b>. In both cases the prep declined to name a direction: KR carried a question mark and two conditional entries (<i>put under $54</i>, <i>call after 9am</i>), and ADBE was tagged as a structure candidate rather than a directional bet. The $54 put never came within four dollars. On a session where CPI resolved benign and everything reversed, the conditional framing is what kept a short premise from becoming a short position."
+  ],
+  [
+   "Breadth came back, and it came back in the group that had been carrying the tape alone.",
+   "<b>Ten of twelve sectors closed green</b> after three sessions of eight, nine and ten red. <b>SMH +1.46%</b> and <b>XLK +1.33%</b> led, but this time XLI <b>+1.07%</b>, XLC <b>+0.98%</b> and XLY <b>+0.88%</b> came with them rather than being sold against them. That is the difference between the last four sessions and this one: the same leadership, but no longer alone. The honest caveat is that it took an in-line CPI <i>and</i> oil backing off <i>and</i> a Hormuz-reopening headline all landing on the same morning."
+  ],
+  [
+   "One name went the wrong way and it is the one that has been carrying mixed flow.",
+   "<b>SNDK closed &minus;3.48%</b> on a day its own sector gained 1.46% and ten of twelve sectors rose. It is now down roughly <b>7% from the 1740 close on 9/4</b>, and across that entire stretch its dark-pool flow read <b>mixed</b> rather than bid &mdash; $5.1B on 9/4, $2.2B Thursday, both two-sided. The memory complex has been the loudest cumulative size on the board for a week and the weakest price for most of it. That divergence is worth carrying into next week rather than resolving now."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Thursday's board was graded today and the bid-side flip earned its second confirmation.</b> The largest single print on Thursday's tape was <b>IVV $1.8B (bid)</b>, the biggest index print of the week, with <b>IVV $1.0B</b> and <b>VOO $898M</b> bid overnight behind it &mdash; and SPY closed <b>+0.84%</b> today, the first broad up session in a week. After four sessions of ask-leaning index prints that correctly preceded four down days, two bid sessions have now correctly preceded a bounce. The <b>muni wall stacked the night before CPI</b> &mdash; VTEB $633M ask against SCMB $621M bid &mdash; was split, and CPI came in line, which is about the right outcome for a split book. <b>The cumulative flow was the miss:</b> MU, AAPL and SNDK topped the board at $2.9B, $2.6B and $2.2B, all <b>mixed</b>, and they resolved in three different directions &mdash; AAPL <b>+1.73%</b>, MU <b>&minus;0.25%</b>, SNDK <b>&minus;3.48%</b>. Mixed size told you where the interest was and nothing about where the price was going, for the second week running.",
+  "right_note": "THURSDAY 9/10 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["IVV", "$1.8B", "bid &#8594; SPY +0.84% &middot; HIT", "g"],
+   ["VOO", "$898M", "bid &#8594; +0.84% &middot; HIT", "g"],
+   ["AAPL", "$2.6B", "mixed &#8594; +1.73%", "y"],
+   ["MU", "$2.9B", "mixed &#8594; &minus;0.25%", "y"],
+   ["SNDK", "$2.2B", "mixed &#8594; &minus;3.48%", "r"],
+   ["META", "$644M", "mixed &#8594; +0.60%", "y"],
+   ["SPCX", "$301M", "mid &#8594; +2.00%", "g"],
+   ["VTEB", "$633M", "ask &#8594; CPI in line &middot; SPLIT", "y"]
+  ]
+ },
+ "sectors": {
+  "right_note": "TEN GREEN &mdash; FIRST BROAD SESSION IN A WEEK",
+  "rows": [
+   ["SMH", "Semis", 1.46],
+   ["XLK", "Technology", 1.33],
+   ["XLI", "Industrials", 1.07],
+   ["XLC", "Communications", 0.98],
+   ["XLY", "Discretionary", 0.88],
+   ["XLRE", "Real Estate", 0.84],
+   ["XLF", "Financials", 0.62],
+   ["XLP", "Staples", 0.37],
+   ["XLB", "Materials", 0.36],
+   ["XLE", "Energy", 0.3],
+   ["XLV", "Health Care", -0.18],
+   ["XLU", "Utilities", -0.33]
+  ]
+ },
+ "lessons": [
+  [
+   "A level written above the market is free insurance, and today it paid.",
+   "g",
+   "ORCL's <b>$167.55</b> was never touched &mdash; the session high was <b>157.25</b> &mdash; so the sheet took no position in a name that closed <b>8.29% below its premarket print</b>. The entry cost nothing to write and nothing to not fill. Compare it with AMD on 9/8, where the same discipline produced a fill at 489.10 and a 5.85% day. The rule is identical in both cases; only the outcome differs, and that is exactly what makes it a rule rather than a read."
+  ],
+  [
+   "Six for seven: the premarket print is not a price, and on an event gap it is not even close.",
+   "r",
+   "SNOW, GTLB, MRVL, ORCL on 9/8, ORCL again today &mdash; all handed back a meaningful share of the gap, and today's was the worst at <b>&minus;8.29% from the quote</b>. META on 9/9 remains the single exception, and the distinguishing feature still looks like mega-cap liquidity plus a non-earnings catalyst. Six of seven is a rule with a stated exception, which is more useful than either a rule or a list of anecdotes."
+  ],
+  [
+   "A question mark is a legitimate entry in a prep sheet.",
+   "g",
+   "KR was written as <i>&ldquo;trampoline setup?&rdquo;</i> with two conditional entries and no direction. It was down 2% before the bell and closed up <b>2.65%</b>. Had it been written as a short with FTFC down, the premise would have become a position and the position would have been wrong. Naming the structure, naming both triggers, and refusing to name a direction is what let the reversal happen without costing anything."
+  ],
+  [
+   "Mixed dark-pool size is information about interest, not direction &mdash; now confirmed twice.",
+   "y",
+   "Thursday's three largest cumulative lines were MU <b>$2.9B</b>, AAPL <b>$2.6B</b> and SNDK <b>$2.2B</b>, every one of them <b>mixed</b>, and they resolved <b>+1.73%, &minus;0.25% and &minus;3.48%</b> &mdash; three directions from one signal. The same thing happened on 9/4 when SNDK and MU carried $5.1B and $5.0B mixed and then went sideways-to-down. Two weeks, same result: the size says a name is being fought over, and the side says nothing until one shows up."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>The FOMC decides Wednesday 9/16</b>, with futures near <b>70%</b> for a 25bp hike under Chair Warsh. CPI came in line and did not resolve it &mdash; gasoline at <b>+27.4% year-over-year</b> is the part a hike cannot fix, and it is still in the data."
+  ],
+  [
+   "&nbsp;",
+   "o",
+   "<b>Gulf foreign ministers are reportedly meeting Iran Monday</b> on reopening the Strait of Hormuz. That headline took oil down this week before the meeting happened; the meeting itself is the event, and USO closed <b>154.84</b> having given back 2.23%."
+  ],
+  [
+   "ORCL",
+   "r",
+   "Closed <b>150.255</b> against a <b>149.84</b> low, red on the day after a +7% premarket, with a <b>$664B backlog</b> and a beat behind it. The 149.84 low is the only reference it made. A fundamental story the tape refused is worth watching for a second attempt, not assuming one."
+  ],
+  [
+   "ARM",
+   "g",
+   "Closed <b>265.00, +4.26%</b>, the best name on the sheet, having built every hour from a 255.79 open. No level was named this morning, which made it hard to size &mdash; worth writing one before Monday."
+  ],
+  [
+   "AAPL",
+   "g",
+   "Closed <b>332.23</b>, a third straight higher close and about <b>+5.4% since Tuesday</b>. The 317.86 ceiling is eleven dollars behind it. It closed four points off the session high, so the last two hours did sell."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Carry into next week:</b> breadth returned on a day when CPI, oil and a Hormuz headline all cooperated at once. That is three things going right simultaneously, into an FOMC priced at 70% for a hike. The week's most reliable observation was not directional &mdash; it was that written levels above the market cost nothing and occasionally save everything."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Friday September eleventh, the close. Oracle gapped up seven point one three percent and closed down one point seven six percent, and the best decision on the prep sheet was the one that was never taken. The call entry written down this morning was one sixty seven fifty five. The regular session opened one fifty six thirty seven, already seven and a half points below the premarket quote, made its high at one fifty seven twenty five in the first minutes, and fell every hour after to close one fifty point two five five against a one forty nine eighty four low. From the premarket print to the close is down eight point two nine percent. The level was never remotely approached, so there was no trade, and that is the entire result. Everything else the sheet flagged worked. A R M closed up four point two six percent at two sixty five, the on watch name was the best performer on the page. Kroger reversed from down two percent premarket to up two point six five, and the fifty four dollar put entry never triggered. Adobe went from down two point six eight to up one point three seven. And Meta never reached six sixty three, with a high of six fifty six forty three, exactly as in resistance implied."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the prep sheet, five of six resolved as written. Oracle is the headline and it is a story about not trading. The entry was ten dollars and thirty cents above the session high, so nothing filled, and the stock closed red on the day after a seven percent premarket gap. A written level above the market is the cheapest risk control there is. It costs nothing when the setup fails to arrive, and today it was the difference between flat and an eight percent hole. A R M was the best name, opening two fifty five seventy nine below its own premarket mark and then building every hour to a two sixty seven sixty nine high. The honest note is that no level was named, so it was hard to size. Kroger was written with a question mark and two conditional entries, and that punctuation was correct. It opened already reversed at fifty eight eighty one and closed fifty eight forty six. The fifty four dollar put never came within four dollars. Adobe reversed the same way, from minus two point six eight premarket to plus one point three seven. And Meta stopped six and a half dollars short of its trigger and closed below its own open."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry into next week. First, a level written above the market is free insurance and today it paid. Oracle's one sixty seven fifty five was never touched, so the sheet took no position in a name that closed more than eight percent below its premarket print. Compare that with A M D on September eighth, where the same discipline produced a fill and a five point eight five percent day. Same rule, different outcome, which is what makes it a rule. Second, six for seven now. The premarket print is not a price, and on an event gap it is not even close. Snowflake, GitLab, Marvell, Oracle twice. Meta on September ninth is still the only exception. Third, a question mark is a legitimate entry in a prep sheet. Kroger was written as trampoline setup with a question mark and two conditional triggers and no direction, and it closed up two point six five percent after being down two before the bell. Fourth, mixed dark pool size is information about interest and not direction, and that is now confirmed twice. Thursday's three largest cumulative lines were all mixed and they resolved in three different directions."
+  }
+ ]
+}
