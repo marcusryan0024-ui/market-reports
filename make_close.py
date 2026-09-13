@@ -38,6 +38,7 @@ def main(date, base=None, dirpath=None):
     out = f'{date}.html'
     html = R.build_close(data, base)
     R.write(out, html, 'close')              # validates, adds row, promotes featured
+    rec = R.refresh_record('.')              # header record, derived from these files
     R.validate_index('.')
 
     print(f'WROTE {out}  {len(html):,} bytes')
@@ -48,6 +49,10 @@ def main(date, base=None, dirpath=None):
     print(f'  sector bars     {data["sectors"] and len(data["sectors"]["rows"])}')
     print(f'  provenance      {html.count("class=" + chr(34) + "card-header" + chr(34))} '
           f'(must be 0)')
+    if rec:
+        print(f'  record          {rec["wins"]}W-{rec["losses"]}L '
+              f'({rec["pushes"]} push) {rec["rate"]}% | streak {rec["streak"]}x '
+              f'{"win" if rec["kind"] == "g" else "miss"} | {rec["reports"]} reports')
     return out
 
 

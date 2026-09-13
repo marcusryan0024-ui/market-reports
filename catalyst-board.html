@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalyst Board &mdash; September - December 2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#07090f;background-image:radial-gradient(#141c28 1px,transparent 1px);background-size:22px 22px;color:#e6edf3;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;padding-bottom:70px}
+.abar{height:3px;background:linear-gradient(90deg,#1f6feb,#388bfd,#58a6ff,#3fb950,#238636,#388bfd,#1f6feb);background-size:500% 100%;animation:aslide 10s linear infinite}
+@keyframes aslide{to{background-position:500% 0}}
+
+.header{background:linear-gradient(150deg,#0a1420 0%,#0c1620 40%,#07090f 100%);border-bottom:1px solid #141e2e;padding:22px 40px;position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;top:-120px;left:-80px;width:600px;height:400px;background:radial-gradient(ellipse,#1f6feb16,transparent 60%);pointer-events:none}
+.hin{position:relative;z-index:1;max-width:1120px;margin:0 auto;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+h1{font-size:23px;font-weight:800;letter-spacing:-.04em;background:linear-gradient(100deg,#f0f6fc 30%,#8b949e 80%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sub{font-size:11px;color:#6e7681;margin-top:5px;letter-spacing:.02em}
+.hmeta{font-family:ui-monospace,'SF Mono',monospace;font-size:10px;color:#3d444d;text-align:right;line-height:1.9;white-space:nowrap}
+.hmeta b{color:#6e7681;font-weight:700}
+.back{font-size:9px;font-weight:700;letter-spacing:.06em;color:#484f58;text-decoration:none;border:1px solid #141a24;border-radius:11px;padding:3px 11px;transition:all .14s;display:inline-block;margin-top:8px}
+.back:hover{color:#58a6ff;border-color:#1f6feb;background:#0d1421}
+
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* type key — descriptive, not a verdict */
+.key{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:22px 0 4px}
+.k{font-family:ui-monospace,'SF Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:3px;white-space:nowrap;border-left:2px solid}
+.k-del{color:#79c0ff;border-color:#1f6feb;background:#0a1220}
+.k-inv{color:#7ee787;border-color:#238636;background:#081408}
+.k-fda{color:#e3b341;border-color:#9e6a03;background:#160f06}
+.k-con{color:#d2a8ff;border-color:#8957e5;background:#120d1c}
+.k-mec{color:#8b949e;border-color:#484f58;background:#0c1015}
+.knote{font-size:10px;color:#484f58;margin-left:4px}
+
+.mband{display:flex;align-items:center;gap:10px;padding:6px 4px;margin:24px 0 8px}
+.ml{font-size:8px;font-weight:800;letter-spacing:.15em;color:#39404d;text-transform:uppercase;white-space:nowrap}
+.mr{flex:1;height:1px;background:#0e1420}
+.mc{font-family:ui-monospace,'SF Mono',monospace;font-size:9px;color:#2f3742;white-space:nowrap}
+
+.ev{display:grid;grid-template-columns:62px 112px 1fr 250px;gap:14px;align-items:start;
+  background:#0a0d13;border:1px solid #0e1420;border-left:2px solid #21262d;
+  border-radius:6px;padding:10px 14px;margin-bottom:4px;transition:border-color .14s}
+.ev:hover{border-color:#1a2432}
+.ev.del{border-left-color:#1f6feb}
+.ev.inv{border-left-color:#238636}
+.ev.fda{border-left-color:#9e6a03}
+.ev.con{border-left-color:#8957e5}
+.ev.mec{border-left-color:#484f58}
+
+.d{font-family:ui-monospace,'SF Mono',monospace;font-size:12px;font-weight:700;color:#c9d1d9;line-height:1.35}
+.d span{display:block;font-size:8px;font-weight:700;color:#3d444d;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
+.t{font-family:ui-monospace,'SF Mono',monospace;font-size:12.5px;font-weight:700;color:#58a6ff;line-height:1.35}
+.t span{display:block;font-size:9px;font-weight:400;color:#484f58;margin-top:3px;line-height:1.5}
+.t span b{font-weight:600;color:#6e7681}
+.t span b.thin{color:#6e7681}
+.w{font-size:13px;color:#c9d1d9;line-height:1.45}
+.w span{display:block;font-size:11px;color:#6e7681;margin-top:3px;line-height:1.45}
+.n{font-family:ui-monospace,'SF Mono',monospace;font-size:10.5px;color:#6e7681;line-height:1.7}
+.n b{color:#c9d1d9;font-weight:700}
+.n i{font-style:normal;color:#3d444d}
+.n u{text-decoration:none;color:#e6edf3;font-weight:700}
+.n b.ok{color:#3fb950;font-weight:700}
+.n b.bad{color:#8b949e;font-weight:700}
+.n b.warn{color:#d29922;font-weight:700}
+.n s{text-decoration:none;color:#8b949e;font-weight:700}
+
+.fomc{display:flex;gap:11px;align-items:baseline;background:#120d06;border:1px solid #9e692040;
+  border-left:2px solid #d29922;border-radius:6px;padding:9px 14px;margin:4px 0;font-size:12px;color:#8b949e;line-height:1.5}
+.fomc b{font-family:ui-monospace,'SF Mono',monospace;font-size:9px;font-weight:800;letter-spacing:.12em;
+  text-transform:uppercase;color:#d29922;white-space:nowrap}
+
+.meth{margin-top:34px;background:#0a0d13;border:1px solid #0e1420;border-radius:6px;padding:18px 20px}
+.meth h2{font-size:8px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#39404d;margin-bottom:11px}
+.meth li{font-size:11.5px;color:#8b949e;line-height:1.65;margin-bottom:7px;list-style:none;padding-left:14px;position:relative}
+.meth li::before{content:'';position:absolute;left:0;top:8px;width:4px;height:4px;border-radius:50%;background:#21262d}
+.meth b{color:#c9d1d9;font-weight:700}
+.meth code{font-family:ui-monospace,'SF Mono',monospace;font-size:10.5px;color:#58a6ff;background:#06080f;padding:1px 5px;border-radius:3px}
+
+@media(max-width:760px){
+  .header{padding:18px 20px}
+  .ev{grid-template-columns:62px 1fr;gap:6px 12px}
+  .w{grid-column:2}
+  .n{grid-column:1/-1;padding-top:5px;border-top:1px solid #0e1420;margin-top:4px}
+  .t{grid-column:1;grid-row:2}
+}
+</style>
+</head>
+<body>
+<div class="abar"></div>
+
+<div class="header"><div class="hin">
+  <div>
+    <h1>Catalyst Board</h1>
+    <div class="sub">Weekday catalysts &middot; Sep 12 &ndash; Dec 18, 2026</div>
+    <a class="back" href="index.html">&#8592; Daily Reports</a>
+  </div>
+  <div class="hmeta">
+    built <b>2026-09-12</b><br>
+    <b>32</b> weekday events<br>
+    prior instance
+  </div>
+</div></div>
+
+<div class="wrap">
+
+<div class="key">
+  <span class="k k-del">Deliveries</span>
+  <span class="k k-inv">Investor Day</span>
+  <span class="k k-fda">FDA &middot; clinical</span>
+  <span class="k k-con">Conference</span>
+  <span class="k k-mec">Index &middot; macro</span>
+  <span class="knote">Colour is the event type. Right column: what the best leg of the prior instance actually did intraday, from the prior close. Liquidity sits under each ticker. Under each ticker: market cap, dollar volume per day, listed expiries.</span>
+</div>
+
+<!-- SEPTEMBER -->
+<div class="mband"><span class="ml">September</span><span class="mr"></span><span class="mc">13 dated</span></div>
+
+
+<div class="ev fda">
+  <div class="d">Mon 14<span>WCLC</span></div>
+  <div class="t">CGEM<span>$20.57 &middot; $1.3B<br><b class="thin">$16M/d &middot; 8exp</b></span></div>
+  <div class="w">Zipalertinib REZILIENT3<span>First-line EGFR exon20 NSCLC</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+
+<div class="fomc"><b>FOMC 15&ndash;16</b><div>Decision Wed 2:00pm ET, sitting directly on OSCR and Dreamforce.</div></div>
+
+<div class="ev fda">
+  <div class="d">Mon 14<span>WCLC</span></div>
+  <div class="t">CRBP<span>$8.13 &middot; $0.2B<br><b class='thin'>$7M/d &middot; 4exp</b></span></div>
+  <div class="w">CANYON&#8209;1 obesity topline<span>Readout Sep 12&ndash;15; Monday is the first session you can trade</span></div>
+  <div class="n"><i>no prior instance</i></div>
+</div>
+<div class="ev inv">
+  <div class="d">Wed 16<span>9:00 ET</span></div>
+  <div class="t">OSCR<span>$32.58 &middot; $10B<br><b>$158M/d &middot; 17exp</b></span></div>
+  <div class="w">2026 Investor Day<span>Second Investor Day; 2022 was the first</span></div>
+  <div class="n"><b>2024</b> <u>210% ATR</u> V-REVERSAL<br>prev $19.50 &rarr; H $19.44 &middot; L <u>$17.15</u><br><i>closed $19.32 &mdash; full recovery</i><br><i>options never printed</i></div>
+</div>
+
+<div class="ev con">
+  <div class="d">Wed 16</div>
+  <div class="t">CRM<span>$204B<br><b>$4.0B/d &middot; 18exp</b></span></div>
+  <div class="w">Dreamforce 2026 &mdash; keynote + investor day<span>Runs Sep 15&ndash;17</span></div>
+  <div class="n"><b>2025</b> 118% ATR TREND<br>prev $248.75 &rarr; H $248.28 &middot; L $239.55<br><b>2024</b> 71% &middot; prev $256.91<br>H $259.37 &middot; L $254.76</div>
+</div>
+
+<div class="ev inv">
+  <div class="d">Thu 17</div>
+  <div class="t">AS<span>$16B<br><b>$215M/d &middot; 12exp</b></span></div>
+  <div class="w">Investor Day &mdash; first ever<span>IPO Feb 2024, so no prior instance exists</span></div>
+  <div class="n"><i>first investor day &mdash;<br>no prior instance</i></div>
+</div>
+
+<div class="ev inv">
+  <div class="d">Thu 17</div>
+  <div class="t">INTU<span>$86B<br><b>$1.0B/d &middot; 15exp</b></span></div>
+  <div class="w">Annual Investor Day<span>Third consecutive September</span></div>
+  <div class="n"><b>2025</b> <u>231% ATR</u> GAP&amp;GO<br>prev $662.68 &rarr; H $693.38 &middot; L $665.53<br><b>2024</b> 82% &middot; prev $634.74<br>H $645.92 &middot; L $633.87</div>
+</div>
+
+<div class="ev mec">
+  <div class="d">Fri 18</div>
+  <div class="t">&mdash;<span>opex</span></div>
+  <div class="w">September triple witching<span>Quad expiry</span></div>
+  <div class="n">opex mechanics</div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Tue 22</div>
+  <div class="t">IONS<span>$54.20 &middot; $9.0B<br><b>$174M/d &middot; 9exp</b></span></div>
+  <div class="w">PDUFA &mdash; zilganersen<span>Alexander disease</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+
+<div class="ev con">
+  <div class="d">Tue 22<span>&ndash; Thu 24</span></div>
+  <div class="t">QCOM<span>$191B<br><b>$2.2B/d &middot; 19exp</b></span></div>
+  <div class="w">Snapdragon Summit 2026<span>Chip roadmap &mdash; reads across to the Android chain</span></div>
+  <div class="n"><i>prior Summit not measured</i></div>
+</div>
+
+<div class="ev con">
+  <div class="d">Wed 23</div>
+  <div class="t">META<span>$1.7T<br><b>$12.4B/d &middot; 24exp</b></span></div>
+  <div class="w">Meta Connect 2026<span>Runs Sep 23&ndash;24</span></div>
+  <div class="n"><b>2025</b> 116% ATR CHOP<br>prev $779.00 &rarr; H $783.29 &middot; L $766.31<br><b>2024</b> 91% &middot; prev $563.33<br>H $576.88 &middot; L $563.72</div>
+</div>
+
+
+<div class="ev fda">
+  <div class="d">Mon 28</div>
+  <div class="t">MIRM<span>$98.20 &middot; $6.4B<br><b>$46M/d &middot; 7exp</b></span></div>
+  <div class="w">PDUFA &mdash; zilurgisertib<span>Decision dated Sat 26; Monday is the first session</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+<div class="ev fda">
+  <div class="d">Wed 30</div>
+  <div class="t">SRRK<span>$55.39 &middot; $6.7B<br><b class="thin">$59M/d &middot; 5exp</b></span></div>
+  <div class="w">PDUFA &mdash; apitegromab<span>Spinal muscular atrophy</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Wed 30</div>
+  <div class="t">ROIV<span>$40.78 &middot; $30B<br><b>$497M/d &middot; 11exp</b></span></div>
+  <div class="w">PDUFA &mdash; brepocitinib<span>Dermatomyositis</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+
+<!-- OCTOBER -->
+<div class="mband"><span class="ml">October</span><span class="mr"></span><span class="mc">5 dated</span></div>
+
+<div class="ev del">
+  <div class="d">Fri 2<span>pre-open</span></div>
+  <div class="t">TSLA<span>$1.4T<br><b>$16.0B/d &middot; 24exp</b></span><br>RIVN<span>$23B<br><b>$316M/d &middot; 17exp</b></span></div>
+  <div class="w">Q3 deliveries &mdash; both names, same day<span>Date inferred from the verified Apr 2 / Jul 2 pattern. Not yet announced</span></div>
+  <div class="n"><b>7/2</b> <u>249% ATR</u> GAP&amp;FADE<br>prev $425.30 &rarr; H $432.35 &middot; L $389.30<br><b>10/2/25</b> 189% &middot; prev $459.46<br>H $470.75 &middot; L $435.57<br><b>RIVN 7/2</b> 208% &middot; prev $17.18<br>H $19.79 &middot; L $17.81<br><b class='warn'>date inferred</b></div>
+</div>
+
+
+<div class="ev del">
+  <div class="d">Wed 7<span>after close</span></div>
+  <div class="t">COST<span>$904.77 &middot; $401B<br><b>$1.8B/d &middot; 20exp</b></span></div>
+  <div class="w">Monthly sales &mdash; September<span>Reported AFTER the bell; the tradeable move is the next morning, Thu Oct 8</span></div>
+  <div class="n"><b>8/6</b> 127% ATR GAP&amp;FADE<br>prev $941.99 &rarr; H $966.13 &middot; L $941.78<br><b>7/9</b> 141% &middot; prev $953.13<br>H $935.00 &middot; L $907.68<br><i>day AFTER the print</i><br><b class='warn'>date inferred</b></div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Mon 12</div>
+  <div class="t">MRK<span>$143.88 &middot; $355B<br><b>$1.2B/d &middot; 17exp</b></span></div>
+  <div class="w">PDUFA &mdash; I&#8209;DXd<span>Decision dated Sat 10; Monday is the first session you can trade</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+<div class="ev fda">
+  <div class="d">Mon 26<span>ESMO</span></div>
+  <div class="t">&mdash;<span>oncology</span></div>
+  <div class="w">ESMO Congress, Madrid<span>Runs Fri 23 &ndash; Tue 27; Mon and Tue are the weekday sessions</span></div>
+  <div class="n"><b class='ok'>date confirmed</b><br>many tickers, varies</div>
+</div>
+<div class="ev con">
+  <div class="d">Mon 26<span>&ndash; Thu 29</span></div>
+  <div class="t">ORCL<span>$433B<br><b>$5.0B/d &middot; 18exp</b></span></div>
+  <div class="w">Oracle CloudWorld 2026<span></span></div>
+  <div class="n"><i>prior CloudWorld not measured</i></div>
+</div>
+
+<div class="fomc"><b>FOMC 27&ndash;28</b><div>Lands inside ESMO and CloudWorld.</div></div>
+
+<!-- NOVEMBER -->
+<div class="mband"><span class="ml">November</span><span class="mr"></span><span class="mc">9 dated</span></div>
+
+<div class="ev del">
+  <div class="d">Wed 4<span>after close</span></div>
+  <div class="t">COST<span>$904.77 &middot; $401B<br><b>$1.8B/d &middot; 20exp</b></span></div>
+  <div class="w">Monthly sales &mdash; October<span>Reported AFTER the bell; the tradeable move is the next morning, Thu Nov 5</span></div>
+  <div class="n"><b>8/6</b> 127% ATR GAP&amp;FADE<br>prev $941.99 &rarr; H $966.13 &middot; L $941.78<br><b>7/9</b> 141% &middot; prev $953.13<br>H $935.00 &middot; L $907.68<br><i>day AFTER the print</i><br><b class='warn'>date inferred</b></div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Mon 9<span>AHA</span></div>
+  <div class="t">&mdash;<span>cardio</span></div>
+  <div class="w">AHA Scientific Sessions, Chicago<span>Runs Fri 6 &ndash; Mon 9; Monday is the weekday session</span></div>
+  <div class="n"><b class='ok'>date confirmed</b><br>many tickers, varies</div>
+</div>
+<div class="ev con">
+  <div class="d">Tue 17<span>&ndash; Fri 20</span></div>
+  <div class="t">MSFT<span>$3.7T<br><b>$9.8B/d &middot; 24exp</b></span></div>
+  <div class="w">Microsoft Ignite, San Francisco<span></span></div>
+  <div class="n"><b>Ignite 2025</b> 149% ATR CHOP<br>prev $507.49 &rarr; H $502.98 &middot; L $486.78<br><i>never traded above prev close</i></div>
+</div>
+
+
+
+<div class="ev fda">
+  <div class="d">Mon 23</div>
+  <div class="t">CAPR<span>$8.38 &middot; $0.5B<br><b>$32M/d &middot; 13exp</b></span></div>
+  <div class="w">PDUFA &mdash; deramiocel<span>Decision dated Sun 22; Monday is the first session</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+<div class="ev fda">
+  <div class="d">Mon 23</div>
+  <div class="t">SVRA<span>$5.30 &middot; $1.1B<br><b class='thin'>$7M/d &middot; 4exp</b></span></div>
+  <div class="w">PDUFA &mdash; molgramostim<span>Decision dated Sun 22; Monday is the first session</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+<div class="ev fda">
+  <div class="d">Fri 27</div>
+  <div class="t">BBIO<span>$72.46 &middot; $14B<br><b>$137M/d &middot; 12exp</b></span></div>
+  <div class="w">PDUFA &mdash; BBP&#8209;418<span>Limb girdle muscular dystrophy type 2i</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i></div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Mon 30</div>
+  <div class="t">COGT<span>$33.41 &middot; $5.8B<br><b>$54M/d &middot; 6exp</b></span></div>
+  <div class="w">PDUFA &mdash; bezuclastinib<span>Non-advanced systemic mastocytosis</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i><br><b class='warn'>two dates listed</b></div>
+</div>
+
+<div class="ev con">
+  <div class="d">Mon 30<span>&ndash; Dec 3</span></div>
+  <div class="t">NVDA<span>$5.4T<br><b>$27.4B/d &middot; 25exp</b></span></div>
+  <div class="w">NVIDIA GTC, Washington DC<span>Moved from October last year</span></div>
+  <div class="n"><b>GTC 2025</b> 61% ATR TREND<br>prev $186.26 &rarr; H $192.00 &middot; L $188.43<br><i>never traded below prev close</i></div>
+</div>
+
+<div class="ev con">
+  <div class="d">Mon 30<span>&ndash; Dec 4</span></div>
+  <div class="t">AMZN<span>$2.8T<br><b>$8.3B/d &middot; 26exp</b></span></div>
+  <div class="w">AWS re:Invent, Las Vegas<span>Same week as GTC &mdash; two AI flagships overlapping</span></div>
+  <div class="n"><b>re:Invent 2025</b> 56% ATR CHOP<br>prev $233.22 &rarr; H $235.80 &middot; L $232.25</div>
+</div>
+
+<!-- DECEMBER -->
+<div class="mband"><span class="ml">December</span><span class="mr"></span><span class="mc">5 dated</span></div>
+
+<div class="ev del">
+  <div class="d">Wed 2<span>after close</span></div>
+  <div class="t">COST<span>$904.77 &middot; $401B<br><b>$1.8B/d &middot; 20exp</b></span></div>
+  <div class="w">Monthly sales &mdash; November<span>Reported AFTER the bell; the tradeable move is the next morning, Thu Dec 3</span></div>
+  <div class="n"><b>8/6</b> 127% ATR GAP&amp;FADE<br>prev $941.99 &rarr; H $966.13 &middot; L $941.78<br><b>7/9</b> 141% &middot; prev $953.13<br>H $935.00 &middot; L $907.68<br><i>day AFTER the print</i><br><b class='warn'>date inferred</b></div>
+</div>
+<div class="fomc"><b>FOMC 8&ndash;9</b><div>The week before ASH.</div></div>
+
+<div class="ev mec">
+  <div class="d">Fri 11</div>
+  <div class="t">&mdash;<span>index</span></div>
+  <div class="w">Nasdaq&#8209;100 annual reconstitution announced<span>Effective ~Dec 21</span></div>
+  <div class="n">adds/deletes force flow<br>window is announce &rarr; effective</div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Mon 14<span>ASH</span></div>
+  <div class="t">&mdash;<span>heme</span></div>
+  <div class="w">ASH Annual Meeting, New Orleans<span>Runs Sat 12 &ndash; Tue 15. Biggest hematology readout of the year</span></div>
+  <div class="n">reaction is the Monday gap<br><i>conference, many tickers</i></div>
+</div>
+
+<div class="ev mec">
+  <div class="d">Fri 18</div>
+  <div class="t">&mdash;<span>index</span></div>
+  <div class="w">S&amp;P quarterly rebalance effective + triple witching<span>Quad expiry &mdash; highest volume session of the quarter</span></div>
+  <div class="n">opex mechanics dominate</div>
+</div>
+
+<div class="ev fda">
+  <div class="d">Wed 30</div>
+  <div class="t">COGT<span>$33.41 &middot; $5.8B<br><b>$54M/d &middot; 6exp</b></span></div>
+  <div class="w">PDUFA &mdash; bezuclastinib, second listed date<span>Sources disagree with the Nov 30 date &mdash; verify before acting</span></div>
+  <div class="n"><i>one-off approval &mdash;<br>no prior instance</i><br><b class='warn'>two dates listed</b></div>
+</div>
+
+<!-- METHOD -->
+<div class="meth">
+  <h2>What makes the list</h2>
+  <ul>
+    
+    
+    
+    <li><b>A quality event releases a number or a verdict.</b> Deliveries, PDUFA decisions, trial readouts, first-time guidance. A keynote with no figures is on the list because it is dated and tradeable &mdash; not because it forces a repricing.</li>
+<li><b>Liquidity is the hard filter.</b> Market cap, dollar volume per day and listed expiries sit under every ticker. Red means you cannot size into it, whatever the setup looks like.</li>
+<li><b>Every date carries a source.</b> Delivery dates from the verified Apr 2 / Jul 2 pattern; PDUFA from BiopharmaWatch and MarketBeat; conferences from each organiser. A wrong date produces a confident measurement of nothing.</li>
+    <li><b>Known gaps.</b> Oct 2 is inferred, not announced. FDA advisory committee meetings are unavailable &mdash; FDA publishes them only ~30&ndash;45 days ahead, so re-check mid-October. Spin-offs and lockup expirations aren't covered. Both trial-readout calendars stop at September, so October&ndash;December clinical dates are PDUFA only.</li>
+    <li><b>Reproduce any row:</b> <code>python3 catalyst_study.py OSCR 2024-06-07</code></li>
+  </ul>
+</div>
+
+</div>
+</body>
+</html>

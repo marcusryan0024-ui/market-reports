@@ -1,0 +1,325 @@
+{
+ "title": "Thursday, September 10, 2026",
+ "kind": "close",
+ "watchlist": {
+  "stamp": "CLOSE 2:59PM CT",
+  "em_label": "",
+  "groups": [
+   [
+    "ETFs",
+    [
+     ["IWM", 287.7, 290.64],
+     ["QQQ", 708.69, 716.31],
+     ["SPY", 757.83, 762.4]
+    ]
+   ],
+   [
+    "Mag 11",
+    [
+     ["AAPL", 326.57, 315.34],
+     ["MSFT", 492.44, 493.95],
+     ["META", 644.38, 653.69],
+     ["ORCL", 152.94, 161.63],
+     ["ADBE", 248.83, 254.86],
+     ["MU", 977.41, 1027.77],
+     ["SNDK", 1692.59, 1764.17],
+     ["TSM", 428.03, 435.36],
+     ["INTC", 100.32, 106.24],
+     ["XOM", 165.23, 164.23],
+     ["CVX", 212.76, 213.81]
+    ]
+   ]
+  ],
+  "focus": [
+   ["AVAV", 147.07, 140.8],
+   ["IWM", 287.7, 290.64],
+   ["CVX", 212.76, 213.81],
+   ["M", 20.5, 21.51],
+   ["ORCL", 152.94, 161.63]
+  ]
+ },
+ "headline": {
+  "title": "<b>Every one of the twelve sectors closed red, and the prep sheet's two cautions were the two things that mattered.</b> <b>CVX opened at its own session high of 217.40</b> &mdash; the +$3 gap the sheet said not to blindly hop into &mdash; then fell all day to a <b>211.34</b> low and closed <b>212.76, &minus;0.49%</b>. The open was the high, exactly. And <b>IWM got under $287.75</b>: it traded down to <b>287.18</b> and closed <b>287.70</b>, five cents below the level the sheet required, on a fourth consecutive session of small-cap underperformance.",
+  "summary": "<b>AVAV is the one worth sitting with, because it triggered and then failed.</b> The prep named a call entry at <b>$150.04</b> and a put entry at <b>$139.77</b> &mdash; which were Wednesday's exact high (150.045) and exact low (139.77), a clean 2-1-2 off the inside day. Thursday took the upside trigger and ran to <b>159.24</b>, <b>+6.1% beyond the entry</b>, then gave every point of it back to close <b>147.065</b>, inside the range it broke out of. Underneath, the damage was broad: <b>SMH &minus;2.35%</b>, XLB &minus;2.29%, XLI &minus;2.22%, XLU &minus;2.14%, with the 10-year at <b>4.95%</b> and Brent briefly over <b>$108</b>."
+ },
+ "what_happened": [
+  [
+   "A clean sweep: all twelve sectors red.",
+   "r",
+   "Not one closed green. <b>SMH &minus;2.35%</b>, <b>XLB &minus;2.29%</b>, <b>XLI &minus;2.22%</b>, <b>XLU &minus;2.14%</b>, XLRE &minus;1.92%, XLY &minus;1.81%, XLK &minus;1.41%, XLP &minus;1.09%, XLV &minus;0.90%, XLF &minus;0.76%, <b>XLE &minus;0.58%</b> and XLC &minus;0.04%. Even energy &mdash; the one group that had a bid all week &mdash; finished lower while Brent was briefly above <b>$108</b>. That is a rates day, not a rotation: the 10-year reached <b>4.95%</b> and the 30-year <b>5.36%</b>, and everything priced off a discount rate went with it."
+  ],
+  [
+   "AVAV triggered the 2-1-2 and could not hold it.",
+   "y",
+   "The levels on the sheet were Wednesday's exact extremes &mdash; call at <b>$150.04</b> against a 150.045 high, put at <b>$139.77</b> against a 139.77 low. Thursday opened <b>146.77</b>, cleared the upside trigger, and ran to <b>159.24</b>. Then it round-tripped the entire move, closing <b>147.065</b> &mdash; back inside the inside bar, and below the entry it triggered at. High to close is <b>&minus;7.6%</b> on 8.8M shares against 5.0M the day before. A 2-1-2 that fires and closes back inside the range is a failed trigger regardless of the day's sign, and this one finished <b>+4.45%</b> green."
+  ],
+  [
+   "Oracle sold 5.4% into its own print and the sheet said not to trade it.",
+   "g",
+   "The morning report flagged ORCL as <b>&ldquo;an event, not a setup&rdquo;</b> and wrote that <b>no level survives a double-digit implied move</b>. It then did exactly what a name with that much event risk does: opened <b>158.375</b>, fell all session to a <b>152.52</b> low, and closed <b>152.94, &minus;5.38%</b> on 56.8M shares. Anyone positioned off the Outside (3) structure got run over before the number even landed. The print itself beat &mdash; that is Friday's story, and it did not help Thursday's holders."
+  ]
+ ],
+ "picks": {
+  "right_note": "2 CAUTIONS PAID &middot; 1 TRIGGER FAILED",
+  "rows": [
+   [
+    "CVX",
+    "&minus;0.49%",
+    "g",
+    "OPENED AT THE HIGH &middot; THE CAUTION WAS THE CALL",
+    "g",
+    "Prep: <i>&ldquo;currently up $3. Flow bullish, extreme volume, war talk. <b>Don't blindly hop in.</b>&rdquo;</i> The morning report added the reason: the move had already happened premarket.",
+    "It opened <b>217.40</b> and that was the high of the entire session &mdash; not near the high, the high itself. From there it went one way, to a <b>211.34</b> low, closing <b>212.76</b> and <b>red on the day</b>. Anyone who took the +$3 gap at the open bought the top tick. The bullish flow and the extreme volume were both real and both irrelevant to what the price did next, which is the whole content of the warning."
+   ],
+   [
+    "IWM",
+    "&minus;1.01%",
+    "g",
+    "GOT UNDER 287.75 &middot; LEVEL DELIVERED",
+    "g",
+    "Prep: <i>&ldquo;market selling off currently. IWM is in order-block support. <b>Has to get under $287.75.</b>&rdquo;</i> It was 288.29 premarket, 54 cents above the level, with the morning note adding that no break meant no trade.",
+    "The break came. It opened <b>288.48</b>, traded down to <b>287.18</b> and closed <b>287.70</b> &mdash; <b>five cents below the level</b> on the close and more than half a dollar below it at the low. Fourth consecutive session of small caps underperforming, on a day all twelve sectors fell. The level was specific, it was required rather than assumed, and it broke."
+   ],
+   [
+    "AVAV",
+    "+4.45%",
+    "y",
+    "TRIGGERED, RAN 6%, GAVE IT ALL BACK",
+    "r",
+    "Prep: <i>&ldquo;currently inside day. 2-2 REV up, call entry at <b>$150.04</b>. Put entry 2 Down at <b>$139.77</b>. <b>Prefers it to sell off with FTFC.</b>&rdquo;</i> Both levels were Wednesday's exact extremes.",
+    "The upside trigger fired and then failed. It opened <b>146.77</b>, cleared 150.04, and ran to <b>159.24</b> &mdash; <b>+6.1% past the entry</b>. Then it round-tripped the whole thing to close <b>147.065</b>, back inside the inside bar and <b>below its own trigger</b>, <b>&minus;7.6% from the high</b> on 8.8M shares. Green on the day at +4.45% and a failed 2-1-2 on its own terms. The stated preference was for it to sell off with FTFC, and the put side never came near 139.77 either."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/8",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Dow &minus;627. Eight of twelve sectors red"]],
+   "earnings": [["TTAN", "&minus;18.9%"], ["CASY", "&minus;11.9%"]],
+   "events": [["AMD", "Done", "+5.85% &mdash; both prep levels hit in order"]]
+  },
+  {
+   "day": "WED 9/9",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [["&mdash;", "Third down day. 10-year 4.84%"]],
+   "earnings": [["AVAV", "beat $0.59 vs $0.30"], ["AEO", "&minus;11%"], ["COO", "&minus;15%"]],
+   "events": [["META", "Done", "+6.5% on the Muse launch"]]
+  },
+  {
+   "day": "THU 9/10",
+   "tag": "DONE &middot; ALL TWELVE RED",
+   "accent": "done",
+   "econ": [
+    ["7:30am", "<b>PPI +0.4%, annual to 5.4%.</b> Energy +4.2%, <b>diesel +24.1%</b>"],
+    ["7:15am", "ECB +25bp to 2.50% &mdash; Lagarde called it a &ldquo;no brainer&rdquo;"],
+    ["&mdash;", "10-year to <b>4.95%</b>, 30-year 5.36%. Brent briefly over <b>$108</b>"]
+   ],
+   "earnings": [["ORCL", "PM &middot; beat $0.18"], ["ADBE", "PM &middot; beat $0.05"], ["RH", "PM &middot; beat $2.32"], ["M", "&minus;4.70%"]],
+   "events": [
+    ["AAPL", "Done", "<b>+3.56% to 326.57</b> &mdash; reclaimed 317.86 and ran"],
+    ["ORCL", "Done", "<b>&minus;5.38% into its own print</b> on 56.8M shares"],
+    ["CVX", "Done", "Opened <b>217.40</b> &mdash; its own session high &mdash; and closed red"]
+   ]
+  },
+  {
+   "day": "FRI 9/11",
+   "tag": "NEXT &middot; CPI",
+   "accent": "next",
+   "econ": [["7:30am", "<b>August CPI</b> &mdash; the last inflation read before the FOMC"]],
+   "earnings": [["KR", "AM"]],
+   "events": [["ORCL", "Reaction", "Beat by $0.18; <b>backlog $664B, up $209B y/y</b>"]]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "FOMC DECISION",
+   "accent": "macro",
+   "econ": [["TBA", "<b>September FOMC</b> &mdash; futures near 70% for a 25bp hike"]],
+   "earnings": [],
+   "events": []
+  }
+ ],
+ "charts": [
+  ["AVAV", "charts/AVAV_2026-09-10.png", "2-1-2 fired to 159.24, closed 147.07"],
+  ["CVX", "charts/CVX_2026-09-10.png", "Opened at the high &middot; closed red"],
+  ["IWM", "charts/IWM_2026-09-10.png", "Broke 287.75 &middot; closed under it"],
+  ["ORCL", "charts/ORCL_2026-09-10.png", "&minus;5.38% into its own print"],
+  ["QQQ", "charts/QQQ_2026-09-10.png", "Inside bar resolved down"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "CLOSE 2:59PM CT",
+  "groups": [
+   ["THE PREP SHEET", [["AVAV", 4.45], ["CVX", -0.49], ["IWM", -1.01], ["M", -4.7]]],
+   ["ALL TWELVE SECTORS RED", [["XLC", -0.04], ["XLE", -0.58], ["XLF", -0.76], ["XLV", -0.9], ["XLP", -1.09], ["XLK", -1.41]]],
+   ["THE WORST OF IT", [["XLY", -1.81], ["XLRE", -1.92], ["XLU", -2.14], ["XLI", -2.22], ["XLB", -2.29], ["SMH", -2.35]]],
+   ["SEMIS &amp; MEMORY SOLD", [["INTC", -5.57], ["MU", -4.9], ["SNDK", -4.06], ["TSM", -1.68]]],
+   ["THE ONE THAT WORKED", [["AAPL", 3.56], ["XOM", 0.61]]]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 9/10 CLOSE &amp; CANDLE",
+  "rows": [
+   ["CVX","2","g","Gap &mdash; open was the high","g",
+    "Opened 217.40 and never traded higher all session. Low 211.34, close 212.76, red on the day after a +$3 premarket.",
+    "close 212.76 &middot; <b>&minus;0.49%</b> &middot; open = high",
+    "The &lsquo;don't blindly hop in&rsquo; caution was the single most valuable line on the sheet.",
+    "Bullish flow and extreme volume were both real and neither predicted the direction."],
+   ["IWM","1","g","Broke 287.75 &mdash; level delivered","g",
+    "Opened 288.48, traded to a 287.18 low and closed 287.70, five cents under the required level.",
+    "close 287.70 &middot; <b>&minus;1.01%</b> &middot; low 287.18",
+    "Fourth straight session of small-cap underperformance on a day all twelve sectors fell.",
+    "It closed only five cents below the line. A tick higher and this reads as a hold."],
+   ["AAPL","&mdash;","g","2 Up &mdash; the breakout","g",
+    "Took Wednesday's 319.15 high, ran to 326.74 and closed 326.57, three cents off the high on 70.0M shares. The 317.86 ceiling finally gave way.",
+    "close 326.57 &middot; <b>+3.56%</b> &middot; high 326.74",
+    "The only real strength on the board, on a day nothing else worked.",
+    "Five sessions of failing at 317.86 before this. The break came the day after the launch."],
+   ["XOM","T1","y","2 Up &mdash; held by five cents","y",
+    "Opened 167.00, made its 167.37 high early, then fell to 163.18 before closing 165.23 &mdash; five cents above the 165.18 trigger.",
+    "close 165.23 &middot; <b>+0.61%</b> &middot; low 163.18",
+    "Technically held the trigger, and it was one of only two green names on the sheet.",
+    "It gave back over four dollars from the high. Holding by five cents is not confirmation."],
+   ["QQQ","T1","g","Inside (1) &mdash; resolved down","g",
+    "Premarket was already six points under the 714.02 inside-bar low and the session never reclaimed it. Opened 707.55, high 712.06, closed 708.69.",
+    "close 708.69 &middot; <b>&minus;1.06%</b> &middot; never above 712.06",
+    "The inside bar resolved down exactly as called and the level held as resistance all day.",
+    "The whole move was the gap again. Open to close was +1.14 points."],
+   ["AVAV","3","y","2-1-2 fired &mdash; then failed","r",
+    "Cleared the 150.04 trigger and ran to 159.24, then round-tripped the entire move to close 147.065, back inside the inside bar and below its own entry.",
+    "close 147.07 &middot; <b>+4.45%</b> &middot; from high <b>&minus;7.6%</b>",
+    "Green on the day, and the beat was real &mdash; $0.59 against $0.30.",
+    "A trigger that fires and closes back inside the range is a failed 2-1-2 whatever the sign."],
+   ["ORCL","T1","g","Outside (3) &mdash; event, not setup","g",
+    "Opened 158.375 and fell all session to a 152.52 low, closing 152.94 on 56.8M shares, down 5.38% before the print even landed.",
+    "close 152.94 &middot; <b>&minus;5.38%</b> &middot; low 152.52",
+    "The note said <b>&lsquo;no level survives a double-digit implied move&rsquo;</b> and declined to trade it.",
+    "It beat after the bell. That is Friday's problem, and it did not help Thursday."],
+   ["SNDK","&mdash;","r","Sold hard &mdash; memory unwind","r",
+    "Opened 1725.44, fell to 1674.00 and closed 1692.59, a fourth consecutive session lower from the 1740 close on 9/4.",
+    "close 1692.59 &middot; <b>&minus;4.06%</b>",
+    "Nothing to salvage. MU &minus;4.90% and INTC &minus;5.57% went with it.",
+    "Its cumulative dark-pool flow read <b>mixed</b> across this entire decline."]
+  ]
+ },
+ "how_played_out": [
+  [
+   "Two cautions, and both of them were worth more than any entry on the sheet.",
+   "CVX was written as <i>&ldquo;don't blindly hop in&rdquo;</i> on a +$3 premarket gap, and it <b>opened at 217.40 &mdash; the high of the entire session &mdash; and closed red at 212.76</b>. IWM was written as <i>&ldquo;has to get under $287.75&rdquo;</i>, a requirement rather than an assumption, and it closed <b>287.70</b>. On a day when all twelve sectors fell, the sheet's value was almost entirely in what it declined to do and what it refused to assume. Neither line generated a trade on its own; both prevented a bad one."
+  ],
+  [
+   "AVAV is the best argument in this book for judging a trigger on the close rather than the extreme.",
+   "The levels were precise &mdash; <b>$150.04</b> and <b>$139.77</b>, Wednesday's exact high and low. The upside fired and ran <b>6.1% past the entry to 159.24</b>. Anyone who took it and held to the bell watched <b>&minus;7.6% from the high</b> and finished <b>below the entry price</b> at 147.065, back inside the range the breakout supposedly left. The day prints <b>+4.45%</b> green, which is the number that would go in a spreadsheet and the number that describes none of what happened. The written preference &mdash; <i>prefers it to sell off with FTFC</i> &mdash; was for the other side, and that side never triggered either."
+  ],
+  [
+   "This was a rates day and the sector board says so without ambiguity.",
+   "<b>Twelve of twelve red.</b> Energy included, with Brent briefly over <b>$108</b>. The 10-year reached <b>4.95%</b>, its highest in nearly three years, the 30-year touched <b>5.36%</b>, and the ECB hiked with Lagarde calling it a <b>&ldquo;no brainer.&rdquo;</b> When the single group that has led every session for a week closes lower on a day its own commodity is up 6%, the discount rate is doing the work, not the sector story. The worst of it was the most rate-sensitive: SMH, materials, industrials and utilities all down over 2%."
+  ],
+  [
+   "Apple was the only thing that worked, and it worked the day after its catalyst.",
+   "<b>+3.56% to 326.57</b>, three cents off the session high, on 70.0M shares, on a day nothing else was green. This report spent five sessions tracking a name that could not reclaim <b>317.86</b>, wrote that the event was midday rather than at the open, and noted the launch-day move would be a reaction rather than the news. The break came <b>the session after</b> the keynote, which is the pattern worth keeping: the event created the range, and the day after created the trend."
+  ]
+ ],
+ "darkpool": {
+  "note": "<b>Wednesday's board was graded today and the bid-side flip did not work on a one-day horizon.</b> Wednesday's largest print on the tape was <b>IVV $1.1B (bid)</b> &mdash; the first bid lean up top after four straight ask sessions &mdash; and cumulative flow went with it, <b>AVGO $1.9B bid</b>, <b>NVDA $1.8B bid</b>, <b>GOOGL $1.4B bid</b>. Thursday then produced a session with <b>all twelve sectors red</b>, SPY <b>&minus;0.60%</b> and SMH <b>&minus;2.35%</b>. The bid names themselves: <b>AVGO &minus;0.99%</b>, <b>NVDA &minus;2%</b>, <b>GOOGL &minus;1.72%</b> &mdash; nought for three on the day. The one that did resolve was <b>ORCL $371M (bid, AH)</b>, parked in Oracle the night before earnings: the stock fell <b>5.38%</b> during the session and then <b>beat by $0.18 after the bell</b>, which is exactly what a bid print ahead of a print would be positioning for. Worth holding both facts: the index bid lean was early, and the single-name bid into a catalyst was right.",
+  "right_note": "WEDNESDAY 9/9 TAPE &middot; GRADED",
+  "dim": true,
+  "chips": [
+   ["IVV", "$1.1B", "bid &#8594; SPY &minus;0.60% &middot; MISS", "r"],
+   ["AVGO", "$1.9B", "bid &#8594; &minus;0.99% &middot; MISS", "r"],
+   ["NVDA", "$1.8B", "bid &#8594; &minus;2% &middot; MISS", "r"],
+   ["GOOGL", "$1.4B", "bid &#8594; &minus;1.72% &middot; MISS", "r"],
+   ["ORCL", "$371M", "bid &#8594; beat $0.18 AH &middot; HIT", "g"],
+   ["HPE", "$310M", "ask &#8594; &minus;2.7% &middot; HIT", "g"],
+   ["SLB", "$276M", "bid &#8594; flat &middot; PUSH", "y"],
+   ["ADI", "$91.3M", "mid &#8594; &minus;2.18%", "y"]
+  ]
+ },
+ "sectors": {
+  "right_note": "TWELVE OF TWELVE RED &mdash; A RATES DAY",
+  "rows": [
+   ["XLC", "Communications", -0.04],
+   ["XLE", "Energy", -0.58],
+   ["XLF", "Financials", -0.76],
+   ["XLV", "Health Care", -0.9],
+   ["XLP", "Staples", -1.09],
+   ["XLK", "Technology", -1.41],
+   ["XLY", "Discretionary", -1.81],
+   ["XLRE", "Real Estate", -1.92],
+   ["XLU", "Utilities", -2.14],
+   ["XLI", "Industrials", -2.22],
+   ["XLB", "Materials", -2.29],
+   ["SMH", "Semis", -2.35]
+  ]
+ },
+ "lessons": [
+  [
+   "&ldquo;Don't blindly hop in&rdquo; was worth more than any entry on the page.",
+   "g",
+   "CVX <b>opened at 217.40 and that was the high of the day</b>. Not near it &mdash; it. A +$3 premarket gap with bullish flow and extreme volume behind it delivered its entire move before the bell and then gave back more than five dollars. The instruction cost nothing to write, produced no position, and saved the top tick. Pair it with ORCL, written the same morning as <i>&lsquo;an event, not a setup&rsquo;</i>, which then fell 5.38%. Two refusals, two disasters avoided, zero trades."
+  ],
+  [
+   "Judge a trigger by the close, not by how far it ran.",
+   "r",
+   "AVAV cleared <b>$150.04</b> and reached <b>159.24</b> &mdash; a 6.1% run past the entry that would look like a triumph on any intraday chart. It closed <b>147.065</b>, below the trigger and back inside the bar it broke out of, <b>&minus;7.6% from the high</b>. The session prints +4.45% green. Three different numbers describe this day and only one of them &mdash; the close relative to the trigger &mdash; tells you the setup failed."
+  ],
+  [
+   "A level stated as a requirement is different from a level stated as a target.",
+   "g",
+   "IWM was written as <i>&ldquo;has to get under $287.75&rdquo;</i>. That phrasing makes the trade conditional on something observable rather than on a view, and it closed <b>287.70</b>. Compare it with AVAV, where two levels were named with a stated preference for the downside and the upside fired instead. Naming what must happen, rather than what you expect to happen, is what made the small-cap read usable on a day when every sector fell."
+  ],
+  [
+   "When energy closes red with Brent over $108, stop reading sector stories.",
+   "y",
+   "All twelve sectors fell, XLE included, on a session when its own commodity rose 6% and briefly topped <b>$108</b>. The 10-year hit <b>4.95%</b> and the 30-year <b>5.36%</b>. That combination has one explanation and it is the discount rate. The most rate-sensitive corners took the most damage &mdash; SMH, XLB, XLI and XLU all down over 2% &mdash; and no amount of commodity strength rescued the group that has led all week."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "&nbsp;",
+   "o",
+   "<b>August CPI at 7:30am CT</b> &mdash; the last inflation read before the FOMC decides on 9/16. Thursday's PPI already put <b>energy +4.2%</b> and <b>diesel +24.1%</b> into the pipeline, so the risk into the consumer print skews hot."
+  ],
+  [
+   "ORCL",
+   "g",
+   "Closed <b>152.94, &minus;5.38%</b> into its own print &mdash; and then <b>beat by $0.18</b> with the <b>backlog at $664B, up $209B year-over-year</b> and FY27 EPS guided above consensus. A name that fell 5% before the news and beat on it has a wide distribution tomorrow."
+  ],
+  [
+   "AAPL",
+   "g",
+   "Closed <b>326.57</b>, three cents off its high, the only real strength on a twelve-red board. The <b>317.86</b> level that rejected it five straight sessions is now nine dollars behind. Second day of follow-through is the test."
+  ],
+  [
+   "AVAV",
+   "y",
+   "Closed <b>147.065</b> after touching <b>159.24</b> &mdash; the 2-1-2 fired and failed inside one session. It is back inside Wednesday's 150.045-139.77 range, which means the same inside-day structure is live again with the same two levels."
+  ],
+  [
+   "SNDK",
+   "r",
+   "Closed <b>1692.59, &minus;4.06%</b>, a fourth straight session lower from the 1740 close on 9/4, with MU &minus;4.90% and INTC &minus;5.57% alongside. Its cumulative dark-pool flow has read <b>mixed</b> through the entire decline."
+  ],
+  [
+   "&nbsp;",
+   "b",
+   "<b>Carry into Friday:</b> four consecutive down days, all twelve sectors red on the fourth, the 10-year at a near-three-year high and Brent over $100. CPI is the only thing on the calendar that can change the direction, and it arrives before the open."
+  ]
+ ],
+ "tts": [
+  {
+   "label": "Close",
+   "text": "Thursday September tenth, the close. Every one of the twelve sectors closed red, and the prep sheet's two cautions were the two things that mattered. Chevron opened at its own session high of two seventeen forty, the plus three dollar gap the sheet said not to blindly hop into, then fell all day to a two eleven thirty four low and closed two twelve seventy six, red on the day. The open was the high, exactly. And I W M got under two eighty seven seventy five. It traded down to two eighty seven eighteen and closed two eighty seven seventy, five cents below the level the sheet required, on a fourth consecutive session of small cap underperformance. A V A V is the one worth sitting with, because it triggered and then failed. The prep named a call entry at one fifty oh four and a put entry at one thirty nine seventy seven, which were Wednesday's exact high and exact low. Thursday took the upside trigger and ran to one fifty nine twenty four, six percent beyond the entry, then gave every point of it back to close one forty seven oh six and a half, inside the range it broke out of."
+  },
+  {
+   "label": "Results",
+   "text": "Grading the sheet. Two cautions paid and one trigger failed. Chevron is the cleanest illustration in this book of why a warning can be worth more than an entry. Bullish flow, extreme volume and war talk were all real, and the stock opened at the high of the day and closed red. Don't blindly hop in cost nothing to write, produced no position, and saved the top tick. I W M was written as a requirement rather than an expectation. Has to get under two eighty seven seventy five, and it closed two eighty seven seventy, five cents under. That phrasing is what made it usable. A V A V cleared one fifty oh four and ran to one fifty nine twenty four, which looks like a triumph on any intraday chart, and then round tripped the whole move to close one forty seven oh six and a half, below its own trigger and back inside the bar it broke out of. Minus seven point six percent from the high. The day still prints plus four point four five percent green. And Oracle, which the morning report declined to trade because no level survives a double digit implied move, fell five point three eight percent before the print even landed."
+  },
+  {
+   "label": "Lessons",
+   "text": "Four things to carry forward. First, don't blindly hop in was worth more than any entry on the page. Pair it with Oracle, written the same morning as an event and not a setup, which then fell more than five percent. Two refusals, two disasters avoided, zero trades. Second, judge a trigger by the close and not by how far it ran. A V A V went six percent past its entry and closed below it. Three different numbers describe that day and only one of them tells you the setup failed. Third, a level stated as a requirement is different from a level stated as a target. Has to get under is conditional on something observable. It closed five cents under. Fourth, when energy closes red with Brent over one hundred eight dollars, stop reading sector stories. All twelve sectors fell, the ten year hit four point nine five percent and the thirty year five point three six. That combination has one explanation and it is the discount rate."
+  }
+ ]
+}

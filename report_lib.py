@@ -749,6 +749,84 @@ def promote_featured(date, dirpath='.'):
     return True
 
 
+WR_STRIP_RE = re.compile(r'<div class="wr-strip">.*?</div></div>', re.S)
+
+
+def _pick_results(dirpath='.'):
+    """Every graded Top-3 pick, newest report first, as (date, ticker, mark).
+
+    The grade lives in the pick row's tag colour - 'g' win, 'r' loss, anything
+    else (y/o) a push. That is the same field the report renders, so the header
+    can never disagree with the pages underneath it.
+    """
+    out = []
+    for path in sorted(glob.glob(os.path.join(dirpath, 'close', '*.json')), reverse=True):
+        try:
+            data = json.load(open(path, encoding='utf-8'))
+        except (ValueError, OSError):
+            continue
+        date = os.path.basename(path)[:10]
+        for row in data.get('picks', {}).get('rows', []):
+            if len(row) > 4:
+                out.append((date, row[0], row[4]))
+    return out
+
+
+def refresh_record(dirpath='.'):
+    """Rewrite the landing-page record strip from the close reports themselves.
+
+    It had been hardcoded since whenever someone last typed it, so it drifted
+    further from the truth with every report published. Now it is derived.
+    """
+    path = os.path.join(dirpath, 'index.html')
+    if not os.path.exists(path):
+        return None
+    picks = _pick_results(dirpath)
+    if not picks:
+        return None
+
+    wins = sum(1 for _, _, m in picks if m == 'g')
+    losses = sum(1 for _, _, m in picks if m == 'r')
+    decided = wins + losses
+    rate = round(wins / decided * 100) if decided else 0
+
+    # Streak: consecutive decided picks, newest first. Pushes are skipped rather
+    # than counted - they break nothing and prove nothing.
+    streak, kind = 0, None
+    for _, _, m in picks:
+        if m not in ('g', 'r'):
+            continue
+        if kind is None:
+            kind = m
+        if m != kind:
+            break
+        streak += 1
+    label = f'{streak}&times; {"WIN" if kind == "g" else "MISS"}' if streak else '&mdash;'
+    good = kind == 'g'
+    badge = ('color:#3fb950;background:#0f2a17;' if good else 'color:#f85149;background:#2d0f0f;') + \
+            'padding:2px 8px;border-radius:4px;border:1px solid ' + \
+            ('#3fb95033;' if good else '#f8514933;')
+
+    strip = (
+        '<div class="wr-strip">'
+        '<div class="wr-item"><span class="wr-lbl">TOP-3 PICKS</span>'
+        f'<span class="wr-val">{wins}W - {losses}L</span></div>'
+        '<div class="wr-div"></div>'
+        '<div class="wr-item"><span class="wr-lbl">WIN RATE</span>'
+        f'<span class="wr-val" style="color:{"#3fb950" if rate >= 50 else "#f85149"};">{rate}%</span></div>'
+        '<div class="wr-div"></div>'
+        f'<div class="wr-item"><span class="wr-lbl">STREAK</span>'
+        f'<span class="wr-val" style="{badge}">{label}</span></div></div>'
+    )
+    idx = open(path, encoding='utf-8').read()
+    if not WR_STRIP_RE.search(idx):
+        return None
+    open(path, 'w', encoding='utf-8').write(WR_STRIP_RE.sub(lambda _: strip, idx, count=1))
+    pushes = len(picks) - decided
+    return {'wins': wins, 'losses': losses, 'pushes': pushes,
+            'rate': rate, 'streak': streak, 'kind': kind, 'reports': len({d for d, _, _ in picks})}
+
+
 def validate_index(dirpath='.'):
     """Fail if any dated row on the landing page is missing its headline."""
     idx = open(os.path.join(dirpath, 'index.html'), encoding='utf-8').read()
