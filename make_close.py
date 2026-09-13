@@ -39,6 +39,7 @@ def main(date, base=None, dirpath=None):
     html = R.build_close(data, base)
     R.write(out, html, 'close')              # validates, adds row, promotes featured
     rec = R.refresh_record('.')              # header record, derived from these files
+    tdl = R.refresh_trading_days('.')        # sessions-left badge
     R.validate_index('.')
 
     print(f'WROTE {out}  {len(html):,} bytes')
@@ -53,6 +54,9 @@ def main(date, base=None, dirpath=None):
         print(f'  record          {rec["wins"]}W-{rec["losses"]}L '
               f'({rec["pushes"]} push) {rec["rate"]}% | streak {rec["streak"]}x '
               f'{"win" if rec["kind"] == "g" else "miss"} | {rec["reports"]} reports')
+    if tdl:
+        print(f'  trading days    {tdl["left"]}/{tdl["total"]} left'
+              + (f'  (was {tdl["was"]})' if tdl.get('changed') else '  (unchanged)'))
     return out
 
 

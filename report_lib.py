@@ -751,6 +751,54 @@ def promote_featured(date, dirpath='.'):
 
 WR_STRIP_RE = re.compile(r'<div class="wr-strip">.*?</div></div>', re.S)
 
+TDL_RE = re.compile(r'(<div class="tdl-num">)(\d+/\d+)(</div>)')
+
+# NYSE full closures. Half sessions (day after Thanksgiving, Christmas Eve) are
+# still trading days and are deliberately not listed here.
+NYSE_HOLIDAYS = {
+    2026: [(1, 1), (1, 19), (2, 16), (4, 3), (5, 25), (6, 19),
+           (7, 3), (9, 7), (11, 26), (12, 25)],
+}
+
+
+def trading_days(year, on=None):
+    """(remaining, total) NYSE sessions for `year`, counted after `on`."""
+    hol = {_dt.date(year, m, d) for m, d in NYSE_HOLIDAYS.get(year, ())}
+    on = on or _dt.date.today()
+    days, d = [], _dt.date(year, 1, 1)
+    while d <= _dt.date(year, 12, 31):
+        if d.weekday() < 5 and d not in hol:
+            days.append(d)
+        d += _dt.timedelta(days=1)
+    return sum(1 for x in days if x > on), len(days)
+
+
+def refresh_trading_days(dirpath='.', on=None):
+    """Recount the landing page's trading-days-left badge.
+
+    Hardcoded like the record strip was, so it drifted one session per day. The
+    year is read off the badge itself rather than assumed, and a year with no
+    holiday table is left alone instead of being silently miscounted.
+    """
+    path = os.path.join(dirpath, 'index.html')
+    if not os.path.exists(path):
+        return None
+    idx = open(path, encoding='utf-8').read()
+    m = TDL_RE.search(idx)
+    if not m:
+        return None
+    lbl = re.search(r'<div class="tdl-lbl">[^<]*?(\d{4})[^<]*</div>', idx)
+    year = int(lbl.group(1)) if lbl else _dt.date.today().year
+    if year not in NYSE_HOLIDAYS:
+        return None
+    left, total = trading_days(year, on)
+    was = m.group(2)
+    if was == f'{left}/{total}':
+        return {'left': left, 'total': total, 'changed': False}
+    open(path, 'w', encoding='utf-8').write(
+        TDL_RE.sub(lambda mm: mm.group(1) + f'{left}/{total}' + mm.group(3), idx, count=1))
+    return {'left': left, 'total': total, 'was': was, 'changed': True}
+
 
 def _pick_results(dirpath='.'):
     """Every graded Top-3 pick, newest report first, as (date, ticker, mark).

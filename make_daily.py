@@ -41,6 +41,7 @@ def main(date, base=None, dirpath=None):
     out = f'{date}-premarket.html'
     html = R.build_daily(data, base)
     R.write(out, html, 'premarket')          # validates, adds row, promotes featured
+    tdl = R.refresh_trading_days('.')        # sessions-left badge
     R.validate_index('.')
 
     print(f'WROTE {out}  {len(html):,} bytes')
@@ -51,6 +52,9 @@ def main(date, base=None, dirpath=None):
     print(f'  em badges       {html.count("white-space:nowrap;" + chr(34) + ">&plusmn;")}')
     print(f'  provenance      {html.count("class=" + chr(34) + "card-header" + chr(34))} '
           f'(must be 0)')
+    if tdl:
+        print(f'  trading days    {tdl["left"]}/{tdl["total"]} left'
+              + (f'  (was {tdl["was"]})' if tdl.get('changed') else '  (unchanged)'))
     return out
 
 
