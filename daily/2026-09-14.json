@@ -1,0 +1,703 @@
+{
+ "title": "Monday, September 14, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>The AI trade just split in two, and it split on an essay rather than a number.</b> Anthropic CEO Dario Amodei published a piece Saturday calling on the industry to slow the pace at which it advances model capabilities &mdash; Sam Altman (&ldquo;I agree with Dario that we need to pace the frontier&rdquo;) and Elon Musk (&ldquo;Dario is right&rdquo;) both endorsed it within hours. The FT reported investors reading it straight through to <b>lower AI infrastructure capex</b>, and Barclays' Emmanuel Cau said a greater focus on safety raises questions about the pace of that spending. Nothing about demand changed. No guidance moved. <b>The semis are being repriced on a thesis about the future, not a datapoint about the present.</b>",
+  "summary": "<b>But look at who is actually down.</b> The sellers of AI are being destroyed &mdash; <b>VRT &minus;8.85%</b>, <b>ARM &minus;7.66%</b>, <b>INTC &minus;6.86%</b>, <b>SNDK &minus;6.08%</b>, <b>MU &minus;5.96%</b>, <b>AMD &minus;5.70%</b>, <b>QCOM &minus;5.69%</b>. The <i>buyers</i> of AI are green: <b>META +2.00%</b>, <b>GOOGL +1.45%</b>, <b>MSFT +0.55%</b>. Early wire copy had the hyperscalers falling with the group; by 7:35 CT they had separated cleanly. That divergence is the whole trade. If the industry genuinely slows capex, the hyperscalers are the ones who <i>stop writing the checks</i> and the chipmakers are the ones who stop cashing them."
+ },
+ "overview": "<b>Two unrelated stories are hitting the same session, and they push in opposite directions.</b> The first is the AI-safety repricing above. The second is oil, where <b>the single headline this book has named for a week as the trade-ender arrived and did the opposite of what was expected.</b> The Hormuz meeting in Muscat &mdash; the one Sunday's Week Ahead built its Monday around &mdash; <b>was postponed</b>. Oman said it was being put off &ldquo;in the interests of consensus&rdquo; after Yemen's Houthis attacked a military airbase in Saudi Arabia. Worse for supply: <b>Saudi Arabia shut its East-West crude pipeline</b> in the Riyadh and Madinah regions after drone attacks, which per Rystad leaves <b>the Strait of Hormuz as the kingdom's only route for moving large volumes of crude westward</b>. The bypass is gone. <b>WTI +2.6% to $102.66, Brent +2.7% to $107.38</b> &mdash; a four-month high, on top of a 9% week. <b>USO +2.83%</b> premarket and the whole complex bid: OXY +2.02%, COP +1.56%, CVX +1.53%, XOM +1.51%.<br><br><b>And the Fed decides into exactly this on Wednesday.</b> Futures now price an <b>87% chance of a 25bp hike</b> (up from 85% Friday, and 44% a month ago). Note what oil does to that call: Oxford Economics said Friday it expects a third consecutive set of moderate inflation readings to tip a narrow majority toward <i>holding</i>, but that <b>rising oil prices and still-elevated inflation make a risk-management case for a hike</b>. Every additional dollar of crude this morning strengthens the hawkish argument for a rate move that cannot do anything about the price of crude. Yields are not confirming, though &mdash; the <b>2-year fell 1.8bp to 4.63%</b> and the 10-year eased to 4.96%, and <b>gold is down 1.9% to $4,327</b>, which is not the behavior of a market pricing panic.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:35AM CT",
+  "em_label": "MARKS VS FRIDAY 9/11 CLOSE &mdash; AI-SAFETY REPRICING, OIL AT A 4-MONTH HIGH",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "SPY",
+      764.29,
+      759.14
+     ],
+     [
+      "QQQ",
+      714.88,
+      703.4
+     ],
+     [
+      "IWM",
+      288.89,
+      287.52
+     ],
+     [
+      "USO",
+      154.9,
+      159.28
+     ],
+     [
+      "GLD",
+      398.77,
+      392.99
+     ],
+     [
+      "XLE",
+      65.14,
+      65.98
+     ]
+    ]
+   ],
+   [
+    "AI SELLERS",
+    [
+     [
+      "VRT",
+      257.06,
+      234.3
+     ],
+     [
+      "ARM",
+      264.79,
+      244.5
+     ],
+     [
+      "INTC",
+      102.94,
+      95.88
+     ],
+     [
+      "SNDK",
+      1633.35,
+      1534.0
+     ],
+     [
+      "MU",
+      975.26,
+      917.12
+     ],
+     [
+      "AMD",
+      516.13,
+      486.7
+     ],
+     [
+      "QCOM",
+      181.97,
+      171.62
+     ],
+     [
+      "AVGO",
+      361.99,
+      347.5
+     ],
+     [
+      "TSM",
+      433.24,
+      417.6
+     ],
+     [
+      "NVDA",
+      218.29,
+      212.75
+     ],
+     [
+      "ORCL",
+      150.28,
+      142.97
+     ],
+     [
+      "SMCI",
+      40.1,
+      37.66
+     ]
+    ]
+   ],
+   [
+    "AI BUYERS",
+    [
+     [
+      "META",
+      648.03,
+      661.0
+     ],
+     [
+      "GOOGL",
+      338.5,
+      343.4
+     ],
+     [
+      "MSFT",
+      495.63,
+      498.35
+     ],
+     [
+      "AAPL",
+      332.27,
+      332.35
+     ],
+     [
+      "AMZN",
+      256.78,
+      254.68
+     ]
+    ]
+   ],
+   [
+    "ENERGY",
+    [
+     [
+      "OXY",
+      61.46,
+      62.7
+     ],
+     [
+      "COP",
+      137.35,
+      139.49
+     ],
+     [
+      "CVX",
+      214.06,
+      217.34
+     ],
+     [
+      "XOM",
+      165.99,
+      168.5
+     ],
+     [
+      "HAL",
+      35.84,
+      36.19
+     ],
+     [
+      "SLB",
+      56.06,
+      56.41
+     ]
+    ]
+   ],
+   [
+    "THIS WEEK'S NAMES",
+    [
+     [
+      "CRM",
+      247.72,
+      254.8
+     ],
+     [
+      "INTU",
+      321.57,
+      329.4
+     ],
+     [
+      "OSCR",
+      32.77,
+      32.59
+     ],
+     [
+      "LEN",
+      79.6,
+      78.63
+     ],
+     [
+      "HOOD",
+      112.57,
+      113.35
+     ]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "THE SPLIT",
+   "META +2.00% vs MU &minus;5.96%",
+   "Buyers green, sellers red &mdash; on the same headline",
+   "This is the cleanest expression of the morning and it is not a single ticker, it is a <b>pair</b>. The AI-safety essay is a bearish datapoint for anyone whose revenue <i>is</i> AI capex and an ambiguous-to-bullish one for anyone whose margin is <i>reduced by</i> AI capex. <b>META +2.00%, GOOGL +1.45%, MSFT +0.55%</b> against <b>VRT &minus;8.85%, ARM &minus;7.66%, MU &minus;5.96%, AMD &minus;5.70%</b>. Early wire copy grouped them together and the tape separated them within the hour. <b>The risk:</b> this is a one-morning divergence off an opinion piece, not a demand print, and it can snap back just as fast on a single Trump comment &mdash; he already pushed back Sunday, calling the concerns &ldquo;very negative forces&hellip; bringing up things that won't happen.&rdquo;"
+  ],
+  [
+   "T2",
+   "g",
+   "USO",
+   "+2.83%",
+   "The trade-ender arrived and reversed",
+   "Every energy setup this book carried last week named the Hormuz meeting as the single headline that ends the trade. <b>It arrived, and it was postponed</b> &mdash; Oman shelved it after the Houthi strike on a Saudi airbase. The escalation matters more than the cancellation: <b>Saudi Arabia shut its East-West pipeline</b>, which Rystad says leaves Hormuz as the kingdom's only large-volume westward route. <b>Brent $107.38, a four-month high, after a 9% week.</b> The lesson is the one the Week Ahead led with in different words &mdash; a meeting was never a reopening, and now there is not even a meeting. <b>The risk:</b> this is now a crowded, extended long into a Fed that may hike partly <i>because</i> of it."
+  ],
+  [
+   "T3",
+   "y",
+   "CRM",
+   "+2.86%",
+   "Dreamforce bid, into a fade pattern",
+   "Up on the eve of the keynote, which is exactly the setup our own five-event study says to distrust: <b>Dreamforce is not a volatility event</b> &mdash; 1.06x volume and 1.21 ATR in 2025, 0.91x and 0.76 ATR in 2024, and it <b>faded both years</b> (&minus;3.36%, &minus;1.36%). Three of the five investor days in that study gapped up and closed below the open. <b>CRM is gapping up.</b> Keynote is Tuesday 12:00p CT; the Investor &amp; Analyst Session that actually carries a financial framework is Wednesday 3:00p CT."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; MON 9/14",
+  "lead": "&#9888; <b>No prep sheet in hand yet this morning &mdash; this is the tape's own read, not Marcus's.</b> <b>The week is front-loaded with risk and the decision is Wednesday.</b> Two of Sunday's three Week Ahead premises changed overnight: the Hormuz meeting was postponed rather than held, and the hike is priced at 87% rather than 85%. Monday has <b>no tier-one US release</b>, so today is positioning, not information.",
+  "cards": [
+   [
+    "META",
+    "Gap up &middot; +2.00%",
+    "g",
+    "1",
+    "<b>Opens 661.00</b> from a 648.03 close &mdash; the only clean upside gap in the Mag complex while its own supply chain is down 6&ndash;9%.",
+    "<b>Watch whether it HOLDS green into the afternoon.</b> The gap is not the tell; persistence is.",
+    "If AI capex genuinely slows, Meta is a <b>payer</b> that pays less. The market is separating buyers from sellers and Meta is on the right side.",
+    "One morning off an opinion piece. A Trump comment or an OpenAI walk-back can erase the whole premise before lunch.",
+    "Ranked first because it is the cleanest expression of the day's actual idea, not the biggest number."
+   ],
+   [
+    "MU",
+    "Gap down &middot; &minus;5.96%",
+    "r",
+    "1",
+    "<b>917.12</b> against Friday's <b>975.26</b>, and this is the SECOND down session &mdash; it fell 4.9% Friday too.",
+    "<b>Do not fade it just because the number is big.</b> No earnings until <b>9/30</b>, so nothing arrives to reassure anyone before then.",
+    "Still 48% above its 200-day (622.07). Benzinga marks support near <b>887.50</b>, right at the 100-day of 885.09.",
+    "There is no floor of guidance under an opinion-driven gap. The whole memory complex went with it &mdash; SNDK &minus;6%, WDC and STX &minus;4%, SK hynix &minus;7%.",
+    "The instructive one: a 6% gap with no company news attached is a repricing, not a reaction."
+   ],
+   [
+    "USO",
+    "2 Up &middot; +2.83%",
+    "g",
+    "2",
+    "<b>159.28</b> vs 154.90, a four-month high after a 9% week. Brent <b>$107.38</b>, WTI <b>$102.66</b>.",
+    "<b>The catalyst was the ABSENCE of the meeting.</b> Oman postponed Muscat; Saudi shut its East-West pipeline.",
+    "Rystad: the shutdown leaves Hormuz as the kingdom's <b>only</b> large-volume westward route. That is a physical supply story.",
+    "Crowded and extended into a Fed that may hike partly <i>because</i> of this print. A genuine de-escalation headline unwinds it fast.",
+    "Every energy setup last week named this meeting as the trade-ender. It never happened."
+   ],
+   [
+    "CRM",
+    "Gap up &middot; +2.86%",
+    "y",
+    "3",
+    "<b>254.80</b> into the Dreamforce keynote &mdash; and gapping up is exactly the pattern our own study says to distrust here.",
+    "<b>Keynote Tue 12:00p CT. The Investor &amp; Analyst Session with the financial framework is Wed 3:00p CT.</b>",
+    "The Wednesday session carries actual numbers, unlike the keynote.",
+    "<b>Dreamforce faded both prior years</b> &mdash; &minus;3.36% in 2025, &minus;1.36% in 2024, on at-or-below average volume. Three of five investor days in the study gapped up and closed below the open.",
+    "Ranked third deliberately: the setup is a known fade pattern presenting as strength."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/14",
+   "tag": "TODAY",
+   "accent": "live",
+   "econ": [
+    [
+     "&mdash;",
+     "No tier-one US release. Positioning day before a live decision."
+    ]
+   ],
+   "earnings": [
+    [
+     "PLAY",
+     "PM"
+    ],
+    [
+     "HAIN",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "Hormuz",
+     "POSTPONED",
+     "Oman shelved the Muscat meeting; Saudi East-West pipeline shut"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/15",
+   "tag": "FOMC DAY 1",
+   "accent": "warn",
+   "econ": [
+    [
+     "All day",
+     "FOMC meeting begins. No communication until Wednesday."
+    ]
+   ],
+   "earnings": [
+    [
+     "TCOM",
+     "PM"
+    ],
+    [
+     "FPS",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "CRM",
+     "12:00p",
+     "Dreamforce keynote"
+    ],
+    [
+     "Bessent",
+     "Tue",
+     "House Financial Services testimony"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "DECISION",
+   "accent": "hot",
+   "econ": [
+    [
+     "7:30a",
+     "August Retail Sales"
+    ],
+    [
+     "1:00p",
+     "FOMC decision &mdash; 87% priced for 25bp"
+    ],
+    [
+     "1:30p",
+     "Warsh press conference"
+    ]
+   ],
+   "earnings": [
+    [
+     "LEN",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "OSCR",
+     "8:00a",
+     "Investor Day &mdash; long-term financial targets"
+    ],
+    [
+     "CRM",
+     "3:00p",
+     "Investor &amp; Analyst Session"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/17",
+   "tag": "AFTER",
+   "accent": "warn",
+   "econ": [
+    [
+     "6:00a",
+     "Bank of England decision"
+    ],
+    [
+     "7:30a",
+     "Weekly jobless claims"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "INTU",
+     "Thu",
+     "Investor Day"
+    ],
+    [
+     "SEC",
+     "Thu",
+     "24-hour trading roundtable &mdash; HOOD on the panel"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/18",
+   "tag": "EXPIRY",
+   "accent": "warn",
+   "econ": [
+    [
+     "All day",
+     "Triple witching &mdash; quarterly expiry two days after a live decision"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "ECHO",
+     "09/18",
+     "$17.5M $130P block expires"
+    ],
+    [
+     "TXN",
+     "09/18",
+     "$1.2M $260C sweep expires"
+    ]
+   ]
+  }
+ ],
+ "charts": [],
+ "charts_note": "",
+ "trump": {
+  "stamp": "PREMARKET 7:35AM CT",
+  "groups": [
+   [
+    "THE AI SELLERS &mdash; REPRICED",
+    [
+     [
+      "VRT",
+      -8.85
+     ],
+     [
+      "ARM",
+      -7.66
+     ],
+     [
+      "INTC",
+      -6.86
+     ],
+     [
+      "SNDK",
+      -6.08
+     ],
+     [
+      "MU",
+      -5.96
+     ],
+     [
+      "AMD",
+      -5.7
+     ],
+     [
+      "QCOM",
+      -5.69
+     ],
+     [
+      "ORCL",
+      -4.86
+     ],
+     [
+      "AVGO",
+      -4.0
+     ],
+     [
+      "TSM",
+      -3.61
+     ],
+     [
+      "NVDA",
+      -2.54
+     ]
+    ]
+   ],
+   [
+    "THE AI BUYERS &mdash; GREEN",
+    [
+     [
+      "META",
+      2.0
+     ],
+     [
+      "GOOGL",
+      1.45
+     ],
+     [
+      "MSFT",
+      0.55
+     ],
+     [
+      "AAPL",
+      0.02
+     ],
+     [
+      "AMZN",
+      -0.82
+     ]
+    ]
+   ],
+   [
+    "ENERGY &mdash; PIPELINE SHUT",
+    [
+     [
+      "USO",
+      2.83
+     ],
+     [
+      "OXY",
+      2.02
+     ],
+     [
+      "COP",
+      1.56
+     ],
+     [
+      "CVX",
+      1.53
+     ],
+     [
+      "XOM",
+      1.51
+     ],
+     [
+      "XLE",
+      1.29
+     ]
+    ]
+   ],
+   [
+    "THE INDEX",
+    [
+     [
+      "QQQ",
+      -1.61
+     ],
+     [
+      "SPY",
+      -0.67
+     ],
+     [
+      "IWM",
+      -0.47
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "PREMARKET GAPS VS FRIDAY 9/11 CLOSE",
+  "rows": [
+   [
+    "META",
+    "T1",
+    "g",
+    "Gap up &mdash; away from the group",
+    "g",
+    "The only Mag name with a clean upside gap on a session where its own supply chain is down 6&ndash;9%. If AI capex slows, Meta is a payer that pays less.",
+    "pre <b>661.00</b> &middot; <b>+2.00%</b> &middot; Fri close 648.03",
+    "<b>Holding green into the afternoon</b> is the tell that the market believes the capex logic rather than just selling beta.",
+    "A one-morning divergence off an opinion piece. Trump already pushed back on the premise Sunday."
+   ],
+   [
+    "MU",
+    "T1",
+    "r",
+    "Gap down &mdash; no floor under it",
+    "r",
+    "<b>917.12</b> against Friday's <b>975.26</b>, after a 4.9% fall on Friday itself. Two consecutive down sessions with no company news attached.",
+    "pre <b>917.12</b> &middot; <b>&minus;5.96%</b> &middot; Fri close 975.26",
+    "Still <b>48% above the 200-day</b> at 622.07; support marked near <b>887.50</b>, close to the 100-day at 885.09.",
+    "Nothing arrives to reassure the group before <b>MU earnings 9/30</b>. Whole memory complex went with it."
+   ],
+   [
+    "USO",
+    "T1",
+    "g",
+    "2 Up &mdash; four-month high",
+    "g",
+    "Takes out last week's range after a 9% week. The catalyst was the ABSENCE of the Hormuz meeting plus a shut Saudi pipeline.",
+    "pre <b>159.28</b> &middot; <b>+2.83%</b> &middot; Brent $107.38 / WTI $102.66",
+    "Rystad: the East-West shutdown leaves <b>Hormuz as the kingdom's only large-volume westward route</b>.",
+    "Crowded and extended into a Fed that may hike partly because of it."
+   ],
+   [
+    "VRT",
+    "T2",
+    "r",
+    "Worst of the complex",
+    "r",
+    "<b>234.30</b> against 257.06. Data-center infrastructure takes the hardest hit of any name on the board.",
+    "pre <b>234.30</b> &middot; <b>&minus;8.85%</b> &middot; Fri close 257.06",
+    "No company news. This is the market saying the capex thesis is the entire equity story here.",
+    "The purest capex proxy cuts both ways &mdash; it reprices hardest in either direction."
+   ],
+   [
+    "CRM",
+    "T2",
+    "y",
+    "Gap up into a fade pattern",
+    "y",
+    "Up on the eve of the keynote, which is exactly what our five-event study says to distrust.",
+    "pre <b>254.80</b> &middot; <b>+2.86%</b> &middot; Fri close 247.72",
+    "Wednesday 3:00p CT Investor &amp; Analyst Session is the half that carries a financial framework.",
+    "<b>Dreamforce faded both prior years</b> &mdash; &minus;3.36% and &minus;1.36%, on at-or-below-average volume."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "USO",
+    2.83,
+    "<b>Hormuz talks postponed</b>, not held &mdash; Oman shelved the Muscat meeting after the Houthi attack on a Saudi airbase. <b>Saudi shut its East-West crude pipeline</b>, leaving Hormuz as the kingdom's only large-volume westward route per Rystad. Brent <b>$107.38</b>, a four-month high."
+   ],
+   [
+    "CRM",
+    2.86,
+    "Dreamforce opens tomorrow. Keynote Tue 12:00p CT; the Investor &amp; Analyst Session carrying the financial framework is Wed 3:00p CT."
+   ],
+   [
+    "INTU",
+    2.43,
+    "Investor Day Thursday. Notable because it is the one name in our five-event study that closed meaningfully <b>above</b> its open (+1.18% on 1.34x volume)."
+   ],
+   [
+    "META",
+    2.0,
+    "Up while its supply chain sells off. If the industry slows AI capex, Meta is a buyer of that capex, not a seller of it."
+   ],
+   [
+    "OXY",
+    2.02,
+    "Crude at a four-month high on a supply disruption rather than a demand improvement."
+   ]
+  ],
+  "bear": [
+   [
+    "VRT",
+    -8.85,
+    "Hardest hit in the complex. Data-center infrastructure is the purest capex proxy on the board."
+   ],
+   [
+    "ARM",
+    -7.66,
+    "No company news. Repriced with the group on the AI-pacing essay."
+   ],
+   [
+    "INTC",
+    -6.86,
+    "Gives back a large part of last week's move."
+   ],
+   [
+    "SNDK",
+    -6.08,
+    "Memory and storage took the worst of it &mdash; WDC and STX each &minus;4%, SK hynix &minus;7%."
+   ],
+   [
+    "MU",
+    -5.96,
+    "Second down session. Reports <b>9/30</b>; consensus $31.30 vs $3.03 a year ago."
+   ],
+   [
+    "AMD",
+    -5.7,
+    "Reverses Friday's 2.5% gain entirely."
+   ],
+   [
+    "ORCL",
+    -4.86,
+    "Down with the group despite <b>Larry Ellison canceling his plan to sell shares</b> &mdash; a bullish insider signal that lost to the tape."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No dark-pool tape for this session yet.</b> Friday's prints are stale against a weekend that repriced the entire AI complex, and printing them here as though they informed today would be worse than leaving the panel honest. What is worth carrying forward instead is the <b>options</b> positioning already dated into this week: the board's two largest tickets, a <b>$17.5M ECHO $130P</b> block and a <b>$1.2M TXN $260C</b> sweep, both expire <b>09/18</b> &mdash; deliberately spanning Wednesday's decision and landing on triple witching.",
+  "right_note": "Also standing: an <b>OSCR $91K 33-strike put sweep for 9/18</b> written into open interest of just <b>120</b> contracts &mdash; new positioning ahead of Wednesday's Investor Day, not a roll.",
+  "dim": true,
+  "chips": []
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Monday September fourteenth, premarket. The AI trade split in two overnight, and it split on an essay rather than a number. Anthropic's Dario Amodei called on the industry to slow the pace of AI capability advances. Sam Altman and Elon Musk both agreed within hours. Investors read it straight through to lower AI infrastructure spending. Nothing about demand changed. But look closely at who is down. Vertiv is off eight point eight five percent, Arm off seven point six six, Intel six point eight six, Micron five point nine six, AMD five point seven zero. Those are the sellers of AI. The buyers are green. Meta up two percent, Alphabet up one point four five, Microsoft up a half. That divergence is the entire trade. If the industry really does slow capital spending, the hyperscalers stop writing the checks and the chipmakers stop cashing them. Second story. Oil. The Hormuz meeting this report has named for a week as the trade ender arrived and was postponed. Oman shelved it after the Houthis struck a Saudi airbase. And Saudi Arabia shut its East-West crude pipeline, which leaves the Strait of Hormuz as the kingdom's only large volume route west. Brent one oh seven thirty eight, a four month high. Oil is not fading. It is breaking out. The Fed decides into that on Wednesday, with eighty seven percent priced for a hike that cannot do anything about the price of crude."
+  }
+ ]
+}
