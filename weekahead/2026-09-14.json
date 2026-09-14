@@ -2,14 +2,14 @@
  "title": "September 14 - 18, 2026",
  "range": "MONDAY SEP 14 &ndash; FRIDAY SEP 18, 2026",
  "published": "PUBLISHED SUNDAY SEP 13",
- "lede": "<strong>This is the decision the whole quarter has been arguing toward.</strong> The <strong>FOMC decides Wednesday</strong> with futures near <strong>70% for a 25bp hike</strong> under Chair Warsh &mdash; up from 44% a month ago &mdash; and the inflation pair that was supposed to settle it did not. PPI's annual rate <strong>accelerated to 5.4%</strong> on Thursday; CPI landed in line Friday at <strong>+0.4% and 3.4%</strong>, core 2.4%. Both said the same thing: <strong>energy is doing the inflating</strong> &mdash; gasoline <strong>+27.4% year-over-year</strong>, over a third of CPI's monthly increase, diesel at a record near <strong>$6</strong> &mdash; which is precisely the kind of inflation a rate hike cannot fix. Then <strong>Monday's Hormuz talks</strong> could take the oil price down without touching any of it.",
+ "lede": "<strong>This is the decision the whole quarter has been arguing toward.</strong> The <strong>FOMC decides Wednesday</strong> with futures near <strong>85% for a 25bp hike</strong> under Chair Warsh &mdash; up from 44% a month ago &mdash; and the inflation pair that was supposed to settle it did not. PPI's annual rate <strong>accelerated to 5.4%</strong> on Thursday; CPI landed in line Friday at <strong>+0.4% and 3.4%</strong>, core 2.4%. Both said the same thing: <strong>energy is doing the inflating</strong> &mdash; gasoline <strong>+27.4% year-over-year</strong>, over a third of CPI's monthly increase, diesel at a record near <strong>$6</strong> &mdash; which is precisely the kind of inflation a rate hike cannot fix. Then <strong>Monday's Hormuz talks</strong> could take the oil price down without touching any of it.",
  "heroes": [
   {
    "cls": "gold",
    "rank": "BIGGEST CATALYST OF THE QUARTER",
    "title": "WED 9/16 &mdash; FOMC DECISION",
    "when": "DECISION PM &middot; WARSH PRESS CONFERENCE",
-   "why": "Futures price roughly <strong>70%</strong> odds of a 25bp hike, and the two-day meeting starts Tuesday. Warsh committed at Jackson Hole to bringing inflation down and BofA counted <strong>61 inflation references against 30 labor</strong> in that speech; Waller said he could back a hold <em>unless</em> August inflation ran hot. It ran in line, which resolved nothing &mdash; and the <strong>2-year sits at its highest in over two years</strong> with the 10-year near <strong>4.95%</strong> and the 30-year around <strong>5.36%</strong>. The tell to watch is not the decision but the press conference: the energy impulse is the part a hike does not address, and whether Warsh says so is the whole information content."
+   "why": "Futures price roughly <strong>85%</strong> odds of a 25bp hike, and the two-day meeting starts Tuesday. Warsh committed at Jackson Hole to bringing inflation down and BofA counted <strong>61 inflation references against 30 labor</strong> in that speech; Waller said he could back a hold <em>unless</em> August inflation ran hot. It ran in line, which resolved nothing &mdash; and the <strong>2-year sits at its highest in over two years</strong> with the 10-year near <strong>4.95%</strong> and the 30-year around <strong>5.36%</strong>. The tell to watch is not the decision but the press conference: the energy impulse is the part a hike does not address, and whether Warsh says so is the whole information content."
   },
   {
    "rank": "THE WEEK'S FIRST HEADLINE",
@@ -19,9 +19,9 @@
   },
   {
    "rank": "WHERE THE POSITIONING EXPIRES",
-   "title": "FRI 9/18 &mdash; QUAD WITCHING",
+   "title": "FRI 9/18 &mdash; TRIPLE WITCHING",
    "when": "TWO DAYS AFTER THE DECISION",
-   "why": "Both of the largest options tickets on Thursday's board expire this Friday, and neither was positioned for last week: a <strong>$17.5M ECHO $130P</strong> floor block and a <strong>$1.2M TXN $260C</strong> sweep, both dated <strong>09/18</strong> &mdash; through the Fed decision and onto quad witching. That is size deliberately carrying the FOMC. Quarterly expiry two sessions after a live rate decision concentrates a great deal of mechanical flow into one session, and it is the reason a clean post-FOMC trend can look very different by Friday's close."
+   "why": "Both of the largest options tickets on Thursday's board expire this Friday, and neither was positioned for last week: a <strong>$17.5M ECHO $130P</strong> floor block and a <strong>$1.2M TXN $260C</strong> sweep, both dated <strong>09/18</strong> &mdash; through the Fed decision and onto triple witching. That is size deliberately carrying the FOMC. Quarterly expiry two sessions after a live rate decision concentrates a great deal of mechanical flow into one session, and it is the reason a clean post-FOMC trend can look very different by Friday's close."
   }
  ],
  "days": [
@@ -32,18 +32,50 @@
    "pill_cls": "gold",
    "note": "The oil headline that has been moving the tape all week finally has a meeting attached to it.",
    "econ": [
-    ["&mdash;", "No tier-one US release. The week's data is back-loaded behind the Fed."],
-    ["Watch", "<strong>WTI back under $100</strong> from Thursday's $108 Brent. Diesel at a record near $6."]
+    [
+     "&mdash;",
+     "No tier-one US release. The week's data is back-loaded behind the Fed."
+    ],
+    [
+     "Watch",
+     "<strong>WTI back under $100</strong> from Thursday's $108 Brent. Diesel at a record near $6."
+    ]
    ],
    "earnings": [
-    ["PLAY", "PM &middot; est $0.30", false],
-    ["KMTS", "PM &middot; est -$0.62", false],
-    ["HAIN", "AM &middot; est -$0.03", false]
+    [
+     "PLAY",
+     "PM &middot; est $0.30",
+     false
+    ],
+    [
+     "KMTS",
+     "PM &middot; est -$0.62",
+     false
+    ],
+    [
+     "HAIN",
+     "AM &middot; est -$0.03",
+     false
+    ]
    ],
    "events": [
-    ["Hormuz &middot; Mon", "<strong>Gulf foreign ministers reportedly meet Iran on reopening the Strait.</strong>", true],
-    ["Bessent", "Warned a <strong>&ldquo;large bank&rdquo;</strong> faces sanction this week over its role helping Iran."],
-    ["Positioning", "Two sessions to reposition before the decision. Friday closed green on CPI relief."]
+    [
+     "Hormuz &middot; Mon",
+     "<strong>Gulf foreign ministers reportedly meet Iran on reopening the Strait.</strong>",
+     true
+    ],
+    [
+     "Bessent",
+     "Warned a <strong>&ldquo;large bank&rdquo;</strong> faces sanction this week over its role helping Iran."
+    ],
+    [
+     "Conferences",
+     "Baird Healthcare, BMO TMT, <strong>Barclays Financials</strong>, Jefferies Healthcare and Piper Sandler Growth Frontiers all open this week."
+    ],
+    [
+     "Positioning",
+     "Two sessions to reposition before the decision. Friday closed green on CPI relief."
+    ]
    ]
   },
   {
@@ -51,17 +83,47 @@
    "big": false,
    "note": "FOMC day one and the Dreamforce keynote. The last full session to be positioned before the decision.",
    "econ": [
-    ["All day", "<strong>FOMC meeting begins.</strong> No communication until Wednesday."]
+    [
+     "All day",
+     "<strong>FOMC meeting begins.</strong> No communication until Wednesday."
+    ]
    ],
    "earnings": [
-    ["TCOM", "PM &middot; est $0.91", true],
-    ["FPS", "AM &middot; est $0.23", false],
-    ["VRA", "AM &middot; est -$0.08", false]
+    [
+     "TCOM",
+     "PM &middot; est $0.91",
+     true
+    ],
+    [
+     "FPS",
+     "AM &middot; est $0.23",
+     false
+    ],
+    [
+     "VRA",
+     "AM &middot; est -$0.08",
+     false
+    ]
    ],
    "events": [
-    ["CRM &middot; 12:00p", "<strong>Dreamforce main keynote</strong> &mdash; Benioff on the &ldquo;Agentic Enterprise.&rdquo; Conference runs 9/15&ndash;9/17.", true],
-    ["Fed", "Still in the pre-meeting quiet period &mdash; no speakers between here and the decision."],
-    ["Rates", "2-year at its highest in over two years; 10-year ~4.95%, 30-year ~5.36%."]
+    [
+     "Bessent &middot; Tue",
+     "<strong>Annual testimony to House Financial Services.</strong> He warned last week that a &ldquo;large bank&rdquo; faces sanction over Iran.",
+     true
+    ],
+    [
+     "CRM &middot; 12:00p",
+     "<strong>Dreamforce main keynote</strong> &mdash; Benioff on the &ldquo;Agentic Enterprise.&rdquo; Conference runs 9/15&ndash;9/17.",
+     true
+    ],
+    [
+     "Credit &middot; Tue",
+     "Monthly delinquency and charge-off numbers from <strong>JPM, BAC, C</strong>, AXP, COF, SYF and BFH."
+    ],
+    [
+     "Conf &middot; Tue",
+     "<strong>HD</strong> 9:00a and <strong>AFRM</strong> at Barclays; <strong>RIVN</strong> 3:50p at Morgan Stanley Laguna; SNOW, WMT, JPM, WFC."
+    ]
    ]
   },
   {
@@ -69,23 +131,74 @@
    "big": true,
    "pill": "FOMC",
    "pill_cls": "gold",
-   "note": "Four separate catalysts stack on one session: OSCR's Investor Day before the open, the decision and presser midday, CRM's analyst session at the bell, LEN after it.",
+   "note": "Five catalysts stack on one session: retail sales before the open, OSCR's Investor Day, the decision and presser midday, CRM's analyst session at the bell, LEN after it.",
    "econ": [
-    ["PM", "<strong>FOMC DECISION.</strong> ~70% priced for a 25bp hike under Chair Warsh.", true],
-    ["After", "<strong>Warsh press conference</strong> &mdash; the energy impulse is what a hike cannot fix.", true]
+    [
+     "7:30am",
+     "<strong>August Retail Sales</strong> (Census) &mdash; the last tier-one print before the decision.",
+     true
+    ],
+    [
+     "1:00pm",
+     "<strong>FOMC DECISION.</strong> ~85% priced for a 25bp hike under Chair Warsh.",
+     true
+    ],
+    [
+     "1:30pm",
+     "<strong>Warsh press conference</strong> &mdash; the energy impulse is what a hike cannot fix.",
+     true
+    ]
    ],
    "earnings": [
-    ["LEN", "PM &middot; est $1.30", "lead"],
-    ["LUXE", "AM &middot; est -$0.14", false],
-    ["ISPR", "AM &middot; est $0.01", false],
-    ["ALMU", "PM &middot; est -$0.07", false]
+    [
+     "LEN",
+     "PM &middot; est $1.30",
+     "lead"
+    ],
+    [
+     "LUXE",
+     "AM &middot; est -$0.14",
+     false
+    ],
+    [
+     "ISPR",
+     "AM &middot; est $0.01",
+     false
+    ],
+    [
+     "ALMU",
+     "PM &middot; est -$0.07",
+     false
+    ]
    ],
    "events": [
-    ["OSCR &middot; 8:00a", "<strong>Investor Day</strong> &mdash; corporate strategy and <strong>long-term financial targets</strong>, an hour before the open.", true],
-    ["CRM &middot; 3:00p", "<strong>Dreamforce Investor &amp; Analyst Session</strong> &mdash; presentation and Q&amp;A on the financial framework, right at the bell.", true],
-    ["LEN &middot; PM", "<strong>Lennar Q3 after the bell</strong> &mdash; a homebuilder reporting hours after a live rate decision.", true],
-    ["Hike case", "PPI annual <strong>5.4%</strong>; Warsh's Jackson Hole commitment; 2-year at multi-year highs."],
-    ["Hold case", "Core CPI <strong>2.4%</strong>; food +0.1%, shelter +0.3% &mdash; the trend behaving under the pump."]
+    [
+     "OSCR &middot; 8:00a",
+     "<strong>Investor Day</strong> &mdash; corporate strategy and <strong>long-term financial targets</strong>, an hour before the open.",
+     true
+    ],
+    [
+     "CRM &middot; 3:00p",
+     "<strong>Dreamforce Investor &amp; Analyst Session</strong> &mdash; presentation and Q&amp;A on the financial framework, right at the bell.",
+     true
+    ],
+    [
+     "LEN &middot; PM",
+     "<strong>Lennar Q3 after the bell</strong> &mdash; a homebuilder reporting hours after a live rate decision.",
+     true
+    ],
+    [
+     "Also &middot; Wed",
+     "<strong>ON Semiconductor Analyst Day</strong> and <strong>Koppers Investor Day</strong> share the same midday block."
+    ],
+    [
+     "Hike case",
+     "PPI annual <strong>5.4%</strong>; Warsh's Jackson Hole commitment; 2-year at multi-year highs."
+    ],
+    [
+     "Hold case",
+     "Core CPI <strong>2.4%</strong>; food +0.1%, shelter +0.3% &mdash; the trend behaving under the pump."
+    ]
    ]
   },
   {
@@ -93,29 +206,69 @@
    "big": false,
    "note": "The session that prices the decision rather than anticipates it. Weekly claims in the morning.",
    "econ": [
-    ["7:30am", "<strong>Weekly jobless claims</strong> &mdash; running steady around 206k."],
-    ["All day", "First full session to trade the Fed's actual language rather than the expectation."]
+    [
+     "6:00am",
+     "<strong>Bank of England rate decision.</strong>",
+     true
+    ],
+    [
+     "7:30am",
+     "<strong>Weekly jobless claims</strong> &mdash; running steady around 206k."
+    ],
+    [
+     "All day",
+     "FOMC blackout ends. First full session trading the Fed's actual language."
+    ]
    ],
    "earnings": [],
    "events": [
-    ["Watch", "Whether the reaction holds overnight, or reverses into Friday's expiry."],
-    ["GLD", "The cleanest read on whether the move is real yields or fear. It broke 408.54 on 9/4 and has not reclaimed it."]
+    [
+     "INTU &middot; Thu",
+     "<strong>Intuit Investor Day</strong> &mdash; the one event in our five-name study that closed meaningfully ABOVE its open (+1.18% on 1.34x volume).",
+     true
+    ],
+    [
+     "SEC &middot; Thu",
+     "<strong>Public roundtable on 24-hour trading.</strong> NYSE, Nasdaq, Cboe, <strong>HOOD</strong>, Schwab, IBKR, BlackRock, Virtu, Citadel, Jane Street.",
+     true
+    ],
+    [
+     "Also",
+     "Investor days at ASH, Amer Sports, HUBS, YETI and Brinker."
+    ],
+    [
+     "GLD",
+     "The cleanest read on whether the move is real yields or fear. Broke 408.54 on 9/4 and has not reclaimed it."
+    ]
    ]
   },
   {
    "name": "FRI 9/18",
    "big": true,
-   "pill": "QUAD WITCHING",
+   "pill": "TRIPLE WITCHING",
    "pill_cls": "b",
    "note": "Quarterly expiry, two sessions after a live decision. Mechanical flow, not information.",
    "econ": [
-    ["All day", "<strong>Quad witching.</strong> Index futures, index options, single-stock options and futures all expire."]
+    [
+     "All day",
+     "<strong>Triple witching.</strong> Stock options, stock index futures and stock index options all expire together."
+    ]
    ],
    "earnings": [],
    "events": [
-    ["ECHO", "<strong>$17.5M $130P 09/18</strong> floor block &mdash; the largest options ticket on Thursday's board.", true],
-    ["TXN", "<strong>$1.2M $260C 09/18</strong> sweep &mdash; the largest sweep. Both deliberately span the Fed."],
-    ["Caution", "Expiry flow can reverse a clean post-FOMC trend without changing anything fundamental."]
+    [
+     "ECHO",
+     "<strong>$17.5M $130P 09/18</strong> floor block &mdash; the largest options ticket on Thursday's board.",
+     true
+    ],
+    [
+     "TXN",
+     "<strong>$1.2M $260C 09/18</strong> sweep &mdash; the largest sweep. Both deliberately span the Fed."
+    ],
+    [
+     "Caution",
+     "Expiry flow can reverse a clean post-FOMC trend without changing anything fundamental."
+    ]
    ]
   }
  ],
@@ -124,7 +277,7 @@
    "date": "WED 9/16",
    "ticker": "FOMC",
    "color": "#ffd54f",
-   "body": "<strong>The decision and the press conference.</strong> Futures near <strong>70%</strong> for 25bp, up from 44% a month ago. The asymmetry worth holding: a hike is largely priced, a hold is not. And the inflation now in the data is an <em>energy</em> impulse &mdash; gasoline +27.4% y/y, diesel at a record &mdash; which policy does not reach. <span class=\"pill r\">LIVE DECISION</span>"
+   "body": "<strong>The decision and the press conference.</strong> Futures near <strong>85%</strong> for 25bp, up from 44% a month ago. The asymmetry worth holding: a hike is largely priced, a hold is not. And the inflation now in the data is an <em>energy</em> impulse &mdash; gasoline +27.4% y/y, diesel at a record &mdash; which policy does not reach. <span class=\"pill r\">LIVE DECISION</span>"
   },
   {
    "date": "MON 9/14",
@@ -171,8 +324,8 @@
  ],
  "howto": [
   [
-   "A hike is priced; a hold is not. That asymmetry is the trade.",
-   "Futures sit near 70% for 25bp, which means the hike is largely in the price and the surprise lives on the other side. The reaction to an expected hike is usually about the press conference rather than the decision &mdash; specifically whether Warsh acknowledges that the inflation showing up in the data is an energy impulse that policy does not reach. Positioning for the decision itself is positioning for the outcome the market already holds."
+   "A hike is priced; a hold is not. And the two markets pricing it flatly disagree.",
+   "Fed funds futures sit near <strong>85%</strong> for 25bp (CME FedWatch, 9/12), up from 44% a month ago &mdash; so the hike is in the price and the surprise lives on the other side. But the prediction markets have not followed: <strong>Kalshi is at 57% and Polymarket at 49%</strong>, roughly a coin flip. That is a thirty-point gap between two venues pricing the same event, and it is the most interesting number on the board this week. Futures are the deeper market and the one dealers hedge against, so treat 85% as the level the tape is positioned for &mdash; but a gap that wide means a meaningful set of participants is underwriting the other outcome. The reaction to an expected hike is usually about the press conference rather than the decision: specifically whether Warsh acknowledges that the inflation in the data is an energy impulse policy does not reach."
   ],
   [
    "The two inflation prints disagreed about urgency and agreed about cause.",
@@ -188,8 +341,8 @@
   ],
   [
    "Size for Friday, not just for Wednesday.",
-   "Quad witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
+   "Triple witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
   ]
  ],
- "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. <strong>The OSCR and CRM events were confirmed against company IR</strong> (Oscar's 7/28 release; Salesforce's Dreamforce investor-events release) after an earlier build of this page wrongly reported no company events this week &mdash; the standing catalyst file had gone stale past 9/10 and its silence was read as an answer. Investor Day statistics are from our own five-event study, daily bars, n=5. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
+ "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; triple witching is Friday Sept 18.</strong> <strong>Rate-hike odds are CME FedWatch at ~85% as of 9/12; Kalshi (57%) and Polymarket (49%) price the same decision far lower.</strong> An earlier build of this page said ~70% - corrected 9/14. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. <strong>The OSCR and CRM events were confirmed against company IR</strong> (Oscar's 7/28 release; Salesforce's Dreamforce investor-events release) after an earlier build of this page wrongly reported no company events this week &mdash; the standing catalyst file had gone stale past 9/10 and its silence was read as an answer. Investor Day statistics are from our own five-event study, daily bars, n=5. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11. <strong>Corrected 9/14 from the weekly catalyst calendar:</strong> August Retail Sales (Wed 7:30a CT), the Bank of England decision (Thu 6:00a CT), Bessent's House testimony (Tue) and the INTU / SEC-roundtable events (Thu) were all missing from the Sunday build. OSCR's 8:00a CT start is from Oscar's own IR release; a secondary calendar groups it into a midday block instead."
 }
