@@ -12,10 +12,10 @@
    "why": "Futures price roughly <strong>85%</strong> odds of a 25bp hike, and the two-day meeting starts Tuesday. Warsh committed at Jackson Hole to bringing inflation down and BofA counted <strong>61 inflation references against 30 labor</strong> in that speech; Waller said he could back a hold <em>unless</em> August inflation ran hot. It ran in line, which resolved nothing &mdash; and the <strong>2-year sits at its highest in over two years</strong> with the 10-year near <strong>4.95%</strong> and the 30-year around <strong>5.36%</strong>. The tell to watch is not the decision but the press conference: the energy impulse is the part a hike does not address, and whether Warsh says so is the whole information content."
   },
   {
-   "rank": "THE WEEK'S FIRST HEADLINE",
-   "title": "MON 9/14 &mdash; HORMUZ TALKS",
-   "when": "GULF MINISTERS MEET IRAN",
-   "why": "Gulf foreign ministers are reportedly aiming to meet Iran on reopening the Strait. That report alone took <strong>WTI back under $100</strong> from Thursday's <strong>$108 Brent</strong> print and knocked <strong>USO 2.23%</strong> on Friday &mdash; before any meeting happened. Every energy setup this book carried last week named this as the single headline that ends the trade, and it is now dated. The complication is that <strong>nothing physical has changed</strong>: Houthis hold Mokha, the IEA calls refining <strong>&ldquo;stretched to the limit&rdquo;</strong>, and Bessent has warned a <strong>&ldquo;large bank&rdquo; faces sanction this week</strong> over its role helping Iran. A meeting is not a reopening."
+   "rank": "UPDATED MON 9/14 &mdash; POSTPONED",
+   "title": "MON 9/14 &mdash; HORMUZ TALKS CALLED OFF",
+   "when": "OMAN SHELVED THE MUSCAT MEETING",
+   "why": "<strong>The meeting did not happen.</strong> Oman postponed Monday's Muscat talks &ldquo;in the interests of consensus&rdquo; after Yemen's Houthis attacked a military airbase in Saudi Arabia. This page was built Sunday expecting the meeting to be the headline that ended the energy trade; <strong>the opposite occurred</strong>. Worse for supply, <strong>Saudi Arabia shut its East-West crude pipeline</strong> in the Riyadh and Madinah regions after drone attacks &mdash; which per Rystad leaves <strong>the Strait of Hormuz as the kingdom's only route for moving large volumes of crude westward</strong>. The bypass is gone. <strong>Brent $107.38 and WTI $102.66</strong>, a four-month high on top of a 9% week, with <strong>USO +2.83%</strong> premarket. The Sunday framing was that a meeting is not a reopening. It turned out there was not even a meeting."
   },
   {
    "rank": "WHERE THE POSITIONING EXPIRES",
@@ -28,17 +28,18 @@
   {
    "name": "MON 9/14",
    "big": true,
-   "pill": "HORMUZ",
+   "pill": "HORMUZ &middot; OFF",
    "pill_cls": "gold",
-   "note": "The oil headline that has been moving the tape all week finally has a meeting attached to it.",
+   "note": "The meeting that was supposed to end the energy trade was postponed, and Saudi Arabia lost its pipeline bypass.",
    "econ": [
     [
      "&mdash;",
      "No tier-one US release. The week's data is back-loaded behind the Fed."
     ],
     [
-     "Watch",
-     "<strong>WTI back under $100</strong> from Thursday's $108 Brent. Diesel at a record near $6."
+     "Oil",
+     "<strong>Brent $107.38 / WTI $102.66</strong> &mdash; a four-month high. USO +2.83%.",
+     true
     ]
    ],
    "earnings": [
@@ -60,13 +61,14 @@
    ],
    "events": [
     [
-     "Hormuz &middot; Mon",
-     "<strong>Gulf foreign ministers reportedly meet Iran on reopening the Strait.</strong>",
+     "Hormuz &middot; OFF",
+     "<strong>Oman postponed the Muscat meeting</strong> after a Houthi strike on a Saudi airbase. <strong>Saudi shut its East-West pipeline</strong> &mdash; Hormuz is now its only westward route.",
      true
     ],
     [
-     "Bessent",
-     "Warned a <strong>&ldquo;large bank&rdquo;</strong> faces sanction this week over its role helping Iran."
+     "AI selloff",
+     "An Amodei essay urging slower AI development repriced the semis &mdash; <strong>VRT &minus;8.85%, ARM &minus;7.66%, MU &minus;5.96%</strong> &mdash; while META, GOOGL and MSFT went green.",
+     true
     ],
     [
      "Conferences",
@@ -344,5 +346,5 @@
    "Triple witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
   ]
  ],
- "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; triple witching is Friday Sept 18.</strong> <strong>Rate-hike odds are CME FedWatch at ~85% as of 9/12; Kalshi (57%) and Polymarket (49%) price the same decision far lower.</strong> An earlier build of this page said ~70% - corrected 9/14. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. <strong>The OSCR and CRM events were confirmed against company IR</strong> (Oscar's 7/28 release; Salesforce's Dreamforce investor-events release) after an earlier build of this page wrongly reported no company events this week &mdash; the standing catalyst file had gone stale past 9/10 and its silence was read as an answer. Investor Day statistics are from our own five-event study, daily bars, n=5. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11. <strong>Corrected 9/14 from the weekly catalyst calendar:</strong> August Retail Sales (Wed 7:30a CT), the Bank of England decision (Thu 6:00a CT), Bessent's House testimony (Tue) and the INTU / SEC-roundtable events (Thu) were all missing from the Sunday build. OSCR's 8:00a CT start is from Oscar's own IR release; a secondary calendar groups it into a midday block instead."
+ "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; triple witching is Friday Sept 18.</strong> <strong>Rate-hike odds are CME FedWatch at ~85% as of 9/12; Kalshi (57%) and Polymarket (49%) price the same decision far lower.</strong> An earlier build of this page said ~70% - corrected 9/14. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. <strong>The OSCR and CRM events were confirmed against company IR</strong> (Oscar's 7/28 release; Salesforce's Dreamforce investor-events release) after an earlier build of this page wrongly reported no company events this week &mdash; the standing catalyst file had gone stale past 9/10 and its silence was read as an answer. Investor Day statistics are from our own five-event study, daily bars, n=5. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11. <strong>Corrected 9/14 from the weekly catalyst calendar:</strong> August Retail Sales (Wed 7:30a CT), the Bank of England decision (Thu 6:00a CT), Bessent's House testimony (Tue) and the INTU / SEC-roundtable events (Thu) were all missing from the Sunday build. OSCR's 8:00a CT start is from Oscar's own IR release; a secondary calendar groups it into a midday block instead. <strong>Updated Mon 9/14:</strong> Monday's Hormuz meeting was postponed, not held; the hero and Monday column now reflect that. Rate-hike odds moved to <strong>87%</strong> Monday morning."
 }
