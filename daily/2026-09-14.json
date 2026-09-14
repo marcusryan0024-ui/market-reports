@@ -435,8 +435,34 @@
    ]
   }
  ],
- "charts": [],
- "charts_note": "",
+ "charts": [
+  [
+   "META",
+   "charts/META_2026-09-14.png",
+   "Gap up &middot; the AI buyer, +2.00%"
+  ],
+  [
+   "MU",
+   "charts/MU_2026-09-14.png",
+   "Second down day &middot; &minus;5.96%, no news"
+  ],
+  [
+   "USO",
+   "charts/USO_2026-09-14.png",
+   "2 Up &middot; 4-month high, meeting called off"
+  ],
+  [
+   "VRT",
+   "charts/VRT_2026-09-14.png",
+   "Worst of the complex &middot; &minus;8.85%"
+  ],
+  [
+   "CRM",
+   "charts/CRM_2026-09-14.png",
+   "Gap up into Dreamforce &middot; a known fade"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
  "trump": {
   "stamp": "PREMARKET 7:35AM CT",
   "groups": [
