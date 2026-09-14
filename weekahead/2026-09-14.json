@@ -35,7 +35,11 @@
     ["&mdash;", "No tier-one US release. The week's data is back-loaded behind the Fed."],
     ["Watch", "<strong>WTI back under $100</strong> from Thursday's $108 Brent. Diesel at a record near $6."]
    ],
-   "earnings": [],
+   "earnings": [
+    ["PLAY", "PM &middot; est $0.30", false],
+    ["KMTS", "PM &middot; est -$0.62", false],
+    ["HAIN", "AM &middot; est -$0.03", false]
+   ],
    "events": [
     ["Hormuz &middot; Mon", "<strong>Gulf foreign ministers reportedly meet Iran on reopening the Strait.</strong>", true],
     ["Bessent", "Warned a <strong>&ldquo;large bank&rdquo;</strong> faces sanction this week over its role helping Iran."],
@@ -49,7 +53,11 @@
    "econ": [
     ["All day", "<strong>FOMC meeting begins.</strong> No communication until Wednesday."]
    ],
-   "earnings": [],
+   "earnings": [
+    ["TCOM", "PM &middot; est $0.91", true],
+    ["FPS", "AM &middot; est $0.23", false],
+    ["VRA", "AM &middot; est -$0.08", false]
+   ],
    "events": [
     ["Fed", "Still in the pre-meeting quiet period &mdash; no speakers between here and the decision."],
     ["Rates", "2-year at its highest in over two years; 10-year ~4.95%, 30-year ~5.36%."]
@@ -60,13 +68,19 @@
    "big": true,
    "pill": "FOMC",
    "pill_cls": "gold",
-   "note": "The decision, then the press conference. Futures near 70% for 25bp. The presser is where the information is.",
+   "note": "The decision, then the press conference &mdash; and then Lennar reports into it. Futures near 70% for 25bp.",
    "econ": [
     ["PM", "<strong>FOMC DECISION.</strong> ~70% priced for a 25bp hike under Chair Warsh.", true],
     ["After", "<strong>Warsh press conference</strong> &mdash; the energy impulse is what a hike cannot fix.", true]
    ],
-   "earnings": [],
+   "earnings": [
+    ["LEN", "PM &middot; est $1.30", "lead"],
+    ["LUXE", "AM &middot; est -$0.14", false],
+    ["ISPR", "AM &middot; est $0.01", false],
+    ["ALMU", "PM &middot; est -$0.07", false]
+   ],
    "events": [
+    ["LEN &middot; Wed", "<strong>Lennar Q3 after the bell &mdash; a homebuilder reporting hours after a live rate decision.</strong>", true],
     ["Hike case", "PPI annual <strong>5.4%</strong>; Warsh's Jackson Hole commitment; 2-year at multi-year highs."],
     ["Hold case", "Core CPI <strong>2.4%</strong>; food +0.1%, shelter +0.3% &mdash; the trend behaving under the pump."]
    ]
@@ -116,6 +130,18 @@
    "body": "<strong>Gulf ministers meeting Iran on the Strait of Hormuz.</strong> The report alone moved WTI back under $100 before any meeting occurred. USO closed Friday <strong>154.84</strong>, having run <strong>+9.07% on the week</strong>. Houthis still hold Mokha and the IEA still calls refining stretched to the limit, so a meeting is not a reopening. <span class=\"pill b\">HEADLINE-DATED</span>"
   },
   {
+   "date": "WED 9/16",
+   "ticker": "LEN",
+   "color": "#ff7b72",
+   "body": "<strong>Q3 FY26 after the bell &mdash; the same afternoon as the decision.</strong> A homebuilder reporting hours after a live rate hike, with the 30-year near <strong>5.36%</strong>. The estimate itself tells the story: <strong>$1.30 against the $2.00 it actually earned a year ago</strong>, a 35% decline in what the street even expects. And it has <strong>missed in four of the last six quarters</strong>. Closed Friday <strong>79.60</strong>; DHI 137.89, XHB 98.46. <span class=\"pill r\">SAME DAY AS FOMC</span>"
+  },
+  {
+   "date": "TUE 9/15",
+   "ticker": "TCOM",
+   "color": "#4fc3f7",
+   "body": "<strong>Q2 after the bell, est $0.91.</strong> The week's only other large-cap print, and it lands the night before the decision. Trip.com has <strong>beaten in five of the last six quarters</strong> &mdash; though the Q3 2025 blowout ($3.87 against $1.04) was a one-off gain rather than operations, so read the recent $0.83-on-$0.79 and $0.71-on-$0.61 as the real cadence. Closed Friday <strong>39.02</strong>. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
    "date": "TUE 9/22",
    "ticker": "QCOM",
    "color": "#4fc3f7",
@@ -146,5 +172,5 @@
    "Quad witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
   ]
  ],
- "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>The earnings column is deliberately empty: no verified slate for this week sits in catalysts.json, and inventing one would be worse than leaving it blank &mdash; check the catalyst page for the live list.</strong> The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
+ "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
 }
