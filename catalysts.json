@@ -299,6 +299,61 @@
    "note": "MARKET-WIDE AI CATALYST, UNDATED ON PURPOSE. Reports of strong Q2 performance and revenue approaching $190-200B by 2028. An S-1 filing is itself the tradeable event - it would be the first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing the AI complex (NVDA, AMD, MU, AVGO, CRWV, NBIS). Watch for the S-1 hitting EDGAR, not the IPO date. Do NOT assign a placeholder date.",
    "source": "Technical Scans morning note 2026-08-17",
    "verified": false
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "type": "delivery_report",
+   "date": null,
+   "date_window": "2026-10-01 to 2026-10-03",
+   "time_ct": "premarket",
+   "note": "Q3 production/deliveries. Historically the 2nd-3rd day of October, premarket. flagged_huge.",
+   "source": "catalysts.json recurring_patterns; Tesla IR cadence (Q2 2026 precedent)",
+   "verified": false
+  },
+  {
+   "ticker": "GM",
+   "name": "General Motors",
+   "type": "sales_report",
+   "date": null,
+   "date_window": "2026-10-01 to 2026-10-02",
+   "time_ct": null,
+   "note": "Q3 US sales, first business day after quarter-end.",
+   "source": "catalysts.json recurring_patterns",
+   "verified": false
+  },
+  {
+   "ticker": "F",
+   "name": "Ford",
+   "type": "sales_report",
+   "date": null,
+   "date_window": "2026-10-01 to 2026-10-02",
+   "time_ct": null,
+   "note": "Q3/monthly US sales.",
+   "source": "catalysts.json recurring_patterns",
+   "verified": false
+  },
+  {
+   "ticker": "RIVN",
+   "name": "Rivian",
+   "type": "delivery_report",
+   "date": null,
+   "date_window": "2026-10-01 to 2026-10-06",
+   "time_ct": null,
+   "note": "Q3 production/deliveries, early in the month after quarter-end. flagged_huge.",
+   "source": "catalysts.json recurring_patterns",
+   "verified": false
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco",
+   "type": "monthly_sales",
+   "date": null,
+   "date_window": "2026-10-06 to 2026-10-09",
+   "time_ct": "after close",
+   "note": "September sales. Sept 2025 sales landed Oct 8. Confirm at investor.costco.com in the final week of Sept. flagged_huge.",
+   "source": "catalysts.json recurring_patterns",
+   "verified": false
   }
  ],
  "universe": {
@@ -376,10 +431,22 @@
   }
  },
  "coverage": {
-  "checked_through": "2026-09-24",
-  "last_checked": "2026-09-13",
-  "_why": "Asserts how far forward this calendar has actually been maintained. Without it, 'no events in the window' is indistinguishable from 'nobody looked' - and on 2026-09-13 that ambiguity shipped: the file's entries stopped at 9/10, the week-ahead for 9/14-9/18 read the silence as an answer and published 'no verified slate exists for this week'. OSCR's Investor Day and Salesforce's Dreamforce investor session were both scheduled for 9/16 the whole time. A build that needs events past checked_through must FAIL, not render empty.",
-  "_how": "When you extend the calendar forward, move checked_through to the last date you actually swept and set last_checked to today. Never advance it to cover a window you did not really check.",
-  "_sweep_note": "Swept 9/13 for investor/analyst days, conferences and product events through 9/24. Found: OSCR 9/16, CRM 9/15+9/16, AUR 9/23; QCOM 9/22 and COST 9/24 already held. BWXT holds an Investor Day 9/29 - off-universe and outside the swept window, deliberately not added. checked_through stops at 9/24 because that is genuinely how far the sweep went."
+  "_why": "Holds the RECORD of forward sweeps. checked_through is derived from coverage.sweeps by catalyst_sweep.coverage_through() and must never be hand-set: on 2026-09-13 the week-ahead published \"no verified slate exists for this week\" while OSCR's Investor Day and Salesforce's Dreamforce investor session were both scheduled for 9/16. The file had simply stopped being swept - git shows exactly one forward sweep ever, on 2026-08-13 - and an empty query result was indistinguishable from nobody having looked.",
+  "sweeps": [
+   {
+    "on": "2026-09-13",
+    "scope": "universe",
+    "through": "2026-10-13",
+    "found": [
+     "QCOM 9/22-24 Snapdragon Summit (already held)",
+     "AUR 9/23 analyst day",
+     "TSLA/GM/F/RIVN early-Oct delivery+sales cluster (undated)",
+     "COST Sept monthly sales ~10/6-10/9 (undated)"
+    ],
+    "method": "Category sweep 2026-09-13 for 9/13-10/13. Searched: investor/analyst day announcements for Oct 2026; Tesla Q3 delivery cadence + GM/Ford/Rivian Q3 sales; NVIDIA GTC and AMD/Meta/Amazon product events; Snapdragon Summit and Adobe MAX; plus the broker high-market-cap earnings calendar across the full 30 days. LIMITS - this was a CATEGORY sweep, not 51 individual IR pages. Off-universe hits deliberately excluded: WDAY analyst day 10/13, CLS 10/27, BWXT 9/29. Outside horizon: NVDA GTC Washington Nov 30-Dec 3. UNRESOLVED: Adobe MAX dates conflict between the official site (Nov 10-12, Miami Beach) and secondary sources (Oct 28-30, LA) - outside this horizon either way, must be settled before the horizon reaches late October. NVDA GTC Berlin is an October regional event with no date found."
+   }
+  ],
+  "checked_through": "2026-10-13",
+  "_derived": "checked_through is DERIVED from coverage.sweeps by catalyst_sweep.coverage_through(). Never hand-edit it - record a sweep instead."
  }
 }

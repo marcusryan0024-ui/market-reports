@@ -1123,22 +1123,46 @@ def check_catalyst_coverage(start, end, path='catalysts.json'):
     The bug was never the missing rows, it was that ABSENCE AND IGNORANCE LOOK
     IDENTICAL from the outside. So this returns three states rather than a bool:
 
-        'covered'  - swept through the window, and events were found
+        'covered'  - swept through the window, and dated events were found
+        'pending'  - no dated events, but an UNDATED one is due inside the window
         'empty'    - swept through the window, and there genuinely are none
         'unswept'  - nobody has looked this far forward; the file cannot answer
 
     Only 'unswept' raises. A confirmed-empty week is a legitimate answer and
     must stay publishable - the point is that a page may never SAY a week is
     empty unless the calendar actually earned the right to claim it.
+
+    'pending' exists because the first version of this check filtered on the
+    `date` field alone, which silently skipped every entry carrying date:null
+    plus a date_window - exactly the recurring catalysts that matter most
+    (TSLA/RIVN deliveries, GM/F sales, COST monthly sales). The week of Oct 5
+    came back 'empty' while Costco's September sales were due inside it. Same
+    false claim as the original bug, one layer down.
     """
     cal = json.load(open(path, encoding='utf-8'))
-    through = (cal.get('coverage') or {}).get('checked_through')
+    # Derived from recorded sweeps, never read off the file as an assertion -
+    # see catalyst_sweep.coverage_through(). A bare number in the JSON would be
+    # exactly the unearned claim this check exists to prevent.
+    import catalyst_sweep
+    through = catalyst_sweep.coverage_through(cal)
     if not through:
         raise CatalystCoverageError(
-            f'{path} has no coverage.checked_through, so its silence is\n'
-            f'  unreadable. Sweep the calendar forward and record how far.')
+            f'{path} has no recorded forward sweep, so its silence is\n'
+            f'  unreadable - an empty result cannot be told apart from nobody\n'
+            f'  having looked. Run: python3 catalyst_sweep.py worklist')
     events = [e for e in cal.get('events', [])
               if e.get('date') and start <= e['date'] <= end]
+
+    # Undated entries carry "YYYY-MM-DD to YYYY-MM-DD" in date_window. An
+    # overlap with the published window means the catalyst is DUE here even
+    # though its exact day is not announced yet.
+    def _overlaps(e):
+        w = (e.get('date_window') or '').split(' to ')
+        return len(w) == 2 and w[0].strip() <= end and w[1].strip() >= start
+    pending = [e for e in cal.get('events', [])
+               if not e.get('date') and _overlaps(e)]
+    events = events + pending
+
     if through < end:
         raise CatalystCoverageError(
             f'CATALYST CALENDAR IS STALE FOR THIS WINDOW\n'
@@ -1149,7 +1173,9 @@ def check_catalyst_coverage(start, end, path='catalysts.json'):
             f'  Sweep company IR for the uncovered days, add what is real, then\n'
             f'  advance coverage.checked_through. Do NOT publish a page that\n'
             f'  calls this week empty - that claim has not been earned.')
-    return ('covered' if events else 'empty'), events
+    if any(e.get('date') for e in events):
+        return 'covered', events
+    return ('pending' if pending else 'empty'), events
 
 
 def write_weekahead(path, data, base, window=None):
