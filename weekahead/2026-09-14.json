@@ -1,0 +1,150 @@
+{
+ "title": "September 14 - 18, 2026",
+ "range": "MONDAY SEP 14 &ndash; FRIDAY SEP 18, 2026",
+ "published": "PUBLISHED SUNDAY SEP 13",
+ "lede": "<strong>This is the decision the whole quarter has been arguing toward.</strong> The <strong>FOMC decides Wednesday</strong> with futures near <strong>70% for a 25bp hike</strong> under Chair Warsh &mdash; up from 44% a month ago &mdash; and the inflation pair that was supposed to settle it did not. PPI's annual rate <strong>accelerated to 5.4%</strong> on Thursday; CPI landed in line Friday at <strong>+0.4% and 3.4%</strong>, core 2.4%. Both said the same thing: <strong>energy is doing the inflating</strong> &mdash; gasoline <strong>+27.4% year-over-year</strong>, over a third of CPI's monthly increase, diesel at a record near <strong>$6</strong> &mdash; which is precisely the kind of inflation a rate hike cannot fix. Then <strong>Monday's Hormuz talks</strong> could take the oil price down without touching any of it.",
+ "heroes": [
+  {
+   "cls": "gold",
+   "rank": "BIGGEST CATALYST OF THE QUARTER",
+   "title": "WED 9/16 &mdash; FOMC DECISION",
+   "when": "DECISION PM &middot; WARSH PRESS CONFERENCE",
+   "why": "Futures price roughly <strong>70%</strong> odds of a 25bp hike, and the two-day meeting starts Tuesday. Warsh committed at Jackson Hole to bringing inflation down and BofA counted <strong>61 inflation references against 30 labor</strong> in that speech; Waller said he could back a hold <em>unless</em> August inflation ran hot. It ran in line, which resolved nothing &mdash; and the <strong>2-year sits at its highest in over two years</strong> with the 10-year near <strong>4.95%</strong> and the 30-year around <strong>5.36%</strong>. The tell to watch is not the decision but the press conference: the energy impulse is the part a hike does not address, and whether Warsh says so is the whole information content."
+  },
+  {
+   "rank": "THE WEEK'S FIRST HEADLINE",
+   "title": "MON 9/14 &mdash; HORMUZ TALKS",
+   "when": "GULF MINISTERS MEET IRAN",
+   "why": "Gulf foreign ministers are reportedly aiming to meet Iran on reopening the Strait. That report alone took <strong>WTI back under $100</strong> from Thursday's <strong>$108 Brent</strong> print and knocked <strong>USO 2.23%</strong> on Friday &mdash; before any meeting happened. Every energy setup this book carried last week named this as the single headline that ends the trade, and it is now dated. The complication is that <strong>nothing physical has changed</strong>: Houthis hold Mokha, the IEA calls refining <strong>&ldquo;stretched to the limit&rdquo;</strong>, and Bessent has warned a <strong>&ldquo;large bank&rdquo; faces sanction this week</strong> over its role helping Iran. A meeting is not a reopening."
+  },
+  {
+   "rank": "WHERE THE POSITIONING EXPIRES",
+   "title": "FRI 9/18 &mdash; QUAD WITCHING",
+   "when": "TWO DAYS AFTER THE DECISION",
+   "why": "Both of the largest options tickets on Thursday's board expire this Friday, and neither was positioned for last week: a <strong>$17.5M ECHO $130P</strong> floor block and a <strong>$1.2M TXN $260C</strong> sweep, both dated <strong>09/18</strong> &mdash; through the Fed decision and onto quad witching. That is size deliberately carrying the FOMC. Quarterly expiry two sessions after a live rate decision concentrates a great deal of mechanical flow into one session, and it is the reason a clean post-FOMC trend can look very different by Friday's close."
+  }
+ ],
+ "days": [
+  {
+   "name": "MON 9/14",
+   "big": true,
+   "pill": "HORMUZ",
+   "pill_cls": "gold",
+   "note": "The oil headline that has been moving the tape all week finally has a meeting attached to it.",
+   "econ": [
+    ["&mdash;", "No tier-one US release. The week's data is back-loaded behind the Fed."],
+    ["Watch", "<strong>WTI back under $100</strong> from Thursday's $108 Brent. Diesel at a record near $6."]
+   ],
+   "earnings": [],
+   "events": [
+    ["Hormuz &middot; Mon", "<strong>Gulf foreign ministers reportedly meet Iran on reopening the Strait.</strong>", true],
+    ["Bessent", "Warned a <strong>&ldquo;large bank&rdquo;</strong> faces sanction this week over its role helping Iran."],
+    ["Positioning", "Two sessions to reposition before the decision. Friday closed green on CPI relief."]
+   ]
+  },
+  {
+   "name": "TUE 9/15",
+   "big": false,
+   "note": "FOMC day one. Historically quiet, and the last full session to be positioned before the decision.",
+   "econ": [
+    ["All day", "<strong>FOMC meeting begins.</strong> No communication until Wednesday."]
+   ],
+   "earnings": [],
+   "events": [
+    ["Fed", "Still in the pre-meeting quiet period &mdash; no speakers between here and the decision."],
+    ["Rates", "2-year at its highest in over two years; 10-year ~4.95%, 30-year ~5.36%."]
+   ]
+  },
+  {
+   "name": "WED 9/16",
+   "big": true,
+   "pill": "FOMC",
+   "pill_cls": "gold",
+   "note": "The decision, then the press conference. Futures near 70% for 25bp. The presser is where the information is.",
+   "econ": [
+    ["PM", "<strong>FOMC DECISION.</strong> ~70% priced for a 25bp hike under Chair Warsh.", true],
+    ["After", "<strong>Warsh press conference</strong> &mdash; the energy impulse is what a hike cannot fix.", true]
+   ],
+   "earnings": [],
+   "events": [
+    ["Hike case", "PPI annual <strong>5.4%</strong>; Warsh's Jackson Hole commitment; 2-year at multi-year highs."],
+    ["Hold case", "Core CPI <strong>2.4%</strong>; food +0.1%, shelter +0.3% &mdash; the trend behaving under the pump."]
+   ]
+  },
+  {
+   "name": "THU 9/17",
+   "big": false,
+   "note": "The session that prices the decision rather than anticipates it. Weekly claims in the morning.",
+   "econ": [
+    ["7:30am", "<strong>Weekly jobless claims</strong> &mdash; running steady around 206k."],
+    ["All day", "First full session to trade the Fed's actual language rather than the expectation."]
+   ],
+   "earnings": [],
+   "events": [
+    ["Watch", "Whether the reaction holds overnight, or reverses into Friday's expiry."],
+    ["GLD", "The cleanest read on whether the move is real yields or fear. It broke 408.54 on 9/4 and has not reclaimed it."]
+   ]
+  },
+  {
+   "name": "FRI 9/18",
+   "big": true,
+   "pill": "QUAD WITCHING",
+   "pill_cls": "b",
+   "note": "Quarterly expiry, two sessions after a live decision. Mechanical flow, not information.",
+   "econ": [
+    ["All day", "<strong>Quad witching.</strong> Index futures, index options, single-stock options and futures all expire."]
+   ],
+   "earnings": [],
+   "events": [
+    ["ECHO", "<strong>$17.5M $130P 09/18</strong> floor block &mdash; the largest options ticket on Thursday's board.", true],
+    ["TXN", "<strong>$1.2M $260C 09/18</strong> sweep &mdash; the largest sweep. Both deliberately span the Fed."],
+    ["Caution", "Expiry flow can reverse a clean post-FOMC trend without changing anything fundamental."]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "date": "WED 9/16",
+   "ticker": "FOMC",
+   "color": "#ffd54f",
+   "body": "<strong>The decision and the press conference.</strong> Futures near <strong>70%</strong> for 25bp, up from 44% a month ago. The asymmetry worth holding: a hike is largely priced, a hold is not. And the inflation now in the data is an <em>energy</em> impulse &mdash; gasoline +27.4% y/y, diesel at a record &mdash; which policy does not reach. <span class=\"pill r\">LIVE DECISION</span>"
+  },
+  {
+   "date": "MON 9/14",
+   "ticker": "OIL",
+   "color": "#3fb950",
+   "body": "<strong>Gulf ministers meeting Iran on the Strait of Hormuz.</strong> The report alone moved WTI back under $100 before any meeting occurred. USO closed Friday <strong>154.84</strong>, having run <strong>+9.07% on the week</strong>. Houthis still hold Mokha and the IEA still calls refining stretched to the limit, so a meeting is not a reopening. <span class=\"pill b\">HEADLINE-DATED</span>"
+  },
+  {
+   "date": "TUE 9/22",
+   "ticker": "QCOM",
+   "color": "#4fc3f7",
+   "body": "<strong>Snapdragon Summit 2026</strong>, Sept 22-24, Maui. Qualcomm's biggest platform showcase of the year &mdash; next flagship chipset (Snapdragon 8 Elite Gen 6 expected) plus the AI, connectivity and imaging roadmap. Multi-day, so the move can extend. <span class=\"pill p\">VERIFIED</span>"
+  },
+  {
+   "date": "THU 9/24",
+   "ticker": "COST",
+   "color": "#ffd54f",
+   "body": "<strong>Q4 FY2026 earnings.</strong> Date comes from a secondary aggregator and has <em>not</em> been confirmed against Costco IR. Verify before relying on it. <span class=\"pill r\">UNCONFIRMED</span>"
+  }
+ ],
+ "howto": [
+  [
+   "A hike is priced; a hold is not. That asymmetry is the trade.",
+   "Futures sit near 70% for 25bp, which means the hike is largely in the price and the surprise lives on the other side. The reaction to an expected hike is usually about the press conference rather than the decision &mdash; specifically whether Warsh acknowledges that the inflation showing up in the data is an energy impulse that policy does not reach. Positioning for the decision itself is positioning for the outcome the market already holds."
+  ],
+  [
+   "The two inflation prints disagreed about urgency and agreed about cause.",
+   "PPI's annual rate accelerated to <strong>5.4%</strong> with energy +4.2% and diesel +24.1%. CPI came in line at <strong>+0.4% and 3.4%</strong> with core at 2.4%, food +0.1% and shelter +0.3%. Read together: the underlying trend is behaving and the pump is doing the inflating, with gasoline <strong>+27.4% year-over-year</strong> accounting for over a third of CPI's monthly increase. That is the case for a hold and the reason a hike may not help, in the same two numbers."
+  ],
+  [
+   "Do not let Monday's oil headline price Wednesday's decision.",
+   "A Hormuz reopening lowers the oil price. It does not remove the energy already in the August data the Fed is deciding on. Last week proved how fast this moves in the other direction too &mdash; Brent went from under $100 to over $108 and back under $100 inside four sessions. Energy was the only bid for three straight days and then closed red on Thursday with Brent up 6%, which is when it stopped being a sector story and became a rates story."
+  ],
+  [
+   "Size for Friday, not just for Wednesday.",
+   "Quad witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
+  ]
+ ],
+ "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>The earnings column is deliberately empty: no verified slate for this week sits in catalysts.json, and inventing one would be worse than leaving it blank &mdash; check the catalyst page for the live list.</strong> The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
+}
