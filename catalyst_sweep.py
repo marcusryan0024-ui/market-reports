@@ -188,7 +188,18 @@ def _cli(argv):
         print('\n  recurring patterns to confirm against IR:')
         for k, v in w['recurring_to_confirm'].items():
             print(f'    {k:6} {v[:88]}')
+        print('\n  SWEEP WITH THESE, IN THIS ORDER:')
+        print('    1. The weekly Catalyst Watch newsletter (day-by-day schedule).')
+        print('    2. An events calendar (Wall-Street-Horizon style), day tabs.')
+        print('    3. The broker earnings calendar, for the earnings layer only.')
+        print('    4. Company IR - ONLY to confirm a specific event and its time.')
+        print('\n  Web search is step 4, never step 1. On 2026-09-13 a general-search')
+        print('  sweep of this exact window missed August Retail Sales, the Bank of')
+        print('  England decision, Bessent\'s testimony, INTU\'s investor day, ON Semi\'s')
+        print('  analyst day and the SEC 24-hour-trading roundtable. Search surfaces')
+        print('  what got PRESS-RELEASED; it does not enumerate a schedule.')
         print('\n  look for: investor/analyst days, product events, conferences,')
+        print('            macro releases, central-bank decisions, regulatory hearings,')
         print('            monthly sales/delivery reports, FDA dates, splits.')
         print('  then:     catalyst_sweep.record(through=..., method=..., found=[...])')
         return 0

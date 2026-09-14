@@ -229,6 +229,16 @@
    "verified": true
   },
   {
+   "ticker": null,
+   "name": "Bessent House Financial Services testimony",
+   "type": "macro_speaking",
+   "date": "2026-09-15",
+   "time_ct": null,
+   "note": "Annual Treasury testimony. He warned the prior week that a 'large bank' faces sanction over its role helping Iran - live thread given the Hormuz escalation.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
+   "verified": true
+  },
+  {
    "ticker": "OSCR",
    "name": "Oscar Health",
    "type": "investor_day",
@@ -246,6 +256,56 @@
    "time_ct": "3:00pm",
    "note": "Dreamforce Investor & Analyst Session, 1:00pm PT - presentation and Q&A on innovation and the FINANCIAL FRAMEWORK. This is the half of Dreamforce that carries numbers. Lands at the closing bell on FOMC decision day.",
    "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Upcoming-Events-at-Dreamforce/default.aspx",
+   "verified": true
+  },
+  {
+   "ticker": "ON",
+   "name": "ON Semiconductor",
+   "type": "analyst_day",
+   "date": "2026-09-16",
+   "time_ct": "12:00pm",
+   "note": "Analyst Day, same session as the FOMC decision. Semis are being repriced on the AI-pacing story this week, so guidance here lands into an unusually reactive tape.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
+   "verified": true
+  },
+  {
+   "ticker": null,
+   "name": "August Retail Sales",
+   "type": "macro_data",
+   "date": "2026-09-16",
+   "time_ct": "7:30am",
+   "note": "US Census Bureau. The last tier-one print before the FOMC decision the same afternoon.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
+   "verified": true
+  },
+  {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "type": "investor_day",
+   "date": "2026-09-17",
+   "time_ct": null,
+   "note": "Investor Day. In our five-event study INTU is the ONE name that closed meaningfully above its open (2025-09-18: 1.34x volume, 2.00 ATR, +1.18%). The 2024 event was the dull end (0.86x, 0.81 ATR, -1.27%). Counterexample to the sell-the-news pattern.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
+   "verified": true
+  },
+  {
+   "ticker": "HOOD",
+   "name": "Robinhood",
+   "type": "regulatory",
+   "date": "2026-09-17",
+   "time_ct": null,
+   "note": "SEC public roundtable on preparing for 24-HOUR TRADING. Panel includes NYSE/ICE, Nasdaq, Cboe, HOOD, Schwab, IBKR, BlackRock, Virtu, Citadel Securities, Jane Street, DTCC and FINRA. Directly relevant to HOOD's extended-hours business.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
+   "verified": true
+  },
+  {
+   "ticker": null,
+   "name": "Bank of England rate decision",
+   "type": "macro_data",
+   "date": "2026-09-17",
+   "time_ct": "6:00am",
+   "note": "Lands the morning after the FOMC.",
+   "source": "Catalyst Watch weekly newsletter 2026-09-14",
    "verified": true
   },
   {
@@ -444,6 +504,20 @@
      "COST Sept monthly sales ~10/6-10/9 (undated)"
     ],
     "method": "Category sweep 2026-09-13 for 9/13-10/13. Searched: investor/analyst day announcements for Oct 2026; Tesla Q3 delivery cadence + GM/Ford/Rivian Q3 sales; NVIDIA GTC and AMD/Meta/Amazon product events; Snapdragon Summit and Adobe MAX; plus the broker high-market-cap earnings calendar across the full 30 days. LIMITS - this was a CATEGORY sweep, not 51 individual IR pages. Off-universe hits deliberately excluded: WDAY analyst day 10/13, CLS 10/27, BWXT 9/29. Outside horizon: NVDA GTC Washington Nov 30-Dec 3. UNRESOLVED: Adobe MAX dates conflict between the official site (Nov 10-12, Miami Beach) and secondary sources (Oct 28-30, LA) - outside this horizon either way, must be settled before the horizon reaches late October. NVDA GTC Berlin is an October regional event with no date found."
+   },
+   {
+    "on": "2026-09-14",
+    "scope": "universe",
+    "through": "2026-10-13",
+    "found": [
+     "INTU investor day 9/17",
+     "ON Semi analyst day 9/16",
+     "SEC 24h-trading roundtable 9/17 (HOOD)",
+     "August Retail Sales 9/16",
+     "Bank of England 9/17",
+     "Bessent testimony 9/15"
+    ],
+    "method": "CORRECTIVE sweep 2026-09-14 over the SAME 9/13-10/13 window already recorded as swept. The 9/13 category sweep was searched via general web queries and MISSED all six of these, including two tier-one macro releases (August Retail Sales the morning of the decision, Bank of England the next day) and INTU's investor day - a name that sits in our own investor-day study. They were caught only because Marcus supplied the weekly Catalyst Watch newsletter plus an events-calendar screenshot. LESSON: general web search is NOT an adequate sweep instrument. It surfaces what was PRESS-RELEASED and misses the scheduled calendar - macro releases, conference slates, regulatory hearings, and the long tail of investor days. The weekly catalyst newsletter and a real events calendar are the primary instruments; web search is only for confirming a specific event against company IR."
    }
   ],
   "checked_through": "2026-10-13",
