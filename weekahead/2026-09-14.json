@@ -49,7 +49,7 @@
   {
    "name": "TUE 9/15",
    "big": false,
-   "note": "FOMC day one. Historically quiet, and the last full session to be positioned before the decision.",
+   "note": "FOMC day one and the Dreamforce keynote. The last full session to be positioned before the decision.",
    "econ": [
     ["All day", "<strong>FOMC meeting begins.</strong> No communication until Wednesday."]
    ],
@@ -59,6 +59,7 @@
     ["VRA", "AM &middot; est -$0.08", false]
    ],
    "events": [
+    ["CRM &middot; 12:00p", "<strong>Dreamforce main keynote</strong> &mdash; Benioff on the &ldquo;Agentic Enterprise.&rdquo; Conference runs 9/15&ndash;9/17.", true],
     ["Fed", "Still in the pre-meeting quiet period &mdash; no speakers between here and the decision."],
     ["Rates", "2-year at its highest in over two years; 10-year ~4.95%, 30-year ~5.36%."]
    ]
@@ -68,7 +69,7 @@
    "big": true,
    "pill": "FOMC",
    "pill_cls": "gold",
-   "note": "The decision, then the press conference &mdash; and then Lennar reports into it. Futures near 70% for 25bp.",
+   "note": "Four separate catalysts stack on one session: OSCR's Investor Day before the open, the decision and presser midday, CRM's analyst session at the bell, LEN after it.",
    "econ": [
     ["PM", "<strong>FOMC DECISION.</strong> ~70% priced for a 25bp hike under Chair Warsh.", true],
     ["After", "<strong>Warsh press conference</strong> &mdash; the energy impulse is what a hike cannot fix.", true]
@@ -80,7 +81,9 @@
     ["ALMU", "PM &middot; est -$0.07", false]
    ],
    "events": [
-    ["LEN &middot; Wed", "<strong>Lennar Q3 after the bell &mdash; a homebuilder reporting hours after a live rate decision.</strong>", true],
+    ["OSCR &middot; 8:00a", "<strong>Investor Day</strong> &mdash; corporate strategy and <strong>long-term financial targets</strong>, an hour before the open.", true],
+    ["CRM &middot; 3:00p", "<strong>Dreamforce Investor &amp; Analyst Session</strong> &mdash; presentation and Q&amp;A on the financial framework, right at the bell.", true],
+    ["LEN &middot; PM", "<strong>Lennar Q3 after the bell</strong> &mdash; a homebuilder reporting hours after a live rate decision.", true],
     ["Hike case", "PPI annual <strong>5.4%</strong>; Warsh's Jackson Hole commitment; 2-year at multi-year highs."],
     ["Hold case", "Core CPI <strong>2.4%</strong>; food +0.1%, shelter +0.3% &mdash; the trend behaving under the pump."]
    ]
@@ -131,6 +134,18 @@
   },
   {
    "date": "WED 9/16",
+   "ticker": "OSCR",
+   "color": "#ff7b72",
+   "body": "<strong>Investor Day, 8:00a CT &mdash; before the open, with long-term financial targets on the agenda.</strong> Our own five-event study makes this the one to respect: OSCR's June 2024 Investor Day ran <strong>2.15x average volume and a 2.16 ATR range</strong>, the most violent of the five, falling <strong>12.19% from the open</strong> before closing +0.42% from it. <em>The entire move was in the path</em> &mdash; a hold to the close made nothing. The setup rhymes with August: Q2 beat badly (EPS $1.10 vs $0.49, revenue $4.88B) and the stock still fell <strong>~12.8%</strong> on CMS churn guidance. It closed Friday <strong>32.77</strong>, <em>above</em> the $31.09 mean target, with BofA at $28. Friday's tape carried a <strong>$91K 33-strike put sweep for 9/18 into open interest of just 120</strong> &mdash; new positioning, not roll. <span class=\"pill r\">HIGHEST VOL EVENT</span>"
+  },
+  {
+   "date": "TUE-WED",
+   "ticker": "CRM",
+   "color": "#ffd54f",
+   "body": "<strong>Dreamforce 9/15&ndash;9/17: keynote Tue 12:00p CT, Investor &amp; Analyst Session Wed 3:00p CT.</strong> The same study says the opposite of OSCR here &mdash; <strong>Dreamforce is not a volatility event</strong>. Two for two on sub-1.25 ATR range at or below average volume, and it faded both years: <strong>-3.36% in 2025, -1.36% in 2024</strong>. A customer conference with no scheduled numbers. The Wednesday analyst session is the part that carries a financial framework, and it lands at the bell on decision day. Closed Friday <strong>247.72</strong>. <span class=\"pill b\">FADED 2 OF 2</span>"
+  },
+  {
+   "date": "WED 9/16",
    "ticker": "LEN",
    "color": "#ff7b72",
    "body": "<strong>Q3 FY26 after the bell &mdash; the same afternoon as the decision.</strong> A homebuilder reporting hours after a live rate hike, with the 30-year near <strong>5.36%</strong>. The estimate itself tells the story: <strong>$1.30 against the $2.00 it actually earned a year ago</strong>, a 35% decline in what the street even expects. And it has <strong>missed in four of the last six quarters</strong>. Closed Friday <strong>79.60</strong>; DHI 137.89, XHB 98.46. <span class=\"pill r\">SAME DAY AS FOMC</span>"
@@ -168,9 +183,13 @@
    "A Hormuz reopening lowers the oil price. It does not remove the energy already in the August data the Fed is deciding on. Last week proved how fast this moves in the other direction too &mdash; Brent went from under $100 to over $108 and back under $100 inside four sessions. Energy was the only bid for three straight days and then closed red on Thursday with Brent up 6%, which is when it stopped being a sector story and became a rates story."
   ],
   [
+   "On the two Investor Days: volume in the first 30 minutes tells you whether there is a trade at all.",
+   "Across the five Investor Days measured here, the volume ratio ordered the day's range almost perfectly &mdash; 2.15x down to 0.86x of 20-day average mapped monotonically onto 2.16 ATR down to 0.81 ATR. <strong>An Investor Day that does not bring volume does not bring movement</strong>, and that is visible early, before committing. The second pattern is direction: <strong>sell-the-news ran four of five</strong>, and three of the five gapped up and closed below the open &mdash; the gap was the trap each time. OSCR is the name with the violent precedent; CRM's Dreamforce is the name with the dull one. Trade them differently."
+  ],
+  [
    "Size for Friday, not just for Wednesday.",
    "Quad witching lands two sessions after a live decision, and the board's two largest options tickets are dated to it. A clean directional move on Wednesday can be substantially unwound by Friday's close through mechanical expiry flow that carries no information. Anything held from the decision through expiry is carrying two distinct risks, and only one of them is the Fed."
   ]
  ],
- "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
+ "foot": "Times Central. Marks are Friday 9/11 regular-session closes from the broker, not consolidated tape. <strong>The FOMC decision is Wednesday Sept 16 with a press conference following; quad witching is Friday Sept 18.</strong> Rate-hike odds are CME FedWatch as reported through Friday. <strong>Earnings dates and estimates come from the broker's calendar, and every name shown is a verified report date.</strong> Two unverified dates in the window are deliberately omitted rather than shown as tentative &mdash; PS on 9/15 and BRTX on 9/18. Thursday and Friday carry no verified report of size. <strong>The OSCR and CRM events were confirmed against company IR</strong> (Oscar's 7/28 release; Salesforce's Dreamforce investor-events release) after an earlier build of this page wrongly reported no company events this week &mdash; the standing catalyst file had gone stale past 9/10 and its silence was read as an answer. Investor Day statistics are from our own five-event study, daily bars, n=5. The Hormuz meeting is a reported intention rather than a confirmed event. Snapdragon Summit is verified; Costco's Sept 24 date is from a secondary aggregator and is not confirmed against company IR. CPI and PPI figures are as released 9/10 and 9/11."
 }

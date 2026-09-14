@@ -1106,11 +1106,68 @@ def validate_weekahead(html, n_days=5):
     return True
 
 
-def write_weekahead(path, data, base):
+class CatalystCoverageError(RuntimeError):
+    """The catalyst calendar was never swept over the window being published."""
+
+
+def check_catalyst_coverage(start, end, path='catalysts.json'):
+    """Answer whether catalysts.json can be TRUSTED over [start, end].
+
+    This exists because of a real failure on 2026-09-13. The file's entries
+    stopped at 9/10. The week-ahead for 9/14-9/18 queried it, got nothing back,
+    and published "no verified slate for this week exists" - while OSCR's
+    Investor Day and Salesforce's Dreamforce investor session had both been
+    scheduled for 9/16 for weeks. Nothing errored. An empty list is a perfectly
+    valid empty list, so the staleness was laundered into a confident claim.
+
+    The bug was never the missing rows, it was that ABSENCE AND IGNORANCE LOOK
+    IDENTICAL from the outside. So this returns three states rather than a bool:
+
+        'covered'  - swept through the window, and events were found
+        'empty'    - swept through the window, and there genuinely are none
+        'unswept'  - nobody has looked this far forward; the file cannot answer
+
+    Only 'unswept' raises. A confirmed-empty week is a legitimate answer and
+    must stay publishable - the point is that a page may never SAY a week is
+    empty unless the calendar actually earned the right to claim it.
+    """
+    cal = json.load(open(path, encoding='utf-8'))
+    through = (cal.get('coverage') or {}).get('checked_through')
+    if not through:
+        raise CatalystCoverageError(
+            f'{path} has no coverage.checked_through, so its silence is\n'
+            f'  unreadable. Sweep the calendar forward and record how far.')
+    events = [e for e in cal.get('events', [])
+              if e.get('date') and start <= e['date'] <= end]
+    if through < end:
+        raise CatalystCoverageError(
+            f'CATALYST CALENDAR IS STALE FOR THIS WINDOW\n'
+            f'  publishing   {start} -> {end}\n'
+            f'  swept only   through {through}\n'
+            f'  found        {len(events)} event(s), which proves nothing about\n'
+            f'               {through} -> {end}\n'
+            f'  Sweep company IR for the uncovered days, add what is real, then\n'
+            f'  advance coverage.checked_through. Do NOT publish a page that\n'
+            f'  calls this week empty - that claim has not been earned.')
+    return ('covered' if events else 'empty'), events
+
+
+def write_weekahead(path, data, base, window=None):
+    """Render a week-ahead page.
+
+    `window` is the (start, end) the page covers. It is required rather than
+    optional: the whole point of the coverage check is that it cannot be
+    forgotten on the one build that needed it.
+    """
+    if window is None:
+        raise TypeError(
+            'write_weekahead() needs window=(start, end) so the catalyst '
+            'calendar can be checked for staleness over the published days.')
+    state, events = check_catalyst_coverage(*window)
     html = build_weekahead(data, base)
     validate_weekahead(html, n_days=len(data['days']))
     open(path, 'w', encoding='utf-8').write(html)
-    return path
+    return path, state, events
 
 
 # ================================================================= daily report

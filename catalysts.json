@@ -1,338 +1,385 @@
 {
-  "_readme": {
-    "purpose": "Standing catalyst calendar. Holds dated events the earnings API does NOT provide: investor/analyst days, conferences, product launches, sales/delivery reports, FDA action dates, splits, shareholder meetings, filing deadlines, and macro speaking events. Routine earnings are pulled live from the earnings calendar and do not belong here.",
-    "consumed_by": [
-      "daily premarket report - today's entries feed the game plan, next 5 days feed the This Week EVENTS column",
-      "Sunday week-ahead page - full following-week view"
-    ],
-    "rules": [
-      "time is 12-hour Central Time, or null when only the date is known",
-      "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
-      "never add an entry without a source - omit it instead",
-      "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in.",
-      "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why.",
-      "AMENDED 2026-08-17: market cap earns consideration on its own. A large-cap off-universe name gets evaluated on merit rather than auto-rejected for not being on the list. Pull the real cap before judging - do not eyeball it. Cap alone is not sufficient though: weigh it against event-type signal, where monthly sales/results releases and analyst days are high signal, plain conference appearances are low, and annual shareholder MEETINGS are near-zero regardless of cap.",
-      "Entries with no announced date use date:null plus a date_window string. Never assign a placeholder date to an undated event."
-    ],
-    "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
-    "last_updated": "2026-08-26"
-  },
-  "events": [
-    {
-      "ticker": "SNDK",
-      "name": "SanDisk",
-      "type": "investor_day",
-      "date": "2026-08-13",
-      "time_ct": "8:00am",
-      "note": "MU and the DRAM complex trade in sympathy. Lined up with a $672M ask-side dark pool print the night before.",
-      "source": "FlowMS morning newsletter 2026-08-13",
-      "verified": true
-    },
-    {
-      "ticker": "SLB",
-      "name": "Schlumberger",
-      "type": "conference",
-      "date": "2026-08-17",
-      "time_ct": null,
-      "note": "31st annual EnerCom Denver - The Energy Investment Conference, Aug 17-19 at The Westin Denver Downtown. Largest independent investor conference serving oil & gas; 70+ presenting companies across E&P, oil service, midstream, royalty, AND nuclear/power/data center/hydrogen. Monday is the charity golf tournament - company presentations and 1x1s run Tue 8/18 and Wed 8/19. Matters as a sector event more than a single-name one: BP, APA, SM, LBRT, DNOW, WTTR, TXO, GTE, BKV, REPX, PROP, REI, SD, GRNT, BSM, FTK, E, VTS and ~20 more are all presenting in the same window, so the energy complex can move together. Secondary read-through to GEV and VRT from the nuclear/power/data-center track.",
-      "source": "https://www.oilandgas360.com/enercom-opens-registration-for-the-31st-annual-energy-investment-conference-august-17-19-2026-in-denver-colorado/",
-      "verified": true
-    },
-    {
-      "ticker": "RDDT",
-      "name": "Reddit",
-      "type": "index_inclusion",
-      "date": "2026-08-18",
-      "time_ct": "before the open",
-      "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
-      "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
-      "verified": true
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "type": "conference",
-      "date": "2026-08-18",
-      "time_ct": null,
-      "note": "TENTATIVE - VENUE UNIDENTIFIED. NVDA shows as a conference appearance on the 8/17 event feed, but the conference itself could not be identified. It is NOT Hot Chips (that is Aug 23-25 at Stanford) and NVIDIA IR publishes no August event. Flagged anyway because of the timing: this lands 8 days before Q2 FY27 earnings on 8/26, inside the pre-earnings window, so any management commentary carries outsized weight into the biggest print of the month. Confirm the venue and whether management (vs an engineer) presents before trading it.",
-      "source": "User event calendar 2026-08-17; ruled out Hot Chips via https://hotchips.org/",
-      "verified": false
-    },
-    {
-      "ticker": "CBRS",
-      "name": "Cerebras Systems",
-      "type": "analyst_day",
-      "date": "2026-08-18",
-      "time_ct": null,
-      "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE + CONFIRMED FLOW - HIGHEST CONVICTION OF THE OFF-UNIVERSE BATCH. Market cap $47.5B. Initially rejected on universe membership before the cap was pulled; that was wrong. AI training/inference chips (Wafer Scale Engine), so a direct NVDA competitor. Three things line up at once: analyst day is the highest-signal event type on the week's board, and it printed $237M on the bid PRE-MARKET Friday 8/14 in the dark pool - institutional money positioned ahead of the event - and it is deeply unprofitable (PE -96.97), meaning it trades entirely on roadmap narrative, which is exactly what an analyst day resets. 52-week range $160.81-$386.34, closed ~$220, so it sits nearer the low than the high.",
-      "source": "FlowMS morning newsletter 2026-08-17 (analyst day + $237M bid print); cap and range from Robinhood fundamentals 2026-08-14",
-      "verified": true
-    },
-    {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "type": "conference",
-      "date": "2026-08-18",
-      "time_ct": null,
-      "note": "OFF-UNIVERSE, ADDED ON CAP + MOMENTUM. Market cap $72.1B as of 8/14 close - larger than most of the universe list. 52-week range is $111.20 to $1,085.68 and it closed ~$920, so this is one of the most explosive names on the tape, not a sleepy large cap. AI optical / datacenter interconnect. Conference venue not identified from the event feed. Read-through to GLW (in-universe, optical fiber) and the broader AI datacenter complex. Note the negative PE (-11.26) - this trades on the AI capex narrative, not earnings, which is exactly why a conference appearance can move it.",
-      "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
-      "verified": false
-    },
-    {
-      "ticker": "PGR",
-      "name": "Progressive",
-      "type": "monthly_results",
-      "date": "2026-08-19",
-      "time_ct": null,
-      "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE. Market cap $121.8B - the second largest name on the week's event calendar. Progressive reports MONTHLY results, which is a genuine recurring catalyst rather than a conference slot, and it is the closest thing to a monthly read on the auto insurance cycle. Trading at a 10.5 PE near the low end of its 52-week range ($189.20 low 5/29 vs $254.93 high 8/20/25), so expectations are already depressed going in.",
-      "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
-      "verified": false
-    },
-    {
-      "ticker": "AUR",
-      "name": "Aurora Innovation",
-      "type": "analyst_day",
-      "date": "2026-08-20",
-      "time_ct": null,
-      "note": "OFF-UNIVERSE, ADDED ON EVENT TYPE. Market cap $14.0B. Analyst day is the highest-signal event type on the week's calendar - guidance and roadmap updates, not a fireside chat - and it is the only one on a name of real size. Autonomous trucking; unprofitable (PE -15.07) so this trades entirely on the roadmap, which is what an analyst day resets. Secondary read-through to the TSLA autonomy narrative (in-universe).",
-      "source": "User event calendar 2026-08-17; cap from Robinhood fundamentals 2026-08-14",
-      "verified": false
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "type": "earnings_call",
-      "date": "2026-08-26",
-      "time_ct": "3:20pm results / 4:00pm call",
-      "note": "Q2 FY2027. Results expected ~1:20pm PT (3:20pm CT), conference call 2:00pm PT (4:00pm CT). CFO written commentary posts immediately after the results release. Lands the day BEFORE Jackson Hole opens. Stored here despite being earnings because the earnings API carries no times. SEQUENCING NOTE added 2026-08-24: July PCE, core PCE and the Q2 GDP second estimate all release the SAME morning at 7:30am CT. The session therefore carries the Fed's preferred inflation gauge before the open and the largest single-name print of the month after the close, with Jackson Hole opening the next day.",
-      "source": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
-      "verified": true
-    },
-    {
-      "ticker": null,
-      "name": "Jackson Hole Economic Policy Symposium",
-      "type": "macro_speaking",
-      "date": "2026-08-27",
-      "time_ct": null,
-      "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' MATERIALLY BIGGER THAN A NORMAL YEAR: this is new Fed Chair KEVIN WARSH's FIRST Jackson Hole speech - a first-ever policy framing from a new Chair, not a routine reiteration. SPEECH DAY CONFIRMED 2026-08-24: Warsh delivers his first keynote as Chair on FRIDAY AUG 28. Week-ahead coverage names Friday explicitly; he is expected to have to address inflation directly, two days after the July PCE print lands Wednesday 8/26. TWO CORRECTIONS LOGGED: (1) an earlier entry had this as Aug 22 based on the FlowMS newsletter - the KC Fed date is Aug 27-29 and the verified date held; (2) the speaker was previously recorded as Powell - FlowMS issued its own correction 2026-08-17 naming Warsh as the new Chair.",
-      "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/ ; Friday keynote day confirmed via week-ahead coverage 2026-08-24",
-      "verified": true
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "type": "leadership",
-      "date": "2026-09-01",
-      "time_ct": null,
-      "note": "CEO TRANSITION TAKES EFFECT. John Ternus, SVP of Hardware Engineering, becomes CEO; Tim Cook becomes executive chairman of the board; Arthur Levinson, non-executive chairman for the past 15 years, becomes lead independent director. Announced April 2026 and unanimously approved by the board, so the news is old but THE EFFECTIVE DATE IS 9/1 - this is Apple's first CEO transition since Cook succeeded Jobs in 2011. Cook stays on to engage with policymakers. A scheduled, known-date leadership change on a $4.5T company is a different animal from an earnings surprise: the event is certain, only the reaction is not.",
-      "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
-      "verified": true
-    },
-    {
-      "ticker": "CRM",
-      "name": "Salesforce",
-      "type": "webinar",
-      "date": "2026-09-01",
-      "time_ct": "",
-      "note": "Q2 FY27 Product Adoption & Momentum webinar. Listed 11:00 AM on the corporate-events calendar; timezone not stated on the source, so not converted. Option implied straddle 3.5%.",
-      "source": "Corporate events calendar screenshot 2026-09-01",
-      "verified": true
-    },
-    {
-      "ticker": "LI",
-      "name": "Li Auto",
-      "type": "product_launch",
-      "date": "2026-09-01",
-      "time_ct": "",
-      "note": "Middle East sales commencement product launch event.",
-      "source": "Corporate events calendar screenshot 2026-09-01",
-      "verified": true
-    },
-    {
-      "ticker": "FROG",
-      "name": "JFrog",
-      "type": "conference",
-      "date": "2026-09-01",
-      "time_ct": "",
-      "note": "swampUP 2026, 9/1-9/3, with keynote. Option implied straddle 12.0%.",
-      "source": "Corporate events calendar screenshot 2026-09-01",
-      "verified": true
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "type": "investor_day",
-      "date": "2026-09-02",
-      "time_ct": null,
-      "note": "NAMED IN MORNING PREP 2026-08-27 AND 2026-08-28 AS THE MAIN FOCUS. Prep flagged two upcoming CRWD events (8/30 and 9/2) as a possible explosive move, with the 9/2 investor day the primary one. Plan recorded on the 8/28 sheet: possible CPW at end of day, but wait on the JR signal to confirm; no signal means the CPW entry moves to next week closer to the event. Context: CRWD reported 8/26 with net-new ARR $333M vs $286M expected and raised FY guidance, then ran to a fresh 52-week high of 229.75 on 8/28. Investor day is the highest-signal event type on the calendar - guidance and roadmap, not a fireside chat.",
-      "source": "Morning prep sheets 2026-08-27 and 2026-08-28",
-      "verified": true
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco",
-      "type": "monthly_sales",
-      "date": "2026-09-02",
-      "time_ct": "3:15pm",
-      "note": "AUGUST SALES RESULTS - DATE NOW CONFIRMED FROM COSTCO IR (previously carried only as a recurring pattern with no date). Scheduled 2026-09-02 at 1:15pm PT = 3:15pm CT, which is AFTER the 3:00pm CT close. Prior month for reference: July retail month (four weeks ended 2026-08-02) net sales $23.12B, +10.7% from $20.89B. Lands the same session as AVGO earnings and the CRWD investor day, making 9/2 the heaviest day of the week.",
-      "source": "https://investor.costco.com/events-and-presentations/events/event-details/2026/August-Sales-Results-2026-Qs4hMDL1Nn/",
-      "verified": true
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "type": "product_event",
-      "date": "2026-09-03",
-      "time_ct": null,
-      "note": "CYBERCAB LAUNCH EVENT, Austin TX. Invite-only with a public livestream; invites went out ~8/23-8/24. Framed by Tesla as a chance to 'experience the future of autonomy' - the public launch of the robotaxi product. This is the Cybercab date that had been carried on the catalyst-trading list without a confirmed day. Separate from the undated Roadster unveiling still on this calendar. Context: Nevada approved Tesla's robotaxi permit 8/21 and the stock rose ~5% that session.",
-      "source": "Tesla event invitations, reported 2026-08-23/24 (Electrek, Motor1, Tesla Oracle)",
-      "verified": true
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro Computer",
-      "type": "conference",
-      "date": "2026-09-03",
-      "time_ct": "",
-      "note": "Supermicro Open Storage Summit, running 2026-08-11 through 2026-09-03. Option implied straddle 6.5%.",
-      "source": "Corporate events calendar screenshot 2026-09-01",
-      "verified": true
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "type": "product_event",
-      "date": "2026-09-09",
-      "time_ct": null,
-      "note": "EVENT DATE NOW CONFIRMED as Sept 9 (was previously tracked only as a watch date for the expected invitation on 8/26 - see prior note history). iPhone 18 Pro, Pro Max, and a first foldable expected.",
-      "source": "User confirmed 2026-08-26",
-      "verified": false
-    },
-    {
-      "ticker": "RBLX",
-      "name": "Roblox",
-      "type": "product_event",
-      "date": "2026-09-10",
-      "time_ct": null,
-      "note": "RDC26 - Roblox Developers Conference, Sept 10-12 at the San Jose McEnery Convention Center. Roblox's flagship creator gathering and where it unveils engine upgrades, creator tools and monetization features - the supply side of bookings growth, and the venue that feeds the 10% of global gaming content revenue ambition management has repeated on earnings calls. Multi-day, so the move can extend across the window. Both legs of the 9/1 golden sweep (9/18 and 9/25 expirations) sit past it; a 9/11 weekly would expire the day the conference ends.",
-      "source": "https://devforum.roblox.com/t/save-the-date-rdc26/4556064",
-      "verified": true
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "type": "product_event",
-      "date": "2026-09-22",
-      "time_ct": null,
-      "note": "Snapdragon Summit 2026, Sept 22-24 in Maui. Qualcomm's biggest platform showcase of the year - next flagship chipset (Snapdragon 8 Elite Gen 6 expected) plus AI/connectivity/imaging roadmap. Multi-day, so the move can extend across the window.",
-      "source": "https://www.gizmochina.com/2026/06/30/qualcomm-confirms-snapdragon-summit-2026-dates-snapdragon-8-elite-gen-6-coming-september-22-24/",
-      "verified": true
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco",
-      "type": "earnings_call",
-      "date": "2026-09-24",
-      "time_ct": null,
-      "note": "Q4 FY2026 earnings. Date from a secondary aggregator, not yet confirmed against Costco IR - verify before relying on it.",
-      "source": "https://www.tipranks.com/stocks/cost/earnings",
-      "verified": false
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "type": "product_event",
-      "date": null,
-      "date_window": "as early as August 2026 - no firm date announced",
-      "time_ct": null,
-      "note": "New Roadster unveiling, reported to include a 'flying' stunt. Reported by The Information 2026-08-14; Tesla has not announced a date. Undated on purpose - do not assign one until Tesla confirms. Watch for an official announcement, which is itself a tradeable catalyst.",
-      "source": "The Information, 2026-08-14 (via user)",
-      "verified": false
-    },
-    {
-      "ticker": null,
-      "name": "Anthropic IPO",
-      "type": "ipo",
-      "date": null,
-      "date_window": "S-1 could become public within weeks; IPO possibly October 2026 - no date announced",
-      "time_ct": null,
-      "note": "MARKET-WIDE AI CATALYST, UNDATED ON PURPOSE. Reports of strong Q2 performance and revenue approaching $190-200B by 2028. An S-1 filing is itself the tradeable event - it would be the first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing the AI complex (NVDA, AMD, MU, AVGO, CRWV, NBIS). Watch for the S-1 hitting EDGAR, not the IPO date. Do NOT assign a placeholder date.",
-      "source": "Technical Scans morning note 2026-08-17",
-      "verified": false
-    }
+ "_readme": {
+  "purpose": "Standing catalyst calendar. Holds dated events the earnings API does NOT provide: investor/analyst days, conferences, product launches, sales/delivery reports, FDA action dates, splits, shareholder meetings, filing deadlines, and macro speaking events. Routine earnings are pulled live from the earnings calendar and do not belong here.",
+  "consumed_by": [
+   "daily premarket report - today's entries feed the game plan, next 5 days feed the This Week EVENTS column",
+   "Sunday week-ahead page - full following-week view"
   ],
-  "universe": {
-    "_note": "Priority tickers supplied by the user 2026-08-13. Mag 11 is baseline on top of this. Bar for inclusion in events[] is significance to the ticker, not event category.",
-    "user_list": [
-      "SNDK",
-      "MU",
-      "AVAV",
-      "QCOM",
-      "CAVA",
-      "SLB",
-      "HOOD",
-      "SPOT",
-      "TSM",
-      "VRT",
-      "F",
-      "C",
-      "GLW",
-      "HSY",
-      "ARM",
-      "GNRC",
-      "DKNG",
-      "BAC",
-      "LUMN",
-      "FDX",
-      "DDOG",
-      "SBUX",
-      "LCID",
-      "HL",
-      "ONDS",
-      "HD",
-      "GEV",
-      "CVS",
-      "MRNA",
-      "XYZ",
-      "CAT",
-      "AA",
-      "ADBE",
-      "CRM",
-      "HPE",
-      "AFRM",
-      "WULF",
-      "JPM",
-      "TSLA",
-      "RIVN",
-      "GM",
-      "COST"
-    ],
-    "mag11_baseline": [
-      "AAPL",
-      "MSFT",
-      "NVDA",
-      "GOOGL",
-      "AMZN",
-      "META",
-      "TSLA",
-      "AMD",
-      "AVGO",
-      "INTC",
-      "MU"
-    ],
-    "flagged_huge": {
-      "SNDK": "investor day",
-      "SPOT": "investor day",
-      "TSLA/RIVN/GM/F": "investor days + quarterly vehicle deliveries",
-      "COST": "monthly sales report"
-    },
-    "recurring_patterns": {
-      "_note": "Schedulable without per-event research. Dates still confirmed against IR before they go in events[].",
-      "COST": "Monthly sales report, released AFTER THE CLOSE, in the first week or so of the following month. Confirmed pattern from Costco IR: Sept 2025 sales reported Oct 8; Oct 2025 sales reported Nov 5. So Aug 2026 sales land early Sept, Sept 2026 sales land early Oct. Exact dates are not pre-announced far ahead - check investor.costco.com in the final week of each month.",
-      "TSLA": "Quarterly vehicle production/delivery report, first days of Jan/Apr/Jul/Oct, premarket.",
-      "RIVN": "Quarterly production/delivery report, early in the month following quarter-end.",
-      "GM": "Quarterly US sales, first business day after quarter-end.",
-      "F": "Monthly/quarterly US sales report."
-    }
+  "rules": [
+   "time is 12-hour Central Time, or null when only the date is known",
+   "verified=true requires a real source URL; verified=false renders as tentative, never as fact",
+   "never add an entry without a source - omit it instead",
+   "Significance to the ticker is the bar, not event category. No filing deadlines, no routine conference appearances, no filler. If it cannot move the name, it does not go in.",
+   "Scope is the universe list plus market-wide macro. Do NOT add off-universe tickers just because they crossed a newsletter - if an off-universe name has a genuinely huge catalyst, add it deliberately and say why.",
+   "AMENDED 2026-08-17: market cap earns consideration on its own. A large-cap off-universe name gets evaluated on merit rather than auto-rejected for not being on the list. Pull the real cap before judging - do not eyeball it. Cap alone is not sufficient though: weigh it against event-type signal, where monthly sales/results releases and analyst days are high signal, plain conference appearances are low, and annual shareholder MEETINGS are near-zero regardless of cap.",
+   "Entries with no announced date use date:null plus a date_window string. Never assign a placeholder date to an undated event."
+  ],
+  "fields": "ticker | name | type | date (YYYY-MM-DD) | time_ct | note | source | verified",
+  "last_updated": "2026-08-26"
+ },
+ "events": [
+  {
+   "ticker": "SNDK",
+   "name": "SanDisk",
+   "type": "investor_day",
+   "date": "2026-08-13",
+   "time_ct": "8:00am",
+   "note": "MU and the DRAM complex trade in sympathy. Lined up with a $672M ask-side dark pool print the night before.",
+   "source": "FlowMS morning newsletter 2026-08-13",
+   "verified": true
+  },
+  {
+   "ticker": "SLB",
+   "name": "Schlumberger",
+   "type": "conference",
+   "date": "2026-08-17",
+   "time_ct": null,
+   "note": "31st annual EnerCom Denver - The Energy Investment Conference, Aug 17-19 at The Westin Denver Downtown. Largest independent investor conference serving oil & gas; 70+ presenting companies across E&P, oil service, midstream, royalty, AND nuclear/power/data center/hydrogen. Monday is the charity golf tournament - company presentations and 1x1s run Tue 8/18 and Wed 8/19. Matters as a sector event more than a single-name one: BP, APA, SM, LBRT, DNOW, WTTR, TXO, GTE, BKV, REPX, PROP, REI, SD, GRNT, BSM, FTK, E, VTS and ~20 more are all presenting in the same window, so the energy complex can move together. Secondary read-through to GEV and VRT from the nuclear/power/data-center track.",
+   "source": "https://www.oilandgas360.com/enercom-opens-registration-for-the-31st-annual-energy-investment-conference-august-17-19-2026-in-denver-colorado/",
+   "verified": true
+  },
+  {
+   "ticker": "RDDT",
+   "name": "Reddit",
+   "type": "index_inclusion",
+   "date": "2026-08-18",
+   "time_ct": "before the open",
+   "note": "Joins the S&P 500, replacing AvalonBay Communities (AVB). Announced by S&P Dow Jones Indices on 2026-08-14; effective prior to the opening of trading Tuesday 8/18. Forced index-fund buying on a fixed date. Named in the 8/14 morning prep (bullish kicker, 2U day/week/quarter, inside month/year).",
+   "source": "https://www.morningstar.com/news/business-wire/20260814586211/reddit-will-be-added-to-the-sp-500",
+   "verified": true
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "type": "conference",
+   "date": "2026-08-18",
+   "time_ct": null,
+   "note": "TENTATIVE - VENUE UNIDENTIFIED. NVDA shows as a conference appearance on the 8/17 event feed, but the conference itself could not be identified. It is NOT Hot Chips (that is Aug 23-25 at Stanford) and NVIDIA IR publishes no August event. Flagged anyway because of the timing: this lands 8 days before Q2 FY27 earnings on 8/26, inside the pre-earnings window, so any management commentary carries outsized weight into the biggest print of the month. Confirm the venue and whether management (vs an engineer) presents before trading it.",
+   "source": "User event calendar 2026-08-17; ruled out Hot Chips via https://hotchips.org/",
+   "verified": false
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "type": "analyst_day",
+   "date": "2026-08-18",
+   "time_ct": null,
+   "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE + CONFIRMED FLOW - HIGHEST CONVICTION OF THE OFF-UNIVERSE BATCH. Market cap $47.5B. Initially rejected on universe membership before the cap was pulled; that was wrong. AI training/inference chips (Wafer Scale Engine), so a direct NVDA competitor. Three things line up at once: analyst day is the highest-signal event type on the week's board, and it printed $237M on the bid PRE-MARKET Friday 8/14 in the dark pool - institutional money positioned ahead of the event - and it is deeply unprofitable (PE -96.97), meaning it trades entirely on roadmap narrative, which is exactly what an analyst day resets. 52-week range $160.81-$386.34, closed ~$220, so it sits nearer the low than the high.",
+   "source": "FlowMS morning newsletter 2026-08-17 (analyst day + $237M bid print); cap and range from Robinhood fundamentals 2026-08-14",
+   "verified": true
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "type": "conference",
+   "date": "2026-08-18",
+   "time_ct": null,
+   "note": "OFF-UNIVERSE, ADDED ON CAP + MOMENTUM. Market cap $72.1B as of 8/14 close - larger than most of the universe list. 52-week range is $111.20 to $1,085.68 and it closed ~$920, so this is one of the most explosive names on the tape, not a sleepy large cap. AI optical / datacenter interconnect. Conference venue not identified from the event feed. Read-through to GLW (in-universe, optical fiber) and the broader AI datacenter complex. Note the negative PE (-11.26) - this trades on the AI capex narrative, not earnings, which is exactly why a conference appearance can move it.",
+   "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
+   "verified": false
+  },
+  {
+   "ticker": "PGR",
+   "name": "Progressive",
+   "type": "monthly_results",
+   "date": "2026-08-19",
+   "time_ct": null,
+   "note": "OFF-UNIVERSE, ADDED ON CAP + EVENT TYPE. Market cap $121.8B - the second largest name on the week's event calendar. Progressive reports MONTHLY results, which is a genuine recurring catalyst rather than a conference slot, and it is the closest thing to a monthly read on the auto insurance cycle. Trading at a 10.5 PE near the low end of its 52-week range ($189.20 low 5/29 vs $254.93 high 8/20/25), so expectations are already depressed going in.",
+   "source": "User event calendar 2026-08-17; cap and range from Robinhood fundamentals 2026-08-14",
+   "verified": false
+  },
+  {
+   "ticker": "AUR",
+   "name": "Aurora Innovation",
+   "type": "analyst_day",
+   "date": "2026-08-20",
+   "time_ct": null,
+   "note": "OFF-UNIVERSE, ADDED ON EVENT TYPE. Market cap $14.0B. Analyst day is the highest-signal event type on the week's calendar - guidance and roadmap updates, not a fireside chat - and it is the only one on a name of real size. Autonomous trucking; unprofitable (PE -15.07) so this trades entirely on the roadmap, which is what an analyst day resets. Secondary read-through to the TSLA autonomy narrative (in-universe).",
+   "source": "User event calendar 2026-08-17; cap from Robinhood fundamentals 2026-08-14",
+   "verified": false
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "type": "earnings_call",
+   "date": "2026-08-26",
+   "time_ct": "3:20pm results / 4:00pm call",
+   "note": "Q2 FY2027. Results expected ~1:20pm PT (3:20pm CT), conference call 2:00pm PT (4:00pm CT). CFO written commentary posts immediately after the results release. Lands the day BEFORE Jackson Hole opens. Stored here despite being earnings because the earnings API carries no times. SEQUENCING NOTE added 2026-08-24: July PCE, core PCE and the Q2 GDP second estimate all release the SAME morning at 7:30am CT. The session therefore carries the Fed's preferred inflation gauge before the open and the largest single-name print of the month after the close, with Jackson Hole opening the next day.",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-second-quarter-financial-results-6927195",
+   "verified": true
+  },
+  {
+   "ticker": null,
+   "name": "Jackson Hole Economic Policy Symposium",
+   "type": "macro_speaking",
+   "date": "2026-08-27",
+   "time_ct": null,
+   "note": "Runs Aug 27-29 (Thu-Sat) at Jackson Lake Lodge. 2026 theme: 'Financial Innovation: Implications for Payments and Policy.' MATERIALLY BIGGER THAN A NORMAL YEAR: this is new Fed Chair KEVIN WARSH's FIRST Jackson Hole speech - a first-ever policy framing from a new Chair, not a routine reiteration. SPEECH DAY CONFIRMED 2026-08-24: Warsh delivers his first keynote as Chair on FRIDAY AUG 28. Week-ahead coverage names Friday explicitly; he is expected to have to address inflation directly, two days after the July PCE print lands Wednesday 8/26. TWO CORRECTIONS LOGGED: (1) an earlier entry had this as Aug 22 based on the FlowMS newsletter - the KC Fed date is Aug 27-29 and the verified date held; (2) the speaker was previously recorded as Powell - FlowMS issued its own correction 2026-08-17 naming Warsh as the new Chair.",
+   "source": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/ ; Friday keynote day confirmed via week-ahead coverage 2026-08-24",
+   "verified": true
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "type": "leadership",
+   "date": "2026-09-01",
+   "time_ct": null,
+   "note": "CEO TRANSITION TAKES EFFECT. John Ternus, SVP of Hardware Engineering, becomes CEO; Tim Cook becomes executive chairman of the board; Arthur Levinson, non-executive chairman for the past 15 years, becomes lead independent director. Announced April 2026 and unanimously approved by the board, so the news is old but THE EFFECTIVE DATE IS 9/1 - this is Apple's first CEO transition since Cook succeeded Jobs in 2011. Cook stays on to engage with policymakers. A scheduled, known-date leadership change on a $4.5T company is a different animal from an earnings surprise: the event is certain, only the reaction is not.",
+   "source": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+   "verified": true
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "type": "webinar",
+   "date": "2026-09-01",
+   "time_ct": "",
+   "note": "Q2 FY27 Product Adoption & Momentum webinar. Listed 11:00 AM on the corporate-events calendar; timezone not stated on the source, so not converted. Option implied straddle 3.5%.",
+   "source": "Corporate events calendar screenshot 2026-09-01",
+   "verified": true
+  },
+  {
+   "ticker": "LI",
+   "name": "Li Auto",
+   "type": "product_launch",
+   "date": "2026-09-01",
+   "time_ct": "",
+   "note": "Middle East sales commencement product launch event.",
+   "source": "Corporate events calendar screenshot 2026-09-01",
+   "verified": true
+  },
+  {
+   "ticker": "FROG",
+   "name": "JFrog",
+   "type": "conference",
+   "date": "2026-09-01",
+   "time_ct": "",
+   "note": "swampUP 2026, 9/1-9/3, with keynote. Option implied straddle 12.0%.",
+   "source": "Corporate events calendar screenshot 2026-09-01",
+   "verified": true
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "type": "investor_day",
+   "date": "2026-09-02",
+   "time_ct": null,
+   "note": "NAMED IN MORNING PREP 2026-08-27 AND 2026-08-28 AS THE MAIN FOCUS. Prep flagged two upcoming CRWD events (8/30 and 9/2) as a possible explosive move, with the 9/2 investor day the primary one. Plan recorded on the 8/28 sheet: possible CPW at end of day, but wait on the JR signal to confirm; no signal means the CPW entry moves to next week closer to the event. Context: CRWD reported 8/26 with net-new ARR $333M vs $286M expected and raised FY guidance, then ran to a fresh 52-week high of 229.75 on 8/28. Investor day is the highest-signal event type on the calendar - guidance and roadmap, not a fireside chat.",
+   "source": "Morning prep sheets 2026-08-27 and 2026-08-28",
+   "verified": true
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco",
+   "type": "monthly_sales",
+   "date": "2026-09-02",
+   "time_ct": "3:15pm",
+   "note": "AUGUST SALES RESULTS - DATE NOW CONFIRMED FROM COSTCO IR (previously carried only as a recurring pattern with no date). Scheduled 2026-09-02 at 1:15pm PT = 3:15pm CT, which is AFTER the 3:00pm CT close. Prior month for reference: July retail month (four weeks ended 2026-08-02) net sales $23.12B, +10.7% from $20.89B. Lands the same session as AVGO earnings and the CRWD investor day, making 9/2 the heaviest day of the week.",
+   "source": "https://investor.costco.com/events-and-presentations/events/event-details/2026/August-Sales-Results-2026-Qs4hMDL1Nn/",
+   "verified": true
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "type": "product_event",
+   "date": "2026-09-03",
+   "time_ct": null,
+   "note": "CYBERCAB LAUNCH EVENT, Austin TX. Invite-only with a public livestream; invites went out ~8/23-8/24. Framed by Tesla as a chance to 'experience the future of autonomy' - the public launch of the robotaxi product. This is the Cybercab date that had been carried on the catalyst-trading list without a confirmed day. Separate from the undated Roadster unveiling still on this calendar. Context: Nevada approved Tesla's robotaxi permit 8/21 and the stock rose ~5% that session.",
+   "source": "Tesla event invitations, reported 2026-08-23/24 (Electrek, Motor1, Tesla Oracle)",
+   "verified": true
+  },
+  {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer",
+   "type": "conference",
+   "date": "2026-09-03",
+   "time_ct": "",
+   "note": "Supermicro Open Storage Summit, running 2026-08-11 through 2026-09-03. Option implied straddle 6.5%.",
+   "source": "Corporate events calendar screenshot 2026-09-01",
+   "verified": true
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "type": "product_event",
+   "date": "2026-09-09",
+   "time_ct": null,
+   "note": "EVENT DATE NOW CONFIRMED as Sept 9 (was previously tracked only as a watch date for the expected invitation on 8/26 - see prior note history). iPhone 18 Pro, Pro Max, and a first foldable expected.",
+   "source": "User confirmed 2026-08-26",
+   "verified": false
+  },
+  {
+   "ticker": "RBLX",
+   "name": "Roblox",
+   "type": "product_event",
+   "date": "2026-09-10",
+   "time_ct": null,
+   "note": "RDC26 - Roblox Developers Conference, Sept 10-12 at the San Jose McEnery Convention Center. Roblox's flagship creator gathering and where it unveils engine upgrades, creator tools and monetization features - the supply side of bookings growth, and the venue that feeds the 10% of global gaming content revenue ambition management has repeated on earnings calls. Multi-day, so the move can extend across the window. Both legs of the 9/1 golden sweep (9/18 and 9/25 expirations) sit past it; a 9/11 weekly would expire the day the conference ends.",
+   "source": "https://devforum.roblox.com/t/save-the-date-rdc26/4556064",
+   "verified": true
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "type": "conference",
+   "date": "2026-09-15",
+   "time_ct": "12:00pm",
+   "note": "Dreamforce 2026 main keynote, 10:00am PT - Benioff on the 'Agentic Enterprise'. Conference runs 9/15-9/17 in San Francisco. Dreamforce is historically NOT a volatility event: 1.06x volume / 1.21 ATR in 2025 and 0.91x / 0.76 ATR in 2024, faded both years (-3.36%, -1.36%).",
+   "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Upcoming-Events-at-Dreamforce/default.aspx",
+   "verified": true
+  },
+  {
+   "ticker": "OSCR",
+   "name": "Oscar Health",
+   "type": "investor_day",
+   "date": "2026-09-16",
+   "time_ct": "8:00am",
+   "note": "2026 Investor Day, 9:00am ET - corporate strategy, financial performance and LONG-TERM FINANCIAL TARGETS. Starts an hour before the open, same pattern as the June 2024 event. That one ran 2.15x volume and a 2.16 ATR range, fell 12.19% from the open and closed +0.42% from it - the whole move was in the path. Lands the same session as the FOMC decision. Q2 on 8/6 beat big (EPS $1.10 vs $0.49) and still fell ~12.8% on CMS churn guidance.",
+   "source": "https://ir.hioscar.com/news-events-presentations/news-press-releases/news-details/2026/Oscar-Health-Inc--to-Host-2026-Investor-Day/default.aspx (announced 2026-07-28)",
+   "verified": true
+  },
+  {
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "type": "analyst_day",
+   "date": "2026-09-16",
+   "time_ct": "3:00pm",
+   "note": "Dreamforce Investor & Analyst Session, 1:00pm PT - presentation and Q&A on innovation and the FINANCIAL FRAMEWORK. This is the half of Dreamforce that carries numbers. Lands at the closing bell on FOMC decision day.",
+   "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Upcoming-Events-at-Dreamforce/default.aspx",
+   "verified": true
+  },
+  {
+   "ticker": "QCOM",
+   "name": "Qualcomm",
+   "type": "product_event",
+   "date": "2026-09-22",
+   "time_ct": null,
+   "note": "Snapdragon Summit 2026, Sept 22-24 in Maui. Qualcomm's biggest platform showcase of the year - next flagship chipset (Snapdragon 8 Elite Gen 6 expected) plus AI/connectivity/imaging roadmap. Multi-day, so the move can extend across the window.",
+   "source": "https://www.gizmochina.com/2026/06/30/qualcomm-confirms-snapdragon-summit-2026-dates-snapdragon-8-elite-gen-6-coming-september-22-24/",
+   "verified": true
+  },
+  {
+   "ticker": "AUR",
+   "name": "Aurora Innovation",
+   "type": "analyst_day",
+   "date": "2026-09-23",
+   "time_ct": "8:45am",
+   "note": "Analyst & Investor Day in Dallas. Keynotes and panels 8:45-11:00am CT, so it runs straight through the open. Announced 2026-09-02.",
+   "source": "https://ir.aurora.tech/news-events/press-releases/detail/151/aurora-to-host-analyst-investor-day-on-september-23-2026",
+   "verified": true
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco",
+   "type": "earnings_call",
+   "date": "2026-09-24",
+   "time_ct": null,
+   "note": "Q4 FY2026 earnings. Date from a secondary aggregator, not yet confirmed against Costco IR - verify before relying on it.",
+   "source": "https://www.tipranks.com/stocks/cost/earnings",
+   "verified": false
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "type": "product_event",
+   "date": null,
+   "date_window": "as early as August 2026 - no firm date announced",
+   "time_ct": null,
+   "note": "New Roadster unveiling, reported to include a 'flying' stunt. Reported by The Information 2026-08-14; Tesla has not announced a date. Undated on purpose - do not assign one until Tesla confirms. Watch for an official announcement, which is itself a tradeable catalyst.",
+   "source": "The Information, 2026-08-14 (via user)",
+   "verified": false
+  },
+  {
+   "ticker": null,
+   "name": "Anthropic IPO",
+   "type": "ipo",
+   "date": null,
+   "date_window": "S-1 could become public within weeks; IPO possibly October 2026 - no date announced",
+   "time_ct": null,
+   "note": "MARKET-WIDE AI CATALYST, UNDATED ON PURPOSE. Reports of strong Q2 performance and revenue approaching $190-200B by 2028. An S-1 filing is itself the tradeable event - it would be the first public financials for a frontier AI lab and a new benchmark for valuing generative-AI demand, repricing the AI complex (NVDA, AMD, MU, AVGO, CRWV, NBIS). Watch for the S-1 hitting EDGAR, not the IPO date. Do NOT assign a placeholder date.",
+   "source": "Technical Scans morning note 2026-08-17",
+   "verified": false
   }
+ ],
+ "universe": {
+  "_note": "Priority tickers supplied by the user 2026-08-13. Mag 11 is baseline on top of this. Bar for inclusion in events[] is significance to the ticker, not event category.",
+  "user_list": [
+   "SNDK",
+   "MU",
+   "AVAV",
+   "QCOM",
+   "CAVA",
+   "SLB",
+   "HOOD",
+   "SPOT",
+   "TSM",
+   "VRT",
+   "F",
+   "C",
+   "GLW",
+   "HSY",
+   "ARM",
+   "GNRC",
+   "DKNG",
+   "BAC",
+   "LUMN",
+   "FDX",
+   "DDOG",
+   "SBUX",
+   "LCID",
+   "HL",
+   "ONDS",
+   "HD",
+   "GEV",
+   "CVS",
+   "MRNA",
+   "XYZ",
+   "CAT",
+   "AA",
+   "ADBE",
+   "CRM",
+   "HPE",
+   "AFRM",
+   "WULF",
+   "JPM",
+   "TSLA",
+   "RIVN",
+   "GM",
+   "COST"
+  ],
+  "mag11_baseline": [
+   "AAPL",
+   "MSFT",
+   "NVDA",
+   "GOOGL",
+   "AMZN",
+   "META",
+   "TSLA",
+   "AMD",
+   "AVGO",
+   "INTC",
+   "MU"
+  ],
+  "flagged_huge": {
+   "SNDK": "investor day",
+   "SPOT": "investor day",
+   "TSLA/RIVN/GM/F": "investor days + quarterly vehicle deliveries",
+   "COST": "monthly sales report"
+  },
+  "recurring_patterns": {
+   "_note": "Schedulable without per-event research. Dates still confirmed against IR before they go in events[].",
+   "COST": "Monthly sales report, released AFTER THE CLOSE, in the first week or so of the following month. Confirmed pattern from Costco IR: Sept 2025 sales reported Oct 8; Oct 2025 sales reported Nov 5. So Aug 2026 sales land early Sept, Sept 2026 sales land early Oct. Exact dates are not pre-announced far ahead - check investor.costco.com in the final week of each month.",
+   "TSLA": "Quarterly vehicle production/delivery report, first days of Jan/Apr/Jul/Oct, premarket.",
+   "RIVN": "Quarterly production/delivery report, early in the month following quarter-end.",
+   "GM": "Quarterly US sales, first business day after quarter-end.",
+   "F": "Monthly/quarterly US sales report."
+  }
+ },
+ "coverage": {
+  "checked_through": "2026-09-24",
+  "last_checked": "2026-09-13",
+  "_why": "Asserts how far forward this calendar has actually been maintained. Without it, 'no events in the window' is indistinguishable from 'nobody looked' - and on 2026-09-13 that ambiguity shipped: the file's entries stopped at 9/10, the week-ahead for 9/14-9/18 read the silence as an answer and published 'no verified slate exists for this week'. OSCR's Investor Day and Salesforce's Dreamforce investor session were both scheduled for 9/16 the whole time. A build that needs events past checked_through must FAIL, not render empty.",
+  "_how": "When you extend the calendar forward, move checked_through to the last date you actually swept and set last_checked to today. Never advance it to cover a window you did not really check.",
+  "_sweep_note": "Swept 9/13 for investor/analyst days, conferences and product events through 9/24. Found: OSCR 9/16, CRM 9/15+9/16, AUR 9/23; QCOM 9/22 and COST 9/24 already held. BWXT holds an Investor Day 9/29 - off-universe and outside the swept window, deliberately not added. checked_through stops at 9/24 because that is genuinely how far the sweep went."
+ }
 }

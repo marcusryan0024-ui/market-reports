@@ -37,6 +37,15 @@ def main(date, base=None, dirpath=None):
     if data.get('kind') != 'premarket':
         raise SystemExit(f"kind must be 'premarket', got {data.get('kind')!r}")
 
+    # The premarket page's This Week EVENTS column is fed by the next 5 days of
+    # catalysts.json. When that file silently falls behind, the column renders
+    # thin instead of wrong, so nobody notices - that is how OSCR's Investor Day
+    # and Dreamforce both went missing from the 9/14 week-ahead. Fail here
+    # instead, before anything publishes.
+    d0 = _dt.date(*(int(x) for x in date.split('-')))
+    cat_state, cat_events = R.check_catalyst_coverage(
+        d0.isoformat(), (d0 + _dt.timedelta(days=5)).isoformat())
+
     base = base or prior_premarket(date)
     out = f'{date}-premarket.html'
     html = R.build_daily(data, base)
@@ -47,6 +56,7 @@ def main(date, base=None, dirpath=None):
     print(f'WROTE {out}  {len(html):,} bytes')
     print(f'  base            {base}')
     print(f'  validate        PASS')
+    print(f'  catalysts       {cat_state.upper()} - {len(cat_events)} in next 5 days')
     print(f'  charts          {html.count(chr(60) + "img src=" + chr(34) + "charts/")}')
     print(f'  setup rows      {html.count("class=" + chr(34) + "setup-row")}')
     print(f'  em badges       {html.count("white-space:nowrap;" + chr(34) + ">&plusmn;")}')
