@@ -1,0 +1,853 @@
+{
+ "title": "Tuesday, September 15, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>The AI-slowdown trade is being un-priced, and the counter-punch came from Jensen Huang.</b> NVIDIA's CEO told President Trump <b>&ldquo;we're not going to let an AI slowdown happen,&rdquo;</b> per TechCrunch &mdash; a direct answer to the Amodei essay that erased a trillion dollars of semiconductor value on Monday. The tape is reversing accordingly: <b>every name that was destroyed yesterday is green this morning, and every name that was bid is giving it back.</b> LRCX <b>+2.09%</b>, INTC <b>+1.50%</b>, ARM <b>+1.37%</b>, SNDK <b>+1.03%</b>, MU <b>+1.00%</b>, AMD <b>+0.82%</b>, NVDA <b>+0.52%</b>. Against that, the safety bid is unwinding: <b>FTNT &minus;2.90%</b>, <b>ZS &minus;1.95%</b>, <b>CRWD &minus;1.91%</b>, <b>NET &minus;1.83%</b>, <b>PANW &minus;1.82%</b>.",
+  "summary": "<b>Monday's split was real and it held every hour of the session</b> &mdash; that is the thing to carry into today. The buyers finished ABOVE their gaps (<b>GOOGL +3.22%</b>, <b>META +2.71%</b>, <b>MSFT +1.97%</b>), the sellers finished at their lows (<b>ARM &minus;9.74%</b>, <b>VRT &minus;7.65%</b>, <b>DELL &minus;5.82%</b>), and the safety bucket doubled its gap: <b>CRWD closed +13.85%</b> against a +6.54% premarket print. But a two-day round trip is not a trend. <b>The real risk today is not the AI debate at all &mdash; it is the 10-year at 5.00%, having tagged 5.04% overnight</b>, with a $13B 20-year auction at 12:00 CT and the Fed deciding tomorrow."
+ },
+ "overview": "<b>Futures are close to flat and that understates how much is moving underneath.</b> S&amp;P futures &minus;0.18%, Dow &minus;0.38%, Nasdaq &minus;0.16%, Russell &minus;0.23% &mdash; but the index calm is two violent rotations cancelling out. <b>The bond story is the one that matters.</b> The 10-year sits at <b>5.00%</b>, up 4bp, after touching <b>5.04% overnight</b>; the 2-year is <b>4.65%</b>, +2bp, and the 30-year is near <b>5.33%</b>. <b>Monday was the first time the 10-year crossed 5% intraday since 2023.</b> This is now a global bond selloff, not a US one: European 10-year sovereign yields are up <b>4&ndash;6bp</b>, and the trigger is fiscal. <b>Japan is considering lifting its defense-spending target to 3.5% of GDP from 2.0%</b> while approving a temporary food-sales-tax cut &mdash; developed economies expanding fiscal support exactly as bond markets demand higher yields. <b>The Bank of England is moving the other way, planning to stop active sales of 20- and 30-year Gilts</b> specifically to slow rising yields. Watch the <b>$13B 20-year auction at 12:00 CT</b>; a tail there matters more to this tape than anything Dreamforce says.<br><br><b>Oil has not let go, and it escalated again overnight.</b> <b>Houthi attacks on Saudi infrastructure continued</b> after Monday's pipeline shutdown, which had already pushed Brent ~3% higher on the session. WTI <b>+1.0% to $102.37</b>, Brent near $106, with <i>The Wall Street Journal</i> reporting oil executives warning about a fuel crisis. Gold is <b>&minus;0.7% to $4,321</b> and the dollar index <b>+0.2% to 99.61</b> &mdash; a rising dollar and falling gold alongside rising crude is a rates story, not a fear story. <b>Bitcoin is &minus;2.76% to $76,965</b> ahead of today's Senate procedural vote on the CLARITY Act, which needs 60 votes; that weakness is spilling into crypto-linked equities after a strong run.<br><br><b>Today's calendar:</b> September Empire State Manufacturing at <b>7:30 CT</b>, <b>Bessent's annual testimony to House Financial Services at 9:00 CT</b>, the 20-year auction at 12:00 CT, and the <b>FOMC meeting begins</b> with no communication until tomorrow. <b>Futures now price a 92% chance of a 25bp hike to 3.75%&ndash;4.00% &mdash; the first increase since July 2023</b> &mdash; and the market is leaning toward <b>two hikes by year-end</b>. <b>Dreamforce's main keynote is 12:00 CT</b> &mdash; and CRM is already fading, <b>&minus;1.36%</b>, which is the pattern this book flagged yesterday. China's August data was mixed again: retail sales <b>+0.4%</b> against 0.7&ndash;0.8% expected, industrial production <b>+5.2%</b> against 4.8%, fixed-asset investment <b>&minus;7.2%</b>. Weak domestic demand, resilient industry.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:33AM CT",
+  "em_label": "MARKS VS MONDAY 9/14 CLOSE &mdash; THE ROUND TRIP, AND A 5.00% 10-YEAR",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "SPY",
+      760.88,
+      759.78
+     ],
+     [
+      "QQQ",
+      709.18,
+      708.35
+     ],
+     [
+      "IWM",
+      287.91,
+      286.62
+     ],
+     [
+      "USO",
+      156.66,
+      158.4
+     ],
+     [
+      "GLD",
+      392.84,
+      392.28
+     ]
+    ]
+   ],
+   [
+    "BOUNCING BACK",
+    [
+     [
+      "LRCX",
+      273.49,
+      279.2
+     ],
+     [
+      "INTC",
+      97.19,
+      98.65
+     ],
+     [
+      "ARM",
+      239.01,
+      242.28
+     ],
+     [
+      "VRT",
+      237.39,
+      239.98
+     ],
+     [
+      "SNDK",
+      1551.99,
+      1568.0
+     ],
+     [
+      "MU",
+      924.03,
+      933.25
+     ],
+     [
+      "AMD",
+      493.41,
+      497.45
+     ],
+     [
+      "TSM",
+      418.01,
+      421.0
+     ],
+     [
+      "NVDA",
+      210.96,
+      212.05
+     ],
+     [
+      "AVGO",
+      344.72,
+      346.2
+     ],
+     [
+      "DELL",
+      534.28,
+      536.0
+     ]
+    ]
+   ],
+   [
+    "GIVING IT BACK",
+    [
+     [
+      "FTNT",
+      170.18,
+      165.24
+     ],
+     [
+      "ZS",
+      191.73,
+      188.0
+     ],
+     [
+      "CRWD",
+      235.38,
+      230.88
+     ],
+     [
+      "NET",
+      330.36,
+      324.32
+     ],
+     [
+      "PANW",
+      373.94,
+      367.13
+     ],
+     [
+      "MSFT",
+      505.41,
+      500.29
+     ],
+     [
+      "GOOGL",
+      349.39,
+      346.01
+     ],
+     [
+      "META",
+      665.6,
+      661.99
+     ]
+    ]
+   ],
+   [
+    "EVENT NAMES",
+    [
+     [
+      "CRM",
+      259.43,
+      255.9
+     ],
+     [
+      "INTU",
+      339.15,
+      334.25
+     ],
+     [
+      "OSCR",
+      33.81,
+      33.59
+     ],
+     [
+      "LEN",
+      79.99,
+      79.88
+     ],
+     [
+      "HOOD",
+      114.33,
+      111.64
+     ]
+    ]
+   ],
+   [
+    "MOVERS",
+    [
+     [
+      "PLAY",
+      8.47,
+      7.33
+     ],
+     [
+      "ETSY",
+      74.46,
+      76.7
+     ],
+     [
+      "LLY",
+      1138.28,
+      1155.6
+     ],
+     [
+      "RBLX",
+      51.29,
+      49.89
+     ],
+     [
+      "AAPL",
+      333.08,
+      331.26
+     ]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "y",
+   "THE ROUND TRIP",
+   "Semis green, safety red",
+   "Monday's trade running exactly backwards",
+   "<b>Jensen Huang told Trump &ldquo;we're not going to let an AI slowdown happen.&rdquo;</b> That is the most direct possible rebuttal to the essay that repriced the complex, and it came from the company with the most to lose. The entire Monday board has inverted: <b>LRCX +2.09%, INTC +1.50%, ARM +1.37%, MU +1.00%</b> against <b>FTNT &minus;2.90%, ZS &minus;1.95%, CRWD &minus;1.91%, PANW &minus;1.82%</b>. <b>The question that decides the week:</b> was Monday a one-day panic that is now fully unwound, or is this the dead-cat bounce inside a repricing that has further to run? <b>Neither side has been settled by a datapoint</b> &mdash; both moves came from executives talking. The Fed decides tomorrow, so nobody has to answer today."
+  ],
+  [
+   "T2",
+   "r",
+   "THE 10-YEAR",
+   "5.00%, tagged 5.04% overnight",
+   "The risk nobody is discussing this morning",
+   "Everything above is a sector rotation inside a flat index. <b>The thing that can actually move the whole tape is the bond market</b>, and it is at a level that matters: the 10-year printed <b>5.04% overnight</b> and sits at <b>5.00%</b>, with the 2-year at 4.65%. European sovereigns are up 4&ndash;6bp alongside. <b>The driver is fiscal</b> &mdash; Japan weighing a defense-spending increase to 3.5% of GDP from 2.0% while cutting food tax, and the BoE having to halt long-Gilt sales to slow its own yields. <b>The $13B 20-year auction at 12:00 CT is the live test</b>, one day before a Fed decision now priced at <b>92%</b> for a hike to 3.75&ndash;4.00%, the first since July 2023. A weak auction into a 5% 10-year is a bigger problem for equities than the AI debate."
+  ],
+  [
+   "T3",
+   "y",
+   "CRM",
+   "&minus;1.36% into its own keynote",
+   "The fade pattern, on schedule",
+   "Yesterday this book ranked CRM third and said the setup was <b>a known fade pattern presenting as strength</b>. It closed Monday <b>+4.73%</b> and is now <b>&minus;1.36%</b> premarket, into the <b>12:00 CT keynote</b>. Our five-event study: Dreamforce ran 1.06x volume / 1.21 ATR in 2025 and 0.91x / 0.76 ATR in 2024, and <b>faded both years</b>. <b>The real event is tomorrow 3:00 CT</b> &mdash; the Investor &amp; Analyst Session, which carries a financial framework, landing at the bell on decision day. <b>INTU is doing the same thing</b>, &minus;1.44% after closing +5.47%, two days before its own investor day."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; TUE 9/15 &middot; AWAITING SHEET",
+  "lead": "&#9888; <b>No prep sheet in hand yet &mdash; this is the tape's read, not Marcus's.</b> Monday's sheet said <b>first day of the week, be patient</b>, <b>FOMC and OPEX week</b>, <b>better price action the days after</b>, and <b>protect the port</b>. All of that still applies with the decision now one day out. <b>Yesterday's sheet scored well:</b> CRWD was called a bullish kicker and closed <b>+13.85%</b>; RBLX's gap fill at 48.57 was taken out and it closed <b>51.29, +12.73%</b>; AAPL never cleared the <b>336.22</b> call entry, closed 333.08, and was correctly a no-trade by its own rule.",
+  "cards": [
+   [
+    "CRWD",
+    "Round trip risk &middot; &minus;1.91%",
+    "y",
+    "1",
+    "Closed <b>235.38, +13.85%</b> on Monday &mdash; more than double its +6.54% premarket gap. Now giving back <b>1.91%</b> at 230.88.",
+    "<b>Yesterday's PMH trigger of 219.08 is far below here.</b> The sheet's level is stale against a stock that has moved 14%.",
+    "The thesis is intact: Kurtz's argument that AI threats need MORE security spend does not stop being true because Huang pushed back on the slowdown.",
+    "But the whole safety bucket is red together &mdash; FTNT &minus;2.90%, ZS &minus;1.95%, PANW &minus;1.82% &mdash; which reads as positioning unwinding, not a single-name issue.",
+    "A 14% day is where the money was made. Chasing day two of a narrative trade is a different, worse bet."
+   ],
+   [
+    "LLY",
+    "Upgrade &middot; +1.52%",
+    "g",
+    "1",
+    "<b>Berenberg upgraded to Buy from Hold with a $1,400 target</b>, saying the company is &ldquo;firing on all cylinders&rdquo; and seeing upside to FY2026 guidance. Closed Monday <b>1138.28, +2.02%</b>.",
+    "Monday's sheet flagged LLY on extreme volume and said <b>pay attention in the second half of the day</b> &mdash; it worked, and now there is a catalyst attached.",
+    "Berenberg: investor expectations for LLY to hold its obesity-market lead are high, and they are confident in it. AZN and GSK also upgraded &mdash; healthcare is getting upgraded as a group.",
+    "A $994B name moving on a sell-side upgrade is a slower vehicle than the rest of this board.",
+    "The rotation candidate out of semis that Monday's sheet identified a day early."
+   ],
+   [
+    "PLAY",
+    "Earnings miss &middot; &minus;13.46%",
+    "r",
+    "2",
+    "Revenue <b>$544.1M</b> missed the $556.8M consensus, adjusted EBITDA <b>$98.9M</b> missed $120.4M, and it posted an unexpected <b>loss of 27c</b> against an expected 18c profit. Leverage rose 20bp sequentially to <b>3.5x</b>.",
+    "Gapping to <b>7.33</b> from an 8.47 close. It actually closed UP 4.05% on Monday into the print.",
+    "Comparable sales fell 2.9% against a 3.3% expected decline, and management was constructive on trends exiting the quarter.",
+    "A miss on revenue, EBITDA and free cash flow simultaneously, with leverage rising, is not one line item.",
+    "The clean example of gapping INTO a print and being wrong &mdash; the pattern this book has tracked all month."
+   ],
+   [
+    "THE AUCTION",
+    "20-year &middot; 12:00 CT",
+    "b",
+    "2",
+    "<b>$13B 20-year note auction</b> with the 10-year at <b>5.00%</b> after tagging 5.04% overnight and the 30-year near <b>5.33%</b>. Monday was the first intraday break of 5% since 2023.",
+    "<b>12:00 CT, one day before the Fed.</b> Watch the tail, not the headline.",
+    "The BoE is halting active sales of 20- and 30-year Gilts specifically to slow yields &mdash; central banks are already responding to the long end.",
+    "Japan weighing defense spending at 3.5% of GDP from 2.0% is the fiscal spark; European 10-years are up 4&ndash;6bp in sympathy.",
+    "This is the event on today's calendar with the most power to override every sector story above."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/14",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "No tier-one data. Hormuz talks postponed; Saudi pipeline shut"
+    ]
+   ],
+   "earnings": [
+    [
+     "PLAY",
+     "miss"
+    ],
+    [
+     "KMTS",
+     "&minus;8.7%"
+    ]
+   ],
+   "events": [
+    [
+     "The split",
+     "HELD",
+     "CRWD +13.85%, GOOGL +3.22% vs ARM &minus;9.74%"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/15",
+   "tag": "TODAY",
+   "accent": "live",
+   "econ": [
+    [
+     "7:30a",
+     "September Empire State Manufacturing &mdash; seen ~14&ndash;15 vs August's 20.6"
+    ],
+    [
+     "9:00a",
+     "Bessent testifies, House Financial Services"
+    ],
+    [
+     "12:00p",
+     "$13B 20-year auction &mdash; 10-year at 5.00%"
+    ]
+   ],
+   "earnings": [
+    [
+     "TCOM",
+     "PM"
+    ],
+    [
+     "FPS",
+     "+9.3%"
+    ]
+   ],
+   "events": [
+    [
+     "CRM",
+     "12:00p",
+     "Dreamforce keynote &mdash; already fading &minus;1.36%"
+    ],
+    [
+     "Senate",
+     "Today",
+     "CLARITY Act procedural vote; BTC &minus;2.76%"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "DECISION",
+   "accent": "hot",
+   "econ": [
+    [
+     "7:30a",
+     "August retail sales"
+    ],
+    [
+     "1:00p",
+     "FOMC decision &mdash; <b>92% priced</b>, to 3.75&ndash;4.00%, NEW DOT PLOT"
+    ],
+    [
+     "1:30p",
+     "Warsh press conference"
+    ]
+   ],
+   "earnings": [
+    [
+     "LEN",
+     "PM"
+    ]
+   ],
+   "events": [
+    [
+     "OSCR",
+     "8:00a",
+     "Investor Day &mdash; long-term financial targets"
+    ],
+    [
+     "CRM",
+     "3:00p",
+     "Investor &amp; Analyst Session"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/17",
+   "tag": "AFTER",
+   "accent": "warn",
+   "econ": [
+    [
+     "6:00a",
+     "Bank of England &mdash; halting long-Gilt sales"
+    ],
+    [
+     "7:30a",
+     "Claims, housing starts, Philly Fed"
+    ],
+    [
+     "Week",
+     "BoJ also decides"
+    ]
+   ],
+   "earnings": [
+    [
+     "CCL",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "INTU",
+     "Thu",
+     "Investor Day"
+    ],
+    [
+     "SEC",
+     "Thu",
+     "24-hour trading roundtable &mdash; HOOD on the panel"
+    ],
+    [
+     "FlowMS",
+     "5:30p ET",
+     "Zoom &mdash; now a standing weekly Thursday slot"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/18",
+   "tag": "EXPIRY",
+   "accent": "warn",
+   "econ": [
+    [
+     "8:15a",
+     "Industrial production"
+    ],
+    [
+     "All day",
+     "Triple witching"
+    ]
+   ],
+   "earnings": [],
+   "events": [
+    [
+     "UNH",
+     "09/18",
+     "$75.0M $300C floor block &mdash; largest ticket on the board"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "CRWD",
+   "charts/CRWD_2026-09-15.png",
+   "+13.85% Monday &middot; giving back 1.91%"
+  ],
+  [
+   "LRCX",
+   "charts/LRCX_2026-09-15.png",
+   "&minus;8.4% Monday &middot; $316M bid print, +2.09%"
+  ],
+  [
+   "LLY",
+   "charts/LLY_2026-09-15.png",
+   "Berenberg to Buy &middot; $1,400 target"
+  ],
+  [
+   "CRM",
+   "charts/CRM_2026-09-15.png",
+   "Fading into its own keynote"
+  ],
+  [
+   "PLAY",
+   "charts/PLAY_2026-09-15.png",
+   "Gapped into the print &middot; &minus;13.5%"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:33AM CT",
+  "groups": [
+   [
+    "MONDAY'S LOSERS &mdash; BOUNCING",
+    [
+     [
+      "LRCX",
+      2.09
+     ],
+     [
+      "INTC",
+      1.5
+     ],
+     [
+      "ARM",
+      1.37
+     ],
+     [
+      "VRT",
+      1.09
+     ],
+     [
+      "SNDK",
+      1.03
+     ],
+     [
+      "MU",
+      1.0
+     ],
+     [
+      "AMD",
+      0.82
+     ],
+     [
+      "TSM",
+      0.72
+     ],
+     [
+      "NVDA",
+      0.52
+     ]
+    ]
+   ],
+   [
+    "MONDAY'S WINNERS &mdash; FADING",
+    [
+     [
+      "FTNT",
+      -2.9
+     ],
+     [
+      "ZS",
+      -1.95
+     ],
+     [
+      "CRWD",
+      -1.91
+     ],
+     [
+      "NET",
+      -1.83
+     ],
+     [
+      "PANW",
+      -1.82
+     ],
+     [
+      "MSFT",
+      -1.01
+     ],
+     [
+      "GOOGL",
+      -0.97
+     ],
+     [
+      "META",
+      -0.54
+     ]
+    ]
+   ],
+   [
+    "STILL BID",
+    [
+     [
+      "ETSY",
+      3.01
+     ],
+     [
+      "LLY",
+      1.52
+     ],
+     [
+      "USO",
+      1.11
+     ],
+     [
+      "CVX",
+      0.33
+     ],
+     [
+      "OXY",
+      0.42
+     ]
+    ]
+   ],
+   [
+    "THE INDEX &mdash; FLAT ON TOP",
+    [
+     [
+      "SPY",
+      -0.14
+     ],
+     [
+      "QQQ",
+      -0.12
+     ],
+     [
+      "IWM",
+      -0.45
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 9/14 CLOSE &amp; CANDLE",
+  "rows": [
+   [
+    "CRWD",
+    "T1",
+    "g",
+    "Bullish kicker &rarr; delivered",
+    "g",
+    "Monday's prep called it a bullish kicker with a PMH trigger at 219.08. It closed <b>235.38</b>, <b>+13.85%</b> &mdash; more than double the +6.54% premarket gap, and the single best name on the board &mdash; it tagged roughly <b>+15% intraday</b>. A second catalyst landed alongside Kurtz's argument: an <b>HCLTech partnership for the Falcon platform</b>.",
+    "Mon close <b>235.38</b> &middot; <b>+13.85%</b> &middot; pre <b>230.88</b>, &minus;1.91%",
+    "The thesis has not broken: Kurtz's case for more security spend is unaffected by Huang's pushback on the slowdown.",
+    "The entire safety complex is unwinding together this morning, which reads as positioning rather than news."
+   ],
+   [
+    "ARM",
+    "T1",
+    "r",
+    "Worst of the board",
+    "r",
+    "Closed <b>239.01</b>, <b>&minus;9.74%</b> &mdash; deeper than its &minus;7.66% premarket print, meaning it was sold all session rather than bought back.",
+    "Mon close <b>239.01</b> &middot; <b>&minus;9.74%</b> &middot; pre <b>242.28</b>, +1.37%",
+    "Bouncing with the complex on Huang's comments.",
+    "A name that closed at its low then gaps up 1.4% has not repaired anything yet."
+   ],
+   [
+    "GOOGL",
+    "T1",
+    "g",
+    "AI buyer &mdash; closed above its gap",
+    "g",
+    "Gapped +1.45% and closed <b>+3.22%</b> at 349.39, more than doubling the gap. <b>The buyers were bought all day</b>, which is what made Monday's split a real rotation rather than an open-print artifact.",
+    "Mon close <b>349.39</b> &middot; <b>+3.22%</b> &middot; pre <b>346.01</b>, &minus;0.97%",
+    "META +2.71% and MSFT +1.97% did the same thing.",
+    "All three are giving a little back this morning as the rotation reverses."
+   ],
+   [
+    "RBLX",
+    "T2",
+    "g",
+    "Gap fill &rarr; blew through it",
+    "g",
+    "Monday's sheet marked the gap fill at <b>48.57</b>. It closed <b>51.29</b>, <b>+12.73%</b> &mdash; straight through the target and well beyond.",
+    "Mon close <b>51.29</b> &middot; <b>+12.73%</b> &middot; pre <b>49.89</b>, &minus;2.73%",
+    "Not an AI-capex name, so it was untouched by the repricing that hit everything else.",
+    "Giving back 2.7% premarket after a 12.7% day."
+   ],
+   [
+    "AAPL",
+    "T2",
+    "b",
+    "Inside day &mdash; correctly a no-trade",
+    "b",
+    "The sheet's rule was explicit: <b>over 336.22 it is live, under it price is an inside day</b>. It closed <b>333.08, +0.24%</b>, never clearing the trigger.",
+    "Mon close <b>333.08</b> &middot; <b>+0.24%</b> &middot; pre <b>331.26</b>, &minus;0.55%",
+    "Evercore ISI reiterated Outperform this morning on positive iPhone 18 survey checks &mdash; ProMax delivery times ~25 days vs 19 last year.",
+    "The board now tags AAPL <b>Inside (1)</b> on Monday's candle &mdash; the sheet's own call, confirmed by the setup list. The level did its job by keeping you out."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "VERA",
+    15.3,
+    "Top mover on the board, a <b>bullish kicker sitting in Outside (3)</b>, running into its conference today."
+   ],
+   [
+    "VRA",
+    20.1,
+    "Vera Bradley, up sharply early on earnings."
+   ],
+   [
+    "ETSY",
+    3.01,
+    "<b>Oppenheimer upgraded to Outperform from Perform, $90 target</b> &mdash; about 21% upside from Monday's close &mdash; saying it likely gets a boost from AI for virtual shopping."
+   ],
+   [
+    "LRCX",
+    2.09,
+    "Best of the semi bounce after taking the worst of Monday. Huang's pushback on an AI slowdown is the whole catalyst."
+   ],
+   [
+    "LLY",
+    1.52,
+    "<b>Berenberg upgraded to Buy from Hold, $1,400 target.</b> &ldquo;Firing on all cylinders&rdquo; with upside to FY2026 guidance. AZN and GSK upgraded the same morning."
+   ],
+   [
+    "INTC",
+    1.5,
+    "Recovering part of Monday's 5.59% loss."
+   ],
+   [
+    "ARM",
+    1.37,
+    "Bouncing off the worst close on the board."
+   ],
+   [
+    "USO",
+    1.11,
+    "WTI <b>+1.0% to $102.37</b>. <i>The Wall Street Journal</i> reports oil executives warning about a fuel crisis."
+   ],
+   [
+    "MU",
+    1.0,
+    "Reports 9/30. Consensus $31.30 against $3.03 a year ago."
+   ]
+  ],
+  "bear": [
+   [
+    "PLAY",
+    -13.46,
+    "Revenue <b>$544.1M</b> vs $556.8M consensus, adjusted EBITDA <b>$98.9M</b> vs $120.4M expected, and an unexpected <b>27c loss</b> against an 18c expected profit. Leverage up 20bp to 3.5x. Comps &minus;2.9% did beat the &minus;3.3% expected."
+   ],
+   [
+    "FTNT",
+    -2.9,
+    "Worst of the safety unwind. No company news &mdash; the whole cyber bucket is red together."
+   ],
+   [
+    "RBLX",
+    -2.73,
+    "Giving back part of a 12.73% Monday."
+   ],
+   [
+    "COIN",
+    -4.1,
+    "The crypto corner is the board's red patch &mdash; <b>CRCL &minus;4.9%, MSTR &minus;3.7%</b> &mdash; ahead of the Senate CLARITY Act vote."
+   ],
+   [
+    "HOOD",
+    -2.35,
+    "Bitcoin <b>&minus;2.76% to $76,965</b> ahead of the Senate CLARITY Act procedural vote, which needs 60 votes. Weakness spilling into crypto-linked equities."
+   ],
+   [
+    "ZS",
+    -1.95,
+    "Same unwind as FTNT and PANW."
+   ],
+   [
+    "CRWD",
+    -1.91,
+    "Giving back 1.91% after a <b>+13.85%</b> Monday."
+   ],
+   [
+    "CRM",
+    -1.36,
+    "Fading into its own <b>12:00 CT Dreamforce keynote</b> &mdash; the pattern this book flagged yesterday. Faded both prior years."
+   ],
+   [
+    "INTU",
+    -1.44,
+    "Same shape as CRM, two days before its own investor day. Closed +5.47% Monday."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>The baton passed from META back to NVDA, and it argues against this morning's bounce being empty.</b> Monday's largest print on the whole board ex-ETF was <b>NVDA $796.4M at the ASK, after hours</b> &mdash; landing the same night the slow-the-AI story took the stock down 2&ndash;3%. NVDA now tops cumulative flow at <b>$4.4B (ask)</b> ahead of <b>MU $3.6B (mixed)</b> and <b>AVGO $3.3B (bid)</b>. <b>The semis that wore Monday's selling are exactly where the after-hours size concentrated</b> &mdash; NVDA at the ask, AVGO $779M (bid), LRCX $316M (bid) after its &minus;8.4% session &mdash; and that same group is gapping up 1&ndash;2% this morning. Ask-side size into a falling name reads like someone stepping in, but a side is a lean and not a verdict. <b>The caution sits in the same name:</b> NVDA's own morning $50M print came at the <b>BID</b>, the opposite side of last night's $796M ask. Size is working both sides into the Fed.",
+  "right_note": "<b>Largest block on the board: LULU $300P 12/18 at $34.4M</b>, a floor put block out to December, biggest single ticket by a wide margin. <b>Largest sweep: NVDA $220P 09/18 at $0.8M</b> &mdash; struck ABOVE where NVDA trades premarket and expiring Friday on triple witching, two days after the decision. On the ETF side <b>SPY $1.0B (ask, AH)</b> topped the board, making it <b>six straight sessions</b> an S&amp;P 500 tracker print has been the tape's largest, joined by bond money in <b>BGFI $372M (mixed)</b> the night before the Fed convenes.",
+  "dim": false,
+  "chips": [
+   [
+    "NVDA",
+    "$796M",
+    "ask &middot; top print",
+    "g"
+   ],
+   [
+    "AVGO",
+    "$779M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "JPM",
+    "$489M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "META",
+    "$466M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "GOOG",
+    "$415M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "LRCX",
+    "$316M",
+    "bid &middot; after &minus;8.4%",
+    "r"
+   ],
+   [
+    "GOOGL",
+    "$314M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "AAPL",
+    "$268M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "SPY",
+    "$1.0B",
+    "ask &middot; 6th session #1",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$4.4B",
+    "cumulative ask",
+    "g"
+   ],
+   [
+    "MU",
+    "$3.6B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
+    "AVGO",
+    "$3.3B",
+    "cumulative bid",
+    "r"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Tuesday September fifteenth, premarket. The AI slowdown trade is being un-priced, and the counter-punch came from Jensen Huang. NVIDIA's CEO told President Trump we're not going to let an AI slowdown happen. That is a direct answer to the essay that erased a trillion dollars of semiconductor value on Monday, and the tape is reversing on it. Every name destroyed yesterday is green. Lam Research up two point zero nine, Intel up one point five zero, Arm up one point three seven, Micron up one percent. Every name that was bid is giving it back. Fortinet down two point nine zero, Zscaler down one point nine five, CrowdStrike down one point nine one. Monday's split was real and it held all session. CrowdStrike closed up thirteen point eight five percent, double its premarket gap. Alphabet closed up three point two two, Meta up two point seven one. But a two day round trip is not a trend, and neither move came from a datapoint. Both came from executives talking. The real risk today is not the AI debate. It is the ten year at five percent, having tagged five point zero four overnight, with a thirteen billion dollar twenty year auction at noon Central and the Fed deciding tomorrow."
+  }
+ ]
+}
