@@ -1,0 +1,195 @@
+{
+ "title": "Monday, September 14, 2026",
+ "kind": "close",
+ "headline": {
+  "title": "<b>The index fell half a percent and that number describes nothing that happened.</b> Underneath it, semiconductors lost <b>4.75%</b> while communications gained <b>2.19%</b> &mdash; a seven-point spread between two sectors in a single session, driven by an essay rather than a datapoint. <b>CrowdStrike closed +13.85% and tagged +15.79% intraday</b>, the cleanest winner on the board, because the one company that <i>sells</i> AI safety is the one that benefits when the industry's own leaders start warning about AI. The prep sheet had it flagged before the open as a bullish kicker.",
+  "summary": "<b>The morning report's call was that the AI trade had split into buyers and sellers, and the session confirmed it in the strongest possible way: the split did not fade into the close, it widened.</b> The buyers finished above their gaps &mdash; <b>GOOGL +3.22%</b> closing within half a point of its high, <b>META +2.71%</b>, <b>MSFT +1.97%</b>. The sellers finished heavy &mdash; <b>ARM &minus;9.74%</b> closing within a dollar of its session low, <b>VRT &minus;7.65%</b>, <b>DELL &minus;5.82%</b>, <b>INTC &minus;5.59%</b>, <b>MU &minus;5.25%</b>. And the third bucket, the one added mid-morning, was the best of all three."
+ },
+ "what_happened": [
+  ["The gap was not the move. For once, the gap was the beginning of the move.",
+   "g",
+   "This book has spent a month documenting gap-fades &mdash; SNOW, GTLB, MRVL, ORCL twice. Monday broke the pattern in both directions and it is worth being precise about why. <b>CRWD opened 218.63</b>, essentially at the prep sheet's <b>219.08</b> trigger, and the first thirty minutes ran to <b>227.45</b>. It never looked back, making its high at <b>239.37</b> and closing <b>235.38</b>. <b>RBLX opened 47.47</b>, cleared the sheet's <b>48.57</b> gap-fill target inside ninety minutes, and <b>closed at 51.29, its session high.</b> Both were gap-ups that kept going. What separates them from the ORCL-type fade is that neither was gapping into its own scheduled event &mdash; they were gapping on a narrative that was still spreading."],
+  ["Energy equities refused to follow crude, and that is the tell worth keeping.",
+   "r",
+   "<b>USO opened 159.43, made its high at 160.15 in the first half hour, and then sold off for the rest of the session to close 156.66.</b> Up 1.14% on the day, but down 2.18% from its own opening print. <b>XLE actually closed RED, &minus;0.94%</b>, on a day when Brent rose about 3% toward $106 and Saudi Arabia's East-West pipeline was shut. When the commodity rips and the equities that produce it close lower, the market is saying it does not believe the price holds &mdash; or that it is already paid for. The premarket spike was the high."],
+  ["The 10-year crossed 5% intraday for the first time since 2023.",
+   "r",
+   "Lost inside the AI noise, and the most consequential thing that happened. The 10-year broke <b>5%</b> during the session and the 30-year sits near <b>5.33%</b>. <b>XLU &minus;1.34%</b> and <b>XLRE &minus;0.69%</b> are the rate-sensitive sectors registering it. This is the variable that can override every sector story above, and there is a $13B 20-year auction Tuesday and a Fed decision Wednesday."],
+  ["Bank of America fell more than 5% and it had nothing to do with AI.",
+   "r",
+   "BAC closed <b>&minus;5.14%</b> after guiding Q3 sales and trading revenue to roughly flat and investment-banking fees to <b>$1.6&ndash;1.8B</b>, with the trading outlook below expectations despite what management called a strong deal pipeline. CEO Brian Moynihan emphasized solid financing demand and good consumer credit quality; the market traded the operating-leverage message instead. <b>C &minus;1.90%</b> and <b>JPM &minus;1.71%</b> went with it. On a day this loud, a 5% drop in a $450B bank was the third story."]
+ ],
+ "picks": {
+  "right_note": "PREP SHEET + MORNING CALLS &middot; 5 OF 7 RESOLVED AS WRITTEN",
+  "rows": [
+   ["CRWD", "+13.85%", "g", "BULLISH KICKER &middot; TRIGGERED AND RAN", "g",
+    "Sheet: <i>&ldquo;bullish kicker, PMH $219.08, 10 min ORB if price breaks over this, be patient.&rdquo;</i>",
+    "It opened <b>218.63</b> &mdash; 45 cents under the trigger &mdash; and the opening thirty minutes took it to <b>227.45</b>. High of day <b>239.37</b>, a <b>+15.79%</b> print, closing <b>235.38</b>. The catalyst was CEO George Kurtz arguing that <b>&ldquo;securing AI's progress matters more than slowing it down,&rdquo;</b> plus an HCLTech partnership for the Falcon platform. The best call of the day and it was written down before the open."],
+   ["RBLX", "+12.73%", "g", "GAP FILL &middot; TAKEN OUT, CLOSED AT THE HIGH", "g",
+    "Sheet: <i>&ldquo;has gap fill at $48.57.&rdquo;</i>",
+    "Opened <b>47.47</b>, cleared 48.57 inside ninety minutes, and kept going to close <b>51.29 &mdash; the session high, and 5.6% beyond the target.</b> Not an AI-capex name, so the repricing that hit everything else never touched it."],
+   ["AAPL", "+0.24%", "g", "LEVEL NEVER HIT &middot; NO TRADE WAS CORRECT", "g",
+    "Sheet: <i>&ldquo;call entry at $336.22 &mdash; if price doesn't get over it then price is inside day.&rdquo;</i>",
+    "<b>The session high was 335.50.</b> The trigger was never reached, by 72 cents. It also failed to take out Friday's <b>335.74</b> high, so Monday's entire range sat inside Friday's &mdash; <b>a textbook inside day, exactly as the sheet said it would be if the level held.</b> The board now tags AAPL Inside (1). The rule kept you out of a name that went nowhere."],
+   ["THE SPLIT", "META +2.71% / MU &minus;5.25%", "g", "MORNING CALL &middot; WIDENED INTO THE CLOSE", "g",
+    "Morning report ranked this T1: <i>&ldquo;buyers green, sellers red, on the same headline.&rdquo;</i>",
+    "It did not just hold, it extended. <b>GOOGL closed +3.22%</b> against a +1.45% premarket gap, <b>META +2.71%</b> against +2.00%, <b>MSFT +1.97%</b> against +0.55%. Every buyer finished above where it gapped. <b>XLC +2.19% vs SMH &minus;4.75%</b> is the same statement at sector level."],
+   ["USO", "+1.14%", "y", "DIRECTION RIGHT &middot; THE GAP WAS THE HIGH", "y",
+    "Morning report ranked it T2 and flagged it as <i>&ldquo;crowded and extended into a Fed that may hike partly because of it.&rdquo;</i>",
+    "Green on the day, so the call was not wrong &mdash; but it <b>opened 159.43, topped at 160.15 within thirty minutes, and closed 156.66</b>, giving back 2.18% from the open. Anyone who bought the premarket strength was underwater by lunch. <b>XLE closed red.</b> The warning about extension was the useful half of that call; the ranking was too generous."],
+   ["CRM", "+4.73%", "r", "CALLED A FADE &middot; IT KEPT GOING", "r",
+    "Morning report ranked it T3: <i>&ldquo;a known fade pattern presenting as strength&hellip; distrust the gap up.&rdquo;</i>",
+    "<b>Wrong on the day.</b> It gapped +2.86% and closed <b>+4.73%</b>, nearly doubling the gap rather than fading it. The five-event study said Dreamforce faded both prior years on below-average volume; Monday it did the opposite, and on a day when its whole sector was being sold. <b>The study is n=5 and this is now a third data point against the pattern.</b> The keynote is Tuesday and the analyst session Wednesday, so the thesis is not resolved &mdash; but the call as written lost."],
+   ["DELL / ARM", "&minus;5.82% / &minus;9.74%", "r", "CHEAP CONTRACTS &middot; EARLY", "r",
+    "Sheet: <i>&ldquo;most tech is down &mdash; look for cheap dell &amp; arm contracts.&rdquo;</i>",
+    "Both fell considerably further. <b>ARM closed 239.01, within a dollar of its 238.03 session low, after failing a rally to 249.25</b> &mdash; it made a real attempt and lost it. DELL closed <b>534.28</b>, having closed Friday at a record. Buying calls into Monday's tape was early; the names bounced 1&ndash;2% Tuesday morning, which is where the patience was supposed to pay."]
+  ]
+ },
+ "how_played_out": [
+  ["The sheet's discipline rule was worth more than any of its entries.",
+   "AAPL's <b>336.22</b> was never touched &mdash; high of day <b>335.50</b> &mdash; and the sheet's own instruction was that failing the level made it an inside day rather than a weak long. That is a rule that costs nothing to write and saves a full position on a name that closed +0.24% after going nowhere all session. The board independently tagged AAPL <b>Inside (1)</b> on Monday's candle. <b>Two of the three sheet names that won, won by a level doing its job</b> &mdash; CRWD's 219.08 said go, AAPL's 336.22 said stand down."],
+  ["The third bucket only existed because the tape disagreed with the wires.",
+   "Early wire copy Monday said the hyperscalers were falling with the semis. By 7:35 CT they had separated, and the morning report grouped the watchlist as <b>AI SELLERS / AI BUYERS</b> on that basis. CRWD was then added as a third group, <b>AI SAFETY BID</b>, after its CEO's post surfaced. <b>That third bucket produced the day's best name by a wide margin</b> &mdash; and the logic was available before the open: if a market reprices on fear of AI, the company selling protection against AI is not a victim of that fear, it is the beneficiary."],
+  ["The one that lost, lost cleanly, and the reason matters more than the result.",
+   "CRM was ranked third and explicitly distrusted because our own five-event study found Dreamforce fades. It closed <b>+4.73%</b>. The honest read is not that the study is wrong &mdash; n=5 with two Dreamforce observations is thin evidence and was labelled as such &mdash; but that <b>a sector-wide rotation can overwhelm a single-name seasonal pattern.</b> CRM went up because software-adjacent names were being bought as semis were sold, not because Dreamforce is bullish. The event itself is Tuesday and Wednesday, so the pattern gets a real test this week."]
+ ],
+ "sectors": {
+  "right_note": "SEVEN RED, FIVE GREEN &mdash; AND A SEVEN-POINT SPREAD AT THE TOP",
+  "rows": [
+   ["XLC", "Communications", 2.19],
+   ["XLV", "Health Care", 1.45],
+   ["XLP", "Staples", 1.25],
+   ["XLY", "Discretionary", -0.10],
+   ["XLF", "Financials", -0.38],
+   ["XLRE", "Real Estate", -0.69],
+   ["XLB", "Materials", -0.90],
+   ["XLE", "Energy", -0.94],
+   ["XLU", "Utilities", -1.34],
+   ["XLI", "Industrials", -1.42],
+   ["XLK", "Technology", -1.81],
+   ["SMH", "Semiconductors", -4.75]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 9/14 CLOSE &amp; CANDLE &middot; RTH BARS",
+  "rows": [
+   ["CRWD", "T1", "g", "Inside (1) &rarr; bullish kicker, delivered", "g",
+    "Opened <b>218.63</b>, first thirty minutes to <b>227.45</b>, high <b>239.37</b>, closed <b>235.38</b>. Range 216.17&ndash;239.37 &mdash; a wide, one-directional day that closed in the top quarter of it.",
+    "close <b>235.38</b> &middot; <b>+13.85%</b> &middot; H 239.37 / L 216.17",
+    "The 219.08 trigger was cleared in the opening bar and never revisited.",
+    "Gave back 1.91% Tuesday premarket with the whole cyber complex."],
+   ["RBLX", "T1", "g", "Closed at the session high", "g",
+    "Opened <b>47.47</b>, cleared the 48.57 gap fill by the third bar, and closed <b>51.29 &mdash; the high of the day.</b> Range 46.73&ndash;51.295.",
+    "close <b>51.29</b> &middot; <b>+12.73%</b> &middot; H 51.295 / L 46.73",
+    "Closing at the high after taking out a target is continuation, not exhaustion.",
+    "&minus;2.73% Tuesday premarket."],
+   ["AAPL", "T1", "b", "Inside day &mdash; confirmed", "b",
+    "Range <b>331.34&ndash;335.50</b>, entirely within Friday's range (Friday high <b>335.74</b>). Closed <b>333.08</b>. The sheet's 336.22 trigger was never reached.",
+    "close <b>333.08</b> &middot; <b>+0.24%</b> &middot; H 335.50 / L 331.34",
+    "Evercore ISI reiterated Outperform Tuesday on positive iPhone 18 checks.",
+    "An inside day resolves in the direction of its break, and it has not broken."],
+   ["ARM", "T1", "r", "Failed rally, closed at the low", "r",
+    "Opened <b>241.63</b>, <b>rallied to 249.25</b> in the second bar, then lost the whole thing and closed <b>239.01</b> against a session low of <b>238.03</b>. Worst name on the board.",
+    "close <b>239.01</b> &middot; <b>&minus;9.74%</b> &middot; H 249.25 / L 238.03",
+    "The failed rally is the information &mdash; buyers showed up and were overwhelmed.",
+    "+1.37% Tuesday premarket on Huang's pushback."],
+   ["VRT", "T2", "r", "Big loss, but recovered off the low", "y",
+    "Worth stating precisely: it opened <b>228.03</b>, bottomed at <b>226.97</b> in the first thirty minutes, then <b>rallied all session to close 237.39</b> near its 240.69 high. Down 7.65%, but <b>up 4.6% from its low.</b>",
+    "close <b>237.39</b> &middot; <b>&minus;7.65%</b> &middot; H 240.69 / L 226.97",
+    "Unlike ARM, VRT was bought after the open. Same headline, opposite intraday shape.",
+    "The distinction matters: one name was distributed all day, the other was accumulated."],
+   ["USO", "T2", "y", "Opened at the high, sold all day", "r",
+    "Opened <b>159.43</b>, high <b>160.15</b> in the first half hour, then down for the rest of the session to close <b>156.66</b>. Green on the day, red from the open.",
+    "close <b>156.66</b> &middot; <b>+1.14%</b> &middot; H 160.15 / L 154.79",
+    "XLE closed <b>&minus;0.94%</b> &mdash; the equities did not believe the commodity.",
+    "The premarket print was the best price available all session."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>The baton passed from META back to NVDA, and the size went into what had been sold.</b> Monday's largest print on the whole board ex-ETF was <b>NVDA $796.4M at the ASK, after hours</b> &mdash; the same night the slow-the-AI story took the stock down 2&ndash;3%. NVDA now tops cumulative flow at <b>$4.4B (ask)</b>, ahead of <b>MU $3.6B (mixed)</b> and <b>AVGO $3.3B (bid)</b>. The pattern held across the group: <b>AVGO $779M (bid)</b> and <b>LRCX $316M (bid)</b> after its &minus;8.4% session. Ask-side size into a falling name reads like someone stepping in, but a side is a lean and not a verdict &mdash; and Tuesday morning that same group gapped up 1&ndash;2%.",
+  "right_note": "Friday's <b>META $700M ask</b> print resolved well: META closed <b>+2.71%</b> Monday while its own supply chain fell 5&ndash;10%. On the ETF side, IVV's run as the tape's largest print ended at five straight sessions, but <b>SPY $1.0B (ask, AH)</b> took the top spot &mdash; six sessions running that an S&amp;P 500 tracker has been the board's biggest print. Bond money showed up too: <b>BGFI $372M (mixed)</b> the night before the Fed convenes.",
+  "dim": false,
+  "chips": [
+   ["NVDA", "$796M", "ask &middot; top print", "g"],
+   ["AVGO", "$779M", "bid, AH", "r"],
+   ["JPM", "$489M", "mixed, AH", "y"],
+   ["META", "$466M", "ask, AH", "g"],
+   ["GOOG", "$415M", "ask, AH", "g"],
+   ["LRCX", "$316M", "bid &middot; after &minus;8.4%", "r"],
+   ["AAPL", "$268M", "ask, AH", "g"],
+   ["SPY", "$1.0B", "ask &middot; 6th session #1", "g"],
+   ["NVDA", "$4.4B", "cumulative ask", "g"],
+   ["MU", "$3.6B", "cumulative mixed", "y"]
+  ]
+ },
+ "watchlist": {
+  "stamp": "MONDAY 9/14 CLOSE",
+  "em_label": "CLOSES VS FRIDAY 9/11 &mdash; THE SPLIT WIDENED INTO THE BELL",
+  "groups": [
+   ["ETFs", [["SPY", 764.29, 760.88], ["QQQ", 714.88, 709.18], ["IWM", 288.89, 287.91], ["USO", 154.90, 156.66], ["GLD", 398.77, 392.84]]],
+   ["AI SAFETY", [["CRWD", 206.74, 235.38]]],
+   ["AI BUYERS", [["GOOGL", 338.50, 349.39], ["META", 648.03, 665.60], ["MSFT", 495.63, 505.41], ["AAPL", 332.27, 333.08], ["AMZN", 256.78, 253.54]]],
+   ["AI SELLERS", [["ARM", 264.79, 239.01], ["VRT", 257.06, 237.39], ["DELL", 567.29, 534.28], ["INTC", 102.94, 97.19], ["MU", 975.26, 924.03], ["AVGO", 361.99, 344.72], ["ORCL", 150.28, 144.79], ["AMD", 516.13, 493.41], ["TSM", 433.24, 418.01], ["NVDA", 218.29, 210.96]]],
+   ["THE REST", [["RBLX", 45.50, 51.29], ["INTU", 321.57, 339.15], ["CRM", 247.72, 259.43], ["OSCR", 32.77, 33.81], ["LLY", 1115.70, 1138.28], ["BAC", 62.69, 59.47]]]
+  ]
+ },
+ "trump": {
+  "stamp": "MONDAY 9/14 CLOSE",
+  "groups": [
+   ["THE SAFETY BID", [["CRWD", 13.85]]],
+   ["THE BUYERS", [["GOOGL", 3.22], ["META", 2.71], ["MSFT", 1.97], ["AAPL", 0.24]]],
+   ["THE SELLERS", [["ARM", -9.74], ["VRT", -7.65], ["DELL", -5.82], ["INTC", -5.59], ["MU", -5.25], ["AVGO", -4.77], ["AMD", -4.40], ["ORCL", -3.65], ["TSM", -3.52], ["NVDA", -3.36]]],
+   ["THE INDEX", [["SPY", -0.45], ["IWM", -0.34], ["QQQ", -0.80]]]
+  ]
+ },
+ "thisweek": [
+  {"day": "MON 9/14", "tag": "DONE", "accent": "done",
+   "econ": [["&mdash;", "10-year crossed 5% intraday, first time since 2023"]],
+   "earnings": [["PLAY", "miss"], ["KMTS", "&minus;8.7%"]],
+   "events": [["Hormuz", "POSTPONED", "Oman shelved it; Saudi East-West pipeline shut"]]},
+  {"day": "TUE 9/15", "tag": "TOMORROW", "accent": "live",
+   "econ": [["7:30a", "Empire State &mdash; seen ~14&ndash;15 vs 20.6"], ["12:00p", "$13B 20-year auction"]],
+   "earnings": [["TCOM", "PM"]],
+   "events": [["CRM", "12:00p", "Dreamforce keynote"], ["FOMC", "Day 1", "No communication until Wednesday"]]},
+  {"day": "WED 9/16", "tag": "DECISION", "accent": "hot",
+   "econ": [["7:30a", "August retail sales"], ["1:00p", "FOMC &mdash; 92% priced, NEW DOT PLOT"], ["1:30p", "Warsh press conference"]],
+   "earnings": [["LEN", "PM"]],
+   "events": [["OSCR", "8:00a", "Investor Day"], ["CRM", "3:00p", "Investor &amp; Analyst Session"]]},
+  {"day": "THU 9/17", "tag": "AFTER", "accent": "warn",
+   "econ": [["6:00a", "Bank of England"], ["7:30a", "Claims, housing starts, Philly Fed"]],
+   "earnings": [["CCL", "AM"]],
+   "events": [["INTU", "Thu", "Investor Day"], ["SEC", "Thu", "24-hour trading roundtable"]]},
+  {"day": "FRI 9/18", "tag": "EXPIRY", "accent": "warn",
+   "econ": [["8:15a", "Industrial production"], ["All day", "Triple witching"]],
+   "earnings": [],
+   "events": [["UNH", "09/18", "$75.0M $300C floor block"]]}
+ ],
+ "charts": [
+  ["CRWD", "charts/CRWD_2026-09-15.png", "+13.85% &middot; tagged +15.79% intraday"],
+  ["LRCX", "charts/LRCX_2026-09-15.png", "&minus;8.4% &middot; then a $316M bid print"],
+  ["LLY", "charts/LLY_2026-09-15.png", "+2.02% &middot; healthcare bid as semis sold"],
+  ["CRM", "charts/CRM_2026-09-15.png", "+4.73% &middot; the call that lost"],
+  ["PLAY", "charts/PLAY_2026-09-15.png", "Closed +4.05% into a print it then missed"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "lessons": [
+  ["A narrative that is still spreading does not fade like a scheduled event.", "g",
+   "Every gap-fade this book has documented &mdash; SNOW, GTLB, MRVL, ORCL twice &mdash; involved a stock gapping into <b>its own scheduled catalyst</b>, where the news was already fully known at the open. CRWD and RBLX gapped on something still propagating through the market, and both <b>closed at or near their highs</b>. That is the distinction to carry forward: ask whether the catalyst is finished or still unfolding before assuming the gap is the high."],
+  ["When the commodity rips and its equities close red, believe the equities.", "r",
+   "Brent rose about 3% Monday on a genuine supply disruption and <b>XLE closed &minus;0.94%</b> while <b>USO gave back 2.18% from its open</b>. The producers are the ones who have to price the barrel forward, and they sold it. That divergence was visible by mid-morning and was a better signal than the crude headline."],
+  ["Our own five-event study lost a round, and the sample is the reason.", "r",
+   "CRM was ranked third and distrusted because the study says Dreamforce fades. It closed <b>+4.73%</b>. The study is <b>n=5 with two Dreamforce observations</b>, which was disclosed when it was published, and a sector rotation this violent is exactly the kind of force that swamps a thin seasonal edge. <b>The pattern is not disproved and it is not vindicated &mdash; it was outvoted.</b> Tuesday's keynote and Wednesday's analyst session are the real test."],
+  ["The index number was useless and the sector spread was the whole story.", "g",
+   "<b>SPY &minus;0.45%</b> tells you nothing about a session where <b>XLC rose 2.19% and SMH fell 4.75%</b>. On days when a single narrative sorts the market into winners and losers, the index is the average of two opposite trades and describes neither. Read the spread, not the level."]
+ ],
+ "tomorrow": [
+  ["&nbsp;", "o", "<b>FOMC day one, and the decision is Wednesday at 1:00 CT with a new dot plot.</b> Futures now price a <b>92% chance of a 25bp hike to 3.75&ndash;4.00%</b> &mdash; the first increase since July 2023 &mdash; with the market leaning toward <b>two hikes by year-end</b>."],
+  ["&nbsp;", "o", "<b>The bond market is the real risk, not the AI debate.</b> The 10-year crossed 5% intraday Monday for the first time since 2023 and the 30-year is near 5.33%. A <b>$13B 20-year auction lands at 12:00 CT Tuesday</b>, one day before the decision. Watch the tail."],
+  ["&nbsp;", "o", "<b>Jensen Huang has already answered the essay.</b> He told President Trump <b>&ldquo;we're not going to let an AI slowdown happen&rdquo;</b> &mdash; and Tuesday premarket the whole Monday board inverted: semis green, cyber red. Neither side of this trade has been settled by a datapoint. Both moves came from executives talking."],
+  ["&nbsp;", "o", "<b>Dreamforce keynote Tuesday 12:00 CT, and the Investor &amp; Analyst Session Wednesday 3:00 CT</b> &mdash; the half that carries a financial framework, landing at the bell on decision day. CRM closed +4.73% Monday against this book's call; the pattern gets its real test now."],
+  ["&nbsp;", "o", "<b>Empire State Manufacturing Tuesday 7:30 CT</b>, seen around 14&ndash;15 after August's 20.6, and <b>Bessent testifies to House Financial Services at 9:00 CT</b>."]
+ ],
+ "tts": [
+  {"label": "After the close", "text": "Monday September fourteenth, after the close. The index fell half a percent and that number describes nothing that happened. Underneath it, semiconductors lost four point seven five percent while communications gained two point one nine. A seven point spread between two sectors in one session, driven by an essay rather than a datapoint. CrowdStrike closed up thirteen point eight five percent and tagged fifteen point seven nine intraday, the best name on the board, because the company that sells AI safety benefits when the industry's own leaders warn about AI. The prep sheet had it flagged before the open as a bullish kicker with a trigger at two nineteen oh eight. It opened at two eighteen sixty three and the first thirty minutes took it to two twenty seven. The morning call was that the AI trade had split into buyers and sellers, and the session did not just confirm it, it widened it. Alphabet closed up three point two two against a one point four five gap. Meta up two point seven one. Arm closed down nine point seven four, within a dollar of its low, after failing a rally to two forty nine. Three things to carry. Apple's three thirty six twenty two was never reached, high of day three thirty five fifty, and the sheet's rule correctly made it a no trade. Oil opened at its high and sold all day while energy equities closed red, which is the equities disagreeing with the barrel. And the ten year crossed five percent intraday for the first time since twenty twenty three, which is the risk nobody is discussing into Wednesday's decision."}
+ ]
+}
