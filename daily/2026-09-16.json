@@ -1,0 +1,160 @@
+{
+ "title": "Wednesday, September 16, 2026",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>The decision is 93% priced. The dot plot is not.</b> The Fed announces at <b>1:00 CT</b> with futures at roughly <b>93% for a 25bp hike to 3.75&ndash;4.00%</b> &mdash; the first increase since July 2023 &mdash; and Chair Warsh takes the podium at <b>1:30 CT</b> with a fresh set of dots. <b>That is where the actual information is.</b> The June dot plot penciled in <b>one</b> more hike for 2026; futures are leaning toward <b>two</b> by year-end. The decision itself resolves nothing because everyone already holds it. The gap between one dot and two is the trade.",
+  "summary": "<b>A style note that matters more than usual: Warsh favors minimalist communication.</b> Expect fewer promises and more data-dependence, which means the bond market will be left to do its own interpreting &mdash; and the bond market is already at a level it has not seen in nearly two decades. <b>The 10-year touched 5.045% intraday Tuesday, its highest since 2007</b>, before settling right on the 5% line. Ahead of all of it, <b>August retail sales land at 7:30 CT</b>, seen rebounding about <b>+0.9%</b> after July's <b>&minus;0.6%</b> — the biggest monthly drop in over a year. BofA card data still shows spending up 4.5% year-over-year, so the consumer read is genuinely open rather than pre-written."
+ },
+ "overview": "<b>Futures are modestly green and the semis are leading again for a third straight session of this tug-of-war.</b> <b>INTC +3.50%</b>, <b>LRCX +2.02%</b>, <b>ARM +1.88%</b>, <b>AMD +1.75%</b>, <b>DELL +1.45%</b>. The AI-slowdown story has now had its panic (Monday), its rebuttal (Tuesday, via Huang) and its third day of quiet grinding &mdash; the complex is no longer trading the essay, it is trading the Fed like everything else.<br><br><b>The two-day damage was elsewhere, and it came from Washington.</b> <b>The CLARITY Act procedural vote failed in the Senate</b>, Bitcoin slid into the $76,800 range and is near $75k this morning, and the crypto complex wore it in full: <b>COIN &minus;7.1%</b>, <b>CRCL &minus;9.1%</b>, <b>HOOD &minus;3.7%</b> on Tuesday. That was the cleanest single-catalyst move of the session and it had nothing to do with AI or the Fed.<br><br><b>Watch the rotation inside this morning's tape, because it is the one that reads as pre-positioning.</b> <b>GLD is +1.16% while USO is &minus;1.69%</b> &mdash; gold bid and crude giving back, the first time this week that pairing has gone this direction. Oil is pausing but holding above $100 after WTI settled near <b>$104 (+2.6%)</b> and Brent near <b>$108 (+2.1%)</b> Tuesday on the Saudi pipeline shutdown and continued Houthi attacks. <b>Freight is the morning's disaster: JBHT &minus;10.46%</b>, the board's biggest down-mover, the morning after its own conference appearance, with fellow trucker <b>KNX &minus;4.4%</b> carrying a bearish kicker beside it. A double-digit break in a transport bellwether on a conference day is a demand signal worth more attention than it will get today.<br><br><b>Today's sequence:</b> retail sales <b>7:30 CT</b>, crude inventories <b>9:30 CT</b>, the decision <b>1:00 CT</b>, Warsh <b>1:30 CT</b>. <b>OSCR's Investor Day runs at 8:00 CT</b> and it is <b>+1.63%</b> into it; <b>ON Semiconductor's Analyst Day</b> lands the same day with the stock <b>+1.50%</b>; <b>CRM's Investor &amp; Analyst Session is 3:00 CT</b>, at the bell; and <b>LEN reports after the close</b> &mdash; a homebuilder printing hours after a rate hike with mortgage rates north of 7%, Street near $1.30 and expected lower year-over-year.",
+ "watchlist": {
+  "stamp": "PREMARKET 8:02AM CT",
+  "em_label": "MARKS VS TUESDAY 9/15 CLOSE &mdash; DECISION DAY, DOT PLOT AT 1:00 CT",
+  "groups": [
+   ["ETFs", [["SPY", 757.39, 759.37], ["QQQ", 704.54, 707.81], ["IWM", 285.14, 285.69], ["GLD", 394.15, 398.72], ["USO", 161.86, 159.13]]],
+   ["SEMIS LEADING AGAIN", [["INTC", 97.14, 100.54], ["LRCX", 270.87, 276.33], ["ARM", 241.83, 246.38], ["AMD", 504.20, 513.04], ["DELL", 543.51, 551.40], ["TSM", 413.75, 417.51], ["SNDK", 1530.90, 1544.98], ["NVDA", 212.17, 213.81], ["MU", 927.60, 934.00], ["AVGO", 339.27, 340.50]]],
+   ["EVENT TODAY", [["OSCR", 32.44, 32.97], ["ON", 73.20, 74.30], ["CRM", 255.65, 254.50], ["LEN", 80.07, 80.16]]],
+   ["MEGA CAP", [["META", 670.24, 675.50], ["GOOGL", 344.98, 345.49], ["MSFT", 497.12, 495.52], ["AAPL", 331.34, 331.55], ["CRWD", 242.49, 239.24]]],
+   ["MOVERS", [["JBHT", 273.05, 244.48], ["TCOM", 39.25, 40.90], ["COIN", 172.11, 173.60], ["HOOD", 110.45, 110.53], ["AXON", 442.08, 439.50]]]
+  ]
+ },
+ "setups": [
+  ["T1", "y", "THE DOT PLOT", "One dot vs two", "The only unpriced thing on the calendar", "<b>93% of the market already owns the hike.</b> A 25bp move to 3.75&ndash;4.00% is not information; it is confirmation. <b>The information is the dots.</b> June's plot penciled <b>one</b> more 2026 hike. Futures are positioned for <b>two</b> by year-end. If the new plot shows one, the front end has to unwind a hike it is carrying; if it shows two or more, the 10-year at 5% gets a fresh reason to go higher. <b>And Warsh's minimalist style makes the dots louder, not quieter</b> &mdash; a chair who declines to guide leaves the plot as the only forward signal in the room. <b>The risk:</b> a hawkish dot plot into a 10-year that already tagged its highest level since 2007 is the combination that breaks the equity calm, and the calm is what everything above is priced on."],
+  ["T2", "g", "RETAIL SALES", "7:30 CT &middot; seen +0.9%", "The last real data before the decision", "July fell <b>&minus;0.6%</b>, the biggest monthly drop in over a year, and consensus looks for a <b>+0.9%</b> rebound. <b>The reason this is genuinely open rather than pre-written: BofA card data still shows spending up 4.5% year-over-year</b>, which does not square with a consumer that fell off a cliff in July. <b>A hot print hands Warsh cover for a hawkish plot; a soft one makes the second dot much harder to justify</b> &mdash; and it lands five and a half hours before the decision, so the tape gets to reprice twice. Watch the control group rather than the headline."],
+  ["T3", "b", "OSCR", "+1.63% &middot; Investor Day 8:00 CT", "The event, then the decision, on the same clock", "Oscar Health presents <b>long-term financial targets</b> an hour before the open, then the Fed decides five hours later. <b>Our own five-event study makes this the one to respect:</b> OSCR's June 2024 Investor Day ran <b>2.15x average volume and a 2.16 ATR range</b> &mdash; the most violent of the five &mdash; falling <b>12.19% from the open</b> before closing +0.42% from it. <b>The entire move was in the path.</b> The tell is visible early: across all five events, volume in the first thirty minutes ordered the day's range almost perfectly. <b>An Investor Day that does not bring volume does not bring movement.</b> It closed Tuesday <b>32.44</b>, down 4.05%, giving back the whole of Monday's gain before the event."]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; WED 9/16 &middot; AWAITING SHEET",
+  "lead": "&#9888; <b>No prep sheet in hand yet &mdash; this is the tape's read, not Marcus's.</b> Monday's sheet framed the week correctly and it still governs: <b>FOMC and OPEX week, better price action in the days AFTER, protect the port.</b> Today is the event the sheet said to be patient through. <b>The decision is at 1:00 CT and Warsh speaks at 1:30</b> &mdash; two thirds of the session happens before anyone knows anything.",
+  "cards": [
+   ["THE DOTS", "1:00 CT &middot; the real event", "y", "1",
+    "<b>93% priced for 25bp to 3.75&ndash;4.00%</b>, the first hike since July 2023. The decision is consensus; the <b>dot plot</b> is not.",
+    "<b>June dots said one more 2026 hike. Futures lean two.</b> That gap is the whole trade.",
+    "A one-dot plot forces the front end to unwind a hike it currently carries &mdash; bullish for duration and for the long-duration equities that have been sold all week.",
+    "A two-dot plot into a 10-year that tagged <b>5.045%</b> Tuesday, its highest since 2007, is the combination that ends the calm.",
+    "Warsh's minimalist communication style makes the plot the loudest thing in the room, not the presser."],
+   ["OSCR", "Investor Day &middot; +1.63%", "b", "1",
+    "Presents long-term financial targets at <b>8:00 CT</b>, an hour before the open. Closed Tuesday <b>32.44</b>, <b>&minus;4.05%</b> &mdash; giving back all of Monday's gain going in.",
+    "<b>Watch volume in the first thirty minutes.</b> In our five-event study the volume ratio ordered the day's range almost perfectly.",
+    "The 2024 event produced an <b>11.90% intraday range</b> on 2.15x volume. This is the name in the study with a real precedent for movement.",
+    "That same event fell <b>12.19% from the open</b> and then closed +0.42% from it &mdash; the money was in the path, and a hold to the close made nothing.",
+    "Sell-the-news ran four of five in the study, and three of five gapped up and closed below the open."],
+   ["JBHT", "&minus;10.46% &middot; freight breaking", "r", "2",
+    "The board's biggest down-mover, collapsing the morning after its own conference appearance. <b>KNX &minus;4.4%</b> alongside it with a bearish kicker.",
+    "<b>Nobody will look at this today</b>, which is exactly why it is on this list.",
+    "A transport bellwether is a demand read. Two truckers breaking together on a conference day is a sector statement, not a single-name accident.",
+    "It is also a conference-day gap-down, the pattern this book has documented repeatedly &mdash; the event was the catalyst, and the direction was down.",
+    "Ranked here as information rather than as a trade: it says something about the economy Warsh is deciding on."],
+   ["GLD vs USO", "+1.16% / &minus;1.69%", "y", "2",
+    "Gold bid, crude giving back &mdash; the first time this week that pairing has run this direction into a session.",
+    "<b>Read it as pre-positioning</b>: someone is hedging a decision rather than pressing the oil trade.",
+    "WTI settled near <b>$104</b> Tuesday and Brent near <b>$108</b>, so oil is pausing from strength, not breaking.",
+    "Gold rising into a near-certain rate hike is not the textbook reaction, which makes it worth watching rather than trusting.",
+    "If gold holds the bid through the decision, the market is pricing the dots dovishly regardless of the hike."]
+  ]
+ },
+ "thisweek": [
+  {"day": "MON 9/14", "tag": "DONE", "accent": "done",
+   "econ": [["&mdash;", "10-year crossed 5% intraday, first since 2023"]],
+   "earnings": [["PLAY", "miss"]],
+   "events": [["The split", "HELD", "CRWD +13.85% vs ARM &minus;9.74%"]]},
+  {"day": "TUE 9/15", "tag": "DONE", "accent": "done",
+   "econ": [["&mdash;", "10-year touched 5.045%, highest since 2007"]],
+   "earnings": [["TCOM", "loss on penalty"]],
+   "events": [["CLARITY Act", "FAILED", "COIN &minus;7.1%, CRCL &minus;9.1%, HOOD &minus;3.7%"]]},
+  {"day": "WED 9/16", "tag": "TODAY", "accent": "hot",
+   "econ": [["7:30a", "August retail sales &mdash; seen +0.9% after &minus;0.6%"], ["9:30a", "Crude inventories"], ["1:00p", "FOMC &mdash; 93% priced, NEW DOT PLOT"], ["1:30p", "Warsh press conference"]],
+   "earnings": [["LEN", "PM &middot; est $1.30"]],
+   "events": [["OSCR", "8:00a", "Investor Day &mdash; long-term targets"], ["CRM", "3:00p", "Investor &amp; Analyst Session"]]},
+  {"day": "THU 9/17", "tag": "AFTER", "accent": "warn",
+   "econ": [["6:00a", "Bank of England"], ["7:30a", "Claims, housing starts, Philly Fed"]],
+   "earnings": [["CCL", "AM"]],
+   "events": [["INTU", "Thu", "Investor Day"], ["FlowMS", "4:30p CT", "Zoom &mdash; standing weekly slot"]]},
+  {"day": "FRI 9/18", "tag": "EXPIRY", "accent": "warn",
+   "econ": [["8:15a", "Industrial production"], ["All day", "Triple witching"]],
+   "earnings": [],
+   "events": [["ICE", "09/18", "<b>$26.8M $145C floor block</b> &mdash; largest ticket on the board"]]}
+ ],
+ "charts": [],
+ "charts_note": "",
+ "trump": {
+  "stamp": "PREMARKET 8:02AM CT",
+  "groups": [
+   ["SEMIS &mdash; THIRD DAY LEADING", [["INTC", 3.50], ["LRCX", 2.02], ["ARM", 1.88], ["AMD", 1.75], ["DELL", 1.45], ["TSM", 0.91], ["SNDK", 0.92], ["NVDA", 0.77], ["MU", 0.69]]],
+   ["EVENT NAMES", [["TCOM", 4.20], ["OSCR", 1.63], ["ON", 1.50], ["LEN", 0.11], ["CRM", -0.45]]],
+   ["THE HEDGE", [["GLD", 1.16], ["USO", -1.69]]],
+   ["BREAKING", [["JBHT", -10.46], ["CRWD", -1.34], ["MSFT", -0.32]]]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/15 CLOSE &amp; CANDLE &middot; DP $250K+",
+  "rows": [
+   ["MU", "T1", "g", "Failed 2U &mdash; clustering", "g",
+    "The semis that were wall-to-wall <b>Failed 2D</b> on Monday's candle are now stacked in <b>Failed 2U</b> off Tuesday's steadier one, with dark-pool size behind all three of MU, NVDA and INTC. MU closed <b>927.60</b>, +0.39%.",
+    "Tue close <b>927.60</b> &middot; <b>+0.39%</b> &middot; pre <b>934.00</b>, +0.69%",
+    "<b>MU took over the top of cumulative dark-pool flow at $4.9B (mixed)</b>, ahead of NVDA, and drew a <b>$1.2B ask-side</b> print after hours.",
+    "Reports 9/30. A Failed 2U that keeps getting bought is a setup fighting its own tag."],
+   ["NVDA", "T1", "y", "Failed 2U &mdash; and the side flipped", "y",
+    "Closed <b>212.17</b>, +0.57%. The tape's story is in the flow rather than the candle: <b>NVDA drew $1.2B at the BID after hours</b>, its third straight night as the board's largest single-name print &mdash; and <b>the opposite side of Monday's $796M ask</b>.",
+    "Tue close <b>212.17</b> &middot; <b>+0.57%</b> &middot; pre <b>213.81</b>, +0.77%",
+    "This morning's print is the same name, same side: <b>$50M+ at the bid</b>.",
+    "Size working both sides of one name into a decision is not a signal, it is a hedge being built."],
+   ["INTC", "T1", "g", "Failed 2U &rarr; best of the bounce", "g",
+    "Flat on Tuesday at <b>97.14</b> and gapping <b>+3.50%</b> this morning, the strongest of the complex. Carries clustering and a bullish kicker on the board.",
+    "Tue close <b>97.14</b> &middot; <b>&minus;0.05%</b> &middot; pre <b>100.54</b>, +3.50%",
+    "Back above 100 for the first time since Monday's break.",
+    "Three sessions of violent two-way rotation in this group with no datapoint settling it."],
+   ["OSCR", "T1", "b", "Investor Day, and it gave back first", "b",
+    "Closed <b>32.44</b>, <b>&minus;4.05%</b> on Tuesday &mdash; surrendering the whole of Monday's +3.17% gain the session before its own event.",
+    "Tue close <b>32.44</b> &middot; <b>&minus;4.05%</b> &middot; pre <b>32.97</b>, +1.63%",
+    "Going into the event weak is a different setup than going in extended &mdash; three of five in the study gapped UP and closed below the open.",
+    "The 2024 precedent is an 11.90% intraday range. Size for the path, not the close."],
+   ["JBHT", "T2", "r", "Broke the morning after its conference", "r",
+    "<b>&minus;10.46%</b> from a 273.05 close, the board's biggest down-mover, with KNX <b>&minus;4.4%</b> alongside carrying a bearish kicker.",
+    "Tue close <b>273.05</b> &middot; pre <b>244.48</b>, <b>&minus;10.46%</b>",
+    "Two truckers breaking together is a freight-demand statement, not a single-name accident.",
+    "Another conference-day gap-down &mdash; the event was the catalyst and the direction was down."]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["TCOM", 4.20, "Revenue <b>RMB15.7B</b>, up 6% year-over-year with <b>international revenue up 50%+</b>. It swung to a net loss of about <b>$361M</b> &mdash; but entirely on a <b>RMB5.2B Chinese antitrust penalty</b>, and it was profitable without it. The market is looking through the fine."],
+   ["INTC", 3.50, "Best of the semi complex for a second straight morning, back above 100."],
+   ["LRCX", 2.02, "Third session of the semi tug-of-war, still leading it."],
+   ["ARM", 1.88, "Recovering from Monday's &minus;9.74%, the worst close on that board."],
+   ["AMD", 1.75, "Drew <b>$682M at the bid</b> after hours with the rest of the mega-cap complex."],
+   ["OSCR", 1.63, "<b>Investor Day at 8:00 CT</b> with long-term financial targets. Closed &minus;4.05% Tuesday going in."],
+   ["ON", 1.50, "<b>Analyst Day today</b>, landing the same session as the decision."],
+   ["DELL", 1.45, "Near its highs again after leading Tuesday's upside."],
+   ["GLD", 1.16, "Bid into a near-certain rate hike, which is not the textbook reaction."]
+  ],
+  "bear": [
+   ["JBHT", -10.46, "The board's biggest down-mover, collapsing the morning after its own conference appearance. <b>KNX &minus;4.4%</b> beside it with a bearish kicker. A transport bellwether breaking double digits is a demand signal."],
+   ["USO", -1.69, "Giving back after WTI settled near <b>$104 (+2.6%)</b> and Brent near <b>$108 (+2.1%)</b> Tuesday. Still above $100."],
+   ["CRWD", -1.34, "Second day of the safety-bid unwind after a <b>+13.85%</b> Monday. The board flags it in all-time-high territory with <b>62% bullish options flow</b> and a $2.4M block."],
+   ["CRM", -0.45, "Fading into its own <b>3:00 CT Investor &amp; Analyst Session</b>. Down 1.46% Tuesday after the keynote &mdash; the fade this book called on Monday has finally started, two days late."],
+   ["MSFT", -0.32, "Drew <b>$671M at the bid</b> after hours with the rest of the mega-caps."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Roughly $5B of S&amp;P 500 tracker size printed after hours, all of it bid-side, the night before a near-certain rate hike.</b> <b>VOO $1.8B (bid)</b> was the largest print on the whole board &mdash; the <b>seventh straight session</b> an S&amp;P tracker has topped the tape &mdash; with <b>IVV $1.7B (bid)</b> and <b>SPY $1.5B (bid)</b> stacked behind it. That is index money repositioning into the event rather than an opinion about a single name, and the lean-not-verdict caveat applies twice over on index flow. <b>In single names the mega-caps leaned the same way: NVDA, AMD, MSFT, AVGO and AAPL all printed at the bid.</b> <b>MU and PLTR took the ask side instead</b> &mdash; and MU has now taken over the top of cumulative flow at <b>$4.9B (mixed)</b>, ahead of NVDA <b>$4.3B (bid)</b> and META <b>$3.1B (ask)</b>.",
+  "right_note": "<b>The board is working both ends of the clock.</b> Largest block: <b>ICE $145C 09/18 at $26.8M</b>, a floor call block expiring Friday on triple witching, two days after the decision &mdash; about as short-dated as size gets. Largest sweep: <b>META $670C 01/21/28 at $4.6M</b>, dated out to <b>January 2028</b>, on the same name carrying $3.1B of ask-side cumulative flow. One ticket pointed at Friday, one pointed at 2028.",
+  "dim": false,
+  "chips": [
+   ["NVDA", "$1.2B", "bid &middot; 3rd night #1", "r"],
+   ["MU", "$1.2B", "ask, AH", "g"],
+   ["GOOGL", "$690M", "mixed, AH", "y"],
+   ["AMD", "$682M", "bid, AH", "r"],
+   ["MSFT", "$671M", "bid, AH", "r"],
+   ["META", "$659M", "mixed, AH", "y"],
+   ["PLTR", "$622M", "ask, AH", "g"],
+   ["AVGO", "$447M", "bid, AH", "r"],
+   ["AAPL", "$411M", "bid", "r"],
+   ["VOO", "$1.8B", "bid &middot; top of board", "r"],
+   ["IVV", "$1.7B", "bid, AH", "r"],
+   ["SPY", "$1.5B", "bid, AH", "r"]
+  ]
+ },
+ "tts": [
+  {"label": "Premarket", "text": "Wednesday September sixteenth, premarket. The decision is ninety three percent priced. The dot plot is not. The Fed announces at one o'clock Central with futures at roughly ninety three percent for a twenty five basis point hike to three seventy five to four percent, the first increase since July twenty twenty three, and Chair Warsh speaks at one thirty with a fresh set of dots. That is where the actual information is. The June plot penciled in one more hike for twenty twenty six. Futures are leaning toward two by year end. The gap between one dot and two is the trade. A style note that matters more than usual. Warsh favors minimalist communication, so expect fewer promises and more data dependence, which leaves the bond market to do its own interpreting. And the bond market touched five point zero four five percent on the ten year Tuesday, its highest since two thousand seven. Before any of it, August retail sales at seven thirty Central, seen rebounding about nine tenths of a percent after July fell six tenths, the biggest monthly drop in over a year. Bank of America card data still shows spending up four and a half percent year over year, so this one is genuinely open. Three things underneath. Semis lead for a third session, Intel up three and a half. Gold is bid and crude is giving back, which reads as someone hedging the decision. And J B Hunt is down ten and a half percent the morning after its own conference, with Knight Swift down four point four beside it. A transport bellwether breaking double digits is a demand signal, and nobody will look at it today."}
+ ]
+}
