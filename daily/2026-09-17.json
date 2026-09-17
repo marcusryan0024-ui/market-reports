@@ -190,7 +190,7 @@
  ],
  "prep": {
   "pill": "MORNING PREP &middot; THU 9/17 &middot; $50 RISK",
-  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> The sheet opens with the identity statement and the filter that follows from it: <b>focus on targeted days, events, extreme volume and earnings</b> &mdash; not on whatever the tape is doing. A second note at the top worth keeping: <b>call flow in the money is buying shares</b>, not a lottery ticket. <b>FlowMS Zoom today.</b> And the forward list is already written: <b>next week's catalysts are PATH, ONON, MCD, QCOM, META and COST earnings</b> &mdash; <b>QCOM is +3.68% this morning</b> into a Snapdragon Summit that runs 9/22&ndash;9/24.",
+  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> $50 risk. Focus on <b>targeted days, events, extreme volume and earnings</b>. <b>Call flow in the money is buying shares.</b> FlowMS Zoom today. <b>Next week's list is already written: PATH, ONON, MCD, QCOM, META, COST earnings</b> &mdash; QCOM is <b>+3.68%</b> into a Snapdragon Summit that runs 9/22&ndash;24.",
   "cards": [
    [
     "CRM",
@@ -235,6 +235,50 @@
     "Two are already confirmed on our calendar: <b>QCOM's Snapdragon Summit 9/22&ndash;9/24</b> and <b>COST earnings 9/24</b>.",
     "PATH, ONON, MCD and META need their specific events verified before Sunday's map &mdash; a ticker is not a catalyst until it has a date and a time.",
     "Flagged here so the week-ahead build starts from this list rather than rediscovering it."
+   ],
+   [
+    "GNRC",
+    "Amazon deal &middot; +23.3%",
+    "g",
+    "3",
+    "<b>215.87</b> from 175.11, having gapped <b>+30.09%</b> and already given back seven points of it.",
+    "<b>Signed, not scheduled</b> &mdash; unlike a conference gap there is no second shoe today.",
+    "Amazon took the right to buy up to <b>$340M</b> of stock, which converts a customer into a stakeholder.",
+    "A 30% gap prices most of an $8B deal instantly, and it is fading in the first half hour.",
+    "The give-back is the tell on whether the gap was the high."
+   ],
+   [
+    "FLNC",
+    "Guidance cut &middot; &minus;16.8%",
+    "r",
+    "3",
+    "<b>7.53</b> from 9.05, off the &minus;22.21% premarket low. Revenue guidance cut to <b>$2.4B</b> from $2.9&ndash;3.1B.",
+    "<b>Information, not a dip.</b> Downgraded this morning on top of it.",
+    "Recovering five points off the premarket print.",
+    "Both lines cut in one release &mdash; roughly $600M of revenue and $210M of EBITDA.",
+    "Sits directly opposite GNRC: generators bought, grid-scale storage not."
+   ],
+   [
+    "QCOM",
+    "Next week &middot; +2.54%",
+    "g",
+    "4",
+    "<b>189.54</b>, up from 184.84, moving early into a <b>Snapdragon Summit that runs 9/22&ndash;24</b> in Maui.",
+    "On the sheet's next-week list. <b>Already moving five sessions ahead of the event.</b>",
+    "Multi-day event, so the move can extend rather than resolve in one session.",
+    "Buying a catalyst that is already being bought is a worse entry than the list implies.",
+    "The one name on next week's list with a confirmed date and time."
+   ],
+   [
+    "YETI",
+    "Investor Day today &middot; +0.57%",
+    "b",
+    "4",
+    "<b>40.78</b>, gapped +2.8% on earnings and faded most of it. <b>Investor Day this morning.</b>",
+    "Same rule as INTU and ON: <b>volume in the first thirty minutes</b> tells you whether there is a trade.",
+    "Earnings and an investor day on the same morning is an unusually dense setup for a name this size.",
+    "It has already surrendered most of the earnings gap before the event starts.",
+    "One of six investor days today &mdash; the heaviest slate of the week."
    ]
   ]
  },
@@ -395,22 +439,40 @@
    ]
   }
  ],
- "charts": [],
- "charts_note": "",
+ "charts": [
+  [
+   "GNRC",
+   "charts/GNRC_2026-09-17.png",
+   "+30.09% &middot; Amazon $8B generator deal"
+  ],
+  [
+   "FLNC",
+   "charts/FLNC_2026-09-17.png",
+   "&minus;22.21% &middot; guidance cut both lines"
+  ],
+  [
+   "LEN",
+   "charts/LEN_2026-09-17.png",
+   "Trampoline &middot; 80 up / 76 down"
+  ],
+  [
+   "INTU",
+   "charts/INTU_2026-09-17.png",
+   "Investor Day 10:00 &middot; in support"
+  ],
+  [
+   "ARM",
+   "charts/ARM_2026-09-17.png",
+   "+4.75% &middot; Haas on data-center demand"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
  "trump": {
   "stamp": "PREMARKET 7:15AM CT",
   "groups": [
    [
-    "THE POST-FOMC BID",
+    "SEMIS",
     [
-     [
-      "GNRC",
-      30.09
-     ],
-     [
-      "NSC",
-      10.2
-     ],
      [
       "ARM",
       4.75
@@ -424,30 +486,160 @@
       3.1
      ],
      [
+      "MU",
+      2.19
+     ],
+     [
+      "NVDA",
+      1.68
+     ],
+     [
+      "DELL",
+      1.71
+     ],
+     [
+      "TSM",
+      0.91
+     ]
+    ]
+   ],
+   [
+    "THE AI-SAFETY UNWIND",
+    [
+     [
+      "S",
+      -3.45
+     ],
+     [
+      "PANW",
+      -2.17
+     ],
+     [
+      "OKTA",
+      -2.16
+     ],
+     [
+      "CRWD",
+      -0.89
+     ]
+    ]
+   ],
+   [
+    "POWER &amp; DATA CENTER",
+    [
+     [
+      "GNRC",
+      30.09
+     ],
+     [
+      "NBIS",
+      9.75
+     ],
+     [
+      "BTDR",
+      4.4
+     ],
+     [
+      "TSEM",
+      6.0
+     ],
+     [
+      "CRWV",
+      -1.52
+     ],
+     [
+      "FLNC",
+      -22.21
+     ]
+    ]
+   ],
+   [
+    "CRYPTO REPAIRING",
+    [
+     [
       "COIN",
       2.85
      ],
      [
       "HOOD",
       2.78
-     ],
-     [
-      "MU",
-      2.19
-     ],
-     [
-      "AMZN",
-      2.01
      ]
     ]
    ],
    [
-    "LESS TIGHTENING",
+    "MEGA CAP",
+    [
+     [
+      "AMZN",
+      2.01
+     ],
+     [
+      "GOOGL",
+      1.19
+     ],
+     [
+      "META",
+      1.01
+     ],
+     [
+      "MSFT",
+      1.04
+     ],
+     [
+      "AAPL",
+      0.51
+     ]
+    ]
+   ],
+   [
+    "RATES &amp; METALS",
     [
      [
       "GLD",
       1.85
      ],
+     [
+      "TLT",
+      0.76
+     ],
+     [
+      "USO",
+      -2.25
+     ],
+     [
+      "XOM",
+      -0.91
+     ]
+    ]
+   ],
+   [
+    "EVENT NAMES",
+    [
+     [
+      "YETI",
+      2.8
+     ],
+     [
+      "ON",
+      2.06
+     ],
+     [
+      "INTU",
+      0.46
+     ],
+     [
+      "LEN",
+      0.37
+     ],
+     [
+      "CRM",
+      -2.71
+     ]
+    ]
+   ],
+   [
+    "THE INDEX",
+    [
      [
       "QQQ",
       1.41
@@ -459,35 +651,6 @@
      [
       "SPY",
       1.05
-     ],
-     [
-      "TLT",
-      0.76
-     ],
-     [
-      "USO",
-      -2.25
-     ]
-    ]
-   ],
-   [
-    "STILL BROKEN",
-    [
-     [
-      "FLNC",
-      -22.21
-     ],
-     [
-      "CRM",
-      -1.71
-     ],
-     [
-      "LEN",
-      -1.67
-     ],
-     [
-      "CRWD",
-      -0.89
      ]
     ]
    ]
@@ -558,107 +721,380 @@
    [
     "GNRC",
     30.09,
-    "Long-term <b>Amazon</b> supply deal tied to <b>$8 billion</b> in generator purchases, <b>$2.4 billion through 2028</b>, with Amazon granted the right to buy up to <b>$340 million</b> of GNRC stock. AMZN +2.01%."
+    "Long-term <b>Amazon</b> deal tied to <b>$8B</b> of generator purchases, $2.4B through 2028. Amazon took the right to buy <b>$340M</b> of stock."
    ],
    [
-    "NBIS",
-    9.75,
-    "<b>Raising prices for its computing services</b> (Yahoo Finance) &mdash; the first hard pricing evidence in the AI-capex argument, which has run on essays and interviews all week."
+    "VICR",
+    12.0,
+    "Granted a leading AI OEM a non-exclusive license for its patented Vertical Power Delivery modules."
    ],
    [
     "NSC",
     10.2,
-    "Regulatory filings show <b>more than 500 customers publicly supporting</b> its proposed merger with Union Pacific."
+    "More than <b>500 customers</b> publicly supporting the Union Pacific merger in regulatory filings."
+   ],
+   [
+    "NBIS",
+    9.75,
+    "<b>Raising prices</b> for its computing services."
+   ],
+   [
+    "GFL",
+    7.6,
+    "CEO says open to a potential take-private."
+   ],
+   [
+    "RDCM",
+    6.4,
+    "Authorized a $20M buyback, up to 18 months."
+   ],
+   [
+    "TSEM",
+    6.0,
+    "High-volume shipments with NewPhotonics of laser-integrated optical engine PICs for 800G-to-1.6T AI interconnects."
    ],
    [
     "ARM",
     4.75,
-    "CEO Rene Haas told CNBC he is <b>increasingly confident</b> the company can meet demand for its new data-center chip &mdash; the second CEO-on-television catalyst to move this complex in a week."
+    "Haas told CNBC he is increasingly confident ARM can meet demand for its new data-center chip."
    ],
    [
-    "AMD",
+    "BTDR",
+    4.4,
+    "Fully contracted a 9.5-MW facility worth <b>$800M+</b> in expected revenue; signed a 10-year 65.1-MW services agreement."
+   ],
+   [
+    "NOK",
+    4.4,
+    "Expanded its Microsoft partnership, integrating Nokia Data Suite with Fabric."
+   ],
+   [
+    "SNAP",
+    3.9,
+    "Introduced SPECS Intelligence across iPhone, Mac and AR glasses, with an Oct 1 consumer trial."
+   ],
+   [
+    "MPT",
+    3.8,
+    "Two Idaho hospital sales for <b>$413M</b>, generating $371M cash and a ~$130M gain."
+   ],
+   [
+    "AFRM",
+    3.7,
+    "US checkout underwriting model drove <b>3.4% more completed purchases</b> in initial deployment."
+   ],
+   [
+    "INDV",
+    3.6,
+    "<b>$8.13/share</b> special cash dividend, contingent on the Supernus merger closing."
+   ],
+   [
+    "QGEN",
+    3.5,
+    "Draws reported private-equity interest."
+   ],
+   [
+    "VITL",
     3.2,
-    "Leading the semi bid on the post-FOMC relief."
+    "Exploring strategic options including a take-private."
    ],
    [
-    "INTC",
-    3.1,
-    "Fourth straight session leading the complex, now above 104."
+    "RGR",
+    3.0,
+    "Satisfied regulatory conditions for the Beretta cooperation agreement; terminates its rights plan."
    ],
    [
     "COIN",
     2.85,
-    "Repairing after the failed CLARITY Act vote drove it &minus;4.42% Wednesday and &minus;7.1% Tuesday."
+    "Repairing after the failed CLARITY Act vote drove it &minus;7.1% then &minus;4.4%."
+   ],
+   [
+    "YETI",
+    2.8,
+    "Higher on earnings, into its own <b>Investor Day</b> this morning."
    ],
    [
     "HOOD",
     2.78,
-    "Same repair. Fell &minus;5.46% Wednesday."
+    "Same repair &mdash; fell 5.46% Wednesday."
+   ],
+   [
+    "LSCC",
+    2.7,
+    "Launched Mach-N2 secure-control FPGAs, samples already shipped."
    ],
    [
     "MU",
     2.19,
-    "Reports <b>9/30</b> &mdash; the first real datapoint in the AI-capex argument."
-   ],
-   [
-    "GLD",
-    1.85,
-    "Gold, bonds and equities all higher together says less tightening ahead, not a reflex bounce."
+    "Reports <b>9/30</b> &mdash; the first hard number in the AI-capex argument."
    ]
   ],
   "bear": [
    [
     "FLNC",
     -22.21,
-    "Cut FY2026 revenue guidance to <b>$2.4B</b> from $2.9&ndash;3.1B and now guides to a <b>$200M EBITDA loss</b> against a prior range of a $30M loss to $10M of EBITDA. Both lines cut in one release."
+    "Cut FY26 revenue to <b>$2.4B</b> from $2.9&ndash;3.1B and guided to a <b>$200M EBITDA loss</b> against a prior $30M-loss-to-$10M range."
+   ],
+   [
+    "DSP",
+    -11.1,
+    "8.5M-share secondary, underwriters holding an option on 1.275M more."
+   ],
+   [
+    "BCBP",
+    -5.0,
+    "Priced an 11M-share offering at $7.75, raising ~$85.25M."
    ],
    [
     "S",
     -3.45,
-    "SentinelOne downgraded. The cyber complex is being cut across the board &mdash; <b>PANW &minus;2.17%</b> and <b>OKTA &minus;2.16%</b> carry downgrades too."
+    "SentinelOne downgraded."
    ],
    [
-    "CRWV",
-    -1.52,
-    "Says new compute capacity is being contracted at <b>higher prices</b> &mdash; but the same release sets up an ATM to sell up to <b>35,000,000 Class A shares</b>. Pricing power and dilution in one filing."
+    "IPHA",
+    -3.0,
+    "Finalized the Sobi lacutamab partnership &mdash; $75M upfront, TELLOMAK-3 Phase 3 launching."
+   ],
+   [
+    "CRM",
+    -2.71,
+    "Down again despite overnight target raises to <b>$300</b> at three firms. Trades <b>ex-dividend</b> today."
    ],
    [
     "USO",
     -2.25,
-    "Crude giving back with the less-tightening trade. The energy impulse was always the part a hike could not fix."
+    "WTI <b>&minus;1.7% to $100.66</b>."
    ],
    [
-    "CRM",
-    -1.71,
-    "Down again despite a wall of overnight target raises to as high as <b>$300</b>. Trades <b>ex-dividend</b> today, which accounts for a small part."
+    "SGLD",
+    -2.2,
+    "Announced a sonic drilling and metallurgical program at Manhattan."
+   ],
+   [
+    "PANW",
+    -2.17,
+    "Downgraded. The cyber complex is being cut across the board."
+   ],
+   [
+    "OKTA",
+    -2.16,
+    "Downgraded alongside PANW and S."
+   ],
+   [
+    "CRWV",
+    -1.52,
+    "Says new capacity is contracted at <b>higher prices</b> &mdash; but the same release sets up an ATM for up to <b>35M</b> Class A shares."
    ],
    [
     "LEN",
-    -1.67,
-    "After a miss: <b>$1.19 vs $1.28</b>, revenue $8.05B vs $8.23B, and roughly half the year-ago quarter."
+    -1.1,
+    "Missed by $0.05, missed on revenue, deliveries <b>&minus;3% to 20,840</b>, FY26 deliveries cut to 80,000&ndash;81,000."
+   ],
+   [
+    "NATL",
+    -1.0,
+    "Selected by Bank Pekao for card payment processing modernization."
    ],
    [
     "CRWD",
     -0.89,
-    "Third straight session giving back the +13.85% Monday."
+    "Fourth straight session giving back the +13.85% Monday."
    ],
    [
     "XOM",
     -0.91,
-    "In talks to invest again in <b>Venezuela</b> (WSJ), as WTI falls 1.7% to <b>$100.66</b>."
+    "In talks to invest again in <b>Venezuela</b> (WSJ)."
+   ],
+   [
+    "PATH",
+    -1.32,
+    "On next week's catalyst list."
+   ],
+   [
+    "PEGA",
+    -3.75,
+    "Downgraded. Early session."
+   ],
+   [
+    "LYFT",
+    -3.31,
+    "Downgraded. Early session."
+   ],
+   [
+    "MWA",
+    -2.55,
+    "Downgraded. Early session."
+   ],
+   [
+    "CPRT",
+    -2.47,
+    "Downgraded. Early session."
+   ],
+   [
+    "HBAN",
+    -1.07,
+    "Wearing its conference day; also ex-dividend."
+   ],
+   [
+    "BSX",
+    -0.98,
+    "Downgraded. Early session."
+   ],
+   [
+    "DOCU",
+    -0.6,
+    "Early session."
+   ],
+   [
+    "CVX",
+    -0.29,
+    "Crude off 1.7%; the whole complex soft."
    ]
   ]
  },
  "darkpool": {
-  "note": "<b>No fresh dark-pool tape in hand for this session yet.</b> What stands from Tuesday night is the shape of the positioning into the decision: roughly <b>$5B of S&amp;P 500 tracker size, all bid-side</b> &mdash; VOO $1.8B, IVV $1.7B, SPY $1.5B &mdash; and the mega-caps leaning the same way, with NVDA, AMD, MSFT, AVGO and AAPL all printing at the bid. <b>That positioning has now been resolved by an event that went the market's way</b>, so treat it as history rather than as a read on today.",
+  "note": "<b>Carried forward from Tuesday night &mdash; no fresh tape for this session yet, and the positioning below has since been resolved by an event that went the market's way.</b> Roughly <b>$5B of S&amp;P 500 tracker size printed after hours, all of it bid-side</b>: <b>VOO $1.8B</b>, <b>IVV $1.7B</b> and <b>SPY $1.5B</b> stacked together, the <b>seventh straight session</b> an S&amp;P tracker topped the whole board. That is index money repositioning into a decision rather than an opinion about any single name, and the lean-not-verdict caveat applies twice over on index flow. <b>The mega-caps leaned the same way</b> &mdash; NVDA, AMD, MSFT, AVGO and AAPL all printed at the <b>bid</b> the night before a near-certain hike &mdash; while <b>MU and PLTR took the ask side instead</b>. <b>NVDA's $1.2B bid print was its third consecutive night as the board's largest single name, and the opposite side of Monday's $796M ask.</b> Size working both sides of one name into a decision is a hedge being built, and the hedge was not needed: the dots came in at 4.125%, softer than futures were carrying. <b>MU has taken over the top of cumulative flow at $4.9B (mixed)</b>, ahead of NVDA $4.3B (bid) and META $3.1B (ask) &mdash; and <b>MU reports 9/30</b>, the first hard number in an argument conducted so far entirely through essays and interviews. Bond money showed up too, in <b>BGFI $372M (mixed)</b>, the night before the Fed convened.",
   "right_note": "Still live: <b>ICE $145C 09/18 at $26.8M</b>, a floor call block expiring <b>tomorrow</b> on triple witching, and the <b>META $670C 01/21/28 at $4.6M</b> sweep dated to 2028. One resolves in a session; the other has fifteen months to work.",
   "dim": true,
-  "chips": []
+  "chips": [
+   [
+    "NVDA",
+    "$1.2B",
+    "bid &middot; 3rd night #1",
+    "r"
+   ],
+   [
+    "MU",
+    "$1.2B",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "GOOGL",
+    "$690M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "AMD",
+    "$682M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "MSFT",
+    "$671M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "META",
+    "$659M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "PLTR",
+    "$622M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "AVGO",
+    "$447M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "AAPL",
+    "$411M",
+    "bid",
+    "r"
+   ],
+   [
+    "UTHR",
+    "$393M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "VOO",
+    "$1.8B",
+    "bid &middot; top of board",
+    "r"
+   ],
+   [
+    "IVV",
+    "$1.7B",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "SPY",
+    "$1.5B",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "BGFI",
+    "$372M",
+    "mixed &middot; bonds",
+    "y"
+   ],
+   [
+    "NVDA",
+    "$4.3B",
+    "cumulative bid",
+    "r"
+   ],
+   [
+    "MU",
+    "$4.9B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
+    "META",
+    "$3.1B",
+    "cumulative ask",
+    "g"
+   ],
+   [
+    "MCK",
+    "$50M",
+    "mixed &middot; AM",
+    "y"
+   ],
+   [
+    "AVGO",
+    "$33M",
+    "bid &middot; AM",
+    "r"
+   ],
+   [
+    "STX",
+    "$30M",
+    "bid &middot; AM",
+    "r"
+   ],
+   [
+    "USB",
+    "$20M",
+    "mixed &middot; conference",
+    "y"
+   ],
+   [
+    "SJNK",
+    "$20M",
+    "mixed &middot; short HY",
+    "y"
+   ]
+  ]
  },
  "tts": [
   {
    "label": "Premarket",
-   "text": "Thursday September seventeenth, premarket. Price action is usually a lot better after F O M C. That line was written on the prep sheet before the open yesterday, and this is what it looks like. Everything is green and the risk assets are leading. Arm up four point seven five percent, A M D up three point two zero, Intel up three point one zero, Micron up two point one nine, Nvidia up one point six eight. The Fed hiked twenty five basis points to three seventy five to four percent, the first increase since July twenty twenty three. But the relief is not in the decision, it is in the dots. Sixteen of eighteen participants expect another increase, but twelve of eighteen peg twenty twenty six at an average of four point one two five percent. That is one more hike, not the two futures were leaning toward. And the detail that says the most about this Fed. Warsh declined to submit a dot at all. A chair who will not place his own marker is telling you the committee median is the signal and his guidance is not on offer. The tape read it as relief. Gold up one point eight five, bonds up, crude down two and a quarter. All four legs agree on less tightening ahead. Two things from yesterday worth carrying. O N Semiconductor fell nine percent on the day of its own analyst day, which is the cleanest evidence yet for the sell the news pattern this book tracks, and the sheet had it on watch with a straddle, the one structure that does not care which way a nine percent move goes. And Lennar closed down two percent and then missed, earning one nineteen against one twenty eight expected, nearly half of the year ago quarter."
+   "text": "Thursday September seventeenth, premarket. Price action is usually a lot better after F O M C. That line was on the prep sheet before yesterday's open, and this is it. Everything green, high beta leading. Arm up four point seven five, A M D up three point two, Intel up three point one, Micron up two point two. The Fed hiked twenty five basis points to three seventy five to four percent, the first since July twenty twenty three. The relief is in the dots, not the decision. Twelve of eighteen peg twenty twenty six at four point one two five percent, one more hike, against futures leaning two. Warsh declined to submit a dot at all. Three things. O N fell nine percent on its own analyst day yesterday, all of it in one thirty minute bar. Generac is up thirty percent on an eight billion dollar Amazon generator deal while Fluence is down twenty two on a guidance cut, both power infrastructure, opposite directions. And the Bank of England held at three seventy five, six to three, with Bailey warning a hike is possible if the Iran conflict drags."
   }
  ]
 }
