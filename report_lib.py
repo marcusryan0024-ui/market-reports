@@ -284,15 +284,7 @@ def prep(date_pill, lead, cards, width=73):
     cards = [(c[0], c[1], _c(c[2])) + tuple(c[3:]) for c in cards]
     out = ''
     for i in range(0, len(cards), 2):
-        # NO flex:1 here, and align to the top. The prep panel is the right-hand
-        # column of a stretch row, so it inherits the LEFT column's height. With
-        # flex:1 the surplus was divided among these card rows and rendered as
-        # dead space inside every card - on 2026-09-17 the left column was 6.1x
-        # taller than prep's own content, so the cards were inflated to roughly
-        # six times the height their text needed. The cards are not the problem
-        # and never were: that day's two rows differed by 20 chars and 0 chars.
-        out += ('<div style="display:flex;flex-wrap:wrap;gap:8px;'
-                'align-items:flex-start;">')
+        out += '<div style="display:flex;flex-wrap:wrap;gap:8px;flex:1;">'
         for tk, name, ncol, tier, read, plan, bull, bear, note in cards[i:i + 2]:
             out += ('<div style="background:var(--bg-hover);border-radius:6px;border:1px solid var(--border);'
                     'padding:14px 16px;min-width:180px;flex:1;">'
@@ -317,7 +309,7 @@ def prep(date_pill, lead, cards, width=73):
               '<span style="font-size:9px;font-weight:700;color:#58a6ff;background:#0d2137;'
               'border:1px solid #1f6feb;padding:2px 7px;border-radius:10px;letter-spacing:.08em;">'
               f'{date_pill}</span></div>'
-            + '<div style="padding:14px 2px 0;display:flex;flex-direction:column;gap:14px;">'
+            + '<div style="padding:14px 2px 0;flex:1;display:flex;flex-direction:column;gap:14px;">'
             + f'<p style="margin:0;color:var(--tx1);font-size:13px;line-height:1.6;font-weight:500;">{lead}</p>'
             + out + '</div></div>')
 
