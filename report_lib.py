@@ -217,7 +217,17 @@ def thisweek(days):
     """
     cols = ''
     for d in days:
-        accent = TW_ACCENT.get(d.get('accent', ''), TW_ACCENT[''])
+        # An unknown accent used to fall through to the plain grey default with
+        # no complaint, so a typo or an invented key silently drained the colour
+        # out of the whole section. 'live', 'warn' and 'hot' are not accents and
+        # were used across six reports from 2026-09-14 on; every one of those
+        # THIS WEEK panels rendered flat grey and nothing said so. Fail instead.
+        if d.get('accent', '') not in TW_ACCENT:
+            raise ValueError(
+                f'{d.get("day", "?")}: accent {d.get("accent")!r} is not a colour. '
+                f'Valid: {sorted(k for k in TW_ACCENT if k)} - '
+                f'done=past, macro=blue, next=gold for the day that matters.')
+        accent = TW_ACCENT[d['accent']] if d.get('accent') else TW_ACCENT['']
         muted = d.get('accent') == 'done'
         daycol = TW_LABEL if muted else 'var(--tx1)'
         tag = d.get('tag', '')

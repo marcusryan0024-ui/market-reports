@@ -290,20 +290,42 @@
    "econ": [
     [
      "&mdash;",
-     "10-year crossed 5% intraday, first since 2023"
+     "10-year crossed <b>5%</b> intraday, first since 2023"
+    ],
+    [
+     "&mdash;",
+     "Hormuz talks postponed; Saudi East-West pipeline shut"
     ]
    ],
    "earnings": [
     [
      "PLAY",
-     "&minus;15.6% Tue"
+     "PM &middot; closed +4.05% into it"
+    ],
+    [
+     "KMTS",
+     "PM"
+    ],
+    [
+     "HAIN",
+     "AM"
     ]
    ],
    "events": [
     [
-     "The split",
-     "HELD",
-     "CRWD +13.85% vs ARM &minus;9.74%"
+     "CRWD",
+     "Kicker",
+     "<b>+13.85%</b>, tagged +15.79% intraday"
+    ],
+    [
+     "ARM",
+     "Worst",
+     "<b>&minus;9.74%</b>, closed at its low"
+    ],
+    [
+     "RBLX",
+     "Gap fill",
+     "Took out 48.57, closed <b>51.29</b> at the high"
     ]
    ]
   },
@@ -314,64 +336,107 @@
    "econ": [
     [
      "&mdash;",
-     "10-year touched 5.045%, highest since 2007"
+     "10-year touched <b>5.045%</b>, highest since <b>2007</b>"
+    ],
+    [
+     "7:30a",
+     "Empire State manufacturing"
+    ],
+    [
+     "12:00p",
+     "$13B 20-year auction"
     ]
    ],
    "earnings": [
     [
      "TCOM",
-     "loss on penalty"
+     "PM &middot; loss on RMB5.2B penalty"
+    ],
+    [
+     "FPS",
+     "AM &middot; +9.3%"
+    ],
+    [
+     "VRA",
+     "AM &middot; +20.1%"
     ]
    ],
    "events": [
     [
-     "CLARITY Act",
+     "Senate",
      "FAILED",
-     "COIN &minus;7.1%, HOOD &minus;3.4%"
+     "<b>CLARITY Act</b> vote &mdash; COIN &minus;7.1%, HOOD &minus;3.4%"
+    ],
+    [
+     "CRM",
+     "Keynote",
+     "Dreamforce &mdash; faded <b>&minus;1.46%</b>"
+    ],
+    [
+     "Bessent",
+     "Tue",
+     "House Financial Services testimony"
     ]
    ]
   },
   {
    "day": "WED 9/16",
-   "tag": "DONE",
+   "tag": "DONE &middot; HIKED",
    "accent": "done",
    "econ": [
     [
      "1:00p",
-     "<b>HIKED 25bp to 3.75&ndash;4.00%</b> &mdash; dots at 4.125%, one more"
+     "<b>FOMC hiked 25bp to 3.75&ndash;4.00%</b> &mdash; first since July 2023"
+    ],
+    [
+     "1:30p",
+     "<b>Warsh presser</b> &mdash; SPY 759.68 to 749.60 by 2:25"
     ],
     [
      "&mdash;",
-     "Warsh declined to submit a dot. S&amp;P closed &minus;0.44%"
+     "Dots at <b>4.125%</b>. Warsh declined to submit one"
     ]
    ],
    "earnings": [
     [
      "LEN",
-     "MISS &middot; $1.19 vs $1.28"
+     "PM &middot; MISS $1.19 vs $1.28"
+    ],
+    [
+     "LUXE",
+     "AM &middot; +16.8%"
+    ],
+    [
+     "ISPR",
+     "AM"
     ]
    ],
    "events": [
     [
      "ON",
      "&minus;9.02%",
-     "Analyst Day &mdash; worst on the board"
+     "<b>Analyst Day</b> &mdash; all of it in the 1:30 bar"
     ],
     [
-     "INTU",
-     "&minus;6.20%",
-     "Day before its own event"
+     "OSCR",
+     "&minus;0.31%",
+     "<b>Investor Day</b> &mdash; no volume, no move"
+    ],
+    [
+     "CRM",
+     "3:00p",
+     "Analyst session &mdash; <b>$63B FY30</b> path"
     ]
    ]
   },
   {
    "day": "THU 9/17",
-   "tag": "TODAY",
-   "accent": "live",
+   "tag": "TODAY &middot; SIX INVESTOR DAYS",
+   "accent": "next",
    "econ": [
     [
      "7:30a",
-     "Housing starts, building permits, Philly Fed"
+     "<b>Housing starts, permits, Philadelphia Fed</b>"
     ],
     [
      "9:00a",
@@ -379,49 +444,53 @@
     ],
     [
      "9:30a",
-     "Jobless claims"
+     "Weekly jobless claims"
     ],
     [
      "&mdash;",
-     "<b>BoE HELD 6&ndash;3 at 3.75%</b>; HK +25bp to 4.25%; BoJ expected tonight"
+     "<b>BoE HELD 3.75%, 6&ndash;3.</b> HK +25bp to 4.25%. BoJ tonight"
     ]
    ],
    "earnings": [
     [
      "CCL",
      "AM"
+    ],
+    [
+     "YETI",
+     "AM &middot; beat, +2.8%"
     ]
    ],
    "events": [
     [
      "INTU",
      "10:00a",
-     "Investor Day &mdash; 8:00 PT, confirmed"
+     "<b>Investor Day</b> &mdash; the study's counterexample"
     ],
     [
-     "YETI / HUBS / EAT / ASH / ORLY",
+     "YETI",
      "AM",
-     "Investor days"
+     "<b>Investor Day</b> &mdash; ASH, EAT, HUBS, ORLY also"
     ],
     [
-     "FlowMS",
-     "4:30p",
-     "Zoom"
+     "CRM",
+     "Today",
+     "Trades <b>ex-dividend</b>"
     ]
    ]
   },
   {
    "day": "FRI 9/18",
-   "tag": "EXPIRY",
-   "accent": "warn",
+   "tag": "TRIPLE WITCHING",
+   "accent": "macro",
    "econ": [
     [
      "8:15a",
-     "Industrial production"
+     "<b>Industrial production</b>"
     ],
     [
      "All day",
-     "Triple witching"
+     "<b>Triple witching</b> &mdash; quarterly expiry, 2 days post-decision"
     ]
    ],
    "earnings": [],
@@ -429,12 +498,17 @@
     [
      "ICE",
      "09/18",
-     "$26.8M $145C floor block"
+     "<b>$26.8M $145C</b> block &mdash; largest on the board"
+    ],
+    [
+     "UNH",
+     "09/18",
+     "<b>$75.0M $300C</b> floor block expires"
     ],
     [
      "Seaport",
      "12:00p",
-     "Crypto: what's next post-CLARITY"
+     "Crypto: what's next post-CLARITY vote"
     ]
    ]
   }
