@@ -1,0 +1,187 @@
+{
+ "title": "Wednesday, September 16, 2026",
+ "kind": "close",
+ "headline": {
+  "title": "<b>The prep sheet said the 1pm move is usually a fake out, and the tape drew it almost to the minute.</b> The decision hit at <b>1:00 CT</b> and SPY spiked to <b>761.21 by 1:05</b> on a million shares &mdash; the high of the entire afternoon. It then drifted flat for twenty minutes, sat at <b>759.68 at 1:25</b>, and the instant Warsh began speaking at <b>1:30</b> it fell to <b>749.60 by 2:25</b>. <b>Eleven and a half points, 1.53%, in fifty-five minutes</b>, all of it after the decision everyone was watching had already printed.",
+  "summary": "<b>The sheet's instruction was &ldquo;enter 1:25pm, before 1:30 &mdash; straddle it and let it happen.&rdquo;</b> The entry price it pointed at was <b>759.68</b>, and the move began in the very next bar. <b>The Fed hiked 25bp to 3.75&ndash;4.00%</b>, the first increase since July 2023, and the dot plot came in at <b>4.125% for 2026</b> &mdash; twelve of eighteen participants seeing one more hike, not the two futures were positioned for. <b>Warsh declined to submit a dot at all.</b> SPY still closed <b>&minus;0.44%</b>. The relief arrived overnight instead, and it is what Thursday opened on."
+ },
+ "what_happened": [
+  ["The fake-out was real, and it is worth seeing in five-minute increments.",
+   "g",
+   "<b>1:00 CT</b> &mdash; decision prints, SPY trades 760.18, volume spikes to <b>1,020,307</b> in one bar. <b>1:05</b> &mdash; high of the afternoon at <b>761.21</b>. <b>1:10 to 1:25</b> &mdash; a slow bleed to 759.68 on falling volume, the market waiting. <b>1:30</b> &mdash; Warsh begins, and the bar closes 757.65 on 498k shares. <b>1:35</b> &mdash; 756.05 on 962k. Then a straight slide: <b>755.15 at 1:50, 753.89 at 1:55, 751.31 at 2:10, and the low of 749.60 at 2:25</b>. <b>The decision produced a 1.4-point spike; the press conference produced an 11.6-point decline.</b> Anyone positioned at 1:00 was trading the wrong half of the event."],
+  ["ON Semiconductor lost nine percent on its own Analyst Day, and it happened in one bar.",
+   "r",
+   "ON drifted between 71.5 and 74.6 for the entire morning. Then the <b>1:30 CT bar: open 71.79, low 66.50, close 66.96, on 3,138,365 shares</b> &mdash; a <b>7.4% collapse in thirty minutes</b> on roughly fifteen times its prior bar's volume. It made a lower low of <b>65.80</b> at 2:00 and closed <b>66.60, down 9.02%.</b> For scale, SPY fell 0.26% in that same bar, so this was company-specific by a factor of nearly thirty. <b>This is the study's thesis rendered as a single candle:</b> an Investor Day is a volatility event, and the direction is not the part you can forecast."],
+  ["Salesforce's event happened after the bell, which changes how to read the day.",
+   "y",
+   "Worth being precise, because the sequencing matters. <b>CRM's Investor &amp; Analyst Session was 4:00 PM ET &mdash; 3:00 CT, at or after the closing bell.</b> So Wednesday's <b>&minus;2.00%</b> was <i>not</i> a reaction to the event; it was a stock drifting lower all session ahead of one, from a 256.40 high in the opening half hour down to 250.54. <b>The event content arrived that evening: management said it is confident on a path to $63B of revenue in FY30</b>, and overnight the sell side raised targets to <b>$300 at Stifel, Canaccord and Guggenheim</b>, $285 at BMO, $280 at Mizuho, $263 at Citi, with JPMorgan calling it positive for the re-rating thesis. <b>The actual post-event reaction is Thursday's premarket, and it is negative.</b>"],
+  ["Energy was the worst sector, one day after being the best.",
+   "r",
+   "<b>XLE closed &minus;2.88%</b>, the weakest group on the board, having led Tuesday at +2.17%. <b>That is the third consecutive session in which the prior day's leading sector became a laggard</b> &mdash; XLC +2.19% Monday then &minus;0.90% Tuesday, XLE +2.17% Tuesday then &minus;2.88% Wednesday. <b>USO made its low at 154.89 right after the 9:30 CT crude inventory release</b> and closed 156.17, down 3.52%. <b>XLF &minus;1.62%</b> was the other casualty, which is the rate-sensitive read on a hike that came with a softer dot plot than feared."]
+ ],
+ "picks": {
+  "right_note": "PREP SHEET + MORNING CALLS &middot; 4 OF 5 RESOLVED AS WRITTEN",
+  "rows": [
+   ["THE FAKE OUT", "SPY 761.21 &rarr; 749.60", "g", "SHEET CALL &middot; DRAWN TO THE MINUTE", "g",
+    "Sheet: <i>&ldquo;the initial move happens at 1pm &mdash; 1pm move is usually a fake out. Enter 1:25pm, before 1:30. Straddle it and let it happen at 1:30. Wait for him to come in and talk. Move happens fast.&rdquo;</i>",
+    "<b>Every clause was correct.</b> The 1:00 bar carried the volume spike (1.02M shares). The high came at <b>1:05 (761.21)</b> and held for twenty-five minutes. At <b>1:25 SPY was 759.68</b>, the entry the sheet named. At <b>1:30 Warsh began</b> and it fell to <b>749.60 by 2:25</b> &mdash; <b>1.53% in fifty-five minutes</b>. This is the best-documented call in the book's history: an execution plan written before the open that matched the tape bar for bar."],
+   ["ON", "&minus;9.02%", "g", "STRADDLE, NOT DIRECTION", "g",
+    "Sheet: <i>&ldquo;$ON on watch: Investor day at 1pm &mdash; entry straddle before market closes.&rdquo;</i> Report ranked the study's finding: sell-the-news four of five.",
+    "It fell <b>9.02%</b>, with the whole move in the <b>1:30 bar</b> &mdash; 71.79 to 66.50 on 3.1M shares. <b>The straddle structure is the reason this is scored a win rather than a coin flip:</b> a 9% move in thirty minutes pays a straddle regardless of direction, and nothing in the study claimed to know which way ON would break."],
+   ["THE DOT PLOT", "4.125% &middot; one more", "g", "T1 CALL &middot; THE GAP WAS THE TRADE", "g",
+    "Report: <i>&ldquo;June's plot penciled one more 2026 hike. Futures are positioned for two. If the new plot shows one, the front end has to unwind a hike it is carrying.&rdquo;</i>",
+    "<b>Twelve of eighteen participants pegged 2026 at an average of 4.125%</b> &mdash; one more &mdash; with sixteen of eighteen expecting at least one and only four seeing two. The framing was right and so was the consequence: Thursday opened with <b>bonds, gold and equities all higher and crude lower</b>, which is the less-tightening trade in four legs. <b>Warsh declined to submit a dot</b>, which is the most Warsh-like possible answer to a question about forward guidance."],
+   ["LEN", "&minus;2.14%, then missed", "g", "SETUP CALLED, RESULT WORSE", "g",
+    "Report flagged it repeatedly: <i>&ldquo;est $1.30 against $2.00 earned a year ago&hellip; a homebuilder reporting hours after a live rate decision with mortgage rates north of 7%.&rdquo;</i>",
+    "It closed <b>&minus;2.14%</b> at 78.36, drifting lower all session with a 77.83 low, then reported <b>EPS $1.19 against $1.28 expected</b> &mdash; <b>worse than the estimate the report was already calling weak</b> &mdash; on revenue of <b>$8.05B</b> versus $8.23B. Roughly half the year-ago quarter."],
+   ["CRM", "&minus;2.00%", "y", "RIGHT ON PRICE, WRONG ON SUBSTANCE", "y",
+    "Report ranked it T3 as a fade, for the third session running.",
+    "<b>The price call has now worked three times and the thesis behind it has not.</b> CRM fell 2.00% Wednesday and is negative again Thursday premarket &mdash; but the event itself delivered a <b>$63B FY30 revenue path</b> and a wall of target raises to <b>$300</b>. <b>And the sequencing undercuts the causal story entirely:</b> the session was at 3:00 CT, at the bell, so Wednesday's decline preceded the content. Scored yellow rather than green because being right for the wrong reason is not a repeatable edge."]
+  ]
+ },
+ "how_played_out": [
+  ["An execution plan beat an analytical view, and that is the lesson of the day.",
+   "This report spent two days arguing that the dot plot was the information and the decision was confirmation. <b>That was correct and it was not tradeable on its own.</b> The sheet's version &mdash; enter 1:25, straddle, let it happen at 1:30, the move is fast &mdash; produced an entry price, a trigger time and a structure. <b>SPY's high came at 1:05 and its low at 2:25</b>, and the whole 11.6-point distance sat inside the window the sheet named. <b>Knowing which half of an event carries the information is analysis; knowing what minute to be positioned is execution, and only one of those pays.</b>"],
+  ["Two Investor Days, one session apart, and the honest read is that direction was unforecastable both times.",
+   "<b>ON fell 9.02% on its Analyst Day Wednesday. OSCR fell only 0.31% on its Investor Day the same morning</b> &mdash; an event this book ranked T3 and flagged as the one with a violent precedent. <b>The name with the 2.15x-volume, 11.9%-range history barely moved, and the name nobody flagged collapsed.</b> That is a direct hit against using a single prior event to forecast the next one. What survived is the structural point: <b>ON's move came in one 30-minute bar on fifteen times normal volume</b>, and the volume told you within minutes that something was happening &mdash; which is exactly what the study's first-thirty-minutes finding claims."],
+  ["The third consecutive sector inversion makes the week's rotations look mechanical.",
+   "Monday XLC led at +2.19% and fell 0.90% Tuesday. Tuesday XLE led at +2.17% and fell 2.88% Wednesday. <b>Three sessions, three times the prior day's winner became a loser.</b> Across the same stretch the semis went &minus;4.75%, +0.11%, +0.64% &mdash; down hard, then two days of quiet repair. <b>None of it was driven by earnings or data.</b> When leadership rotates daily and the catalysts are essays, CEO interviews and a press conference, the right conclusion is that positioning is being moved around rather than capital being reallocated. <b>MU on 9/30 is still the first real number.</b>"]
+ ],
+ "sectors": {
+  "right_note": "SEMIS LED, ENERGY GAVE BACK EVERYTHING",
+  "rows": [
+   ["SMH", "Semiconductors", 0.64],
+   ["XLK", "Technology", 0.10],
+   ["XLV", "Health Care", 0.07],
+   ["XLU", "Utilities", 0.00],
+   ["XLI", "Industrials", -0.08],
+   ["XLP", "Staples", -0.48],
+   ["XLY", "Discretionary", -0.63],
+   ["XLC", "Communications", -0.90],
+   ["XLF", "Financials", -1.62],
+   ["XLE", "Energy", -2.88]
+  ]
+ },
+ "strat": {
+  "stamp": "WEDNESDAY 9/16 CLOSE &amp; CANDLE &middot; FOMC",
+  "rows": [
+   ["SPY", "T1", "y", "The fake out, in five-minute bars", "y",
+    "Decision <b>1:00</b> &mdash; 760.18 on 1.02M shares. High <b>761.21 at 1:05</b>. Flat to <b>759.68 at 1:25</b>. Warsh <b>1:30</b> &mdash; then 757.65, 756.05, 755.15, 753.89, 751.31, and the low <b>749.60 at 2:25</b>. Closed <b>754.05</b>.",
+    "close <b>754.05</b> &middot; <b>&minus;0.44%</b> &middot; post-decision H 761.21 / L 749.60",
+    "The sheet's 1:25 entry sat within a point of the pre-move level.",
+    "Recovered 4.5 points into the bell, and Thursday opened +1.05%."],
+   ["ON", "T1", "r", "Analyst Day &rarr; one-bar collapse", "r",
+    "Ranged 71.5&ndash;74.6 all morning, then the <b>1:30 bar</b>: open 71.79, low <b>66.50</b>, on <b>3,138,365 shares</b>. Lower low <b>65.80</b> at 2:00. Closed <b>66.60</b>.",
+    "close <b>66.60</b> &middot; <b>&minus;9.02%</b> &middot; H 74.59 / L 65.80",
+    "SPY fell 0.26% in that same bar &mdash; this was company-specific by roughly thirty times.",
+    "+2.06% Thursday premarket, which changes nothing about the event."],
+   ["OSCR", "T2", "y", "The violent precedent did not repeat", "y",
+    "Ranked T3 in the morning report on the strength of its 2024 event (2.15x volume, 11.90% range). <b>It closed &minus;0.31% at 32.34.</b>",
+    "close <b>32.34</b> &middot; <b>&minus;0.31%</b> &middot; Investor Day 8:00 CT",
+    "The study's own caveat &mdash; an Investor Day that does not bring volume does not bring movement &mdash; held.",
+    "A direct strike against forecasting one event from one prior event. n=5 remains n=5."],
+   ["CRM", "T2", "y", "Drifted lower BEFORE its event", "y",
+    "High <b>256.40</b> in the opening half hour, then down all session to close <b>250.54</b>. <b>The Investor &amp; Analyst Session was 3:00 CT, at the bell</b> &mdash; so this decline preceded the content entirely.",
+    "close <b>250.54</b> &middot; <b>&minus;2.00%</b> &middot; H 256.40 / L 249.60",
+    "Overnight: <b>$63B FY30 revenue path</b>, targets raised to $300 at three firms.",
+    "&minus;1.71% Thursday premarket, ex-dividend today. The real post-event reaction is negative."],
+   ["LEN", "T1", "r", "Drifted down, then missed", "r",
+    "Opened <b>80.61</b>, ground lower all session to a <b>77.83</b> low, closed <b>78.36</b>. Then reported <b>$1.19 vs $1.28</b> on revenue of $8.05B vs $8.23B.",
+    "close <b>78.36</b> &middot; <b>&minus;2.14%</b> &middot; H 81.45 / L 77.83",
+    "Roughly half the year-ago quarter's earnings, with mortgage rates north of 7%.",
+    "&minus;1.67% Thursday premarket."],
+   ["USO", "T2", "r", "Low on the inventory print", "r",
+    "Opened <b>159.34</b> and made its low of <b>154.89</b> in the bar right after the <b>9:30 CT crude inventory release</b>, recovering to close <b>156.17</b>.",
+    "close <b>156.17</b> &middot; <b>&minus;3.52%</b> &middot; H 159.36 / L 154.89",
+    "<b>XLE &minus;2.88%, the worst sector</b>, one day after being the best at +2.17%.",
+    "&minus;2.25% again Thursday premarket."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>The positioning going in resolved the market's way.</b> Tuesday night carried roughly <b>$5B of S&amp;P 500 tracker size, all bid-side</b> &mdash; VOO $1.8B, IVV $1.7B, SPY $1.5B, the seventh straight session an S&amp;P tracker topped the board &mdash; with the mega-caps leaning the same direction: NVDA, AMD, MSFT, AVGO and AAPL all printing at the bid. <b>NVDA's $1.2B bid print was its third consecutive night as the board's largest single name, and the opposite side of Monday's $796M ask.</b> Size working both sides of one name into a decision is a hedge being constructed, and the hedge was not needed: the dots came in softer than futures were positioned for.",
+  "right_note": "<b>MU took over the top of cumulative flow at $4.9B (mixed)</b>, ahead of NVDA $4.3B (bid) and META $3.1B (ask) &mdash; and MU reports <b>9/30</b>, which is the first genuine datapoint in an AI-capex argument that has so far been conducted entirely through essays and interviews. Still live into Friday: <b>ICE $145C 09/18 at $26.8M</b>, a floor call block expiring on triple witching.",
+  "dim": false,
+  "chips": [
+   ["NVDA", "$1.2B", "bid &middot; 3rd night #1", "r"],
+   ["MU", "$1.2B", "ask, AH", "g"],
+   ["GOOGL", "$690M", "mixed, AH", "y"],
+   ["AMD", "$682M", "bid, AH", "r"],
+   ["MSFT", "$671M", "bid, AH", "r"],
+   ["PLTR", "$622M", "ask, AH", "g"],
+   ["VOO", "$1.8B", "bid &middot; top of board", "r"],
+   ["IVV", "$1.7B", "bid, AH", "r"],
+   ["SPY", "$1.5B", "bid, AH", "r"],
+   ["MU", "$4.9B", "cumulative mixed", "y"]
+  ]
+ },
+ "watchlist": {
+  "stamp": "WEDNESDAY 9/16 CLOSE &middot; FOMC",
+  "em_label": "CLOSES VS TUESDAY 9/15 &mdash; HIKED 25bp TO 3.75&ndash;4.00%, DOTS AT 4.125%",
+  "groups": [
+   ["ETFs", [["SPY", 757.39, 754.05], ["QQQ", 704.54, 704.72], ["IWM", 285.14, 283.92], ["GLD", 394.15, 391.74], ["USO", 161.86, 156.17]]],
+   ["THE EVENTS", [["ON", 73.20, 66.60], ["INTU", 339.15, 318.13], ["CRM", 255.65, 250.54], ["OSCR", 32.44, 32.34], ["LEN", 80.07, 78.36]]],
+   ["SEMIS HELD", [["INTC", 97.14, 101.05], ["DELL", 543.51, 563.29], ["AMD", 504.20, 512.50], ["ARM", 241.83, 243.98], ["NVDA", 212.17, 213.90], ["MU", 927.60, 926.55]]],
+   ["MEGA CAP", [["META", 670.24, 673.31], ["AAPL", 331.34, 332.41], ["GOOGL", 344.98, 342.87], ["MSFT", 497.12, 490.30], ["AMZN", 253.54, 245.96]]],
+   ["STILL BLEEDING", [["HOOD", 110.45, 104.42], ["COIN", 172.11, 164.51], ["CRWD", 242.49, 241.36]]]
+  ]
+ },
+ "trump": {
+  "stamp": "WEDNESDAY 9/16 CLOSE",
+  "groups": [
+   ["HELD UP", [["DELL", 3.64], ["INTC", 4.03], ["AMD", 1.65], ["ARM", 0.89], ["NVDA", 0.82], ["META", 0.46], ["AAPL", 0.32]]],
+   ["THE EVENT NAMES", [["ON", -9.02], ["INTU", -6.20], ["LEN", -2.14], ["CRM", -2.00], ["OSCR", -0.31]]],
+   ["RATE SENSITIVE", [["HOOD", -5.46], ["COIN", -4.42], ["USO", -3.52], ["AMZN", -2.99], ["MSFT", -1.37]]],
+   ["THE INDEX", [["QQQ", 0.03], ["IWM", -0.43], ["SPY", -0.44]]]
+  ]
+ },
+ "thisweek": [
+  {"day": "MON 9/14", "tag": "DONE", "accent": "done",
+   "econ": [["&mdash;", "10-year crossed 5% intraday, first since 2023"]],
+   "earnings": [["PLAY", "&minus;15.6% Tue"]],
+   "events": [["The split", "HELD", "CRWD +13.85% vs ARM &minus;9.74%"]]},
+  {"day": "TUE 9/15", "tag": "DONE", "accent": "done",
+   "econ": [["&mdash;", "10-year touched 5.045%, highest since 2007"]],
+   "earnings": [["TCOM", "loss on penalty"]],
+   "events": [["CLARITY Act", "FAILED", "COIN &minus;7.1%, HOOD &minus;3.4%"]]},
+  {"day": "WED 9/16", "tag": "DONE", "accent": "done",
+   "econ": [["1:00p", "<b>HIKED 25bp to 3.75&ndash;4.00%</b>, first since July 2023"], ["1:30p", "Warsh presser &mdash; SPY 759.68 to 749.60 by 2:25"]],
+   "earnings": [["LEN", "MISS &middot; $1.19 vs $1.28"]],
+   "events": [["ON", "&minus;9.02%", "Analyst Day &mdash; all of it in the 1:30 bar"], ["OSCR", "&minus;0.31%", "Investor Day &mdash; no volume, no move"]]},
+  {"day": "THU 9/17", "tag": "TOMORROW", "accent": "live",
+   "econ": [["6:00a", "Bank of England"], ["7:30a", "Claims, housing starts, Philly Fed"]],
+   "earnings": [["CCL", "AM"]],
+   "events": [["INTU", "10:00a", "Investor Day"], ["YETI / HUBS / EAT / ASH / ORLY", "AM", "Investor days"]]},
+  {"day": "FRI 9/18", "tag": "EXPIRY", "accent": "warn",
+   "econ": [["8:15a", "Industrial production"], ["All day", "Triple witching"]],
+   "earnings": [],
+   "events": [["ICE", "09/18", "$26.8M $145C floor block expires"]]}
+ ],
+ "charts": [
+  ["CRWD", "charts/CRWD_2026-09-15.png", "Gave back into the decision"],
+  ["LRCX", "charts/LRCX_2026-09-15.png", "Semis held through FOMC"],
+  ["LLY", "charts/LLY_2026-09-15.png", "Health care flat, +0.07%"],
+  ["CRM", "charts/CRM_2026-09-15.png", "&minus;2.00% BEFORE its own event"],
+  ["PLAY", "charts/PLAY_2026-09-15.png", "The gap-into-print pattern"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "lessons": [
+  ["Knowing which half of an event matters is analysis. Knowing what minute to be positioned is execution.", "g",
+   "This report argued for two days that the dot plot was the information and the 93%-priced decision was confirmation. <b>Correct, and not tradeable by itself.</b> The sheet converted the same insight into an entry time (1:25), a trigger (1:30, when Warsh speaks) and a structure (straddle). <b>SPY's high was 1:05 and its low was 2:25, and the entire 11.6-point move sat inside the window the sheet named.</b> The analysis and the execution said the same thing; only one of them produced a position."],
+  ["One prior event does not forecast the next one, and today proved it in both directions.", "r",
+   "<b>OSCR carried the violent precedent</b> &mdash; 2.15x volume, an 11.90% intraday range in 2024 &mdash; and closed <b>&minus;0.31%</b>. <b>ON carried no precedent this book had flagged</b> and fell <b>9.02% in a single 30-minute bar</b>. Ranking OSCR T3 on the strength of its own history was the wrong inference from an n=5 sample. <b>What did hold is the volume rule:</b> ON's move came with fifteen times its prior bar's volume, and OSCR's non-move came with nothing. Volume in the first thirty minutes is the tell; the identity of the ticker is not."],
+  ["Being right on price for the wrong reason is not an edge.", "y",
+   "The Dreamforce fade call has now worked three sessions running &mdash; and Wednesday's decline <b>preceded</b> the event, which happened at 3:00 CT at the bell. The content was bullish: <b>a $63B FY30 revenue path and target raises to $300 at three firms.</b> <b>A pattern that predicts the tape while being wrong about the mechanism will fail without warning</b>, because you never learn which sessions it does not apply to. Scored yellow deliberately."],
+  ["Three straight sessions of leader-becomes-laggard says positioning, not conviction.", "y",
+   "XLC +2.19% Monday, &minus;0.90% Tuesday. XLE +2.17% Tuesday, <b>&minus;2.88% Wednesday</b>. Semis &minus;4.75%, +0.11%, +0.64%. <b>Not one of those rotations was driven by an earnings report or an economic release</b> &mdash; the catalysts were an essay, a CEO interview and a press conference. Capital reallocating on a changed view does not reverse daily. <b>MU on 9/30 remains the first real number in this argument.</b>"]
+ ],
+ "tomorrow": [
+  ["&nbsp;", "o", "<b>The relief arrived overnight, not on the day.</b> SPY closed &minus;0.44% Wednesday and Thursday opened <b>+1.05%</b>, with the high-beta names leading &mdash; ARM +4.75%, AMD +3.20%, INTC +3.10%. <b>The sheet's other line was &ldquo;price action is usually a lot better after FOMC,&rdquo; and that is now scoring too.</b>"],
+  ["&nbsp;", "o", "<b>The four legs agree, which is what makes it credible:</b> gold +1.85%, bonds +0.76%, equities up, crude &minus;2.25%. All four say less tightening ahead. <b>The falsifier is crude</b> &mdash; if it turns back up, the energy impulse a rate hike cannot fix comes straight back into the argument."],
+  ["&nbsp;", "o", "<b>INTU's Investor Day is Thursday</b>, and it enters having fallen <b>6.20%</b> on Wednesday. It is the one name in our five-event study that closed meaningfully <b>above</b> its open (+1.18% on 1.34x volume in 2025) &mdash; and its 2024 event was the dull end at 0.86x volume and &minus;1.27%. <b>Same name, opposite outcomes, and volume separated them.</b>"],
+  ["&nbsp;", "o", "<b>The heaviest investor-day slate of the week:</b> YETI, ASH, EAT, HUBS, ORLY and INTU. After ON's 9% and OSCR's 0.3% on the same morning, treat each as a volatility event with unforecastable direction."],
+  ["&nbsp;", "o", "<b>Friday is triple witching</b>, and the <b>$26.8M ICE $145C block</b> expires into it. <b>CCL reports Thursday before the open</b>, and the Bank of England decides at 6:00 CT."]
+ ],
+ "tts": [
+  {"label": "After the close", "text": "Wednesday September sixteenth, after the close. The prep sheet said the one pm move is usually a fake out, and the tape drew it almost to the minute. The decision hit at one o'clock Central and S P Y spiked to seven sixty one twenty one by one oh five on a million shares, the high of the entire afternoon. It drifted flat for twenty minutes, sat at seven fifty nine sixty eight at one twenty five, and the instant Warsh began speaking at one thirty it fell to seven forty nine sixty by two twenty five. Eleven and a half points, one and a half percent, in fifty five minutes, all of it after the decision everyone was watching had already printed. The sheet's instruction was enter one twenty five, before one thirty, straddle it and let it happen. The entry price it pointed at was seven fifty nine sixty eight, and the move began in the very next bar. The Fed hiked twenty five basis points to three seventy five to four percent, and the dot plot came in at four point one two five for twenty twenty six, one more hike, not the two futures were positioned for. Warsh declined to submit a dot at all. Two events, one session apart, and the honest read is that direction was unforecastable both times. O N fell nine percent on its analyst day, and the entire move was one thirty minute bar on fifteen times normal volume. Oscar Health, the name this report ranked on the strength of a violent two thousand twenty four precedent, closed down three tenths of one percent. The volume rule held. The ticker identity did not."}
+ ]
+}
