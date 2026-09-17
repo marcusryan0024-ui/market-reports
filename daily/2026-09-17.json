@@ -5,133 +5,664 @@
   "title": "<b>&ldquo;Price action is usually a lot better after FOMC.&rdquo; That line was written on the prep sheet before the open yesterday, and this is what it looks like.</b> Everything is green and the risk assets are leading: <b>ARM +4.75%</b>, <b>AMD +3.20%</b>, <b>INTC +3.10%</b>, <b>MU +2.19%</b>, <b>NVDA +1.68%</b>, with <b>QQQ +1.41%</b> and <b>IWM +1.17%</b>. <b>The Fed hiked 25bp to 3.75&ndash;4.00%</b>, the first increase since July 2023 &mdash; and the relief is not in the decision, it is in the dots.",
   "summary": "<b>The dot plot landed closer to one more hike than two, which is the half the market was not positioned for.</b> Sixteen of eighteen participants expect another increase, but <b>twelve of eighteen peg 2026 at an average of 4.125%</b> &mdash; one more 25bp move &mdash; with only four seeing two. Futures had been leaning toward two by year-end. <b>And the detail that says the most about this Fed: Warsh declined to submit a dot at all.</b> A chair who will not place his own marker on the grid is telling you the committee's median is the signal and his guidance is not on offer. The tape read it as relief: <b>gold +1.85%, bonds +0.76%, crude &minus;2.25%</b> &mdash; every part of that combination says less tightening ahead, not more."
  },
- "overview": "<b>Wednesday itself was not the relief; Wednesday was a grind.</b> The S&amp;P rose <i>after</i> the announcement but still closed <b>&minus;0.44%</b> on the session, and the damage under it was concentrated in exactly the events this book had flagged. <b>ON Semiconductor fell 9.02% on its own Analyst Day</b> &mdash; the single worst outcome on the board and the clearest validation yet of the study's core finding that these events are volatility, not direction. <b>INTU fell 6.20%</b> the session before its own Investor Day, which is today. <b>LEN closed &minus;2.14% and then missed</b>: EPS <b>$1.19</b> against $1.28 expected and <b>nearly half</b> of what it earned this time last year, revenue <b>$8.05B</b> versus $8.23B consensus. The homebuilder read with mortgage rates north of 7% came in exactly as poorly as the setup implied.<br><br><b>Two enormous single-name moves this morning, in opposite directions, both on contracts rather than earnings.</b> <b>GNRC is +30.09%</b> after securing a long-term Amazon supply deal tied to <b>$8 billion</b> in generator purchases, including <b>$2.4 billion through 2028</b> &mdash; and Amazon took the right to buy up to <b>$340 million</b> of GNRC stock, which is the part that makes it a partnership rather than an order. Against it, <b>FLNC is &minus;22.21%</b> after cutting full-year guidance to <b>$2.4B</b> from $2.9&ndash;3.1B and guiding to a <b>$200M EBITDA loss</b> against prior guidance of a $30M loss to $10M of EBITDA. <b>Both are power-infrastructure names and they went opposite ways on the same morning</b> &mdash; the data-center buildout is paying the generator maker and destroying the battery-storage one.<br><br><b>The crypto complex is repairing.</b> <b>COIN +2.85%</b> and <b>HOOD +2.78%</b> after Wednesday's continued bleed (COIN &minus;4.42%, HOOD &minus;5.46%) in the wake of the failed CLARITY Act vote. <b>NSC is +10.2%</b> on filings showing more than 500 customers publicly supporting its proposed Union Pacific merger. And <b>ARM +4.75%</b> got a second CEO-on-television catalyst in a week: Rene Haas told CNBC he is increasingly confident the company can meet demand for its new data-center chip.<br><br><b>Today:</b> the <b>Bank of England at 6:00 CT</b>, then <b>claims, housing starts and Philly Fed at 7:30 CT</b>. <b>CCL reports before the open.</b> The investor-day slate is the heaviest of the week &mdash; <b>YETI, ASH, EAT, HUBS, ORLY and INTU</b> all hold events, with <b>INTU's the one carrying a real precedent</b>. <b>CRM trades ex-dividend today.</b> And Friday is <b>triple witching</b>.",
+ "overview": "<b>Wednesday itself was not the relief; Wednesday was a grind.</b> The S&amp;P rose <i>after</i> the announcement but still closed <b>&minus;0.44%</b> on the session, and the damage under it was concentrated in exactly the events this book had flagged. <b>ON Semiconductor fell 9.02% on its own Analyst Day</b> &mdash; the single worst outcome on the board and the clearest validation yet of the study's core finding that these events are volatility, not direction. <b>INTU fell 6.20%</b> the session before its own Investor Day, which is today. <b>LEN closed &minus;2.14% and then missed</b>: EPS <b>$1.19</b> against $1.28 expected and <b>nearly half</b> of what it earned this time last year, revenue <b>$8.05B</b> versus $8.23B consensus. <b>The guidance is the worse half</b> &mdash; deliveries fell <b>3% to 20,840 homes</b>, Q4 is guided to <b>22,000&ndash;23,000</b>, and <b>full-year FY26 delivery guidance was LOWERED to 80,000&ndash;81,000 homes</b>. The homebuilder read with mortgage rates north of 7% came in exactly as poorly as the setup implied.<br><br><b>Two enormous single-name moves this morning, in opposite directions, both on contracts rather than earnings.</b> <b>GNRC is +30.09%</b> after securing a long-term Amazon supply deal tied to <b>$8 billion</b> in generator purchases, including <b>$2.4 billion through 2028</b> &mdash; and Amazon took the right to buy up to <b>$340 million</b> of GNRC stock, which is the part that makes it a partnership rather than an order. Against it, <b>FLNC is &minus;22.21%</b> after cutting full-year guidance to <b>$2.4B</b> from $2.9&ndash;3.1B and guiding to a <b>$200M EBITDA loss</b> against prior guidance of a $30M loss to $10M of EBITDA. <b>Both are power-infrastructure names and they went opposite ways on the same morning</b> &mdash; the data-center buildout is paying the generator maker and destroying the battery-storage one.<br><br><b>The crypto complex is repairing.</b> <b>COIN +2.85%</b> and <b>HOOD +2.78%</b> after Wednesday's continued bleed (COIN &minus;4.42%, HOOD &minus;5.46%) in the wake of the failed CLARITY Act vote. <b>NSC is +10.2%</b> on filings showing more than 500 customers publicly supporting its proposed Union Pacific merger. And <b>ARM +4.75%</b> got a second CEO-on-television catalyst in a week: Rene Haas told CNBC he is increasingly confident the company can meet demand for its new data-center chip.<br><br><b>The central banks have already reported, and they did not move together.</b> <b>The Bank of England HELD at 3.75%, voting 6&ndash;3</b> &mdash; but Governor Bailey warned a hike is possible <b>if the Iran conflict is prolonged</b>, which puts a second central bank on the record saying the energy impulse is the binding constraint. <b>Hong Kong followed the Fed with 25bp to 4.25%</b>, and the <b>Bank of Japan is expected to raise by 25bp tonight</b>. <b>Yields are confirming the relief:</b> the 2-year is <b>&minus;5bp to 4.69%</b> and the 10-year <b>&minus;5bp to 4.96%</b> &mdash; back below 5% after Tuesday's 5.045% print. <b>WTI is &minus;1.7% to $100.66</b>, and Trump is reportedly planning to meet <b>Gulf Cooperation Council leaders next week</b>, which is the first diplomatic date on the calendar since the Muscat talks were shelved.<br><br><b>Today:</b> <b>housing starts, building permits and the Philadelphia Fed at 7:30 CT</b>, <b>pending home sales at 9:00 CT</b> and <b>jobless claims at 9:30 CT</b> &mdash; an unusual slot for claims. <b>CCL reports before the open.</b> The investor-day slate is the heaviest of the week &mdash; <b>YETI, ASH, EAT, HUBS, ORLY and INTU</b> all hold events, with <b>INTU's the one carrying a real precedent</b>. <b>CRM trades ex-dividend today.</b> And Friday is <b>triple witching</b>.",
  "watchlist": {
   "stamp": "PREMARKET 7:15AM CT",
   "em_label": "MARKS VS WEDNESDAY 9/16 CLOSE &mdash; THE POST-FOMC RELIEF, AS THE SHEET PREDICTED",
   "groups": [
-   ["ETFs", [["QQQ", 704.72, 714.65], ["IWM", 283.92, 287.24], ["SPY", 754.05, 761.95], ["GLD", 391.74, 399.00], ["TLT", 80.88, 81.49], ["USO", 156.17, 152.66]]],
-   ["SEMIS RIPPING", [["ARM", 243.98, 255.56], ["AMD", 512.50, 528.90], ["INTC", 101.05, 104.18], ["MU", 926.55, 946.84], ["NVDA", 213.90, 217.50], ["DELL", 563.29, 572.90]]],
-   ["THE TWO MOVERS", [["GNRC", 175.11, 227.80], ["FLNC", 9.05, 7.04]]],
-   ["EVENT NAMES", [["INTU", 318.13, 319.58], ["YETI", 40.55, 41.25], ["HUBS", 236.46, 238.11], ["ON", 66.60, 67.97], ["CRM", 250.54, 246.26], ["LEN", 78.36, 77.05]]],
-   ["REPAIRING", [["COIN", 164.51, 169.20], ["HOOD", 104.42, 107.32], ["META", 673.31, 680.08], ["GOOGL", 342.87, 346.96], ["AMZN", 245.96, 250.90]]]
+   [
+    "ETFs",
+    [
+     [
+      "QQQ",
+      704.72,
+      714.65
+     ],
+     [
+      "IWM",
+      283.92,
+      287.24
+     ],
+     [
+      "SPY",
+      754.05,
+      761.95
+     ],
+     [
+      "GLD",
+      391.74,
+      399.0
+     ],
+     [
+      "TLT",
+      80.88,
+      81.49
+     ],
+     [
+      "USO",
+      156.17,
+      152.66
+     ]
+    ]
+   ],
+   [
+    "SEMIS RIPPING",
+    [
+     [
+      "ARM",
+      243.98,
+      255.56
+     ],
+     [
+      "AMD",
+      512.5,
+      528.9
+     ],
+     [
+      "INTC",
+      101.05,
+      104.18
+     ],
+     [
+      "MU",
+      926.55,
+      946.84
+     ],
+     [
+      "NVDA",
+      213.9,
+      217.5
+     ],
+     [
+      "DELL",
+      563.29,
+      572.9
+     ]
+    ]
+   ],
+   [
+    "THE TWO MOVERS",
+    [
+     [
+      "GNRC",
+      175.11,
+      227.8
+     ],
+     [
+      "FLNC",
+      9.05,
+      7.04
+     ]
+    ]
+   ],
+   [
+    "EVENT NAMES",
+    [
+     [
+      "INTU",
+      318.13,
+      319.58
+     ],
+     [
+      "YETI",
+      40.55,
+      41.25
+     ],
+     [
+      "HUBS",
+      236.46,
+      238.11
+     ],
+     [
+      "ON",
+      66.6,
+      67.97
+     ],
+     [
+      "CRM",
+      250.54,
+      246.26
+     ],
+     [
+      "LEN",
+      78.36,
+      77.05
+     ]
+    ]
+   ],
+   [
+    "REPAIRING",
+    [
+     [
+      "COIN",
+      164.51,
+      169.2
+     ],
+     [
+      "HOOD",
+      104.42,
+      107.32
+     ],
+     [
+      "META",
+      673.31,
+      680.08
+     ],
+     [
+      "GOOGL",
+      342.87,
+      346.96
+     ],
+     [
+      "AMZN",
+      245.96,
+      250.9
+     ]
+    ]
+   ]
   ]
  },
  "setups": [
-  ["T1", "g", "THE SHEET CALLED IT", "Post-FOMC relief, everything green", "Written down before the open yesterday", "Yesterday's prep sheet carried one line in capitals: <b>&ldquo;PRICE ACTION USUALLY A LOT BETTER AFTER FOMC.&rdquo;</b> It also said <b>the 1pm move is usually a fake out</b> and to straddle the 1:30 presser rather than trade the decision. <b>Both halves were right.</b> Wednesday's session closed <b>&minus;0.44%</b> &mdash; the decision itself produced nothing durable &mdash; and this morning the entire board is green with the highest-beta names leading. <b>The mechanism was the dot plot:</b> twelve of eighteen at <b>4.125%</b> for 2026 means one more hike, not the two futures were leaning toward. <b>The confirmation to watch is the combination</b>: gold, bonds and equities all higher while crude falls is a coherent less-tightening trade, not a reflex bounce."],
-  ["T2", "r", "ON", "&minus;9.02% on its Analyst Day", "The study's thesis, demonstrated", "<b>ON Semiconductor fell 9.02% on the day it held its Analyst Day.</b> That is the cleanest evidence yet for the pattern this book has been tracking: <b>sell-the-news ran four of five in our study, and three of five gapped up and closed below the open.</b> The sheet had ON on watch with <b>&ldquo;entry straddle before market closes&rdquo;</b> &mdash; and a straddle is precisely the structure that does not care which way a 9% move goes. <b>The directional version of this trade was a disaster and the volatility version was a winner, on the same name and the same day.</b> It is +2.06% this morning, which changes nothing about the lesson."],
-  ["T3", "y", "CRM", "&minus;1.71% into a wall of upgrades", "The fade and the fundamentals disagree", "<b>This is the most interesting tension on the board.</b> Salesforce's Investor &amp; Analyst Session delivered: management said it is <b>&ldquo;confident&rdquo; on a path to $63B in revenue in FY30</b>, and the sell side responded overnight with a wall of raises &mdash; <b>Stifel to $300, Canaccord to $300, Guggenheim to $300, BMO to $285, Mizuho to $280, Citi to $263</b>, with JPMorgan calling the event <b>positive for the &ldquo;re-rating thesis.&rdquo;</b> <b>And the stock closed &minus;2.00% on the day of the event and is &minus;1.71% this morning</b> (it also trades ex-dividend today, which accounts for a small part). <b>Our Dreamforce fade thesis is now right on price three times running and wrong about the substance.</b> That is worth holding honestly: the pattern predicted the tape and said nothing true about the business."]
+  [
+   "T1",
+   "g",
+   "THE SHEET CALLED IT",
+   "Post-FOMC relief, everything green",
+   "Written down before the open yesterday",
+   "Yesterday's prep sheet carried one line in capitals: <b>&ldquo;PRICE ACTION USUALLY A LOT BETTER AFTER FOMC.&rdquo;</b> It also said <b>the 1pm move is usually a fake out</b> and to straddle the 1:30 presser rather than trade the decision. <b>Both halves were right.</b> Wednesday's session closed <b>&minus;0.44%</b> &mdash; the decision itself produced nothing durable &mdash; and this morning the entire board is green with the highest-beta names leading. <b>The mechanism was the dot plot:</b> twelve of eighteen at <b>4.125%</b> for 2026 means one more hike, not the two futures were leaning toward. <b>The confirmation to watch is the combination</b>: gold, bonds and equities all higher while crude falls is a coherent less-tightening trade, not a reflex bounce."
+  ],
+  [
+   "T1",
+   "g",
+   "THE FIRST REAL PRICE",
+   "CRWV and NBIS both raising",
+   "Not an essay this time",
+   "<b>Every move in this argument for four sessions has come from someone talking</b> &mdash; Amodei's essay, Huang's answer to Trump, Kurtz's post. <b>This morning it finally has a price.</b> <b>CoreWeave says new compute capacity is being contracted at HIGHER prices</b>, and <b>Nebius is raising prices for its computing services</b> &mdash; NBIS is <b>+9.75%</b> on it. Two AI-infrastructure names, same morning, both reporting pricing power. <b>That is demand evidence, and it arrives nine trading days before MU's 9/30 print</b>, which this book has been calling the first real number. <b>The complication is inside CRWV itself:</b> the same release sets up an <b>at-the-market program to sell up to 35,000,000 Class A shares</b>, and the stock is <b>&minus;1.52%</b> on the combination. <b>Higher prices for the product, more shares against it</b> &mdash; NBIS got the pricing headline without the dilution, and the two tapes are pricing exactly that difference."
+  ],
+  [
+   "T2",
+   "r",
+   "ON",
+   "&minus;9.02% on its Analyst Day",
+   "The study's thesis, demonstrated",
+   "<b>ON Semiconductor fell 9.02% on the day it held its Analyst Day.</b> That is the cleanest evidence yet for the pattern this book has been tracking: <b>sell-the-news ran four of five in our study, and three of five gapped up and closed below the open.</b> The sheet had ON on watch with <b>&ldquo;entry straddle before market closes&rdquo;</b> &mdash; and a straddle is precisely the structure that does not care which way a 9% move goes. <b>The directional version of this trade was a disaster and the volatility version was a winner, on the same name and the same day.</b> It is +2.06% this morning, which changes nothing about the lesson."
+  ],
+  [
+   "T3",
+   "y",
+   "CRM",
+   "&minus;1.71% into a wall of upgrades",
+   "The fade and the fundamentals disagree",
+   "<b>This is the most interesting tension on the board.</b> Salesforce's Investor &amp; Analyst Session delivered: management said it is <b>&ldquo;confident&rdquo; on a path to $63B in revenue in FY30</b>, and the sell side responded overnight with a wall of raises &mdash; <b>Stifel to $300, Canaccord to $300, Guggenheim to $300, BMO to $285, Mizuho to $280, Citi to $263</b>, with JPMorgan calling the event <b>positive for the &ldquo;re-rating thesis.&rdquo;</b> <b>And the stock closed &minus;2.00% on the day of the event and is &minus;1.71% this morning</b> (it also trades ex-dividend today, which accounts for a small part). <b>Our Dreamforce fade thesis is now right on price three times running and wrong about the substance.</b> That is worth holding honestly: the pattern predicted the tape and said nothing true about the business."
+  ],
+  [
+   "T3",
+   "r",
+   "THE SAFETY BID GETS DOWNGRADED",
+   "PANW, S, OKTA all cut",
+   "The other side of the same trade",
+   "<b>The cyber complex that was the green corner of Monday's board is being cut by the sell side this morning.</b> <b>PANW &minus;2.17%</b>, <b>SentinelOne &minus;3.45%</b> and <b>OKTA &minus;2.16%</b> all carry downgrades, and <b>CRWD is &minus;0.94%</b>, its fourth straight session giving back the <b>+13.85%</b> Monday. <b>Read the two halves together and the week has a clean shape:</b> the AI-slowdown fear that created the safety bid is being unwound on actual pricing data, and the hedge against it is being marked down at the same time. <b>The trade that worked on Monday is being dismantled from both ends.</b> Note what is NOT in this: any company-specific bad news at any of the four."
+  ]
  ],
  "prep": {
   "pill": "MORNING PREP &middot; THU 9/17 &middot; AWAITING SHEET",
   "lead": "&#9888; <b>No sheet in hand yet &mdash; this is the tape's read.</b> <b>Yesterday's sheet scored well and its governing line is the story of this morning:</b> &ldquo;price action usually a lot better after FOMC.&rdquo; It also called the <b>1pm move a fake out</b> and put the trade on the <b>1:30 presser</b>, and Wednesday closed &minus;0.44% while this morning is green across the board. <b>ON was on watch with a straddle before the close</b> &mdash; it fell <b>9.02%</b> on its Analyst Day, which is what a straddle is for.",
   "cards": [
-   ["INTU", "Investor Day today &middot; +0.46%", "r", "1",
+   [
+    "INTU",
+    "Investor Day today &middot; +0.46%",
+    "r",
+    "1",
     "Trading <b>319.58</b> after closing <b>318.13</b>, down <b>6.20%</b> on Wednesday &mdash; a heavy drop the session before its own event.",
     "<b>Event is 11:00 ET / 10:00 CT.</b> Watch volume in the first thirty minutes; in our five-event study the volume ratio ordered the day's range almost perfectly.",
     "<b>INTU is the one name in that study that closed meaningfully ABOVE its open</b> &mdash; 2025's event ran 1.34x volume, a 2.00 ATR range and <b>+1.18%</b>. It is the counterexample to sell-the-news.",
     "The 2024 INTU event was the dull end of the sample: 0.86x volume, 0.81 ATR, <b>&minus;1.27%</b>. Same name, opposite outcomes, and volume told you which.",
-    "ON just fell 9% on the same kind of event yesterday. The structure that survives both outcomes is a straddle, not a direction."],
-   ["GNRC", "+30.09% &middot; Amazon deal", "g", "1",
+    "ON just fell 9% on the same kind of event yesterday. The structure that survives both outcomes is a straddle, not a direction."
+   ],
+   [
+    "GNRC",
+    "+30.09% &middot; Amazon deal",
+    "g",
+    "1",
     "<b>227.80</b> from a 175.11 close on a long-term Amazon supply agreement tied to <b>$8 billion</b> of generator purchases, <b>$2.4 billion of it through 2028</b>.",
     "<b>The tell is not the order size, it is the equity:</b> Amazon took the right to buy up to <b>$340 million</b> of GNRC stock.",
     "That converts a customer into a stakeholder and makes the revenue considerably harder to walk away from. AMZN is +2.01% itself.",
     "A 30% gap prices a great deal of this immediately, and this book has documented repeatedly that a gap into a finished catalyst is usually the high.",
-    "The distinction that matters: this catalyst is <i>signed</i>, not <i>scheduled</i>. There is no second shoe to drop today."],
-   ["FLNC", "&minus;22.21% &middot; guidance cut", "r", "2",
+    "The distinction that matters: this catalyst is <i>signed</i>, not <i>scheduled</i>. There is no second shoe to drop today."
+   ],
+   [
+    "FLNC",
+    "&minus;22.21% &middot; guidance cut",
+    "r",
+    "2",
     "Cut FY2026 revenue guidance to <b>$2.4B</b> from <b>$2.9&ndash;3.1B</b>, and now guides to a <b>$200M EBITDA loss</b> against prior guidance of a $30M loss to $10M of EBITDA.",
     "<b>That is a guidance cut on both lines simultaneously</b> &mdash; roughly $600M of revenue and $210M of EBITDA, in one release.",
     "None. Read this one as information about the sector rather than a dip.",
     "It sits directly opposite GNRC on the same morning: <b>both are power-infrastructure plays on the data-center buildout, going opposite directions.</b>",
-    "Generators are being bought; grid-scale battery storage is not. That divergence is the actual signal here."],
-   ["THE COMBINATION", "Gold, bonds, stocks up &middot; crude down", "g", "2",
+    "Generators are being bought; grid-scale battery storage is not. That divergence is the actual signal here."
+   ],
+   [
+    "THE COMBINATION",
+    "Gold, bonds, stocks up &middot; crude down",
+    "g",
+    "2",
     "<b>GLD +1.85%, TLT +0.76%, QQQ +1.41%, USO &minus;2.25%.</b>",
     "<b>Check whether this holds through the BoE at 6:00 CT and claims/housing starts/Philly Fed at 7:30.</b>",
     "All four legs agree on one story: less tightening ahead than was feared. That coherence is what separates a real repricing from a relief bounce.",
     "The 10-year touched <b>5.045%</b> on Tuesday, its highest since 2007. One session of bond strength does not undo that level.",
-    "If crude turns back up, the whole thesis weakens &mdash; the energy impulse was always the part a rate hike could not fix."]
+    "If crude turns back up, the whole thesis weakens &mdash; the energy impulse was always the part a rate hike could not fix."
+   ]
   ]
  },
  "thisweek": [
-  {"day": "MON 9/14", "tag": "DONE", "accent": "done",
-   "econ": [["&mdash;", "10-year crossed 5% intraday, first since 2023"]],
-   "earnings": [["PLAY", "&minus;15.6% Tue"]],
-   "events": [["The split", "HELD", "CRWD +13.85% vs ARM &minus;9.74%"]]},
-  {"day": "TUE 9/15", "tag": "DONE", "accent": "done",
-   "econ": [["&mdash;", "10-year touched 5.045%, highest since 2007"]],
-   "earnings": [["TCOM", "loss on penalty"]],
-   "events": [["CLARITY Act", "FAILED", "COIN &minus;7.1%, HOOD &minus;3.4%"]]},
-  {"day": "WED 9/16", "tag": "DONE", "accent": "done",
-   "econ": [["1:00p", "<b>HIKED 25bp to 3.75&ndash;4.00%</b> &mdash; dots at 4.125%, one more"], ["&mdash;", "Warsh declined to submit a dot. S&amp;P closed &minus;0.44%"]],
-   "earnings": [["LEN", "MISS &middot; $1.19 vs $1.28"]],
-   "events": [["ON", "&minus;9.02%", "Analyst Day &mdash; worst on the board"], ["INTU", "&minus;6.20%", "Day before its own event"]]},
-  {"day": "THU 9/17", "tag": "TODAY", "accent": "live",
-   "econ": [["6:00a", "Bank of England"], ["7:30a", "Claims, housing starts, Philly Fed"]],
-   "earnings": [["CCL", "AM"]],
-   "events": [["INTU", "10:00a", "Investor Day &mdash; the study's counterexample"], ["YETI / HUBS / EAT / ASH / ORLY", "AM", "Investor days"], ["FlowMS", "4:30p", "Zoom"]]},
-  {"day": "FRI 9/18", "tag": "EXPIRY", "accent": "warn",
-   "econ": [["8:15a", "Industrial production"], ["All day", "Triple witching"]],
+  {
+   "day": "MON 9/14",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "10-year crossed 5% intraday, first since 2023"
+    ]
+   ],
+   "earnings": [
+    [
+     "PLAY",
+     "&minus;15.6% Tue"
+    ]
+   ],
+   "events": [
+    [
+     "The split",
+     "HELD",
+     "CRWD +13.85% vs ARM &minus;9.74%"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/15",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "10-year touched 5.045%, highest since 2007"
+    ]
+   ],
+   "earnings": [
+    [
+     "TCOM",
+     "loss on penalty"
+    ]
+   ],
+   "events": [
+    [
+     "CLARITY Act",
+     "FAILED",
+     "COIN &minus;7.1%, HOOD &minus;3.4%"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "1:00p",
+     "<b>HIKED 25bp to 3.75&ndash;4.00%</b> &mdash; dots at 4.125%, one more"
+    ],
+    [
+     "&mdash;",
+     "Warsh declined to submit a dot. S&amp;P closed &minus;0.44%"
+    ]
+   ],
+   "earnings": [
+    [
+     "LEN",
+     "MISS &middot; $1.19 vs $1.28"
+    ]
+   ],
+   "events": [
+    [
+     "ON",
+     "&minus;9.02%",
+     "Analyst Day &mdash; worst on the board"
+    ],
+    [
+     "INTU",
+     "&minus;6.20%",
+     "Day before its own event"
+    ]
+   ]
+  },
+  {
+   "day": "THU 9/17",
+   "tag": "TODAY",
+   "accent": "live",
+   "econ": [
+    [
+     "7:30a",
+     "Housing starts, building permits, Philly Fed"
+    ],
+    [
+     "9:00a",
+     "Pending home sales"
+    ],
+    [
+     "9:30a",
+     "Jobless claims"
+    ],
+    [
+     "&mdash;",
+     "<b>BoE HELD 6&ndash;3 at 3.75%</b>; HK +25bp to 4.25%; BoJ expected tonight"
+    ]
+   ],
+   "earnings": [
+    [
+     "CCL",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "INTU",
+     "10:00a",
+     "Investor Day &mdash; 8:00 PT, confirmed"
+    ],
+    [
+     "YETI / HUBS / EAT / ASH / ORLY",
+     "AM",
+     "Investor days"
+    ],
+    [
+     "FlowMS",
+     "4:30p",
+     "Zoom"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 9/18",
+   "tag": "EXPIRY",
+   "accent": "warn",
+   "econ": [
+    [
+     "8:15a",
+     "Industrial production"
+    ],
+    [
+     "All day",
+     "Triple witching"
+    ]
+   ],
    "earnings": [],
-   "events": [["ICE", "09/18", "$26.8M $145C floor block"], ["Seaport", "12:00p", "Crypto: what's next post-CLARITY"]]}
+   "events": [
+    [
+     "ICE",
+     "09/18",
+     "$26.8M $145C floor block"
+    ],
+    [
+     "Seaport",
+     "12:00p",
+     "Crypto: what's next post-CLARITY"
+    ]
+   ]
+  }
  ],
  "charts": [],
  "charts_note": "",
  "trump": {
   "stamp": "PREMARKET 7:15AM CT",
   "groups": [
-   ["THE POST-FOMC BID", [["GNRC", 30.09], ["NSC", 10.2], ["ARM", 4.75], ["AMD", 3.20], ["INTC", 3.10], ["COIN", 2.85], ["HOOD", 2.78], ["MU", 2.19], ["AMZN", 2.01]]],
-   ["LESS TIGHTENING", [["GLD", 1.85], ["QQQ", 1.41], ["IWM", 1.17], ["SPY", 1.05], ["TLT", 0.76], ["USO", -2.25]]],
-   ["STILL BROKEN", [["FLNC", -22.21], ["CRM", -1.71], ["LEN", -1.67], ["CRWD", -0.89]]]
+   [
+    "THE POST-FOMC BID",
+    [
+     [
+      "GNRC",
+      30.09
+     ],
+     [
+      "NSC",
+      10.2
+     ],
+     [
+      "ARM",
+      4.75
+     ],
+     [
+      "AMD",
+      3.2
+     ],
+     [
+      "INTC",
+      3.1
+     ],
+     [
+      "COIN",
+      2.85
+     ],
+     [
+      "HOOD",
+      2.78
+     ],
+     [
+      "MU",
+      2.19
+     ],
+     [
+      "AMZN",
+      2.01
+     ]
+    ]
+   ],
+   [
+    "LESS TIGHTENING",
+    [
+     [
+      "GLD",
+      1.85
+     ],
+     [
+      "QQQ",
+      1.41
+     ],
+     [
+      "IWM",
+      1.17
+     ],
+     [
+      "SPY",
+      1.05
+     ],
+     [
+      "TLT",
+      0.76
+     ],
+     [
+      "USO",
+      -2.25
+     ]
+    ]
+   ],
+   [
+    "STILL BROKEN",
+    [
+     [
+      "FLNC",
+      -22.21
+     ],
+     [
+      "CRM",
+      -1.71
+     ],
+     [
+      "LEN",
+      -1.67
+     ],
+     [
+      "CRWD",
+      -0.89
+     ]
+    ]
+   ]
   ]
  },
  "strat": {
   "stamp": "WEDNESDAY 9/16 CLOSE &amp; CANDLE &middot; FOMC DAY",
   "rows": [
-   ["ON", "T1", "r", "Analyst Day &rarr; worst on the board", "r",
+   [
+    "ON",
+    "T1",
+    "r",
+    "Analyst Day &rarr; worst on the board",
+    "r",
     "Closed <b>66.60</b>, <b>&minus;9.02%</b>, on the day of its own Analyst Day. The sheet had it on watch with an <b>entry straddle before the close</b> &mdash; the structure that does not care about direction.",
     "Wed close <b>66.60</b> &middot; <b>&minus;9.02%</b> &middot; pre <b>67.97</b>, +2.06%",
     "Four of five in our study were sell-the-news; three of five gapped up and closed below the open.",
-    "The directional version of this trade lost badly and the volatility version won, same name, same day."],
-   ["INTU", "T1", "r", "&minus;6.20% the day BEFORE its event", "r",
+    "The directional version of this trade lost badly and the volatility version won, same name, same day."
+   ],
+   [
+    "INTU",
+    "T1",
+    "r",
+    "&minus;6.20% the day BEFORE its event",
+    "r",
     "Closed <b>318.13</b>, down <b>6.20%</b>, the session before today's Investor Day. It enters weak rather than extended.",
     "Wed close <b>318.13</b> &middot; <b>&minus;6.20%</b> &middot; pre <b>319.58</b>, +0.46%",
     "<b>INTU is the study's one genuine counterexample</b> &mdash; 2025's event closed +1.18% on 1.34x volume.",
-    "Its 2024 event was the dull one: 0.86x volume, 0.81 ATR, &minus;1.27%. Volume in the first thirty minutes separated them."],
-   ["CRM", "T1", "y", "Event delivered, stock fell", "y",
+    "Its 2024 event was the dull one: 0.86x volume, 0.81 ATR, &minus;1.27%. Volume in the first thirty minutes separated them."
+   ],
+   [
+    "CRM",
+    "T1",
+    "y",
+    "Event delivered, stock fell",
+    "y",
     "Closed <b>250.54</b>, <b>&minus;2.00%</b>, on Investor &amp; Analyst Session day &mdash; then the sell side raised targets across the board overnight on a <b>$63B FY30 revenue</b> path.",
     "Wed close <b>250.54</b> &middot; <b>&minus;2.00%</b> &middot; pre <b>246.26</b>, &minus;1.71% (ex-div today)",
     "Stifel, Canaccord and Guggenheim all to <b>$300</b>; JPMorgan calls it positive for the re-rating thesis.",
-    "Three consecutive sessions of the fade holding while the fundamentals improved. The pattern predicted the tape and nothing else."],
-   ["LEN", "T1", "r", "Closed down, then missed", "r",
+    "Three consecutive sessions of the fade holding while the fundamentals improved. The pattern predicted the tape and nothing else."
+   ],
+   [
+    "LEN",
+    "T1",
+    "r",
+    "Closed down, then missed",
+    "r",
     "Closed <b>78.36</b>, <b>&minus;2.14%</b>, then reported <b>EPS $1.19 against $1.28</b> expected &mdash; <b>nearly half</b> of the year-ago quarter &mdash; on revenue of <b>$8.05B</b> versus $8.23B.",
     "Wed close <b>78.36</b> &middot; <b>&minus;2.14%</b> &middot; pre <b>77.05</b>, &minus;1.67%",
     "The homebuilder read with mortgage rates north of 7%, landing hours after a rate hike.",
-    "This book flagged the estimate at <b>$1.30 against $2.00 earned a year ago</b>. The actual was worse than the estimate."],
-   ["GNRC", "T1", "g", "Gap of 30% on a signed contract", "g",
+    "This book flagged the estimate at <b>$1.30 against $2.00 earned a year ago</b>. The actual was worse than the estimate."
+   ],
+   [
+    "GNRC",
+    "T1",
+    "g",
+    "Gap of 30% on a signed contract",
+    "g",
     "<b>227.80</b> from <b>175.11</b>. Amazon supply deal tied to <b>$8B</b> of generator purchases, <b>$2.4B through 2028</b>, plus a right for Amazon to buy up to <b>$340M</b> of stock.",
     "Wed close <b>175.11</b> &middot; pre <b>227.80</b>, <b>+30.09%</b>",
     "The equity stake is what converts a customer into a stakeholder.",
-    "<b>Signed, not scheduled</b> &mdash; unlike a conference gap, there is no second shoe to drop today."]
+    "<b>Signed, not scheduled</b> &mdash; unlike a conference gap, there is no second shoe to drop today."
+   ]
   ]
  },
  "gappers": {
   "bull": [
-   ["GNRC", 30.09, "Long-term <b>Amazon</b> supply deal tied to <b>$8 billion</b> in generator purchases, <b>$2.4 billion through 2028</b>, with Amazon granted the right to buy up to <b>$340 million</b> of GNRC stock. AMZN +2.01%."],
-   ["NSC", 10.2, "Regulatory filings show <b>more than 500 customers publicly supporting</b> its proposed merger with Union Pacific."],
-   ["ARM", 4.75, "CEO Rene Haas told CNBC he is <b>increasingly confident</b> the company can meet demand for its new data-center chip &mdash; the second CEO-on-television catalyst to move this complex in a week."],
-   ["AMD", 3.20, "Leading the semi bid on the post-FOMC relief."],
-   ["INTC", 3.10, "Fourth straight session leading the complex, now above 104."],
-   ["COIN", 2.85, "Repairing after the failed CLARITY Act vote drove it &minus;4.42% Wednesday and &minus;7.1% Tuesday."],
-   ["HOOD", 2.78, "Same repair. Fell &minus;5.46% Wednesday."],
-   ["MU", 2.19, "Reports <b>9/30</b> &mdash; the first real datapoint in the AI-capex argument."],
-   ["GLD", 1.85, "Gold, bonds and equities all higher together says less tightening ahead, not a reflex bounce."]
+   [
+    "GNRC",
+    30.09,
+    "Long-term <b>Amazon</b> supply deal tied to <b>$8 billion</b> in generator purchases, <b>$2.4 billion through 2028</b>, with Amazon granted the right to buy up to <b>$340 million</b> of GNRC stock. AMZN +2.01%."
+   ],
+   [
+    "NBIS",
+    9.75,
+    "<b>Raising prices for its computing services</b> (Yahoo Finance) &mdash; the first hard pricing evidence in the AI-capex argument, which has run on essays and interviews all week."
+   ],
+   [
+    "NSC",
+    10.2,
+    "Regulatory filings show <b>more than 500 customers publicly supporting</b> its proposed merger with Union Pacific."
+   ],
+   [
+    "ARM",
+    4.75,
+    "CEO Rene Haas told CNBC he is <b>increasingly confident</b> the company can meet demand for its new data-center chip &mdash; the second CEO-on-television catalyst to move this complex in a week."
+   ],
+   [
+    "AMD",
+    3.2,
+    "Leading the semi bid on the post-FOMC relief."
+   ],
+   [
+    "INTC",
+    3.1,
+    "Fourth straight session leading the complex, now above 104."
+   ],
+   [
+    "COIN",
+    2.85,
+    "Repairing after the failed CLARITY Act vote drove it &minus;4.42% Wednesday and &minus;7.1% Tuesday."
+   ],
+   [
+    "HOOD",
+    2.78,
+    "Same repair. Fell &minus;5.46% Wednesday."
+   ],
+   [
+    "MU",
+    2.19,
+    "Reports <b>9/30</b> &mdash; the first real datapoint in the AI-capex argument."
+   ],
+   [
+    "GLD",
+    1.85,
+    "Gold, bonds and equities all higher together says less tightening ahead, not a reflex bounce."
+   ]
   ],
   "bear": [
-   ["FLNC", -22.21, "Cut FY2026 revenue guidance to <b>$2.4B</b> from $2.9&ndash;3.1B and now guides to a <b>$200M EBITDA loss</b> against a prior range of a $30M loss to $10M of EBITDA. Both lines cut in one release."],
-   ["USO", -2.25, "Crude giving back with the less-tightening trade. The energy impulse was always the part a hike could not fix."],
-   ["CRM", -1.71, "Down again despite a wall of overnight target raises to as high as <b>$300</b>. Trades <b>ex-dividend</b> today, which accounts for a small part."],
-   ["LEN", -1.67, "After a miss: <b>$1.19 vs $1.28</b>, revenue $8.05B vs $8.23B, and roughly half the year-ago quarter."],
-   ["CRWD", -0.89, "Third straight session giving back the +13.85% Monday."]
+   [
+    "FLNC",
+    -22.21,
+    "Cut FY2026 revenue guidance to <b>$2.4B</b> from $2.9&ndash;3.1B and now guides to a <b>$200M EBITDA loss</b> against a prior range of a $30M loss to $10M of EBITDA. Both lines cut in one release."
+   ],
+   [
+    "S",
+    -3.45,
+    "SentinelOne downgraded. The cyber complex is being cut across the board &mdash; <b>PANW &minus;2.17%</b> and <b>OKTA &minus;2.16%</b> carry downgrades too."
+   ],
+   [
+    "CRWV",
+    -1.52,
+    "Says new compute capacity is being contracted at <b>higher prices</b> &mdash; but the same release sets up an ATM to sell up to <b>35,000,000 Class A shares</b>. Pricing power and dilution in one filing."
+   ],
+   [
+    "USO",
+    -2.25,
+    "Crude giving back with the less-tightening trade. The energy impulse was always the part a hike could not fix."
+   ],
+   [
+    "CRM",
+    -1.71,
+    "Down again despite a wall of overnight target raises to as high as <b>$300</b>. Trades <b>ex-dividend</b> today, which accounts for a small part."
+   ],
+   [
+    "LEN",
+    -1.67,
+    "After a miss: <b>$1.19 vs $1.28</b>, revenue $8.05B vs $8.23B, and roughly half the year-ago quarter."
+   ],
+   [
+    "CRWD",
+    -0.89,
+    "Third straight session giving back the +13.85% Monday."
+   ],
+   [
+    "XOM",
+    -0.91,
+    "In talks to invest again in <b>Venezuela</b> (WSJ), as WTI falls 1.7% to <b>$100.66</b>."
+   ]
   ]
  },
  "darkpool": {
@@ -141,6 +672,9 @@
   "chips": []
  },
  "tts": [
-  {"label": "Premarket", "text": "Thursday September seventeenth, premarket. Price action is usually a lot better after F O M C. That line was written on the prep sheet before the open yesterday, and this is what it looks like. Everything is green and the risk assets are leading. Arm up four point seven five percent, A M D up three point two zero, Intel up three point one zero, Micron up two point one nine, Nvidia up one point six eight. The Fed hiked twenty five basis points to three seventy five to four percent, the first increase since July twenty twenty three. But the relief is not in the decision, it is in the dots. Sixteen of eighteen participants expect another increase, but twelve of eighteen peg twenty twenty six at an average of four point one two five percent. That is one more hike, not the two futures were leaning toward. And the detail that says the most about this Fed. Warsh declined to submit a dot at all. A chair who will not place his own marker is telling you the committee median is the signal and his guidance is not on offer. The tape read it as relief. Gold up one point eight five, bonds up, crude down two and a quarter. All four legs agree on less tightening ahead. Two things from yesterday worth carrying. O N Semiconductor fell nine percent on the day of its own analyst day, which is the cleanest evidence yet for the sell the news pattern this book tracks, and the sheet had it on watch with a straddle, the one structure that does not care which way a nine percent move goes. And Lennar closed down two percent and then missed, earning one nineteen against one twenty eight expected, nearly half of the year ago quarter."}
+  {
+   "label": "Premarket",
+   "text": "Thursday September seventeenth, premarket. Price action is usually a lot better after F O M C. That line was written on the prep sheet before the open yesterday, and this is what it looks like. Everything is green and the risk assets are leading. Arm up four point seven five percent, A M D up three point two zero, Intel up three point one zero, Micron up two point one nine, Nvidia up one point six eight. The Fed hiked twenty five basis points to three seventy five to four percent, the first increase since July twenty twenty three. But the relief is not in the decision, it is in the dots. Sixteen of eighteen participants expect another increase, but twelve of eighteen peg twenty twenty six at an average of four point one two five percent. That is one more hike, not the two futures were leaning toward. And the detail that says the most about this Fed. Warsh declined to submit a dot at all. A chair who will not place his own marker is telling you the committee median is the signal and his guidance is not on offer. The tape read it as relief. Gold up one point eight five, bonds up, crude down two and a quarter. All four legs agree on less tightening ahead. Two things from yesterday worth carrying. O N Semiconductor fell nine percent on the day of its own analyst day, which is the cleanest evidence yet for the sell the news pattern this book tracks, and the sheet had it on watch with a straddle, the one structure that does not care which way a nine percent move goes. And Lennar closed down two percent and then missed, earning one nineteen against one twenty eight expected, nearly half of the year ago quarter."
+  }
  ]
 }
