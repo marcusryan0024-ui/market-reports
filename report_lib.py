@@ -276,29 +276,6 @@ def thisweek(days):
 #     the bull case, the bear case
 #     an italic closing note - why it is ranked where it is
 # Read off 2026-08-14-premarket.html, which is the reference rendering.
-def _split(overview_html, setups, prep_data, lo=32, hi=62):
-    """Pick the overview/prep column split from how much text each side holds.
-
-    A hardcoded 27/73 was right when prep carried the bulk of the words - on
-    2026-09-01 the two columns came out within 10% of the same height. The
-    content then inverted: overviews grew and prep shrank, and by 2026-09-17 the
-    27% column held 7,233 characters against prep's 3,218, making it 6.1x taller
-    and leaving the whole right side as dead space. Two rows of cards cannot fix
-    a column that is carrying twice the text at a third of the width.
-
-    Height scales as chars/width, so equal heights want width proportional to
-    chars. Clamped because an unclamped split reaches 69/31 and a 31% prep
-    column cannot hold two cards side by side.
-    """
-    txt = lambda s: len(re.sub(r'<[^>]+>', '', str(s)))
-    left = txt(overview_html) + sum(txt(s[4]) + txt(s[5]) for s in setups)
-    right = txt(prep_data['lead']) + sum(
-        sum(txt(f) for f in c[4:]) for c in prep_data['cards'])
-    if left + right == 0:
-        return 27
-    return max(lo, min(hi, round(100 * left / (left + right))))
-
-
 def prep(date_pill, lead, cards, width=73):
     """cards: [(ticker, setup_name, name_colour, tier, read, plan, bull, bear, note), ...]
 
@@ -1450,9 +1427,8 @@ def build_daily(data, base):
     body += headline(data['headline']['title'], data['headline']['summary'])
 
     p = data['prep']
-    lw = _split(data['overview'], data['setups'], p)
-    body += row(col_l(lw) + overview(data['overview']) + top_setups(data['setups']) + '</div>',
-                prep(p['pill'], p['lead'], p['cards'], 100 - lw))
+    body += row(col_l(27) + overview(data['overview']) + top_setups(data['setups']) + '</div>',
+                prep(p['pill'], p['lead'], p['cards']))
     body += thisweek(data['thisweek'])
 
     left = charts(data.get('charts', []), data.get('charts_note', 'SWIPE &#8594;'))
