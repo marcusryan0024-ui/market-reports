@@ -1,0 +1,736 @@
+{
+ "title": "Premarket &middot; Friday 9/18",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>Triple witching, and the board has exactly one thing to say: both classes of Alphabet are the only bullish kickers on it.</b> <b>GOOGL +2.24%</b> and <b>GOOG +2.19%</b> premarket, 64 prints between them, <b>zero bearish kickers anywhere</b> &mdash; and the biggest early print on the tape is <b>GOOGL $50M at the bid</b>. Thursday answered the hike with a bounce: <b>S&amp;P +1.14% to 7,638</b>, <b>Nasdaq +1.69%</b>, 10-year back under <b>5%</b>.",
+  "summary": "<b>Thursday was not a melt-up, it was a hardware rotation &mdash; and the order of it is being reported wrong.</b> The newsletter has HPE leading the AI-server complex at ~8% &ldquo;ahead of Super Micro's +6.1% and Dell's +3.4%.&rdquo; Against settled closes that is backwards: <b>SMCI +9.50%</b> (36.85 &rarr; 40.35), then <b>ARM +8.57%</b>, then <b>HPE +7.69%</b>, then <b>DELL +4.46%</b>. <b>SMCI led, not HPE</b>, and ARM &mdash; unmentioned anywhere &mdash; outran both. <b>None of the four had a company-specific catalyst.</b> That is the memory bid widening into the assemblers, and the one hard number under it is <b>MU on 9/30</b>: MU tops cumulative dark-pool flow at <b>$3.1B bid</b> and the board's largest sweep is an <b>MU $1000C dated 10/02</b> &mdash; expiry placed deliberately past the print."
+ },
+ "overview": "<b>Thursday delivered the relief leg.</b> Claims <b>196k</b> against ~208k expected, Philly Fed <b>37.8</b> against ~30. Yields retreated off the highest levels since <b>2007</b>.<br><br><b>The sore spot was housing.</b> August starts <b>1.275M</b> versus ~1.41M expected &mdash; a clean miss, and the second negative housing read in two days after LEN. <b>KBH reports next week.</b><br><br><b>Thursday's movers, settled:</b> <b>GNRC +18.34%</b> on the Amazon deal &mdash; not the +21.4% being quoted. <b>MRNA +8.55%</b> on Phase 3 cancer-vaccine data with Merck. <b>FLNC &minus;15.36%</b> on the guidance cut. <b>CRWV &minus;4.16%</b> on a $3B convertible.<br><br><b>This morning's red is single-name, not tape.</b> <b>XENE &minus;23.6%</b> &mdash; paused new-patient enrollment in its depression studies on neuropsychiatric adverse events. <b>NFLX &minus;3.48%</b> on a Wells Fargo cut to Underweight, <b>$57 target</b>. <b>ACN &minus;1.60%</b>, Guggenheim to Neutral. <b>STLD &minus;2.10%</b> and <b>NUE &minus;2.32%</b> on soft Q3 steel guides.<br><br><b>Watch the index math today.</b> <b>SPY and DIA both go ex-dividend</b> &mdash; $1.93 and $1.19. SPY shows &minus;0.31% off Thursday's 762.64 print but only <b>&minus;0.06%</b> against the adjusted close. <b>That gap is the dividend, not selling.</b><br><br><b>Today:</b> industrial production <b>8:15</b> &middot; Bowman on stress testing <b>8:30</b>. Earnings are empty. <b>Triple witching</b> does the talking &mdash; volume swells into the open and the close, and Wednesday's <b>$266.7M CRM call block</b> was pointed here.",
+ "watchlist": {
+  "stamp": "PREMARKET 8:05AM CT",
+  "em_label": "MARKS VS THURSDAY 9/17 CLOSE &mdash; TRIPLE WITCHING, AND ALPHABET IS THE WHOLE BULLISH SIDE",
+  "groups": [
+   [
+    "ALPHABET &mdash; THE ONLY KICKERS",
+    [
+     ["GOOGL", 347.33, 355.11],
+     ["GOOG", 343.68, 351.2]
+    ]
+   ],
+   [
+    "ETFs &middot; SPY/DIA EX-DIV",
+    [
+     ["QQQ", 716.92, 718.11],
+     ["SPY", 762.64, 760.28],
+     ["IWM", 285.43, 284.54],
+     ["GLD", 398.36, 400.19],
+     ["TLT", 81.78, 81.58],
+     ["USO", 155.31, 155.43]
+    ]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [
+     ["MU", 977.5, 981.5],
+     ["SNDK", 1614.39, 1620.0],
+     ["WDC", 423.87, 425.39],
+     ["STX", 803.13, 805.46],
+     ["AVGO", 347.3, 349.04],
+     ["TSM", 430.26, 428.1]
+    ]
+   ],
+   [
+    "THE ROTATION, RESTING",
+    [
+     ["SMCI", 40.35, 40.16],
+     ["HPE", 61.04, 60.92],
+     ["DELL", 588.4, 588.5],
+     ["INTC", 108.8, 110.03],
+     ["AMD", 545.09, 545.56],
+     ["NVDA", 219.34, 219.4]
+    ]
+   ],
+   [
+    "CRYPTO BID",
+    [
+     ["MSTR", 132.25, 136.58],
+     ["HOOD", 109.81, 112.11],
+     ["COIN", 173.97, 176.39]
+    ]
+   ],
+   [
+    "THE RED",
+    [
+     ["XENE", 57.35, 43.8],
+     ["NFLX", 75.31, 72.69],
+     ["NUE", 265.14, 259.0],
+     ["STLD", 245.35, 240.19],
+     ["ACN", 190.29, 187.25],
+     ["MCD", 248.48, 248.5]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "GOOGL",
+   "+2.24%",
+   "Bullish kicker &middot; reclaiming 349.50",
+   "Thursday was <b>both</b> a bullish kicker and a Failed 2U: it opened <b>348.68</b>, above Wednesday's <b>348.40</b> high, closed green &mdash; then made <b>349.50</b> and could not hold it. <b>349.50 is the whole trade.</b> Premarket is <b>355.11</b>, already through it, so the question is a regular-session hold, not a break. <b>Calls above 349.50 on a 30-minute close. It fails again below 343.89</b>, Thursday's low. Conference 9/22."
+  ],
+  [
+   "T2",
+   "g",
+   "MU",
+   "+0.41%",
+   "2U that held &middot; $3.1B bid behind it",
+   "The cleanest bar on the board. Thursday opened <b>954.57</b> above Wednesday's <b>941.20</b> high, took <b>986.20</b>, and <b>closed 977.50 &mdash; above the prior high</b>. A 2U that holds is the one that means it. <b>$3.1B cumulative dark pool, bid side</b>, and the largest sweep on the board is a <b>$1000C dated 10/02</b> &mdash; two days past the <b>9/30</b> print. <b>Above 986.20 it is clear air.</b> Structure breaks under 953.50."
+  ],
+  [
+   "T3",
+   "y",
+   "MCD",
+   "+0.01%",
+   "Inside (1) &middot; analyst day next week",
+   "A textbook inside bar &mdash; Thursday's <b>250.60/248.10</b> sits entirely inside Wednesday's <b>253.16/247.83</b> &mdash; and it is <b>dead flat</b> premarket at 248.50. <b>Inside days are not to be taken seriously until they break.</b> No trade here this morning. <b>Calls over 250.60, puts under 248.10</b>, and nothing in between. Analyst day is reported as <b>9/23</b> but the date is derived, not confirmed &mdash; verify before sizing to it."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; FRI 9/18 &middot; $50 RISK &middot; TRIPLE WITCHING",
+  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> $50 risk. <b>Targeted days, events, extreme volume and earnings.</b> Today has almost no earnings and one structural event: <b>the quarterly expiration</b>. Take intraday swings with expiration salt &mdash; and remember the two monster Wednesday tickets were aimed at today.",
+  "cards": [
+   [
+    "GOOGL",
+    "Kicker &middot; +2.24%",
+    "g",
+    "1",
+    "<b>The only bullish kicker on the entire board</b>, alongside GOOG &mdash; 64 prints between the two, <b>no bearish kickers anywhere</b>. Biggest morning print on the tape is <b>GOOGL $50M at the bid</b>.",
+    "<b>The level is 349.50</b>, Thursday's high, and premarket is already above it at 355.11. <b>Wait for a 30-minute close above it</b> rather than buying the gap &mdash; a Failed 2U that fails twice is a real short.",
+    "Thursday opened <b>348.68</b> above Wednesday's <b>348.40</b> high and closed green &mdash; that is the kicker. It then took <b>349.50</b> and closed <b>347.33</b>, below it &mdash; that is the Failed 2U. <b>Both are true on one bar.</b>",
+    "Conference <b>9/22</b>, four sessions out. The date came from the newsletter's wording, not a named event &mdash; treat it as a reason to be early, not a catalyst to trade.",
+    "On triple witching a gap through a level can be pinning rather than conviction. <b>The 30-minute close is what separates them.</b>"
+   ],
+   [
+    "MU",
+    "2U held &middot; +0.41%",
+    "g",
+    "1",
+    "Thursday <b>closed 977.50, above Wednesday's 941.20 high</b>. A 2 Up that closes beyond the prior high is the version that carries &mdash; and it gapped above the whole prior range to do it.",
+    "<b>Above 986.20 there is nothing overhead.</b> Structure fails under <b>953.50</b>, Thursday's low. Next week's expiry, not today's &mdash; do not buy decay into an expiration close.",
+    "<b>Tops cumulative dark pool at $3.1B on the bid</b>, and the board's largest sweep is a <b>$1000C expiring 10/02</b> &mdash; deliberately placed two days past the <b>9/30</b> earnings print.",
+    "This is the name the whole week's rotation is a bet on. <b>SMCI, HPE and DELL all ran Thursday with no catalyst of their own</b> &mdash; they were trading MU's story secondhand.",
+    "Eight sessions to the catalyst. <b>Size it as a swing, not a day trade</b>, and the expiration is a reason to wait for the afternoon rather than chase the open."
+   ],
+   [
+    "MCD",
+    "Inside (1) &middot; flat",
+    "y",
+    "2",
+    "Thursday's range <b>250.60/248.10</b> sits entirely inside Wednesday's <b>253.16/247.83</b>. Premarket <b>248.50</b>, unchanged to the penny.",
+    "<b>&#9733; No trade until it breaks.</b> Calls over <b>250.60</b>, puts under <b>248.10</b>. An inside day gives you both levels for free &mdash; the discipline is refusing the middle.",
+    "An inside bar is a coiled range, not a direction. <b>It is not to be taken seriously until it takes out the inside-day high or low.</b>",
+    "Analyst day reported <b>9/23</b>. <b>That date is derived from the newsletter's &ldquo;five days ahead&rdquo; phrasing, not stated</b> &mdash; it is in the catalyst file marked unverified.",
+    "It also carries $250k+ dark pool. Size behind a coiled inside day ahead of an event is the setup worth a reminder, not a position."
+   ],
+   [
+    "XOM",
+    "Failed 2D stack &middot; &minus;0.7%",
+    "b",
+    "2",
+    "<b>Six energy names are all Failed 2D</b> &mdash; XOM, CVX, OXY, DVN, BP, plus GS. XOM opened <b>161.83</b>, broke Wednesday's <b>162.56</b> low to <b>161.45</b>, then closed <b>163.27</b>, back above it.",
+    "<b>161.45 is the line.</b> Above it the failed break stands and the bounce has a floor; a close back under it says the sellers were right the first time.",
+    "<b>A Failed 2D is a bullish reversal</b> &mdash; new low, rejected, closed back inside. Six of six in one sector is not noise.",
+    "<b>And it happened while WTI fell to ~$100.70, &minus;1.7%</b>, with Trump signaling the Iran war nears an end. Structure and commodity are pointing opposite ways.",
+    "That divergence is the whole note. <b>Either crude stops falling and this stack is early, or the structure gives way</b> &mdash; a $6.5M XOM options block says someone has picked."
+   ],
+   [
+    "NFLX",
+    "Lone red gapper &middot; &minus;3.48%",
+    "r",
+    "3",
+    "<b>The only red name on the gapper board</b>, down 3.48% to 72.69 with a <b>$4.3M options trade</b> behind it. Wells Fargo cut it to <b>Underweight, $57 target</b>.",
+    "<b>No trade into an expiration Friday on a downgrade gap.</b> The level to mark is Thursday's low <b>75.30</b> &mdash; it is already well below, so the gap is the range until it fills or fails.",
+    "The bank's argument is engagement trends and a weaker 2H 2026 content slate feeding lower margin expansion in 2027 and 2028. <b>That is a 2027 thesis priced in one morning.</b>",
+    "<b>A $57 target against a 72.69 print is a 24% drawdown call.</b> Targets that far below spot usually mark sentiment, not a path.",
+    "Watch it, do not trade it. <b>Downgrade gaps on triple witching are the worst combination of thin conviction and forced flow.</b>"
+   ],
+   [
+    "SMCI",
+    "Led Thursday &middot; &minus;0.48%",
+    "g",
+    "3",
+    "<b>+9.50% Thursday &mdash; the actual leader of the hardware rotation</b>, ahead of ARM's +8.57% and HPE's +7.69%. It is being reported at +6.1% and third.",
+    "<b>Resting this morning, &minus;0.48%.</b> Thursday's high <b>41.01</b> is the level; it closed 40.35, inside its own range. Nothing to do until it clears 41.01.",
+    "Thursday was a 2U on 62.5M shares &mdash; roughly double the prior sessions' pace &mdash; closing at the top of a range that had been grinding lower all week.",
+    "<b>No company-specific catalyst</b>, same as HPE and DELL. It ran on the memory bid widening into the assemblers.",
+    "<b>3.2x average options volume with a $2.5M block.</b> The filter that called HPE Thursday is pointing here now &mdash; worth watching, not yet worth buying."
+   ],
+   [
+    "STX",
+    "$848M print &middot; +0.29%",
+    "b",
+    "3",
+    "<b>Thursday's largest single-name dark pool print: $848M at the mid, after hours.</b> Biggest since NVDA's $1.2B on Tuesday.",
+    "<b>Mid-side is interest, not direction.</b> No level trade off a print alone &mdash; Thursday's high <b>816.68</b> and low <b>783.01</b> bracket it. Premarket 805.46, in the middle.",
+    "Storage and memory wearing the crown again, and STX sits in the Failed 2U group on Thursday's candle &mdash; it made 816.68 and closed 803.13, well under.",
+    "<b>The stock is still 11% below its 9/08 close of 904.38.</b> Size arriving into a downtrend is a different message than size arriving into a breakout.",
+    "Pair the print with price before reading anything into it. Right now price says the sellers are still in control."
+   ],
+   [
+    "AMGN",
+    "$131.4M put block &middot; watch only",
+    "y",
+    "3",
+    "<b>The largest options ticket on either board: AMGN $460P 10/16/26 at $131.4M.</b> A floor put block, by a wide margin the biggest thing on the tape.",
+    "<b>No trade.</b> This is a note, not a setup &mdash; blocks this deep on a quiet mega-cap are institutional positioning or a hedge far more often than a directional call.",
+    "The honest read is that the size is the signal and the direction is not. A $131M put block can be an outright bearish bet or the other leg of something invisible.",
+    "It landed on a triple-witching eve, which is exactly when hedges get rolled rather than initiated. <b>October expiry, a month out.</b>",
+    "Worth knowing it exists so it is not a surprise if AMGN moves. <b>Not worth $50 of risk on a guess about which side it is.</b>"
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/15",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    ["&mdash;", "10-year touched <b>5.045%</b>, highest since <b>2007</b>"],
+    ["7:30a", "Empire State manufacturing"],
+    ["12:00p", "$13B 20-year auction"]
+   ],
+   "earnings": [
+    ["TCOM", "PM &middot; loss on RMB5.2B penalty"],
+    ["VRA", "AM &middot; +20.1%"],
+    ["FPS", "AM &middot; +9.3%"]
+   ],
+   "events": [
+    ["Senate", "FAILED", "<b>CLARITY Act</b> vote &mdash; COIN &minus;7.1%, HOOD &minus;3.4%"],
+    ["CRM", "Keynote", "Dreamforce &mdash; faded <b>&minus;1.46%</b>"],
+    ["NVDA", "$1.2B", "Largest single-name print of the week"]
+   ]
+  },
+  {
+   "day": "WED 9/16",
+   "tag": "DONE &middot; HIKED",
+   "accent": "done",
+   "econ": [
+    ["1:00p", "<b>FOMC hiked 25bp to 3.75&ndash;4.00%</b> &mdash; first since July 2023"],
+    ["1:30p", "<b>Warsh presser</b> &mdash; SPY 759.68 to 749.60 by 2:25"],
+    ["&mdash;", "Dots at <b>4.125%</b>. Warsh declined to submit one"]
+   ],
+   "earnings": [
+    ["LEN", "PM &middot; MISS $1.19 vs $1.28"],
+    ["LUXE", "AM &middot; +16.8%"],
+    ["ISPR", "AM"]
+   ],
+   "events": [
+    ["ON", "&minus;9.02%", "<b>Analyst Day</b> &mdash; all of it in the 1:30 bar"],
+    ["CRM", "$266.7M", "<b>Call block</b> &mdash; pointed at today's expiration"],
+    ["OSCR", "&minus;0.31%", "<b>Investor Day</b> &mdash; no volume, no move"]
+   ]
+  },
+  {
+   "day": "THU 9/17",
+   "tag": "DONE &middot; THE BOUNCE",
+   "accent": "done",
+   "econ": [
+    ["7:30a", "<b>Claims 196k</b> vs ~208k &middot; <b>Philly Fed 37.8</b> vs ~30"],
+    ["7:30a", "<b>Housing starts 1.275M</b> vs ~1.41M &mdash; a clean miss"],
+    ["&mdash;", "<b>S&amp;P +1.14%</b>, Nasdaq +1.69%, 10-year back under <b>5%</b>"]
+   ],
+   "earnings": [
+    ["CCL", "AM"],
+    ["&mdash;", "Six investor days &mdash; INTU, YETI, HUBS, ORLY"]
+   ],
+   "events": [
+    ["SMCI", "<b>+9.50%</b>", "<b>Led the rotation</b> &mdash; not HPE, which did +7.69%"],
+    ["ARM", "+8.57%", "Outran both, and went unmentioned everywhere"],
+    ["STX", "$848M", "<b>Largest single-name print</b>, mid, after hours"]
+   ]
+  },
+  {
+   "day": "FRI 9/18",
+   "tag": "TODAY &middot; TRIPLE WITCHING",
+   "accent": "next",
+   "econ": [
+    ["8:15a", "<b>Industrial production</b>"],
+    ["8:30a", "<b>Bowman</b> on stress testing"],
+    ["&mdash;", "<b>Quarterly expiration</b> &mdash; volume swells open and close"],
+    ["&mdash;", "<b>SPY and DIA ex-dividend</b> &mdash; $1.93 and $1.19"]
+   ],
+   "earnings": [
+    ["VFS", "AM &middot; small-cap slate only"],
+    ["TLSA", "AM"],
+    ["ENLV", "AM"]
+   ],
+   "events": [
+    ["GOOGL", "<b>KICKER</b>", "<b>Only bullish kickers on the board</b>, with GOOG. $50M bid"],
+    ["MCHP", "Meeting", "Shareholder meeting &middot; <b>$8M bid print</b>"],
+    ["PGR", "Sales", "Monthly sales release"]
+   ]
+  },
+  {
+   "day": "MON 9/21",
+   "tag": "NEXT WEEK BUILDS",
+   "accent": "macro",
+   "econ": [
+    ["Wed", "<b>Flash PMIs</b> 9/23"],
+    ["Thu", "Claims &middot; <b>new home sales</b> 9/24 &mdash; next housing read"],
+    ["Fri", "Durable goods &middot; final Michigan 9/25"]
+   ],
+   "earnings": [
+    ["COST", "<b>9/24</b> &middot; confirmed"],
+    ["AZO", "9/22 &middot; unconfirmed"],
+    ["KBH", "9/23 &middot; <b>the homebuilder read</b>"],
+    ["DRI", "9/24 &middot; unconfirmed"],
+    ["GIS", "9/23 &middot; unconfirmed"]
+   ],
+   "events": [
+    ["MU", "<b>9/30</b>", "<b>The memory trade's real test</b> &mdash; $3.1B bid into it"],
+    ["QCOM", "9/22", "Snapdragon Summit, runs 9/22&ndash;24"],
+    ["MCD", "9/23", "Analyst day &mdash; <b>date derived, unverified</b>"]
+   ]
+  }
+ ],
+ "charts": [
+  ["GOOGL", "charts/GOOGL_2026-09-18.png", "Bullish kicker &middot; 349.50 is the level"],
+  ["MU", "charts/MU_2026-09-18.png", "2U that held &middot; $3.1B bid, reports 9/30"],
+  ["MCD", "charts/MCD_2026-09-18.png", "Inside (1) &middot; 250.60 up / 248.10 down"],
+  ["SMCI", "charts/SMCI_2026-09-18.png", "+9.50% &middot; actually led Thursday"],
+  ["NFLX", "charts/NFLX_2026-09-18.png", "&minus;3.48% &middot; Wells Fargo to $57"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:05AM CT",
+  "groups": [
+   [
+    "ALPHABET &mdash; THE ONLY KICKERS",
+    [["GOOGL", 2.24], ["GOOG", 2.19]]
+   ],
+   [
+    "CRYPTO BID",
+    [["MSTR", 3.27], ["HOOD", 2.09], ["COIN", 1.39]]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [["INTC", 1.13], ["AVGO", 0.5], ["MU", 0.41], ["WDC", 0.36], ["SNDK", 0.35], ["STX", 0.29], ["TSM", -0.5]]
+   ],
+   [
+    "MEGA CAP",
+    [["META", 1.27], ["TSLA", 0.39], ["AMZN", 0.35], ["AAPL", 0.06], ["NVDA", 0.03], ["MSFT", -0.03]]
+   ],
+   [
+    "THE ROTATION, RESTING",
+    [["AMD", 0.09], ["DELL", 0.02], ["HPE", -0.2], ["SMCI", -0.48]]
+   ],
+   [
+    "THE RED",
+    [["XENE", -23.63], ["NFLX", -3.48], ["NUE", -2.32], ["STLD", -2.1], ["ACN", -1.6]]
+   ],
+   [
+    "RATES &amp; METALS",
+    [["GLD", 0.46], ["USO", 0.08], ["TLT", -0.24]]
+   ],
+   [
+    "THE INDEX &middot; SPY/DIA EX-DIV",
+    [["QQQ", 0.17], ["SPY", -0.06], ["IWM", -0.31], ["DIA", -0.34]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "THURSDAY 9/17 CLOSE &amp; CANDLE &middot; TRIPLE WITCHING FRIDAY",
+  "rows": [
+   [
+    "GOOGL",
+    "T1",
+    "g",
+    "Bullish kicker AND Failed 2U",
+    "g",
+    "Opened <b>348.68</b> above Wednesday's <b>348.40</b> high and closed green &mdash; a bullish kicker. Then made <b>349.50</b> and closed <b>347.33</b>, under it &mdash; a Failed 2U. <b>One bar, both readings, and they disagree.</b>",
+    "Thu close <b>347.33</b> &middot; <b>+1.30%</b> &middot; pre <b>355.11</b>, +2.24%",
+    "<b>The only bullish kickers on the board with GOOG</b> &mdash; 64 prints between them, no bearish kickers at all.",
+    "The kicker says buyers gapped it above the prior range and defended. The Failed 2U says they could not finish. <b>349.50 settles it.</b>"
+   ],
+   [
+    "MU",
+    "T1",
+    "g",
+    "2U that closed above the prior high",
+    "g",
+    "Opened <b>954.57</b> above Wednesday's <b>941.20</b> high, took <b>986.20</b>, closed <b>977.50</b> &mdash; <b>above</b> the prior high. That is the version of a 2 Up that carries rather than fades.",
+    "Thu close <b>977.50</b> &middot; <b>+5.50%</b> &middot; pre <b>981.50</b>, +0.41%",
+    "<b>$3.1B cumulative dark pool on the bid</b>, and the largest sweep on the board is a <b>$1000C dated 10/02</b> &mdash; past the 9/30 print.",
+    "Flow, structure and catalyst all pointing the same direction on one name is rare. The catalyst is eight sessions out, which is the only reason to be patient."
+   ],
+   [
+    "SMCI",
+    "T1",
+    "g",
+    "The rotation's real leader",
+    "g",
+    "Closed <b>40.35</b>, <b>+9.50%</b>, on <b>62.5M shares</b> &mdash; roughly double the week's pace. <b>It led the hardware complex</b>, ahead of ARM +8.57% and HPE +7.69%.",
+    "Thu close <b>40.35</b> &middot; <b>+9.50%</b> &middot; pre <b>40.16</b>, &minus;0.48%",
+    "<b>Reported everywhere as +6.1% and third.</b> Against settled closes it was first, and by nearly a point and a half.",
+    "<b>3.2x average options volume with a $2.5M block</b> &mdash; the same filter shape that flagged HPE the morning before its own 8% day."
+   ],
+   [
+    "XOM",
+    "T2",
+    "b",
+    "Failed 2D, six-for-six in energy",
+    "b",
+    "Opened <b>161.83</b>, broke Wednesday's <b>162.56</b> low down to <b>161.45</b>, then closed <b>163.27</b> &mdash; <b>back above the level it broke</b>. XOM, CVX, OXY, DVN, BP and GS all printed the same shape.",
+    "Thu close <b>163.27</b> &middot; <b>&minus;0.03%</b> &middot; pre <b>&minus;0.7%</b>",
+    "<b>A Failed 2D is a bullish reversal</b>, and it happened while <b>WTI fell 1.7% to ~$100.70</b> on Iran de-escalation.",
+    "Six names, one sector, same bar, against the commodity. <b>Either the stack is early or the structure is about to give way</b> &mdash; a $6.5M XOM block says someone chose."
+   ],
+   [
+    "MCD",
+    "T2",
+    "y",
+    "Inside (1) into an analyst day",
+    "y",
+    "Thursday's <b>250.60/248.10</b> sits entirely inside Wednesday's <b>253.16/247.83</b>. Premarket <b>248.50</b>, unchanged. <b>A coiled range with both levels handed to you.</b>",
+    "Thu close <b>248.48</b> &middot; <b>&minus;0.03%</b> &middot; pre <b>248.50</b>, +0.01%",
+    "Carries $250k+ dark pool into an analyst day reported as <b>9/23</b> &mdash; <b>a date derived from wording, not confirmed</b>.",
+    "<b>Inside days are not actionable until they break.</b> Over 250.60 or under 248.10, and nothing in the middle."
+   ],
+   [
+    "NFLX",
+    "T3",
+    "r",
+    "The board's lone red gapper",
+    "r",
+    "Closed <b>75.30</b> at the low of its day, then Wells Fargo cut it to <b>Underweight with a $57 target</b> &mdash; a <b>24% drawdown call</b> against this morning's 72.69.",
+    "Thu close <b>75.31</b> &middot; <b>&minus;0.53%</b> &middot; pre <b>72.69</b>, &minus;3.48%",
+    "<b>$4.3M options trade</b> behind it. The thesis is engagement trends and a thin 2H 2026 slate compressing 2027&ndash;28 margins.",
+    "A 2027 argument repriced in one premarket, on an expiration Friday. <b>Watch it; the combination of a downgrade gap and forced flow is the worst tape to trade.</b>"
+   ],
+   [
+    "STX",
+    "T3",
+    "y",
+    "$848M print, still under its highs",
+    "y",
+    "Made <b>816.68</b> and closed <b>803.13</b> &mdash; a Failed 2U &mdash; then took the board's <b>largest single-name print at $848M, mid, after hours</b>.",
+    "Thu close <b>803.13</b> &middot; <b>+2.55%</b> &middot; pre <b>805.46</b>, +0.29%",
+    "<b>Mid is interest, not direction.</b> And the stock is still <b>11% below its 9/08 close of 904.38</b>.",
+    "Size arriving into a downtrend reads differently than size arriving into a breakout. <b>Pair the print with price before reading a lean into it.</b>"
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "MSTR",
+    3.27,
+    "Bitcoin back through <b>$78,000</b>, +2%. The whole crypto complex is bid with it."
+   ],
+   [
+    "MTSI",
+    2.61,
+    "<b>BMO to Outperform, $335 target</b> &mdash; valuation attractive after a 35%+ decline from 2026 highs while data-center, industrial and defense fundamentals held. <b>Spread is wide premarket; treat the print as indicative.</b>"
+   ],
+   [
+    "CAVA",
+    2.52,
+    "Authorized a <b>$100M buyback</b> running through September 2027."
+   ],
+   [
+    "BABA",
+    2.4,
+    "Up into its shareholder meeting four sessions out, with a <b>$9M bid print</b> this morning."
+   ],
+   [
+    "GOOGL",
+    2.24,
+    "<b>The only bullish kicker on the board with GOOG</b> &mdash; 64 prints between them, zero bearish kickers, and the morning's biggest print at <b>$50M on the bid</b>."
+   ],
+   [
+    "HOOD",
+    2.09,
+    "Inside (1) on Thursday's candle with a flame, riding the crypto bid."
+   ],
+   [
+    "NOK",
+    2.1,
+    "<b>$9M bid print</b> on 818k shares on the scanner &mdash; still working the Microsoft Fabric integration announced Thursday."
+   ],
+   [
+    "CRCL",
+    2.2,
+    "Inside (1) with dark pool behind it, moving with the crypto complex."
+   ],
+   [
+    "LITE",
+    2.0,
+    "Failed 2U on Thursday's candle, gapping with the optical and AI-interconnect names."
+   ],
+   [
+    "JOBY",
+    1.9,
+    "Failed 2U with dark pool flow, up with the high-beta complex."
+   ],
+   [
+    "NHIC",
+    5.0,
+    "Shareholders approved the <b>newcleo</b> business combination; closing anticipated <b>Sept 21</b>, Nasdaq trading expected <b>Sept 22</b>."
+   ],
+   [
+    "BWMX",
+    4.9,
+    "Disclosed insider purchases totaling about <b>$2.3M</b> by the CEO, chairman and a director."
+   ],
+   [
+    "INTA",
+    4.1,
+    "Launched a Celeste plug-in for <b>ChatGPT Enterprise</b>, bringing governed AI tools into law firms' OpenAI workflows."
+   ],
+   [
+    "MG",
+    3.9,
+    "Agreed to be acquired by <b>H.I.G. Capital at $20.35/share</b> cash, valuing the deal at <b>$866M</b>."
+   ],
+   [
+    "FWDI",
+    5.5,
+    "Shareholder meeting today."
+   ],
+   [
+    "RTB",
+    3.1,
+    "Agreed to acquire <b>49.5% of Paradium.AI</b> at $3.80/share and enter a 10-year platform agreement."
+   ],
+   [
+    "TMCI",
+    3.1,
+    "Five-year Lapiplasty study data showing low recurrence and sustained patient-reported improvement."
+   ],
+   [
+    "STXS",
+    3.1,
+    "Presenting at a conference today."
+   ],
+   [
+    "USAS",
+    2.4,
+    "High-grade silver-copper-lead-antimony drill results and new vein discoveries at the Galena Complex."
+   ],
+   [
+    "META",
+    1.27,
+    "<b>Six-month high</b> with a <b>$4.5M options trade</b> and its dividend three sessions out."
+   ],
+   [
+    "SNDK",
+    1.5,
+    "Flame on the board &mdash; the memory-and-storage cluster has not left."
+   ],
+   [
+    "INTC",
+    1.13,
+    "Reportedly in exploratory talks with <b>SK hynix</b> over potential US chip production. Took a <b>$201M bid print</b> Thursday night."
+   ],
+   [
+    "COHR",
+    1.6,
+    "Expanded its optical portfolio with a full C-band amplifier for <b>800G AI datacenter</b> networks, shipping in volume."
+   ],
+   [
+    "SKHY",
+    1.0,
+    "Launched <b>SK hynix Ventures</b> to expand investments across AI computing and data-center infrastructure."
+   ],
+   [
+    "MU",
+    0.41,
+    "<b>Tops cumulative dark pool at $3.1B, bid.</b> The board's largest sweep is a $1000C dated 10/02 &mdash; two days past the <b>9/30</b> print."
+   ],
+   [
+    "INCY",
+    1.5,
+    "Positive <b>CHMP opinion</b> for Povofortay in active moderate-to-severe hidradenitis suppurativa."
+   ],
+   [
+    "BUR",
+    1.5,
+    "Closed a <b>$300M</b> debt raise, enabling early redemption of $400M notes and cutting total debt by $100M."
+   ],
+   [
+    "MOD",
+    1.5,
+    "Set <b>Sept 28</b> as record date for the Performance Technologies spin-off and Gentherm merger, expected to close Oct 1."
+   ],
+   [
+    "AZN",
+    1.1,
+    "<b>FDA Priority Review</b> for efzimfotase alfa in hypophosphatasia; decision expected first-half 2027."
+   ],
+   [
+    "ARM",
+    0.8,
+    "<b>+8.57% Thursday</b> &mdash; outran HPE and DELL and was not mentioned in a single rotation writeup."
+   ]
+  ],
+  "bear": [
+   [
+    "XENE",
+    -23.63,
+    "<b>Paused new-patient enrollment</b> in its major and bipolar depression studies after neuropsychiatric adverse events. X-NOVA2 data now expected <b>Q1 2027</b>. Deutsche Bank cut to Hold, $46."
+   ],
+   [
+    "FRO",
+    -6.0,
+    "Dividend today &mdash; <b>ex-date math is doing part of that gap.</b> Also a Failed 2U on Thursday's candle."
+   ],
+   [
+    "CDIO",
+    -6.4,
+    "Shareholder meeting today."
+   ],
+   [
+    "SBSW",
+    -3.9,
+    "Ex-dividend today."
+   ],
+   [
+    "NFLX",
+    -3.48,
+    "<b>Wells Fargo to Underweight, $57 target</b> &mdash; engagement trends and a weaker 2H 2026 content slate feeding lower margin expansion in 2027&ndash;28. <b>$4.3M options trade</b> behind it. The board's <b>only</b> red gapper."
+   ],
+   [
+    "NUE",
+    -2.32,
+    "Q3 guidance below FactSet consensus. Mills and steel products up; <b>raw materials expected down</b>."
+   ],
+   [
+    "STLD",
+    -2.1,
+    "Q3 guidance also below consensus. <b>Both steel names guided soft on the same night.</b>"
+   ],
+   [
+    "BBNX",
+    -2.0,
+    "Closed a <b>$172.5M</b> public offering of shares and pre-funded warrants, including the underwriters' full option."
+   ],
+   [
+    "ACN",
+    -1.6,
+    "<b>Guggenheim to Neutral from Buy.</b>"
+   ],
+   [
+    "EWJ",
+    -1.6,
+    "<b>Bank of Japan raised its policy rate to 1.25%</b> and signaled further tightening."
+   ],
+   [
+    "HLN",
+    -1.5,
+    "Outside (3) on Thursday's candle."
+   ],
+   [
+    "TTE",
+    -1.5,
+    "Trading lower with crude futures &mdash; <b>WTI ~$100.70, &minus;1.7%</b>."
+   ],
+   [
+    "NKE",
+    -1.4,
+    "Outside (3) with an earnings catalyst tag. Closed <b>+1.62%</b> Thursday on 45.5M shares."
+   ],
+   [
+    "ARRY",
+    -1.0,
+    "<b>UBS to Neutral from Buy</b>, $5 target."
+   ],
+   [
+    "FBRT",
+    -1.0,
+    "<b>BTIG to Neutral from Buy.</b>"
+   ],
+   [
+    "MGA",
+    -1.0,
+    "<b>BMO to Market Perform from Outperform</b>, $70 target."
+   ],
+   [
+    "XOM",
+    -0.7,
+    "Failed 2D on Thursday's candle with a <b>$6.5M options block</b>, one of six energy names in the same shape."
+   ],
+   [
+    "CVX",
+    -0.6,
+    "Failed 2D, carrying its own options trade."
+   ],
+   [
+    "TSM",
+    -0.5,
+    "Took a <b>$624M ask-side print</b> Thursday night &mdash; second-largest on the board &mdash; and is red anyway."
+   ],
+   [
+    "SMCI",
+    -0.48,
+    "Resting after <b>+9.50%</b>. Thursday's high <b>41.01</b> is the level."
+   ],
+   [
+    "OXY",
+    -0.4,
+    "Failed 2D with an options trade attached."
+   ],
+   [
+    "DVN",
+    -0.4,
+    "Failed 2D &mdash; the sixth energy name in the stack."
+   ],
+   [
+    "HPE",
+    -0.2,
+    "Gives back nothing after <b>+7.69%</b>. The Options Above Average filter had it at <b>16.1x</b> with a 77% bullish lean the morning before, with nothing on its calendar but a dividend."
+   ],
+   [
+    "CRWV",
+    -0.23,
+    "<b>&minus;4.16% Thursday</b> on a $3B convertible offering."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>The single-name tape woke back up on the bounce.</b> Thursday's largest ex-ETF print was <b>STX $848M at the mid, after hours</b> &mdash; the biggest single name since NVDA's $1.2B on Tuesday, and storage-and-memory wearing the crown again with <b>TSM $624M (ask)</b> right behind it. <b>The sides are two-way for the first time this week:</b> Wednesday's top ten contained not a single ask-side print; Thursday brought the ask back in TSM and BE, with three at the bid and half the board mixed. <b>Cumulative flow is the memory trade in miniature &mdash; MU $3.1B (bid) on top, into its own 9/30 earnings, then NVDA $3.0B (ask) and AVGO $2.1B (bid).</b> Sit with that: the two biggest cumulative names landed on opposite sides. <b>A side is a lean, not a verdict, so pair it with price.</b> On the ETF board the trackers topped the tape again &mdash; <b>SPY $1.1B (ask)</b> was the largest print anywhere, the <b>ninth straight session</b> an S&amp;P tracker has led, with <b>VOO $973M</b> and <b>IVV $972M</b> stacked behind it and <b>all three at the ask</b>. <b>That is the flip worth naming:</b> Wednesday's IVV and VOO printed at the bid into the decision, Thursday's printed at the ask into the bounce. Mid-caps came through <b>IJH $428M</b> and international through <b>VXUS $342M</b>.",
+  "right_note": "This morning's tape: <b>GOOGL $50M at the bid</b>, the biggest early print by a wide margin, landing the same morning both Alphabet classes own the only bullish-kicker view on the board. Behind it <b>LYB $40M</b>, <b>TXN $29M (bid)</b> and <b>MDT $28M (ask)</b> &mdash; Medtronic again, after a $198M bid print Wednesday night. <b>Largest block on either board: AMGN $460P 10/16/26 at $131.4M.</b> A floor put block, and the honest read is that the size is the signal and the direction is not.",
+  "dim": false,
+  "chips": [
+   ["STX", "$848M", "mixed, AH &middot; top of board", "y"],
+   ["TSM", "$624M", "ask, AH", "g"],
+   ["AVGO", "$451M", "bid, AH", "r"],
+   ["MELI", "$350M", "mixed, AH", "y"],
+   ["BE", "$299M", "ask, AH", "g"],
+   ["NTRA", "$251M", "mixed, AH", "y"],
+   ["NU", "$240M", "mixed, AH", "y"],
+   ["CRM", "$204M", "mixed, AH", "y"],
+   ["NVDA", "$202M", "bid, AH", "r"],
+   ["INTC", "$201M", "bid, AH", "r"],
+   ["SPY", "$1.1B", "ask &middot; 9th straight", "g"],
+   ["VOO", "$973M", "ask, AH", "g"],
+   ["IVV", "$972M", "ask, AH", "g"],
+   ["IJH", "$428M", "mixed &middot; mid-caps", "y"],
+   ["VXUS", "$342M", "mixed, PRE", "y"],
+   ["MU", "$3.1B", "cumulative bid", "r"],
+   ["NVDA", "$3.0B", "cumulative ask", "g"],
+   ["AVGO", "$2.1B", "cumulative bid", "r"],
+   ["GOOGL", "$50M", "bid, PRE &middot; morning #1", "r"],
+   ["LYB", "$40M", "mixed, PRE", "y"],
+   ["TXN", "$29M", "bid, PRE", "r"],
+   ["MDT", "$28M", "ask, PRE", "g"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Friday September eighteenth, premarket. Triple witching, and the board has one clear favorite. Both classes of Alphabet are the only bullish kickers on it. Google up two point two four percent, sixty four prints between the two classes, and zero bearish kickers anywhere. The biggest print of the morning is fifty million dollars of Google at the bid. Thursday answered the hike with a bounce. S and P up one point one four percent, Nasdaq up one point six nine, ten year back under five. Three things. First, the rotation leaderboard is being reported backwards. Super Micro closed up nine point five zero percent Thursday, Arm up eight point five seven, H P E up seven point six nine. Super Micro led, not H P E, and Arm outran both without a single mention. None of them had a catalyst of their own. Second, Micron is the cleanest bar on the board. It gapped above Wednesday's high, took nine eighty six twenty, and closed above the prior high at nine seventy seven fifty. It tops cumulative dark pool at three point one billion on the bid, and the largest sweep on the board is a thousand strike call dated October second, two days past its September thirtieth earnings. Third, watch the index math today. S P Y and D I A both go ex dividend, a dollar ninety three and a dollar nineteen. S P Y looks down three tenths of a percent but is down six hundredths against the adjusted close. That gap is the dividend, not selling."
+  }
+ ]
+}

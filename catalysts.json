@@ -414,6 +414,86 @@
    "note": "September sales. Sept 2025 sales landed Oct 8. Confirm at investor.costco.com in the final week of Sept. flagged_huge.",
    "source": "catalysts.json recurring_patterns",
    "verified": false
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron",
+   "type": "earnings_call",
+   "date": "2026-09-30",
+   "time_ct": "after close",
+   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": true
+  },
+  {
+   "ticker": "AZO",
+   "name": "AutoZone",
+   "type": "earnings_call",
+   "date": "2026-09-22",
+   "time_ct": "before the open",
+   "note": "Fiscal Q4. Named in the 9/18 Look Ahead as next week earnings gravity. Time of day not stated - AZO historically reports before the open. CONFIRM the date at azoneinc.com before trading it.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "DRI",
+   "name": "Darden Restaurants",
+   "type": "earnings_call",
+   "date": "2026-09-24",
+   "time_ct": "before the open",
+   "note": "Fiscal Q1. Named in the 9/18 Look Ahead. Exact date/time not stated by the source - CONFIRM at darden.com.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "KBH",
+   "name": "KB Home",
+   "type": "earnings_call",
+   "date": "2026-09-23",
+   "time_ct": "after close",
+   "note": "The next homebuilder read after LEN missed 9/16 ($1.19 vs $1.28, FY26 deliveries cut to 80-81k) and August housing starts came in at 1.275M against ~1.41M expected. Two independent housing datapoints already negative into it. Exact date not stated by the source - CONFIRM at kbhome.com.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "GIS",
+   "name": "General Mills",
+   "type": "earnings_call",
+   "date": "2026-09-23",
+   "time_ct": "before the open",
+   "note": "Fiscal Q1. Named in the 9/18 Look Ahead. Exact date not stated by the source - CONFIRM at generalmills.com.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "MCD",
+   "name": "McDonalds",
+   "type": "analyst_day",
+   "date": "2026-09-23",
+   "time_ct": null,
+   "note": "DATE DERIVED, NOT STATED: the 9/18 newsletter said MCD \"sits in Inside (1) five days ahead of its analyst day\", and 9/18 + 5 = 9/23. MCD printed a clean inside bar 9/17 (H 250.60 / L 248.10 inside 9/16 H 253.16 / L 247.83) and is flat premarket 9/18. Per the inside-day rule it is not actionable until it breaks 250.60 or 248.10. CONFIRM the date at corporate.mcdonalds.com/investors before sizing anything to it.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "type": "conference",
+   "date": "2026-09-22",
+   "time_ct": null,
+   "note": "DATE DERIVED, NOT STATED: the 9/18 newsletter said both Alphabet classes carry a \"conference four days out\"; 9/18 + 4 = 9/22. It did not name the conference. Landing the same morning GOOGL/GOOG were the ONLY bullish kickers on the board (64 prints between them, zero bearish kickers) with a $50M bid print premarket. CONFIRM which event this is before trading the date.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "type": "dividend",
+   "date": "2026-09-21",
+   "time_ct": null,
+   "note": "DATE DERIVED: newsletter 9/18 said META dividend \"three days out\". META at a six-month high premarket 9/18 (+1.5%) with a $4.5M options trade. CONFIRM ex-date.",
+   "source": "FlowMS morning newsletter 2026-09-18",
+   "verified": false
   }
  ],
  "universe": {
