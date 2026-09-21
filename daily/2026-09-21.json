@@ -1,0 +1,662 @@
+{
+ "title": "Premarket &middot; Monday 9/21",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>Crypto took the weekend and did not give it back.</b> Bitcoin printed <b>$85,229.44</b>, a level not seen since <b>January 29</b>, and the equity proxies are moving with it: <b>MSTR +7.19%</b>, <b>HOOD +5.32%</b>, <b>COIN +5.18%</b> &mdash; on top of Friday's <b>+16.39%</b>, <b>+9.12%</b> and <b>+11.66%</b>. Futures are firmly bid: <b>S&amp;P +0.7%</b> above fair value, <b>Nasdaq 100 +1.1%</b>, <b>Dow +0.9%</b>.",
+  "summary": "<b>The bid is being paid for by oil and bonds, and the oil half does not add up on the headlines alone.</b> <b>WTI &minus;2.7% to $97.59</b>, through $100 to the downside &mdash; on a weekend when <b>the Houthis attacked Riyadh</b>. Crude falling into a strike on the Saudi capital only makes sense next to the other number: <b>Saudi Arabia moved nearly 3.0M barrels a day through the Strait of Hormuz over the last six days</b>, and Trump is signalling he will meet Iran's president at this week's UN General Assembly. <b>The market is pricing the diplomacy, not the missiles.</b> Yields came with it &mdash; <b>2-year &minus;3bp to 4.71%</b>, <b>10-year &minus;5bp to 4.95%</b>. <b>There is no US economic data at all today</b>, which leaves the tape to positioning ahead of <b>Trump&ndash;Xi on 9/24</b>."
+ },
+ "overview": "<b>Friday settled three things this book called.</b> <b>MU cleared 986.20 and closed 1,015.80, +3.92%</b> &mdash; through $1,000 for the first time, on the way to <b>9/30</b> earnings. <b>GOOGL pinned</b>: it gapped to 357.31, faded all day, and closed <b>349.54</b> against the <b>349.50</b> level named here that morning &mdash; four cents. Triple-witching pinning, which is why the note said wait for the 30-minute close rather than buy the gap. <b>MCD never broke</b> &mdash; 250.45 high, 247.65 low, closed 248.24 back inside. No trade, correctly.<br><br><b>And one it got wrong.</b> This book read STX's <b>$848M mid-side print</b> against a downtrend and wrote that <b>&ldquo;price says the sellers are still in control.&rdquo;</b> STX closed Friday <b>+6.93%</b> and is <b>+3.26%</b> again this morning at <b>886.80</b>. <b>Mid is interest, not direction &mdash; and then a direction got read into it anyway.</b> The print was the tell.<br><br><b>Crypto is the trend.</b> Regulators cleared a path for tokenized stocks last week; COIN has now run <b>+11.66%</b> then <b>+5.18%</b> premarket.<br><br><b>ACN cuts both ways.</b> Down <b>4.73%</b> Friday on the Guggenheim cut, then <b>+4.34%</b> this morning on an <b>Anthropic partnership &mdash; at least $1B each over five years</b> on embedded AI safety evaluators.<br><br><b>Also moving:</b> <b>WBD +7.23%</b> and <b>PSKY +6.17%</b> on settlement talks over the <b>$81B</b> deal. <b>CIEN +6.04%</b>, Evercore to Outperform, <b>$550</b>. <b>NVO &minus;4.30%</b> &mdash; 2030 targets underwhelmed and GLP-1 vision-loss suits landed. <b>HPQ &minus;4.59%</b> on 2027 PC declines and withheld guidance.",
+ "watchlist": {
+  "stamp": "PREMARKET 8:00AM CT",
+  "em_label": "MARKS VS FRIDAY 9/18 CLOSE &mdash; CRYPTO LED FRIDAY AND IS LEADING AGAIN",
+  "groups": [
+   [
+    "CRYPTO &mdash; BTC $85,229",
+    [
+     ["MSTR", 153.92, 164.99],
+     ["HOOD", 119.82, 126.19],
+     ["COIN", 194.25, 204.31]
+    ]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [
+     ["MU", 1015.8, 1035.75],
+     ["STX", 858.79, 886.8],
+     ["SMCI", 39.09, 40.48],
+     ["NVDA", 222.27, 223.8]
+    ]
+   ],
+   [
+    "ETFs &middot; QQQ EX-DIV",
+    [
+     ["QQQ", 721.45, 728.18],
+     ["SPY", 761.69, 766.64],
+     ["IWM", 284.1, 286.3],
+     ["TLT", 81.25, 81.7],
+     ["GLD", 401.17, 399.49],
+     ["USO", 153.82, 150.43]
+    ]
+   ],
+   [
+    "MEGA CAP &middot; META EX-DIV",
+    [
+     ["META", 665.75, 680.8],
+     ["TSLA", 364.27, 369.08],
+     ["AMZN", 253.71, 255.12],
+     ["GOOGL", 349.54, 351.3],
+     ["MSFT", 493.78, 495.69],
+     ["AAPL", 336.13, 336.26]
+    ]
+   ],
+   [
+    "THE NEWS GAPS",
+    [
+     ["WBD", 27.8, 29.81],
+     ["CIEN", 348.8, 369.87],
+     ["PSKY", 10.21, 10.84],
+     ["ACN", 181.29, 189.15],
+     ["NBIS", 223.54, 227.48]
+    ]
+   ],
+   [
+    "THE RED",
+    [
+     ["HPQ", 34.4, 32.82],
+     ["NVO", 43.24, 41.38],
+     ["XOM", 163.54, 161.84],
+     ["NFLX", 71.79, 71.7]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "COIN",
+   "+5.18%",
+   "Kicker &middot; 2U that held &middot; 196.21",
+   "Friday opened <b>178.16</b>, above Thursday's <b>174.22</b> high, and closed <b>194.25</b> &mdash; a bullish kicker and a 2 Up that closed above the prior high, the version that carries. <b>Bitcoin at $85,229 is the highest since January 29</b>, and regulators cleared a path for tokenized stocks last week. <b>The level is 196.21</b>, Friday's high; premarket <b>204.31</b> is already through it. <b>It is extended &mdash; want the pullback that holds 196.21, not the gap.</b>"
+  ],
+  [
+   "T2",
+   "g",
+   "ACN",
+   "+4.34%",
+   "2D reversing &middot; the gap-fill is 189.48",
+   "Friday was a clean <b>2 Down</b> &mdash; broke Thursday's <b>188.90</b> low to <b>180.70</b> and closed <b>181.29</b>, near the low, on the Guggenheim cut. This morning an <b>Anthropic partnership</b> reverses it: <b>at least $1B each over five years</b> on embedded AI safety evaluators. Premarket <b>189.15</b> sits just under Friday's <b>189.48</b> high. <b>Through 189.48 the whole down bar fails.</b> Below 180.70 the news did not matter."
+  ],
+  [
+   "T3",
+   "y",
+   "SMCI",
+   "+3.55%",
+   "Inside (1) breaking up &middot; 40.41",
+   "Friday printed an <b>inside bar</b> &mdash; <b>40.41/38.32</b> entirely inside Thursday's <b>41.01/37.82</b> &mdash; after Thursday's <b>+9.50%</b> led the whole hardware complex. Premarket <b>40.48</b> is <b>just above the inside-day high</b>. <b>That is the trigger: 40.41 up, 38.32 down, nothing between.</b> The prior note said wait for 41.01; the inside bar moved the line nearer. <b>Wants a 30-minute close above 40.41 to be real.</b>"
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; MON 9/21 &middot; $50 RISK &middot; NO DATA TODAY",
+  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> $50 risk. <b>Targeted days, events, extreme volume and earnings.</b> <b>There is no US economic data of note today</b> &mdash; the week's weight is Wednesday's flash PMIs and <b>Trump&ndash;Xi Thursday 9/24</b>, alongside COST. Today is a positioning day, and the positioning is crypto and memory.",
+  "cards": [
+   [
+    "COIN",
+    "Kicker &middot; +5.18%",
+    "g",
+    "1",
+    "Friday gapped above Thursday's <b>174.22</b> high and closed <b>194.25</b>, <b>+11.66%</b> &mdash; a bullish kicker AND a 2U closing above the prior high. Premarket <b>204.31</b>.",
+    "<b>196.21 is Friday's high and the line.</b> It is already above it, so this is not an entry &mdash; <b>want a pullback that holds 196.21</b>. Buying a 5% premarket gap on a name that ran 11.66% Friday is paying for someone else's move.",
+    "<b>Bitcoin $85,229.44, the highest since January 29.</b> The whole complex confirms: MSTR +16.39% Friday and +7.19% now, HOOD +9.12% then +5.32%.",
+    "Regulators <b>cleared a path for tokenized stocks</b> last week &mdash; that is what started this, and it is a structural change to COIN's business, not a sentiment swing.",
+    "Three green sessions into a vertical premarket. <b>The risk is not that the trend is wrong, it is the entry price.</b> Let it come to the level."
+   ],
+   [
+    "ACN",
+    "Anthropic deal &middot; +4.34%",
+    "g",
+    "1",
+    "Down <b>4.73%</b> Friday on Guggenheim's cut to Neutral &mdash; a clean 2D closing at <b>181.29</b>, near the low. Premarket <b>189.15</b>, all of it back.",
+    "<b>189.48 is Friday's high.</b> Through it, the entire down bar is void and the downgrade is a non-event. <b>Under 180.70 the partnership did not matter.</b> Two clean levels, one bar apart.",
+    "<b>Partnership with Anthropic on embedded AI safety evaluators</b>, with <b>at least $1B invested by each side over five years</b> and a dedicated ACN team on AI, security and industry expertise.",
+    "Truist's read is that this opens an <b>independent third-party AI evaluation</b> market. That is a new revenue line, not a press release &mdash; which is why it outweighed a downgrade in one session.",
+    "<b>This is the cleanest catalyst on the board today</b>, and it is the only one where the level and the news point the same way with a defined failure point beneath."
+   ],
+   [
+    "SMCI",
+    "Inside (1) &middot; +3.55%",
+    "y",
+    "2",
+    "Friday's <b>40.41/38.32</b> sits entirely inside Thursday's <b>41.01/37.82</b>. Premarket <b>40.48</b> &mdash; <b>just through the inside-day high</b>.",
+    "<b>&#9733; 40.41 up, 38.32 down, nothing in between.</b> An inside day hands you both levels. <b>Wants a 30-minute close above 40.41</b>, not a premarket tick through it.",
+    "It led the whole hardware complex Thursday at <b>+9.50%</b> &mdash; ahead of ARM +8.57% and HPE +7.69% &mdash; then coiled instead of giving it back. <b>Coiling after a leader's move is continuation behaviour.</b>",
+    "Still <b>no company-specific catalyst</b>. This is the memory bid transmitting into the assemblers, and MU's <b>9/30</b> print is the event underneath all of it.",
+    "The prior note said nothing until 41.01. <b>The inside bar moved the trigger down to 40.41</b> &mdash; a nearer line with a tighter failure."
+   ],
+   [
+    "MU",
+    "Through $1,000 &middot; +1.96%",
+    "g",
+    "2",
+    "<b>Cleared 986.20 and closed 1,015.80, +3.92%</b>, exactly as the level said. High was <b>1,016.44</b> &mdash; it closed at the top. Premarket <b>1,035.75</b>.",
+    "<b>Above 1,016.44 there is still nothing overhead.</b> Structure fails under Friday's <b>977.83</b> low. <b>Earnings 9/30</b> &mdash; seven sessions. Do not hold naked premium through the print without deciding that in advance.",
+    "The call worked because flow, structure and catalyst agreed: <b>$3.1B cumulative dark pool on the bid</b> and a <b>$1000C sweep dated 10/02</b>, placed past the print. <b>That strike is now in the money.</b>",
+    "Two sessions, <b>+9.76%</b> from Thursday's open. This is the name the entire hardware rotation has been a proxy for.",
+    "<b>It is working, which makes it harder, not easier.</b> The trade was 986.20. Chasing $1,035 is a different trade with a worse ratio."
+   ],
+   [
+    "STX",
+    "Called it wrong &middot; +3.26%",
+    "r",
+    "2",
+    "Friday's report read the <b>$848M mid-side print</b> against a downtrend and wrote <b>&ldquo;price says the sellers are still in control.&rdquo;</b> It closed <b>+6.93%</b> and is <b>886.80</b> now.",
+    "<b>No trade &mdash; this is a correction, not a setup.</b> It is 10.4% above where that note was written. The level going forward is Friday's <b>872.00</b> high.",
+    "<b>The error is specific and repeatable.</b> The note said &ldquo;mid is interest, not direction&rdquo; and then drew a direction from it anyway, using the downtrend as the tiebreak.",
+    "<b>A mid print into a downtrend is not bearish confirmation. It is size arriving with no side, and the side showed up the next session.</b>",
+    "Worth writing down: <b>when the read and the reasoning contradict each other in the same paragraph, the reasoning is decoration.</b> Two days ago it cost a 7% move."
+   ],
+   [
+    "XOM",
+    "Energy stack tested &middot; &minus;1.04%",
+    "b",
+    "3",
+    "Friday's Failed 2D stack held &mdash; XOM closed <b>163.54</b>, above the <b>161.45</b> line. <b>Crude has since broken $100.</b> WTI <b>&minus;2.7% to $97.59</b>, and XOM is back to <b>161.84</b>.",
+    "<b>161.31 is Friday's low and the last of it.</b> Below there the Failed 2D is finished and the structure sided with the commodity. Above, the divergence is still alive.",
+    "<b>The headlines and the tape disagree.</b> Houthis attacked Riyadh over the weekend &mdash; and crude fell 2.7%.",
+    "<b>Saudi moved nearly 3.0M bbl/day through Hormuz over the last six days</b>, and Trump signals a meeting with Iran's president at the UNGA. Supply fear is unwinding faster than the attacks can rebuild it.",
+    "This is the cleanest test on the board of structure versus catalyst. <b>Friday said the sellers failed; crude has spent the weekend arguing back.</b>"
+   ],
+   [
+    "META",
+    "Outside (3) down &middot; ex-div",
+    "r",
+    "3",
+    "Friday took <b>both</b> Thursday's high (690.15 over 683.20) <b>and</b> its low (660.80 under 667.05) and closed <b>665.75</b>, near the low. <b>An Outside (3) bar that closes at the bottom is a reversal, and it printed at a six-month high.</b>",
+    "<b>No long here.</b> Premarket 680.80 is inside Friday's range. <b>690.15 up, 660.80 down.</b> Note the +2.34% is flattered &mdash; <b>META goes ex-dividend today</b>.",
+    "Friday's note flagged META at a six-month high with a $4.5M options trade and the dividend three sessions out. <b>The high was the event.</b>",
+    "<b>27.6M shares</b>, well above its recent pace, on a bar that spanned the prior day in both directions. Outside bars on expanding volume at a high are distribution more often than not.",
+    "Sitting inside the reversal bar with nothing scheduled. <b>Wait for one side to break before having an opinion.</b>"
+   ],
+   [
+    "WBD",
+    "Settlement talks &middot; +7.23%",
+    "b",
+    "3",
+    "<b>+7.23% with PSKY +6.17%</b>, on reports Paramount Skydance is discussing a <b>$1.5B investment in California production</b> as a concession to resolve legal challenges to the <b>$81B</b> deal.",
+    "<b>Gapping clear of both Friday's 28.13 high and Thursday's 28.45.</b> That is the level &mdash; 28.45 is the line that matters, and it is well below spot. <b>Merger-arb gaps do not retrace like momentum gaps.</b>",
+    "The concessions reported: retain both California studio lots, penalties if Paramount fails to produce <b>30 films annually</b>, potential cable-channel sales, and a board to preserve CNN's editorial independence.",
+    "<b>California and 11 other states sued to block it</b> on antitrust grounds. The settlement talks are the hurdle, so this is binary headline risk in both directions.",
+    "<b>Not a Strat setup.</b> It is a legal process priced in headlines &mdash; on the board so it is not a surprise, not because it is tradeable on a level."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "FRI 9/18",
+   "tag": "DONE &middot; TRIPLE WITCHING",
+   "accent": "done",
+   "econ": [
+    ["8:15a", "Industrial production"],
+    ["&mdash;", "<b>Quarterly expiration</b> &mdash; SPY 65.4M shares, QQQ 48.5M"],
+    ["&mdash;", "SPY <b>&minus;0.12%</b> &middot; QQQ <b>+0.63%</b> &middot; IWM <b>&minus;0.47%</b>"]
+   ],
+   "earnings": [
+    ["VFS", "AM &middot; small-cap slate only"],
+    ["TLSA", "AM"]
+   ],
+   "events": [
+    ["MU", "<b>+3.92%</b>", "<b>Closed 1,015.80</b> &mdash; through $1,000, cleared 986.20"],
+    ["GOOGL", "PINNED", "Closed <b>349.54</b> against the <b>349.50</b> level &mdash; four cents"],
+    ["STX", "+6.93%", "<b>The $848M print was the tell</b>, read here as the opposite"]
+   ]
+  },
+  {
+   "day": "MON 9/21",
+   "tag": "TODAY &middot; NO DATA",
+   "accent": "next",
+   "econ": [
+    ["&mdash;", "<b>No US economic data of note</b>"],
+    ["&mdash;", "<b>WTI &minus;2.7% to $97.59</b> &mdash; through $100"],
+    ["&mdash;", "2yr <b>4.71%</b> &middot; 10yr <b>4.95%</b> &middot; DXY flat <b>100.19</b>"],
+    ["&mdash;", "<b>Bitcoin $85,229</b> &mdash; highest since <b>Jan 29</b>"]
+   ],
+   "earnings": [
+    ["&mdash;", "Quiet open to the week"]
+   ],
+   "events": [
+    ["ACN", "<b>+4.34%</b>", "<b>Anthropic partnership</b> &mdash; $1B each over five years"],
+    ["WBD", "+7.23%", "<b>Settlement talks</b> on the $81B PSKY deal"],
+    ["UNGA", "Week", "Trump open to meeting <b>Iran's president</b>"]
+   ]
+  },
+  {
+   "day": "TUE 9/22",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    ["&mdash;", "Quiet macro calendar"]
+   ],
+   "earnings": [
+    ["AZO", "AM &middot; <b>unconfirmed date</b>"]
+   ],
+   "events": [
+    ["QCOM", "9/22&ndash;24", "<b>Snapdragon Summit</b> opens"],
+    ["GOOGL", "Conf", "Conference &mdash; <b>date derived, unverified</b>"],
+    ["Trump", "NY", "Meets <b>Zelensky</b> in New York"]
+   ]
+  },
+  {
+   "day": "WED 9/23",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    ["&mdash;", "<b>Flash PMIs</b> &mdash; first real data of the week"]
+   ],
+   "earnings": [
+    ["KBH", "PM &middot; <b>the homebuilder read</b>"],
+    ["GIS", "AM &middot; unconfirmed"]
+   ],
+   "events": [
+    ["MCD", "9/23", "Analyst day &mdash; <b>date derived, unverified</b>"],
+    ["AUR", "9/23", "Analyst day"]
+   ]
+  },
+  {
+   "day": "THU 9/24",
+   "tag": "THE WEEK'S WEIGHT",
+   "accent": "macro",
+   "econ": [
+    ["&mdash;", "<b>Jobless claims</b>"],
+    ["&mdash;", "<b>New home sales</b> &mdash; next housing read after the 1.275M starts miss"],
+    ["Fri", "Durable goods &middot; final Michigan <b>9/25</b>"]
+   ],
+   "earnings": [
+    ["COST", "PM &middot; <b>confirmed</b>"],
+    ["DRI", "AM &middot; unconfirmed"]
+   ],
+   "events": [
+    ["Trump&ndash;Xi", "<b>9/24</b>", "<b>Bessent called the pre-summit &ldquo;successful&rdquo;</b>"],
+    ["MU", "9/30", "<b>The memory trade's real test</b> &mdash; $3.1B bid into it"]
+   ]
+  }
+ ],
+ "charts": [
+  ["COIN", "charts/COIN_2026-09-21.png", "Kicker + 2U held &middot; 196.21 is the line"],
+  ["ACN", "charts/ACN_2026-09-21.png", "2D reversing &middot; gap-fill at 189.48"],
+  ["SMCI", "charts/SMCI_2026-09-21.png", "Inside (1) &middot; 40.41 up / 38.32 down"],
+  ["MU", "charts/MU_2026-09-21.png", "Through $1,000 &middot; reports 9/30"],
+  ["META", "charts/META_2026-09-21.png", "Outside (3) down at a six-month high"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:00AM CT",
+  "groups": [
+   [
+    "CRYPTO &mdash; BTC $85,229",
+    [["MSTR", 7.19], ["HOOD", 5.32], ["COIN", 5.18]]
+   ],
+   [
+    "THE NEWS GAPS",
+    [["WBD", 7.23], ["PSKY", 6.17], ["CIEN", 6.04], ["ACN", 4.34]]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [["SMCI", 3.55], ["STX", 3.26], ["MU", 1.96], ["NVDA", 0.69]]
+   ],
+   [
+    "MEGA CAP &middot; META EX-DIV",
+    [["META", 2.34], ["TSLA", 1.32], ["AMZN", 0.56], ["GOOGL", 0.5], ["MSFT", 0.39], ["AAPL", 0.04]]
+   ],
+   [
+    "AI INFRASTRUCTURE",
+    [["NBIS", 1.76], ["CRWV", 1.06]]
+   ],
+   [
+    "THE RED",
+    [["HPQ", -4.59], ["NVO", -4.3], ["XOM", -1.04], ["NFLX", -0.13]]
+   ],
+   [
+    "RATES &amp; COMMODITIES",
+    [["TLT", 0.55], ["GLD", -0.42], ["USO", -2.2]]
+   ],
+   [
+    "THE INDEX &middot; QQQ EX-DIV",
+    [["QQQ", 1.04], ["DIA", 0.86], ["IWM", 0.77], ["SPY", 0.65]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 9/18 CLOSE &amp; CANDLE &middot; NO DATA MONDAY",
+  "rows": [
+   [
+    "COIN",
+    "T1",
+    "g",
+    "Bullish kicker and a 2U that held",
+    "g",
+    "Opened <b>178.16</b> above Thursday's <b>174.22</b> high and closed <b>194.25</b> &mdash; above the prior high. <b>Kicker and held 2U on one bar, both pointing the same way</b>, unlike GOOGL's split reading Friday.",
+    "Fri close <b>194.25</b> &middot; <b>+11.66%</b> &middot; pre <b>204.31</b>, +5.18%",
+    "<b>Bitcoin $85,229.44, highest since January 29.</b> Regulators cleared a path for tokenized stocks last week.",
+    "<b>196.21 is the level.</b> Premarket is through it, so the trade is the pullback that holds, not the gap."
+   ],
+   [
+    "MU",
+    "T1",
+    "g",
+    "Cleared 986.20, closed at the high",
+    "g",
+    "Took <b>1,016.44</b> and closed <b>1,015.80</b> &mdash; at the top of its range, through <b>$1,000</b> for the first time. <b>The 986.20 level named Friday was the entire trade.</b>",
+    "Fri close <b>1,015.80</b> &middot; <b>+3.92%</b> &middot; pre <b>1,035.75</b>, +1.96%",
+    "<b>$3.1B cumulative dark pool on the bid</b>, and that <b>$1000C dated 10/02</b> is now in the money with the print on <b>9/30</b>.",
+    "Flow, structure and catalyst agreed and it paid. <b>Nothing overhead above 1,016.44; structure fails under 977.83.</b>"
+   ],
+   [
+    "STX",
+    "T1",
+    "r",
+    "The call this book got wrong",
+    "r",
+    "Friday's note read the <b>$848M mid-side print</b> against a downtrend: <b>&ldquo;price says the sellers are still in control.&rdquo;</b> It closed <b>858.79, +6.93%</b>, high <b>872.00</b>, and is <b>886.80</b> this morning.",
+    "Fri close <b>858.79</b> &middot; <b>+6.93%</b> &middot; pre <b>886.80</b>, +3.26%",
+    "<b>The same paragraph said &ldquo;mid is interest, not direction&rdquo; and then took a direction from it.</b> The downtrend was used as a tiebreak it did not earn.",
+    "<b>Size with no side is not bearish. It is size with no side.</b> 10.4% in two sessions is what that cost."
+   ],
+   [
+    "ACN",
+    "T2",
+    "g",
+    "2D Friday, reversed on the deal",
+    "g",
+    "Broke Thursday's <b>188.90</b> low to <b>180.70</b> and closed <b>181.29</b> near it &mdash; a clean 2 Down on the Guggenheim cut. <b>Premarket has taken all of it back.</b>",
+    "Fri close <b>181.29</b> &middot; <b>&minus;4.73%</b> &middot; pre <b>189.15</b>, +4.34%",
+    "<b>Anthropic partnership on embedded AI safety evaluators &mdash; at least $1B from each side over five years.</b>",
+    "<b>189.48 voids the down bar; 180.70 says the news did not matter.</b> Two levels one bar apart, and the cleanest catalyst on the board."
+   ],
+   [
+    "SMCI",
+    "T2",
+    "y",
+    "Inside (1) after leading the complex",
+    "y",
+    "<b>40.41/38.32 sits entirely inside Thursday's 41.01/37.82.</b> It coiled instead of giving back Thursday's <b>+9.50%</b> &mdash; the move that actually led the hardware complex.",
+    "Fri close <b>39.09</b> &middot; <b>&minus;3.12%</b> &middot; pre <b>40.48</b>, +3.55%",
+    "Premarket is <b>just above the inside-day high</b>, which is the trigger &mdash; and still on <b>no company-specific catalyst</b>.",
+    "<b>40.41 up, 38.32 down, nothing between.</b> Wants a 30-minute close, not a premarket tick."
+   ],
+   [
+    "META",
+    "T2",
+    "r",
+    "Outside (3) down at a six-month high",
+    "r",
+    "Took Thursday's high (<b>690.15</b> over 683.20) <b>and</b> its low (<b>660.80</b> under 667.05), then closed <b>665.75</b> near the bottom on <b>27.6M shares</b>. <b>An outside bar closing at its low, printed at a six-month high.</b>",
+    "Fri close <b>665.75</b> &middot; <b>&minus;2.43%</b> &middot; pre <b>680.80</b>, +2.34% <b>(ex-div today)</b>",
+    "Friday's report had META at a six-month high with a $4.5M options trade and the dividend three sessions out. <b>The high itself was the event.</b>",
+    "Premarket sits <b>inside</b> the reversal bar. <b>690.15 up, 660.80 down &mdash; no opinion until one goes.</b>"
+   ],
+   [
+    "XOM",
+    "T3",
+    "b",
+    "Failed 2D held, then crude broke $100",
+    "b",
+    "The six-name energy Failed 2D stack held Friday &mdash; XOM closed <b>163.54</b>, above the <b>161.45</b> line. <b>Then WTI fell 2.7% to $97.59 over the weekend</b> and it is back at 161.84.",
+    "Fri close <b>163.54</b> &middot; <b>+0.17%</b> &middot; pre <b>161.84</b>, &minus;1.04%",
+    "<b>The Houthis attacked Riyadh and crude fell.</b> Saudi moved ~<b>3.0M bbl/day</b> through Hormuz over six days and Trump may meet Iran's president at the UNGA.",
+    "<b>161.31 is Friday's low and the last of the structure.</b> Below it the commodity won the argument."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "CUE",
+    46.7,
+    "Positive topline results from a <b>145-patient Phase 2</b> trial of CUE-221 in chronic spontaneous urticaria."
+   ],
+   [
+    "NUAI",
+    24.2,
+    "Signed a <b>20-year power purchase agreement</b> with Vistra for up to <b>207 MW</b> at its Texas data center."
+   ],
+   [
+    "MX",
+    13.8,
+    "Secured a <b>$5M strategic investment</b> from Navitas through a 1.46M-share issuance at $3.42."
+   ],
+   [
+    "VGZ",
+    13.3,
+    "<b>Artemis Gold to acquire Vista Gold</b> for approximately $427M, or $2.83/share in stock."
+   ],
+   [
+    "BRR",
+    9.0,
+    "Its Silvia AI agent <b>outperformed frontier models</b> across tax, mortgage and credit-card topics."
+   ],
+   [
+    "MSTR",
+    7.19,
+    "<b>+16.39% Friday</b> and going again &mdash; bitcoin at <b>$85,229.44</b>, the highest since <b>January 29</b>."
+   ],
+   [
+    "WBD",
+    7.23,
+    "<b>Settlement talks</b> &mdash; PSKY discussing a <b>$1.5B</b> California production investment, studio-lot retention and a 30-films-a-year commitment to clear the <b>$81B</b> deal."
+   ],
+   [
+    "ALKS",
+    7.2,
+    "Positive <b>Phase 1b</b> proof-of-concept results for ALKS 7290 in adults with ADHD."
+   ],
+   [
+    "PSKY",
+    6.17,
+    "The other half of the settlement talks. <b>California and 11 other states sued to block the transaction.</b>"
+   ],
+   [
+    "CIEN",
+    6.04,
+    "<b>Evercore ISI to Outperform from In Line, $550 target</b> &mdash; against a 348.80 close."
+   ],
+   [
+    "TMQ",
+    5.8,
+    "<b>US Army Corps initiated the environmental review</b> for Trilogy's flagship Arctic Project in Alaska."
+   ],
+   [
+    "HOOD",
+    5.32,
+    "<b>+9.12% Friday.</b> Crypto complex bid with bitcoin."
+   ],
+   [
+    "COIN",
+    5.18,
+    "<b>+11.66% Friday</b> and a bullish kicker. Regulators <b>cleared a path for tokenized stocks</b> last week."
+   ],
+   [
+    "ACN",
+    4.34,
+    "<b>Partners with Anthropic</b> on embedded AI safety evaluators; <b>each investing at least $1B over five years</b>. Erases Friday's 4.73% downgrade drop."
+   ],
+   [
+    "SMTC",
+    3.7,
+    "Began volume shipments of its <b>50G optical portfolio</b> for AI-driven 5G-Advanced networks."
+   ],
+   [
+    "SMCI",
+    3.55,
+    "Breaking its <b>inside day</b> at 40.41 after leading the hardware complex Thursday at <b>+9.50%</b>."
+   ],
+   [
+    "NVTS",
+    3.5,
+    "Agreed to invest <b>$5M in Magnachip</b>, expanding their silicon carbide partnership."
+   ],
+   [
+    "STX",
+    3.26,
+    "<b>+6.93% Friday</b> after the $848M print. <b>This book read that print the wrong way</b> &mdash; see the Strat panel."
+   ],
+   [
+    "LPL",
+    3.1,
+    "Launched mass production of a <b>24.5-inch 720Hz Gaming OLED</b> panel for the esports monitor market."
+   ],
+   [
+    "SSMR",
+    3.0,
+    "Expanded its Silver Valley land position <b>60%</b> and launched a 45,000-metre exploration drilling program."
+   ],
+   [
+    "COHR",
+    2.9,
+    "Expanded its <b>Pluggable Optical Line System</b> portfolio &mdash; second optical announcement in three sessions."
+   ],
+   [
+    "WKEY",
+    2.9,
+    "WISeKey signed an MoU with SEALSQ and Jura for a <b>CHF 40&ndash;60M post-quantum</b> semiconductor and cybersecurity centre."
+   ],
+   [
+    "GMTL",
+    2.9,
+    "Confirmed multiple <b>tungsten-rich zones</b> beyond Tempiute's historical mine footprint."
+   ],
+   [
+    "VNET",
+    2.8,
+    "Completed a strategic investment giving PJ Millennium buyers a <b>38.1% stake</b> through 650.4M shares."
+   ],
+   [
+    "GLW",
+    2.7,
+    "Will demonstrate a <b>high-density optical interconnect</b> for AI scale-up systems with Lumentum and Qualcomm."
+   ],
+   [
+    "ATEX",
+    2.6,
+    "Authorized a new <b>$250M</b> repurchase program running through September 2029."
+   ],
+   [
+    "ENRD",
+    2.5,
+    "Partners with <b>NVIDIA</b> to build its next-generation autonomous heavy-truck system on DRIVE Hyperion."
+   ],
+   [
+    "INSM",
+    2.5,
+    "<b>FDA Priority Review</b> for ARIKAYCE's supplemental application, target action date <b>Jan 28, 2027</b>."
+   ],
+   [
+    "META",
+    2.34,
+    "<b>Ex-dividend today</b>, which flatters the print. Friday was an <b>Outside (3) down bar</b> at a six-month high."
+   ],
+   [
+    "MU",
+    1.96,
+    "<b>Closed 1,015.80 Friday, +3.92%</b> &mdash; through $1,000, cleared the 986.20 level called here. <b>Reports 9/30.</b>"
+   ]
+  ],
+  "bear": [
+   [
+    "TLX",
+    -9.8,
+    "Agreed to merge with ITM for <b>$1.65B upfront</b> and up to $700M in milestone payments."
+   ],
+   [
+    "HPQ",
+    -4.59,
+    "Expects industry-wide <b>PC unit volumes to decline roughly mid-single digits in 2027</b>, while <b>withholding fiscal 2027 guidance</b>. The memory bid has a cost side, and this is it."
+   ],
+   [
+    "NVO",
+    -4.3,
+    "Investors unimpressed by 2030 ambitions &mdash; five-plus launches by 2030 and <b>DKK 150B ($23B)</b> risk-adjusted pipeline sales by 2035. CEO flagged <b>loss of US semaglutide exclusivity in 2032</b>. Also sued with LLY over <b>GLP-1 vision-loss</b> allegations."
+   ],
+   [
+    "SAR",
+    -1.9,
+    "CFO Henri Steenkamp steps down <b>October 31</b> for health reasons; Christine Ramdihal becomes principal financial officer."
+   ],
+   [
+    "VWAGY",
+    -1.5,
+    "Porsche business proposing an additional <b>4,000 job cuts</b>. Downgraded to Hold at Kepler Cheuvreux; POAHY cut to Reduce."
+   ],
+   [
+    "XOM",
+    -1.04,
+    "<b>WTI &minus;2.7% to $97.59</b>, through $100 &mdash; even after the Houthis attacked Riyadh over the weekend."
+   ],
+   [
+    "CVX",
+    -1.0,
+    "Energy complex lower with crude. <b>Friday's Failed 2D stack is being tested directly.</b>"
+   ],
+   [
+    "CCU",
+    -1.0,
+    "<b>HSBC to Reduce from Buy</b>, $10 target."
+   ],
+   [
+    "ELS",
+    -1.0,
+    "<b>Mizuho to Neutral from Outperform</b>, $65 target."
+   ],
+   [
+    "FLUT",
+    -1.0,
+    "<b>Rothschild &amp; Co Redburn to Neutral from Buy</b>, $119 target."
+   ],
+   [
+    "UTI",
+    -1.0,
+    "<b>Texas Capital to Hold from Buy</b>, $25 target."
+   ],
+   [
+    "GLD",
+    -0.42,
+    "Gold futures <b>&minus;0.5% to $4,405.40</b> &mdash; the risk bid is coming out of metals."
+   ],
+   [
+    "NFLX",
+    -0.13,
+    "Fell another <b>4.67% Friday on 114.4M shares</b>, roughly four times its pace, after the Wells Fargo cut to $57. <b>The gap never filled.</b>"
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No fresh single-name tape for this session yet &mdash; what follows is Thursday night's board, and Friday's action has already spoken to the most important line in it.</b> The largest ex-ETF print was <b>STX $848M at the mid, after hours</b>, and this book read it against the downtrend as sellers in control. <b>STX then closed +6.93% Friday and is +3.26% again this morning.</b> The print was the tell; the interpretation was not. <b>Storage-and-memory held the crown with TSM $624M (ask)</b> behind it, and cumulative flow remains the memory trade in miniature: <b>MU $3.1B (bid)</b> on top into its <b>9/30</b> earnings, then <b>NVDA $3.0B (ask)</b> and <b>AVGO $2.1B (bid)</b> &mdash; the two biggest cumulative names on opposite sides. <b>MU has since cleared $1,000 and that $1000C sweep dated 10/02 is in the money.</b> On the ETF side the trackers led for a ninth straight session with <b>SPY $1.1B (ask)</b>, <b>VOO $973M</b> and <b>IVV $972M</b>, <b>all three at the ask</b> into the bounce after printing at the bid into the decision. <b>A side is a lean, not a verdict &mdash; and the STX line above is what it costs to forget the second half of that sentence.</b>",
+  "right_note": "Carried from Friday morning and now resolved: <b>GOOGL's $50M bid print</b> preceded a session that gapped to 357.31 and closed <b>349.54</b> &mdash; four cents above the level named here, pinned into the expiration. <b>The largest block on either board was AMGN $460P 10/16/26 at $131.4M</b>, still open, October expiry. Size is the signal, direction is not.",
+  "dim": true,
+  "chips": [
+   ["STX", "$848M", "mixed, AH &middot; ran +6.93%", "y"],
+   ["TSM", "$624M", "ask, AH", "g"],
+   ["AVGO", "$451M", "bid, AH", "r"],
+   ["MELI", "$350M", "mixed, AH", "y"],
+   ["BE", "$299M", "ask, AH", "g"],
+   ["NTRA", "$251M", "mixed, AH", "y"],
+   ["NU", "$240M", "mixed, AH", "y"],
+   ["CRM", "$204M", "mixed, AH", "y"],
+   ["NVDA", "$202M", "bid, AH", "r"],
+   ["INTC", "$201M", "bid, AH", "r"],
+   ["SPY", "$1.1B", "ask &middot; 9th straight", "g"],
+   ["VOO", "$973M", "ask, AH", "g"],
+   ["IVV", "$972M", "ask, AH", "g"],
+   ["IJH", "$428M", "mixed &middot; mid-caps", "y"],
+   ["MU", "$3.1B", "cumulative bid", "r"],
+   ["NVDA", "$3.0B", "cumulative ask", "g"],
+   ["AVGO", "$2.1B", "cumulative bid", "r"],
+   ["GOOGL", "$50M", "bid &middot; then pinned", "r"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Monday September twenty first, premarket. Crypto took the weekend and did not give it back. Bitcoin printed eighty five thousand two hundred twenty nine, the highest since January twenty ninth. Micro Strategy up seven point two percent, Robinhood up five point three, Coinbase up five point two, on top of Friday's sixteen, nine and eleven percent. Futures are bid. S and P zero point seven percent above fair value, Nasdaq one point one. Three things. First, the bid is paid for by oil and bonds, and the oil half does not add up on headlines alone. W T I down two point seven percent to ninety seven fifty nine, through a hundred, on a weekend when the Houthis attacked Riyadh. Crude falls into a strike on the Saudi capital only because Saudi moved nearly three million barrels a day through Hormuz over six days and Trump may meet Iran's president at the U N this week. The market is pricing the diplomacy, not the missiles. Second, Friday settled the calls. Micron cleared nine eighty six twenty and closed at one thousand fifteen eighty, through a thousand for the first time. Google pinned, closing three forty nine fifty four against the three forty nine fifty level named here, four cents. Third, and this one was wrong. This book read Seagate's eight hundred forty eight million dollar mid side print against a downtrend and said sellers were in control. Seagate closed up six point nine three percent Friday and is up another three point two six this morning. Mid is interest, not direction, and then a direction got read into it anyway. There is no U S economic data at all today."
+  }
+ ]
+}
