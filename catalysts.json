@@ -494,6 +494,56 @@
    "note": "DATE DERIVED: newsletter 9/18 said META dividend \"three days out\". META at a six-month high premarket 9/18 (+1.5%) with a $4.5M options trade. CONFIRM ex-date.",
    "source": "FlowMS morning newsletter 2026-09-18",
    "verified": false
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "type": "product_event",
+   "date": "2026-09-23",
+   "time_ct": null,
+   "note": "META CONNECT, runs 9/23-9/24. Executive and partner sessions. Lands directly after Muse (its personal AI agent) became the most-downloaded free iPhone app in the US three straight days, driving META +11.34% on 9/21 to 741.24 and AMD through $1T. SHOP +4% on 9/22 putting Shop Pay inside Muse; Amazon has BLOCKED Muse from its store. This is the dated catalyst the 9/21 report missed when it read Friday's Outside(3) candle as a reversal. flagged_huge.",
+   "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
+   "verified": true
+  },
+  {
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics",
+   "type": "trial_data",
+   "date": "2026-09-22",
+   "time_ct": "before the open",
+   "note": "VK2735 obesity MAINTENANCE data: 22% placebo-adjusted weight loss with support for less-frequent dosing regimens. +23.5% premarket. The dosing point is the competitive lever against NVO/LLY - NVO closed -7.96% on 9/21 off its own capital markets day where the CEO flagged loss of US semaglutide exclusivity in 2032.",
+   "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
+   "verified": true
+  },
+  {
+   "ticker": "DGX",
+   "name": "Quest Diagnostics",
+   "type": "regulatory",
+   "date": "2026-09-22",
+   "time_ct": null,
+   "note": "CMS preliminary Medicare lab reimbursement rates: cut by the STATUTORY MAXIMUM 15% starting 2027, ~$1B/yr, after finding Medicare pays 16% more than private payors. Framework frozen since 2014. Hits LH the same way (-5.8%). A rule change reprices once and holds - unlike a downgrade, which the tape can vote against.",
+   "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
+   "verified": true
+  },
+  {
+   "ticker": "UBS",
+   "name": "UBS Group",
+   "type": "regulatory",
+   "date": "2026-09-23",
+   "time_ct": null,
+   "note": "Swiss parliamentary vote on bank capital mandates requiring up to $20B additional CET1 to back foreign units. Ermotti warns funding costs could constrain buybacks and lending. Committee compromise would allow 50% of the buffer via $13B Additional Tier 1 debt; stricter option is 90-100% hard equity.",
+   "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
+   "verified": true
+  },
+  {
+   "ticker": "ONON",
+   "name": "On Holding",
+   "type": "investor_day",
+   "date": "2026-09-22",
+   "time_ct": null,
+   "note": "Investor Day: net sales >=CHF 5.6B by 2029, gross margin 65% held across the period, up to $1B Class A buyback by Dec 2029, FY2026 outlook reiterated. +11.6% premarket. Was on the user's own next-week list written 2026-09-17 (PATH, ONON, MCD, QCOM, META, COST).",
+   "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
+   "verified": true
   }
  ],
  "universe": {

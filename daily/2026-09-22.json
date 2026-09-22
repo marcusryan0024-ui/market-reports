@@ -1,0 +1,490 @@
+{
+ "title": "Premarket &middot; Tuesday 9/22",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>This book called META wrong yesterday, and the reason is worth more than the trade.</b> It read Friday's <b>Outside (3) closing near its low</b> at a six-month high and said no long. META closed Monday at <b>$741.24, +11.34%</b>. <b>The structure was real and it did not matter</b> &mdash; <b>Muse</b>, Meta's personal AI agent, had become the <b>most-downloaded free iPhone app in the US three days running</b>, and a product launch is not in a candle.",
+  "summary": "<b>That move carried the tape.</b> <b>AMD +9.95% and through $1 trillion</b> for the first time, on the argument that agentic AI runs on CPUs, not only GPUs. <b>QQQ +2.78%, SPY +1.55%.</b> <b>And it is not finished: Meta Connect is tomorrow and Thursday, 9/23&ndash;9/24.</b> This morning <b>SHOP +4%</b> on a deal putting <b>Shop Pay inside Muse</b> &mdash; and <b>Amazon has blocked Muse from its own store</b>, which tells you what they think it is. <b>The lesson is not that structure failed.</b> It is that this book used a candle to overrule a catalyst it had not checked for &mdash; <b>the second time in three sessions</b>, after reading STX's mid-side print as bearish into a <b>+6.93%</b> session."
+ },
+ "overview": "<b>Crude is in freefall and the reason is dated.</b> <b>WTI &minus;2.6% to $93.30</b>, Brent &minus;1.9% to $98.39 &mdash; that is <b>$97.59 yesterday morning and $100.70 Thursday</b>. Reuters reports <b>Iran is ready to reopen the Strait of Hormuz within seven days</b> if the US lifts its port blockade. Bessent says <b>all Iranian airlines lose service Wednesday</b>. <b>Pressure and diplomacy at once, and the tape is paying for the diplomacy.</b><br><br><b>The energy call worked.</b> This book said <b>below 161.31 the commodity won the argument.</b> XOM broke it, closed <b>158.30, &minus;3.20%</b>, and is <b>156.38</b> now. <b>Jefferies cut MPC and VLO to Hold</b> &mdash; the refiners were the bearish-kicker view yesterday and are <b>&minus;2.4%</b> and <b>&minus;2.3%</b> again.<br><br><b>The GLP-1 trade has a new leg.</b> <b>VKTX +23.5%</b> on VK2735 maintenance data &mdash; <b>22% placebo-adjusted weight loss</b> with support for less-frequent dosing. <b>NVO closed &minus;7.96% Monday</b> after its capital markets day, well past the &minus;4.30% it showed premarket. <b>LLY &minus;1.20%.</b><br><br><b>A regulatory hit, not a sentiment one.</b> <b>DGX &minus;6.5%</b> and <b>LH &minus;5.8%</b>: CMS will cut Medicare lab reimbursement by the <b>statutory maximum 15% from 2027</b>, saving ~<b>$1B a year</b>, after finding Medicare pays <b>16% more</b> than private payors. That framework has been frozen since 2014.<br><br><b>Earnings:</b> <b>VICR +9.4%</b> &mdash; Q3 sequential revenue growth now <b>&gt;20%</b>, double the prior ~10%, on royalties from the Vertical Power Delivery license this book flagged at <b>+12%</b> on 9/17. <b>ONON +11.6%</b> on Investor Day targets. <b>AZO +1.7%</b>, <b>THO +1.8%</b>.<br><br><b>Today:</b> Richmond Fed <b>9:00</b> &middot; <b>$78B 2-year auction 12:00</b> &middot; Williams, Jefferson and Barkin all speak. <b>KBH after the close.</b>",
+ "watchlist": {
+  "stamp": "PREMARKET 8:10AM CT",
+  "em_label": "MARKS VS MONDAY 9/21 CLOSE &mdash; META +11.34% AND AMD THROUGH $1 TRILLION",
+  "groups": [
+   [
+    "THE GLP-1 SHIFT",
+    [
+     ["VKTX", 30.11, 37.18],
+     ["NVO", 39.8, 39.45],
+     ["LLY", 1164.89, 1150.94]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     ["META", 741.245, 735.88],
+     ["BABA", 115.75, 119.63]
+    ]
+   ],
+   [
+    "ETFs",
+    [
+     ["IWM", 285.58, 287.69],
+     ["SPY", 773.5, 774.06],
+     ["QQQ", 741.47, 740.74]
+    ]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [
+     ["SMCI", 41.2, 41.0],
+     ["SNDK", 1766.64, 1755.58],
+     ["MU", 1043.96, 1030.69]
+    ]
+   ],
+   [
+    "EARNINGS &amp; EVENTS",
+    [
+     ["VICR", 223.9, 245.0],
+     ["ONON", 27.32, 30.5],
+     ["ACN", 186.11, 189.4],
+     ["COIN", 201.05, 199.01]
+    ]
+   ],
+   [
+    "ENERGY &amp; LABS",
+    [
+     ["XOM", 158.3, 156.38],
+     ["MPC", 402.38, 392.76],
+     ["VLO", 393.27, 384.37],
+     ["DGX", 244.88, 229.0],
+     ["LH", 320.99, 302.5]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "META",
+   "&minus;0.72%",
+   "Meta Connect tomorrow &middot; 753.00",
+   "<b>+11.34% Monday to 741.24</b> on Muse hitting <b>#1 free iPhone app three straight days</b> &mdash; and the scheduled event is still ahead: <b>Meta Connect runs 9/23&ndash;9/24</b>. Monday's high <b>753.00</b> is the level; premarket <b>735.88</b> sits inside the bar. <b>Through 753.00 with Connect tomorrow is the continuation; 679.60 is where the whole move fails.</b> After an 11% day the entry is a hold above 753, not a chase inside the range."
+  ],
+  [
+   "T2",
+   "y",
+   "VKTX",
+   "+23.5%",
+   "Obesity data &middot; extended, not entered",
+   "VK2735 maintenance data showed <b>22% placebo-adjusted weight loss</b> with support for less-frequent dosing &mdash; the dosing point is what moves share, not the headline number. <b>NVO closed &minus;7.96% Monday</b> off its own capital markets day; <b>LLY &minus;1.20%</b>. <b>This is a +23% premarket gap on binary data.</b> Monday's high <b>30.28</b> is now far below spot. <b>No level to trade against yet &mdash; let the first 30 minutes build one.</b>"
+  ],
+  [
+   "T3",
+   "r",
+   "DGX",
+   "&minus;6.5%",
+   "CMS cut &middot; regulatory, not sentiment",
+   "<b>CMS will cut Medicare lab reimbursement by the statutory maximum 15%, starting 2027</b>, after finding Medicare pays <b>16% more</b> than private payors &mdash; roughly <b>$1B a year</b> out of the sector. <b>LH &minus;5.8%</b> alongside. Monday's low <b>243.72</b> is gone in premarket. <b>Spread is wide &mdash; 225.25 bid against 233.95 ask &mdash; so the print is indicative, not tradeable yet.</b> A rule change is repriced once and held, unlike a downgrade."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; TUE 9/22 &middot; $50 RISK &middot; 2-YEAR AUCTION 12:00",
+  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> $50 risk. <b>Targeted days, events, extreme volume and earnings.</b> <b>Meta Connect is tomorrow and Thursday</b> &mdash; that is the dated event on the board. <b>ONON's Investor Day landed this morning</b>, and it was on the list written a week ago. Richmond Fed <b>9:00</b>, <b>$78B 2-year auction 12:00</b> with the 10-year on 5%.",
+  "cards": [
+   [
+    "META",
+    "Connect 9/23&ndash;24 &middot; &minus;0.72%",
+    "g",
+    "1",
+    "<b>+11.34% Monday to 741.24.</b> Muse is the <b>most-downloaded free iPhone app in the US, three days running</b>. Zuckerberg added <b>$27.3B</b> in a session &mdash; more than the other nine of the top ten billionaires combined.",
+    "<b>753.00 is Monday's high and the trigger.</b> Premarket 735.88 is inside the bar, so there is no trade yet. <b>Through 753.00 into Connect tomorrow is the continuation. 679.60 fails the whole move.</b>",
+    "<b>This book said &ldquo;no long here&rdquo; yesterday</b> off Friday's Outside (3) closing near its low. That bar was real. <b>It was also irrelevant, because a #1 App Store product does not appear in a candle.</b>",
+    "<b>Meta Connect runs 9/23&ndash;9/24</b> with executive and partner sessions. This morning <b>SHOP +4%</b> on Shop Pay going inside Muse &mdash; and <b>Amazon has blocked Muse</b> from its store.",
+    "<b>The error to keep: a candle cannot overrule a catalyst you did not look for.</b> Check the calendar before trusting the bar &mdash; that is the whole method, and it got skipped."
+   ],
+   [
+    "ONON",
+    "Investor Day &middot; +11.6%",
+    "g",
+    "1",
+    "<b>On the list written a week ago</b> &mdash; PATH, ONON, MCD, QCOM, META, COST. Investor Day delivered: net sales <b>&ge;CHF 5.6B by 2029</b>, gross margin <b>65%</b> held across the period, <b>$1B buyback</b> by Dec 2029, FY2026 reiterated.",
+    "<b>Premarket 30.50 against a 27.32 close.</b> Monday's high was <b>27.60</b> &mdash; the gap clears the entire prior range, so the level is Monday's high, far below. <b>Let the opening range set the line rather than guessing at one.</b>",
+    "<b>Targets plus a buyback plus a reiterated current year</b> is the combination that holds an investor-day gap. The sell-the-news pattern usually needs a vague number or a cut guide, and there is neither here.",
+    "Our own investor-day study ran <b>4 of 5 sell-the-news</b>, and <b>3 of 5 gapped up and closed below the open</b>. <b>Volume in the first thirty minutes is what separates them</b> &mdash; that was INTU's tell.",
+    "<b>So watch the 9:00 candle, not the gap.</b> A +11.6% investor-day gap on affirmed guidance is exactly the setup that study says to verify before trusting."
+   ],
+   [
+    "VKTX",
+    "Obesity data &middot; +23.5%",
+    "y",
+    "2",
+    "VK2735 maintenance data: <b>22% placebo-adjusted weight loss</b>, and support for <b>less-frequent dosing regimens</b>. The dosing detail is the competitive point &mdash; that is where share moves.",
+    "<b>&#9733; No level to trade against.</b> Monday's high 30.28 is far below spot. <b>Let the first 30 minutes build a range, then use it.</b> A 23% gap on trial data has no structure until the session makes one.",
+    "The sector read is doing the confirming: <b>NVO closed &minus;7.96% Monday</b> off its own capital markets day, and <b>LLY is &minus;1.20%</b> this morning.",
+    "<b>NVO's CEO flagged loss of US semaglutide exclusivity in 2032</b> as the key challenge. A credible less-frequent-dosing competitor is precisely the threat that framing invites.",
+    "<b>Binary biotech on a gap is the worst risk-reward on the board.</b> On the page because the sector read matters, not because it is a $50 trade."
+   ],
+   [
+    "DGX",
+    "CMS cut &middot; &minus;6.5%",
+    "r",
+    "2",
+    "<b>CMS cutting Medicare lab reimbursement by the statutory maximum 15% from 2027</b> &mdash; roughly <b>$1B annually</b> &mdash; after finding Medicare pays <b>16% more</b> than private payors. <b>LH &minus;5.8%</b> with it.",
+    "<b>The spread is 225.25 bid against 233.95 ask.</b> That is an indicative print, not a tradeable one. <b>Do not touch it until the spread closes after the open.</b>",
+    "<b>A rule change reprices once and stays repriced.</b> That is different from a downgrade, which is an opinion the tape can vote against &mdash; as ACN did the very next morning.",
+    "The framework has been <b>frozen since 2014</b>, so this is a one-time convergence to private-sector rates rather than an ongoing squeeze. <b>The cut lands in 2027.</b>",
+    "Two names, one rule, same direction. <b>If it fades hard into the open, that is the market pricing a 2027 event in 2026</b> &mdash; which is usually too early."
+   ],
+   [
+    "VICR",
+    "Guidance raise &middot; +9.4%",
+    "g",
+    "2",
+    "<b>Q3 sequential revenue growth now &gt;20%, double the prior ~10% target</b>, on royalty fees from a new non-exclusive license covering its <b>Vertical Power Delivery</b> technology.",
+    "<b>Monday's high 226.40 is well below spot at 245.</b> No usable level until the open prints one. Watch whether it holds the gap, which is the whole question on a guidance raise.",
+    "<b>This book had VICR at +12% on 9/17</b> on the news it had &ldquo;granted a leading AI OEM a non-exclusive license&rdquo; for those modules. <b>This is that license turning into a number, five sessions later.</b>",
+    "<b>That is the cleanest kind of follow-through</b> &mdash; a licensing announcement is a promise, a guidance raise is the cash. Patent monetization on AI power infrastructure.",
+    "Worth keeping as a template: <b>when a license gets announced, the guidance raise is the trade, and it arrives weeks later on a scheduled report.</b>"
+   ],
+   [
+    "XOM",
+    "Called right &middot; &minus;1.2%",
+    "g",
+    "3",
+    "<b>&ldquo;Below 161.31 the commodity won the argument.&rdquo;</b> It broke, closed <b>158.30, &minus;3.20%</b>, and is <b>156.38</b> now. The six-name Failed 2D stack is finished.",
+    "<b>158.30 is the line now.</b> Below it the trend continues with crude; a reclaim above would be the first sign the selling is done. <b>Not a long here &mdash; the commodity is still falling.</b>",
+    "<b>WTI &minus;2.6% to $93.30.</b> That is $100.70 on Thursday, $97.59 yesterday, $93.30 today &mdash; <b>7.4% in three sessions</b>.",
+    "<b>Reuters: Iran ready to reopen the Strait of Hormuz within seven days</b> if the US lifts its port blockade. Simultaneously Bessent is shutting down every Iranian airline from Wednesday.",
+    "<b>Jefferies cut MPC and VLO to Hold.</b> The refiners were the bearish-kicker view yesterday and are down again &mdash; the one part of this tape where flow, structure and catalyst have agreed for three sessions."
+   ],
+   [
+    "SMCI",
+    "Worked &middot; flat",
+    "g",
+    "3",
+    "<b>&ldquo;40.41 up, 38.32 down, nothing between.&rdquo;</b> It opened 40.63, dipped to 40.00, and closed <b>41.20, +5.40%</b> &mdash; clearing both the inside-day high and the 41.01 level from the session before.",
+    "<b>Premarket 41.00, dead flat.</b> Monday's high 41.72 is the next line. It has run 9.50% then &minus;3.12% then +5.40% &mdash; <b>this is now an extended name, not a fresh trigger.</b>",
+    "The inside day did what inside days do: it handed over two levels and broke one. <b>The 30-minute-close condition kept it from being a premarket guess.</b>",
+    "Still <b>no company-specific catalyst</b>. It is trading MU's story, and MU reports <b>9/30</b> &mdash; which is also the government-funding deadline.",
+    "<b>Two of three calls worked yesterday, and the one that did not was worth more than both.</b> Keep that ratio in view before sizing up on a streak."
+   ],
+   [
+    "COIN",
+    "No trade, correctly &middot; &minus;1.0%",
+    "y",
+    "3",
+    "<b>&ldquo;Want the pullback that holds 196.21, not the gap.&rdquo;</b> The pullback never came &mdash; Monday's low was <b>200.65</b> &mdash; so there was no entry. <b>And the gap-buyer lost: 204.31 premarket to a 201.05 close.</b>",
+    "<b>196.21 still has not been tested.</b> Premarket 199.01 is the closest it has come. <b>Same plan, unchanged: the level or nothing.</b>",
+    "This is the version of discipline that looks wrong and is not. <b>Refusing an extended entry and then watching it close red is the system working</b>, even though it shows as a missed green day.",
+    "<b>Bitcoin's run has cooled</b> and COIN is red premarket for the first time in four sessions, after +11.66% and +3.50%.",
+    "<b>The SEC innovation exemption is still the catalyst and has not changed.</b> A structural rule change does not expire in three sessions &mdash; but the entry price does."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/21",
+   "tag": "DONE &middot; META +11.34%",
+   "accent": "done",
+   "econ": [
+    ["7:30a", "Chicago Fed National Activity Index"],
+    ["&mdash;", "<b>SPY +1.55%</b> &middot; <b>QQQ +2.78%</b> &middot; IWM +0.52%"],
+    ["&mdash;", "WTI fell a fourth straight day"]
+   ],
+   "earnings": [
+    ["EBF", "AM"],
+    ["ABVX", "PM"]
+   ],
+   "events": [
+    ["META", "<b>+11.34%</b>", "<b>Muse #1 free iPhone app</b> &mdash; Zuckerberg +$27.3B"],
+    ["AMD", "+9.95%", "<b>Through $1 trillion</b> &mdash; agentic AI runs on CPUs"],
+    ["NVO", "&minus;7.96%", "Capital markets day &mdash; <b>worse than the &minus;4.3% premarket</b>"]
+   ]
+  },
+  {
+   "day": "TUE 9/22",
+   "tag": "TODAY &middot; 2-YEAR AUCTION",
+   "accent": "next",
+   "econ": [
+    ["9:00a", "<b>Richmond Fed manufacturing</b>"],
+    ["12:00p", "<b>$78B 2-year auction</b> &mdash; 10-year sitting on 5%"],
+    ["&mdash;", "<b>Williams, Jefferson and Barkin</b> all speak"],
+    ["&mdash;", "<b>WTI &minus;2.6% to $93.30</b> &mdash; Iran may reopen Hormuz in 7 days"]
+   ],
+   "earnings": [
+    ["AZO", "AM &middot; <b>+1.7%</b>, higher net income and sales"],
+    ["THO", "AM &middot; +1.8%"],
+    ["KBH", "PM &middot; <b>the homebuilder read</b>"]
+   ],
+   "events": [
+    ["ONON", "<b>+11.6%</b>", "<b>Investor Day</b> &mdash; CHF 5.6B by 2029, $1B buyback"],
+    ["QCOM", "9/22&ndash;24", "<b>Snapdragon Summit</b> opens"],
+    ["Trump", "NY", "Meets <b>Zelensky</b> in New York"]
+   ]
+  },
+  {
+   "day": "WED 9/23",
+   "tag": "FLASH PMIs &middot; META CONNECT",
+   "accent": "macro",
+   "econ": [
+    ["8:45a", "<b>September flash PMIs</b> &mdash; first broad read since the hike"],
+    ["12:00p", "<b>$70B 5-year auction</b>"]
+   ],
+   "earnings": [
+    ["GIS", "AM"],
+    ["CTAS", "AM"],
+    ["PAYX", "AM"],
+    ["CBRL", "AM"]
+   ],
+   "events": [
+    ["META", "<b>CONNECT</b>", "<b>Day 1 of 2</b> &mdash; executives and partners, post-Muse"],
+    ["MCD", "9/23", "Analyst day &mdash; <b>date derived, unverified</b>"],
+    ["UBS", "Vote", "Swiss parliament on <b>$20B</b> capital mandates"]
+   ]
+  },
+  {
+   "day": "THU 9/24",
+   "tag": "TRUMP&ndash;XI &middot; COST",
+   "accent": "",
+   "econ": [
+    ["7:30a", "Jobless claims"],
+    ["9:00a", "<b>New home sales</b> &mdash; next read after the 1.275M starts miss"],
+    ["10:00a", "Kansas City Fed"]
+   ],
+   "earnings": [
+    ["COST", "PM &middot; <b>confirmed</b>"],
+    ["DRI", "AM &middot; <b>confirmed</b>"]
+   ],
+   "events": [
+    ["Trump&ndash;Xi", "<b>WASHINGTON</b>", "Tariff truce, tech curbs, AI, <b>rare earths</b>"],
+    ["META", "<b>CONNECT</b>", "Day 2"]
+   ]
+  },
+  {
+   "day": "FRI 9/25",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    ["7:30a", "<b>August durable goods</b>"],
+    ["9:00a", "<b>Final Michigan</b> &mdash; with the inflation-expectations read"]
+   ],
+   "earnings": [
+    ["&mdash;", "Quiet docket"]
+   ],
+   "events": [
+    ["MU", "<b>9/30</b>", "<b>Earnings AND the funding deadline</b>, same day"],
+    ["PANW", "9/25", "<b>$360C sweep</b> expires &mdash; the board's largest Friday"]
+   ]
+  }
+ ],
+ "charts": [
+  ["META", "charts/META_2026-09-22.png", "+11.34% on Muse &middot; Connect 9/23&ndash;24"],
+  ["VKTX", "charts/VKTX_2026-09-22.png", "+23.5% &middot; 22% placebo-adjusted"],
+  ["DGX", "charts/DGX_2026-09-22.png", "&minus;6.5% &middot; CMS cuts 15% from 2027"],
+  ["ONON", "charts/ONON_2026-09-22.png", "+11.6% &middot; Investor Day targets"],
+  ["XOM", "charts/XOM_2026-09-22.png", "Broke 161.31 &middot; WTI $93.30"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 8:10AM CT",
+  "groups": [
+   [
+    "THE GLP-1 SHIFT",
+    [["VKTX", 23.48], ["NVO", -0.88], ["LLY", -1.2]]
+   ],
+   [
+    "EARNINGS &amp; EVENTS",
+    [["ONON", 11.64], ["VICR", 9.42], ["BABA", 3.35], ["ACN", 1.77]]
+   ],
+   [
+    "MEGA CAP",
+    [["META", -0.72]]
+   ],
+   [
+    "THE LAB CUT",
+    [["DGX", -6.48], ["LH", -5.76]]
+   ],
+   [
+    "ENERGY &middot; WTI $93.30",
+    [["MPC", -2.39], ["VLO", -2.26], ["XOM", -1.21]]
+   ],
+   [
+    "MEMORY &amp; STORAGE",
+    [["SMCI", -0.49], ["SNDK", -0.63], ["MU", -1.27]]
+   ],
+   [
+    "CRYPTO COOLING",
+    [["COIN", -1.01]]
+   ],
+   [
+    "THE INDEX",
+    [["IWM", 0.74], ["SPY", 0.07], ["QQQ", -0.1]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 9/21 CLOSE &amp; CANDLE &middot; META CONNECT TOMORROW",
+  "rows": [
+   [
+    "META",
+    "T1",
+    "g",
+    "The call this book got wrong",
+    "r",
+    "Friday printed an <b>Outside (3) closing near its low</b> at a six-month high, and this book wrote <b>&ldquo;no long here.&rdquo;</b> Monday opened 680.30 and closed <b>741.24, +11.34%</b>, high <b>753.00</b>, on 48.7M shares.",
+    "Mon close <b>741.24</b> &middot; <b>+11.34%</b> &middot; pre <b>735.88</b>, &minus;0.72%",
+    "<b>Muse became the most-downloaded free iPhone app in the US, three days running.</b> Zuckerberg added <b>$27.3B</b> &mdash; more than the other nine top-ten billionaires combined.",
+    "<b>The candle was accurate and beside the point.</b> 753.00 up into <b>Connect 9/23&ndash;24</b>, 679.60 down. The method says check the calendar first; it got skipped."
+   ],
+   [
+    "SMCI",
+    "T1",
+    "g",
+    "Inside day broke exactly as called",
+    "g",
+    "<b>&ldquo;40.41 up, 38.32 down, nothing between.&rdquo;</b> Opened 40.63, held above, closed <b>41.20, +5.40%</b> &mdash; clearing the inside-day high <b>and</b> the 41.01 level from the session before.",
+    "Mon close <b>41.20</b> &middot; <b>+5.40%</b> &middot; pre <b>41.00</b>, &minus;0.49%",
+    "<b>The 30-minute-close condition is what made it a plan rather than a premarket guess.</b>",
+    "Next line is Monday's <b>41.72</b> high. <b>Three sessions of +9.50%, &minus;3.12%, +5.40% &mdash; extended, not fresh.</b>"
+   ],
+   [
+    "XOM",
+    "T1",
+    "g",
+    "Failed 2D finished, as called",
+    "g",
+    "<b>&ldquo;Below 161.31 the commodity won the argument.&rdquo;</b> It gapped under, never reclaimed, and closed <b>158.30, &minus;3.20%</b>. The six-name energy Failed 2D stack is done.",
+    "Mon close <b>158.30</b> &middot; <b>&minus;3.20%</b> &middot; pre <b>156.38</b>, &minus;1.21%",
+    "<b>WTI &minus;2.6% to $93.30 &mdash; 7.4% in three sessions.</b> Reuters says Iran may reopen Hormuz within seven days if the US lifts its blockade.",
+    "<b>Jefferies cut MPC and VLO to Hold.</b> Flow, structure and catalyst have agreed on energy for three straight sessions &mdash; the only place on the board they have."
+   ],
+   [
+    "ACN",
+    "T2",
+    "y",
+    "Level triggered, follow-through did not",
+    "y",
+    "<b>&ldquo;Through 189.48 the whole down bar fails.&rdquo;</b> It traded to <b>193.75</b> &mdash; well through &mdash; then closed <b>186.11</b>, back below the trigger. <b>The level was right and the hold was not.</b>",
+    "Mon close <b>186.11</b> &middot; <b>+2.66%</b> &middot; pre <b>189.40</b>, +1.77%",
+    "A buyer at 189.48 finished the session <b>down 1.8%</b>. <b>Clearing a level intraday and closing back under it is a failed break, not a win.</b>",
+    "Premarket is back at <b>189.40</b>, testing the same line a second time. <b>Second tests of a failed level are lower-probability, not higher.</b>"
+   ],
+   [
+    "COIN",
+    "T2",
+    "y",
+    "Pullback never came, no trade",
+    "y",
+    "<b>&ldquo;Want the pullback that holds 196.21, not the gap.&rdquo;</b> Monday's low was <b>200.65</b> &mdash; the level never traded. <b>No entry, and the premarket gap-buyer lost: 204.31 to a 201.05 close.</b>",
+    "Mon close <b>201.05</b> &middot; <b>+3.50%</b> &middot; pre <b>199.01</b>, &minus;1.01%",
+    "<b>Discipline that shows as a missed green day but was not.</b> The green close hid a session that punished the chase.",
+    "<b>196.21 still untested, plan unchanged.</b> The SEC innovation exemption has not expired; the entry price has."
+   ],
+   [
+    "VKTX",
+    "T2",
+    "y",
+    "Obesity data, no structure yet",
+    "y",
+    "<b>+23.5% premarket</b> on VK2735 maintenance data &mdash; <b>22% placebo-adjusted weight loss</b> and support for <b>less-frequent dosing</b>, which is the competitive point.",
+    "Mon close <b>30.11</b> &middot; pre <b>37.18</b>, <b>+23.5%</b>",
+    "<b>NVO closed &minus;7.96% Monday</b> off its capital markets day, where the CEO flagged <b>loss of US semaglutide exclusivity in 2032</b>. <b>LLY &minus;1.20%.</b>",
+    "<b>Monday's high 30.28 is far below spot &mdash; there is no level.</b> Let the first thirty minutes build one."
+   ],
+   [
+    "DGX",
+    "T3",
+    "r",
+    "CMS cut &mdash; a rule, not an opinion",
+    "r",
+    "<b>CMS cutting Medicare lab reimbursement by the statutory maximum 15% from 2027</b>, ~<b>$1B a year</b>, after finding Medicare pays <b>16% more</b> than private payors. <b>LH &minus;5.8%</b> with it.",
+    "Mon close <b>244.88</b> &middot; pre <b>229.00</b>, <b>&minus;6.48%</b>",
+    "<b>Spread is 225.25 bid / 233.95 ask</b> &mdash; indicative, not tradeable. The framework had been frozen since <b>2014</b>.",
+    "<b>A rule reprices once and holds.</b> A downgrade is an opinion the tape can vote against &mdash; as ACN did the next morning. These are not the same event."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["VKTX", 23.48, "<b>22% placebo-adjusted weight loss</b> in VK2735 maintenance data, with support for <b>less-frequent dosing regimens</b>."],
+   ["ONON", 11.64, "<b>Investor Day</b> &mdash; net sales <b>&ge;CHF 5.6B by 2029</b>, gross margin <b>65%</b> held, <b>$1B buyback</b> by Dec 2029, FY2026 reiterated."],
+   ["VICR", 9.42, "<b>Q3 sequential revenue growth now &gt;20%</b>, double the prior ~10%, on royalties from the <b>Vertical Power Delivery</b> license flagged here at +12% on 9/17."],
+   ["BB", 7.2, "Alloy Kore's <b>first design win</b> &mdash; Coretura selecting the foundational software layer for commercial vehicles."],
+   ["VLN", 6.8, "Valens Semiconductor to collaborate with <b>onsemi</b> on a cost-optimized A-PHY integrated into onsemi image sensors."],
+   ["LODE", 6.1, "Commenced <b>24/7 solar-panel recycling</b> operations in Silver Springs on rising customer demand."],
+   ["ALP", 5.9, "Binding <b>$5.5M</b> deal for Pennsylvania oil-and-gas assets &mdash; 75+ wells and 300 acres."],
+   ["ANAB", 5.6, "Higher on earnings."],
+   ["GRAB", 5.5, "CEO and president/COO purchased <b>10.65M shares</b> for approximately <b>$30.7M</b>."],
+   ["SHOP", 4.0, "<b>Shop Pay going inside Meta's Muse</b> &mdash; autonomous AI-driven purchasing across Shopify merchants. Zuckerberg: &ldquo;more partnerships like this coming soon.&rdquo;"],
+   ["GME", 3.5, "Ryan Cohen disclosed a purchase of <b>1.2M shares</b>."],
+   ["BABA", 3.35, "<b>Apsara Conference</b> &mdash; Alibaba Cloud to run <b>&gt;20 gigawatts</b> of data centers globally by 2032, and launched the <b>Zhenwu V900</b> chip at 3x its predecessor."],
+   ["CLDX", 3.1, "Phase 3 barzolvolimab trials met the <b>primary and all key secondary endpoints</b> in chronic spontaneous urticaria."],
+   ["PHAR", 2.8, "Positive <b>Phase II</b> topline for leniolisib in primary immunodeficiencies with immune dysregulation."],
+   ["PSKY", 2.2, "Extended the Warner Bros. Discovery note tender and exchange offers to <b>October 2</b>, aligning settlement with the proposed acquisition."],
+   ["NHIC", 2.2, "<b>Closed</b> the newcleo combination &mdash; <b>$247M</b> gross proceeds; newcleo begins Nasdaq trading <b>September 22</b>."],
+   ["CGNX", 2.0, "Agreed to acquire <b>RealSense for ~$500M</b>, adding a 3D robotic perception platform."],
+   ["CRCL", 2.0, "Expanded its <b>Binance partnership</b> five years and sold Binance <b>$100M</b> of Class A common stock."],
+   ["NIQ", 2.0, "Conditional bid for Australia's The U Group; the board unanimously recommended accepting."],
+   ["ILPT", 1.9, "Names Anthony Paula CFO and treasurer effective <b>Oct 1</b>."],
+   ["THO", 1.8, "Higher on earnings."],
+   ["WWD", 1.8, "Plans a Santa Clarita production shift to Spartanburg and sale of select legacy product lines in fiscal 2027."],
+   ["AZO", 1.7, "<b>Higher fiscal Q4 net income and net sales.</b> One of the two confirmed Tuesday reports."],
+   ["IAUX", 1.7, "Positive Granite Creek feasibility study &mdash; <b>$118M after-tax NPV</b> at $2,750 gold."],
+   ["IWM", 0.74, "Small caps leading the index board for once, with the 2-year auction at noon."]
+  ],
+  "bear": [
+   ["DAVA", -12.5, "<b>CFO placed on leave</b> amid an investigation into agreement accounting; AlixPartners retained, Conor McShane interim. <b>William Blair to Underperform.</b>"],
+   ["DGX", -6.48, "<b>CMS cutting Medicare lab reimbursement by the statutory maximum 15% from 2027</b> &mdash; ~$1B a year &mdash; after finding Medicare pays <b>16% more</b> than private payors."],
+   ["LH", -5.76, "The other half of the CMS cut. <b>The framework had been frozen since 2014.</b>"],
+   ["LXEO", -4.9, "Acquiring Mantle Therapeutics, adding a clinical-stage oral Friedreich ataxia therapy."],
+   ["MLKN", -4.5, "Lower on earnings."],
+   ["UBS", -3.0, "<b>Swiss parliamentary vote Wednesday</b> on capital mandates requiring up to <b>$20B</b> additional CET1. Ermotti warns funding costs could constrain buybacks and lending."],
+   ["SWRD", -2.5, "Terminated the Hawthorne property acquisition, forfeiting $100,000 of a $1M escrow deposit."],
+   ["MPC", -2.39, "<b>Jefferies to Hold</b>, $413. Was on the bearish-kicker view yesterday and down again with crude."],
+   ["VLO", -2.26, "<b>Jefferies to Hold</b>, $401. Same call, same day, same direction."],
+   ["CNX", -2.0, "Appointed operations chief Ravi Srivastava as CFO and principal financial officer."],
+   ["TVTX", -2.0, "Names former Amicus CEO Bradley Campbell to succeed Eric Dube as CEO effective <b>December 1, 2026</b>."],
+   ["ELE", -1.8, "Acquiring five streams and royalties for <b>$290M</b> in cash and equity; <b>CEO David Cole resigned</b>."],
+   ["TORO", -1.7, "Sets <b>Oct 1</b> record date for the proposed AI OKTO spin-off, distribution expected around Oct 8."],
+   ["NYXH", -1.4, "CFO John Landry steps down <b>October 2</b>; reaffirms full-year 2026 guidance."],
+   ["MU", -1.27, "Cooling after <b>+2.77% Monday to 1,043.96</b>. High was 1,064.49. <b>Reports 9/30.</b>"],
+   ["XOM", -1.21, "<b>WTI &minus;2.6% to $93.30</b>, down 7.4% in three sessions on the Hormuz reopening report."],
+   ["LLY", -1.2, "Pressured by VKTX's dosing data, and named alongside NVO in <b>GLP-1 vision-loss</b> suits."],
+   ["NVO", -0.88, "<b>Closed &minus;7.96% Monday</b> off its capital markets day &mdash; far worse than the &minus;4.3% it showed premarket."],
+   ["COIN", -1.01, "First red premarket in four sessions. <b>196.21 still untested.</b>"],
+   ["ERIC", -1.0, "<b>Morgan Stanley to Underweight</b>, $9 target."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No fresh single-name tape for this session yet.</b> What stands from Friday's expiration board is the record itself: <b>SPCX $9.4B at the ask</b>, the largest single-name print this board has shown, roughly eight times NVDA's $1.2B and on a company public only since its <b>May IPO</b> &mdash; and <b>$18.7B cumulative (ask)</b>, ahead of NVDA $8.7B (ask) and AAPL $7.6B (ask), all three top names on the same side. <b>Ten single names printed $1B or more</b> against a Thursday board that topped out at $848M. <b>The split held a clean line:</b> memory and power on the <b>bid</b> (QCOM $1.7B, BE $1.3B, SKHY $1.1B), mega-caps and oil majors on the <b>ask</b> (AAPL, NVDA, XOM $1.2B, CVX $1.1B) &mdash; <b>and the energy ask prints have now been vindicated twice over</b>, with WTI down <b>7.4% in three sessions</b> and XOM through the 161.31 line. <b>That is the one lean on the Friday board that price has confirmed.</b> Treat the rest loosely: quad-witching moves size for mechanical reasons, and this book has two live reminders of what over-reading a side costs &mdash; STX's mid print called bearish into <b>+6.93%</b>, and META's candle called over its catalyst into <b>+11.34%</b>.",
+  "right_note": "Yesterday's morning tape had <b>META $28M at the bid</b> leading the board on its dividend day, and the board put META on the bullish-kicker view while this book argued the candle said otherwise. <b>The board was right and it was not close.</b> Also still open: <b>ECHO $150P 12/18/26 at $8.6M</b>, a floor put to December, and <b>PANW $360C 09/25</b>, which expires Friday.",
+  "dim": true,
+  "chips": [
+   ["SPCX", "$9.4B", "ask, AH &middot; RECORD", "g"],
+   ["QCOM", "$1.7B", "bid, AH", "r"],
+   ["BE", "$1.3B", "bid, AH", "r"],
+   ["AAPL", "$1.2B", "ask, AH", "g"],
+   ["NVDA", "$1.2B", "ask, AH", "g"],
+   ["XOM", "$1.2B", "ask &middot; confirmed by price", "g"],
+   ["SKHY", "$1.1B", "bid, AH", "r"],
+   ["CVX", "$1.1B", "ask &middot; confirmed by price", "g"],
+   ["ILMN", "$1.1B", "ask, AH", "g"],
+   ["SPY", "$3.4B", "bid, AH", "r"],
+   ["VOO", "$1.8B", "ask, AH", "g"],
+   ["SPCX", "$18.7B", "cumulative ask", "g"],
+   ["NVDA", "$8.7B", "cumulative ask", "g"],
+   ["AAPL", "$7.6B", "cumulative ask", "g"],
+   ["META", "$28M", "bid &middot; then +11.34%", "r"],
+   ["WDAY", "$17M", "mixed, PRE", "y"],
+   ["V", "$10M", "bid, PRE", "r"],
+   ["STX", "$848M", "Thu &middot; ran +6.93%", "y"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Tuesday September twenty second, premarket. This book called Meta wrong yesterday, and the reason matters more than the trade. It read Friday's outside three bar closing near its low at a six month high and said no long. Meta closed Monday at seven forty one twenty four, up eleven point three four percent. The structure was real and it did not matter, because Muse, Meta's personal A I agent, had become the most downloaded free iPhone app in the United States three days running, and a product launch is not in a candle. That is the second time in three sessions this book used structure to overrule a catalyst it had not checked for. And Meta Connect is tomorrow and Thursday, so it is not finished. Three things. First, the move carried the tape. A M D rose nine point nine five percent and crossed one trillion dollars for the first time, on the argument that agentic A I runs on C P Us, not only G P Us. Q Q Q up two point seven eight percent. Second, crude is in freefall. W T I down two point six percent to ninety three thirty, from a hundred seventy on Thursday. Reuters reports Iran is ready to reopen the Strait of Hormuz within seven days if the U S lifts its port blockade. The energy call worked. Exxon broke one sixty one thirty one and closed down three point two percent. Third, Viking Therapeutics is up twenty three percent on obesity data showing twenty two percent placebo adjusted weight loss with support for less frequent dosing. Novo closed down almost eight percent Monday off its own capital markets day. Today, Richmond Fed at nine, a seventy eight billion dollar two year auction at noon, and K B Home after the close."
+  }
+ ]
+}
