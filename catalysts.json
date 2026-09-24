@@ -544,6 +544,46 @@
    "note": "Investor Day: net sales >=CHF 5.6B by 2029, gross margin 65% held across the period, up to $1B Class A buyback by Dec 2029, FY2026 outlook reiterated. +11.6% premarket. Was on the user's own next-week list written 2026-09-17 (PATH, ONON, MCD, QCOM, META, COST).",
    "source": "FlowMS/MT Newswires/Benzinga, 2026-09-22",
    "verified": true
+  },
+  {
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics",
+   "type": "offering",
+   "date": "2026-09-24",
+   "time_ct": "before the open",
+   "note": "Priced UPSIZED offerings: 7.86M shares at $35 plus $225M of 2% convertible notes, two sessions after +35.7% on VK2735 obesity data. -11.9% premarket. THE PATTERN: a small-cap biotech with a major data print has a financing need and the spike is the window - the pop creates the deal. $35 is now the anchor every deal buyer owns.",
+   "source": "CNBC/Briefing premarket images, 2026-09-24",
+   "verified": true
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "type": "product_event",
+   "date": "2026-09-24",
+   "time_ct": null,
+   "note": "Meta Connect DAY 2. Day 1 delivered late 9/23: $1,299 Meta VR Glasses and Muse Charm, a handheld that pairs with Muse. Stock -2.03% premarket on it after ~+12% on the week. 753.00 rejected it twice (9/22 high 757.27 close 736.60; 9/23 high 763.90 close 744.10).",
+   "source": "CNBC/Briefing premarket images, 2026-09-24",
+   "verified": true
+  },
+  {
+   "ticker": "MGM",
+   "name": "MGM Resorts",
+   "type": "m_and_a",
+   "date": "2026-09-24",
+   "time_ct": null,
+   "note": "Barry Diller's People Incorporated WITHDREW its acquisition proposal. -10.2% premarket. Diller still holds 66.8M shares; the board backs the standalone plan. A withdrawn deal usually retraces toward the pre-rumour price - that is the only level with logic behind it.",
+   "source": "CNBC/Briefing premarket images, 2026-09-24",
+   "verified": true
+  },
+  {
+   "ticker": "ACAD",
+   "name": "ACADIA Pharmaceuticals",
+   "type": "trial_data",
+   "date": "2026-09-24",
+   "time_ct": "before the open",
+   "note": "Remlifanserin 60mg MISSED statistical significance on the Phase 2 RADIANT primary endpoint in Alzheimer's disease psychosis.",
+   "source": "CNBC/Briefing premarket images, 2026-09-24",
+   "verified": true
   }
  ],
  "universe": {

@@ -1,0 +1,485 @@
+{
+ "title": "Premarket &middot; Thursday 9/24",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>753.00 rejected META twice and the event is now over.</b> Tuesday it made <b>757.27</b> and closed <b>736.60</b>. Wednesday it made <b>763.90</b> and closed <b>744.10</b>. <b>Both times through the level, both times back under it.</b> Connect has since delivered &mdash; <b>$1,299 Meta VR Glasses</b> and <b>Muse Charm</b>, a handheld that works with Muse, announced late Wednesday &mdash; and the stock is <b>&minus;2.03%</b> premarket after nearly <b>+12%</b> on the week.",
+  "summary": "<b>The tape is selling into the summit, not buying it.</b> <b>Trump&ndash;Xi meets in Washington today</b> with the tariff truce, tech restrictions, AI and rare earths all on the agenda &mdash; and <b>QQQ is &minus;1.01%</b>, SPY &minus;0.53%. <b>COST reports after the close</b>, the week's last piece of gravity. <b>And VKTX is the lesson of the week:</b> it ran <b>+35.7%</b> Tuesday on obesity data, tagged <b>43.10</b> Wednesday, and is <b>&minus;11.88%</b> this morning because the company priced <b>7.86M shares at $35</b> plus <b>$225M of 2% converts</b> into its own spike. <b>The data pop was the financing window.</b> That is the pattern, and it is why a +23% gap on trial data had no level worth trading."
+ },
+ "overview": "<b>Two sessions since the last report, and the calls mostly held.</b> <b>META: &ldquo;753.00 up, no trade inside the range&rdquo;</b> &mdash; it never closed above 753 in either session. <b>ONON did exactly what the investor-day study said</b>: gapped to 30.40, ran 31.16, closed <b>29.39</b>, below its own open. <b>3 of 5 in that study gapped up and closed below the open</b>, and the note said watch the 9:00 candle, not the gap.<br><br><b>DGX repriced once and held</b>, as a rule change does &mdash; 234.76 then 233.00, sitting where the cut put it. <b>SMCI went nowhere</b>, flagged as extended rather than fresh: 41.54 then 41.44.<br><br><b>Two misses, both the same shape.</b> <b>VICR</b> was called a template &mdash; license announced, guidance raise is the trade &mdash; and then given no entry. It ran <b>+19.85%</b> Tuesday and <b>+5.52%</b> Wednesday, <b>+26.5%</b> in two sessions. <b>XOM</b> was called &ldquo;not a long here&rdquo; at 158.30; it bottomed at <b>155.85</b> and closed Wednesday <b>161.23</b>. <b>Being right about direction and giving no level to act on is not being right.</b><br><br><b>COIN finally tested it.</b> Wednesday's low was <b>195.64</b> &mdash; through the 196.21 line named Monday for the first time &mdash; and it closed <b>198.13</b>, back above. <b>The level held on its first real test.</b> Premarket 195.65 is back at it.<br><br><b>Crude has turned.</b> WTI bottomed and <b>USO is +1.32%</b>, <b>XOM +1.08%</b>. <b>Gold is breaking the other way</b> &mdash; futures hit <b>4,285.0</b>, the lowest since Sept 16, with <b>KGC &minus;4.13%</b>.<br><br><b>Today:</b> claims <b>7:30</b> &middot; new home sales <b>9:00</b> &middot; Kansas City Fed <b>10:00</b> &middot; <b>Trump&ndash;Xi</b> &middot; <b>COST after the close</b>.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:50AM CT",
+  "em_label": "MARKS VS WEDNESDAY 9/23 CLOSE &mdash; SELLING INTO THE SUMMIT",
+  "groups": [
+   [
+    "META &middot; CONNECT DELIVERED",
+    [
+     ["META", 744.1, 729.0],
+     ["DLB", 58.03, 60.36]
+    ]
+   ],
+   [
+    "ETFs",
+    [
+     ["IWM", 281.92, 281.05],
+     ["SPY", 767.81, 763.76],
+     ["QQQ", 741.21, 733.75]
+    ]
+   ],
+   [
+    "EARNINGS DAMAGE",
+    [
+     ["SFIX", 2.82, 2.34],
+     ["SNX", 287.89, 258.0],
+     ["DRI", 213.69, 208.01],
+     ["BB", 8.38, 8.41]
+    ]
+   ],
+   [
+    "THE OFFERING",
+    [
+     ["VKTX", 41.65, 36.7]
+    ]
+   ],
+   [
+    "CRUDE TURNING, GOLD BREAKING",
+    [
+     ["USO", 148.83, 150.8],
+     ["XOM", 161.23, 162.98],
+     ["GLD", 392.88, 391.33],
+     ["NEM", 123.55, 122.21],
+     ["KGC", 27.62, 26.48]
+    ]
+   ],
+   [
+    "MEMORY &middot; MU REPORTS 9/30",
+    [
+     ["NBIS", 226.61, 226.95],
+     ["CRWV", 86.9, 86.7],
+     ["NVDA", 225.51, 223.11],
+     ["MU", 1071.88, 1048.35],
+     ["SMCI", 41.44, 40.33]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "r",
+   "META",
+   "&minus;2.03%",
+   "753.00 rejected twice &middot; event over",
+   "<b>Two sessions, two failures at the same level.</b> Tuesday: high <b>757.27</b>, close 736.60. Wednesday: high <b>763.90</b>, close <b>744.10</b>. It has cleared 753.00 intraday both times and closed under it both times. <b>Connect has now delivered</b> &mdash; $1,299 VR Glasses and Muse Charm &mdash; so the catalyst that drove +12% is spent. <b>No long until a close above 763.90. Below 730.00, Tuesday's low, the whole Muse move is being given back.</b>"
+  ],
+  [
+   "T2",
+   "r",
+   "VKTX",
+   "&minus;11.88%",
+   "The offering &middot; $35 is the anchor",
+   "It priced <b>7.86M shares at $35</b> and <b>$225M of 2% convertible notes</b> &mdash; upsized &mdash; two sessions after the data. <b>$35 is now the reference price every buyer of that deal owns</b>, and premarket 36.70 sits just above it. <b>That is the level, and it was set by the company, not the tape.</b> The Monday note called this the worst risk-reward on the board and stayed out; it then ran +35.7%. <b>Right conclusion, and it cost a 35% session to be right.</b>"
+  ],
+  [
+   "T3",
+   "y",
+   "COST",
+   "+0.58%",
+   "Reports tonight &middot; the week's last gravity",
+   "<b>Fiscal Q4 after the close</b>, the confirmed date and the last scheduled catalyst of the week. Premarket <b>909.95</b> against a <b>904.70</b> close, drifting up into it while the index sells off &mdash; <b>relative strength into a print is worth more than the drift itself</b>. <b>No position before the number.</b> Wednesday's range <b>911.29/898.36</b> is the box; the reaction gap will set the real level. Read the first thirty minutes tomorrow, not tonight's headline."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; THU 9/24 &middot; $50 RISK &middot; TRUMP&ndash;XI &middot; COST TONIGHT",
+  "lead": "&#9888; <b>&ldquo;I am a catalyst trader.&rdquo;</b> $50 risk. <b>Targeted days, events, extreme volume and earnings.</b> <b>Two dated events today: Trump&ndash;Xi in Washington, and COST after the close.</b> Claims 7:30, new home sales 9:00, Kansas City Fed 10:00. The tape is <b>selling into</b> the summit, which is the thing to notice.",
+  "cards": [
+   [
+    "META",
+    "Twice rejected &middot; &minus;2.03%",
+    "r",
+    "1",
+    "<b>Tuesday high 757.27, close 736.60. Wednesday high 763.90, close 744.10.</b> Through 753.00 both sessions, back under it both sessions. <b>The level named Tuesday did its whole job.</b>",
+    "<b>No long until a close above 763.90.</b> Below <b>730.00</b>, Tuesday's low, the Muse move is unwinding. Between those two there is nothing to do, same as Tuesday.",
+    "<b>Connect has delivered and the stock is red on it.</b> $1,299 Meta VR Glasses and Muse Charm, a handheld that pairs with Muse, both unveiled late Wednesday.",
+    "<b>That is sell-the-news after +12% on the week</b>, and it matches the investor-day study's shape: the event arrives, the buyers who front-ran it leave.",
+    "<b>The reversal I got wrong Monday and the resistance I got right Tuesday are the same level, four days apart.</b> Structure works once the catalyst is priced &mdash; not before it lands."
+   ],
+   [
+    "VKTX",
+    "Priced into the spike &middot; &minus;11.88%",
+    "r",
+    "1",
+    "<b>7.86M shares at $35 plus $225M of 2% converts, upsized</b>, two sessions after +35.7% on obesity data. <b>The company sold into its own news.</b>",
+    "<b>$35 is the anchor now</b> &mdash; every buyer of that deal owns it there, and premarket 36.70 is barely above. <b>Below $35 the deal is underwater and the sellers have a reason.</b>",
+    "<b>This is the pattern worth keeping.</b> A small-cap biotech with a big data print has a financing need, and the spike is when it gets filled. <b>The pop creates the window.</b>",
+    "The Monday note said no level to trade against, binary, worst risk-reward on the board. <b>It then ran +35.7% Tuesday and tagged 43.10 Wednesday</b> before this.",
+    "<b>Honest ledger: the conclusion was right and it cost a 35% session.</b> That is the trade-off of refusing structureless gaps, and it is the correct one over many trials &mdash; not every one."
+   ],
+   [
+    "COST",
+    "Reports tonight &middot; +0.58%",
+    "y",
+    "1",
+    "<b>Fiscal Q4 after the close.</b> The one confirmed earnings date on the board this week and the last scheduled catalyst before MU on 9/30.",
+    "<b>&#9733; No position before the print.</b> Wednesday's range <b>911.29/898.36</b> is the box it is sitting in. <b>The reaction gap sets the level; trade tomorrow's first thirty minutes, not tonight's headline.</b>",
+    "<b>It is drifting up while the index sells off</b> &mdash; 909.95 against a 904.70 close with QQQ &minus;1.01%. Relative strength into a print is a real tell.",
+    "COST was on the list written a week ago: PATH, ONON, MCD, QCOM, META, COST. <b>Five of the six have now had their event.</b>",
+    "<b>Holding premium through a print is a decision to make in advance, not at 2:55.</b> If it is not written down before the close, the answer is no."
+   ],
+   [
+    "VICR",
+    "The miss &middot; +26.5% in two",
+    "g",
+    "2",
+    "<b>+19.85% Tuesday to 268.34, then +5.52% Wednesday to 283.16.</b> From the 223.90 close before the guidance raise, that is <b>+26.5% in two sessions</b>.",
+    "<b>Premarket 274.39, &minus;3.10%, first red print of the move.</b> Wednesday's low <b>261.94</b> is the first real level this has offered. <b>Chasing 274 after +26.5% is not a setup.</b>",
+    "<b>The template was named correctly and then not acted on.</b> The note said: a license announcement is a promise, the guidance raise is the cash, and it arrives weeks later on a scheduled report.",
+    "<b>It was flagged here at +12% on 9/17</b> on the original Vertical Power Delivery license, and again Tuesday on the raise. Twice identified, never given an entry.",
+    "<b>The fix is mechanical: if a name is worth two writeups, it is worth a level.</b> &ldquo;No usable level until the open prints one&rdquo; is a description, not a plan."
+   ],
+   [
+    "COIN",
+    "Level tested and held &middot; &minus;1.25%",
+    "g",
+    "2",
+    "<b>196.21 was named Monday and never traded until Wednesday.</b> The low was <b>195.64</b> &mdash; through by 57 cents &mdash; and it closed <b>198.13</b>, back above. <b>First real test, held.</b>",
+    "<b>Premarket 195.65 is right back at it.</b> Same plan, third day: <b>a hold above 196.21 is the entry, a close below it ends the idea.</b> The level has now earned its keep once.",
+    "Three sessions of patience for one test. <b>Monday's gap-buyer at 204.31 is down 4.2%; the 196.21 buyer has not been filled badly once.</b>",
+    "The <b>SEC innovation exemption</b> is still the catalyst and has not changed. What has changed is that bitcoin's run cooled and the froth came out.",
+    "<b>This is what the discipline looks like when it works.</b> It looked like a missed green day on Monday and it is a defined-risk entry on Thursday."
+   ],
+   [
+    "XOM",
+    "Second miss &middot; +1.08%",
+    "y",
+    "2",
+    "<b>&ldquo;Not a long here&rdquo; at 158.30.</b> It bottomed <b>155.85</b> Tuesday and closed Wednesday <b>161.23</b>, and is <b>162.98</b> now. <b>The break was called right and the bounce was missed.</b>",
+    "<b>161.23 is the line it reclaimed.</b> Holding above it, the three-session flush is over. <b>USO +1.32% confirms &mdash; crude has turned with it.</b>",
+    "The Failed 2D call was correct twice: the stack failed when crude broke $100, and XOM broke 161.31 on schedule. <b>Then the analysis stopped at &ldquo;not a long.&rdquo;</b>",
+    "<b>Same error as VICR.</b> A correct directional read with no level on the other side of it is only half a plan, and the half that does not make money.",
+    "<b>Iran may still reopen Hormuz within seven days.</b> The diplomacy that broke crude is unresolved, so this bounce is inside an unfinished story."
+   ],
+   [
+    "MGM",
+    "Deal withdrawn &middot; &minus;10.15%",
+    "r",
+    "3",
+    "<b>Barry Diller's People Incorporated withdrew its acquisition proposal.</b> Diller: &ldquo;We didn't feel the mix was coming together in the way we had hoped&rdquo; &mdash; and he still holds <b>66.8M shares</b>.",
+    "<b>No trade on a withdrawn-deal gap.</b> The arb premium comes out in one print and the floor is wherever the standalone business is valued. <b>Let it find that before marking a level.</b>",
+    "<b>The board is backing MGM's standalone plan</b>, which is the part that matters: this is not a broken company, it is a removed bid.",
+    "A buyer holding 66.8M shares who walks away from control is a different signal than a seller. <b>He is still long, just not buying the rest.</b>",
+    "Watch where it stops. <b>A withdrawn deal usually retraces to roughly the pre-rumour price</b>, and that is the only level with any logic behind it."
+   ],
+   [
+    "SNX",
+    "Earnings &middot; &minus;10.38%",
+    "r",
+    "3",
+    "<b>&minus;10.38% on its report</b>, one of the larger single-name breaks on the board alongside <b>SFIX &minus;17%</b> and <b>DRI &minus;2.66%</b>.",
+    "<b>No trade into a fresh earnings gap with no level.</b> Same rule as VKTX Monday: the session has to build a range before there is anything to trade against.",
+    "SNX is IT distribution, so it reads through to the hardware complex. <b>Worth watching whether SMCI, DELL and HPE care</b> &mdash; SMCI is &minus;2.68% premarket.",
+    "<b>DRI is the one to note for the record:</b> EPS $2.05 in line, revenue $3.20B against $3.21B expected, full-year guidance reaffirmed &mdash; and it is down anyway.",
+    "<b>In line plus reaffirmed plus down is a valuation reaction, not a results one.</b> That is a tape telling you what it is willing to pay, and it applies to COST tonight."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "TUE 9/22",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    ["9:00a", "Richmond Fed manufacturing"],
+    ["12:00p", "<b>$78B 2-year auction</b>"],
+    ["&mdash;", "SPY &minus;0.02% &middot; <b>QQQ +0.81%</b>"]
+   ],
+   "earnings": [
+    ["AZO", "AM &middot; higher net income and sales"],
+    ["THO", "AM"],
+    ["KBH", "PM &middot; the homebuilder read"]
+   ],
+   "events": [
+    ["VKTX", "<b>+35.7%</b>", "Obesity data &mdash; <b>the spike it then sold into</b>"],
+    ["VICR", "+19.85%", "Guidance raise &mdash; <b>the license turning into cash</b>"],
+    ["ONON", "+7.58%", "<b>Closed 29.39, below its 30.40 open</b> &mdash; the study's shape"]
+   ]
+  },
+  {
+   "day": "WED 9/23",
+   "tag": "DONE &middot; CONNECT DAY 1",
+   "accent": "done",
+   "econ": [
+    ["8:45a", "<b>September flash PMIs</b>"],
+    ["12:00p", "<b>$70B 5-year auction</b>"],
+    ["&mdash;", "<b>SPY &minus;0.72%</b> &middot; QQQ &minus;0.84%"]
+   ],
+   "earnings": [
+    ["GIS", "AM"],
+    ["CTAS", "AM"],
+    ["PAYX", "AM"]
+   ],
+   "events": [
+    ["META", "<b>763.90</b>", "<b>Cleared 753 again, closed 744.10 under it again</b>"],
+    ["META", "Late", "<b>$1,299 VR Glasses + Muse Charm</b> unveiled"],
+    ["COIN", "195.64", "<b>First test of the 196.21 line &mdash; held, closed 198.13</b>"]
+   ]
+  },
+  {
+   "day": "THU 9/24",
+   "tag": "TODAY &middot; TRUMP&ndash;XI &middot; COST",
+   "accent": "next",
+   "econ": [
+    ["7:30a", "<b>Jobless claims</b>"],
+    ["9:00a", "<b>New home sales</b> &mdash; after the 1.275M starts miss"],
+    ["10:00a", "Kansas City Fed"],
+    ["&mdash;", "<b>Gold to 4,285.0</b> &mdash; lowest since Sept 16"]
+   ],
+   "earnings": [
+    ["COST", "PM &middot; <b>the week's last gravity</b>"],
+    ["DRI", "AM &middot; <b>&minus;2.7%</b>, in line and reaffirmed"]
+   ],
+   "events": [
+    ["Trump&ndash;Xi", "<b>WASHINGTON</b>", "Tariff truce, tech curbs, AI, <b>rare earths</b>"],
+    ["META", "<b>CONNECT</b>", "Day 2 &mdash; and the stock is <b>&minus;2.03%</b> on it"],
+    ["VKTX", "&minus;11.9%", "<b>7.86M at $35 + $225M converts</b>, priced into the pop"]
+   ]
+  },
+  {
+   "day": "FRI 9/25",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    ["7:30a", "<b>August durable goods</b>"],
+    ["9:00a", "<b>Final Michigan</b> &mdash; with inflation expectations"]
+   ],
+   "earnings": [
+    ["&mdash;", "Quiet docket"]
+   ],
+   "events": [
+    ["COST", "Reaction", "<b>The gap sets the level</b> &mdash; trade the first 30 minutes"],
+    ["PANW", "9/25", "<b>$360C sweep expires</b> &mdash; the board's largest"]
+   ]
+  },
+  {
+   "day": "WED 9/30",
+   "tag": "TWO EVENTS, ONE DAY",
+   "accent": "macro",
+   "econ": [
+    ["&mdash;", "<b>Government funding deadline</b> &mdash; stopgap to December unsigned"]
+   ],
+   "earnings": [
+    ["MU", "PM &middot; <b>fiscal Q4</b>"]
+   ],
+   "events": [
+    ["MU", "<b>9/30</b>", "<b>The memory trade's real test</b> &mdash; $3.1B bid into it"],
+    ["MU", "1,071.88", "<b>+9.7% since the 986.20 call</b>, reports at the highs"]
+   ]
+  }
+ ],
+ "charts": [
+  ["META", "charts/META_2026-09-24.png", "753 rejected twice &middot; Connect delivered"],
+  ["VKTX", "charts/VKTX_2026-09-24.png", "&minus;11.9% &middot; 7.86M at $35 + converts"],
+  ["COST", "charts/COST_2026-09-24.png", "Reports tonight &middot; 911.29/898.36"],
+  ["VICR", "charts/VICR_2026-09-24.png", "+26.5% in two &middot; the miss"],
+  ["XOM", "charts/XOM_2026-09-24.png", "Reclaimed 161.23 &middot; crude turned"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:50AM CT",
+  "groups": [
+   [
+    "THE EVENT NAMES",
+    [["DLB", 4.02], ["COST", 0.58], ["ONON", 0.1], ["META", -2.03]]
+   ],
+   [
+    "CRUDE TURNING",
+    [["USO", 1.32], ["XOM", 1.08]]
+   ],
+   [
+    "THE OFFERING &amp; THE DEALS",
+    [["KNF", 4.34], ["BB", 0.36], ["MGM", -10.15], ["VKTX", -11.88]]
+   ],
+   [
+    "EARNINGS DAMAGE",
+    [["SNX", -10.38], ["SFIX", -17.09], ["DRI", -2.66], ["ETSY", -2.04]]
+   ],
+   [
+    "GOLD BREAKING",
+    [["GLD", -0.39], ["NEM", -1.08], ["KGC", -4.13]]
+   ],
+   [
+    "MEMORY &middot; MU 9/30",
+    [["NBIS", 0.15], ["CRWV", -0.23], ["NVDA", -1.06], ["MU", -2.2], ["SMCI", -2.68]]
+   ],
+   [
+    "REITs CUT AT JPM",
+    [["VICI", -0.8]]
+   ],
+   [
+    "THE INDEX",
+    [["IWM", -0.31], ["SPY", -0.53], ["QQQ", -1.01]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "WEDNESDAY 9/23 CLOSE &amp; CANDLE &middot; TRUMP&ndash;XI TODAY",
+  "rows": [
+   [
+    "META",
+    "T1",
+    "r",
+    "753.00 rejected it twice",
+    "r",
+    "Tuesday: high <b>757.27</b>, close <b>736.60</b>. Wednesday: high <b>763.90</b>, close <b>744.10</b>. <b>Through the level intraday both sessions and back under it by the bell both sessions.</b> That is what resistance looks like.",
+    "Wed close <b>744.10</b> &middot; <b>+1.02%</b> &middot; pre <b>729.00</b>, &minus;2.03%",
+    "<b>Connect delivered late Wednesday</b> &mdash; $1,299 VR Glasses and Muse Charm &mdash; and the stock is red on it after <b>+12%</b> on the week.",
+    "<b>No long until a close above 763.90; below 730.00 the Muse move unwinds.</b> The catalyst is spent and the level is doing the talking now."
+   ],
+   [
+    "ONON",
+    "T1",
+    "g",
+    "The investor-day study, exactly",
+    "g",
+    "Gapped to <b>30.40</b>, ran <b>31.16</b>, closed <b>29.39</b> &mdash; <b>below its own open</b>. The note said the study runs <b>3 of 5 gapping up and closing below the open</b>, and to watch the 9:00 candle rather than the gap.",
+    "Tue close <b>29.39</b> &middot; <b>+7.58%</b> &middot; Wed <b>30.16</b> &middot; pre <b>30.19</b>, +0.10%",
+    "Targets, buyback and reaffirmed guidance were the bull case, <b>and the tape still sold the open</b>.",
+    "<b>The study earned its keep.</b> It has now called ON, INTU and ONON in one month &mdash; the pattern is the edge, not the individual name."
+   ],
+   [
+    "COIN",
+    "T1",
+    "g",
+    "196.21 tested for the first time",
+    "g",
+    "Named Monday, untouched Monday and Tuesday, then Wednesday's low printed <b>195.64</b> &mdash; through by <b>57 cents</b> &mdash; and it closed <b>198.13</b>, back above. <b>First real test, held.</b>",
+    "Wed close <b>198.13</b> &middot; <b>&minus;1.46%</b> &middot; pre <b>195.65</b>, &minus;1.25%",
+    "<b>Monday's gap-buyer at 204.31 is down 4.2%.</b> Three sessions of refusing the chase produced one defined-risk entry.",
+    "<b>Premarket is back at the line.</b> Hold above 196.21 is the entry; a close below ends it. The SEC exemption has not changed, only the froth."
+   ],
+   [
+    "VKTX",
+    "T1",
+    "r",
+    "The company sold into its own spike",
+    "r",
+    "Ran <b>+35.7%</b> Tuesday and tagged <b>43.10</b> Wednesday, then priced <b>7.86M shares at $35</b> plus <b>$225M of 2% converts</b>, upsized. <b>&minus;11.88%</b> premarket.",
+    "Wed close <b>41.65</b> &middot; <b>+1.96%</b> &middot; pre <b>36.70</b>, &minus;11.88%",
+    "<b>A small-cap biotech with a major data print has a financing need, and the spike is the window.</b> The pop creates the deal.",
+    "<b>$35 is the anchor now</b> &mdash; set by the company, owned by every buyer of the deal. Below it the sellers have a reason."
+   ],
+   [
+    "VICR",
+    "T2",
+    "g",
+    "Called twice, never given a level",
+    "g",
+    "<b>+19.85%</b> to 268.34, then <b>+5.52%</b> to <b>283.16</b> &mdash; <b>+26.5% in two sessions</b> from the 223.90 close before the raise. Flagged here at +12% on 9/17 and again on the raise.",
+    "Wed close <b>283.16</b> &middot; <b>+5.52%</b> &middot; pre <b>274.39</b>, &minus;3.10%",
+    "<b>&ldquo;No usable level until the open prints one&rdquo; is a description, not a plan.</b> The template was right and unactionable.",
+    "<b>First red print of the move.</b> Wednesday's low <b>261.94</b> is the first level this has offered &mdash; and chasing 274 after +26.5% is not a setup."
+   ],
+   [
+    "XOM",
+    "T2",
+    "y",
+    "Break called, bounce missed",
+    "y",
+    "Broke 161.31 on schedule and closed &minus;3.20%, as called. Then bottomed <b>155.85</b> Tuesday and closed Wednesday <b>161.23</b> &mdash; <b>back above the line it broke</b>. The note said &ldquo;not a long here.&rdquo;",
+    "Wed close <b>161.23</b> &middot; <b>+1.59%</b> &middot; pre <b>162.98</b>, +1.08%",
+    "<b>USO +1.32% confirms crude turned with it.</b> The three-session flush that took WTI from $100.70 to the low is over for now.",
+    "<b>Same error as VICR: a correct directional read with no level on the other side.</b> 161.23 is that level, and it took a bounce to find it."
+   ],
+   [
+    "DGX",
+    "T3",
+    "r",
+    "Repriced once, held",
+    "g",
+    "Gapped to a <b>228.59</b> open, closed <b>234.76</b>, then <b>233.00</b> Wednesday. <b>It fell where the rule put it and stopped.</b> The note said a rule reprices once and holds, unlike a downgrade.",
+    "Wed close <b>233.00</b> &middot; <b>&minus;0.75%</b> &middot; pre <b>232.00</b>, &minus;0.43%",
+    "The wide-spread warning was right too: the 225.25/233.95 premarket quote was indicative, and it <b>closed above the entire spread</b>.",
+    "<b>The CMS cut lands in 2027</b> and the stock has priced it in two sessions. <b>Spread is 225.00/258.67 this morning &mdash; still garbage, still do not trade the print.</b>"
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["HVII", 17.9, "<b>Closed the ONE Nuclear Energy business combination</b>; the renamed company's shares begin Nasdaq trading."],
+   ["KYTX", 8.3, "Positive <b>one-year miv-cel data</b> in stiff person syndrome; rolling BLA completion on track for <b>Q4 2026</b>."],
+   ["ARCT", 6.9, "Interim <b>Phase 2 ARCT-810</b> safety and biomarker improvements, plus the higher-expression <b>LUNAR 2.0</b> platform. <b>Citigroup to Buy, $20.</b>"],
+   ["MSLE", 5.9, "<b>FDA clearance</b> to begin a Phase II forazapadin study in FSHD, backed by up to $5M in financing."],
+   ["FRVO", 5.4, "<b>Achieved first power at Cape Station</b> &mdash; synchronized its Utah enhanced geothermal project to the grid and is exporting electricity."],
+   ["MESO", 5.1, "FDA approval to use a new potency assay for commercial Ryoncil lot release and stability monitoring."],
+   ["KNF", 4.34, "<b>Starboard Value has taken a substantial stake</b> and wants margins improved or a sale considered."],
+   ["GRAL", 4.1, "<b>FDA advisory panel backed Galleri's benefit-risk profile</b> for cancer screening; final decision expected within months."],
+   ["DLB", 4.02, "<b>Expanded its Meta partnership</b> &mdash; Dolby Atmos and Vision across AI glasses, Instagram and next-generation VR. <b>Spread is very wide premarket.</b>"],
+   ["NMRK", 3.5, "Engaged to advise SSOF on Nevada powered-land development strategy and administer a competitive partner RFP."],
+   ["CTKB", 3.0, "Launched a US cloud-based flow cytometry analysis tool and premium subscription tier."],
+   ["BZUN", 2.7, "Authorized a <b>$10M</b> share repurchase program over the next 12 months."],
+   ["RGNX", 2.5, "<b>Settled patent litigation with Sarepta</b>, securing a <b>$39M</b> payment within 10 days."],
+   ["KBR", 1.8, "Appointed Michael LaRouche CEO-designate of Trinzic ahead of the planned <b>January 2027</b> Mission Technology Solutions spin-off."],
+   ["USO", 1.32, "<b>Crude has turned</b> after three straight sessions lower took WTI from $100.70."],
+   ["XOM", 1.08, "<b>Reclaimed 161.23</b>, the line it broke on Monday."],
+   ["COST", 0.58, "<b>Drifting up into tonight's fiscal Q4 print while QQQ is &minus;1.01%.</b> Relative strength into a number."],
+   ["BB", 0.36, "Adjusted EPS <b>7c against 4c</b> expected; revenue <b>$163.3M</b> against a $142.5M consensus."],
+   ["NBIS", 0.15, "<b>BNP Paribas Exane to Outperform, $399.</b>"],
+   ["ONON", 0.1, "Steady after Tuesday's investor day sold its own open. <b>CHF 5.6B by 2029, $1B buyback.</b>"]
+  ],
+  "bear": [
+   ["SFIX", -17.09, "Lower on earnings, and <b>William Blair cut it to Market Perform</b> the same morning."],
+   ["VKTX", -11.88, "<b>Priced 7.86M shares at $35 and $225M of 2% convertible notes</b>, upsized, two sessions after +35.7% on obesity data."],
+   ["MGM", -10.15, "<b>Barry Diller's People Incorporated withdrew its acquisition proposal.</b> Diller still holds <b>66.8M shares</b>; the board backs the standalone plan."],
+   ["SNX", -10.38, "Lower on earnings &mdash; IT distribution, so it reads through to the hardware complex."],
+   ["ACAD", -3.66, "<b>Remlifanserin's 60mg dose missed statistical significance</b> on the Phase 2 RADIANT primary endpoint in Alzheimer's disease psychosis. <b>Wide spread &mdash; the print is indicative.</b>"],
+   ["KGC", -4.13, "<b>Gold futures hit 4,285.0, the lowest since Sept 16.</b> The miners are wearing it."],
+   ["VICR", -3.1, "<b>First red print after +26.5% in two sessions.</b> Wednesday's low 261.94 is the first level it has offered."],
+   ["DRI", -2.66, "<b>EPS $2.05 in line, revenue $3.20B against $3.21B, full-year guidance reaffirmed &mdash; and down anyway.</b> A valuation reaction, not a results one."],
+   ["SMCI", -2.68, "Cooling with the hardware complex as SNX breaks. <b>Went nowhere Tue and Wed, as flagged.</b>"],
+   ["MU", -2.2, "<b>+9.7% since the 986.20 call</b> and closed Wednesday at <b>1,071.88</b>. <b>Reports 9/30 &mdash; at the highs, and the same day as the funding deadline.</b>"],
+   ["META", -2.03, "<b>Connect delivered and the stock is selling it.</b> 753.00 rejected it twice this week."],
+   ["ETSY", -2.04, "<b>Arete to Neutral from Buy</b>, $81."],
+   ["NVDA", -1.06, "Soft with the complex into the summit."],
+   ["NEM", -1.08, "Gold miners lower with the metal."],
+   ["VOYG", -1.1, "Priced a <b>$350M</b> private offering of 0% convertible senior notes due 2032, with a $52.5M option."],
+   ["ELMT", -1.4, "Will acquire a <b>4.99% stake in Masan High-Tech Materials</b> for $124.75M."],
+   ["RDW", -1.5, "Named one of 15 vendors on Space Systems Command's <b>$980M NITE-STAR</b> vehicle &mdash; <b>with no guaranteed revenue</b>."],
+   ["AFYA", -1.8, "Agreed to merge into Yduqs; shareholders would own <b>69%</b> and the Nasdaq shares delist at closing."],
+   ["VRT", -1.8, "Acquiring King Environmental Services in 4Q26; terms undisclosed, expected financial impact immaterial."],
+   ["TRU", -2.7, "CFO Todd Cello steps down <b>December 31</b>; TransUnion reaffirmed Q3 and full-year guidance."],
+   ["DK", -3.1, "Plans a <b>$400M</b> convertible senior notes offering, partly funding capped calls and term-loan repayment."],
+   ["SQNS", -3.0, "<b>Completed its bitcoin treasury exit.</b>"],
+   ["HAFN", -5.5, "Priced a 35.49M-share placement at <b>NOK 80</b>, raising about <b>$300M</b>."],
+   ["VICI", -0.8, "One of <b>twelve JPMorgan downgrades</b> this morning, most of them REITs &mdash; ARE, GLPI, KRG, SAFE, SKT and VICI all cut."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No fresh single-name tape for this session.</b> What still stands from Friday's expiration board is the record: <b>SPCX $9.4B at the ask</b>, the largest single-name print this board has shown, and <b>$18.7B cumulative (ask)</b> ahead of NVDA $8.7B and AAPL $7.6B &mdash; all three top names on the same side. <b>Ten single names printed $1B or more.</b> <b>The one lean price has since confirmed is energy</b>, and it has now confirmed in both directions: XOM $1.2B and CVX $1.1B both printed at the <b>ask</b> as WTI slid toward $100, the flush ran three more sessions, <b>and crude has now turned with USO +1.32% and XOM back above 161.23</b>. <b>Size marked the move and not its end</b> &mdash; which is the useful distinction, because a side tells you who was in a hurry, not how far it goes. Treat the rest of that board loosely: it was a quad-witching flush and this book has two standing reminders of what over-reading a side costs. <b>STX's mid print, called bearish into +6.93%. META's candle, called over its catalyst into +11.34%.</b> Both entries stay on the page.",
+  "right_note": "Still open from Friday: <b>ECHO $150P 12/18/26 at $8.6M</b>, a floor put to December, and <b>PANW $360C 09/25</b>, the board's largest sweep, <b>which expires tomorrow</b>. Worth watching whether PANW gets marked into it. <b>MU's $1000C dated 10/02 is deep in the money</b> with the stock at 1,071.88 and the print landing <b>9/30</b> &mdash; the sweep that was placed two days past the earnings date is now the trade of the month on this board.",
+  "dim": true,
+  "chips": [
+   ["SPCX", "$9.4B", "ask, AH &middot; RECORD", "g"],
+   ["QCOM", "$1.7B", "bid, AH", "r"],
+   ["BE", "$1.3B", "bid, AH", "r"],
+   ["AAPL", "$1.2B", "ask, AH", "g"],
+   ["NVDA", "$1.2B", "ask, AH", "g"],
+   ["XOM", "$1.2B", "ask &middot; marked the flush", "g"],
+   ["SKHY", "$1.1B", "bid, AH", "r"],
+   ["CVX", "$1.1B", "ask &middot; marked the flush", "g"],
+   ["ILMN", "$1.1B", "ask, AH", "g"],
+   ["SPY", "$3.4B", "bid, AH", "r"],
+   ["VOO", "$1.8B", "ask, AH", "g"],
+   ["SPCX", "$18.7B", "cumulative ask", "g"],
+   ["NVDA", "$8.7B", "cumulative ask", "g"],
+   ["AAPL", "$7.6B", "cumulative ask", "g"],
+   ["MU", "$3.1B", "cumulative bid &middot; 9/30", "r"],
+   ["META", "$28M", "bid &middot; then +11.34%", "r"],
+   ["STX", "$848M", "mid &middot; ran +6.93%", "y"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Thursday September twenty fourth, premarket. Seven fifty three rejected Meta twice and the event is now over. Tuesday it made seven fifty seven twenty seven and closed seven thirty six sixty. Wednesday it made seven sixty three ninety and closed seven forty four ten. Through the level both times, back under it both times. Connect has now delivered, a twelve hundred ninety nine dollar V R headset and Muse Charm, a handheld, both announced late Wednesday, and the stock is down two percent after nearly twelve percent on the week. Three things. First, the tape is selling into the summit, not buying it. Trump and Xi meet in Washington today with the tariff truce, tech restrictions, A I and rare earths on the agenda, and Q Q Q is down one percent. Costco reports after the close. Second, Viking is the lesson of the week. It ran thirty five point seven percent Tuesday on obesity data, tagged forty three ten Wednesday, and is down almost twelve percent this morning because the company priced seven point eight six million shares at thirty five dollars plus two hundred twenty five million of two percent converts into its own spike. The data pop was the financing window. Third, Coinbase finally tested the level. One ninety six twenty one was named Monday and never traded until Wednesday, when the low printed one ninety five sixty four and it closed back above at one ninety eight thirteen. First real test, held. Monday's gap buyer at two oh four thirty one is down four point two percent. Two misses to own. Vicor was called twice and never given a level, and it ran twenty six and a half percent in two sessions. Exxon's break was called right and the bounce was missed. A correct direction with no level on the other side is half a plan."
+  }
+ ]
+}
