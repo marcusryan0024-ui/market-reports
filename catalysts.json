@@ -421,7 +421,7 @@
    "type": "earnings_call",
    "date": "2026-09-30",
    "time_ct": "after close",
-   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed \u2014 headline risk lands the same day as the print.",
+   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed — headline risk lands the same day as the print.",
    "source": "FlowMS morning newsletter 2026-09-18",
    "verified": true
   },
@@ -584,6 +584,86 @@
    "note": "Remlifanserin 60mg MISSED statistical significance on the Phase 2 RADIANT primary endpoint in Alzheimer's disease psychosis.",
    "source": "CNBC/Briefing premarket images, 2026-09-24",
    "verified": true
+  },
+  {
+   "ticker": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "type": "investor_day",
+   "date": "2026-09-30",
+   "time_ct": "10:30am CT (11:30 ET)",
+   "note": "NETWORKING INVESTOR DAY (webcast). Implied straddle 7.0%, option volume 79,097, cap $83.5B. THE STACK: this lands the SAME DAY as MU fiscal Q4 and the government-funding deadline, and HPE is the name the Options Above Average filter caught at 16.1x with a 77% bullish lean the morning BEFORE its +7.69% session on 9/17 - on a day its only calendar item was a dividend. Now it has a dated catalyst. Price is coiling under resistance: 9/24 ran 61.06 to 65.48 and closed 63.52; 9/25 high 65.65, closed 62.94. 65.65 is the level. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "VKTX",
+   "name": "Viking Therapeutics",
+   "type": "conference",
+   "date": "2026-09-29",
+   "time_ct": null,
+   "note": "TWO events 9/29-9/30: William Blair Biotech Conference (investor conference participation) AND the Second Annual Klotho Conference data presentation. Implied straddle 7.1%, option volume 41,445, cap $4.1B. Lands five sessions after +35.7% on VK2735 obesity data (9/22) and three after it priced 7.86M shares at $35 plus $225M of 2% converts into that spike (9/24). THE OFFERING PRICE IS HOLDING AS SUPPORT: 9/24 low 35.11, 9/25 low 35.10, closed 35.56. Two tests, two holds. $35 is the line and it was set by the company. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "MSTR",
+   "name": "Strategy (MicroStrategy)",
+   "type": "conference",
+   "date": "2026-10-01",
+   "time_ct": null,
+   "note": "AI Transformation Forum Series. Implied straddle 7.0%, and OPTION VOLUME 806,260 - by far the most liquid chain on the whole week, ~3x AVGO and ~6x NVO. A \"forum\" is a soft catalyst, so this is on the list for LIQUIDITY, not for the event: a deep chain is what makes an affordable OTM wing actually buyable. Bitcoin proxy - ran +16.39% on 9/18 with BTC at $85,229. Closed 9/25 at 158.61, cooling from the 9/24 high of 165.14. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "MDB",
+   "name": "MongoDB",
+   "type": "investor_day",
+   "date": "2026-09-29",
+   "time_ct": "10:00am-2:30pm CT (11:00-3:30 ET)",
+   "note": "MongoDB INVESTOR DAY, a real multi-hour event with a defined window. Implied straddle 7.3%, option volume 15,652, cap $33B. READ IT THROUGH THE INVESTOR-DAY STUDY (n=5): 4 of 5 were sell-the-news and 3 of 5 gapped up and closed BELOW the open - ON, INTU and ONON have each confirmed it inside a month. The play is the fade, not the pop, and volume in the first thirty minutes is the tell. Already soft into it: closed 9/25 at 410.44, -2.60%, after a wide 432.86/409.18 range. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly",
+   "type": "conference",
+   "date": "2026-09-28",
+   "time_ct": null,
+   "note": "THE GLP-1 CLUSTER, 9/28-10/1. LLY presents at the 62nd EASD (European Association for the Study of Diabetes) with symposia on 9/28, 9/30 and 10/1, AND at the Second Annual Klotho Conference - while NVO (option volume 124,789) and VKTX present at the SAME Klotho conference. EASD is where GLP-1 data actually lands. Live sector fight: VKTX posted 22% placebo-adjusted weight loss with less-frequent dosing on 9/22, NVO closed -7.96% on its own 9/21 capital markets day where the CEO flagged loss of US semaglutide exclusivity in 2032. Three names, one venue, one week. LLY straddle only 3.5% - the cheap implied move is on the mega-cap, the violence is in VKTX. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "type": "conference",
+   "date": "2026-09-29",
+   "time_ct": null,
+   "note": "Explore on Tour 2026 / VMware Explore on Tour, 9/29 through 10/2. Option volume 283,600, cap $1.7T, but implied straddle only 2.7-3.5% - a multi-day training roadshow, NOT a single-point catalyst. On the list only because AVGO sits in the memory complex that MU reports into on 9/30, and because the chain is deep. Do not trade the conference; trade the MU read-through if there is one. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": false
+  },
+  {
+   "ticker": "BMNR",
+   "name": "Bitmine Immersion Technologies",
+   "type": "conference",
+   "date": "2026-09-30",
+   "time_ct": "10:20am CT (11:20 ET)",
+   "note": "Korea Blockchain Week 2026 KEYNOTE. Implied straddle 7.8%, option volume 227,238, cap $16.6B - unusually deep chain for the size. Crypto proxy into a week where bitcoin printed $85,229 on 9/21 (highest since Jan 29). Closed 9/25 at 27.57. Speculative, but a keynote is a single-point event with a time on it, unlike most of this calendar. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "RGLD",
+   "name": "Royal Gold",
+   "type": "conference",
+   "date": "2026-09-28",
+   "time_ct": "2:50pm CT (3:50 ET)",
+   "note": "Mining Forum Americas 2026 fireside chat. Implied straddle 6.7%, cap $21.4B, but option volume only 330 - TOO THIN TO TRADE. Listed so it is not mistaken for an opportunity: gold futures hit 4,285.0 on 9/24, the lowest since Sept 16, and the miners were wearing it (KGC -4.13%). Context, not a setup. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
+   "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
   }
  ],
  "universe": {
@@ -688,6 +768,22 @@
      "Bessent testimony 9/15"
     ],
     "method": "CORRECTIVE sweep 2026-09-14 over the SAME 9/13-10/13 window already recorded as swept. The 9/13 category sweep was searched via general web queries and MISSED all six of these, including two tier-one macro releases (August Retail Sales the morning of the decision, Bank of England the next day) and INTU's investor day - a name that sits in our own investor-day study. They were caught only because Marcus supplied the weekly Catalyst Watch newsletter plus an events-calendar screenshot. LESSON: general web search is NOT an adequate sweep instrument. It surfaces what was PRESS-RELEASED and misses the scheduled calendar - macro releases, conference slates, regulatory hearings, and the long tail of investor days. The weekly catalyst newsletter and a real events calendar are the primary instruments; web search is only for confirming a specific event against company IR."
+   },
+   {
+    "on": "2026-09-26",
+    "scope": "universe",
+    "through": "2026-10-02",
+    "found": [
+     "HPE",
+     "VKTX",
+     "MSTR",
+     "MDB",
+     "LLY",
+     "AVGO",
+     "BMNR",
+     "RGLD"
+    ],
+    "method": "Market Chameleon Company Events Calendar, day-by-day tabs for 9/28, 9/29, 9/30, 10/1 and 10/2, screenshotted by Marcus 2026-09-26 and read event-by-event. 780 listed rows across the five days (124/221/232/123/80). Filtered on three tests: (1) is it a single dated event rather than a multi-week marketing date-range, (2) does the option chain carry enough volume to buy an OTM wing, (3) is there a mechanism by which the stock moves on it. ~10 of 780 survived. Cross-checked every survivor's price against Robinhood settled closes for 9/24 and 9/25 before ranking. MU 9/30 earnings was already in the file and is NOT on this calendar - the events calendar does not carry earnings."
    }
   ],
   "checked_through": "2026-10-13",
