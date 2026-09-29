@@ -421,7 +421,7 @@
    "type": "earnings_call",
    "date": "2026-09-30",
    "time_ct": "after close",
-   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed — headline risk lands the same day as the print.",
+   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed \u2014 headline risk lands the same day as the print.",
    "source": "FlowMS morning newsletter 2026-09-18",
    "verified": true
   },
@@ -663,6 +663,56 @@
    "time_ct": "2:50pm CT (3:50 ET)",
    "note": "Mining Forum Americas 2026 fireside chat. Implied straddle 6.7%, cap $21.4B, but option volume only 330 - TOO THIN TO TRADE. Listed so it is not mistaken for an opportunity: gold futures hit 4,285.0 on 9/24, the lowest since Sept 16, and the miners were wearing it (KGC -4.13%). Context, not a setup. TIME IS AS SHOWN ON MARKET CHAMELEON (assume ET; CT is one hour earlier) - CONFIRM before trading the minute.",
    "source": "Market Chameleon Company Events Calendar, screenshotted 2026-09-26",
+   "verified": true
+  },
+  {
+   "ticker": "SNPS",
+   "name": "Synopsys",
+   "type": "investor_day",
+   "date": "2026-09-30",
+   "time_ct": null,
+   "note": "INVESTOR DAY, New York City - confirmed via 8-K, announced alongside Q3 FY26 results on 2026-08-26. BNP Paribas UPGRADED on it, calling the investor day a potential \"positive catalyst.\" Enters WEAK, not extended: rejected from 445.92 on 9/25, closed a 2 Down at 417.61 on 9/28 under Friday's 424.21 low, and traded 407.08 on 9/29. That is the INTU shape from 9/17 - the one genuine counterexample in the investor-day study, which otherwise runs 4 of 5 sell-the-news. Volume in the first thirty minutes separates them. WAS MISSING from the 9/26 week-ahead map.",
+   "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
+   "verified": true
+  },
+  {
+   "ticker": "MDB",
+   "name": "MongoDB",
+   "type": "analyst_day",
+   "date": "2026-09-29",
+   "time_ct": "10:00am",
+   "note": "Analyst day, ~10:00 CT - ONE DAY after the CEO left for Meta, which took the stock -18.5% on 9/28 (410.44 -> 334.68). Monday was a 2 DOWN, not a Failed 2D: it broke Friday's 409.18 low to 300.00 and closed 334.68, still far below the broken low. But it closed +11.6% off its own low on 17.9M shares against 1.4M Friday (13x) - real participation. Trigger is 344.30 (Monday's high), not 344.80.",
+   "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
+   "verified": true
+  },
+  {
+   "ticker": "FICO",
+   "name": "Fair Isaac",
+   "type": "regulatory",
+   "date": "2026-09-29",
+   "time_ct": null,
+   "note": "FHFA director Bill Pulte moved VantageScore onto the EXISTING FICO Classic mortgage pricing grid - Fannie and Freddie go to ONE pricing grid instead of two. FICO -19.9% to 673.50. Same class as the CMS lab-rate cut that hit DGX/LH on 9/22: a franchise repricing, which reprices once and holds, unlike a downgrade the tape can vote against. The other side trades too - RKT +1.9% on adopting VantageScore 4.0 as its default model in Q4.",
+   "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
+   "verified": true
+  },
+  {
+   "ticker": "QURE",
+   "name": "uniQure",
+   "type": "trial_data",
+   "date": "2026-09-29",
+   "time_ct": "before the open",
+   "note": "AMT-130 Huntington's data at 36 months. SOURCE CONFLICT WORTH REMEMBERING: one premarket feed listed QURE GAPPING UP +2.3% citing \"slowed disease progression 80% on cUHDRS at 36 months\" (the company's framing); another had it -42.6% on \"messy four-year data.\" The tape settled it at -36.4% (39.11 -> 24.86). A 39-point disagreement between two premarket sources is not a rounding difference - check the tape.",
+   "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
+   "verified": true
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices",
+   "type": "m_and_a",
+   "date": "2026-09-29",
+   "time_ct": null,
+   "note": "Acquiring World Labs for $8.2B all-stock; Fei-Fei Li joins AMD as chief scientist. Lands one week after AMD crossed $1T market cap on the agentic-AI-needs-CPUs thesis (+9.95% on 9/21 off Meta Muse traction).",
+   "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
    "verified": true
   }
  ],

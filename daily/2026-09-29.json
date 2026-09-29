@@ -1,0 +1,475 @@
+{
+ "title": "Premarket &middot; Tuesday 9/29",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>CCL beat its expected move and held it.</b> Up <b>+11.9% at 24.77</b>, through the <b>24.18</b> entry on the sheet before the bell and still there twelve minutes in. <b>The rest of the prep needs two corrections.</b> SPY is written as an inside day and is not &mdash; Monday's low <b>763.72</b> broke Friday's <b>766.29</b> and closed under it, which is a <b>2 Down</b>. And MDB is written as F2D; on the daily it is a clean <b>2 Down</b> that closed <b>334.68</b>, far below the 409.18 low it broke.",
+  "summary": "<b>The distinction on MDB matters because a Failed 2D is a bullish reversal and a 2 Down is not.</b> The bullish case is real but it comes from the intrabar recovery &mdash; it traded to <b>300.00</b> and closed <b>334.68</b>, <b>+11.6% off its own low on 17.9M shares against 1.4M Friday</b> &mdash; not from the Strat label. <b>The trigger is 344.30, not 344.80</b>: Monday's high was 344.3016, so the sheet's number sits 50 cents above it, which is the safer side to be wrong on. <b>MDB is 326.11 now, &minus;2.6%, and 5.6% below that line.</b> The event is around 10:00 and the sheet says let the market show its hands. It has not yet."
+ },
+ "overview": "<b>Monday opened the quarter's last week on the back foot.</b> S&amp;P <b>&minus;0.8% to 7,684</b>, Nasdaq &minus;0.9%, Dow &minus;0.7%, with only healthcare, staples and energy green. Two dials did it: the <b>10-year pushed to 5.24%</b>, another high since <b>2007</b>, and WTI spiked above <b>$96</b> intraday after Trump rejected Tehran's ceasefire proposal.<br><br><b>Both dials eased overnight.</b> <b>WTI is back near $92</b> on a report that Middle East oil exports hit their highest level since the war began &mdash; Iran losing its leverage over Hormuz &mdash; and yields are retreating. <b>USO is &minus;2.8%</b>, which is the sheet's bullish tell. <b>SPY has not confirmed it: flat at 765.46.</b><br><br><b>Three things repriced on rules, not sentiment.</b> <b>FICO &minus;19.9% to 673.50</b> &mdash; FHFA folded VantageScore onto the existing FICO Classic mortgage pricing grid. <b>QURE &minus;36.4%</b> on Huntington's data the market read as a failure. <b>MDB &minus;18.5% Monday</b> on its CEO leaving for Meta, the day before its own analyst day.<br><br><b>AI got louder in both directions.</b> <b>AMD is buying World Labs for $8.2B all-stock</b> with Fei-Fei Li joining as chief scientist. <b>OpenAI scrapped its next model over safety</b>, with Dev Day at <b>12:00 CT</b>. <b>Anthropic's IPO filing warns AI poses &ldquo;existential risks to humanity&rdquo;</b> &mdash; revenue up twelvefold to $4.6B against a <b>$42B net loss</b>.<br><br><b>Today:</b> Case-Shiller and FHFA <b>8:00</b> &middot; consumer confidence and JOLTS <b>9:00</b> &middot; <b>five Fed speakers</b> &mdash; Bowman 10:00, Barr 11:40, Goolsbee 12:00, Williams 13:00, Waller 14:00. <b>China PMIs tonight.</b> <b>Tomorrow is the one: PCE, ADP, quarter-end, the funding deadline, MU after the close with an analyst day, and investor days at HPE and SNPS.</b>",
+ "watchlist": {
+  "stamp": "LIVE 8:45AM CT &mdash; 15 MIN INTO THE SESSION",
+  "em_label": "MARKS VS MONDAY 9/28 CLOSE &mdash; CCL HELD ITS GAP, THE REST OF THE SHEET IS WAITING",
+  "groups": [
+   [
+    "THE SHEET",
+    [
+     ["CCL", 22.14, 24.77],
+     ["AAOI", 96.82, 99.01],
+     ["NTAP", 204.41, 205.28],
+     ["HOOD", 116.46, 117.4],
+     ["MDB", 334.68, 326.11]
+    ]
+   ],
+   [
+    "TOMORROW'S EVENTS",
+    [
+     ["HPE", 62.63, 62.53],
+     ["SNPS", 417.61, 407.08],
+     ["MU", 1053.98, 1074.04]
+    ]
+   ],
+   [
+    "ETFs",
+    [
+     ["SPY", 765.61, 765.46],
+     ["QQQ", 736.53, 737.89],
+     ["USO", 150.01, 145.88]
+    ]
+   ],
+   [
+    "RULE REPRICINGS",
+    [
+     ["QURE", 39.11, 24.86],
+     ["FICO", 840.89, 673.5]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     ["CAT", 819.95, 827.11],
+     ["ORCL", 132.6, 133.56],
+     ["AMGN", 418.13, 420.46],
+     ["AMD", 607.87, 608.81],
+     ["GOOGL", 342.75, 340.46],
+     ["MSFT", 509.22, 504.68]
+    ]
+   ],
+   [
+    "THE GAPPERS",
+    [
+     ["SANG", 3.59, 4.94],
+     ["IOVA", 10.99, 13.61],
+     ["JELD", 1.77, 2.25],
+     ["SMMT", 15.48, 16.9],
+     ["AIR", 115.09, 108.24]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "CCL",
+   "+11.9%",
+   "Beat the expected move &middot; 24.18 through",
+   "The sheet called it: <b>&ldquo;beat expected move (ripping),&rdquo; $24.18 calls entry, 10-minute ORB.</b> It opened through the level and is <b>24.77</b> fifteen minutes in, holding the gap rather than fading it. Monday's high was <b>22.655</b>, so the entire prior range is beneath. <b>The 10-minute opening range is now the only structure that exists</b> &mdash; there is no daily level up here. <b>Hold above the ORB high is the continuation; loss of the ORB low with the gap this size is the exit, not a dip.</b>"
+  ],
+  [
+   "T2",
+   "g",
+   "AAOI",
+   "+2.3%",
+   "Straddle working &middot; already positioned",
+   "Already in the straddle on <b>flow + event</b>, and the instrument is right: Monday's range was <b>93.62&ndash;102.43</b>, <b>9.1% of price</b>, on <b>8.2M shares against 5.5M</b> Friday. That is the volatility a straddle needs to pay for itself. It closed <b>96.82</b>, a clean 2 Down under Friday's 99.97 low, and is <b>99.01</b> now &mdash; <b>back inside Monday's range and pushing the upper half</b>. <b>The plan is let it play out; nothing here argues with that.</b>"
+  ],
+  [
+   "T3",
+   "y",
+   "MDB",
+   "&minus;2.6%",
+   "2 Down, not F2D &middot; 344.30 is the line",
+   "Event around <b>10:00</b>, and the sheet's instruction is the right one: <b>pay attention to 10&ndash;11:00 and let the market show its hands.</b> It has not. <b>326.11, down 2.6%, and 5.6% below the 344.30 trigger.</b> Monday was a 2 Down that closed <b>+11.6% off its 300.00 low</b> on <b>13x</b> normal volume &mdash; real buying, wrong label. <b>Calls over 344.30 still stands. Nothing between here and there.</b> The CEO left for Meta the day before this."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; TUE 9/29 &middot; DATA 9:00 &middot; ENTRY AFTER",
+  "lead": "&#9888; <b>&ldquo;Data today at 9am, entry after.&rdquo;</b> Consumer confidence and JOLTS at 9:00, then five Fed speakers through the afternoon. <b>Tomorrow is PCE</b> &mdash; the sheet's own note, and it is right: that plus MU is what moves this market. <b>Two structure labels on the sheet need correcting before they get traded off.</b>",
+  "cards": [
+   [
+    "SPY",
+    "Not an inside day",
+    "r",
+    "1",
+    "The sheet has <b>&ldquo;SPY currently inside day.&rdquo;</b> It is not. Monday's low <b>763.72</b> broke Friday's <b>766.29</b>, and it closed <b>765.61</b> &mdash; under it.",
+    "<b>That is a 2 Down, and the level is 766.29 overhead.</b> Flat at 765.46 now, still beneath. <b>Reclaiming 766.29 is the first bullish thing SPY can do today</b>; without it the break stands.",
+    "The high side <b>was</b> inside &mdash; 769.54 against Friday's 772.28 &mdash; which is almost certainly what it looked like. <b>One side inside is not an inside bar.</b>",
+    "<b>Data at 9:00, so be careful</b> is the sheet's own note and it applies double: an inside day coils and a 2 Down is already committed. <b>Different risk, different plan.</b>",
+    "<b>USO down = bullish market</b> is holding on the oil leg &mdash; USO &minus;2.8% &mdash; but SPY has not confirmed. <b>The tell has fired and the market has not followed yet.</b>"
+   ],
+   [
+    "MDB",
+    "2 Down, not F2D &middot; &minus;2.6%",
+    "y",
+    "1",
+    "<b>Monday broke Friday's 409.18 low all the way to 300.00 and closed 334.68 &mdash; still far below it.</b> A Failed 2D has to close back <b>above</b> the low it broke. This did not.",
+    "<b>Calls over 344.30</b> &mdash; Monday's actual high was <b>344.3016</b>, so the sheet's 344.80 is 50 cents above. <b>That is the safe side to err on; keep it.</b> It is <b>326.11</b> now, 5.6% away.",
+    "<b>The bullish read survives the correction, just from different evidence.</b> It closed <b>+11.6% off its own low</b> on <b>17.9M shares against 1.4M Friday</b> &mdash; 13x. That is participation, not a bounce.",
+    "<b>Event around 10:00</b>, one day after the CEO left for <b>Meta</b>. The analyst day is now a Q&amp;A about succession as much as a product event.",
+    "<b>&ldquo;Let the market show its hands&rdquo; is the whole card.</b> Pay attention 10&ndash;11:00. Below 344.30 there is no trade, and the gap is wide."
+   ],
+   [
+    "CCL",
+    "Ripping &middot; +11.9%",
+    "g",
+    "1",
+    "<b>Called exactly.</b> Beat the expected move, <b>24.18 calls entry</b>, and it opened through. <b>24.77</b> fifteen minutes in, holding rather than fading. Q3 EPS and the guide did it.",
+    "<b>10-minute ORB is the structure now.</b> Monday's entire range topped at <b>22.655</b>, so nothing on the daily is relevant up here. <b>ORB high holds it, ORB low ends it.</b>",
+    "<b>The sheet also flagged &ldquo;CCL delayed report sometimes&rdquo; and kept it top of the list.</b> That is the part that earned this &mdash; the name was pre-committed before the number printed.",
+    "A <b>+11.9%</b> gap that is still <b>+11.9%</b> a quarter-hour in is a different animal from one already giving back. <b>Nothing has faded yet.</b>",
+    "<b>Do not confuse holding with safety.</b> A gap this size has no support beneath it until 22.655 &mdash; an 8.5% air pocket. Size for the gap, not for the chart."
+   ],
+   [
+    "AAOI",
+    "Straddle live &middot; +2.3%",
+    "g",
+    "2",
+    "Already in it. <b>Reason for trade: flow + event</b>, and the volatility is there &mdash; Monday ranged <b>93.62&ndash;102.43</b>, <b>9.1% of price</b>, on 1.5x volume.",
+    "<b>Let it play out</b> is the plan and there is nothing to change. <b>99.01 now, back inside Monday's range.</b> A straddle does not need a direction, it needs range, and it is getting it.",
+    "Monday was a clean 2 Down &mdash; broke Friday's 99.97 low, closed 96.82 beneath it &mdash; then reversed into today. <b>That is the two-sided tape a straddle is built for.</b>",
+    "The optical and AI-interconnect names have been moving together. <b>Watch whether a strong MU print tomorrow drags this one.</b>",
+    "<b>The discipline on a working straddle is not touching it.</b> The sheet says let it play out; that is the entire instruction."
+   ],
+   [
+    "HPE",
+    "Investor day tomorrow &middot; flat",
+    "b",
+    "2",
+    "<b>&ldquo;Hasn't made a big move pre-market&rdquo; is confirmed</b> &mdash; 62.53, <b>&minus;0.16%</b>. Monday was a 2 Down that closed 62.63, under Friday's 62.88 low.",
+    "<b>Plan on the sheet: straddle EOD today if it hits the volume scanner, otherwise trade the reaction.</b> That is the right order given the backtest below.",
+    "<b>The backtest is not encouraging for the pop.</b> HPE's <b>Oct 15 2025</b> analyst meeting ran <b>+5.2% intraday during the webcast</b>, closed flat, then dropped <b>10.1%</b> the next session.",
+    "<b>Caveat that matters: tomorrow is a Networking Investor Day, not the annual Securities Analyst Meeting.</b> Narrower scope, and n=1 either way.",
+    "<b>65.65 is still the level</b> &mdash; Friday's high, 5% above here. It has not been near it since."
+   ],
+   [
+    "SNPS",
+    "Investor day tomorrow &middot; &minus;2.5%",
+    "r",
+    "2",
+    "<b>Confirmed: Synopsys Investor Day, September 30, New York City.</b> BNP Paribas upgraded on it, calling it a potential <b>&ldquo;positive catalyst.&rdquo;</b>",
+    "<b>It goes in weak and is getting weaker: 407.08, &minus;2.5%.</b> Monday was a 2 Down closing 417.61 under Friday's 424.21 low, after rejecting from <b>445.92</b> Friday.",
+    "<b>The sheet's read is &ldquo;high alert, a lot of flow last week, straddle if volume picks up&rdquo;</b> &mdash; and the honest caveat on it is also the sheet's: <b>not the best contracts/spreads.</b>",
+    "<b>Enters weak rather than extended is the INTU shape from 9/17</b>, which is the one genuine counterexample in our investor-day study. The rest ran 4 of 5 sell-the-news.",
+    "<b>Two credible reads pointing opposite ways.</b> BNP says catalyst, the study says fade. <b>Volume in the first thirty minutes separates them</b> &mdash; that was the INTU tell too."
+   ],
+   [
+    "NTAP",
+    "Strongest structure &middot; +0.4%",
+    "g",
+    "3",
+    "<b>On watch, has event</b> &mdash; and it is the best bar on the sheet. Monday broke Friday's <b>201.39</b> high and closed <b>204.41 above it</b>. A 2 Up that holds is the version that carries.",
+    "<b>204.84 is Monday's high and the trigger; 199.75 is the low that ends it.</b> 205.28 now, already through. <b>A hold above 204.84 into the business update is the cleanest long structure available.</b>",
+    "It is the only name on the sheet whose prior session closed <b>above</b> the range it broke. CCL gapped, AAOI and MDB and HPE and SNPS and HOOD all printed 2 Downs.",
+    "Storage reads through to the memory complex, and <b>MU reports tomorrow</b>. That is the read-through worth holding it for.",
+    "<b>No level above to fight.</b> The risk is that a business update is a soft catalyst &mdash; it can pass without a move at all."
+   ],
+   [
+    "HOOD",
+    "Section 8 &middot; +0.8%",
+    "y",
+    "3",
+    "<b>Check whether volume and flow come in, and whether it hits the scanner.</b> 117.40 now, +0.8%, and the structure is a 2 Down &mdash; Monday broke Friday's 117.53 low and closed 116.46.",
+    "<b>117.53 is the level, and it is sitting right on it.</b> Testing a broken low from beneath is the definition of undecided. <b>Reclaim and hold it or there is no trade.</b>",
+    "<b>The sheet's own fallback is the right one: if the flow does not come, just trade the event reaction tomorrow.</b> No scanner hit, no position.",
+    "Crypto has cooled &mdash; three sessions of lower closes from 120.82 &mdash; so the tailwind that carried it through the SEC exemption is gone for now.",
+    "<b>This is a conditional, not a setup.</b> It becomes one only if volume shows up, and volume is the whole condition."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/28",
+   "tag": "DONE &middot; RATES AND OIL",
+   "accent": "done",
+   "econ": [
+    ["&mdash;", "<b>10-year to 5.24%</b> &mdash; another high since <b>2007</b>"],
+    ["&mdash;", "WTI spiked above <b>$96</b> intraday, settled near $93"],
+    ["&mdash;", "<b>S&amp;P &minus;0.8% to 7,684</b> &middot; Nasdaq &minus;0.9% &middot; Dow &minus;0.7%"]
+   ],
+   "earnings": [
+    ["&mdash;", "Quiet docket"]
+   ],
+   "events": [
+    ["MDB", "<b>&minus;18.5%</b>", "<b>CEO leaving for Meta</b>, the day before its own analyst day"],
+    ["NVDA", "+2%", "<b>$150B buyback</b> &mdash; largest single authorization in history"],
+    ["KOD", "<b>+150%</b>", "Phase 3 DAYBREAK data &mdash; ran all session from +60% premarket"]
+   ]
+  },
+  {
+   "day": "TUE 9/29",
+   "tag": "TODAY &middot; DATA AT 9:00",
+   "accent": "next",
+   "econ": [
+    ["8:00a", "Case-Shiller &middot; FHFA house price index"],
+    ["9:00a", "<b>Consumer confidence</b> (~89) &middot; <b>JOLTS</b> (~7.2M)"],
+    ["&mdash;", "<b>Five Fed speakers</b> &mdash; Bowman, Barr, Goolsbee, Williams, Waller"],
+    ["&mdash;", "<b>China PMIs tonight</b> &middot; 10-yr easing to 5.21%"]
+   ],
+   "earnings": [
+    ["CCL", "AM &middot; <b>+11.9%</b>, beat the expected move"],
+    ["KMX", "AM &middot; beat by <b>$0.43</b>"],
+    ["CNXC", "PM"]
+   ],
+   "events": [
+    ["MDB", "10:00", "<b>Analyst day</b> &mdash; one day after the CEO news"],
+    ["OpenAI", "12:00", "<b>Dev Day keynote</b> &mdash; after scrapping its next model on safety"],
+    ["Trump", "WH", "<b>AI CEOs</b> &mdash; Huang, Zuckerberg, Pichai, Amodei"]
+   ]
+  },
+  {
+   "day": "WED 9/30",
+   "tag": "FIVE THINGS, ONE DAY",
+   "accent": "macro",
+   "econ": [
+    ["7:30a", "<b>August PCE</b> &mdash; vs last month's 3.7% headline / 3.3% core"],
+    ["7:15a", "<b>ADP payrolls</b>"],
+    ["&mdash;", "<b>Government funding deadline</b> &middot; <b>quarter-end</b>"]
+   ],
+   "earnings": [
+    ["MU", "PM &middot; <b>fiscal Q4 AND an analyst day</b>"],
+    ["JBL", "AM &middot; <b>confirmed</b>"]
+   ],
+   "events": [
+    ["HPE", "10:30", "<b>Networking Investor Day</b> &mdash; 65.65 is the level"],
+    ["SNPS", "NYC", "<b>Investor Day</b> &mdash; BNP calls it a positive catalyst"],
+    ["MU", "$5.1B", "<b>Tops cumulative dark pool</b>, ask side, into the print"]
+   ]
+  },
+  {
+   "day": "THU 10/1",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    ["9:00a", "<b>ISM manufacturing</b>"],
+    ["7:30a", "Jobless claims"]
+   ],
+   "earnings": [
+    ["NKE", "PM &middot; <b>confirmed</b>"]
+   ],
+   "events": [
+    ["MSTR", "10/1", "AI Transformation Forum &mdash; <b>806k option volume</b>"],
+    ["NOW", "10/1", "Fortune AIQ Summit"]
+   ]
+  },
+  {
+   "day": "FRI 10/2",
+   "tag": "THE WEEK'S BIGGEST RISK",
+   "accent": "",
+   "econ": [
+    ["7:30a", "<b>September jobs report</b> &mdash; August was +162k, unemployment 4.1%"],
+    ["&mdash;", "<b>October hike odds near 69%</b>, up ~19 points in a week"]
+   ],
+   "earnings": [
+    ["&mdash;", "Quiet docket"]
+   ],
+   "events": [
+    ["NKE", "Reaction", "The gap sets the level"],
+    ["MU", "Expiry", "<b>$1000C dated 10/02 expires</b> &mdash; deep in the money"]
+   ]
+  }
+ ],
+ "charts": [
+  ["CCL", "charts/CCL_2026-09-29.png", "+11.9% &middot; beat the expected move"],
+  ["MDB", "charts/MDB_2026-09-29.png", "2 Down, not F2D &middot; 344.30"],
+  ["AAOI", "charts/AAOI_2026-09-29.png", "Straddle live &middot; 9.1% range Monday"],
+  ["SNPS", "charts/SNPS_2026-09-29.png", "Investor day 9/30 &middot; enters weak"],
+  ["HPE", "charts/HPE_2026-09-29.png", "Investor day 9/30 &middot; 65.65"]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "LIVE 8:45AM CT",
+  "groups": [
+   [
+    "THE GAPPERS",
+    [["SANG", 37.47], ["IOVA", 23.84], ["JELD", 27.12], ["CCL", 11.88], ["SMMT", 9.17]]
+   ],
+   [
+    "RULE REPRICINGS",
+    [["QURE", -36.44], ["FICO", -19.9]]
+   ],
+   [
+    "THE SHEET",
+    [["AAOI", 2.26], ["HOOD", 0.81], ["NTAP", 0.43], ["MDB", -2.56]]
+   ],
+   [
+    "TOMORROW'S EVENTS",
+    [["MU", 1.9], ["HPE", -0.16], ["SNPS", -2.52]]
+   ],
+   [
+    "DEFENSIVE SIZE",
+    [["CAT", 0.87], ["ORCL", 0.72], ["AMGN", 0.56]]
+   ],
+   [
+    "MEGA CAP SOFT",
+    [["NFLX", 2.0], ["AMD", 0.15], ["PEP", -0.6], ["GOOGL", -0.67], ["MSFT", -0.89]]
+   ],
+   [
+    "OIL EASING",
+    [["USO", -2.75]]
+   ],
+   [
+    "THE INDEX",
+    [["QQQ", 0.18], ["SPY", -0.02]]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 9/28 CLOSE &amp; CANDLE &middot; PCE AND MU TOMORROW",
+  "rows": [
+   [
+    "SPY",
+    "T1",
+    "r",
+    "2 Down &mdash; the sheet says inside day",
+    "r",
+    "Monday's low <b>763.72</b> broke Friday's <b>766.29</b> and it closed <b>765.61</b>, under it. <b>The high side was inside (769.54 vs 772.28), which is what it looks like &mdash; but one side inside is not an inside bar.</b>",
+    "Mon close <b>765.61</b> &middot; <b>&minus;0.74%</b> &middot; live <b>765.46</b>, &minus;0.02%",
+    "<b>An inside day coils and a 2 Down is already committed.</b> Different risk, different plan, and data lands at 9:00.",
+    "<b>766.29 is the level overhead.</b> Reclaiming it is the first bullish thing SPY can do today."
+   ],
+   [
+    "MDB",
+    "T1",
+    "y",
+    "2 Down with a real reversal inside it",
+    "y",
+    "Broke Friday's <b>409.18</b> low to <b>300.00</b> and closed <b>334.68</b> &mdash; <b>still far below</b> the broken low, so not a Failed 2D. But it closed <b>+11.6% off its own low</b> on <b>17.9M shares against 1.4M</b>.",
+    "Mon close <b>334.68</b> &middot; <b>&minus;18.5%</b> &middot; live <b>326.11</b>, &minus;2.6%",
+    "<b>The CEO left for Meta</b> the day before the analyst day. 13x volume on the flush is participation, not a bounce.",
+    "<b>344.30 is the trigger</b> &mdash; Monday's high, 50 cents under the sheet's 344.80. <b>5.6% away and moving off it.</b>"
+   ],
+   [
+    "CCL",
+    "T1",
+    "g",
+    "Gapped clear of everything",
+    "g",
+    "Opened through the <b>24.18</b> entry and is <b>24.77</b> fifteen minutes in. Monday's entire range topped at <b>22.655</b>, so <b>there is no daily structure up here at all</b>.",
+    "Mon close <b>22.14</b> &middot; <b>&minus;0.49%</b> &middot; live <b>24.77</b>, <b>+11.88%</b>",
+    "<b>The 10-minute opening range is the only level that exists.</b> That is exactly what the sheet specified.",
+    "<b>An 8.5% air pocket sits under it to 22.655.</b> Holding is not the same as safe &mdash; size for the gap."
+   ],
+   [
+    "NTAP",
+    "T1",
+    "g",
+    "2 Up that closed above the prior high",
+    "g",
+    "Broke Friday's <b>201.39</b> high and closed <b>204.41 above it</b>. <b>The only name on the sheet whose prior session closed beyond the range it broke</b> &mdash; every other one printed a 2 Down.",
+    "Mon close <b>204.41</b> &middot; <b>+1.62%</b> &middot; live <b>205.28</b>, +0.43%",
+    "Storage reads through to memory, and <b>MU reports tomorrow</b>.",
+    "<b>204.84 up, 199.75 down.</b> Already through the trigger; the risk is a business update passing without a move."
+   ],
+   [
+    "SNPS",
+    "T2",
+    "r",
+    "Weak into its own investor day",
+    "r",
+    "Rejected from <b>445.92</b> Friday, closed a 2 Down at <b>417.61</b> under Friday's 424.21 low, and is <b>407.08</b> now. <b>Investor Day is tomorrow in New York &mdash; confirmed.</b>",
+    "Mon close <b>417.61</b> &middot; <b>&minus;1.91%</b> &middot; live <b>407.08</b>, &minus;2.52%",
+    "<b>BNP Paribas upgraded calling the investor day a potential positive catalyst.</b> Our study runs 4 of 5 sell-the-news.",
+    "<b>Enters weak, not extended</b> &mdash; the INTU shape, the study's one real counterexample. <b>First-thirty-minute volume separates them.</b>"
+   ],
+   [
+    "FICO",
+    "T2",
+    "r",
+    "A rule, not an opinion",
+    "r",
+    "<b>&minus;19.9% to 673.50.</b> FHFA folded <b>VantageScore onto the existing FICO Classic mortgage pricing grid</b> &mdash; Fannie and Freddie move to one grid instead of two.",
+    "Mon close <b>840.89</b> &middot; live <b>673.50</b>, <b>&minus;19.9%</b>",
+    "<b>Same class as the CMS cut that took DGX down last week.</b> A franchise reprices once and holds; a downgrade is an opinion the tape can vote against.",
+    "<b>RKT +1.9% on adopting VantageScore 4.0 as its default.</b> The other side of the same rule is already trading."
+   ],
+   [
+    "QURE",
+    "T3",
+    "r",
+    "Two sources, 39 points apart",
+    "r",
+    "<b>&minus;36.4% to 24.86.</b> One feed lists it <b>gapping up +2.3%</b> on &ldquo;AMT-130 slowed Huntington's progression 80% at 36 months&rdquo;; the other has it <b>&minus;42.6%</b> on the same data.",
+    "Mon close <b>39.11</b> &middot; live <b>24.86</b>, <b>&minus;36.44%</b>",
+    "<b>The gap-up feed printed the company's own framing as a move.</b> The tape read the four-year data as a failure.",
+    "<b>Check the tape before trusting either sheet.</b> A 39-point disagreement between two premarket sources is not a rounding difference."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   ["SANG", 37.47, "<b>BRC Group agreed to acquire Sangoma</b> for $4.925 cash plus 0.04767 BRC shares per share."],
+   ["JELD", 27.12, "Extended 2027 notes and 2028 term loans to <b>2031</b> and added <b>$135M</b> in liquidity. <b>Printed at +7.3% premarket &mdash; it is far bigger now.</b>"],
+   ["IOVA", 23.84, "Higher on earnings. <b>Printed at +5.6% premarket; the open repriced it four times over.</b>"],
+   ["CCL", 11.88, "<b>Beat the expected move.</b> Q3 results and the guide, and it is holding the gap fifteen minutes in."],
+   ["SMMT", 9.17, "<b>AstraZeneca investing $2B</b> via convertible preferred at <b>$18.36/share</b>, plus an expanded ivonescimab collaboration. <b>Note it is trading BELOW the $18.36 investment price.</b>"],
+   ["KMX", 5.83, "<b>Beat by $0.43</b> &mdash; EPS $1.16 against $0.75, revenue $7.88B against $7.03B, units +14.7%. Resuming buybacks in fiscal Q3."],
+   ["PLUG", 3.23, "<b>280 MW electrolyzer supply deal</b> with Arcadia eFuels plus preferred status on a 1 GW pipeline."],
+   ["UEC", 2.17, "Higher on earnings."],
+   ["NFLX", 2.0, "<b>Deutsche Bank to Buy, $95 target</b> &mdash; the other side of the Wells Fargo cut to $57 that took it down 4.7% on 9/18."],
+   ["NVTS", 1.41, "Selected by the <b>US Army</b> to develop and validate domestic <b>10 kV silicon-carbide</b> power semiconductors. <b>Printed +10.4% premarket; almost all of it has gone.</b>"],
+   ["CAT", 0.87, "<b>$50.0M bid print</b> this morning, and <b>$173.5M bid</b> across six sessions &mdash; third on the flow-leaders list."],
+   ["ORCL", 0.72, "<b>The morning's biggest print at $91.3M on the bid</b>, on its conference day."],
+   ["AMGN", 0.56, "<b>Tops the flow-leaders list at $291.0M (mixed)</b>, with $50.0M printed this morning."],
+   ["SPCX", 0.54, "<b>TD Cowen initiated with a Buy, $200 target</b>, citing AI and space exploration."],
+   ["NTAP", 0.43, "<b>A 2 Up that closed above the prior high</b> &mdash; the strongest structure on the prep sheet, with a business update today."],
+   ["AMD", 0.15, "<b>Acquiring World Labs for $8.2B all-stock</b>; <b>Fei-Fei Li joins as chief scientist</b>. Crossed $1T Monday of last week."]
+  ],
+  "bear": [
+   ["QURE", -36.44, "AMT-130 Huntington's data at 36 months. <b>One feed has this gapping UP 2.3% on the company's framing; the tape disagrees by 39 points.</b>"],
+   ["FICO", -19.9, "<b>FHFA moved VantageScore onto the existing FICO Classic mortgage pricing grid</b> &mdash; Fannie and Freddie to one grid instead of two. A franchise repricing, not a downgrade."],
+   ["AIR", -5.95, "<b>Listed at +6.0% on a beat plus a $4B MRO Holdings acquisition &mdash; and it is down 6% in the session.</b> The premarket print did not survive the open."],
+   ["SNPS", -2.52, "Weak into tomorrow's <b>Investor Day</b>, after rejecting from 445.92 Friday."],
+   ["MDB", -2.56, "Analyst day around 10:00, one day after the CEO left for <b>Meta</b>. <b>5.6% below the 344.30 trigger.</b>"],
+   ["USO", -2.75, "<b>Middle East oil exports at their highest since the war began</b> &mdash; Iran losing leverage over Hormuz. WTI back near $92 from above $96 Monday."],
+   ["MTN", -0.9, "FY27 resort EBITDA guidance near <b>$835M</b> against ~$821M consensus, but <b>season-pass units are tracking 12% lower</b> and sales dollars down 6%."],
+   ["MSFT", -0.89, "Soft with the mega-caps into PCE, despite sitting near a six-month high."],
+   ["GOOGL", -0.67, "Presenting at a conference today alongside ORCL."],
+   ["PEP", -0.6, "<b>JPMorgan to Neutral from Overweight</b>, $138."],
+   ["WBD", -0.13, "<b>Argus to Sell from Hold.</b>"],
+   ["HPE", -0.16, "<b>No premarket move, as the sheet said.</b> Networking Investor Day tomorrow; 65.65 is the level, 5% above."]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>For the second straight session Micron owns the board, and it has now been worked from both sides.</b> Monday's largest single-name print ex-ETF was <b>MU $936.1M at the ask, after hours</b> &mdash; after Friday's <b>$1.0B at the bid</b>. That is roughly <b>$2B of single-print size through the dark pool in two sessions, on opposite sides</b>, with the report and an analyst day now one sleep away. <b>MU also tops cumulative flow at $5.1B (ask)</b>, ahead of NVDA $4.8B (mixed) and META $3.7B (ask). <b>Size like this into a binary event is institutions getting positioned, not a forecast</b> &mdash; let Wednesday's price do the talking. <b>The shape of the rest of the list says the same thing: every one of Monday's top ten crossed after hours, and half of it is semis</b> &mdash; MU, AVGO, MRVL, NVDA and LRCX all drew size the night before Micron week's main event. <b>The one genuine cross-current is META: $715.6M at the ask on the dark pool while the options board leaned put-side on the same name</b>, taking both the #2 block at <b>$47.3M puts</b> and the #2 sweep. Flow disagreeing with itself on one name is exactly why a side is a lean and not a verdict.",
+  "right_note": "This morning the tape is defensive: <b>ORCL $91.3M on the bid</b> is the biggest print by a wide margin, on its conference day, with <b>CAT $50.0M (bid)</b> and <b>AMGN $50.0M</b> behind it &mdash; AMGN tops the six-session flow-leaders list at <b>$291.0M</b>, CAT third at $173.5M. <b>Utilities, insurance-adjacent and infrastructure names catching size the day before PCE.</b> Largest block on the board: <b>WPM $54.5M puts</b>, crossing the session the metals led the down-movers.",
+  "dim": false,
+  "chips": [
+   ["MU", "$936.1M", "ask, AH &middot; 2nd day #1", "g"],
+   ["META", "$715.6M", "ask, AH", "g"],
+   ["AVGO", "$685.2M", "mixed, AH", "y"],
+   ["MA", "$600.6M", "ask, AH", "g"],
+   ["MRVL", "$577.0M", "mixed, AH", "y"],
+   ["NVDA", "$389.1M", "bid, AH", "r"],
+   ["LRCX", "$377.4M", "ask, AH", "g"],
+   ["CSCO", "$351.2M", "mixed, AH", "y"],
+   ["TSLA", "$307.9M", "bid, AH", "r"],
+   ["JPM", "$306.3M", "mixed, AH", "y"],
+   ["MU", "$5.1B", "cumulative ask", "g"],
+   ["NVDA", "$4.8B", "cumulative mixed", "y"],
+   ["META", "$3.7B", "cumulative ask", "g"],
+   ["ORCL", "$91.3M", "bid, PRE &middot; morning #1", "r"],
+   ["CAT", "$50.0M", "bid, PRE", "r"],
+   ["AMGN", "$50.0M", "mixed, PRE", "y"],
+   ["SLB", "$50.0M", "ask, PRE", "g"],
+   ["ETN", "$50.0M", "ask, PRE", "g"],
+   ["SO", "$46.7M", "bid, PRE", "r"],
+   ["ADP", "$45.2M", "mixed, PRE", "y"]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Tuesday September twenty ninth. Carnival beat its expected move and held it, up eleven point nine percent at twenty four seventy seven, through the twenty four eighteen entry on the sheet and still there fifteen minutes in. Two corrections to the prep. S P Y is written as an inside day and it is not. Monday's low of seven sixty three seventy two broke Friday's seven sixty six twenty nine and closed under it. That is a two down, and the level overhead is seven sixty six twenty nine. And Mongo D B is written as a failed two D. On the daily it is a clean two down. It broke Friday's low of four oh nine eighteen all the way to three hundred and closed at three thirty four sixty eight, still far below the low it broke. A failed two D has to close back above that low. The distinction matters because a failed two D is a bullish reversal and a two down is not. The bullish case survives, it just comes from different evidence. It closed eleven point six percent off its own low on seventeen point nine million shares against one point four million Friday. That is thirteen times normal, which is participation. The trigger is three forty four thirty, not three forty four eighty. Monday's high was three forty four point three zero. It is three twenty six now, five point six percent below that line, and the event is around ten. One more. Two of your news sources disagree by thirty nine points on uni Q U R E. One lists it gapping up two point three percent on the company's framing of the Huntington's data. The other has it down forty two point six. The tape says down thirty six point four. Check the tape before trusting either. Tomorrow is the one that matters. P C E, A D P, quarter end, the funding deadline, Micron after the close with an analyst day, and investor days at H P E and Synopsys."
+  }
+ ]
+}
