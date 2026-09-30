@@ -1,0 +1,908 @@
+{
+ "title": "Premarket &middot; Wednesday 9/30",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>HPE released its investor day before the event and it is a raise.</b> FY27 Networking revenue growth to <b>high teens&ndash;low 20s</b>, segment margin <b>mid-to-high 20s</b>, Juniper synergies up to <b>$800M</b> from at least $600M &mdash; plus a first <b>AMD Helios order, $1.2B from Vultr</b>. <b>+4.90% at 64.50</b>, and the presentation is still ahead at <b>10:30</b>.",
+  "summary": "<b>That is the exact shape the backtest warns about.</b> HPE's last analyst meeting, <b>Oct 15 2025</b>, ran <b>+5.2% intraday during the webcast</b>, closed flat, then fell <b>10.1%</b> the next session. This time the news is out <b>before</b> the event, so the pop is already spent by the open. <b>65.65 &mdash; Friday's high &mdash; is $1.15 above and remains the level.</b>"
+ },
+ "overview": "<b>Five things land today.</b> <b>PCE 7:30</b> with final GDP, <b>ADP 7:15</b>, <b>quarter-end</b>, the <b>funding deadline</b>, and <b>MU after the close</b> with an analyst day.<br><br><b>The rate picture moved yesterday.</b> Williams said <b>&ldquo;no need for urgency&rdquo;</b> and October odds fell from <b>above 70% to 40&ndash;50%</b>. 10-year down 2bp to <b>5.22%</b>.<br><br><b>Yesterday's calls held.</b> <b>CCL closed +13.4% on 75.5M shares</b>, triple its pace, ORB intact all day. <b>AAOI +4.0%</b>. <b>SPY never reclaimed 766.29</b>, as the correction said. <b>MDB triggered at 344.30, ran 349.00, closed 337.19 &mdash; fired and failed.</b><br><br><b>Also:</b> <b>BA +2.6%</b> on a <b>$20B+</b> Navy F/A-XX win. <b>HOOD +4.7%</b> on Robinhood Agents. <b>MRNA &minus;7.3%</b>, Citi to Sell.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:45AM CT",
+  "em_label": "MARKS VS TUESDAY 9/29 CLOSE &mdash; HPE'S NEWS IS OUT BEFORE ITS OWN EVENT",
+  "groups": [
+   [
+    "TODAY'S EVENTS",
+    [
+     [
+      "HPE",
+      61.49,
+      64.5
+     ],
+     [
+      "MU",
+      1065.08,
+      1081.75
+     ],
+     [
+      "SNPS",
+      415.09,
+      417.0
+     ],
+     [
+      "JBL",
+      318.84,
+      308.1
+     ]
+    ]
+   ],
+   [
+    "STILL WORKING",
+    [
+     [
+      "HOOD",
+      116.22,
+      121.69
+     ],
+     [
+      "CCL",
+      25.11,
+      25.46
+     ],
+     [
+      "AAOI",
+      100.67,
+      101.74
+     ],
+     [
+      "NTAP",
+      209.18,
+      209.2
+     ],
+     [
+      "MDB",
+      337.19,
+      338.3
+     ]
+    ]
+   ],
+   [
+    "ETFs",
+    [
+     [
+      "SPY",
+      764.2,
+      767.41
+     ],
+     [
+      "QQQ",
+      737.93,
+      740.84
+     ],
+     [
+      "USO",
+      143.35,
+      145.51
+     ]
+    ]
+   ],
+   [
+    "THE RED",
+    [
+     [
+      "CNXC",
+      24.88,
+      22.83
+     ],
+     [
+      "MRNA",
+      203.46,
+      188.58
+     ],
+     [
+      "FICO",
+      617.87,
+      600.25
+     ],
+     [
+      "WDAY",
+      189.17,
+      189.17
+     ]
+    ]
+   ],
+   [
+    "SEMIS &amp; DEFENSE",
+    [
+     [
+      "BA",
+      187.68,
+      192.64
+     ],
+     [
+      "NVDA",
+      227.21,
+      228.63
+     ],
+     [
+      "AMD",
+      607.57,
+      609.06
+     ],
+     [
+      "PSKY",
+      9.99,
+      10.1
+     ]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "g",
+   "HPE",
+   "+4.90%",
+   "News out pre-event &middot; 65.65",
+   "The raise is public before the <b>10:30</b> presentation: FY27 Networking growth to <b>high teens&ndash;low 20s</b>, Juniper synergies to <b>$800M</b>, a first <b>$1.2B AMD Helios order</b>. <b>64.50 now; 65.65 is the level, $1.15 up.</b> The backtest is the warning: <b>Oct 2025 ran +5.2% then fell 10.1% next day</b> &mdash; and that pop came <b>during</b> the event, not before it."
+  ],
+  [
+   "T2",
+   "y",
+   "MU",
+   "+1.57%",
+   "Reports tonight &middot; the gap decides",
+   "Consensus <b>~$51B revenue, $31+ adjusted EPS</b>, analyst day attached. <b>Across six straight beats only 2 of 6 closed green, and the open was the high in 5 of 6.</b> Beat size did not predict &mdash; the <b>41.9%</b> beat closed red. <b>Gap direction did: 3 of 3 gap-downs closed red.</b> Median move <b>5.9%</b>, about <b>$64</b>. <b>Trade tomorrow's gap, not the print.</b>"
+  ],
+  [
+   "T3",
+   "r",
+   "JBL",
+   "&minus;3.37%",
+   "Reported into the tape &middot; 314.65",
+   "Reported before the open and is <b>308.10</b> &mdash; below Tuesday's <b>314.65</b> low and outside the two-day range. <b>314.65 is the line it has already lost.</b> Spread is <b>306.70/310.00</b>, so the print is indicative. <b>Let the open build a range first</b> &mdash; a gap this size has nothing under it."
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; WED 9/30 &middot; PCE 7:30 &middot; MU TONIGHT",
+  "lead": "&#9888; <b>Five events, one day.</b> ADP 7:15, PCE and final GDP 7:30, quarter-end, the funding deadline, and MU after the close. <b>Two investor days run inside it &mdash; HPE at 10:30 and SNPS in New York.</b>",
+  "cards": [
+   [
+    "HPE",
+    "News out pre-event &middot; +4.9%",
+    "g",
+    "1",
+    "FY27 Networking growth raised to <b>high teens&ndash;low 20s</b>, margin mid-to-high 20s, Juniper synergies to <b>$800M</b> from $600M.",
+    "<b>65.65 is the level</b>, $1.15 up. Presentation at <b>10:30</b>.",
+    "First <b>AMD Helios order &mdash; $1.2B from Vultr</b>, with HPE Networking switching inside it.",
+    "<b>Oct 2025's meeting: +5.2% intraday, then &minus;10.1% next day.</b>",
+    "<b>The pop is already paid for.</b> Trade the reaction, not the headline."
+   ],
+   [
+    "MU",
+    "Reports tonight &middot; +1.6%",
+    "y",
+    "1",
+    "Consensus <b>~$51B revenue, $31+ adj EPS</b>, plus an analyst day. Tops the dark pool three sessions running.",
+    "<b>No position through the print.</b> Trade tomorrow's gap.",
+    "Six straight beats, and the last two gap-ups closed <b>+10.2%</b> and <b>+15.7%</b>.",
+    "<b>Only 2 of 6 closed green. The open was the high in 5 of 6.</b>",
+    "<b>Beat size does not predict &mdash; the 41.9% beat closed red.</b> Gap direction does."
+   ],
+   [
+    "CCL",
+    "Held all day &middot; +1.4%",
+    "g",
+    "1",
+    "Closed <b>25.11, +13.4%</b>, on <b>75.5M shares</b> against 31.4M. Ranged 25.29/24.00 and never lost the opening structure.",
+    "<b>25.29 is Tuesday's high and the line now.</b> 25.46 premarket, already through.",
+    "Triple the normal volume on a gap that never filled is participation, not a squeeze.",
+    "Still <b>no support beneath until 22.655</b> &mdash; a 10% air pocket.",
+    "<b>The sheet's 24.18 and the 10-min ORB did the whole job.</b>"
+   ],
+   [
+    "MDB",
+    "Trigger fired and failed",
+    "r",
+    "2",
+    "<b>344.30 triggered.</b> It ran to <b>349.00</b>, then closed <b>337.19</b> &mdash; below the entry.",
+    "<b>349.00 is the new line.</b> 338.30 premarket, back in the middle.",
+    "The 2 Down read was right and the recovery was real &mdash; it just could not hold the level.",
+    "<b>A trigger that fires and closes below entry is a loss, not a miss.</b>",
+    "Analyst day is done. The CEO seat is still open."
+   ],
+   [
+    "SNPS",
+    "Investor day today &middot; +0.5%",
+    "y",
+    "2",
+    "<b>Investor Day in New York today.</b> Closed 415.09 after a <b>403.33</b> low &mdash; the weakest print of the move.",
+    "<b>418.00 is Tuesday's high, 403.33 the low.</b> 417.00 premarket, at the top of that.",
+    "<b>BNP upgraded</b>, calling it a positive catalyst.",
+    "Study runs <b>4 of 5 sell-the-news</b>, and HPE's news is already out before its own event.",
+    "<b>First-thirty-minute volume decides it.</b>"
+   ],
+   [
+    "AAOI",
+    "Straddle paying &middot; +1.1%",
+    "g",
+    "2",
+    "Closed <b>100.67, +4.0%</b>, after ranging <b>103.83/97.43</b>. Second straight session of a 6%+ range.",
+    "<b>Let it play out</b> &mdash; unchanged. 101.74 premarket.",
+    "Two sessions, two wide ranges, both directions. That is the straddle earning its premium.",
+    "103.83 is the high it has not cleared.",
+    "<b>The instrument was right and the plan was to do nothing. Both held.</b>"
+   ],
+   [
+    "HOOD",
+    "Gapped on product &middot; +4.7%",
+    "g",
+    "3",
+    "<b>AI-powered Robinhood Agents</b>, perpetual futures, earnings contracts and <b>24/7 weekend equities trading</b>.",
+    "<b>121.69 premarket, clear of the 117.53 level</b> it failed at twice.",
+    "Closed 116.22 Tuesday with no scanner hit &mdash; <b>the sheet said no position, and that was right.</b>",
+    "The catalyst arrived overnight, not in the flow. <b>No premarket tell.</b>",
+    "<b>Trade the event reaction</b>, exactly as the fallback said."
+   ],
+   [
+    "MRNA",
+    "Sell rating &middot; &minus;7.3%",
+    "r",
+    "3",
+    "<b>Citigroup to Sell from Neutral, $80 target</b>, against a 203.46 close. Also naming a returning COO.",
+    "<b>No trade into a downgrade gap.</b> 188.58 premarket, below the whole two-day range.",
+    "It had been near a 52-week high with a 67%-calls tape two sessions ago.",
+    "<b>An $80 target against 188 is a 58% drawdown call</b> &mdash; that marks sentiment, not a path.",
+    "Same shape as NFLX on 9/18. Watch it, do not trade it."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 9/28",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "<b>10-year to 5.24%</b> &mdash; high since 2007"
+    ],
+    [
+     "&mdash;",
+     "<b>S&amp;P &minus;0.8% to 7,684</b>"
+    ]
+   ],
+   "earnings": [
+    [
+     "&mdash;",
+     "Quiet"
+    ]
+   ],
+   "events": [
+    [
+     "MDB",
+     "<b>&minus;18.5%</b>",
+     "CEO to Meta"
+    ],
+    [
+     "NVDA",
+     "+2%",
+     "<b>$150B buyback</b>"
+    ],
+    [
+     "KOD",
+     "<b>+150%</b>",
+     "Phase 3 DAYBREAK"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 9/29",
+   "tag": "DONE &middot; WILLIAMS",
+   "accent": "done",
+   "econ": [
+    [
+     "9:00a",
+     "Confidence &middot; JOLTS"
+    ],
+    [
+     "&mdash;",
+     "<b>Williams: &ldquo;no need for urgency&rdquo;</b> &mdash; Oct odds 70%+ to <b>40&ndash;50%</b>"
+    ]
+   ],
+   "earnings": [
+    [
+     "CCL",
+     "<b>+13.4%</b> on 75.5M shares"
+    ],
+    [
+     "KMX",
+     "Beat by $0.43"
+    ]
+   ],
+   "events": [
+    [
+     "FICO",
+     "&minus;19.9%",
+     "FHFA folds VantageScore onto the FICO grid"
+    ],
+    [
+     "QURE",
+     "&minus;36.4%",
+     "<b>Two feeds disagreed by 39 points</b>"
+    ],
+    [
+     "MDB",
+     "349.00",
+     "Triggered 344.30, then closed <b>337.19</b>"
+    ]
+   ]
+  },
+  {
+   "day": "WED 9/30",
+   "tag": "TODAY &middot; FIVE EVENTS",
+   "accent": "next",
+   "econ": [
+    [
+     "7:15a",
+     "<b>ADP payrolls</b>"
+    ],
+    [
+     "7:30a",
+     "<b>Core PCE</b> &middot; final GDP &mdash; headline seen +0.4% m/m, 3.7% y/y"
+    ],
+    [
+     "&mdash;",
+     "<b>Quarter-end</b> &middot; <b>government funding deadline</b>"
+    ],
+    [
+     "2:30p",
+     "Trump speaks &middot; Kashkari 5:00p"
+    ]
+   ],
+   "earnings": [
+    [
+     "MU",
+     "PM &middot; <b>~$51B rev, $31+ EPS</b>, analyst day"
+    ],
+    [
+     "JBL",
+     "AM &middot; <b>&minus;3.4%</b>"
+    ]
+   ],
+   "events": [
+    [
+     "HPE",
+     "10:30",
+     "<b>Investor day &mdash; the raise is already out</b>"
+    ],
+    [
+     "SNPS",
+     "NYC",
+     "<b>Investor Day</b>"
+    ],
+    [
+     "China",
+     "PMI",
+     "Manufacturing back to expansion at <b>50.1</b>"
+    ]
+   ]
+  },
+  {
+   "day": "THU 10/1",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    [
+     "9:00a",
+     "<b>ISM manufacturing</b>"
+    ],
+    [
+     "7:30a",
+     "Jobless claims"
+    ]
+   ],
+   "earnings": [
+    [
+     "NKE",
+     "PM &middot; <b>confirmed</b>"
+    ]
+   ],
+   "events": [
+    [
+     "MU",
+     "Reaction",
+     "<b>The gap sets the level</b>"
+    ],
+    [
+     "MSTR",
+     "10/1",
+     "AI forum &mdash; 806k option volume"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 10/2",
+   "tag": "THE WEEK'S BIGGEST RISK",
+   "accent": "macro",
+   "econ": [
+    [
+     "7:30a",
+     "<b>September jobs report</b> &mdash; August was +162k, 4.1%"
+    ],
+    [
+     "&mdash;",
+     "October odds now <b>40&ndash;50%</b>, down from 70%+"
+    ]
+   ],
+   "earnings": [
+    [
+     "&mdash;",
+     "Quiet"
+    ]
+   ],
+   "events": [
+    [
+     "MU",
+     "Expiry",
+     "<b>$1000C 10/02 expires</b>"
+    ],
+    [
+     "NKE",
+     "Reaction",
+     "Gap sets the level"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "HPE",
+   "charts/HPE_2026-09-30.png",
+   "Raise out pre-event &middot; 65.65"
+  ],
+  [
+   "MU",
+   "charts/MU_2026-09-30.png",
+   "Reports tonight &middot; open was the high 5 of 6"
+  ],
+  [
+   "JBL",
+   "charts/JBL_2026-09-30.png",
+   "&minus;3.4% &middot; lost 314.65"
+  ],
+  [
+   "CCL",
+   "charts/CCL_2026-09-30.png",
+   "+13.4% on 75.5M shares"
+  ],
+  [
+   "HOOD",
+   "charts/HOOD_2026-09-30.png",
+   "+4.7% &middot; clear of 117.53"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:45AM CT",
+  "groups": [
+   [
+    "TODAY'S EVENTS",
+    [
+     [
+      "HPE",
+      4.9
+     ],
+     [
+      "MU",
+      1.57
+     ],
+     [
+      "SNPS",
+      0.46
+     ],
+     [
+      "JBL",
+      -3.37
+     ]
+    ]
+   ],
+   [
+    "STILL WORKING",
+    [
+     [
+      "HOOD",
+      4.71
+     ],
+     [
+      "CCL",
+      1.39
+     ],
+     [
+      "AAOI",
+      1.06
+     ],
+     [
+      "MDB",
+      0.33
+     ],
+     [
+      "NTAP",
+      0.01
+     ]
+    ]
+   ],
+   [
+    "DEFENSE &amp; SEMIS",
+    [
+     [
+      "BA",
+      2.64
+     ],
+     [
+      "PSKY",
+      1.1
+     ],
+     [
+      "NVDA",
+      0.62
+     ],
+     [
+      "AMD",
+      0.25
+     ]
+    ]
+   ],
+   [
+    "THE RED",
+    [
+     [
+      "CNXC",
+      -8.24
+     ],
+     [
+      "MRNA",
+      -7.31
+     ],
+     [
+      "FICO",
+      -2.85
+     ]
+    ]
+   ],
+   [
+    "CRUDE BACK UP",
+    [
+     [
+      "USO",
+      1.51
+     ]
+    ]
+   ],
+   [
+    "THE INDEX",
+    [
+     [
+      "SPY",
+      0.42
+     ],
+     [
+      "QQQ",
+      0.39
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "TUESDAY 9/29 CLOSE &amp; CANDLE &middot; PCE AND MU TODAY",
+  "rows": [
+   [
+    "HPE",
+    "T1",
+    "g",
+    "The raise landed before the event",
+    "g",
+    "FY27 Networking growth to <b>high teens&ndash;low 20s</b>, segment margin mid-to-high 20s, Juniper synergies to <b>$800M</b>, plus a first <b>$1.2B AMD Helios order</b> from Vultr. <b>The presentation is still four hours away.</b>",
+    "Tue close <b>61.49</b> &middot; <b>&minus;1.82%</b> &middot; pre <b>64.50</b>, +4.90%",
+    "Tuesday was a 2 Down closing at 61.49 after a <b>60.68</b> low &mdash; it went in weak and the news reversed it overnight.",
+    "<b>65.65 is the level.</b> The Oct 2025 meeting ran +5.2% then fell 10.1% next day &mdash; <b>and that pop happened during the event, not before it.</b>"
+   ],
+   [
+    "CCL",
+    "T1",
+    "g",
+    "Held the gap for a full session",
+    "g",
+    "Closed <b>25.11, +13.4%</b>, on <b>75.5M shares</b> against 31.4M. Ranged <b>25.29/24.00</b> and never gave back the opening structure.",
+    "Tue close <b>25.11</b> &middot; <b>+13.4%</b> &middot; pre <b>25.46</b>, +1.39%",
+    "<b>The sheet's 24.18 entry and 10-minute ORB were the whole trade.</b> Triple volume on a gap that never filled.",
+    "<b>25.29 is the line now.</b> Still nothing beneath until 22.655 &mdash; a 10% air pocket."
+   ],
+   [
+    "MDB",
+    "T1",
+    "r",
+    "Triggered, ran, closed below entry",
+    "r",
+    "<b>344.30 fired.</b> It ran to <b>349.00</b> &mdash; 1.4% through &mdash; then closed <b>337.19</b>, below the entry. High 349.00, low 321.00 on 9.3M shares.",
+    "Tue close <b>337.19</b> &middot; <b>+0.75%</b> &middot; pre <b>338.30</b>, +0.33%",
+    "The structure read was right and the recovery was real. <b>It simply could not hold the level once it got there.</b>",
+    "<b>A trigger that fires and closes below entry is a loss, not a near-miss.</b> 349.00 is the line now."
+   ],
+   [
+    "SPY",
+    "T1",
+    "g",
+    "Never reclaimed 766.29",
+    "g",
+    "The correction said Monday was a 2 Down with <b>766.29</b> overhead, not an inside day. Tuesday tagged <b>766.98</b> and closed <b>764.20</b> &mdash; <b>below the level again</b>, with a lower low at 762.35.",
+    "Tue close <b>764.20</b> &middot; <b>&minus;0.18%</b> &middot; pre <b>767.41</b>, +0.42%",
+    "<b>Two sessions, two failures at the same line.</b> Premarket is above it for the first time, on PCE day.",
+    "<b>766.29 either holds on a close today or it does not.</b> The data decides it."
+   ],
+   [
+    "AAOI",
+    "T2",
+    "g",
+    "Second wide range, straddle paying",
+    "g",
+    "Closed <b>100.67, +4.0%</b>, after ranging <b>103.83/97.43</b> &mdash; a <b>6.4%</b> range following Monday's 9.1%. Two sessions, both directions.",
+    "Tue close <b>100.67</b> &middot; <b>+3.98%</b> &middot; pre <b>101.74</b>, +1.06%",
+    "<b>The instrument was chosen for range and the range showed up twice.</b>",
+    "<b>Let it play out.</b> 103.83 is the high it has not cleared."
+   ],
+   [
+    "NTAP",
+    "T2",
+    "g",
+    "2 Up held, then extended",
+    "g",
+    "Called at <b>204.84 up / 199.75 down</b>. It cleared and closed <b>209.18, +2.33%</b> &mdash; the strongest structure on Tuesday's sheet delivering.",
+    "Tue close <b>209.18</b> &middot; <b>+2.33%</b> &middot; pre <b>209.20</b>, flat",
+    "It was the only name on the sheet whose prior session closed <b>beyond</b> the range it broke, and it kept going.",
+    "<b>Flat premarket into MU tonight.</b> Storage is the read-through."
+   ],
+   [
+    "MU",
+    "T2",
+    "y",
+    "Six beats, two green closes",
+    "y",
+    "Reports tonight with an analyst day. Consensus <b>~$51B revenue, $31+ adjusted EPS</b>. Tuesday closed 1,065.08 after ranging 1,082.66/1,057.70.",
+    "Tue close <b>1,065.08</b> &middot; <b>+1.05%</b> &middot; pre <b>1,081.75</b>, +1.57%",
+    "<b>Across six straight beats only 2 of 6 closed green, and the open was the high in 5 of 6.</b> Median move 5.9%, about $64 here.",
+    "<b>Beat size did not predict &mdash; the 41.9% beat closed red. Gap direction did: 3 of 3 gap-downs closed red.</b>"
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "HPE",
+    4.9,
+    "<b>FY27 Networking growth to high teens&ndash;low 20s</b>, margin mid-to-high 20s, <b>Juniper synergies to $800M</b> from at least $600M &mdash; released before the 10:30 investor day. Plus a first <b>AMD Helios order, $1.2B from Vultr</b>."
+   ],
+   [
+    "HOOD",
+    4.71,
+    "Unveiled <b>AI-powered Robinhood Agents</b> plus perpetual futures, earnings contracts and <b>24/7 weekend equities trading</b>."
+   ],
+   [
+    "BA",
+    2.64,
+    "<b>US Navy F/A-XX contract worth over $20B</b> to design, build and deliver the sixth-generation fighter &mdash; beating Northrop Grumman."
+   ],
+   [
+    "MU",
+    1.57,
+    "<b>Reports after the close</b> with an analyst day. Consensus ~$51B revenue and $31+ adjusted EPS."
+   ],
+   [
+    "USO",
+    1.51,
+    "WTI back up <b>1.00% to $90.27</b>, Brent +1.14% to $97.26, after four sessions lower."
+   ],
+   [
+    "CCL",
+    1.39,
+    "<b>Closed +13.4% Tuesday on 75.5M shares</b> and extending. The gap has not filled."
+   ],
+   [
+    "PSKY",
+    1.1,
+    "<b>Drew over $109B in bond orders</b> to help fund the Warner Bros. acquisition."
+   ],
+   [
+    "AAOI",
+    1.06,
+    "Second straight wide range &mdash; <b>103.83/97.43</b> Tuesday after Monday's 9.1%."
+   ],
+   [
+    "NVDA",
+    0.62,
+    "Firm into MU tonight; the memory read-through cuts both ways."
+   ],
+   [
+    "SNPS",
+    0.46,
+    "<b>Investor Day in New York today.</b> BNP upgraded calling it a positive catalyst."
+   ],
+   [
+    "MDB",
+    0.33,
+    "Analyst day done. <b>Triggered 344.30 Tuesday, ran 349.00, closed 337.19.</b>"
+   ],
+   [
+    "AMD",
+    0.25,
+    "Its <b>Helios AI Rack</b> just drew a first $1.2B order through HPE."
+   ],
+   [
+    "TGT",
+    0.0,
+    "<b>HSBC to Buy from Hold, $190.</b>"
+   ]
+  ],
+  "bear": [
+   [
+    "CNXC",
+    -8.24,
+    "Lower on earnings &mdash; reported after Tuesday's close."
+   ],
+   [
+    "MRNA",
+    -7.31,
+    "<b>Citigroup to Sell from Neutral, $80 target.</b> Also added a COO role, naming returning executive Juan Andres."
+   ],
+   [
+    "JBL",
+    -3.37,
+    "Reported before the open. <b>308.10 is below Tuesday's 314.65 low</b> and outside the two-day range."
+   ],
+   [
+    "FICO",
+    -2.85,
+    "<b>BofA to Neutral, $700</b> &mdash; a second session down after FHFA folded VantageScore onto the FICO Classic grid."
+   ],
+   [
+    "RFL",
+    -35.0,
+    "<b>Phase 3 TransportNPC missed its primary endpoint</b>; statistical significance not reached."
+   ],
+   [
+    "CALM",
+    -6.7,
+    "Lower on earnings."
+   ],
+   [
+    "FDS",
+    -3.9,
+    "Lower on earnings."
+   ],
+   [
+    "MBLY",
+    -1.5,
+    "<b>Barclays to Equal Weight</b>, $9, and initiated at Equal Weight the same morning."
+   ],
+   [
+    "WDAY",
+    0.0,
+    "Cutting <b>~2.5% of its workforce</b>, mostly product and technology; maintaining revenue outlook but cutting fiscal Q3 EPS for restructuring. <b>Spread is wide &mdash; 181.10/191.94.</b>"
+   ],
+   [
+    "ALLY",
+    -1.0,
+    "<b>Wells Fargo to Equal Weight</b>, $42 &mdash; one of four bank downgrades from the same desk."
+   ],
+   [
+    "DOW",
+    -1.0,
+    "<b>Citigroup to Neutral</b>, $30."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No fresh board for this session.</b> What carries in is Micron: it has topped the single-name print board <b>three sessions running</b> into tonight &mdash; <b>$1.0B at the bid</b> Friday, <b>$936.1M at the ask</b> Monday, and it tops cumulative flow at <b>$5.1B (ask)</b> ahead of NVDA $4.8B (mixed) and META $3.7B (ask). <b>That is roughly $2B of single-print size worked through in two sessions, on both sides, into a binary event.</b> Positioning, not a forecast. <b>The rest of Monday's top ten was half semis</b> &mdash; MU, AVGO, MRVL, NVDA and LRCX all drew size the night before this print, and <b>every one of them crossed after hours</b>. Tuesday's morning tape was the opposite character: <b>ORCL $91.3M bid</b>, <b>CAT $50.0M bid</b>, <b>AMGN $50.0M</b>, with AMGN topping the six-session flow-leaders list at <b>$291.0M</b>. <b>Defensives and infrastructure catching size the day before PCE.</b>",
+  "right_note": "<b>MU's $1000C dated 10/02 is deep in the money</b> with the stock at 1,081 and the print landing tonight &mdash; the sweep placed two days past the earnings date, now two sessions from expiry. Largest block on Monday's board was <b>WPM $54.5M puts</b>, crossing as the metals led the down-movers.",
+  "dim": true,
+  "chips": [
+   [
+    "MU",
+    "$936.1M",
+    "ask, AH &middot; 3rd session #1",
+    "g"
+   ],
+   [
+    "META",
+    "$715.6M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "AVGO",
+    "$685.2M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "MA",
+    "$600.6M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "MRVL",
+    "$577.0M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "NVDA",
+    "$389.1M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "LRCX",
+    "$377.4M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "CSCO",
+    "$351.2M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "TSLA",
+    "$307.9M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "MU",
+    "$5.1B",
+    "cumulative ask",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$4.8B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
+    "META",
+    "$3.7B",
+    "cumulative ask",
+    "g"
+   ],
+   [
+    "ORCL",
+    "$91.3M",
+    "bid, PRE",
+    "r"
+   ],
+   [
+    "CAT",
+    "$50.0M",
+    "bid, PRE",
+    "r"
+   ],
+   [
+    "AMGN",
+    "$291.0M",
+    "6-session leader",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Wednesday September thirtieth. H P E released its investor day content before the event and it is a raise. F Y twenty seven networking revenue growth to high teens to low twenties, segment margin mid to high twenties, and Juniper synergies raised to eight hundred million from at least six hundred. Plus a first A M D Helios order, one point two billion from Vultr. The stock is up four point nine percent at sixty four fifty, and the presentation is still ahead at ten thirty. That is the exact shape the backtest warns about. H P E's last analyst meeting, October fifteenth twenty twenty five, ran up five point two percent intraday during the webcast, closed flat, then fell ten point one percent the next session. This time the news is out before the event, so the pop is already spent by the open. Sixty five sixty five, Friday's high, is a dollar fifteen above and remains the level. Five things land today. A D P at seven fifteen, P C E and final G D P at seven thirty, quarter end, the government funding deadline, and Micron after the close with an analyst day. Micron consensus is about fifty one billion in revenue and thirty one dollars plus adjusted E P S. The backtest there matters too. Across six straight beats only two of six closed green, and the open was the high in five of six. Beat size did not predict, the forty one point nine percent beat closed red. Gap direction did. All three gap downs closed red. Yesterday's calls held. Carnival closed up thirteen point four percent on seventy five and a half million shares, triple its pace, and the opening range held all day. A A O I up four percent with the straddle working. S P Y never reclaimed seven sixty six twenty nine and closed seven sixty four twenty, as the correction said. Mongo D B triggered at three forty four thirty, ran to three forty nine, then closed three thirty seven nineteen. The trigger fired and failed."
+  }
+ ]
+}
