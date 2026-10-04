@@ -833,6 +833,26 @@
    "note": "KBW VIRTUAL AI SUMMIT - CONFIRMED on Cipher's own IR events calendar as the ONLY October 2026 event. CIFR is a PARTICIPANT, not the host: one of four conferences announced for Aug-Oct, management \"may be featured in various discussions\"; webcast link posts to investors.cipherdigital.com if carried. Weight it below a company-hosted investor day - no prepared guidance is committed. WHAT IS LIVE UNDER IT: Barber Lake rental payments commence this month, the $810M bond fully funds Stingray, and the contracted portfolio targets ~$793M average annualized NOI - an update on any of those is the actual catalyst. Rothschild & Co Redburn initiated Neutral $18 on 9/21. Earnings 11/02, UNVERIFIED. NO PRIOR SERIES TO BACKTEST: only the Morgan Stanley TMT appearance is datable; the rest of the Aug-Oct block is undated.",
    "source": "investors.cipherdigital.com events calendar, confirmed 2026-10-03",
    "verified": true
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems",
+   "type": "product_event",
+   "date": "2026-10-26",
+   "time_ct": null,
+   "note": "CISCO PARTNER SUMMIT 2026, Oct 26-28, Vancouver - invitation only. Focus is the new Cisco 360 Partner Program and AI-driven networking. NOT next week (10/5-10/9) - CSCO has NOTHING in that window. Context for why it matters: Cisco did $2B+ in hyperscaler AI orders in FY25 and guides to $9B hyperscaler AI orders and $4B AI revenue in FY26, with Silicon One and the NVIDIA partnership behind it. Partner Summit is a channel event, not an investor day, so treat any numbers as colour rather than guidance. Also note it lands the same week as the 10/27-28 FOMC meeting.",
+   "source": "Cisco IR + Cisco Partners, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems",
+   "type": "earnings_call",
+   "date": "2026-11-12",
+   "time_ct": "after close",
+   "note": "Fiscal Q1 FY27, consensus $1.11. Broker-VERIFIED date. Cisco has beaten in all six quarters shown: 0.96/0.91, 0.99/0.91, 1.00/0.91, 1.04/0.94, 1.06/1.00, 1.22/1.13 - the beat margin has WIDENED from 4c to 9c. Prior dates for backtesting: 2026-08-12, 2026-05-13, 2026-02-11, all pm.",
+   "source": "Broker earnings calendar, verified 2026-10-03",
+   "verified": true
   }
  ],
  "universe": {
