@@ -853,6 +853,16 @@
    "note": "Fiscal Q1 FY27, consensus $1.11. Broker-VERIFIED date. Cisco has beaten in all six quarters shown: 0.96/0.91, 0.99/0.91, 1.00/0.91, 1.04/0.94, 1.06/1.00, 1.22/1.13 - the beat margin has WIDENED from 4c to 9c. Prior dates for backtesting: 2026-08-12, 2026-05-13, 2026-02-11, all pm.",
    "source": "Broker earnings calendar, verified 2026-10-03",
    "verified": true
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems",
+   "type": "product_event",
+   "date": "2026-10-05",
+   "time_ct": null,
+   "note": "WEBEXONE 2026, Oct 5-8, Austin TX - Cisco-HOSTED annual customer conference, themed on agentic AI for collaboration and customer experience. CORRECTION: the 10/03 sweep said CSCO had nothing in the 10/5-10/9 window. That was wrong - it was searched under \"investor day\" and \"financial community\" categories and this is a product/customer conference, which that filter missed. PRIOR DATES: 2025-09-28 to 10-01 (San Diego, Marriott Marquis), 2024-10-21 to 10-24 (Miami area, Diplomat Beach Resort, 5th annual). A customer conference is a PRODUCT event, not guidance - weight below an investor day. Cisco October is dense beyond this: OCP Global Summit 10/12-15, Gartner IT Symposium 10/19-22, NVIDIA GTC Berlin 10/20-22, Partner Summit 10/26-28 Vancouver. Earnings 11/12.",
+   "source": "Cisco events calendar + Webex blog, swept 2026-10-03",
+   "verified": true
   }
  ],
  "universe": {
