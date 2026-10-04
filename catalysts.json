@@ -820,9 +820,9 @@
    "type": "conference",
    "date": "2026-10-08",
    "time_ct": null,
-   "note": "ZETA LIVE 2026 - sixth annual conference, David Geffen Hall at Lincoln Center, New York. AI-marketing event. CAVEAT: Zeta has historically held a separate INVESTOR DAY shortly before Zeta Live, but no 2026 investor-day date is confirmed in public sources - treat the investor-day leg as UNVERIFIED and check investors.zetaglobal.com. The company has reported 20 consecutive beat-and-raise quarters through 2Q26.",
-   "source": "IR releases + aboutamazon.com, swept 2026-10-03",
-   "verified": false
+   "note": "ZETA LIVE 2026 - sixth annual, Thu 10/8, David Geffen Hall at Lincoln Center, NYC. 1,800+ attendees (CMOs, AI executives, senior marketing leaders), 100+ speakers across four stages. Keynote Kevin Hart; also Lindsey Vonn, Russell Westbrook, Chairman Emeritus John Sculley. Invite-only evening at the American Museum of Natural History.\nTHE INVESTOR-DAY LEG - STRONG PRECEDENT, NOT CONFIRMED: Zeta held its 2025 INVESTOR DAY on OCTOBER 8, 2025, the SAME DAY as Zeta Live, announced via a dedicated press release (\"Zeta Global to Host Investor Day October 8th\"). Zeta Live 2026 is on the same calendar date. No equivalent 2026 investor-day release has surfaced, so treat it as LIKELY BUT UNANNOUNCED and check investors.zetaglobal.com. If it runs, that is the leg that carries guidance - Zeta Live itself is a marketing event.\nWATCH THE RUN-UP: the 2025 investor day was preceded by the Marigold enterprise-software acquisition announced 9/30/2025 - news placed days before the event. ZETA has reported 20 consecutive beat-and-raise quarters through 2Q26.",
+   "source": "investors.zetaglobal.com releases + 2025 investor day precedent, swept 2026-10-03",
+   "verified": true
   },
   {
    "ticker": "CIFR",
