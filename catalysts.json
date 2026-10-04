@@ -730,7 +730,7 @@
    "type": "investor_day",
    "date": "2026-10-06",
    "time_ct": "7:30am",
-   "note": "INVESTOR DAY, New York City, 8:30 ET - half-day, leadership presenting vision, strategy, long-term growth drivers and financial outlook. The best-structured single-name event of the week. READ IT AGAINST THE UPDATED STUDY: the investor-day fade rule took two large counterexamples on 9/30 - HPE ran +12.8% over three sessions and SNPS +18.1%. Study is now 4 of 7 sell-the-news, not 4 of 5.",
+   "note": "INVESTOR DAY, New York City, 8:30 ET - half-day, leadership presenting vision, strategy, long-term growth drivers and financial outlook. The best-structured single-name event of the week. READ IT AGAINST THE UPDATED STUDY: the investor-day fade rule took two large counterexamples on 9/30 - HPE ran +12.8% over three sessions and SNPS +18.1%. Study is now 4 of 7 sell-the-news, not 4 of 5. PRIOR: investor briefings were held INSIDE Zenith Live - 2024-06-12 (Las Vegas) and 2023-06-07. Next week is a STANDALONE Investor Day in NYC, a different format with no clean precedent to backtest.",
    "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
    "verified": true
   },
@@ -800,7 +800,7 @@
    "type": "investor_day",
    "date": "2026-10-06",
    "time_ct": "8:00am (9:00 ET)",
-   "note": "INVESTOR DAY, New York City - confirmed via Marvell IR, announced alongside Q2 FY27 results. Chairman/CEO Matt Murphy and the senior leadership team; livestream 9:00 ET, in-person by invitation. AI/data-center silicon, so it reads across the whole complex. MRVL drew $577.0M (mixed) on the 9/28 dark-pool board - one of the five semis that took size the night before MU reported. Same morning as the ZS investor day and day one of Amazon Prime Big Deal Days.",
+   "note": "INVESTOR DAY, New York City - confirmed via Marvell IR, announced alongside Q2 FY27 results. Chairman/CEO Matt Murphy and the senior leadership team; livestream 9:00 ET, in-person by invitation. AI/data-center silicon, so it reads across the whole complex. MRVL drew $577.0M (mixed) on the 9/28 dark-pool board - one of the five semis that took size the night before MU reported. Same morning as the ZS investor day and day one of Amazon Prime Big Deal Days. PRIOR EVENTS: 2024-04-11 \"Accelerated Infrastructure for the AI Era\" investor event (10:00 ET, NYC); 2025-06-10 Investor Day SCHEDULED THEN POSTPONED to \"a future date in calendar 2026\", replaced by a 2025-06-17 webinar on custom silicon. THIS IS THAT POSTPONED EVENT, ~16 months late - it is not a routine annual, which raises the bar for what they have to say.",
    "source": "IR releases + aboutamazon.com, swept 2026-10-03",
    "verified": true
   },
@@ -822,6 +822,16 @@
    "time_ct": null,
    "note": "ZETA LIVE 2026 - sixth annual conference, David Geffen Hall at Lincoln Center, New York. AI-marketing event. CAVEAT: Zeta has historically held a separate INVESTOR DAY shortly before Zeta Live, but no 2026 investor-day date is confirmed in public sources - treat the investor-day leg as UNVERIFIED and check investors.zetaglobal.com. The company has reported 20 consecutive beat-and-raise quarters through 2Q26.",
    "source": "IR releases + aboutamazon.com, swept 2026-10-03",
+   "verified": false
+  },
+  {
+   "ticker": "CIFR",
+   "name": "Cipher Digital (Cipher Mining)",
+   "type": "conference",
+   "date": "2026-10-06",
+   "time_ct": null,
+   "note": "KBW VIRTUAL AI SUMMIT - CIFR is a PARTICIPANT, not the host, so weight it as conference participation rather than a company event. Context: CIFR is mid-pivot from bitcoin mining to AI/HPC datacenter, with Barber Lake rental payments commencing in October 2026 and an $810M bond offering funding Stingray. Rothschild & Co Redburn initiated Neutral $18 on 9/21. Earnings is 11/02 (UNVERIFIED), not next week. No company-hosted October event found.",
+   "source": "Web search + IR, swept 2026-10-03",
    "verified": false
   }
  ],
