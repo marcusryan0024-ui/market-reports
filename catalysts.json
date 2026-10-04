@@ -421,7 +421,7 @@
    "type": "earnings_call",
    "date": "2026-09-30",
    "time_ct": "after close",
-   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed \u2014 headline risk lands the same day as the print.",
+   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed — headline risk lands the same day as the print.",
    "source": "FlowMS morning newsletter 2026-09-18",
    "verified": true
   },
@@ -714,6 +714,86 @@
    "note": "Acquiring World Labs for $8.2B all-stock; Fei-Fei Li joins AMD as chief scientist. Lands one week after AMD crossed $1T market cap on the agentic-AI-needs-CPUs thesis (+9.95% on 9/21 off Meta Muse traction).",
    "source": "Prep sheet 9/29 + FlowMS + Briefing, verified against tape 2026-09-29",
    "verified": true
+  },
+  {
+   "ticker": "MACRO",
+   "name": "FOMC Minutes",
+   "type": "fed",
+   "date": "2026-10-07",
+   "time_ct": "1:00pm",
+   "note": "MINUTES OF THE SEPT 15-16 MEETING - the one that HIKED 25bp to 3.75-4.00%. The week's main event. Lands right after NY Fed's Williams said there was \"no need for urgency\" on 9/29, which dropped October hike odds from above 70% to 40-50%. The minutes show how much agreement actually existed behind that hike and what conditions would justify another. October FOMC is 10/27-28. NOTE: no CPI or PPI next week - CPI is 10/14, PPI 10/15.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "ZS",
+   "name": "Zscaler",
+   "type": "investor_day",
+   "date": "2026-10-06",
+   "time_ct": "7:30am",
+   "note": "INVESTOR DAY, New York City, 8:30 ET - half-day, leadership presenting vision, strategy, long-term growth drivers and financial outlook. The best-structured single-name event of the week. READ IT AGAINST THE UPDATED STUDY: the investor-day fade rule took two large counterexamples on 9/30 - HPE ran +12.8% over three sessions and SNPS +18.1%. Study is now 4 of 7 sell-the-news, not 4 of 5.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "PEP",
+   "name": "PepsiCo",
+   "type": "earnings_call",
+   "date": "2026-10-08",
+   "time_ct": "before the open",
+   "note": "Q3. The week's mega-cap print. JPMorgan DOWNGRADED it to Neutral from Overweight, $138 target, on 9/29 - so it reports eight sessions after a fresh sell-side cut, at 125.90. A beat into a downgrade is the two-sided setup; a miss confirms the call.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "DAL",
+   "name": "Delta Air Lines",
+   "type": "earnings_call",
+   "date": "2026-10-09",
+   "time_ct": "before the open",
+   "note": "Q3, consensus $2.02. FIRST MAJOR AIRLINE AND THE UNOFFICIAL START OF Q3 EARNINGS SEASON - it sets the tone for the whole reporting cycle and for consumer/travel demand read-throughs. Lands with crude having fallen from above $100 on 9/17 toward the low 90s, which is a direct input to airline margins.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "APLD",
+   "name": "Applied Digital",
+   "type": "earnings_call",
+   "date": "2026-10-07",
+   "time_ct": "after close",
+   "note": "Fiscal Q1, consensus -$0.29. The AI-datacenter name reporting into FOMC minutes day. Small cap, high beta, and it sits in the same complex that drove the 9/14-9/18 hardware rotation. Rothschild & Co Redburn initiated it Neutral $22 on 9/21; it closed 10/02 at 25.37.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "STZ",
+   "name": "Constellation Brands",
+   "type": "earnings_call",
+   "date": "2026-10-06",
+   "time_ct": "after close",
+   "note": "Fiscal Q2, consensus $3.57. First notable consumer print of the week, two days before PEP - the pair reads as a consumer-staples demand check.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "MACRO",
+   "name": "ISM Services",
+   "type": "econ",
+   "date": "2026-10-05",
+   "time_ct": "9:00am",
+   "note": "September ISM Services, consensus 55.7 against 55.4 in August. Final S&P Global Services PMI same morning. The only macro print before Wednesday's minutes, and the quietest start to a week in a month.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "LEVI",
+   "name": "Levi Strauss",
+   "type": "earnings_call",
+   "date": "2026-10-07",
+   "time_ct": "after close",
+   "note": "Q3, consensus $0.36. Consumer discretionary read alongside STZ and PEP.",
+   "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
+   "verified": true
   }
  ],
  "universe": {
@@ -834,6 +914,22 @@
      "RGLD"
     ],
     "method": "Market Chameleon Company Events Calendar, day-by-day tabs for 9/28, 9/29, 9/30, 10/1 and 10/2, screenshotted by Marcus 2026-09-26 and read event-by-event. 780 listed rows across the five days (124/221/232/123/80). Filtered on three tests: (1) is it a single dated event rather than a multi-week marketing date-range, (2) does the option chain carry enough volume to buy an OTM wing, (3) is there a mechanism by which the stock moves on it. ~10 of 780 survived. Cross-checked every survivor's price against Robinhood settled closes for 9/24 and 9/25 before ranking. MU 9/30 earnings was already in the file and is NOT on this calendar - the events calendar does not carry earnings."
+   },
+   {
+    "on": "2026-10-03",
+    "scope": "universe",
+    "through": "2026-10-09",
+    "found": [
+     "MACRO-FOMC-MINUTES",
+     "ZS",
+     "PEP",
+     "DAL",
+     "APLD",
+     "STZ",
+     "LEVI",
+     "ISM-SERVICES"
+    ],
+    "method": "Week of 10/5-10/9 swept three ways because the 9/26 map missed PCE and the jobs report by relying on a company-events calendar alone: (1) US economic calendar for macro - confirmed ISM Services 10/5 and FOMC MINUTES 10/7, and confirmed there is NO CPI or PPI next week (CPI 10/14, PPI 10/15); (2) broker earnings calendar filtered to high market cap for 10/5-10/9, keeping only broker-verified dates; (3) web search for investor/analyst days, which surfaced ZS in NYC on 10/6. Also confirmed the 9/30 funding deadline was resolved - CR passed through December 11, so that risk is off the board."
    }
   ],
   "checked_through": "2026-10-13",
