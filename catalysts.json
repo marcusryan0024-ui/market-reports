@@ -830,9 +830,9 @@
    "type": "conference",
    "date": "2026-10-06",
    "time_ct": null,
-   "note": "KBW VIRTUAL AI SUMMIT - CIFR is a PARTICIPANT, not the host, so weight it as conference participation rather than a company event. Context: CIFR is mid-pivot from bitcoin mining to AI/HPC datacenter, with Barber Lake rental payments commencing in October 2026 and an $810M bond offering funding Stingray. Rothschild & Co Redburn initiated Neutral $18 on 9/21. Earnings is 11/02 (UNVERIFIED), not next week. No company-hosted October event found.",
-   "source": "Web search + IR, swept 2026-10-03",
-   "verified": false
+   "note": "KBW VIRTUAL AI SUMMIT - CONFIRMED on Cipher's own IR events calendar as the ONLY October 2026 event. CIFR is a PARTICIPANT, not the host: one of four conferences announced for Aug-Oct, management \"may be featured in various discussions\"; webcast link posts to investors.cipherdigital.com if carried. Weight it below a company-hosted investor day - no prepared guidance is committed. WHAT IS LIVE UNDER IT: Barber Lake rental payments commence this month, the $810M bond fully funds Stingray, and the contracted portfolio targets ~$793M average annualized NOI - an update on any of those is the actual catalyst. Rothschild & Co Redburn initiated Neutral $18 on 9/21. Earnings 11/02, UNVERIFIED. NO PRIOR SERIES TO BACKTEST: only the Morgan Stanley TMT appearance is datable; the rest of the Aug-Oct block is undated.",
+   "source": "investors.cipherdigital.com events calendar, confirmed 2026-10-03",
+   "verified": true
   }
  ],
  "universe": {
