@@ -408,12 +408,11 @@
    "ticker": "COST",
    "name": "Costco",
    "type": "monthly_sales",
-   "date": null,
-   "date_window": "2026-10-06 to 2026-10-09",
-   "time_ct": "after close",
-   "note": "September sales. Sept 2025 sales landed Oct 8. Confirm at investor.costco.com in the final week of Sept. flagged_huge.",
-   "source": "catalysts.json recurring_patterns",
-   "verified": false
+   "date": "2026-10-07",
+   "time_ct": "3:15pm (1:15pm PT)",
+   "note": "September sales results. DATE NOW CONFIRMED FROM COSTCO IR: 10/07 at 1:15pm PT = 3:15pm CT, AFTER the close. Lands the same afternoon as the FOMC minutes (1:00pm CT) and in the middle of Amazon Prime Big Deal Days (10/6-10/7) - the cleanest same-week read on whether the consumer is spending. Sept 2025 sales landed Oct 8. flagged_huge.",
+   "source": "investor.costco.com events calendar, confirmed 2026-10-03",
+   "verified": true
   },
   {
    "ticker": "MU",
@@ -421,7 +420,7 @@
    "type": "earnings_call",
    "date": "2026-09-30",
    "time_ct": "after close",
-   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed — headline risk lands the same day as the print.",
+   "note": "Fiscal Q4. The first real earnings test of the memory-pricing story that drove the whole 9/14-9/18 hardware rotation (HPE +8%, SMCI +6.1%, DELL +3.4% on 9/17 with no company-specific catalyst). MU tops cumulative dark-pool flow at $3.1B BID into it, and the board's largest sweep on 9/18 was MU $1000C 10/02 - expiry placed two days PAST the print. Read-throughs: SNDK, WDC, STX, SKHY, TSM, AVGO. flagged_huge. ALSO 9/30: the government-funding deadline. Congress has been converging on a stopgap into December but it is not signed \u2014 headline risk lands the same day as the print.",
    "source": "FlowMS morning newsletter 2026-09-18",
    "verified": true
   },
@@ -794,6 +793,36 @@
    "note": "Q3, consensus $0.36. Consumer discretionary read alongside STZ and PEP.",
    "source": "Econ calendar + broker earnings calendar + IR releases, swept 2026-10-03",
    "verified": true
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology",
+   "type": "investor_day",
+   "date": "2026-10-06",
+   "time_ct": "8:00am (9:00 ET)",
+   "note": "INVESTOR DAY, New York City - confirmed via Marvell IR, announced alongside Q2 FY27 results. Chairman/CEO Matt Murphy and the senior leadership team; livestream 9:00 ET, in-person by invitation. AI/data-center silicon, so it reads across the whole complex. MRVL drew $577.0M (mixed) on the 9/28 dark-pool board - one of the five semis that took size the night before MU reported. Same morning as the ZS investor day and day one of Amazon Prime Big Deal Days.",
+   "source": "IR releases + aboutamazon.com, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "type": "product_event",
+   "date": "2026-10-06",
+   "time_ct": null,
+   "note": "PRIME BIG DEAL DAYS, 10/6-10/7 - a 48-hour Prime-member event starting 12:01am PDT on 10/6, with new drops three times daily. Kicks off the holiday shopping season and is the first hard read on holiday consumer demand. Pairs with COST September sales on 10/7 and PEP earnings on 10/8 as a three-point consumer check inside one week. Read-throughs to the retail and parcel complex.",
+   "source": "IR releases + aboutamazon.com, swept 2026-10-03",
+   "verified": true
+  },
+  {
+   "ticker": "ZETA",
+   "name": "Zeta Global",
+   "type": "conference",
+   "date": "2026-10-08",
+   "time_ct": null,
+   "note": "ZETA LIVE 2026 - sixth annual conference, David Geffen Hall at Lincoln Center, New York. AI-marketing event. CAVEAT: Zeta has historically held a separate INVESTOR DAY shortly before Zeta Live, but no 2026 investor-day date is confirmed in public sources - treat the investor-day leg as UNVERIFIED and check investors.zetaglobal.com. The company has reported 20 consecutive beat-and-raise quarters through 2Q26.",
+   "source": "IR releases + aboutamazon.com, swept 2026-10-03",
+   "verified": false
   }
  ],
  "universe": {
