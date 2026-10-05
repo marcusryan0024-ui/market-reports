@@ -189,19 +189,96 @@
   ]
  ],
  "prep": {
-  "pill": "MORNING PREP &middot; MON 10/5 &middot; AWAITING SHEET",
-  "lead": "&#9888; <b>This panel carries Marcus's own prep sheet, transcribed and level-checked.</b> Today's sheet has not been received, so it is held rather than filled.",
+  "pill": "MORNING PREP &middot; MON 10/5 &middot; DATA 9:00 &middot; 2 STRADDLES EOD",
+  "lead": "&#9888; <b>Marcus's own sheet, transcribed and level-checked.</b> Every level verified against the tape. <b>Two have already triggered</b> &mdash; TSLA through 374.60, MSFT through its inside day. Planned trades rank above the ETFs.",
   "cards": [
    [
-    "&mdash;",
-    "Sheet not received",
+    "ETFs",
+    "Order block &middot; F2D 6hr",
     "y",
     "1",
-    "<b>Morning Prep is the handwritten sheet, not a second opinion.</b>",
-    "<b>Held until the sheet arrives</b>, then transcribed and every level verified against the tape.",
-    "The market read for today is in Top Setups and the Strat panel.",
-    "Those are this book's calls and are labelled as such.",
-    "<b>The two are deliberately not the same thing.</b>"
+    "<b>Stuck in the order block.</b> SPY <b>770.68</b>, QQQ <b>751.62</b>, IWM <b>280.99</b> &mdash; all inside 0.3% of Friday.",
+    "<b>Let the market show its hands.</b> ISM Services <b>9:00</b> is the only data.",
+    "F2D on the 6-hour is the read. It needs a <b>close</b> back above to be one.",
+    "<b>Price action has been trash for ETFs this year.</b> Planned trades outrank them.",
+    "China shut for Golden Week through Wednesday. Thin tape behind the open."
+   ],
+   [
+    "MRVL",
+    "Straddle EOD &middot; &minus;0.8%",
+    "g",
+    "1",
+    "<b>Investor Day tomorrow 8:00 CT, NYC.</b> 270.15, &minus;0.8%. Postponed from 6/10/25.",
+    "<b>Straddle into the close today.</b> One of two planned.",
+    "Entering soft is what a straddle wants &mdash; you are buying the range, not the direction.",
+    "Prior investor day <b>4/11/24</b>: wide range, <b>flat close</b>, then decline.",
+    "Sell-the-news is the base rate here. The range is the trade, not the side."
+   ],
+   [
+    "ZS",
+    "Straddle EOD &middot; +2.8%",
+    "g",
+    "1",
+    "<b>Investor Day tomorrow 7:30 CT, NYC</b> &mdash; first standalone. <b>202.03</b>, +2.8%.",
+    "<b>Straddle into the close.</b> Second of two planned.",
+    "First standalone investor day. No prior pattern to fade.",
+    "<b>Already +2.8% before the event.</b> You pay for that in premium.",
+    "Prior <b>6/12/24</b> day ran wide, closed flat, then faded. n=1."
+   ],
+   [
+    "CSCO",
+    "Straddle live &middot; WebexOne",
+    "y",
+    "1",
+    "<b>WebexOne, Austin, Oct 5&ndash;8</b> &mdash; agentic AI. <b>112.33</b>, flat. Straddle is on.",
+    "<b>Let it play out, risk your stop.</b> Needs out of the <b>113</b> range.",
+    "<b>Double inside quarter confirmed.</b> October is a <b>2-2 up month</b> &mdash; through Sept's 112.215.",
+    "<b>The 102 gap is real</b> &mdash; 5/14 earnings gapped 102.01 to 113.97 and never filled.",
+    "Above 113 the <b>8/13 gap at 115.95&ndash;122.26</b> is open. That is the 120."
+   ],
+   [
+    "TSLA",
+    "F2D week TRIGGERED &middot; +1.3%",
+    "g",
+    "2",
+    "<b>375.36 &mdash; already through 374.60.</b> The call trigger fired before you read this.",
+    "<b>Call side live.</b> Put entry stays under <b>359.41</b>, Friday's low.",
+    "<b>Last week WAS a Failed 2D.</b> Broke 367.67, closed 370.59 back above it. Verified.",
+    "<b>Inside month confirmed</b> &mdash; Oct 353.80&ndash;375.4 inside Sept's 345.88&ndash;386.83.",
+    "Continuation after quarterly deliveries is the read. <b>486.5k vs ~463k</b> Friday."
+   ],
+   [
+    "MSFT",
+    "Inside day TRIGGERED &middot; +2.0%",
+    "y",
+    "2",
+    "<b>Inside day confirmed</b> &mdash; Friday 522.50/513.66 inside Thursday's 522.85/512.17.",
+    "<b>527.94, already through 522.50.</b> Do not jump in just because it triggered.",
+    "<b>Buy time.</b> That is the sheet's own rule for this name.",
+    "<b>Crowded</b> &mdash; Chamber mentioned it. Choppiness has been the pattern.",
+    "Event <b>10/7</b> on the sheet. <b>Not in the catalyst file</b> &mdash; worth confirming."
+   ],
+   [
+    "COIN",
+    "Scanner only &middot; +3.1%",
+    "b",
+    "3",
+    "<b>188.74</b>, +3.1%. On watch, not in play.",
+    "<b>Only if it hits the scanner.</b> No hit, no trade.",
+    "Strongest premarket mover on the sheet.",
+    "Nothing structural behind it today &mdash; it is a crypto beta read.",
+    "Watch condition, not a setup. The two straddles come first."
+   ],
+   [
+    "ARM",
+    "Scanner only &middot; &minus;1.6%",
+    "b",
+    "3",
+    "<b>302.50</b>, &minus;1.6%. On watch, not in play.",
+    "<b>Only if it hits the scanner.</b> No hit, no trade.",
+    "Semis bid behind it &mdash; NVDA made a record Friday.",
+    "<b>Red into a green tape.</b> Weakest of the two watch names.",
+    "Same condition as COIN. Nothing to do unless it comes to you."
    ]
   ]
  },
