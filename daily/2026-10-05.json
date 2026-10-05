@@ -1,0 +1,931 @@
+{
+ "title": "Premarket &middot; Monday 10/5",
+ "kind": "premarket",
+ "headline": {
+  "title": "<b>Brazil elected Bolsonaro by about two points and the whole complex gapped.</b> <b>EWZ +12.0%</b>, <b>ITUB +14.3%</b>, <b>BBD +12.4%</b>. And <b>PTC +35.7%</b> &mdash; Schneider Electric is buying it at <b>$205 a share</b>, <b>$22B</b> of equity. Two of the biggest gaps on the board this month, both on weekend news, neither in any catalyst calendar.",
+  "summary": "<b>This is the exact setup the backtest just measured.</b> Across 19 prior events on this week's names, <b>every gap of 5% or more closed below its open &mdash; 6 of 6</b>, and 13 of 19 overall. <b>EWZ at +12% and PTC at +35.7% are the two biggest gaps on the page.</b> PTC has a hard ceiling the others do not: the deal is <b>$205</b> and it is trading <b>195.50</b>, a <b>4.63% spread</b> that will not close until <b>Q3 2027</b>. There is no momentum above $205 &mdash; only a two-year wait."
+ },
+ "overview": "<b>The index is flat and the movers are all single-story.</b> SPY &minus;0.09%, QQQ &minus;0.26%.<br><br><b>Three upgrades did real work:</b> <b>HOG +5.7%</b> (Citi to Buy), <b>DKNG +4.9%</b> &mdash; BofA to Buy, calling prediction markets a &ldquo;win-win&rdquo; worth <b>$400M</b> in 2027 fees &mdash; and <b>EL +3.5%</b> (Barclays to Overweight). <b>WFC +1.9%</b> on Morgan Stanley.<br><br><b>Energy has two events and no direction.</b> Today is the first session after Sunday's <b>OPEC+ production meeting</b>, and the two-day <b>Energy Intelligence Forum</b> starts with the CEOs of Aramco, Eni, BP and TotalEnergies all speaking. <b>USO is &minus;1.3%</b> into it.<br><br><b>Tomorrow is the week's dense day:</b> <b>MRVL</b> and <b>ZS</b> investor days, <b>AMZN Prime Big Deal Days</b> opens, <b>STZ</b> reports. Wednesday brings <b>FOMC minutes</b> and <b>COST September sales</b>.<br><br><b>Also today:</b> ISM Services <b>9:00</b>. <b>DDS, ET, SUN and TCBI move their primary listings to the Texas Stock Exchange.</b> Ex-dividend this week: GE, CMCSA, T, VZ.",
+ "watchlist": {
+  "stamp": "PREMARKET 7:45AM CT",
+  "em_label": "MARKS VS FRIDAY 10/2 CLOSE &mdash; TWO WEEKEND GAPS, NEITHER ON ANY CALENDAR",
+  "groups": [
+   [
+    "BRAZIL",
+    [
+     [
+      "ITUB",
+      8.59,
+      9.82
+     ],
+     [
+      "BBD",
+      3.65,
+      4.1
+     ],
+     [
+      "EWZ",
+      38.19,
+      42.78
+     ]
+    ]
+   ],
+   [
+    "THE DEAL",
+    [
+     [
+      "PTC",
+      144.03,
+      195.5
+     ]
+    ]
+   ],
+   [
+    "UPGRADES",
+    [
+     [
+      "HOG",
+      24.55,
+      25.95
+     ],
+     [
+      "DKNG",
+      18.59,
+      19.5
+     ],
+     [
+      "EL",
+      91.97,
+      95.19
+     ],
+     [
+      "WFC",
+      80.45,
+      82.0
+     ]
+    ]
+   ],
+   [
+    "TOMORROW'S EVENTS",
+    [
+     [
+      "ZS",
+      196.6,
+      197.0
+     ],
+     [
+      "MRVL",
+      272.29,
+      272.3
+     ],
+     [
+      "AMZN",
+      251.52,
+      251.23
+     ],
+     [
+      "STZ",
+      112.87,
+      112.99
+     ]
+    ]
+   ],
+   [
+    "ENERGY &middot; OPEC+ AND THE FORUM",
+    [
+     [
+      "XOM",
+      164.01,
+      163.4
+     ],
+     [
+      "USO",
+      147.37,
+      145.4
+     ]
+    ]
+   ],
+   [
+    "ETFs",
+    [
+     [
+      "IWM",
+      281.52,
+      282.06
+     ],
+     [
+      "SPY",
+      769.64,
+      768.96
+     ],
+     [
+      "QQQ",
+      749.58,
+      747.65
+     ]
+    ]
+   ]
+  ]
+ },
+ "setups": [
+  [
+   "T1",
+   "y",
+   "EWZ",
+   "+12.0%",
+   "Election gap &middot; the 6-of-6 rule",
+   "Bolsonaro edged Lula by about <b>two points</b>; the complex gapped together &mdash; <b>ITUB +14.3%, BBD +12.4%</b>. <b>The backtest says do not buy this open: across 19 prior events, every gap of 5% or more closed below it, 6 of 6.</b> This is twelve. <b>Friday's high was 38.47 &mdash; everything above is air.</b> Let the open print a range first."
+  ],
+  [
+   "T2",
+   "b",
+   "PTC",
+   "+35.7%",
+   "$205 deal &middot; 4.63% spread",
+   "<b>Schneider Electric at $205 a share, $22B equity, closing Q3 2027.</b> Trading <b>195.50</b> &mdash; a <b>4.63% spread</b> to the bid. <b>That spread is the whole trade, and it is not a momentum one.</b> A cash price caps it at $205; only a competing bid or a bump pays more. <b>Seven quarters to collect 4.63% is not a $50-risk setup.</b>"
+  ],
+  [
+   "T3",
+   "g",
+   "MRVL",
+   "flat",
+   "Investor day tomorrow &middot; 16 months late",
+   "<b>Flat at 272.30 into tomorrow's NYC investor day</b>, 8:00 CT. This is the event <b>postponed from June 10, 2025</b> &mdash; 16 months late, which raises the bar. <b>The one comparable, 2024-04-11: a 7.7% range on 1.8x volume, closed +0.14%</b>, then <b>&minus;4.97% over three sessions</b>. <b>That history promises range, not direction.</b>"
+  ]
+ ],
+ "prep": {
+  "pill": "MORNING PREP &middot; MON 10/5 &middot; ISM SERVICES 9:00",
+  "lead": "&#9888; <b>Quietest day of the week.</b> ISM Services 9:00 is the only data. <b>Tomorrow: MRVL and ZS investor days, Prime Day one, STZ. Wednesday: FOMC minutes and COST sales.</b>",
+  "cards": [
+   [
+    "EWZ",
+    "Election gap &middot; +12.0%",
+    "y",
+    "1",
+    "Bolsonaro by ~2 points. <b>ITUB +14.3%, BBD +12.4%</b> &mdash; the banks are leading, which is what a pro-market result looks like.",
+    "<b>Do not buy the open.</b> Friday's high 38.47 is far below. Let the first range print.",
+    "<b>Every gap &ge;5% in the backtest closed below its open &mdash; 6 of 6.</b> This is 12%.",
+    "A political re-rating can run for weeks. <b>The first session is still where chasers get filled.</b>",
+    "Single-name Brazil carries ADR and currency risk the ETF spreads out."
+   ],
+   [
+    "PTC",
+    "$205 deal &middot; +35.7%",
+    "b",
+    "1",
+    "<b>Schneider Electric, $205/share cash, $22B equity.</b> Trading 195.50.",
+    "<b>The 4.63% spread is the entire trade.</b> No trade above $205.",
+    "A bump or a competing bid is the only upside. Neither is on the table today.",
+    "<b>Close is Q3 2027</b> &mdash; roughly seven quarters to collect 4.63%.",
+    "<b>Merger arb is not a $50-risk options setup.</b> On the page so the gap is not mistaken for momentum."
+   ],
+   [
+    "MRVL",
+    "Investor day tomorrow &middot; flat",
+    "g",
+    "1",
+    "<b>Flat at 272.30</b> into tomorrow, 8:00 CT, NYC. Murphy and senior leadership.",
+    "<b>No position today.</b> Friday's range is the reference; the event sets tomorrow's.",
+    "<b>Postponed from June 10 2025</b> and ~16 months late. Not routine &mdash; the bar is higher.",
+    "<b>2024-04-11: 7.7% range, 1.8x volume, closed +0.14%, then &minus;4.97% over three days.</b>",
+    "<b>That history promises range, not direction.</b> Size for a two-sided move."
+   ],
+   [
+    "ZS",
+    "Investor day tomorrow &middot; +0.2%",
+    "y",
+    "2",
+    "<b>Standalone investor day in NYC</b> tomorrow, 7:30 CT &mdash; first of its kind.",
+    "<b>Spread is 196.81/200.00</b> premarket. Wait for the open.",
+    "<b>No clean precedent.</b> 2024-06-12 was bundled in Zenith Live: +0.63%, then &minus;4.12% next day.",
+    "<b>196.60 against 307 a year ago</b> &mdash; it goes in beaten down, not extended.",
+    "<b>That is the INTU and SNPS shape, and SNPS ran +18%.</b> Two-sided."
+   ],
+   [
+    "USO",
+    "OPEC+ and the Forum &middot; &minus;1.3%",
+    "r",
+    "2",
+    "First session after Sunday's <b>OPEC+ meeting</b>, and the two-day <b>Energy Intelligence Forum</b> opens today.",
+    "<b>145.40 now.</b> Friday's range is the frame until the Forum sets a new one.",
+    "Speakers: the CEOs of <b>Aramco, Eni, BP and TotalEnergies</b> &mdash; four majors, one stage.",
+    "Crude round-tripped from above $100 on 9/17 to the low 90s and back.",
+    "<b>Two scheduled headline sources in a market already 10% moved in three weeks.</b>"
+   ],
+   [
+    "DKNG",
+    "BofA to Buy &middot; +4.9%",
+    "g",
+    "2",
+    "BofA to Buy from Neutral. Prediction markets called a <b>&ldquo;win-win&rdquo;</b>: <b>$400M in 2027 fees</b> plus $200&ndash;400M in market making.",
+    "<b>Friday's high is the level.</b> 19.50 premarket, through it.",
+    "<b>A specific revenue number attached to an upgrade</b> is more durable than a target-price change.",
+    "It is a 4.9% gap, which is just under the 5% line where the fade rule held 6 of 6.",
+    "<b>Closest thing to a clean momentum setup on the board today.</b>"
+   ],
+   [
+    "MGM",
+    "Oversold &middot; +0.6%",
+    "y",
+    "3",
+    "<b>Among the most oversold on 14-day RSI</b>, with ADBT. 30.65 premarket.",
+    "<b>No trade on an RSI reading alone.</b>",
+    "Diller's People Incorporated <b>withdrew its bid</b> on 9/24, taking it down 10%.",
+    "He still holds <b>66.8M shares</b>; the board backs the standalone plan.",
+    "<b>Oversold after a removed bid is not oversold after a bad quarter.</b> The floor is standalone value."
+   ],
+   [
+    "WULF",
+    "Short interest &middot; +3.3%",
+    "y",
+    "3",
+    "<b>Elevated short interest</b> flagged alongside CCCC. 16.00 premarket.",
+    "<b>Not a setup by itself.</b> Short interest is fuel, not a trigger &mdash; it needs a catalyst to ignite.",
+    "AI-datacenter adjacency puts it in the same complex as APLD, which reports Wednesday.",
+    "Rothschild initiated it <b>Neutral $15</b> on 9/21, in the same batch that got CRWV a Sell.",
+    "<b>Watch it through APLD's print</b> rather than trading it ahead."
+   ]
+  ]
+ },
+ "thisweek": [
+  {
+   "day": "MON 10/5",
+   "tag": "TODAY &middot; QUIETEST",
+   "accent": "next",
+   "econ": [
+    [
+     "9:00a",
+     "<b>ISM Services</b> &mdash; 55.7 expected vs 55.4"
+    ],
+    [
+     "&mdash;",
+     "First session after Sunday's <b>OPEC+ meeting</b>"
+    ],
+    [
+     "&mdash;",
+     "<b>Energy Intelligence Forum</b> opens &mdash; Aramco, Eni, BP, TTE"
+    ]
+   ],
+   "earnings": [
+    [
+     "&mdash;",
+     "None"
+    ]
+   ],
+   "events": [
+    [
+     "Brazil",
+     "<b>+12%</b>",
+     "<b>Bolsonaro by ~2 points</b> &mdash; EWZ, ITUB +14.3%"
+    ],
+    [
+     "PTC",
+     "<b>+35.7%</b>",
+     "<b>Schneider at $205</b>, $22B"
+    ],
+    [
+     "TXSE",
+     "Listings",
+     "DDS, ET, SUN, TCBI move primary listings"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 10/6",
+   "tag": "THE DENSE ONE",
+   "accent": "",
+   "econ": [
+    [
+     "&mdash;",
+     "No data"
+    ]
+   ],
+   "earnings": [
+    [
+     "STZ",
+     "PM &middot; consensus $3.57"
+    ],
+    [
+     "LW",
+     "AM"
+    ],
+    [
+     "RPM",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "MRVL",
+     "8:00a",
+     "<b>Investor Day</b> &mdash; postponed from 6/10/25"
+    ],
+    [
+     "ZS",
+     "7:30a",
+     "<b>Investor Day</b>, NYC &mdash; first standalone"
+    ],
+    [
+     "AMZN",
+     "10/6&ndash;7",
+     "<b>Prime Big Deal Days</b> opens"
+    ]
+   ]
+  },
+  {
+   "day": "WED 10/7",
+   "tag": "FOMC MINUTES",
+   "accent": "macro",
+   "econ": [
+    [
+     "1:00p",
+     "<b>FOMC MINUTES</b> &mdash; from the Sept 15&ndash;16 hike"
+    ],
+    [
+     "&mdash;",
+     "October odds <b>40&ndash;50%</b>, down from 70%+ on Williams"
+    ]
+   ],
+   "earnings": [
+    [
+     "APLD",
+     "PM &middot; consensus &minus;$0.29"
+    ],
+    [
+     "LEVI",
+     "PM &middot; consensus $0.36"
+    ]
+   ],
+   "events": [
+    [
+     "COST",
+     "3:15p",
+     "<b>September sales</b> &mdash; after the close, confirmed"
+    ],
+    [
+     "AMZN",
+     "Day 2",
+     "Prime Big Deal Days closes"
+    ]
+   ]
+  },
+  {
+   "day": "THU 10/8",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    [
+     "7:30a",
+     "Jobless claims"
+    ]
+   ],
+   "earnings": [
+    [
+     "PEP",
+     "AM &middot; <b>consensus $2.30</b>"
+    ]
+   ],
+   "events": [
+    [
+     "ZETA",
+     "NYC",
+     "<b>Zeta Live</b> &mdash; investor day likely, unannounced"
+    ],
+    [
+     "PEP",
+     "Setup",
+     "Reports 8 sessions after JPM cut it to Neutral"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 10/9",
+   "tag": "Q3 SEASON OPENS",
+   "accent": "",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet"
+    ]
+   ],
+   "earnings": [
+    [
+     "DAL",
+     "AM &middot; <b>consensus $2.02</b>"
+    ]
+   ],
+   "events": [
+    [
+     "DAL",
+     "<b>3 of 3</b>",
+     "<b>Closed below its open every prior print</b>"
+    ],
+    [
+     "Q3",
+     "Starts",
+     "DAL unofficially opens earnings season"
+    ]
+   ]
+  }
+ ],
+ "charts": [
+  [
+   "EWZ",
+   "charts/EWZ_2026-10-05.png",
+   "+12.0% &middot; Bolsonaro by ~2 points"
+  ],
+  [
+   "PTC",
+   "charts/PTC_2026-10-05.png",
+   "+35.7% &middot; $205 deal, 4.63% spread"
+  ],
+  [
+   "MRVL",
+   "charts/MRVL_2026-10-05.png",
+   "Investor day 10/6 &middot; 16 months late"
+  ],
+  [
+   "ZS",
+   "charts/ZS_2026-10-05.png",
+   "Investor day 10/6 &middot; no precedent"
+  ],
+  [
+   "USO",
+   "charts/USO_2026-10-05.png",
+   "OPEC+ and the Energy Forum"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "trump": {
+  "stamp": "PREMARKET 7:45AM CT",
+  "groups": [
+   [
+    "BRAZIL",
+    [
+     [
+      "ITUB",
+      14.32
+     ],
+     [
+      "BBD",
+      12.44
+     ],
+     [
+      "EWZ",
+      12.02
+     ]
+    ]
+   ],
+   [
+    "THE DEAL",
+    [
+     [
+      "PTC",
+      35.74
+     ]
+    ]
+   ],
+   [
+    "UPGRADES",
+    [
+     [
+      "HOG",
+      5.72
+     ],
+     [
+      "DKNG",
+      4.9
+     ],
+     [
+      "EL",
+      3.5
+     ],
+     [
+      "WFC",
+      1.93
+     ]
+    ]
+   ],
+   [
+    "FLAGGED NAMES",
+    [
+     [
+      "WULF",
+      3.29
+     ],
+     [
+      "MGM",
+      0.56
+     ],
+     [
+      "ALAB",
+      0.0
+     ],
+     [
+      "LITE",
+      -0.32
+     ],
+     [
+      "KOD",
+      -1.72
+     ]
+    ]
+   ],
+   [
+    "TOMORROW'S EVENTS",
+    [
+     [
+      "ZS",
+      0.2
+     ],
+     [
+      "STZ",
+      0.11
+     ],
+     [
+      "MRVL",
+      0.0
+     ],
+     [
+      "AMZN",
+      -0.12
+     ]
+    ]
+   ],
+   [
+    "ENERGY",
+    [
+     [
+      "XOM",
+      -0.37
+     ],
+     [
+      "USO",
+      -1.34
+     ]
+    ]
+   ],
+   [
+    "LATER THIS WEEK",
+    [
+     [
+      "DAL",
+      0.64
+     ],
+     [
+      "LEVI",
+      0.5
+     ],
+     [
+      "APLD",
+      0.43
+     ],
+     [
+      "PEP",
+      0.09
+     ],
+     [
+      "COST",
+      -0.16
+     ]
+    ]
+   ],
+   [
+    "THE INDEX",
+    [
+     [
+      "IWM",
+      0.19
+     ],
+     [
+      "SPY",
+      -0.09
+     ],
+     [
+      "QQQ",
+      -0.26
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "FRIDAY 10/2 CLOSE &amp; CANDLE &middot; TWO WEEKEND GAPS",
+  "rows": [
+   [
+    "EWZ",
+    "T1",
+    "y",
+    "A 12% gap on an election",
+    "y",
+    "Bolsonaro edged Lula by about <b>two points</b> Sunday. The complex gapped together &mdash; <b>ITUB +14.3%, BBD +12.4%</b> &mdash; with the banks leading, which is the pro-market signature.",
+    "Fri close <b>38.19</b> &middot; pre <b>42.78</b>, <b>+12.02%</b>",
+    "<b>The backtest is unambiguous: every gap of 5% or more closed below its open, 6 of 6.</b> This is twelve.",
+    "<b>Friday's high 38.47 is far beneath.</b> No daily structure exists up here &mdash; the opening range is the only level."
+   ],
+   [
+    "PTC",
+    "T1",
+    "b",
+    "A cash deal, not a breakout",
+    "b",
+    "<b>Schneider Electric at $205 a share, $22B of equity, closing by Q3 2027.</b> It gapped to <b>195.50</b> &mdash; a <b>4.63% spread</b> to the bid.",
+    "Fri close <b>144.03</b> &middot; pre <b>195.50</b>, <b>+35.74%</b>",
+    "<b>A cash price is a hard ceiling.</b> The only upside beyond $205 is a competing bid or a bump, and neither exists today.",
+    "<b>Treat the gap as a repricing, not momentum.</b> Seven quarters to collect 4.63% is not a $50-risk trade."
+   ],
+   [
+    "MRVL",
+    "T1",
+    "g",
+    "Investor day tomorrow, 16 months late",
+    "g",
+    "Flat into tomorrow's NYC investor day. <b>This is the event postponed from June 10 2025</b>, replaced at the time by a webinar. Not a routine annual.",
+    "Fri close <b>272.29</b> &middot; pre <b>272.30</b>, flat",
+    "<b>The one comparable, 2024-04-11: a 7.7% range on 1.8x volume, closed +0.14%</b> &mdash; then &minus;4.97% across the next three sessions.",
+    "<b>That history promises range, not direction.</b> It also drew $577M of dark pool on 9/28."
+   ],
+   [
+    "ZS",
+    "T2",
+    "y",
+    "First standalone investor day",
+    "y",
+    "Tomorrow in NYC, 7:30 CT. <b>Both prior investor briefings were bundled inside Zenith Live</b>, so there is no clean precedent for this format.",
+    "Fri close <b>196.60</b> &middot; pre <b>197.00</b>, +0.20%",
+    "<b>It enters beaten down &mdash; 196.60 against 307 a year ago.</b> That is the INTU and SNPS shape, and SNPS ran +18.1%.",
+    "The 2024-06-12 briefing closed +0.63%, then &minus;4.12% the next day. <b>Different format, weak evidence.</b>"
+   ],
+   [
+    "DKNG",
+    "T2",
+    "g",
+    "Upgrade with a number attached",
+    "g",
+    "BofA to Buy from Neutral, calling prediction markets a <b>&ldquo;win-win&rdquo;</b> worth <b>$400M of 2027 fees</b> plus $200&ndash;400M in market making.",
+    "Fri close <b>18.59</b> &middot; pre <b>19.50</b>, <b>+4.90%</b>",
+    "<b>A specific revenue estimate is more durable than a target change</b> &mdash; it gives the market something to disagree with.",
+    "<b>4.90% sits just under the 5% line</b> where the fade rule held 6 of 6. The cleanest momentum setup today."
+   ],
+   [
+    "USO",
+    "T2",
+    "r",
+    "Two energy events, one session",
+    "r",
+    "First session after Sunday's <b>OPEC+ production meeting</b>, and the two-day <b>Energy Intelligence Forum</b> opens with the CEOs of <b>Aramco, Eni, BP and TotalEnergies</b>.",
+    "Fri close <b>147.37</b> &middot; pre <b>145.40</b>, &minus;1.34%",
+    "Crude has round-tripped from above $100 on 9/17 to the low 90s and back toward the mid-90s.",
+    "<b>Two scheduled headline sources in a market that has already moved 10% in three weeks.</b>"
+   ],
+   [
+    "HOG",
+    "T3",
+    "g",
+    "Citi to Buy",
+    "g",
+    "Citi to Buy from Neutral on a major product introduction, cost savings and potential earnings tailwinds from LiveWire, after a modest retail improvement earlier this year.",
+    "Fri close <b>24.55</b> &middot; pre <b>25.95</b>, <b>+5.72%</b>",
+    "<b>It is over the 5% line</b>, where the fade rule held in all six prior cases.",
+    "<b>An upgrade gap has no new company information behind it</b> &mdash; only a changed opinion. Those fill more often than news gaps."
+   ]
+  ]
+ },
+ "gappers": {
+  "bull": [
+   [
+    "PTC",
+    35.74,
+    "<b>Schneider Electric agreed to acquire it at $205/share</b>, valuing equity above <b>$22B</b>. Expected to close by <b>Q3 2027</b>. Trading 195.50 &mdash; a <b>4.63% spread</b>."
+   ],
+   [
+    "ITUB",
+    14.32,
+    "<b>Bolsonaro edged Lula by ~2 points</b> in Sunday's election. The banks are leading the Brazil complex."
+   ],
+   [
+    "BBD",
+    12.44,
+    "Same trade. Banco Bradesco up with Ita&uacute;."
+   ],
+   [
+    "EWZ",
+    12.02,
+    "<b>The iShares MSCI Brazil ETF on the election result.</b> Friday's high was 38.47 &mdash; everything above is air."
+   ],
+   [
+    "HOG",
+    5.72,
+    "<b>Citi to Buy from Neutral</b> &mdash; a major product introduction, cost savings and earnings tailwinds from LiveWire."
+   ],
+   [
+    "DKNG",
+    4.9,
+    "<b>BofA to Buy from Neutral.</b> Prediction markets a &ldquo;win-win&rdquo;: <b>$400M of 2027 fees</b> plus $200&ndash;400M in market making."
+   ],
+   [
+    "EL",
+    3.5,
+    "<b>Barclays to Overweight from Equal Weight</b>, bullish on growth and earnings over the next several years."
+   ],
+   [
+    "WULF",
+    3.29,
+    "<b>Elevated short interest</b> flagged alongside CCCC. AI-datacenter adjacency into APLD's Wednesday print."
+   ],
+   [
+    "WFC",
+    1.93,
+    "<b>Morgan Stanley to Overweight from Equal Weight</b> &mdash; normalising balance-sheet growth should ease funding pressure and stabilise NIM."
+   ],
+   [
+    "DAL",
+    0.64,
+    "Reports Friday. <b>Closed below its open in 3 of 3 prior prints</b>, including a +11.3% gap that closed at the low."
+   ],
+   [
+    "MGM",
+    0.56,
+    "<b>One of the most oversold names on 14-day RSI.</b> Diller withdrew his bid on 9/24; he still holds 66.8M shares."
+   ],
+   [
+    "LEVI",
+    0.5,
+    "Reports Wednesday. <b>Biggest median move of this week's earnings at 10.65%</b> on a $20 stock."
+   ],
+   [
+    "APLD",
+    0.43,
+    "Reports Wednesday. <b>Closed below its open 3 of 3</b>, including a +26.4% gap that gave back 8.2%."
+   ],
+   [
+    "ZS",
+    0.2,
+    "<b>First standalone investor day</b> tomorrow in NYC. Enters at 196.60 against 307 a year ago."
+   ],
+   [
+    "STZ",
+    0.11,
+    "Reports tomorrow after the close, consensus <b>$3.57</b>."
+   ],
+   [
+    "PEP",
+    0.09,
+    "Reports Thursday. <b>The only name on the list that closed above its open in 3 of 3</b>, and the smallest range at 3.6%."
+   ]
+  ],
+  "bear": [
+   [
+    "KOD",
+    -1.72,
+    "<b>Among the most overbought on 14-day RSI</b>, with XRPN and PACB, after running more than 150% on 9/28 Phase 3 DAYBREAK data."
+   ],
+   [
+    "USO",
+    -1.34,
+    "First session after <b>OPEC+</b>, and the <b>Energy Intelligence Forum</b> opens today with four major CEOs speaking."
+   ],
+   [
+    "HPE",
+    -1.04,
+    "Giving back after <b>+12.8% across three sessions</b> on the Networking Investor Day raise and the $1.2B Vultr order."
+   ],
+   [
+    "CSCO",
+    -0.47,
+    "<b>WebexOne 2026 opens today in Austin</b>, running through 10/8 &mdash; agentic AI for collaboration and CX."
+   ],
+   [
+    "MU",
+    -0.41,
+    "Cooling at 1,070 after the print. The <b>$1000C dated 10/02 expired deep in the money</b>."
+   ],
+   [
+    "XOM",
+    -0.37,
+    "Energy flat-to-lower into OPEC+ and the Forum."
+   ],
+   [
+    "LITE",
+    -0.32,
+    "<b>Options volatility has risen over the past week</b>, flagged with ALAB."
+   ],
+   [
+    "QQQ",
+    -0.26,
+    "Flat tape under two very large single-name gaps."
+   ],
+   [
+    "COST",
+    -0.16,
+    "<b>September sales Wednesday at 3:15, after the close.</b> Last year's release moved it +3.07%."
+   ],
+   [
+    "AMZN",
+    -0.12,
+    "<b>Prime Big Deal Days opens tomorrow</b>, 10/6&ndash;7. Last year the complex drifted +3.1% across the event."
+   ],
+   [
+    "SPY",
+    -0.09,
+    "Flat. ISM Services at 9:00 is the only data."
+   ],
+   [
+    "ALAB",
+    0.0,
+    "<b>Options volatility up over the last week</b>, flagged with LITE. No catalyst dated."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>No fresh board for this session.</b> The standing read is the one that carried through Micron week: <b>MU topped the single-name print board three sessions running into its 9/30 report</b> &mdash; $1.0B at the bid, $936.1M at the ask, and $5.1B cumulative (ask) ahead of NVDA $4.8B (mixed) and META $3.7B (ask). <b>That was positioning into a binary event and the event has passed.</b> What is still live for this week: <b>MRVL drew $577.0M (mixed) on the 9/28 board</b>, one of five semis that took size the night before MU printed &mdash; and it hosts its investor day tomorrow. <b>Size arriving two sessions before a dated event it was never attributed to is worth more than size arriving after one.</b> The defensive rotation from the 9/29 morning tape also has not been retired: <b>ORCL $91.3M (bid)</b>, <b>CAT $50.0M (bid)</b> and <b>AMGN topping the six-session flow-leaders list at $291.0M</b> &mdash; utilities, insurance-adjacent and infrastructure catching size ahead of the data. <b>Pair any of it with price before reading a lean into it.</b>",
+  "right_note": "Two reminders stay on the page because they cost real money this month: <b>STX's $848M mid-side print was read here as bearish and the stock ran +6.93% the next session</b>, and <b>META's Outside (3) candle was read over a catalyst that had not been checked for, into +11.34%</b>. <b>A side is a lean, a candle is a bar, and neither outranks a scheduled event.</b>",
+  "dim": true,
+  "chips": [
+   [
+    "MU",
+    "$5.1B",
+    "cumulative ask &middot; event passed",
+    "g"
+   ],
+   [
+    "NVDA",
+    "$4.8B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
+    "META",
+    "$3.7B",
+    "cumulative ask",
+    "g"
+   ],
+   [
+    "MRVL",
+    "$577.0M",
+    "mixed &middot; investor day 10/6",
+    "y"
+   ],
+   [
+    "AVGO",
+    "$685.2M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "MA",
+    "$600.6M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "LRCX",
+    "$377.4M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "CSCO",
+    "$351.2M",
+    "mixed &middot; WebexOne today",
+    "y"
+   ],
+   [
+    "TSLA",
+    "$307.9M",
+    "bid, AH",
+    "r"
+   ],
+   [
+    "AMGN",
+    "$291.0M",
+    "6-session leader",
+    "y"
+   ],
+   [
+    "ORCL",
+    "$91.3M",
+    "bid, PRE",
+    "r"
+   ],
+   [
+    "CAT",
+    "$50.0M",
+    "bid, PRE",
+    "r"
+   ],
+   [
+    "STX",
+    "$848M",
+    "mid &middot; then +6.93%",
+    "y"
+   ]
+  ]
+ },
+ "tts": [
+  {
+   "label": "Premarket",
+   "text": "Monday October fifth. Brazil elected Bolsonaro by about two points and the whole complex gapped. E W Z up twelve percent, Itau up fourteen point three, Bradesco up twelve point four. And P T C is up thirty five point seven percent because Schneider Electric is buying it at two hundred five dollars a share, twenty two billion of equity. Two of the biggest gaps on the board this month, both on weekend news, neither on any catalyst calendar. This is the exact setup the backtest just measured. Across nineteen prior events on this week's names, every gap of five percent or more closed below its open. Six of six. Thirteen of nineteen overall. E W Z at twelve percent and P T C at thirty five point seven are the two biggest gaps on the page. P T C has a hard ceiling the others do not. The deal is two hundred five dollars and it is trading one ninety five fifty, a four point six three percent spread that does not close until the third quarter of twenty twenty seven. There is nothing above two oh five except a competing bid. Three things today. First, three upgrades did real work. Harley up five point seven on Citi, Draft Kings up four point nine on Bank of America calling prediction markets a win win worth four hundred million in twenty twenty seven fees, and Estee Lauder up three and a half on Barclays. Second, energy has two events and no direction. Today is the first session after Sunday's O P E C plus meeting, and the two day Energy Intelligence Forum opens with the chief executives of Aramco, Eni, B P and Total Energies all speaking. U S O is down one point three into it. Third, tomorrow is the dense day. Marvell and Zscaler investor days, Prime Big Deal Days opens, and Constellation reports. Marvell's is the event postponed from June of last year, sixteen months late, and its one comparable ran a seven point seven percent range and closed flat, then bled five percent over three sessions. Range, not direction."
+  }
+ ]
+}
