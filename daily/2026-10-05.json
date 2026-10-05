@@ -2,21 +2,31 @@
  "title": "Premarket &middot; Monday 10/5",
  "kind": "premarket",
  "headline": {
-  "title": "<b>Brazil elected Bolsonaro by about two points and the whole complex gapped.</b> <b>EWZ +12.0%</b>, <b>ITUB +14.3%</b>, <b>BBD +12.4%</b>. And <b>PTC +35.7%</b> &mdash; Schneider Electric is buying it at <b>$205 a share</b>, <b>$22B</b> of equity. Two of the biggest gaps on the board this month, both on weekend news, neither in any catalyst calendar.",
-  "summary": "<b>This is the exact setup the backtest just measured.</b> Across 19 prior events on this week's names, <b>every gap of 5% or more closed below its open &mdash; 6 of 6</b>, and 13 of 19 overall. <b>EWZ at +12% and PTC at +35.7% are the two biggest gaps on the page.</b> PTC has a hard ceiling the others do not: the deal is <b>$205</b> and it is trading <b>195.50</b>, a <b>4.63% spread</b> that will not close until <b>Q3 2027</b>. There is no momentum above $205 &mdash; only a two-year wait."
+  "title": "<b>Deal day, an election, and a 54% vaccine print.</b> <b>PCVX +54.3%</b> on Phase 3 VAX-31 hitting its endpoints. <b>PTC +35.7%</b> &mdash; Schneider at <b>$205</b>, <b>$22.6B</b>. <b>RXO +22.9%</b> on C.H. Robinson's <b>$5.8B</b> offer, with <b>CHRW &minus;8.1%</b> paying for it. And Brazil elected Bolsonaro: <b>XP +18.8%</b>, <b>ITUB +14.3%</b>, <b>NU +12.6%</b>, <b>PBR +10.7%</b>.",
+  "summary": "<b>Four gaps over 10% and the backtest says the same thing about all of them.</b> Across 19 prior events, <b>every gap of 5% or more closed below its open &mdash; 6 of 6.</b> <b>What actually changed on Friday was the rate path:</b> payrolls came in at <b>+29k against ~+90k expected</b> with unemployment up to <b>4.2%</b>, and October hike odds collapsed into the <b>mid-teens</b>. That is the number carrying into Wednesday's minutes &mdash; the committee's lean against a market that has already stopped pricing it."
  },
- "overview": "<b>The index is flat and the movers are all single-story.</b> SPY &minus;0.09%, QQQ &minus;0.26%.<br><br><b>Three upgrades did real work:</b> <b>HOG +5.7%</b> (Citi to Buy), <b>DKNG +4.9%</b> &mdash; BofA to Buy, calling prediction markets a &ldquo;win-win&rdquo; worth <b>$400M</b> in 2027 fees &mdash; and <b>EL +3.5%</b> (Barclays to Overweight). <b>WFC +1.9%</b> on Morgan Stanley.<br><br><b>Energy has two events and no direction.</b> Today is the first session after Sunday's <b>OPEC+ production meeting</b>, and the two-day <b>Energy Intelligence Forum</b> starts with the CEOs of Aramco, Eni, BP and TotalEnergies all speaking. <b>USO is &minus;1.3%</b> into it.<br><br><b>Tomorrow is the week's dense day:</b> <b>MRVL</b> and <b>ZS</b> investor days, <b>AMZN Prime Big Deal Days</b> opens, <b>STZ</b> reports. Wednesday brings <b>FOMC minutes</b> and <b>COST September sales</b>.<br><br><b>Also today:</b> ISM Services <b>9:00</b>. <b>DDS, ET, SUN and TCBI move their primary listings to the Texas Stock Exchange.</b> Ex-dividend this week: GE, CMCSA, T, VZ.",
+ "overview": "<b>Friday was a soft-jobs rally.</b> <b>+29k payrolls against ~+90k expected</b>, unemployment to <b>4.2%</b>. S&amp;P <b>+0.7% to 7,723</b>, Nasdaq +1.2%. <b>NVDA touched a record $237.87</b>; <b>TSLA +4%</b> on 486.5k deliveries vs ~463k.<br><br><b>October hike odds collapsed into the mid-teens.</b> The 10-year settled near <b>5.28%</b>, off the prior week's two-decade highs.<br><br><b>Energy has three things at once.</b> The <b>G7 agreed to release 100M barrels</b> of crude and diesel, OPEC+ met Sunday, and the <b>Energy Intelligence Forum</b> opens with the CEOs of Aramco, Eni, BP and TotalEnergies. <b>WTI easing toward $90.50&ndash;91.</b><br><br><b>Upgrades did real work:</b> <b>HOG +5.7%</b> (Citi), <b>DKNG +4.9%</b> &mdash; BofA calling prediction markets a &ldquo;win-win&rdquo; worth <b>$400M</b> of 2027 fees &mdash; <b>EL +3.5%</b>, <b>WFC +1.9%</b>.<br><br><b>Today:</b> ISM Services <b>9:00</b>, the only data. <b>China closed for Golden Week through Wednesday.</b> <b>Tomorrow: MRVL and ZS investor days, Prime Day one, STZ.</b>",
  "watchlist": {
   "stamp": "PREMARKET 7:45AM CT",
-  "em_label": "MARKS VS FRIDAY 10/2 CLOSE &mdash; TWO WEEKEND GAPS, NEITHER ON ANY CALENDAR",
+  "em_label": "MARKS VS FRIDAY 10/2 CLOSE &mdash; FOUR GAPS OVER 10%, AND A RATE PATH THAT MOVED FRIDAY",
   "groups": [
    [
     "BRAZIL",
     [
      [
+      "XP",
+      21.5,
+      25.55
+     ],
+     [
       "ITUB",
       8.59,
       9.82
+     ],
+     [
+      "NU",
+      13.43,
+      15.12
      ],
      [
       "BBD",
@@ -24,19 +34,39 @@
       4.1
      ],
      [
-      "EWZ",
-      38.19,
-      42.78
+      "PBR",
+      21.65,
+      23.96
+     ],
+     [
+      "VALE",
+      13.76,
+      14.76
      ]
     ]
    ],
    [
-    "THE DEAL",
+    "THE DEALS &amp; THE DATA",
     [
+     [
+      "PCVX",
+      56.48,
+      87.16
+     ],
      [
       "PTC",
       144.03,
       195.5
+     ],
+     [
+      "RXO",
+      23.38,
+      28.74
+     ],
+     [
+      "CHRW",
+      157.72,
+      145.0
      ]
     ]
    ],
@@ -91,8 +121,13 @@
     ]
    ],
    [
-    "ENERGY &middot; OPEC+ AND THE FORUM",
+    "ENERGY &middot; G7 + OPEC+ + FORUM",
     [
+     [
+      "VST",
+      140.02,
+      144.5
+     ],
      [
       "XOM",
       164.01,
@@ -224,26 +259,26 @@
     "<b>Closest thing to a clean momentum setup on the board today.</b>"
    ],
    [
-    "MGM",
-    "Oversold &middot; +0.6%",
-    "y",
-    "3",
-    "<b>Among the most oversold on 14-day RSI</b>, with ADBT. 30.65 premarket.",
-    "<b>No trade on an RSI reading alone.</b>",
-    "Diller's People Incorporated <b>withdrew its bid</b> on 9/24, taking it down 10%.",
-    "He still holds <b>66.8M shares</b>; the board backs the standalone plan.",
-    "<b>Oversold after a removed bid is not oversold after a bad quarter.</b> The floor is standalone value."
+    "PCVX",
+    "Phase 3 &middot; +54.3%",
+    "g",
+    "1",
+    "<b>VAX-31 pneumococcal vaccine met its primary endpoints in Phase 3.</b> 87.16 against a 56.48 close.",
+    "<b>No level exists up here.</b> Let the open build one.",
+    "A Phase 3 readout is as real as biotech news gets &mdash; binary, resolved, not an opinion.",
+    "<b>It is a 54% gap.</b> The 6-of-6 rule applies hardest to the biggest ones.",
+    "<b>VKTX ran +35.7% on data, then priced an offering into it three sessions later.</b> That is the risk here."
    ],
    [
-    "WULF",
-    "Short interest &middot; +3.3%",
-    "y",
-    "3",
-    "<b>Elevated short interest</b> flagged alongside CCCC. 16.00 premarket.",
-    "<b>Not a setup by itself.</b> Short interest is fuel, not a trigger &mdash; it needs a catalyst to ignite.",
-    "AI-datacenter adjacency puts it in the same complex as APLD, which reports Wednesday.",
-    "Rothschild initiated it <b>Neutral $15</b> on 9/21, in the same batch that got CRWV a Sell.",
-    "<b>Watch it through APLD's print</b> rather than trading it ahead."
+    "RXO",
+    "CHRW deal &middot; +22.9%",
+    "b",
+    "2",
+    "<b>C.H. Robinson buying RXO, $5.8B cash-and-stock.</b> RXO 28.74; <b>CHRW &minus;8.1%</b> paying for it.",
+    "<b>Cash-and-stock means no hard ceiling</b>, unlike PTC &mdash; part of the consideration floats with CHRW.",
+    "The acquirer falling 8% is normal. <b>The pair is the trade, not either leg.</b>",
+    "Freight is repositioning around it &mdash; <b>ODFL $45.6M (ask) and FDX $46.2M (bid)</b> on the morning tape.",
+    "<b>CHRW's spread is 140.03/144.00</b> &mdash; indicative, not tradeable yet."
    ]
   ]
  },
@@ -255,15 +290,15 @@
    "econ": [
     [
      "9:00a",
-     "<b>ISM Services</b> &mdash; 55.7 expected vs 55.4"
+     "<b>ISM Services</b> &mdash; 55.4 prior"
     ],
     [
      "&mdash;",
-     "First session after Sunday's <b>OPEC+ meeting</b>"
+     "<b>G7 releasing 100M barrels</b> &middot; first session after <b>OPEC+</b>"
     ],
     [
      "&mdash;",
-     "<b>Energy Intelligence Forum</b> opens &mdash; Aramco, Eni, BP, TTE"
+     "<b>China closed</b> for Golden Week through 10/7"
     ]
    ],
    "earnings": [
@@ -275,18 +310,18 @@
    "events": [
     [
      "Brazil",
-     "<b>+12%</b>",
-     "<b>Bolsonaro by ~2 points</b> &mdash; EWZ, ITUB +14.3%"
+     "<b>+18.8%</b>",
+     "<b>Bolsonaro</b> &mdash; XP, ITUB +14.3%, NU +12.6%"
     ],
     [
-     "PTC",
-     "<b>+35.7%</b>",
-     "<b>Schneider at $205</b>, $22B"
+     "PCVX",
+     "<b>+54.3%</b>",
+     "<b>Phase 3 VAX-31</b> hit its endpoints"
     ],
     [
-     "TXSE",
-     "Listings",
-     "DDS, ET, SUN, TCBI move primary listings"
+     "Deals",
+     "$28.4B",
+     "<b>PTC $22.6B</b> &middot; <b>RXO $5.8B</b>"
     ]
    ]
   },
@@ -343,7 +378,11 @@
     ],
     [
      "&mdash;",
-     "October odds <b>40&ndash;50%</b>, down from 70%+ on Williams"
+     "<b>October odds in the MID-TEENS</b> after Friday's +29k payrolls"
+    ],
+    [
+     "&mdash;",
+     "<b>SPCX Starship Flight 15</b> targeted today"
     ]
    ],
    "earnings": [
@@ -460,11 +499,40 @@
   "stamp": "PREMARKET 7:45AM CT",
   "groups": [
    [
+    "THE DATA &amp; THE DEALS",
+    [
+     [
+      "PCVX",
+      54.32
+     ],
+     [
+      "PTC",
+      35.74
+     ],
+     [
+      "RXO",
+      22.93
+     ],
+     [
+      "CHRW",
+      -8.06
+     ]
+    ]
+   ],
+   [
     "BRAZIL",
     [
      [
+      "XP",
+      18.84
+     ],
+     [
       "ITUB",
       14.32
+     ],
+     [
+      "NU",
+      12.58
      ],
      [
       "BBD",
@@ -473,15 +541,14 @@
      [
       "EWZ",
       12.02
-     ]
-    ]
-   ],
-   [
-    "THE DEAL",
-    [
+     ],
      [
-      "PTC",
-      35.74
+      "PBR",
+      10.67
+     ],
+     [
+      "VALE",
+      7.27
      ]
     ]
    ],
@@ -507,27 +574,15 @@
     ]
    ],
    [
-    "FLAGGED NAMES",
+    "AI &amp; POWER",
     [
      [
-      "WULF",
-      3.29
+      "CBRS",
+      5.63
      ],
      [
-      "MGM",
-      0.56
-     ],
-     [
-      "ALAB",
-      0.0
-     ],
-     [
-      "LITE",
-      -0.32
-     ],
-     [
-      "KOD",
-      -1.72
+      "VST",
+      3.2
      ]
     ]
    ],
@@ -553,40 +608,23 @@
     ]
    ],
    [
-    "ENERGY",
+    "THE RED",
     [
      [
-      "XOM",
-      -0.37
+      "UMC",
+      -8.84
      ],
      [
       "USO",
       -1.34
-     ]
-    ]
-   ],
-   [
-    "LATER THIS WEEK",
-    [
-     [
-      "DAL",
-      0.64
      ],
      [
-      "LEVI",
-      0.5
+      "HPE",
+      -1.04
      ],
      [
-      "APLD",
-      0.43
-     ],
-     [
-      "PEP",
-      0.09
-     ],
-     [
-      "COST",
-      -0.16
+      "CSCO",
+      -0.47
      ]
     ]
    ],
@@ -694,231 +732,277 @@
  "gappers": {
   "bull": [
    [
+    "PCVX",
+    54.32,
+    "<b>VAX-31 pneumococcal vaccine met its primary endpoints in Phase 3.</b> 52-week high."
+   ],
+   [
     "PTC",
     35.74,
-    "<b>Schneider Electric agreed to acquire it at $205/share</b>, valuing equity above <b>$22B</b>. Expected to close by <b>Q3 2027</b>. Trading 195.50 &mdash; a <b>4.63% spread</b>."
+    "<b>Schneider Electric at $205/share, $22.6B.</b> Closing Q3 2027. Trading 195.50 &mdash; a <b>4.63% spread</b>."
+   ],
+   [
+    "RXO",
+    22.93,
+    "<b>C.H. Robinson buying it for $5.8B, cash and stock.</b> Near a 52-week high."
+   ],
+   [
+    "XP",
+    18.84,
+    "<b>Bolsonaro by ~2 points.</b> 52-week high &mdash; the broker is the highest-beta leg of the Brazil trade."
    ],
    [
     "ITUB",
     14.32,
-    "<b>Bolsonaro edged Lula by ~2 points</b> in Sunday's election. The banks are leading the Brazil complex."
+    "52-week high, dark pool <b>at the ask</b>, Outside (3) on Friday's candle."
+   ],
+   [
+    "NU",
+    12.58,
+    "Nu Holdings on the same result."
    ],
    [
     "BBD",
     12.44,
-    "Same trade. Banco Bradesco up with Ita&uacute;."
+    "<b>And it is ex-dividend today</b> &mdash; catching the election tailwind on its div date."
    ],
    [
     "EWZ",
     12.02,
-    "<b>The iShares MSCI Brazil ETF on the election result.</b> Friday's high was 38.47 &mdash; everything above is air."
+    "The ETF. <b>Friday's high was 38.47 &mdash; everything above is air.</b>"
+   ],
+   [
+    "PBR",
+    10.67,
+    "Petrobras, 52-week high &mdash; and crude is falling, which makes this a politics trade, not an oil one."
+   ],
+   [
+    "VALE",
+    7.27,
+    "Iron ore on the same ticket."
    ],
    [
     "HOG",
     5.72,
-    "<b>Citi to Buy from Neutral</b> &mdash; a major product introduction, cost savings and earnings tailwinds from LiveWire."
+    "<b>Citi to Buy</b> &mdash; major product introduction, cost savings, LiveWire tailwinds."
+   ],
+   [
+    "CBRS",
+    5.63,
+    "<b>Sam Altman called Cerebras a &ldquo;close partner&rdquo; of OpenAI.</b>"
    ],
    [
     "DKNG",
     4.9,
-    "<b>BofA to Buy from Neutral.</b> Prediction markets a &ldquo;win-win&rdquo;: <b>$400M of 2027 fees</b> plus $200&ndash;400M in market making."
+    "<b>BofA to Buy.</b> Prediction markets a &ldquo;win-win&rdquo;: <b>$400M of 2027 fees</b> plus $200&ndash;400M market making."
    ],
    [
     "EL",
     3.5,
-    "<b>Barclays to Overweight from Equal Weight</b>, bullish on growth and earnings over the next several years."
+    "<b>Barclays to Overweight.</b>"
    ],
    [
-    "WULF",
-    3.29,
-    "<b>Elevated short interest</b> flagged alongside CCCC. AI-datacenter adjacency into APLD's Wednesday print."
+    "VST",
+    3.2,
+    "<b>$4B federal loan package for nuclear</b> &mdash; and it carried the board's largest options ticket Friday, <b>$93.0M of PUTS</b>."
    ],
    [
     "WFC",
     1.93,
-    "<b>Morgan Stanley to Overweight from Equal Weight</b> &mdash; normalising balance-sheet growth should ease funding pressure and stabilise NIM."
+    "<b>Morgan Stanley to Overweight</b> &mdash; normalising balance-sheet growth eases funding pressure."
    ],
    [
     "DAL",
     0.64,
-    "Reports Friday. <b>Closed below its open in 3 of 3 prior prints</b>, including a +11.3% gap that closed at the low."
-   ],
-   [
-    "MGM",
-    0.56,
-    "<b>One of the most oversold names on 14-day RSI.</b> Diller withdrew his bid on 9/24; he still holds 66.8M shares."
-   ],
-   [
-    "LEVI",
-    0.5,
-    "Reports Wednesday. <b>Biggest median move of this week's earnings at 10.65%</b> on a $20 stock."
-   ],
-   [
-    "APLD",
-    0.43,
-    "Reports Wednesday. <b>Closed below its open 3 of 3</b>, including a +26.4% gap that gave back 8.2%."
-   ],
-   [
-    "ZS",
-    0.2,
-    "<b>First standalone investor day</b> tomorrow in NYC. Enters at 196.60 against 307 a year ago."
-   ],
-   [
-    "STZ",
-    0.11,
-    "Reports tomorrow after the close, consensus <b>$3.57</b>."
+    "Reports Friday. <b>Closed below its open in 3 of 3 prior prints.</b>"
    ],
    [
     "PEP",
     0.09,
-    "Reports Thursday. <b>The only name on the list that closed above its open in 3 of 3</b>, and the smallest range at 3.6%."
+    "Reports Thursday. <b>The only name this week that closed above its open 3 of 3.</b>"
    ]
   ],
   "bear": [
    [
+    "UMC",
+    -8.84,
+    "Lower on its monthly <b>sales update</b>."
+   ],
+   [
+    "CHRW",
+    -8.06,
+    "<b>The acquirer</b> &mdash; paying $5.8B for RXO. The board's lone bearish kicker. <b>Spread 140.03/144.00, indicative.</b>"
+   ],
+   [
     "KOD",
     -1.72,
-    "<b>Among the most overbought on 14-day RSI</b>, with XRPN and PACB, after running more than 150% on 9/28 Phase 3 DAYBREAK data."
+    "<b>Among the most overbought on 14-day RSI</b> after running 150%+ on Phase 3 DAYBREAK data."
    ],
    [
     "USO",
     -1.34,
-    "First session after <b>OPEC+</b>, and the <b>Energy Intelligence Forum</b> opens today with four major CEOs speaking."
+    "<b>G7 releasing 100M barrels</b> of crude and diesel, first session after <b>OPEC+</b>, and the <b>Energy Forum</b> opens today."
    ],
    [
     "HPE",
     -1.04,
-    "Giving back after <b>+12.8% across three sessions</b> on the Networking Investor Day raise and the $1.2B Vultr order."
+    "Giving back after <b>+12.8% across three sessions</b> on the investor-day raise and the $1.2B Vultr order."
    ],
    [
     "CSCO",
     -0.47,
-    "<b>WebexOne 2026 opens today in Austin</b>, running through 10/8 &mdash; agentic AI for collaboration and CX."
+    "<b>WebexOne opens today in Austin</b>, through 10/8."
    ],
    [
     "MU",
     -0.41,
-    "Cooling at 1,070 after the print. The <b>$1000C dated 10/02 expired deep in the money</b>."
+    "<b>Still tops ex-ETF cumulative dark pool at $6.2B</b>, second only to SPY's $7.4B."
    ],
    [
     "XOM",
     -0.37,
-    "Energy flat-to-lower into OPEC+ and the Forum."
+    "Energy lower into three separate oil events."
    ],
    [
     "LITE",
     -0.32,
-    "<b>Options volatility has risen over the past week</b>, flagged with ALAB."
+    "<b>Options volatility up over the past week</b>, flagged with ALAB."
    ],
    [
     "QQQ",
     -0.26,
-    "Flat tape under two very large single-name gaps."
+    "Flat tape under four double-digit single-name gaps."
    ],
    [
     "COST",
     -0.16,
-    "<b>September sales Wednesday at 3:15, after the close.</b> Last year's release moved it +3.07%."
+    "<b>September sales Wednesday 3:15, after the close.</b> Last year's release moved it +3.07%."
    ],
    [
     "AMZN",
     -0.12,
-    "<b>Prime Big Deal Days opens tomorrow</b>, 10/6&ndash;7. Last year the complex drifted +3.1% across the event."
-   ],
-   [
-    "SPY",
-    -0.09,
-    "Flat. ISM Services at 9:00 is the only data."
-   ],
-   [
-    "ALAB",
-    0.0,
-    "<b>Options volatility up over the last week</b>, flagged with LITE. No catalyst dated."
+    "<b>Prime Big Deal Days opens tomorrow.</b>"
    ]
   ]
  },
  "darkpool": {
-  "note": "<b>No fresh board for this session.</b> The standing read is the one that carried through Micron week: <b>MU topped the single-name print board three sessions running into its 9/30 report</b> &mdash; $1.0B at the bid, $936.1M at the ask, and $5.1B cumulative (ask) ahead of NVDA $4.8B (mixed) and META $3.7B (ask). <b>That was positioning into a binary event and the event has passed.</b> What is still live for this week: <b>MRVL drew $577.0M (mixed) on the 9/28 board</b>, one of five semis that took size the night before MU printed &mdash; and it hosts its investor day tomorrow. <b>Size arriving two sessions before a dated event it was never attributed to is worth more than size arriving after one.</b> The defensive rotation from the 9/29 morning tape also has not been retired: <b>ORCL $91.3M (bid)</b>, <b>CAT $50.0M (bid)</b> and <b>AMGN topping the six-session flow-leaders list at $291.0M</b> &mdash; utilities, insurance-adjacent and infrastructure catching size ahead of the data. <b>Pair any of it with price before reading a lean into it.</b>",
-  "right_note": "Two reminders stay on the page because they cost real money this month: <b>STX's $848M mid-side print was read here as bearish and the stock ran +6.93% the next session</b>, and <b>META's Outside (3) candle was read over a catalyst that had not been checked for, into +11.34%</b>. <b>A side is a lean, a candle is a bar, and neither outranks a scheduled event.</b>",
-  "dim": true,
+  "note": "<b>Friday's board, and two tickets on it called this morning.</b> <b>SPY printed $1.5B at the bid</b>, the largest on the whole board, with the international pair <b>IDEV $888.0M</b> and <b>IEFA $875.0M</b> behind it. Ex-ETF, <b>MU took the crown again at $489.7M (mixed, AH)</b>, then <b>SNPS $427.4M</b> days after its analyst day, <b>META $412.7M (ask)</b>, AMGN $406.3M, ORCL $397.8M, COHR $385.1M, QCOM $373.9M (ask), TSLA $345.2M (bid) into its delivery beat, IBM $339.7M (ask) and AAPL $332.8M (ask). <b>Nearly every ticket crossed after hours.</b> Cumulative: <b>SPY $7.4B (bid)</b> leads everything, <b>MU $6.2B (mixed)</b> second on the entire board, NVDA $4.6B, TSLA $2.8B. <b>The call worth noting: Friday's ETF sweep board carried $3.8M of EWZ CALLS &mdash; the session before Brazil's election broke market-friendly.</b> This morning the Brazil complex is the entire top of the movers board. <b>That is flow arriving before a dated, binary event, which is the only version of this signal that is worth anything.</b>",
+  "right_note": "<b>The other pairing is VST.</b> The board's largest options ticket Friday was <b>$93.0M of VST PUTS</b> &mdash; and this morning VST is <b>+3.2% on a $4B federal nuclear loan package</b>, with its dark pool at the ask and an Outside (3) candle behind it. <b>Into a gap like that, a put block that size reads as a hedge as easily as a bet.</b> Two standing reminders stay on this page: <b>STX's $848M mid print was read here as bearish into +6.93%</b>, and <b>META's candle was read over a catalyst that had not been checked for, into +11.34%</b>.",
+  "dim": false,
   "chips": [
    [
+    "SPY",
+    "$1.5B",
+    "bid, AH &middot; top of board",
+    "r"
+   ],
+   [
+    "IDEV",
+    "$888.0M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "IEFA",
+    "$875.0M",
+    "mixed, AH",
+    "y"
+   ],
+   [
     "MU",
-    "$5.1B",
-    "cumulative ask &middot; event passed",
+    "$489.7M",
+    "mixed, AH &middot; ex-ETF #1",
+    "y"
+   ],
+   [
+    "SNPS",
+    "$427.4M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "META",
+    "$412.7M",
+    "ask, AH",
     "g"
    ],
    [
+    "AMGN",
+    "$406.3M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "ORCL",
+    "$397.8M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "COHR",
+    "$385.1M",
+    "mixed, AH",
+    "y"
+   ],
+   [
+    "QCOM",
+    "$373.9M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "TSLA",
+    "$345.2M",
+    "bid &middot; delivery beat",
+    "r"
+   ],
+   [
+    "IBM",
+    "$339.7M",
+    "ask, AH",
+    "g"
+   ],
+   [
+    "AAPL",
+    "$332.8M",
+    "ask",
+    "g"
+   ],
+   [
+    "SPY",
+    "$7.4B",
+    "cumulative bid",
+    "r"
+   ],
+   [
+    "MU",
+    "$6.2B",
+    "cumulative mixed",
+    "y"
+   ],
+   [
     "NVDA",
-    "$4.8B",
+    "$4.6B",
     "cumulative mixed",
     "y"
    ],
    [
     "META",
-    "$3.7B",
-    "cumulative ask",
+    "$80.7M",
+    "ask, PRE &middot; morning #1",
     "g"
    ],
    [
-    "MRVL",
-    "$577.0M",
-    "mixed &middot; investor day 10/6",
-    "y"
-   ],
-   [
-    "AVGO",
-    "$685.2M",
-    "mixed, AH",
-    "y"
-   ],
-   [
-    "MA",
-    "$600.6M",
-    "ask, AH",
+    "EWZ",
+    "$3.8M",
+    "calls, Fri &middot; before the vote",
     "g"
    ],
    [
-    "LRCX",
-    "$377.4M",
-    "ask, AH",
-    "g"
-   ],
-   [
-    "CSCO",
-    "$351.2M",
-    "mixed &middot; WebexOne today",
-    "y"
-   ],
-   [
-    "TSLA",
-    "$307.9M",
-    "bid, AH",
+    "VST",
+    "$93.0M",
+    "PUTS &middot; largest ticket",
     "r"
-   ],
-   [
-    "AMGN",
-    "$291.0M",
-    "6-session leader",
-    "y"
-   ],
-   [
-    "ORCL",
-    "$91.3M",
-    "bid, PRE",
-    "r"
-   ],
-   [
-    "CAT",
-    "$50.0M",
-    "bid, PRE",
-    "r"
-   ],
-   [
-    "STX",
-    "$848M",
-    "mid &middot; then +6.93%",
-    "y"
    ]
   ]
  },
