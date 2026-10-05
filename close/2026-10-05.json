@@ -1,0 +1,742 @@
+{
+ "title": "Monday, October 5, 2026",
+ "kind": "close",
+ "headline": {
+  "title": "<b>The sheet's two warnings both paid, pointing opposite ways.</b> MSFT cleared its inside day inside five minutes, printed <b>532.35 at 8:45</b> and never saw that level again &mdash; closing <b>525.50</b>, <b>$6.85 under the high</b>. The sheet's line was <i>&ldquo;don't jump in as soon as it triggers. don't have to be 1st.&rdquo;</i> TSLA's was the other half: <b>the 374.60 call trigger fired in the 8:50 bar</b>, ran to <b>381.59</b> and closed <b>378.84</b>, <b>+2.23%</b>.",
+  "summary": "<b>Both are the same rule read from two sides &mdash; a trigger is a level to act on, not a price to chase.</b> Broad tape underneath: SPY <b>+0.69%</b> with its low in the first bar, every sector green, NVDA <b>+2.21%</b> to another record. <b>The one call that missed was the gap rule</b>, and it missed in an instructive way."
+ },
+ "watchlist": {
+  "stamp": "MONDAY 10/5 CLOSE &middot; ISM SERVICES",
+  "em_label": "CLOSES VS FRIDAY 10/2 &mdash; SPY +0.69%, EVERY SECTOR GREEN",
+  "groups": [
+   [
+    "ETFs",
+    [
+     [
+      "SPY",
+      774.94,
+      769.64
+     ],
+     [
+      "QQQ",
+      756.18,
+      749.58
+     ],
+     [
+      "IWM",
+      283.38,
+      281.52
+     ],
+     [
+      "GLD",
+      379.57,
+      380.14
+     ],
+     [
+      "USO",
+      143.97,
+      147.37
+     ]
+    ]
+   ],
+   [
+    "THE SHEET",
+    [
+     [
+      "TSLA",
+      378.84,
+      370.59
+     ],
+     [
+      "MSFT",
+      525.5,
+      517.53
+     ],
+     [
+      "CSCO",
+      112.82,
+      112.2
+     ],
+     [
+      "MRVL",
+      271.24,
+      272.29
+     ],
+     [
+      "ZS",
+      201.84,
+      196.6
+     ]
+    ]
+   ],
+   [
+    "THE GAPPERS",
+    [
+     [
+      "PCVX",
+      73.96,
+      56.48
+     ],
+     [
+      "PTC",
+      192.38,
+      144.03
+     ],
+     [
+      "RXO",
+      28.62,
+      23.38
+     ],
+     [
+      "EWZ",
+      42.995,
+      38.19
+     ],
+     [
+      "XP",
+      28.175,
+      21.5
+     ]
+    ]
+   ],
+   [
+    "MEGA CAP",
+    [
+     [
+      "NVDA",
+      239.11,
+      233.95
+     ],
+     [
+      "META",
+      742.08,
+      728.08
+     ],
+     [
+      "AVGO",
+      362.88,
+      355.14
+     ],
+     [
+      "GOOGL",
+      346.61,
+      343.5
+     ],
+     [
+      "AMZN",
+      251.52,
+      251.52
+     ]
+    ]
+   ],
+   [
+    "ON WATCH",
+    [
+     [
+      "COIN",
+      188.19,
+      183.0
+     ],
+     [
+      "ARM",
+      303.05,
+      307.49
+     ],
+     [
+      "INTC",
+      116.28,
+      119.33
+     ],
+     [
+      "MU",
+      1063.75,
+      1074.89
+     ],
+     [
+      "AAPL",
+      333.13,
+      333.69
+     ]
+    ]
+   ]
+  ]
+ },
+ "what_happened": [
+  [
+   "MSFT triggered, spiked, and spent the rest of the day going the other way.",
+   "g",
+   "Friday was a clean inside day &mdash; <b>522.50/513.66 inside Thursday's 522.85/512.17</b>. It opened <b>521.71</b>, still inside, and cleared 522.50 <b>within the first five minutes</b>. High <b>532.35 at 8:45</b>. That bar closed <b>528.12</b> &mdash; it gave back $4.24 of its own spike before the bar was out, and never traded there again. Close <b>525.50</b>. <b>Taking the break was worth +$3. Chasing the extension above 530 was fifteen minutes of being right and six hours of being wrong.</b>"
+  ],
+  [
+   "TSLA's weekly Failed 2D did exactly what a Failed 2D is supposed to do.",
+   "g",
+   "Last week broke <b>367.67</b> and closed <b>370.59</b> back above it &mdash; a real F2D, not a 2 Down. The sheet's call trigger was that week's high, <b>374.60</b>. Today opened <b>368.92</b>, dropped to <b>364.91</b> in the first five minutes, then turned and cleared 374.60 <b>in the 8:50 bar</b>. High <b>381.59</b>, close <b>378.84</b>. <b>The put side at 359.41 was never within $5.50 of being touched.</b>"
+  ],
+  [
+   "CSCO tagged the 113 range and could not hold it.",
+   "y",
+   "The sheet: <i>&ldquo;need price to get out of $113 range.&rdquo;</i> It reached <b>113.19 at 1:30</b> and closed <b>112.82</b> &mdash; <b>through it intraday, back under it by the bell</b>. Day's range was <b>$1.655, 1.47% of price</b>, which is a thin day for a live straddle. <b>WebexOne runs through Thursday, so nothing is resolved</b> &mdash; the double inside quarter and the 2-2 up month are both still intact."
+  ],
+  [
+   "The ETFs were not stuck, and that is the one read the sheet got wrong.",
+   "r",
+   "<i>&ldquo;Stuck in order block &mdash; let market show its hands.&rdquo;</i> They showed them in the first thirty minutes. <b>SPY's low was its opening bar (769.65) and it closed 774.94</b>, making a higher low in <b>twelve of thirteen</b> half-hour bars. That is a trend day, not chop. <b>The instruction was still correct</b> &mdash; waiting to be shown is what tells you which day you are in."
+  ]
+ ],
+ "picks": {
+  "right_note": "3 OF 4 &middot; THE GAP RULE IS THE MISS",
+  "rows": [
+   [
+    "MSFT",
+    "525.50",
+    "g",
+    "SHEET CALL &middot; HIT",
+    "g",
+    "Sheet: <i>&ldquo;price had inside day; alot of choppiness; looking for real breakout. don't jump in as soon as it trigger stock trading. don't have to be 1st.&rdquo;</i>",
+    "<b>Triggered inside five minutes and topped at 8:45.</b> 532.35 high, 525.50 close &mdash; <b>$6.85 of giveback, never revisited.</b> Everything after 8:45 was a lower high. The warning was the trade."
+   ],
+   [
+    "TSLA",
+    "+2.23%",
+    "g",
+    "SHEET CALL &middot; HIT",
+    "g",
+    "Sheet: <i>&ldquo;F2D week triggered at $374.60 (call trigger) &middot; put entry under $359.41.&rdquo;</i>",
+    "<b>Cleared 374.60 in the 8:50 bar</b> after a 364.91 flush, ran <b>381.59</b>, closed <b>378.84</b>. <b>+$4.24 above the trigger at the bell, +$6.99 at the high.</b> The put level stayed unused, which is itself the right outcome."
+   ],
+   [
+    "MRVL",
+    "&minus;0.39%",
+    "g",
+    "T3 CALL &middot; HIT EARLY",
+    "g",
+    "Called: <i>&ldquo;that history promises range, not direction&rdquo;</i> &mdash; off the 2024-04-11 comparable, a 7.7% range that closed +0.14%.",
+    "<b>It delivered the shape a day before the event.</b> Gapped to <b>279.48</b>, flushed to <b>267.80</b> inside thirty minutes &mdash; <b>an $11.68 range, 4.3%</b> &mdash; and closed <b>271.24, &minus;0.39%</b>. Range, no direction, exactly as written."
+   ],
+   [
+    "EWZ",
+    "+0.50% vs open",
+    "r",
+    "T1 CALL &middot; MISS",
+    "r",
+    "Called: <i>&ldquo;across 19 prior events, every gap of 5% or more closed below it, 6 of 6. Do not buy this open.&rdquo;</i>",
+    "<b>It opened 42.78 and closed 42.995 &mdash; above its open.</b> The rule failed here, and across the whole board it went <b>3 of 9</b> today. <b>But the three that obeyed were all single-name events</b> &mdash; PCVX <b>&minus;14.99%</b>, PTC &minus;1.74%, RXO &minus;1.31%. <b>The six that did not were the Brazil basket, every one of them.</b>"
+   ]
+  ]
+ },
+ "how_played_out": [
+  [
+   "A trigger is a level to act on, not a price to chase &mdash; and today printed both halves of that in the same session.",
+   "MSFT and TSLA were the same rule read from opposite sides. MSFT's break was worth taking and its extension was not: <b>532.35 at 8:45, then a lower high every bar to the close at 525.50</b>. TSLA's break was worth taking and <b>held</b>: cleared 374.60 at 8:50 and finished <b>$4.24 above it</b>. <b>The difference is not something you can see at the moment of the trigger</b> &mdash; which is the entire argument for the sheet's own line, <i>don't have to be 1st</i>."
+  ],
+  [
+   "The gap rule did not fail randomly. It failed on a category it was never built from.",
+   "Nine gaps of 5% or more, and only three closed below their open &mdash; a <b>3 of 9</b> against a rule quoted this morning as <b>6 of 6</b>. Split by what caused the gap, the picture is clean: <b>deal and data gappers went 3 for 3</b> (PCVX, PTC, RXO), and the <b>Brazil election complex went 0 for 6</b> (EWZ, ITUB, XP, NU, PBR, BBD). <b>A deal price is a ceiling and a trial result is fully known at the open; an election reprices a whole market over weeks.</b> The 19-event sample behind the rule was built from company events. Today it was asked a question about a country."
+  ],
+  [
+   "PCVX is what the rule looks like when it is right.",
+   "Up <b>54.3%</b> premarket on VAX-31. It opened <b>87.00</b>, printed <b>90.75</b> in the first half hour, and closed <b>73.96</b> &mdash; <b>&minus;14.99% from its open, &minus;18.5% from the high</b>, while still being up 31% on the day. <b>Both facts are true and only one of them is tradeable.</b> Buying strength at 8:30 on the best fundamental news of the day lost 15% by the bell."
+  ]
+ ],
+ "sectors": {
+  "right_note": "EVERY SECTOR GREEN",
+  "rows": [
+   [
+    "XLC",
+    "Communications",
+    1.15
+   ],
+   [
+    "XLE",
+    "Energy",
+    0.99
+   ],
+   [
+    "XLV",
+    "Health Care",
+    0.75
+   ],
+   [
+    "XLF",
+    "Financials",
+    0.71
+   ],
+   [
+    "XLP",
+    "Staples",
+    0.62
+   ],
+   [
+    "XLK",
+    "Technology",
+    0.59
+   ],
+   [
+    "SMH",
+    "Semiconductors",
+    0.55
+   ],
+   [
+    "XLY",
+    "Discretionary",
+    0.35
+   ],
+   [
+    "XLU",
+    "Utilities",
+    0.3
+   ],
+   [
+    "XLI",
+    "Industrials",
+    0.08
+   ]
+  ]
+ },
+ "trump": {
+  "stamp": "MONDAY 10/5 CLOSE",
+  "groups": [
+   [
+    "THE GAPPERS",
+    [
+     [
+      "PCVX",
+      30.95
+     ],
+     [
+      "PTC",
+      33.57
+     ],
+     [
+      "RXO",
+      22.41
+     ],
+     [
+      "XP",
+      31.05
+     ],
+     [
+      "EWZ",
+      12.58
+     ]
+    ]
+   ],
+   [
+    "THE SHEET",
+    [
+     [
+      "TSLA",
+      2.23
+     ],
+     [
+      "MSFT",
+      1.54
+     ],
+     [
+      "CSCO",
+      0.55
+     ],
+     [
+      "ZS",
+      2.67
+     ],
+     [
+      "MRVL",
+      -0.39
+     ]
+    ]
+   ],
+   [
+    "LED THE TAPE",
+    [
+     [
+      "NVDA",
+      2.21
+     ],
+     [
+      "AVGO",
+      2.18
+     ],
+     [
+      "META",
+      1.92
+     ],
+     [
+      "GOOGL",
+      0.91
+     ],
+     [
+      "PLTR",
+      0.35
+     ]
+    ]
+   ],
+   [
+    "LAGGED",
+    [
+     [
+      "INTC",
+      -2.56
+     ],
+     [
+      "MU",
+      -1.04
+     ],
+     [
+      "AMD",
+      -0.32
+     ],
+     [
+      "AAPL",
+      -0.17
+     ],
+     [
+      "AMZN",
+      0.0
+     ]
+    ]
+   ],
+   [
+    "THE INDEX",
+    [
+     [
+      "QQQ",
+      0.88
+     ],
+     [
+      "SPY",
+      0.69
+     ],
+     [
+      "IWM",
+      0.66
+     ],
+     [
+      "GLD",
+      -0.15
+     ],
+     [
+      "USO",
+      -2.31
+     ]
+    ]
+   ]
+  ]
+ },
+ "strat": {
+  "stamp": "MONDAY 10/5 CLOSE &amp; CANDLE &middot; THE SHEET SCORED",
+  "rows": [
+   [
+    "MSFT",
+    "T1",
+    "g",
+    "Inside day broke, then rejected",
+    "g",
+    "Friday <b>522.50/513.66</b> inside Thursday's <b>522.85/512.17</b>. Opened 521.71 &mdash; inside &mdash; cleared the high in five minutes.",
+    "high <b>532.35 @ 8:45</b> &middot; close <b>525.50</b> &middot; <b>+1.54%</b>",
+    "The break itself held all day; it closed $2.99 above the trigger.",
+    "<b>Every bar after 8:45 was a lower high.</b> The chase was the losing side."
+   ],
+   [
+    "TSLA",
+    "T1",
+    "g",
+    "Weekly Failed 2D, confirmed",
+    "g",
+    "Week of 9/28 broke <b>367.67</b> and closed <b>370.59</b> above it. Today took the trigger and held it into the bell.",
+    "trigger <b>374.60 @ 8:50</b> &middot; high <b>381.59</b> &middot; close <b>378.84</b>",
+    "Closed <b>$4.24 above the trigger</b> after a 364.91 opening flush.",
+    "Still an inside month &mdash; October 364.91&ndash;381.59 sits inside September's 345.88&ndash;386.83."
+   ],
+   [
+    "CSCO",
+    "T2",
+    "y",
+    "Tagged 113, closed under it",
+    "y",
+    "Double inside quarter intact. October is a <b>2-2 up month</b>, through September's 112.215.",
+    "high <b>113.19 @ 1:30</b> &middot; close <b>112.82</b> &middot; range <b>1.47%</b>",
+    "First touch of 113 in the coil. The <b>115.95&ndash;122.26 gap</b> sits directly above it.",
+    "<b>Did not hold it.</b> A 1.47% range is a thin day for a live straddle."
+   ],
+   [
+    "PCVX",
+    "T1",
+    "r",
+    "The gap rule, working",
+    "r",
+    "+54.3% on VAX-31 Phase 3. Opened <b>87.00</b>, high <b>90.75</b> in the first half hour.",
+    "close <b>73.96</b> &middot; <b>&minus;14.99% from its open</b>",
+    "Still <b>+31%</b> on the day &mdash; the news was real.",
+    "<b>&minus;18.5% from the high.</b> Buying the open on the best news of the day lost 15%."
+   ],
+   [
+    "EWZ",
+    "T1",
+    "r",
+    "The gap rule, failing",
+    "r",
+    "Bolsonaro by about two points. Gapped <b>+12.0%</b>, opened 42.78, low of day 42.74.",
+    "close <b>42.995</b> &middot; <b>+0.50% above its open</b>",
+    "The whole Brazil complex closed above its open &mdash; <b>0 of 6 faded</b>.",
+    "The 6-of-6 rule was built on company events, not a national election."
+   ]
+  ]
+ },
+ "darkpool": {
+  "note": "<b>Not reported for this session.</b> The close report resumed today after a three-week gap, and the block tape for 10/5 was not captured while it was live. <b>It is marked absent rather than reconstructed</b> &mdash; a board rebuilt after the fact from end-of-day prints is not the same data and would read as though it were.",
+  "right_note": "NOT CAPTURED &middot; UNVERIFIED",
+  "chips": [],
+  "dim": true
+ },
+ "charts": [
+  [
+   "MSFT",
+   "charts/MSFT_2026-10-05.png",
+   "Triggered 8:30, topped 8:45, faded"
+  ],
+  [
+   "TSLA",
+   "charts/TSLA_2026-10-05.png",
+   "F2D trigger at 374.60 held"
+  ],
+  [
+   "CSCO",
+   "charts/CSCO_2026-10-05.png",
+   "Tagged 113.19, closed 112.82"
+  ],
+  [
+   "PCVX",
+   "charts/PCVX_2026-10-05.png",
+   "&minus;14.99% from its own open"
+  ],
+  [
+   "EWZ",
+   "charts/EWZ_2026-10-05.png",
+   "The gap that did not fade"
+  ]
+ ],
+ "charts_note": "SWIPE &#8594;",
+ "lessons": [
+  [
+   "A backtest carries its sample with it, and the sample is part of the claim.",
+   "r",
+   "The 6-of-6 gap rule came from <b>19 company events</b> &mdash; earnings, deals, trial data. Quoted this morning against <b>an election</b>, it went 3 of 9. <b>Split by cause it is still clean: 3 of 3 on single names, 0 of 6 on the Brazil basket.</b> The rule is not broken; it was asked a question outside the set it was measured on, and nothing in the way it was quoted said so."
+  ],
+  [
+   "\"Don't have to be 1st\" is a position-sizing rule disguised as a timing one.",
+   "g",
+   "MSFT's trigger was worth <b>+$3</b> and MSFT's extension was worth <b>&minus;$6.85</b>, in the same name, forty minutes apart. <b>At the moment of the break those two are indistinguishable.</b> The sheet does not try to tell them apart &mdash; it just refuses to pay the top of the first impulse, which is the only part of the problem that is actually solvable in advance."
+  ],
+  [
+   "A thin range is information about a straddle, not an absence of it.",
+   "y",
+   "CSCO moved <b>1.47%</b> on day one of a four-day AI conference while holding a live straddle. That is not a failed trade, it is a <b>priced-in</b> one &mdash; and the sheet already said the right thing: <i>&ldquo;let it play out; risk your stop.&rdquo;</i> The event runs to Thursday."
+  ],
+  [
+   "This report was absent for thirteen sessions and nothing said so.",
+   "r",
+   "<b>The last after-close report was 2026-09-16.</b> Twelve sessions were never written up, and the gap was found by being asked, not by anything checking. <b>A missing report looks exactly like a quiet day.</b> That is now a scheduled job with its own freshness check &mdash; the same failure shape this book has written down before."
+  ]
+ ],
+ "tomorrow": [
+  [
+   "MRVL",
+   "g",
+   "<b>Investor Day, NYC, 8:00 CT</b> &mdash; postponed from 6/10/25, so sixteen months late. Closed <b>271.24</b> after an $11.68 opening range. <b>The straddle went on at the bell.</b> The one comparable (2024-04-11) ran a 7.7% range and closed +0.14%, then &minus;4.97% over three sessions."
+  ],
+  [
+   "ZS",
+   "g",
+   "<b>Investor Day, NYC, 7:30 CT</b> &mdash; first standalone. Closed <b>201.84, +2.67%</b>, after running to 205.20 and selling off <b>$2.14 in the last half hour</b>. <b>It is going in hot</b>, which is the half of a straddle you pay for."
+  ],
+  [
+   "CSCO",
+   "y",
+   "<b>WebexOne day two.</b> Still inside the coil. <b>113 is the gate</b> &mdash; above it the unfilled 8/13 gap at <b>115.95&ndash;122.26</b> is the next real structure, and that is the sheet's $120."
+  ],
+  [
+   "AMZN",
+   "b",
+   "<b>Prime Big Deal Days opens.</b> Closed <b>251.52</b>, dead flat to the cent against Friday, on the eve of its own event. <b>Nothing is priced in either direction.</b>"
+  ],
+  [
+   "STZ",
+   "b",
+   "<b>Reports after the close</b>, consensus <b>$3.57</b>. Closed <b>113.30, +0.38%</b>, having run to 114.50 intraday. The only earnings print of the day."
+  ]
+ ],
+ "thisweek": [
+  {
+   "day": "MON 10/5",
+   "tag": "DONE",
+   "accent": "done",
+   "econ": [
+    [
+     "&mdash;",
+     "<b>ISM Services</b> &mdash; SPY +0.69%, every sector green"
+    ],
+    [
+     "&mdash;",
+     "<b>NVDA +2.21%</b> to another record close"
+    ]
+   ],
+   "earnings": [
+    [
+     "&mdash;",
+     "None"
+    ]
+   ],
+   "events": [
+    [
+     "Brazil",
+     "<b>0 of 6</b>",
+     "The election basket did <b>not</b> fade"
+    ],
+    [
+     "PCVX",
+     "<b>&minus;15%</b>",
+     "from its own open, still +31% on the day"
+    ]
+   ]
+  },
+  {
+   "day": "TUE 10/6",
+   "tag": "TODAY &middot; THE DENSE ONE",
+   "accent": "next",
+   "econ": [
+    [
+     "&mdash;",
+     "No data"
+    ]
+   ],
+   "earnings": [
+    [
+     "STZ",
+     "PM &middot; consensus $3.57"
+    ],
+    [
+     "LW",
+     "AM"
+    ],
+    [
+     "RPM",
+     "AM"
+    ]
+   ],
+   "events": [
+    [
+     "MRVL",
+     "8:00a",
+     "<b>Investor Day</b> &mdash; straddle on from the close"
+    ],
+    [
+     "ZS",
+     "7:30a",
+     "<b>Investor Day</b> &mdash; straddle on from the close"
+    ],
+    [
+     "AMZN",
+     "10/6&ndash;7",
+     "<b>Prime Big Deal Days</b> opens"
+    ]
+   ]
+  },
+  {
+   "day": "WED 10/7",
+   "tag": "FOMC MINUTES",
+   "accent": "macro",
+   "econ": [
+    [
+     "1:00p",
+     "<b>FOMC MINUTES</b> &mdash; from the Sept 15&ndash;16 hike"
+    ],
+    [
+     "&mdash;",
+     "<b>SPCX Starship Flight 15</b> targeted"
+    ]
+   ],
+   "earnings": [
+    [
+     "APLD",
+     "PM &middot; consensus &minus;$0.29"
+    ],
+    [
+     "LEVI",
+     "PM &middot; consensus $0.36"
+    ]
+   ],
+   "events": [
+    [
+     "MSFT",
+     "&mdash;",
+     "<b>Event on the sheet</b> &mdash; not in the catalyst file"
+    ],
+    [
+     "COST",
+     "3:15p",
+     "<b>September sales</b>, after the close"
+    ]
+   ]
+  },
+  {
+   "day": "THU 10/8",
+   "tag": "",
+   "accent": "",
+   "econ": [
+    [
+     "7:30a",
+     "Jobless claims"
+    ]
+   ],
+   "earnings": [
+    [
+     "PEP",
+     "AM &middot; <b>consensus $2.30</b>"
+    ]
+   ],
+   "events": [
+    [
+     "CSCO",
+     "&mdash;",
+     "<b>WebexOne closes</b> &mdash; the straddle's deadline"
+    ],
+    [
+     "ZETA",
+     "NYC",
+     "<b>Zeta Live</b> &mdash; investor day likely"
+    ]
+   ]
+  },
+  {
+   "day": "FRI 10/9",
+   "tag": "Q3 SEASON OPENS",
+   "accent": "",
+   "econ": [
+    [
+     "&mdash;",
+     "Quiet"
+    ]
+   ],
+   "earnings": [
+    [
+     "DAL",
+     "AM &middot; <b>consensus $2.02</b>"
+    ]
+   ],
+   "events": [
+    [
+     "DAL",
+     "<b>3 of 3</b>",
+     "Closed below its open in all three prior prints"
+    ]
+   ]
+  }
+ ],
+ "tts": [
+  {
+   "label": "After the close",
+   "text": "Monday October fifth, after the close. The sheet's two warnings both paid, pointing opposite ways. Microsoft cleared its inside day inside five minutes, printed five thirty two thirty five at eight forty five, and never saw that level again, closing five twenty five fifty, six dollars eighty five under the high. The sheet's line was don't jump in as soon as it triggers, don't have to be first. Tesla was the other half. The three seventy four sixty call trigger fired in the eight fifty bar, ran to three eighty one fifty nine, and closed three seventy eight eighty four, up two point two three percent. Both are the same rule read from two sides. A trigger is a level to act on, not a price to chase. Underneath it, a broad tape. S P Y up zero point six nine percent with its low in the first bar, every sector green, Nvidia up two point two one percent to another record. The one call that missed was the gap rule. Nine gaps of five percent or more, and only three closed below their open, against a rule quoted this morning as six of six. Split by cause it is clean. The deal and data gappers went three for three, Vaxcyte down fifteen percent from its own open, P T C and R X O both lower. The Brazil election complex went zero for six. A deal price is a ceiling and a trial result is fully known at the open. An election reprices a whole market over weeks. The nineteen event sample behind that rule was built from company events, and today it was asked a question about a country. Tomorrow is the dense one. Marvell investor day at eight, Zscaler at seven thirty, both straddles already on from the close, Amazon Prime Big Deal Days opening, and Constellation Brands after the bell."
+  }
+ ]
+}
