@@ -362,6 +362,112 @@ MODE = {'premarket': ('rpt-nav-mode-pre', 'PRE-MARKET'),
 MODE_RE = re.compile(r'class="rpt-nav-mode-(?:pre|cls)">(?:PRE-MARKET|AFTER CLOSE)</span>')
 
 
+# ---------------------------------------------------------------- collapsible
+# Every section in every renderer puts its title in a <div> carrying
+# letter-spacing:.12em + text-transform:uppercase, as the FIRST child of its
+# panel, with the panel's content as that header's following siblings. That one
+# invariant is what makes this work without touching a single renderer: the
+# markup is unchanged, so validate()'s section-order and flex-row checks see
+# exactly what they saw before, and a reader with JS off gets today's page.
+#
+# Two layout details are handled rather than assumed:
+#   * headers are flex in some panels and float-based in others, so the chevron
+#     goes INSIDE the label span on a flex header (adding a third flex item to a
+#     space-between header would shove the label to the centre) and at the front
+#     of the header otherwise.
+#   * a collapsed panel that is a column of a flex ROW would otherwise stretch
+#     to its sibling's height and leave a tall empty box, so it gets
+#     align-self:flex-start - but ONLY when the parent really is a row, since
+#     the same property on a column child shrinks it sideways instead.
+_COLLAPSE = '''<style>
+.rpt-sec-h{cursor:pointer;-webkit-user-select:none;user-select:none;}
+.rpt-sec-h:hover{color:var(--tx1);}
+.rpt-sec-c{display:inline-block;width:9px;font-size:8px;opacity:.65;
+transition:transform .15s ease;transform:rotate(0deg);}
+.rpt-sec-h[aria-expanded="false"] .rpt-sec-c{transform:rotate(-90deg);}
+.rpt-sec-h:focus-visible{outline:1px solid #58a6ff;outline-offset:-1px;}
+@media print{.rpt-sec-c{display:none;}}
+</style>
+<script>
+(function(){
+  var SEL='div[style*="letter-spacing:.12em"][style*="text-transform:uppercase"]';
+  // The key has to be the section NAME and nothing else. Most headers carry a
+  // right-hand note - "PREMARKET 7:45AM CT", "FRIDAY 10/2 CLOSE" - and keying on
+  // the whole header would mint a new key every day, so a collapsed section
+  // would silently reopen tomorrow. Flex headers hold the name in their first
+  // element child; float headers hold it as the header's own text nodes, with
+  // the note inside a floated span.
+  function label(h){
+    var s='';
+    if(getComputedStyle(h).display==='flex'&&h.firstElementChild){s=h.firstElementChild.textContent||'';}
+    else{for(var n=h.firstChild;n;n=n.nextSibling){if(n.nodeType===3){s+=n.nodeValue;}}}
+    if(!s.trim()){s=h.textContent||'';}
+    return s.replace(/\\s+/g,' ').trim().slice(0,60);
+  }
+  function body(h){var o=[],n=h.nextElementSibling;while(n){o.push(n);n=n.nextElementSibling;}return o;}
+  function store(k,v){try{v?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}}
+  function stored(k){try{return localStorage.getItem(k)==='1';}catch(e){return false;}}
+
+  function apply(h,closed){
+    var p=h.parentElement;
+    body(h).forEach(function(el){el.hidden=closed;});
+    h.setAttribute('aria-expanded',closed?'false':'true');
+    if(closed){
+      if(h.dataset.mb===undefined){h.dataset.mb=h.style.marginBottom||'';}
+      if(p.dataset.pb===undefined){p.dataset.pb=p.style.paddingBottom||'';}
+      h.style.marginBottom='0px';
+      p.style.paddingBottom='0px';
+      var gp=p.parentElement;
+      if(gp){
+        var cs=getComputedStyle(gp);
+        if(cs.display==='flex'&&cs.flexDirection==='row'){
+          if(p.dataset.as===undefined){p.dataset.as=p.style.alignSelf||'';}
+          p.style.alignSelf='flex-start';
+        }
+      }
+    }else{
+      if(h.dataset.mb!==undefined){h.style.marginBottom=h.dataset.mb;}
+      if(p.dataset.pb!==undefined){p.style.paddingBottom=p.dataset.pb;}
+      if(p.dataset.as!==undefined){p.style.alignSelf=p.dataset.as;}
+    }
+  }
+
+  function init(){
+    var hs=document.querySelectorAll(SEL),seen={};
+    Array.prototype.forEach.call(hs,function(h){
+      if(!h.parentElement||h.previousElementSibling)return;   // not a section header
+      if(!body(h).length)return;                              // nothing to collapse
+      var txt=label(h);if(!txt)return;
+      var n=(seen[txt]=(seen[txt]||0)+1);
+      var key='rptsec:'+txt+(n>1?'#'+n:'');
+
+      var chev=document.createElement('span');
+      chev.className='rpt-sec-c';chev.textContent='\\u25BE';chev.setAttribute('aria-hidden','true');
+      var first=h.firstElementChild;
+      if(getComputedStyle(h).display==='flex'&&first){first.insertBefore(chev,first.firstChild);}
+      else{h.insertBefore(chev,h.firstChild);}
+
+      h.classList.add('rpt-sec-h');
+      h.setAttribute('role','button');
+      h.setAttribute('tabindex','0');
+      h.title='Click to collapse / expand';
+      apply(h,stored(key));
+
+      function toggle(){var c=h.getAttribute('aria-expanded')!=='false';apply(h,c);store(key,c);}
+      h.addEventListener('click',function(e){
+        if(e.target.closest('a,button,input,select,textarea,img'))return;
+        toggle();
+      });
+      h.addEventListener('keydown',function(e){
+        if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}
+      });
+    });
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}
+})();
+</script>'''
+
+
 def build(base, kind, title, tts, body):
     """Assemble a full report. `body` is the already-built section HTML."""
     if kind not in SPEC:
@@ -382,7 +488,8 @@ def build(base, kind, title, tts, body):
     if n != 1:
         raise AssertionError(f'masthead mode badge: expected 1 match, found {n}')
 
-    return head + 'window._ttsScript=' + json.dumps(tts, ensure_ascii=False) + mid + body + s['tail']
+    return (head + 'window._ttsScript=' + json.dumps(tts, ensure_ascii=False)
+            + mid + body + _COLLAPSE + s['tail'])
 
 
 # ---------------------------------------------------------------- validation
